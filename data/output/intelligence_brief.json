@@ -1,0 +1,36 @@
+{
+    "title": "SENTINEL GRID INTELLIGENCE BRIEF",
+    "global_threat_level": "CRITICAL",
+    "total_events": 7,
+    "critical_events": [
+        {
+            "title": "Conflict activity reported",
+            "type": "conflict",
+            "classification": "artillery_strike",
+            "score": 100
+        },
+        {
+            "title": "Cyber threat activity detected",
+            "type": "cyber",
+            "classification": "cyber_attack",
+            "score": 90
+        }
+    ],
+    "high_priority_events": [],
+    "regional_summary": {
+        "Unknown": {
+            "event_count": 7,
+            "highest_threat": "CRITICAL",
+            "threat_score": 100,
+            "events": [
+                "Example geopolitical intelligence report",
+                "Conflict activity reported",
+                "Aircraft activity detected",
+                "Maritime activity detected",
+                "Satellite observation detected",
+                "Cyber threat activity detected",
+                "Humanitarian situation detected"
+            ]
+        }
+    }
+}

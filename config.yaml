@@ -1,0 +1,55 @@
+project:
+
+  name: Sentinel Grid Intelligence
+
+  version: 1.0
+
+
+sources:
+
+  news:
+    enabled: true
+
+  gdelt:
+    enabled: true
+
+  acled:
+    enabled: false
+
+
+  aircraft:
+
+    opensky:
+      enabled: true
+
+
+  maritime:
+
+    aisstream:
+      enabled: true
+
+
+  satellite:
+
+    nasa_firms:
+      enabled: true
+
+
+  cyber:
+
+    enabled: true
+
+
+
+output:
+
+  directory: data/output
+
+
+confidence:
+
+  verified: 90
+
+  high: 70
+
+  medium: 40

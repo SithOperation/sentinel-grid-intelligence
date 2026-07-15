@@ -1,0 +1,253 @@
+{
+    "generated": "2026-07-15T20:17:35.461407+00:00",
+    "total_events": 7,
+    "events": [
+        {
+            "event_type": "news",
+            "category": "global",
+            "title": "Example geopolitical intelligence report",
+            "description": "Placeholder news intelligence event. Replace with API collector.",
+            "source": "OSINT News Feed",
+            "timestamp": "2026-07-15T20:17:35.460907",
+            "location": {
+                "country": "Unknown",
+                "latitude": 0,
+                "longitude": 0
+            },
+            "event_id": "SG-566a6772",
+            "verified": false,
+            "confidence": 50,
+            "classification": "general",
+            "confidence_level": "medium",
+            "threat_score": 10,
+            "threat_level": "LOW"
+        },
+        {
+            "event_id": "SG-60263aaa",
+            "event_type": "conflict",
+            "classification": "artillery_strike",
+            "priority": "high",
+            "title": "Conflict activity reported",
+            "description": "Open source conflict intelligence placeholder event",
+            "source": [
+                "OSINT Conflict Feed"
+            ],
+            "timestamp": "2026-07-15T20:17:35.460972+00:00",
+            "location": {
+                "country": "Unknown",
+                "region": "Unknown",
+                "latitude": 0,
+                "longitude": 0
+            },
+            "actors": [
+                "Unknown"
+            ],
+            "equipment": [
+                "Unknown"
+            ],
+            "confidence": 50,
+            "verification": {
+                "confirmed": false,
+                "source_count": 1
+            },
+            "verified": false,
+            "category": "unknown",
+            "confidence_level": "medium",
+            "threat_score": 100,
+            "threat_level": "CRITICAL"
+        },
+        {
+            "event_id": "SG-a90ad266",
+            "event_type": "aircraft",
+            "classification": "air_activity",
+            "priority": "medium",
+            "title": "Aircraft activity detected",
+            "description": "Open source aircraft observation",
+            "source": [
+                "OpenSky Network"
+            ],
+            "timestamp": "2026-07-15T20:17:35.461039+00:00",
+            "aircraft": {
+                "callsign": "UNKNOWN",
+                "icao": "UNKNOWN",
+                "altitude": 0,
+                "speed": 0,
+                "heading": 0
+            },
+            "location": {
+                "country": "Unknown",
+                "region": "Unknown",
+                "latitude": 0,
+                "longitude": 0
+            },
+            "actors": [
+                "Unknown"
+            ],
+            "confidence": 65,
+            "verification": {
+                "confirmed": false,
+                "source_count": 1
+            },
+            "verified": false,
+            "category": "unknown",
+            "confidence_level": "medium",
+            "threat_score": 40,
+            "threat_level": "MEDIUM"
+        },
+        {
+            "event_id": "SG-375b733c",
+            "event_type": "maritime",
+            "classification": "naval_activity",
+            "priority": "medium",
+            "title": "Maritime activity detected",
+            "description": "Open source vessel observation",
+            "source": [
+                "AIS Public Data"
+            ],
+            "timestamp": "2026-07-15T20:17:35.461100+00:00",
+            "vessel": {
+                "name": "UNKNOWN",
+                "mmsi": "UNKNOWN",
+                "type": "UNKNOWN",
+                "flag": "UNKNOWN",
+                "speed": 0,
+                "heading": 0
+            },
+            "location": {
+                "country": "Unknown",
+                "region": "Unknown",
+                "latitude": 0,
+                "longitude": 0
+            },
+            "actors": [
+                "Unknown"
+            ],
+            "equipment": [
+                "Unknown"
+            ],
+            "confidence": 50,
+            "verification": {
+                "confirmed": false,
+                "source_count": 1
+            },
+            "verified": false,
+            "category": "unknown",
+            "confidence_level": "medium",
+            "threat_score": 40,
+            "threat_level": "MEDIUM"
+        },
+        {
+            "event_id": "SG-5b6ecde5",
+            "event_type": "satellite",
+            "classification": "satellite_observation",
+            "priority": "medium",
+            "title": "Satellite observation detected",
+            "description": "Satellite-based intelligence observation placeholder",
+            "source": [
+                "NASA FIRMS"
+            ],
+            "timestamp": "2026-07-15T20:17:35.461146+00:00",
+            "observation": {
+                "type": "thermal_anomaly",
+                "sensor": "UNKNOWN",
+                "confidence": 0
+            },
+            "location": {
+                "country": "Unknown",
+                "region": "Unknown",
+                "latitude": 0,
+                "longitude": 0
+            },
+            "actors": [
+                "Unknown"
+            ],
+            "confidence": 90,
+            "verification": {
+                "confirmed": false,
+                "source_count": 1
+            },
+            "verified": false,
+            "category": "unknown",
+            "confidence_level": "verified",
+            "threat_score": 45,
+            "threat_level": "MEDIUM"
+        },
+        {
+            "event_id": "SG-89381c48",
+            "event_type": "cyber",
+            "classification": "cyber_attack",
+            "priority": "medium",
+            "title": "Cyber threat activity detected",
+            "description": "Open source cybersecurity intelligence placeholder",
+            "source": [
+                "Threat Intelligence Feed"
+            ],
+            "timestamp": "2026-07-15T20:17:35.461191+00:00",
+            "threat": {
+                "actor": "UNKNOWN",
+                "malware": "UNKNOWN",
+                "technique": "UNKNOWN"
+            },
+            "target": {
+                "sector": "UNKNOWN",
+                "organization": "UNKNOWN",
+                "country": "UNKNOWN"
+            },
+            "location": {
+                "country": "Unknown",
+                "region": "Unknown",
+                "latitude": 0,
+                "longitude": 0
+            },
+            "actors": [
+                "Unknown"
+            ],
+            "confidence": 50,
+            "verification": {
+                "confirmed": false,
+                "source_count": 1
+            },
+            "verified": false,
+            "category": "unknown",
+            "confidence_level": "medium",
+            "threat_score": 90,
+            "threat_level": "CRITICAL"
+        },
+        {
+            "event_id": "SG-529eeb11",
+            "event_type": "humanitarian",
+            "classification": "humanitarian_crisis",
+            "priority": "medium",
+            "title": "Humanitarian situation detected",
+            "description": "Open source humanitarian intelligence placeholder",
+            "source": [
+                "Humanitarian Database"
+            ],
+            "timestamp": "2026-07-15T20:17:35.461225+00:00",
+            "crisis": {
+                "type": "UNKNOWN",
+                "severity": "UNKNOWN",
+                "affected_population": 0
+            },
+            "location": {
+                "country": "Unknown",
+                "region": "Unknown",
+                "latitude": 0,
+                "longitude": 0
+            },
+            "actors": [
+                "Unknown"
+            ],
+            "confidence": 50,
+            "verification": {
+                "confirmed": false,
+                "source_count": 1
+            },
+            "verified": false,
+            "category": "unknown",
+            "confidence_level": "medium",
+            "threat_score": 45,
+            "threat_level": "MEDIUM"
+        }
+    ]
+}
