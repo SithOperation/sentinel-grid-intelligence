@@ -1,0 +1,47 @@
+{
+    "generated": null,
+    "summary": {
+        "total_events": 6,
+        "global_threat_level": "CRITICAL"
+    },
+    "event_counts": {
+        "news": 1,
+        "aircraft": 1,
+        "maritime": 1,
+        "satellite": 1,
+        "cyber": 1,
+        "humanitarian": 1
+    },
+    "threat_distribution": {
+        "LOW": 1,
+        "MEDIUM": 4,
+        "CRITICAL": 1
+    },
+    "priority_distribution": {
+        "unknown": 1,
+        "medium": 5
+    },
+    "critical_events": [
+        {
+            "title": "Cyber threat activity detected",
+            "type": "cyber",
+            "classification": "cyber_attack",
+            "score": 90
+        }
+    ],
+    "regional_summary": {
+        "Unknown": {
+            "event_count": 6,
+            "highest_threat": "CRITICAL",
+            "threat_score": 90,
+            "events": [
+                "Example geopolitical intelligence report",
+                "Aircraft activity detected",
+                "Maritime activity detected",
+                "Satellite observation detected",
+                "Cyber threat activity detected",
+                "Humanitarian situation detected"
+            ]
+        }
+    }
+}

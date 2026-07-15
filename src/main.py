@@ -48,6 +48,7 @@ from intelligence.threat_scoring import analyze_threats
 from intelligence.conflict_analysis import analyze_conflicts
 from intelligence.regional_analysis import analyze_regions
 from intelligence.intelligence_brief import generate_brief
+from output.dashboard_exporter import export_dashboard
 from intelligence.timeline_analysis import generate_timeline
 from intelligence.trend_analysis import analyze_trends
 from intelligence.map_generator import generate_map_events
@@ -440,6 +441,11 @@ def main():
         brief=intelligence_brief
     )
 
+    export_dashboard(
+        all_events,
+        intelligence_brief,
+        regional_analysis
+    )
 
     print(
         "[+] Intelligence update complete"
