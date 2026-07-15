@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-15T20:17:35.461407+00:00",
-    "total_events": 7,
+    "generated": "2026-07-15T20:36:52.094681+00:00",
+    "total_events": 6,
     "events": [
         {
             "event_type": "news",
@@ -8,13 +8,13 @@
             "title": "Example geopolitical intelligence report",
             "description": "Placeholder news intelligence event. Replace with API collector.",
             "source": "OSINT News Feed",
-            "timestamp": "2026-07-15T20:17:35.460907",
+            "timestamp": "2026-07-15T20:36:41.982564",
             "location": {
                 "country": "Unknown",
                 "latitude": 0,
                 "longitude": 0
             },
-            "event_id": "SG-566a6772",
+            "event_id": "SG-0d6d81f8",
             "verified": false,
             "confidence": 50,
             "classification": "general",
@@ -23,41 +23,7 @@
             "threat_level": "LOW"
         },
         {
-            "event_id": "SG-60263aaa",
-            "event_type": "conflict",
-            "classification": "artillery_strike",
-            "priority": "high",
-            "title": "Conflict activity reported",
-            "description": "Open source conflict intelligence placeholder event",
-            "source": [
-                "OSINT Conflict Feed"
-            ],
-            "timestamp": "2026-07-15T20:17:35.460972+00:00",
-            "location": {
-                "country": "Unknown",
-                "region": "Unknown",
-                "latitude": 0,
-                "longitude": 0
-            },
-            "actors": [
-                "Unknown"
-            ],
-            "equipment": [
-                "Unknown"
-            ],
-            "confidence": 50,
-            "verification": {
-                "confirmed": false,
-                "source_count": 1
-            },
-            "verified": false,
-            "category": "unknown",
-            "confidence_level": "medium",
-            "threat_score": 100,
-            "threat_level": "CRITICAL"
-        },
-        {
-            "event_id": "SG-a90ad266",
+            "event_id": "SG-454e7688",
             "event_type": "aircraft",
             "classification": "air_activity",
             "priority": "medium",
@@ -66,7 +32,7 @@
             "source": [
                 "OpenSky Network"
             ],
-            "timestamp": "2026-07-15T20:17:35.461039+00:00",
+            "timestamp": "2026-07-15T20:36:52.093830+00:00",
             "aircraft": {
                 "callsign": "UNKNOWN",
                 "icao": "UNKNOWN",
@@ -95,7 +61,7 @@
             "threat_level": "MEDIUM"
         },
         {
-            "event_id": "SG-375b733c",
+            "event_id": "SG-6787a26f",
             "event_type": "maritime",
             "classification": "naval_activity",
             "priority": "medium",
@@ -104,7 +70,7 @@
             "source": [
                 "AIS Public Data"
             ],
-            "timestamp": "2026-07-15T20:17:35.461100+00:00",
+            "timestamp": "2026-07-15T20:36:52.093918+00:00",
             "vessel": {
                 "name": "UNKNOWN",
                 "mmsi": "UNKNOWN",
@@ -137,7 +103,7 @@
             "threat_level": "MEDIUM"
         },
         {
-            "event_id": "SG-5b6ecde5",
+            "event_id": "SG-f252a75a",
             "event_type": "satellite",
             "classification": "satellite_observation",
             "priority": "medium",
@@ -146,7 +112,7 @@
             "source": [
                 "NASA FIRMS"
             ],
-            "timestamp": "2026-07-15T20:17:35.461146+00:00",
+            "timestamp": "2026-07-15T20:36:52.093980+00:00",
             "observation": {
                 "type": "thermal_anomaly",
                 "sensor": "UNKNOWN",
@@ -173,7 +139,7 @@
             "threat_level": "MEDIUM"
         },
         {
-            "event_id": "SG-89381c48",
+            "event_id": "SG-35f9bd90",
             "event_type": "cyber",
             "classification": "cyber_attack",
             "priority": "medium",
@@ -182,7 +148,7 @@
             "source": [
                 "Threat Intelligence Feed"
             ],
-            "timestamp": "2026-07-15T20:17:35.461191+00:00",
+            "timestamp": "2026-07-15T20:36:52.094036+00:00",
             "threat": {
                 "actor": "UNKNOWN",
                 "malware": "UNKNOWN",
@@ -214,7 +180,7 @@
             "threat_level": "CRITICAL"
         },
         {
-            "event_id": "SG-529eeb11",
+            "event_id": "SG-36095055",
             "event_type": "humanitarian",
             "classification": "humanitarian_crisis",
             "priority": "medium",
@@ -223,7 +189,7 @@
             "source": [
                 "Humanitarian Database"
             ],
-            "timestamp": "2026-07-15T20:17:35.461225+00:00",
+            "timestamp": "2026-07-15T20:36:52.094097+00:00",
             "crisis": {
                 "type": "UNKNOWN",
                 "severity": "UNKNOWN",
