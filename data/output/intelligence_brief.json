@@ -1,28 +1,1778 @@
 {
     "title": "SENTINEL GRID INTELLIGENCE BRIEF",
     "global_threat_level": "CRITICAL",
-    "total_events": 6,
+    "total_events": 523,
     "critical_events": [
         {
             "title": "Cyber threat activity detected",
             "type": "cyber",
             "classification": "cyber_attack",
             "score": 90
+        },
+        {
+            "title": "On Our Radar",
+            "type": "news",
+            "classification": "geopolitical_reporting",
+            "score": 100
+        },
+        {
+            "title": "Iran targets military bases as US launches wave of strikes",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 95
+        },
+        {
+            "title": "US military to start screening for testosterone deficiency, Hegseth says",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 85
+        },
+        {
+            "title": "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 85
+        },
+        {
+            "title": "On Our Radar",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 100
+        },
+        {
+            "title": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Cisco IOS Cross-Site Request Forgery Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Joomlack Page Builder Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Adobe ColdFusion Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "SimpleHelp Authentication Bypass Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Lantronix EDS5000 Code Injection Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "On Our Radar",
+            "type": "news",
+            "classification": "geopolitical_reporting",
+            "score": 100
+        },
+        {
+            "title": "Iran targets military bases as US launches wave of strikes",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 95
+        },
+        {
+            "title": "US military to start screening for testosterone deficiency, Hegseth says",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 85
+        },
+        {
+            "title": "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 85
+        },
+        {
+            "title": "On Our Radar",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 100
+        },
+        {
+            "title": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Cisco IOS Cross-Site Request Forgery Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Joomlack Page Builder Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Adobe ColdFusion Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "SimpleHelp Authentication Bypass Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Lantronix EDS5000 Code Injection Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "On Our Radar",
+            "type": "news",
+            "classification": "geopolitical_reporting",
+            "score": 100
+        },
+        {
+            "title": "Iran targets military bases as US launches wave of strikes",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 95
+        },
+        {
+            "title": "US military to start screening for testosterone deficiency, Hegseth says",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 85
+        },
+        {
+            "title": "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 85
+        },
+        {
+            "title": "On Our Radar",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 100
+        },
+        {
+            "title": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Cisco IOS Cross-Site Request Forgery Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Joomlack Page Builder Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Adobe ColdFusion Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "SimpleHelp Authentication Bypass Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Lantronix EDS5000 Code Injection Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
+        },
+        {
+            "title": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 100
         }
     ],
-    "high_priority_events": [],
+    "high_priority_events": [
+        {
+            "title": "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Security Council LIVE: International Criminal Court briefs on Darfur",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "West Africa and the Sahel: Terrorism is changing its face",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "\u2018Cycle of escalation must end\u2019: UN condemns deadly Strait of Hormuz attacks",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "\u2018This is a fire\u2019: DRC Ebola outbreak is fastest-growing ever, warns WHO",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "World News in Brief: Aid deliveries to Gaza restricted, UN prepares El Nino response, El Salvador eliminates disease",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Strait of Hormuz: UN agencies call for diplomacy to end attacks",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Security Council LIVE: Top UN officials call for de-escalation in Yemen",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "On Our Radar",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Hormuz 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Saudi 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Washington 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Tehran 1 July 2026 #2",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Bahrain 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Israel 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Lebanon 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Tehran 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Hormuz 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Iran targets military bases as US launches wave of strikes",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "US military to start screening for testosterone deficiency, Hegseth says",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "China economic growth falls sharply, missing target",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Heatwave prompts Italy's delivery riders to strike for extra rights",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Israeli strike on police post in north Gaza kills seven, officials say",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "A Cold War bunker gets a luxury makeover as 'doomsday' condos",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "What if Bluey spoke one of the world's oldest living languages?",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 70
+        },
+        {
+            "title": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Cisco IOS Cross-Site Request Forgery Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Joomlack Page Builder Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Adobe ColdFusion Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "SimpleHelp Authentication Bypass Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Lantronix EDS5000 Code Injection Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+            "type": "cyber",
+            "classification": "known_exploited_vulnerability",
+            "score": 70
+        },
+        {
+            "title": "Green earthquake (Magnitude 5.5M, Depth:12.806km) in Volcano Islands, Japan Region 16/07/2026 07:49 UTC, [unknown].",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Volcanic eruption is on going for Mayon in Philippines",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Green earthquake (Magnitude 5.8M, Depth:340.334km) in South Of Fiji Islands 15/07/2026 22:57 UTC, [unknown].",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Green earthquake (Magnitude 5.7M, Depth:13.061km) in East Of South Sandwich Islands 15/07/2026 14:51 UTC, [unknown].",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Green earthquake (Magnitude 5.5M, Depth:574.304km) in Fiji 14/07/2026 22:50 UTC, Few people affected in 100km.",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Green notification for tropical cyclone ELIDA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Green earthquake (Magnitude 6.2M, Depth:67.854km) in Philippines 14/07/2026 15:49 UTC, 30 thousand in MMI VI.",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Green earthquake (Magnitude 5.6M, Depth:140.088km) in Peru 14/07/2026 08:21 UTC, 20 thousand in MMI IV.",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Green forest fire notification in Canada",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Security Council LIVE: International Criminal Court briefs on Darfur",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Childhood vaccination rate increases slightly, but millions remain unprotected",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Hormuz 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Saudi 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Washington 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Tehran 1 July 2026 #2",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Bahrain 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Israel 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Lebanon 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Tehran 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Hormuz 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Green notification for tropical cyclone ELIDA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Security Council LIVE: International Criminal Court briefs on Darfur",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Childhood vaccination rate increases slightly, but millions remain unprotected",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Hormuz 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Saudi 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Washington 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Tehran 1 July 2026 #2",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Bahrain 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Israel 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Lebanon 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Tehran 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Hormuz 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Green notification for tropical cyclone ELIDA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        },
+        {
+            "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Security Council LIVE: International Criminal Court briefs on Darfur",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Childhood vaccination rate increases slightly, but millions remain unprotected",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Hormuz 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Saudi 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Washington 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Tehran 1 July 2026 #2",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Bahrain 1 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Israel 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Lebanon 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 75
+        },
+        {
+            "title": "Tehran 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Hormuz 3 July 2026 #1",
+            "type": "conflict",
+            "classification": "conflict_report",
+            "score": 65
+        },
+        {
+            "title": "Green notification for tropical cyclone ELIDA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+            "type": "humanitarian",
+            "classification": "disaster_alert",
+            "score": 65
+        }
+    ],
     "regional_summary": {
         "Unknown": {
-            "event_count": 6,
+            "region": "Unknown",
+            "event_count": 377,
             "highest_threat": "CRITICAL",
-            "threat_score": 90,
+            "threat_score": 100,
+            "activity_level": "SEVERE",
             "events": [
                 "Example geopolitical intelligence report",
                 "Aircraft activity detected",
                 "Maritime activity detected",
                 "Satellite observation detected",
                 "Cyber threat activity detected",
-                "Humanitarian situation detected"
+                "Humanitarian situation detected",
+                "Argentina face action over Falklands banner",
+                "Families of 43 victims await verdict in Genoa bridge disaster",
+                "US military to start screening for testosterone deficiency, Hegseth says",
+                "Actor Sam Neill died from pneumonia, agent confirms",
+                "New monkey species with orange lips found 'hiding' in DR Congo forest",
+                "French MPs approve assisted dying law with strict rules after years of argument",
+                "Special police team to investigate killing of an anti-migrant leader in South Africa",
+                "World News in Brief: Schools closed in West Bank, AI in healthcare, Indigenous rights",
+                "Security Council LIVE: International Criminal Court briefs on Darfur",
+                "New guidance offers hope for reducing the global toll of dementia",
+                "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+                "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+                "Childhood vaccination rate increases slightly, but millions remain unprotected",
+                "Skills for an uncertain future: How youth can navigate a changing job market",
+                "World Cup football\u2019s other goal: Helping young people talk about mental health",
+                "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
+                "Security Council LIVE: International Criminal Court briefs on Darfur",
+                "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+                "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+                "West Africa and the Sahel: Terrorism is changing its face",
+                "\u2018This is a fire\u2019: DRC Ebola outbreak is fastest-growing ever, warns WHO",
+                "World News in Brief: Aid deliveries to Gaza restricted, UN prepares El Nino response, El Salvador eliminates disease",
+                "Lebanon 3 July 2026 #1",
+                "US military to start screening for testosterone deficiency, Hegseth says",
+                "Heatwave prompts Italy's delivery riders to strike for extra rights",
+                "A Cold War bunker gets a luxury makeover as 'doomsday' condos",
+                "What if Bluey spoke one of the world's oldest living languages?",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Tropical Storm Elida",
+                "Prescribed Fire RX Infantry Platoon Battle Course, Morrison, Minnesota",
+                "Prescribed Fire RX IPBC, Morrison, Minnesota",
+                "Prescribed Fire RX Center Range South, Morrison, Minnesota",
+                "Wildfire 18 Mile, Elko, Nevada",
+                "Wildfire Heavy Timber, Musselshell, Montana",
+                "Wildfire Cow Canyon, Oneida, Idaho",
+                "Wildfire ELEPHANT, Plumas, California",
+                "Wildfire LOOMIS, Lassen, California",
+                "Wildfire NINE CANYON, Benton, Washington",
+                "Wildfire Stookey, Tooele, Utah",
+                "Wildfire E Evans Creek Rd 18000, Jackson, Oregon",
+                "Wildfire SUMMIT, Los Angeles, California",
+                "Wildfire B AND O, Okanogan, Washington",
+                "Prescribed Fire RX Chippewa Prairie TNC, Chippewa, Minnesota",
+                "Prescribed Fire RX Terpstra W413-20-01, Lac qui Parle, Minnesota",
+                "Prescribed Fire RX Center Range North, Morrison, Minnesota",
+                "Prescribed Fire RX Leach Impact Area, Morrison, Minnesota",
+                "Wildfire Rose Hill Bay, Duplin, North Carolina",
+                "Prescribed Fire RX Agassiz W413-21-20, Lac qui Parle, Minnesota",
+                "Prescribed Fire RX Loen, Swift, Minnesota",
+                "Prescribed Fire RX Chippewa Prairie Unit 7 W413-20-28, Chippewa, Minnesota",
+                "Wildfire Hogatza, Yukon-Koyukuk, Alaska",
+                "Wildfire RYEGRASS COULEE, Kittitas, Washington",
+                "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+                "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+                "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+                "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+                "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+                "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+                "Cisco IOS Cross-Site Request Forgery Vulnerability",
+                "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+                "Joomlack Page Builder Improper Access Control Vulnerability",
+                "Adobe ColdFusion Path Traversal Vulnerability",
+                "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+                "SimpleHelp Authentication Bypass Vulnerability",
+                "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+                "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+                "Lantronix EDS5000 Code Injection Vulnerability",
+                "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+                "Ubiquiti UniFi OS Path Traversal Vulnerability",
+                "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+                "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+                "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+                "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+                "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+                "Green earthquake (Magnitude 5.5M, Depth:12.806km) in Volcano Islands, Japan Region 16/07/2026 07:49 UTC, [unknown].",
+                "Volcanic eruption is on going for Mayon in Philippines",
+                "Green earthquake (Magnitude 5.8M, Depth:340.334km) in South Of Fiji Islands 15/07/2026 22:57 UTC, [unknown].",
+                "Green earthquake (Magnitude 5.7M, Depth:13.061km) in East Of South Sandwich Islands 15/07/2026 14:51 UTC, [unknown].",
+                "Green earthquake (Magnitude 5.5M, Depth:574.304km) in Fiji 14/07/2026 22:50 UTC, Few people affected in 100km.",
+                "Green notification for tropical cyclone ELIDA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+                "Green earthquake (Magnitude 6.2M, Depth:67.854km) in Philippines 14/07/2026 15:49 UTC, 30 thousand in MMI VI.",
+                "Green earthquake (Magnitude 5.6M, Depth:140.088km) in Peru 14/07/2026 08:21 UTC, 20 thousand in MMI IV.",
+                "Green forest fire notification in Canada",
+                "Argentina face action over Falklands banner",
+                "Families of 43 victims await verdict in Genoa bridge disaster",
+                "US military to start screening for testosterone deficiency, Hegseth says",
+                "Actor Sam Neill died from pneumonia, agent confirms",
+                "Eleven people die in fire at Algerian foster care home ",
+                "New monkey species with orange lips found 'hiding' in DR Congo forest",
+                "French MPs approve assisted dying law with strict rules after years of argument",
+                "World News in Brief: Schools closed in West Bank, AI in healthcare, Indigenous rights",
+                "Security Council LIVE: International Criminal Court briefs on Darfur",
+                "New guidance offers hope for reducing the global toll of dementia",
+                "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+                "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+                "Childhood vaccination rate increases slightly, but millions remain unprotected",
+                "Skills for an uncertain future: How youth can navigate a changing job market",
+                "World Cup football\u2019s other goal: Helping young people talk about mental health",
+                "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
+                "Lebanon 3 July 2026 #1",
+                "US military to start screening for testosterone deficiency, Hegseth says",
+                "Security Council LIVE: International Criminal Court briefs on Darfur",
+                "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+                "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+                "Childhood vaccination rate increases slightly, but millions remain unprotected",
+                "Lebanon 3 July 2026 #1",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Tropical Storm Elida",
+                "Prescribed Fire RX Infantry Platoon Battle Course, Morrison, Minnesota",
+                "Prescribed Fire RX IPBC, Morrison, Minnesota",
+                "Prescribed Fire RX Center Range South, Morrison, Minnesota",
+                "Wildfire 18 Mile, Elko, Nevada",
+                "Wildfire Heavy Timber, Musselshell, Montana",
+                "Wildfire Cow Canyon, Oneida, Idaho",
+                "Wildfire ELEPHANT, Plumas, California",
+                "Wildfire LOOMIS, Lassen, California",
+                "Wildfire NINE CANYON, Benton, Washington",
+                "Wildfire Stookey, Tooele, Utah",
+                "Wildfire E Evans Creek Rd 18000, Jackson, Oregon",
+                "Wildfire SUMMIT, Los Angeles, California",
+                "Wildfire B AND O, Okanogan, Washington",
+                "Prescribed Fire RX Chippewa Prairie TNC, Chippewa, Minnesota",
+                "Prescribed Fire RX Terpstra W413-20-01, Lac qui Parle, Minnesota",
+                "Prescribed Fire RX Center Range North, Morrison, Minnesota",
+                "Prescribed Fire RX Leach Impact Area, Morrison, Minnesota",
+                "Wildfire Rose Hill Bay, Duplin, North Carolina",
+                "Prescribed Fire RX Agassiz W413-21-20, Lac qui Parle, Minnesota",
+                "Prescribed Fire RX Loen, Swift, Minnesota",
+                "Prescribed Fire RX Chippewa Prairie Unit 7 W413-20-28, Chippewa, Minnesota",
+                "Wildfire Hogatza, Yukon-Koyukuk, Alaska",
+                "Wildfire RYEGRASS COULEE, Kittitas, Washington",
+                "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+                "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+                "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+                "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+                "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+                "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+                "Cisco IOS Cross-Site Request Forgery Vulnerability",
+                "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+                "Joomlack Page Builder Improper Access Control Vulnerability",
+                "Adobe ColdFusion Path Traversal Vulnerability",
+                "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+                "SimpleHelp Authentication Bypass Vulnerability",
+                "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+                "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+                "Lantronix EDS5000 Code Injection Vulnerability",
+                "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+                "Ubiquiti UniFi OS Path Traversal Vulnerability",
+                "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+                "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+                "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+                "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+                "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+                "Green earthquake (Magnitude 5.5M, Depth:12.806km) in Volcano Islands, Japan Region 16/07/2026 07:49 UTC, [unknown].",
+                "Volcanic eruption is on going for Mayon in Philippines",
+                "Green earthquake (Magnitude 5.8M, Depth:340.334km) in South Of Fiji Islands 15/07/2026 22:57 UTC, [unknown].",
+                "Green earthquake (Magnitude 5.7M, Depth:13.061km) in East Of South Sandwich Islands 15/07/2026 14:51 UTC, [unknown].",
+                "Green earthquake (Magnitude 5.5M, Depth:574.304km) in Fiji 14/07/2026 22:50 UTC, Few people affected in 100km.",
+                "Green notification for tropical cyclone ELIDA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+                "Green earthquake (Magnitude 6.2M, Depth:67.854km) in Philippines 14/07/2026 15:49 UTC, 30 thousand in MMI VI.",
+                "Green earthquake (Magnitude 5.6M, Depth:140.088km) in Peru 14/07/2026 08:21 UTC, 20 thousand in MMI IV.",
+                "Green forest fire notification in Canada",
+                "Argentina face action over Falklands banner",
+                "Families of 43 victims await verdict in Genoa bridge disaster",
+                "US military to start screening for testosterone deficiency, Hegseth says",
+                "Actor Sam Neill died from pneumonia, agent confirms",
+                "Eleven people die in fire at Algerian foster care home ",
+                "New monkey species with orange lips found 'hiding' in DR Congo forest",
+                "French MPs approve assisted dying law with strict rules after years of argument",
+                "World News in Brief: Schools closed in West Bank, AI in healthcare, Indigenous rights",
+                "Security Council LIVE: International Criminal Court briefs on Darfur",
+                "New guidance offers hope for reducing the global toll of dementia",
+                "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+                "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+                "Childhood vaccination rate increases slightly, but millions remain unprotected",
+                "Skills for an uncertain future: How youth can navigate a changing job market",
+                "World Cup football\u2019s other goal: Helping young people talk about mental health",
+                "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
+                "Lebanon 3 July 2026 #1",
+                "US military to start screening for testosterone deficiency, Hegseth says",
+                "Security Council LIVE: International Criminal Court briefs on Darfur",
+                "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+                "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+                "Childhood vaccination rate increases slightly, but millions remain unprotected",
+                "Lebanon 3 July 2026 #1",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Tropical Storm Elida",
+                "Prescribed Fire RX Infantry Platoon Battle Course, Morrison, Minnesota",
+                "Prescribed Fire RX IPBC, Morrison, Minnesota",
+                "Prescribed Fire RX Center Range South, Morrison, Minnesota",
+                "Wildfire 18 Mile, Elko, Nevada",
+                "Wildfire Heavy Timber, Musselshell, Montana",
+                "Wildfire Cow Canyon, Oneida, Idaho",
+                "Wildfire ELEPHANT, Plumas, California",
+                "Wildfire LOOMIS, Lassen, California",
+                "Wildfire NINE CANYON, Benton, Washington",
+                "Wildfire Stookey, Tooele, Utah",
+                "Wildfire E Evans Creek Rd 18000, Jackson, Oregon",
+                "Wildfire SUMMIT, Los Angeles, California",
+                "Wildfire B AND O, Okanogan, Washington",
+                "Prescribed Fire RX Chippewa Prairie TNC, Chippewa, Minnesota",
+                "Prescribed Fire RX Terpstra W413-20-01, Lac qui Parle, Minnesota",
+                "Prescribed Fire RX Center Range North, Morrison, Minnesota",
+                "Prescribed Fire RX Leach Impact Area, Morrison, Minnesota",
+                "Wildfire Rose Hill Bay, Duplin, North Carolina",
+                "Prescribed Fire RX Agassiz W413-21-20, Lac qui Parle, Minnesota",
+                "Prescribed Fire RX Loen, Swift, Minnesota",
+                "Prescribed Fire RX Chippewa Prairie Unit 7 W413-20-28, Chippewa, Minnesota",
+                "Wildfire Hogatza, Yukon-Koyukuk, Alaska",
+                "Wildfire RYEGRASS COULEE, Kittitas, Washington",
+                "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+                "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+                "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+                "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+                "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+                "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+                "Cisco IOS Cross-Site Request Forgery Vulnerability",
+                "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+                "Joomlack Page Builder Improper Access Control Vulnerability",
+                "Adobe ColdFusion Path Traversal Vulnerability",
+                "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+                "SimpleHelp Authentication Bypass Vulnerability",
+                "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+                "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+                "Lantronix EDS5000 Code Injection Vulnerability",
+                "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+                "Ubiquiti UniFi OS Path Traversal Vulnerability",
+                "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+                "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+                "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+                "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+                "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+                "Green earthquake (Magnitude 5.5M, Depth:12.806km) in Volcano Islands, Japan Region 16/07/2026 07:49 UTC, [unknown].",
+                "Volcanic eruption is on going for Mayon in Philippines",
+                "Green earthquake (Magnitude 5.8M, Depth:340.334km) in South Of Fiji Islands 15/07/2026 22:57 UTC, [unknown].",
+                "Green earthquake (Magnitude 5.7M, Depth:13.061km) in East Of South Sandwich Islands 15/07/2026 14:51 UTC, [unknown].",
+                "Green earthquake (Magnitude 5.5M, Depth:574.304km) in Fiji 14/07/2026 22:50 UTC, Few people affected in 100km.",
+                "Green notification for tropical cyclone ELIDA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+                "Green earthquake (Magnitude 6.2M, Depth:67.854km) in Philippines 14/07/2026 15:49 UTC, 30 thousand in MMI VI.",
+                "Green earthquake (Magnitude 5.6M, Depth:140.088km) in Peru 14/07/2026 08:21 UTC, 20 thousand in MMI IV.",
+                "Green forest fire notification in Canada",
+                "Argentina face action over Falklands banner",
+                "Families of 43 victims await verdict in Genoa bridge disaster",
+                "US military to start screening for testosterone deficiency, Hegseth says",
+                "Actor Sam Neill died from pneumonia, agent confirms",
+                "Eleven people die in fire at Algerian foster care home ",
+                "New monkey species with orange lips found 'hiding' in DR Congo forest",
+                "French MPs approve assisted dying law with strict rules after years of argument",
+                "World News in Brief: Schools closed in West Bank, AI in healthcare, Indigenous rights",
+                "Security Council LIVE: International Criminal Court briefs on Darfur",
+                "New guidance offers hope for reducing the global toll of dementia",
+                "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+                "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+                "Childhood vaccination rate increases slightly, but millions remain unprotected",
+                "Skills for an uncertain future: How youth can navigate a changing job market",
+                "World Cup football\u2019s other goal: Helping young people talk about mental health",
+                "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
+                "Lebanon 3 July 2026 #1",
+                "US military to start screening for testosterone deficiency, Hegseth says",
+                "Security Council LIVE: International Criminal Court briefs on Darfur",
+                "Colombia: Pockets of insecurity challenge \u2018vibrant democracy\u2019, Security Council told",
+                "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+                "Childhood vaccination rate increases slightly, but millions remain unprotected",
+                "Lebanon 3 July 2026 #1",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Tropical Storm Elida",
+                "Prescribed Fire RX Infantry Platoon Battle Course, Morrison, Minnesota",
+                "Prescribed Fire RX IPBC, Morrison, Minnesota",
+                "Prescribed Fire RX Center Range South, Morrison, Minnesota",
+                "Wildfire 18 Mile, Elko, Nevada",
+                "Wildfire Heavy Timber, Musselshell, Montana",
+                "Wildfire Cow Canyon, Oneida, Idaho",
+                "Wildfire ELEPHANT, Plumas, California",
+                "Wildfire LOOMIS, Lassen, California",
+                "Wildfire NINE CANYON, Benton, Washington",
+                "Wildfire Stookey, Tooele, Utah",
+                "Wildfire E Evans Creek Rd 18000, Jackson, Oregon",
+                "Wildfire SUMMIT, Los Angeles, California",
+                "Wildfire B AND O, Okanogan, Washington",
+                "Prescribed Fire RX Chippewa Prairie TNC, Chippewa, Minnesota",
+                "Prescribed Fire RX Terpstra W413-20-01, Lac qui Parle, Minnesota",
+                "Prescribed Fire RX Center Range North, Morrison, Minnesota",
+                "Prescribed Fire RX Leach Impact Area, Morrison, Minnesota",
+                "Wildfire Rose Hill Bay, Duplin, North Carolina",
+                "Prescribed Fire RX Agassiz W413-21-20, Lac qui Parle, Minnesota",
+                "Prescribed Fire RX Loen, Swift, Minnesota",
+                "Prescribed Fire RX Chippewa Prairie Unit 7 W413-20-28, Chippewa, Minnesota",
+                "Wildfire Hogatza, Yukon-Koyukuk, Alaska",
+                "Wildfire RYEGRASS COULEE, Kittitas, Washington",
+                "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+                "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+                "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+                "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+                "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+                "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+                "Cisco IOS Cross-Site Request Forgery Vulnerability",
+                "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+                "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+                "Joomlack Page Builder Improper Access Control Vulnerability",
+                "Adobe ColdFusion Path Traversal Vulnerability",
+                "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+                "SimpleHelp Authentication Bypass Vulnerability",
+                "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+                "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+                "Lantronix EDS5000 Code Injection Vulnerability",
+                "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+                "Ubiquiti UniFi OS Path Traversal Vulnerability",
+                "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+                "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+                "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+                "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+                "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+                "Green earthquake (Magnitude 5.5M, Depth:12.806km) in Volcano Islands, Japan Region 16/07/2026 07:49 UTC, [unknown].",
+                "Volcanic eruption is on going for Mayon in Philippines",
+                "Green earthquake (Magnitude 5.8M, Depth:340.334km) in South Of Fiji Islands 15/07/2026 22:57 UTC, [unknown].",
+                "Green earthquake (Magnitude 5.7M, Depth:13.061km) in East Of South Sandwich Islands 15/07/2026 14:51 UTC, [unknown].",
+                "Green earthquake (Magnitude 5.5M, Depth:574.304km) in Fiji 14/07/2026 22:50 UTC, Few people affected in 100km.",
+                "Green notification for tropical cyclone ELIDA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+                "Green earthquake (Magnitude 6.2M, Depth:67.854km) in Philippines 14/07/2026 15:49 UTC, 30 thousand in MMI VI.",
+                "Green earthquake (Magnitude 5.6M, Depth:140.088km) in Peru 14/07/2026 08:21 UTC, 20 thousand in MMI IV.",
+                "Green forest fire notification in Canada"
+            ]
+        },
+        "Middle East": {
+            "region": "Middle East",
+            "event_count": 79,
+            "highest_threat": "CRITICAL",
+            "threat_score": 95,
+            "activity_level": "SEVERE",
+            "events": [
+                "Iran targets military bases as US launches wave of strikes",
+                "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+                "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+                "\u2018Cycle of escalation must end\u2019: UN condemns deadly Strait of Hormuz attacks",
+                "Strait of Hormuz: UN agencies call for diplomacy to end attacks",
+                "Security Council LIVE: Top UN officials call for de-escalation in Yemen",
+                "Hormuz 1 July 2026 #1",
+                "Saudi 1 July 2026 #1",
+                "Washington 1 July 2026 #1",
+                "Tehran 1 July 2026 #2",
+                "Bahrain 1 July 2026 #1",
+                "Israel 3 July 2026 #1",
+                "Tehran 3 July 2026 #1",
+                "Hormuz 3 July 2026 #1",
+                "Iran targets military bases as US launches wave of strikes",
+                "China economic growth falls sharply, missing target",
+                "Israeli strike on police post in north Gaza kills seven, officials say",
+                "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war",
+                "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
+                "Iran targets military bases as US launches wave of strikes",
+                "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+                "Hormuz 1 July 2026 #1",
+                "Saudi 1 July 2026 #1",
+                "Washington 1 July 2026 #1",
+                "Tehran 1 July 2026 #2",
+                "Bahrain 1 July 2026 #1",
+                "Israel 3 July 2026 #1",
+                "Tehran 3 July 2026 #1",
+                "Hormuz 3 July 2026 #1",
+                "Iran targets military bases as US launches wave of strikes",
+                "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+                "Hormuz 1 July 2026 #1",
+                "Saudi 1 July 2026 #1",
+                "Washington 1 July 2026 #1",
+                "Tehran 1 July 2026 #2",
+                "Bahrain 1 July 2026 #1",
+                "Israel 3 July 2026 #1",
+                "Tehran 3 July 2026 #1",
+                "Hormuz 3 July 2026 #1",
+                "Iran targets military bases as US launches wave of strikes",
+                "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+                "Hormuz 1 July 2026 #1",
+                "Saudi 1 July 2026 #1",
+                "Washington 1 July 2026 #1",
+                "Tehran 1 July 2026 #2",
+                "Bahrain 1 July 2026 #1",
+                "Israel 3 July 2026 #1",
+                "Tehran 3 July 2026 #1",
+                "Hormuz 3 July 2026 #1",
+                "Iran targets military bases as US launches wave of strikes",
+                "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+                "Hormuz 1 July 2026 #1",
+                "Saudi 1 July 2026 #1",
+                "Washington 1 July 2026 #1",
+                "Tehran 1 July 2026 #2",
+                "Bahrain 1 July 2026 #1",
+                "Israel 3 July 2026 #1",
+                "Tehran 3 July 2026 #1",
+                "Hormuz 3 July 2026 #1",
+                "Iran targets military bases as US launches wave of strikes",
+                "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+                "Hormuz 1 July 2026 #1",
+                "Saudi 1 July 2026 #1",
+                "Washington 1 July 2026 #1",
+                "Tehran 1 July 2026 #2",
+                "Bahrain 1 July 2026 #1",
+                "Israel 3 July 2026 #1",
+                "Tehran 3 July 2026 #1",
+                "Hormuz 3 July 2026 #1",
+                "Iran targets military bases as US launches wave of strikes",
+                "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+                "Hormuz 1 July 2026 #1",
+                "Saudi 1 July 2026 #1",
+                "Washington 1 July 2026 #1",
+                "Tehran 1 July 2026 #2",
+                "Bahrain 1 July 2026 #1",
+                "Israel 3 July 2026 #1",
+                "Tehran 3 July 2026 #1",
+                "Hormuz 3 July 2026 #1"
+            ]
+        },
+        "Indo-Pacific": {
+            "region": "Indo-Pacific",
+            "event_count": 11,
+            "highest_threat": "MEDIUM",
+            "threat_score": 50,
+            "activity_level": "ELEVATED",
+            "events": [
+                "More people around the world now favour China over the US, Pew study suggests",
+                "Aircraft activity detected",
+                "More people around the world now favour China over the US, Pew study suggests",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "More people around the world now favour China over the US, Pew study suggests",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "More people around the world now favour China over the US, Pew study suggests",
+                "Aircraft activity detected",
+                "Aircraft activity detected"
+            ]
+        },
+        "Europe": {
+            "region": "Europe",
+            "event_count": 45,
+            "highest_threat": "CRITICAL",
+            "threat_score": 100,
+            "activity_level": "SEVERE",
+            "events": [
+                "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+                "On Our Radar",
+                "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+                "On Our Radar",
+                "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+                "On Our Radar",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+                "On Our Radar",
+                "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+                "On Our Radar",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+                "On Our Radar",
+                "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+                "On Our Radar",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected"
+            ]
+        },
+        "Americas": {
+            "region": "Americas",
+            "event_count": 11,
+            "highest_threat": "MEDIUM",
+            "threat_score": 50,
+            "activity_level": "ELEVATED",
+            "events": [
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected",
+                "Aircraft activity detected"
             ]
         }
     }

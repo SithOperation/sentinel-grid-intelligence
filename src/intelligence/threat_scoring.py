@@ -1,13 +1,24 @@
 """
-Threat Scoring Engine
+Sentinel Grid Threat Scoring Engine
 
-Assigns threat levels to intelligence events.
+Assigns threat scores and threat levels
+to normalized intelligence events.
 
-Levels:
+Threat Levels:
+
 LOW
 MEDIUM
 HIGH
 CRITICAL
+
+Factors:
+
+- Event type
+- Classification
+- Priority
+- Confidence
+- Threat indicators
+- Cyber vulnerability severity
 """
 
 
@@ -17,117 +28,271 @@ def calculate_threat_score(event):
     score = 0
 
 
+
     event_type = event.get(
+
         "event_type",
+
         ""
-    )
+
+    ).lower()
+
 
 
     classification = event.get(
+
         "classification",
+
         ""
-    )
+
+    ).lower()
 
 
-    confidence = event.get(
-        "confidence",
-        0
-    )
+
+    title = event.get(
+
+        "title",
+
+        ""
+
+    ).lower()
+
+
+
+    description = event.get(
+
+        "description",
+
+        ""
+
+    ).lower()
+
 
 
     priority = event.get(
+
         "priority",
+
         "low"
+
+    ).lower()
+
+
+
+    confidence = event.get(
+
+        "confidence",
+
+        0
+
     )
 
 
 
-    # Event category scoring
+    text = (
 
-    if event_type == "conflict":
+        classification
 
-        score += 40
+        + " "
 
+        + title
 
-    elif event_type == "cyber":
+        + " "
 
-        score += 30
+        + description
 
-
-    elif event_type == "maritime":
-
-        score += 20
-
-
-    elif event_type == "aircraft":
-
-        score += 20
-
-
-    elif event_type == "satellite":
-
-        score += 15
-
-
-    elif event_type == "humanitarian":
-
-        score += 25
+    )
 
 
 
-    # Classification scoring
+    #
+    # Base event weighting
+    #
 
-    dangerous_terms = [
 
-        "artillery",
+    event_weights = {
 
-        "missile",
 
-        "strike",
+        "conflict": 40,
+
+
+        "cyber": 35,
+
+
+        "humanitarian": 25,
+
+
+        "maritime": 20,
+
+
+        "aircraft": 20,
+
+
+        "satellite": 15,
+
+
+        "news": 10
+
+
+    }
+
+
+
+    score += event_weights.get(
+
+        event_type,
+
+        0
+
+    )
+
+
+
+    #
+    # Classification weighting
+    #
+
+
+    high_risk_terms = [
 
         "attack",
 
+        "strike",
+
+        "airstrike",
+
+        "military",
+
+        "troops",
+
+        "armed",
+
+        "breach",
+
+        "malware",
+
         "ransomware",
 
-        "invasion",
+        "exploit",
 
-        "cyber_attack"
+        "vulnerability"
 
     ]
 
 
-    for term in dangerous_terms:
 
-        if term in classification:
+    critical_terms = [
+
+        "nuclear",
+
+        "ballistic",
+
+        "missile",
+
+        "invasion",
+
+        "zero-day",
+
+        "chemical",
+
+        "biological",
+
+        "mass casualty"
+
+    ]
+
+
+
+    for term in high_risk_terms:
+
+
+        if term in text:
+
+            score += 10
+
+
+
+    for term in critical_terms:
+
+
+        if term in text:
 
             score += 20
 
 
 
-    # Confidence weighting
-
-    if confidence >= 80:
-
-        score += 20
+    #
+    # Cyber specific scoring
+    #
 
 
-    elif confidence >= 50:
-
-        score += 10
+    if event_type == "cyber":
 
 
+        threat = event.get(
 
-    # Priority weighting
+            "threat",
 
-    if priority == "high":
+            {}
 
-        score += 20
+        )
+
+
+        if threat.get("cve"):
+
+            score += 15
+
+
+
+    #
+    # Priority scoring
+    #
+
+
+    if priority == "critical":
+
+        score += 25
+
+
+
+    elif priority == "high":
+
+        score += 15
+
 
 
     elif priority == "medium":
 
+        score += 5
+
+
+
+    #
+    # Confidence scoring
+    #
+
+
+    if confidence >= 90:
+
+        score += 15
+
+
+
+    elif confidence >= 70:
+
         score += 10
 
+
+
+    elif confidence >= 50:
+
+        score += 5
+
+
+
+    #
+    # Maximum score
+    #
 
 
     if score > 100:
@@ -141,10 +306,15 @@ def calculate_threat_score(event):
 
 
 
+
 def assign_threat_level(event):
 
 
-    score = calculate_threat_score(event)
+    score = calculate_threat_score(
+
+        event
+
+    )
 
 
     event["threat_score"] = score
@@ -153,20 +323,27 @@ def assign_threat_level(event):
 
     if score >= 85:
 
+
         event["threat_level"] = "CRITICAL"
+
 
 
     elif score >= 60:
 
+
         event["threat_level"] = "HIGH"
+
 
 
     elif score >= 35:
 
+
         event["threat_level"] = "MEDIUM"
 
 
+
     else:
+
 
         event["threat_level"] = "LOW"
 
@@ -177,17 +354,27 @@ def assign_threat_level(event):
 
 
 
+
 def analyze_threats(events):
 
 
     analyzed = []
 
 
+
     for event in events:
 
+
         analyzed.append(
-            assign_threat_level(event)
+
+            assign_threat_level(
+
+                event
+
+            )
+
         )
+
 
 
     return analyzed

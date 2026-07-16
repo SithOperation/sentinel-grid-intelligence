@@ -1,132 +1,82 @@
 """
 Aircraft Intelligence Collector
 
-Purpose:
-Track aviation-related intelligence events.
+Source:
+OpenSky Network
 
-Future integrations:
-- OpenSky Network API
-- ADS-B Exchange
-- FlightRadar24 (commercial)
-
-Tracks:
+Collects:
 - aircraft position
 - altitude
-- heading
 - speed
+- heading
 - callsign
+- origin country
+
+Future:
+- ADS-B Exchange
+- military aircraft classification
+- conflict zone correlation
+
+Output:
+Sentinel Grid standardized event format
 """
 
 
-import datetime
-import uuid
+from api.opensky import fetch
+from models.event_model import create_event
 
 
 
-def collect_aircraft():
-
-
-    events = []
-
-
-    event = {
-
-
-        "event_id":
-
-        "SG-" + str(uuid.uuid4())[:8],
+MAX_AIRCRAFT = 50
 
 
 
-        "event_type":
+def safe_value(value, default="UNKNOWN"):
 
-        "aircraft",
+    if value is None:
 
+        return default
 
-
-        "classification":
-
-        "air_activity",
+    return value
 
 
 
-        "priority":
 
-        "medium",
-
+def create_aircraft_event(aircraft):
 
 
-        "title":
+    latitude = aircraft[6]
 
-        "Aircraft activity detected",
+    longitude = aircraft[5]
 
 
 
-        "description":
+    event = create_event(
 
-        "Open source aircraft observation",
+        event_type="aircraft",
 
+        classification="air_activity",
 
+        priority="medium",
 
-        "source":
+        title="Aircraft activity detected",
 
-        [
+        description="Open source ADS-B aircraft observation",
+
+        source=[
 
             "OpenSky Network"
 
         ],
 
-
-
-        "timestamp":
-
-        datetime.datetime.now(
-            datetime.UTC
-        ).isoformat(),
-
-
-
-        "aircraft":
-
-        {
-
-
-            "callsign":
-
-            "UNKNOWN",
-
-
-            "icao":
-
-            "UNKNOWN",
-
-
-            "altitude":
-
-            0,
-
-
-            "speed":
-
-            0,
-
-
-            "heading":
-
-            0
-
-        },
-
-
-
-        "location":
-
-        {
+        location={
 
 
             "country":
 
-            "Unknown",
+            safe_value(
+                aircraft[2]
+            ),
 
 
             "region":
@@ -136,54 +86,170 @@ def collect_aircraft():
 
             "latitude":
 
-            0,
+            latitude,
 
 
             "longitude":
 
-            0
+            longitude
 
         },
 
+        confidence=70
 
-
-        "actors":
-
-        [
-
-            "Unknown"
-
-        ],
+    )
 
 
 
-        "confidence":
-
-        50,
+    event["aircraft"] = {
 
 
+        "icao":
 
-        "verification":
-
-        {
-
-
-            "confirmed":
-
-            False,
+        safe_value(
+            aircraft[0]
+        ),
 
 
-            "source_count":
 
-            1
+        "callsign":
 
-        }
+        safe_value(
+
+            aircraft[1].strip()
+
+            if aircraft[1]
+
+            else None
+
+        ),
+
+
+
+        "origin_country":
+
+        safe_value(
+            aircraft[2]
+        ),
+
+
+
+        "altitude":
+
+        safe_value(
+            aircraft[7],
+            0
+        ),
+
+
+
+        "velocity":
+
+        safe_value(
+            aircraft[9],
+            0
+        ),
+
+
+
+        "heading":
+
+        safe_value(
+            aircraft[10],
+            0
+        )
 
     }
 
 
 
-    events.append(event)
+    event["verification"] = {
+
+
+        "confirmed":
+
+        True,
+
+
+        "source_count":
+
+        1
+
+    }
+
+
+
+    return event
+
+
+
+
+def collect_aircraft():
+
+
+    events = []
+
+
+
+    try:
+
+
+        aircraft_list = fetch()
+
+
+
+        for aircraft in aircraft_list[:MAX_AIRCRAFT]:
+
+
+            if len(aircraft) < 11:
+
+                continue
+
+
+
+            if aircraft[5] is None:
+
+                continue
+
+
+
+            if aircraft[6] is None:
+
+                continue
+
+
+
+            events.append(
+
+                create_aircraft_event(
+
+                    aircraft
+
+                )
+
+            )
+
+
+
+        print(
+
+            f"[+] OpenSky aircraft collected {len(events)} events"
+
+        )
+
+
+
+    except Exception as error:
+
+
+        print(
+
+            "[!] OpenSky aircraft collector failed:",
+
+            error
+
+        )
+
 
 
     return events

@@ -3,10 +3,73 @@ Confidence Scoring Engine
 
 Calculates intelligence reliability.
 
-Supports:
-- single source strings
-- multiple source lists
+Factors:
+- Source reputation
+- Verification count
+- Existing collector confidence
+- Multi-source confirmation
+
+Output:
+confidence score + confidence level
 """
+
+
+SOURCE_WEIGHTS = {
+
+    "cisa": 20,
+
+    "nasa": 15,
+
+    "opensky": 10,
+
+    "aisstream": 10,
+
+    "gdacs": 15,
+
+    "un": 10,
+
+    "bbc": 10,
+
+    "reuters": 15,
+
+    "crisis group": 10
+
+}
+
+
+
+def calculate_source_bonus(source):
+
+
+    bonus = 0
+
+
+
+    if isinstance(source, list):
+
+        source_text = " ".join(
+            source
+        ).lower()
+
+    else:
+
+        source_text = str(
+            source
+        ).lower()
+
+
+
+    for name, weight in SOURCE_WEIGHTS.items():
+
+        if name in source_text:
+
+            bonus += weight
+
+
+
+    return bonus
+
+
 
 
 def apply_confidence(events):
@@ -16,56 +79,61 @@ def apply_confidence(events):
 
 
         score = event.get(
+
             "confidence",
+
             50
+
         )
+
 
 
         source = event.get(
+
             "source",
+
             []
+
         )
 
 
-        # Convert source list into searchable text
 
-        if isinstance(source, list):
+        score += calculate_source_bonus(
 
-            source_text = " ".join(source).lower()
+            source
 
-        else:
-
-            source_text = str(source).lower()
+        )
 
 
 
-        if "nasa" in source_text:
+        verification = event.get(
 
-            score += 20
+            "verification",
 
+            {}
 
-
-        if "opensky" in source_text:
-
-            score += 15
+        )
 
 
 
-        if "cisa" in source_text:
+        source_count = verification.get(
 
-            score += 20
+            "source_count",
 
+            1
 
-
-        if "acled" in source_text:
-
-            score += 20
+        )
 
 
 
-        if "reuters" in source_text:
+        if source_count > 1:
 
-            score += 15
+
+            score += (
+
+                source_count * 5
+
+            )
 
 
 
@@ -81,20 +149,27 @@ def apply_confidence(events):
 
         if score >= 90:
 
+
             event["confidence_level"] = "verified"
+
 
 
         elif score >= 70:
 
+
             event["confidence_level"] = "high"
+
 
 
         elif score >= 40:
 
+
             event["confidence_level"] = "medium"
 
 
+
         else:
+
 
             event["confidence_level"] = "low"
 

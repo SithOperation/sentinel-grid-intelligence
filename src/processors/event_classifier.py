@@ -1,7 +1,10 @@
 """
 Event Classification Engine
 
-Assigns intelligence categories.
+Assigns broad intelligence categories.
+
+Preserves detailed classifications
+created by collectors.
 """
 
 
@@ -10,10 +13,6 @@ def classify_events(events):
 
     for event in events:
 
-        # Preserve existing intelligence classifications
-        if event.get("classification") not in [None, "", "general"]:
-
-            continue
 
         text = (
 
@@ -38,10 +37,15 @@ def classify_events(events):
                    "missile",
                    "strike",
                    "attack",
-                   "battle"
+                   "battle",
+                   "war",
+                   "troops"
                ]):
 
-            event["classification"] = "conflict"
+            event.setdefault(
+                "category",
+                "conflict"
+            )
 
 
 
@@ -49,10 +53,16 @@ def classify_events(events):
                  [
                      "cyber",
                      "malware",
-                     "ransomware"
+                     "ransomware",
+                     "vulnerability",
+                     "exploit",
+                     "cve"
                  ]):
 
-            event["classification"] = "cyber"
+            event.setdefault(
+                "category",
+                "cyber"
+            )
 
 
 
@@ -63,7 +73,10 @@ def classify_events(events):
                      "naval"
                  ]):
 
-            event["classification"] = "maritime"
+            event.setdefault(
+                "category",
+                "maritime"
+            )
 
 
 
@@ -73,13 +86,19 @@ def classify_events(events):
                      "flight"
                  ]):
 
-            event["classification"] = "air"
+            event.setdefault(
+                "category",
+                "air"
+            )
 
 
 
         else:
 
-            event["classification"] = "general"
+            event.setdefault(
+                "category",
+                "general"
+            )
 
 
 

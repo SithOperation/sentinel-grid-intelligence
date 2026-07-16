@@ -1,116 +1,122 @@
 """
-Satellite Intelligence Collector
+Satellite / Earth Observation Intelligence Collector
 
-Purpose:
-Track satellite-based observations.
-
-Future integrations:
-- NASA FIRMS
-- Sentinel Hub
-- NOAA satellite data
+Source:
+- NASA EONET API
 
 Tracks:
-- thermal anomalies
-- fires
-- environmental events
-- observation points
+- wildfire events
+- volcanic activity
+- storms
+- natural events
+
+Output:
+Sentinel Grid standardized event format
 """
 
 
-import datetime
-import uuid
+from api.nasa_eonet import fetch
+from models.event_model import create_event
 
 
 
-def collect_satellite():
+def create_satellite_event(event):
 
 
-    events = []
+    categories = event.get(
+        "categories",
+        []
+    )
 
 
-    event = {
+    geometry = event.get(
+        "geometry",
+        []
+    )
 
 
-        "event_id":
+    coordinates = {
 
-        "SG-" + str(uuid.uuid4())[:8],
+        "latitude": 0,
 
+        "longitude": 0
 
-
-        "event_type":
-
-        "satellite",
-
-
-
-        "classification":
-
-        "satellite_observation",
-
-
-
-        "priority":
-
-        "medium",
+    }
 
 
 
-        "title":
-
-        "Satellite observation detected",
+    if geometry:
 
 
-
-        "description":
-
-        "Satellite-based intelligence observation placeholder",
+        latest = geometry[-1]
 
 
+        coords = latest.get(
+            "coordinates",
+            []
+        )
 
-        "source":
 
-        [
+        if len(coords) >= 2:
 
-            "NASA FIRMS"
+
+            coordinates = {
+
+
+                "longitude":
+
+                coords[0],
+
+
+                "latitude":
+
+                coords[1]
+
+            }
+
+
+
+    category_name = (
+
+        categories[0].get(
+            "title"
+        )
+
+        if categories
+
+        else
+
+        "Earth observation event"
+
+    )
+
+
+
+    event_record = create_event(
+
+        event_type="satellite",
+
+        classification="earth_observation",
+
+        priority="medium",
+
+        title=event.get(
+
+            "title",
+
+            "Satellite observation event"
+
+        ),
+
+        description=category_name,
+
+        source=[
+
+            "NASA EONET"
 
         ],
 
-
-
-        "timestamp":
-
-        datetime.datetime.now(
-            datetime.UTC
-        ).isoformat(),
-
-
-
-        "observation":
-
-        {
-
-
-            "type":
-
-            "thermal_anomaly",
-
-
-            "sensor":
-
-            "UNKNOWN",
-
-
-            "confidence":
-
-            0
-
-        },
-
-
-
-        "location":
-
-        {
+        location={
 
 
             "country":
@@ -125,54 +131,108 @@ def collect_satellite():
 
             "latitude":
 
-            0,
+            coordinates["latitude"],
 
 
             "longitude":
 
-            0
+            coordinates["longitude"]
 
         },
 
+        confidence=80
 
-
-        "actors":
-
-        [
-
-            "Unknown"
-
-        ],
+    )
 
 
 
-        "confidence":
-
-        70,
+    event_record["observation"] = {
 
 
+        "category":
 
-        "verification":
-
-        {
-
-
-            "confirmed":
-
-            False,
+        category_name,
 
 
-            "source_count":
+        "event_id":
 
-            1
-
-        }
+        event.get(
+            "id"
+        )
 
     }
 
 
 
-    events.append(event)
+    event_record["verification"] = {
+
+
+        "confirmed":
+
+        True,
+
+
+        "source_count":
+
+        1
+
+    }
+
+
+
+    return event_record
+
+
+
+
+def collect_satellite():
+
+
+    events = []
+
+
+
+    try:
+
+
+        nasa_events = fetch()
+
+
+
+        for event in nasa_events[:25]:
+
+
+            events.append(
+
+                create_satellite_event(
+
+                    event
+
+                )
+
+            )
+
+
+
+        print(
+
+            f"[+] NASA satellite events collected {len(events)} events"
+
+        )
+
+
+
+    except Exception as error:
+
+
+        print(
+
+            "[!] NASA satellite events failed:",
+
+            error
+
+        )
+
 
 
     return events

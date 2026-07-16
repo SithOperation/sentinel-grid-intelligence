@@ -7,6 +7,7 @@ Creates:
 - regional activity summaries
 - event counts
 - threat levels
+- activity levels
 """
 
 
@@ -26,53 +27,74 @@ def determine_region(event):
 
 
 
-    # Future expansion:
-    # Add country databases later
-
-
     europe = [
 
         "ukraine",
-
         "russia",
-
         "poland",
-
         "belarus",
-
-        "romania"
+        "romania",
+        "germany",
+        "france",
+        "united kingdom",
+        "finland",
+        "sweden",
+        "norway"
 
     ]
+
 
 
     middle_east = [
 
         "iran",
-
         "iraq",
-
         "israel",
-
         "syria",
-
         "lebanon",
-
-        "yemen"
+        "yemen",
+        "saudi arabia",
+        "jordan"
 
     ]
 
 
-    asia = [
+
+    indo_pacific = [
 
         "china",
-
         "taiwan",
-
         "japan",
-
         "north korea",
+        "south korea",
+        "philippines",
+        "australia"
 
-        "south korea"
+    ]
+
+
+
+    africa = [
+
+        "sudan",
+        "ethiopia",
+        "somalia",
+        "nigeria",
+        "libya",
+        "mali"
+
+    ]
+
+
+
+    americas = [
+
+        "united states",
+        "usa",
+        "canada",
+        "mexico",
+        "brazil",
+        "colombia"
 
     ]
 
@@ -90,13 +112,79 @@ def determine_region(event):
 
 
 
-    if country in asia:
+    if country in indo_pacific:
 
         return "Indo-Pacific"
 
 
 
+    if country in africa:
+
+        return "Africa"
+
+
+
+    if country in americas:
+
+        return "Americas"
+
+
+
     return "Unknown"
+
+
+
+
+
+def determine_activity_level(event_count):
+
+
+    if event_count >= 25:
+
+        return "SEVERE"
+
+
+
+    if event_count >= 10:
+
+        return "ELEVATED"
+
+
+
+    if event_count >= 3:
+
+        return "ACTIVE"
+
+
+
+    return "LOW"
+
+
+
+
+
+def determine_threat_level(score):
+
+
+    if score >= 85:
+
+        return "CRITICAL"
+
+
+
+    if score >= 60:
+
+        return "HIGH"
+
+
+
+    if score >= 35:
+
+        return "MEDIUM"
+
+
+
+    return "LOW"
 
 
 
@@ -112,7 +200,9 @@ def analyze_regions(events):
     for event in events:
 
 
-        region = determine_region(event)
+        region = determine_region(
+            event
+        )
 
 
 
@@ -120,6 +210,11 @@ def analyze_regions(events):
 
 
             regions[region] = {
+
+
+                "region":
+
+                region,
 
 
                 "event_count":
@@ -137,6 +232,11 @@ def analyze_regions(events):
                 0,
 
 
+                "activity_level":
+
+                "LOW",
+
+
                 "events":
 
                 []
@@ -152,8 +252,11 @@ def analyze_regions(events):
         regions[region]["events"].append(
 
             event.get(
+
                 "title",
+
                 "Unknown Event"
+
             )
 
         )
@@ -161,46 +264,38 @@ def analyze_regions(events):
 
 
         score = event.get(
+
             "threat_score",
+
             0
+
         )
 
 
 
         if score > regions[region]["threat_score"]:
 
+
             regions[region]["threat_score"] = score
 
 
 
-    # Convert scores to levels
+    for region, data in regions.items():
 
 
-    for region in regions:
+        data["highest_threat"] = determine_threat_level(
+
+            data["threat_score"]
+
+        )
 
 
-        score = regions[region]["threat_score"]
 
+        data["activity_level"] = determine_activity_level(
 
+            data["event_count"]
 
-        if score >= 85:
-
-            regions[region]["highest_threat"] = "CRITICAL"
-
-
-        elif score >= 60:
-
-            regions[region]["highest_threat"] = "HIGH"
-
-
-        elif score >= 35:
-
-            regions[region]["highest_threat"] = "MEDIUM"
-
-
-        else:
-
-            regions[region]["highest_threat"] = "LOW"
+        )
 
 
 

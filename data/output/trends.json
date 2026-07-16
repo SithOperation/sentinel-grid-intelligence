@@ -1,20 +1,66 @@
 {
-    "total_events": 6,
+    "total_events": 523,
     "event_types": {
-        "news": 1,
-        "aircraft": 1,
+        "news": 111,
+        "aircraft": 92,
         "maritime": 1,
-        "satellite": 1,
-        "cyber": 1,
-        "humanitarian": 1
+        "satellite": 97,
+        "cyber": 101,
+        "humanitarian": 37,
+        "conflict": 84
     },
     "threat_levels": {
-        "LOW": 1,
-        "MEDIUM": 4,
-        "CRITICAL": 1
+        "LOW": 72,
+        "MEDIUM": 251,
+        "CRITICAL": 91,
+        "HIGH": 109
     },
     "priority_levels": {
         "unknown": 1,
-        "medium": 5
-    }
+        "medium": 302,
+        "high": 220
+    },
+    "sources": {
+        "OSINT News Feed": 1,
+        "OpenSky Network": 200,
+        "AIS Public Data": 1,
+        "NASA FIRMS": 1,
+        "Threat Intelligence Feed": 1,
+        "Humanitarian Database": 1,
+        "BBC World News": 49,
+        "UN News": 65,
+        "Crisis Group": 70,
+        "BBC World": 10,
+        "NASA EONET": 99,
+        "CISA KEV": 100,
+        "GDACS": 39
+    },
+    "regions": {
+        "Unknown": 329,
+        "Iran": 57,
+        "China": 4,
+        "Ukraine": 15,
+        "Palestine": 5,
+        "Israel": 22,
+        "France": 16,
+        "Germany": 5,
+        "Chile": 1,
+        "India": 15,
+        "Switzerland": 3,
+        "Australia": 4,
+        "Indonesia": 6,
+        "San Marino": 4,
+        "United States": 11,
+        "South Africa": 4,
+        "Poland": 1,
+        "United Kingdom": 5,
+        "Norway": 1,
+        "Estonia": 4,
+        "Austria": 4,
+        "Japan": 3,
+        "Hungary": 2,
+        "Sweden": 1,
+        "Romania": 1
+    },
+    "average_confidence": 84.76
 }

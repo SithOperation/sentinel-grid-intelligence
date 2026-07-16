@@ -2,163 +2,241 @@
 Conflict Intelligence Collector
 
 Source:
-GDELT Project
+News API abstraction layer
 
-Collects global conflict-related events
-and converts them into Sentinel Grid format.
+Tracks:
+- conflict reporting
+- geopolitical instability
+- military activity
+- humanitarian conflict events
+
+Output:
+Sentinel Grid standardized event format
 """
 
-import requests
-import datetime
-import uuid
+
+from api.news import fetch
+from models.event_model import create_event
 
 
-GDELT_URL = (
-    "https://api.gdeltproject.org/api/v2/doc/doc"
-)
+
+CONFLICT_KEYWORDS = [
+
+    "war",
+    "conflict",
+    "attack",
+    "military",
+    "missile",
+    "strike",
+    "airstrike",
+    "troops",
+    "invasion",
+    "weapon",
+    "armed",
+    "violence",
+    "battle",
+    "ceasefire"
+
+]
+
+
+
+def is_conflict_related(text):
+
+    text = text.lower()
+
+
+    for word in CONFLICT_KEYWORDS:
+
+        if word in text:
+
+            return True
+
+
+    return False
+
+
+
+
+def create_conflict_event(article):
+
+
+    source = article.get(
+
+        "source",
+
+        "Unknown"
+
+    )
+
+
+    event = create_event(
+
+        event_type="conflict",
+
+        classification="conflict_report",
+
+        priority="high",
+
+        title=article.get(
+
+            "title",
+
+            "Conflict Intelligence Report"
+
+        ),
+
+        description=article.get(
+
+            "description",
+
+            ""
+
+        ),
+
+        source=[
+
+            source
+
+        ],
+
+        confidence=70
+
+    )
+
+
+    event["equipment"] = []
+
+
+    event["verification"] = {
+
+
+        "confirmed":
+
+        False,
+
+
+        "source_count":
+
+        1
+
+    }
+
+
+    return event
+
+
 
 
 def collect_conflicts():
 
     events = []
 
-    query = (
-        "war OR conflict OR missile OR "
-        "airstrike OR artillery OR invasion"
+
+    print(
+
+        "[+] Collecting conflict intelligence"
+
     )
-
-
-    params = {
-
-        "query": query,
-
-        "mode": "artlist",
-
-        "maxrecords": 10,
-
-        "format": "json"
-
-    }
 
 
     try:
 
-        response = requests.get(
-            GDELT_URL,
-            params=params,
-            timeout=15
-        )
+        articles = fetch()
 
 
-        response.raise_for_status()
+        source_counts = {}
 
-
-        data = response.json()
-
-
-        articles = data.get(
-            "articles",
-            []
-        )
 
 
         for article in articles:
 
-            event = {
 
-                "event_id":
-                f"SG-{uuid.uuid4().hex[:8]}",
+            text = (
 
-
-                "event_type":
-                "conflict",
-
-
-                "classification":
-                "conflict_report",
-
-
-                "priority":
-                "high",
-
-
-                "title":
                 article.get(
+
                     "title",
-                    "Conflict report"
-                ),
 
+                    ""
 
-                "description":
+                )
+
+                +
+
                 article.get(
-                    "seendate",
-                    "Open source conflict intelligence"
-                ),
+
+                    "description",
+
+                    ""
+
+                )
+
+            )
 
 
-                "source":
-                [
-                    article.get(
-                        "domain",
-                        "GDELT"
+
+            if is_conflict_related(text):
+
+
+                event = create_conflict_event(
+
+                    article
+
+                )
+
+
+                events.append(
+
+                    event
+
+                )
+
+
+
+                source = article.get(
+
+                    "source",
+
+                    "Unknown"
+
+                )
+
+
+                source_counts[source] = (
+
+                    source_counts.get(
+
+                        source,
+
+                        0
+
                     )
-                ],
+
+                    + 1
+
+                )
 
 
-                "timestamp":
-                datetime.datetime.now(
-                    datetime.UTC
-                ).isoformat(),
 
+        for source, count in source_counts.items():
 
-                "location":
-                {
+            print(
 
-                    "country":
-                    "Unknown",
+                f"[+] {source} conflict events: {count}"
 
-                    "region":
-                    "Unknown",
-
-                    "latitude":
-                    0,
-
-                    "longitude":
-                    0
-
-                },
-
-
-                "actors":
-                [],
-
-
-                "equipment":
-                [],
-
-
-                "verification":
-                {
-
-                    "confirmed":
-                    False,
-
-                    "source_count":
-                    1
-
-                }
-
-            }
-
-
-            events.append(event)
+            )
 
 
     except Exception as error:
 
+
         print(
-            "[!] GDELT conflict collector error:",
+
+            "[!] Conflict collector failed:",
+
             error
+
         )
 
 

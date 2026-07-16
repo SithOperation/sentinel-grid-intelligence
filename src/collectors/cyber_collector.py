@@ -1,204 +1,173 @@
 """
 Cyber Intelligence Collector
 
-Purpose:
-Track cybersecurity-related intelligence events.
-
-Future integrations:
-- CISA Alerts
-- CISA KEV Catalog
-- AlienVault OTX
-- Abuse.ch
-- CERT feeds
+Source:
+- CISA Known Exploited Vulnerabilities Catalog
 
 Tracks:
-- ransomware
-- malware
-- threat actors
-- targeted sectors
-- vulnerabilities
+- exploited vulnerabilities
+- vendors
+- products
+- CVE activity
+
+Output:
+Sentinel Grid standardized event format
 """
 
 
-import datetime
-import uuid
+from api.cisa import fetch
+from models.event_model import create_event
 
 
 
 def collect_cyber():
 
-
     events = []
 
 
-    event = {
+    try:
 
 
-        "event_id":
+        vulnerabilities = fetch()
 
-        "SG-" + str(uuid.uuid4())[:8],
 
 
+        for vuln in vulnerabilities[:25]:
 
-        "event_type":
 
-        "cyber",
+            event = create_event(
 
+                event_type="cyber",
 
+                classification="known_exploited_vulnerability",
 
-        "classification":
+                priority="high",
 
-        "cyber_attack",
+                title=vuln.get(
 
+                    "vulnerabilityName",
 
+                    "Unknown vulnerability"
 
-        "priority":
+                ),
 
-        "medium",
+                description=vuln.get(
 
+                    "shortDescription",
 
+                    ""
 
-        "title":
+                ),
 
-        "Cyber threat activity detected",
+                source=[
 
+                    "CISA KEV"
 
+                ],
 
-        "description":
+                confidence=90
 
-        "Open source cybersecurity intelligence placeholder",
+            )
 
 
 
-        "source":
+            event["threat"] = {
 
-        [
 
-            "Threat Intelligence Feed"
+                "cve":
 
-        ],
+                vuln.get(
 
+                    "cveID"
 
+                ),
 
-        "timestamp":
 
-        datetime.datetime.now(
-            datetime.UTC
-        ).isoformat(),
+                "vendor":
 
+                vuln.get(
 
+                    "vendorProject"
 
-        "threat":
+                ),
 
-        {
 
+                "product":
 
-            "actor":
+                vuln.get(
 
-            "UNKNOWN",
+                    "product"
 
+                )
 
-            "malware":
+            }
 
-            "UNKNOWN",
 
 
-            "technique":
+            event["target"] = {
 
-            "UNKNOWN"
 
-        },
+                "sector":
 
+                "UNKNOWN",
 
 
-        "target":
+                "organization":
 
-        {
+                "UNKNOWN",
 
 
-            "sector":
+                "country":
 
-            "UNKNOWN",
+                "UNKNOWN"
 
+            }
 
-            "organization":
 
-            "UNKNOWN",
 
+            event["verification"] = {
 
-            "country":
 
-            "UNKNOWN"
+                "confirmed":
 
-        },
+                True,
 
 
+                "source_count":
 
-        "location":
+                1
 
-        {
+            }
 
 
-            "country":
 
-            "Unknown",
+            events.append(
 
+                event
 
-            "region":
+            )
 
-            "Unknown",
 
 
-            "latitude":
+        print(
 
-            0,
+            f"[+] CISA cyber collected {len(events)} events"
 
+        )
 
-            "longitude":
 
-            0
 
-        },
+    except Exception as error:
 
 
+        print(
 
-        "actors":
+            "[!] Cyber collector failed:",
 
-        [
+            error
 
-            "Unknown"
+        )
 
-        ],
-
-
-
-        "confidence":
-
-        50,
-
-
-
-        "verification":
-
-        {
-
-
-            "confirmed":
-
-            False,
-
-
-            "source_count":
-
-            1
-
-        }
-
-    }
-
-
-
-    events.append(event)
 
 
     return events

@@ -1,31 +1,25 @@
 """
-OpenSky Network API Client
+NASA EONET API Client
 
 Source:
-OpenSky Network
+NASA Earth Observatory Natural Event Tracker
 
 Provides:
-- aircraft ICAO
-- callsign
-- origin country
-- position
-- altitude
-- velocity
-- heading
+- wildfire events
+- volcanic activity
+- storms
+- natural earth observations
 """
 
 
 import requests
-import os
 
 
+EONET_URL = (
 
-OPENSKY_URL = (
-
-    "https://opensky-network.org/api/states/all"
+    "https://eonet.gsfc.nasa.gov/api/v3/events"
 
 )
-
 
 
 HEADERS = {
@@ -38,21 +32,21 @@ HEADERS = {
 
 
 
-
 def fetch():
 
-
     """
-    Retrieve current aircraft states.
+    Retrieve NASA EONET events.
+
+    Returns:
+        list of NASA event objects
     """
 
 
     try:
 
-
         response = requests.get(
 
-            OPENSKY_URL,
+            EONET_URL,
 
             headers=HEADERS,
 
@@ -67,15 +61,13 @@ def fetch():
         data = response.json()
 
 
-
         return data.get(
 
-            "states",
+            "events",
 
             []
 
         )
-
 
 
     except Exception as error:
@@ -83,7 +75,7 @@ def fetch():
 
         print(
 
-            "[!] OpenSky API failed:",
+            "[!] NASA EONET API failed:",
 
             error
 

@@ -2,11 +2,15 @@
 Sentinel Grid Data Normalizer
 
 Converts incoming intelligence events
-into a standard format.
+into the Sentinel Grid standard format.
+
+Preserves existing intelligence data.
 """
 
-import uuid
+
 import datetime
+from datetime import timezone
+
 
 
 def normalize_events(events):
@@ -16,46 +20,79 @@ def normalize_events(events):
 
     for event in events:
 
-        event["event_id"] = (
-            "SG-" +
-            str(uuid.uuid4())[:8]
+
+        # Preserve existing event IDs
+        event.setdefault(
+            "event_id",
+            "SG-UNKNOWN"
         )
 
 
+        # Ensure timestamp exists
         event.setdefault(
             "timestamp",
-            datetime.datetime.now(datetime.UTC).isoformat()
+            datetime.datetime.now(
+                timezone.utc
+            ).isoformat()
         )
 
 
-        event.setdefault(
-            "verified",
-            False
-        )
-
-
+        # Standard confidence
         event.setdefault(
             "confidence",
             50
         )
 
 
+        # Standard category
         event.setdefault(
             "category",
-            "unknown"
+            event.get(
+                "classification",
+                "unknown"
+            )
         )
 
 
+        # Standard location
         event.setdefault(
             "location",
             {
-                "latitude": 0,
-                "longitude": 0
+
+                "country":
+                "Unknown",
+
+                "region":
+                "Unknown",
+
+                "latitude":
+                0,
+
+                "longitude":
+                0
+
             }
         )
 
 
-        normalized.append(event)
+        # Standard verification
+        event.setdefault(
+            "verification",
+            {
+
+                "confirmed":
+                False,
+
+                "source_count":
+                1
+
+            }
+        )
+
+
+        normalized.append(
+            event
+        )
 
 
     return normalized

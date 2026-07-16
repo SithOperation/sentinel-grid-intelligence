@@ -7,22 +7,52 @@ Creates:
 - conflict activity level
 - indicators
 - regional summaries
+- threat assessment
 """
+
+
+CONFLICT_INDICATORS = [
+
+    "missile",
+
+    "airstrike",
+
+    "strike",
+
+    "attack",
+
+    "artillery",
+
+    "troops",
+
+    "invasion",
+
+    "battle",
+
+    "ceasefire",
+
+    "military",
+
+    "weapon"
+
+]
+
 
 
 def analyze_conflicts(events):
 
 
-    conflict_events = []
+    conflict_events = [
 
+        event
 
-    for event in events:
+        for event in events
 
         if event.get(
             "event_type"
-        ) == "conflict":
+        ) == "conflict"
 
-            conflict_events.append(event)
+    ]
 
 
 
@@ -34,17 +64,19 @@ def analyze_conflicts(events):
         len(conflict_events),
 
 
-
         "activity_level":
 
         "LOW",
-
 
 
         "indicators":
 
         [],
 
+
+        "regions":
+
+        {},
 
 
         "assessment":
@@ -55,45 +87,152 @@ def analyze_conflicts(events):
 
 
 
-    if len(conflict_events) > 0:
+    if not conflict_events:
+
+        return analysis
+
+
+
+    indicator_set = set()
+
+
+
+    region_count = {}
+
+
+
+    highest_threat = 0
+
+
+
+    for event in conflict_events:
+
+
+        text = (
+
+            str(event.get(
+                "title",
+                ""
+            ))
+
+            +
+
+            str(event.get(
+                "description",
+                ""
+            ))
+
+        ).lower()
+
+
+
+        for indicator in CONFLICT_INDICATORS:
+
+
+            if indicator in text:
+
+                indicator_set.add(
+
+                    indicator
+
+                )
+
+
+
+        threat_score = event.get(
+
+            "threat_score",
+
+            0
+
+        )
+
+
+
+        if threat_score > highest_threat:
+
+            highest_threat = threat_score
+
+
+
+        location = event.get(
+
+            "location",
+
+            {}
+
+        )
+
+
+        region = location.get(
+
+            "region",
+
+            "Unknown"
+
+        )
+
+
+        region_count[region] = (
+
+            region_count.get(
+
+                region,
+
+                0
+
+            )
+
+            +
+
+            1
+
+        )
+
+
+
+    analysis["indicators"] = list(
+
+        indicator_set
+
+    )
+
+
+
+    analysis["regions"] = region_count
+
+
+
+    if highest_threat >= 85:
+
+
+        analysis["activity_level"] = "CRITICAL"
+
+
+
+    elif highest_threat >= 60:
 
 
         analysis["activity_level"] = "HIGH"
 
 
-        analysis["indicators"].append(
-            "Conflict activity detected"
-        )
+
+    else:
 
 
-        for event in conflict_events:
+        analysis["activity_level"] = "ELEVATED"
 
 
-            classification = event.get(
-                "classification",
-                ""
-            )
 
+    analysis["assessment"] = (
 
-            if "artillery" in classification:
+        f"{len(conflict_events)} conflict events analyzed. "
 
+        f"Indicators detected: "
 
-                analysis["indicators"].append(
-                    "Artillery activity"
-                )
+        f"{', '.join(analysis['indicators']) or 'none'}."
 
-
-            if "missile" in classification:
-
-
-                analysis["indicators"].append(
-                    "Missile activity"
-                )
-
-
-        analysis["assessment"] = (
-            "Elevated military activity detected"
-        )
+    )
 
 
 

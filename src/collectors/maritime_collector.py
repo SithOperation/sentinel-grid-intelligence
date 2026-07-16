@@ -1,132 +1,102 @@
 """
 Maritime Intelligence Collector
 
-Purpose:
-Track maritime activity and vessel intelligence.
-
-Future integrations:
-- AISStream
-- VesselFinder
-- MarineTraffic
+Source:
+AISStream API
 
 Tracks:
-- vessel position
-- vessel type
-- heading
+- vessel positions
+- MMSI
+- vessel name
 - speed
-- identity
+- heading
+- navigation activity
+
+API authentication handled by:
+src/api/aisstream.py
+
+Requires:
+AISSTREAM_API_KEY environment variable
+
+Output:
+Sentinel Grid standardized event format
 """
 
 
-import datetime
-import uuid
+from api.aisstream import fetch
+from models.event_model import create_event
 
 
 
-def collect_maritime():
+def create_maritime_event(message):
 
 
-    events = []
+    metadata = message.get(
+
+        "MetaData",
+
+        {}
+
+    )
 
 
-    event = {
+    position = message.get(
+
+        "Message",
+
+        {}
+
+    )
 
 
-        "event_id":
+    ship = position.get(
 
-        "SG-" + str(uuid.uuid4())[:8],
+        "PositionReport",
 
+        {}
 
-
-        "event_type":
-
-        "maritime",
-
-
-
-        "classification":
-
-        "naval_activity",
-
-
-
-        "priority":
-
-        "medium",
-
-
-
-        "title":
-
-        "Maritime activity detected",
+    )
 
 
 
-        "description":
+    latitude = ship.get(
 
-        "Open source vessel observation",
+        "Latitude",
+
+        0
+
+    )
+
+
+    longitude = ship.get(
+
+        "Longitude",
+
+        0
+
+    )
 
 
 
-        "source":
+    event = create_event(
 
-        [
+        event_type="maritime",
 
-            "AIS Public Data"
+        classification="vessel_activity",
+
+        priority="medium",
+
+        title="AIS vessel activity detected",
+
+        description="Open source maritime vessel observation",
+
+        source=[
+
+            "AISStream"
 
         ],
 
-
-
-        "timestamp":
-
-        datetime.datetime.now(
-            datetime.UTC
-        ).isoformat(),
-
-
-
-        "vessel":
-
-        {
-
-
-            "name":
-
-            "UNKNOWN",
-
-
-            "mmsi":
-
-            "UNKNOWN",
-
-
-            "type":
-
-            "UNKNOWN",
-
-
-            "flag":
-
-            "UNKNOWN",
-
-
-            "speed":
-
-            0,
-
-
-            "heading":
-
-            0
-
-        },
-
-
-
-        "location":
-
-        {
+        location={
 
 
             "country":
@@ -141,64 +111,159 @@ def collect_maritime():
 
             "latitude":
 
-            0,
+            latitude,
 
 
             "longitude":
 
-            0
+            longitude
 
         },
 
+        confidence=75
 
-
-        "actors":
-
-        [
-
-            "Unknown"
-
-        ],
+    )
 
 
 
-        "equipment":
-
-        [
-
-            "Unknown"
-
-        ],
+    event["vessel"] = {
 
 
+        "mmsi":
 
-        "confidence":
+        metadata.get(
 
-        50,
+            "MMSI",
 
+            "UNKNOWN"
 
-
-        "verification":
-
-        {
-
-
-            "confirmed":
-
-            False,
+        ),
 
 
-            "source_count":
 
-            1
+        "name":
 
-        }
+        metadata.get(
+
+            "ShipName",
+
+            "UNKNOWN"
+
+        ),
+
+
+
+        "latitude":
+
+        latitude,
+
+
+
+        "longitude":
+
+        longitude,
+
+
+
+        "speed":
+
+        ship.get(
+
+            "Sog",
+
+            0
+
+        ),
+
+
+
+        "heading":
+
+        ship.get(
+
+            "Cog",
+
+            0
+
+        )
 
     }
 
 
 
-    events.append(event)
+    event["verification"] = {
+
+
+        "confirmed":
+
+        True,
+
+
+        "source_count":
+
+        1
+
+    }
+
+
+
+    return event
+
+
+
+
+def collect_maritime():
+
+
+    events = []
+
+
+
+    try:
+
+
+        messages = fetch(
+
+            limit=25
+
+        )
+
+
+
+        for message in messages:
+
+
+            events.append(
+
+                create_maritime_event(
+
+                    message
+
+                )
+
+            )
+
+
+
+        print(
+
+            f"[+] AISStream collected {len(events)} vessel events"
+
+        )
+
+
+
+    except Exception as error:
+
+
+        print(
+
+            "[!] Maritime collector failed:",
+
+            error
+
+        )
+
 
 
     return events

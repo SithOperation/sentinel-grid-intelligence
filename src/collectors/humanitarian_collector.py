@@ -1,26 +1,131 @@
 """
 Humanitarian Intelligence Collector
 
-Purpose:
-Track humanitarian and crisis-related events.
-
-Future integrations:
-- UN OCHA
-- ReliefWeb
-- WHO
-- FEMA
-- World Food Programme
+Source:
+- GDACS Global Disaster Alert and Coordination System
 
 Tracks:
-- displacement
-- disasters
-- casualties
-- humanitarian needs
+- earthquakes
+- floods
+- storms
+- volcanoes
+- major disasters
+
+Output:
+Sentinel Grid standardized event format
 """
 
 
-import datetime
-import uuid
+from api.gdacs import fetch
+from models.event_model import create_event
+
+
+
+def create_humanitarian_event(item):
+
+
+    title = (
+
+        item.findtext(
+            "title"
+        )
+
+        or
+
+        "Global disaster event"
+
+    )
+
+
+    description = (
+
+        item.findtext(
+            "description"
+        )
+
+        or
+
+        ""
+
+    )
+
+
+    link = (
+
+        item.findtext(
+            "link"
+        )
+
+        or
+
+        ""
+
+    )
+
+
+
+    event = create_event(
+
+        event_type="humanitarian",
+
+        classification="disaster_alert",
+
+        priority="high",
+
+        title=title,
+
+        description=description[:500],
+
+        source=[
+
+            "GDACS"
+
+        ],
+
+        confidence=80
+
+    )
+
+
+
+    event["url"] = link
+
+
+
+    event["crisis"] = {
+
+
+        "type":
+
+        "global_disaster_alert",
+
+
+        "severity":
+
+        "unknown"
+
+    }
+
+
+
+    event["verification"] = {
+
+
+        "confirmed":
+
+        True,
+
+
+        "source_count":
+
+        1
+
+    }
+
+
+
+    return event
+
 
 
 
@@ -30,151 +135,54 @@ def collect_humanitarian():
     events = []
 
 
-    event = {
 
+    try:
 
-        "event_id":
 
-        "SG-" + str(uuid.uuid4())[:8],
+        disaster_items = fetch()
 
 
 
-        "event_type":
+        for item in disaster_items:
 
-        "humanitarian",
 
+            events.append(
 
+                create_humanitarian_event(
 
-        "classification":
+                    item
 
-        "humanitarian_crisis",
+                )
 
+            )
 
 
-        "priority":
 
-        "medium",
+            if len(events) >= 10:
 
+                break
 
 
-        "title":
 
-        "Humanitarian situation detected",
+        print(
 
+            f"[+] GDACS humanitarian collected {len(events)} events"
 
+        )
 
-        "description":
 
-        "Open source humanitarian intelligence placeholder",
 
+    except Exception as error:
 
 
-        "source":
+        print(
 
-        [
+            "[!] GDACS humanitarian collector failed:",
 
-            "Humanitarian Database"
+            error
 
-        ],
+        )
 
-
-
-        "timestamp":
-
-        datetime.datetime.now(
-            datetime.UTC
-        ).isoformat(),
-
-
-
-        "crisis":
-
-        {
-
-
-            "type":
-
-            "UNKNOWN",
-
-
-            "severity":
-
-            "UNKNOWN",
-
-
-            "affected_population":
-
-            0
-
-        },
-
-
-
-        "location":
-
-        {
-
-
-            "country":
-
-            "Unknown",
-
-
-            "region":
-
-            "Unknown",
-
-
-            "latitude":
-
-            0,
-
-
-            "longitude":
-
-            0
-
-        },
-
-
-
-        "actors":
-
-        [
-
-            "Unknown"
-
-        ],
-
-
-
-        "confidence":
-
-        50,
-
-
-
-        "verification":
-
-        {
-
-
-            "confirmed":
-
-            False,
-
-
-            "source_count":
-
-            1
-
-        }
-
-    }
-
-
-
-    events.append(event)
 
 
     return events
