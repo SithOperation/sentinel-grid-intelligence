@@ -6,6 +6,7 @@ import json
 import os
 import tempfile
 import uuid
+import hashlib
 
 from output.contracts import SCHEMA_VERSION, validate_artifacts
 
@@ -32,7 +33,13 @@ def publish_artifacts(artifacts, output_directory, max_file_size_mb=25):
         "schema_version": SCHEMA_VERSION,
         "publication_id": publication_id,
         "generated": datetime.now(timezone.utc).isoformat(),
-        "files": {name: len(payload) for name, payload in encoded.items()},
+        "files": {
+            name: {
+                "bytes": len(payload),
+                "sha256": hashlib.sha256(payload).hexdigest(),
+            }
+            for name, payload in encoded.items()
+        },
     }
 
     with tempfile.TemporaryDirectory(prefix="sentinel-stage-", dir=output_directory.parent) as stage:

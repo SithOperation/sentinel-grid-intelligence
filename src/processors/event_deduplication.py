@@ -67,6 +67,23 @@ def create_event_hash(event):
 
             ).hexdigest()
 
+    if event_type == "aircraft":
+        aircraft = event.get("aircraft", {})
+        sensor_identity = clean(aircraft.get("icao")) + clean(event.get("timestamp"))
+        if sensor_identity:
+            return hashlib.sha256(sensor_identity.encode()).hexdigest()
+
+    if event_type == "maritime":
+        vessel = event.get("vessel", {})
+        sensor_identity = clean(vessel.get("mmsi")) + clean(event.get("timestamp"))
+        if sensor_identity:
+            return hashlib.sha256(sensor_identity.encode()).hexdigest()
+
+    if event_type == "satellite":
+        observation_id = event.get("observation", {}).get("event_id")
+        if observation_id:
+            return hashlib.sha256(clean(observation_id).encode()).hexdigest()
+
 
 
     location = event.get(

@@ -116,6 +116,13 @@ $env:PYTHONPATH = "src"
 .\venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
+Publish the retained database without contacting external sources with:
+
+```powershell
+$env:PYTHONPATH = "src"
+.\venv\Scripts\python.exe src\main.py --publish-existing
+```
+
 
 ---
 

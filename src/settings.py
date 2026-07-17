@@ -23,6 +23,7 @@ DEFAULT_CONFIG = {
         "directory": "data/output",
         "max_map_events": 2000,
         "max_file_size_mb": 25,
+        "stale_after_minutes": 390,
     },
     "retention": {"max_age_days": 30, "max_events": 5000},
     "confidence": {"verified": 90, "high": 70, "medium": 40},
@@ -52,6 +53,7 @@ def load_config(path=CONFIG_PATH):
     for section, key in (
         ("output", "max_map_events"),
         ("output", "max_file_size_mb"),
+        ("output", "stale_after_minutes"),
         ("retention", "max_age_days"),
         ("retention", "max_events"),
     ):

@@ -23,6 +23,7 @@ JSON Output
 
 import datetime
 import time
+import argparse
 
 
 # Collectors
@@ -51,11 +52,12 @@ from output.dashboard_exporter import build_dashboard
 from intelligence.timeline_analysis import generate_timeline
 from intelligence.trend_analysis import analyze_trends
 from intelligence.map_generator import generate_map_events
-from storage.event_database import append_events, apply_retention, save_events
+from storage.event_database import append_events, apply_retention, load_events, save_events
 from settings import load_config, resolve_project_path, source_enabled
 from api.news import fetch as fetch_news_articles
 from output.contracts import SCHEMA_VERSION
 from output.publisher import publish_artifacts
+from output.health import build_health
 
 
 # Output location
@@ -66,13 +68,44 @@ LAST_COLLECTION_HEALTH = []
 
 
 def _health_record(name, started, count, status=None, detail=None):
+    checked_at = datetime.datetime.now(datetime.UTC).isoformat()
+    final_status = status or ("ok" if count else "no_data")
     return {
         "source": name,
-        "status": status or ("ok" if count else "no_data"),
+        "enabled": final_status != "disabled",
+        "status": final_status,
         "event_count": count,
         "duration_ms": round((time.monotonic() - started) * 1000),
-        "detail": detail,
+        "checked_at": checked_at,
+        "last_success": checked_at if final_status == "ok" else None,
+        "error": detail,
     }
+
+
+def _configured_sources():
+    return {
+        "news": source_enabled(CONFIG, "news"),
+        "conflict": source_enabled(CONFIG, "conflict"),
+        "opensky": source_enabled(CONFIG, "aircraft", "opensky"),
+        "aisstream": source_enabled(CONFIG, "maritime", "aisstream"),
+        "nasa_eonet": source_enabled(CONFIG, "satellite", "nasa_eonet"),
+        "cisa": source_enabled(CONFIG, "cyber"),
+        "gdacs": source_enabled(CONFIG, "humanitarian", "gdacs"),
+    }
+
+
+def _offline_health():
+    records = []
+    for name, enabled in _configured_sources().items():
+        record = _health_record(
+            name,
+            time.monotonic(),
+            0,
+            status="not_checked" if enabled else "disabled",
+        )
+        record["note"] = "Offline publication reused the retained database" if enabled else None
+        records.append(record)
+    return records
 
 def collect_all_sources():
 
@@ -87,22 +120,22 @@ def collect_all_sources():
     conflict_enabled = source_enabled(CONFIG, "conflict")
     started = time.monotonic()
     articles = fetch_news_articles() if news_enabled or conflict_enabled else []
-    if news_enabled or conflict_enabled:
-        health.append(_health_record("news_feeds", started, len(articles)))
+    news_fetch_started = started
 
 
     if source_enabled(CONFIG, "news"):
         print("[+] Collecting news intelligence")
         collected = collect_news(articles)
         events.extend(collected)
-        health.append(_health_record("news", time.monotonic(), len(collected)))
+        health.append(_health_record("news", news_fetch_started, len(collected)))
 
 
     if source_enabled(CONFIG, "conflict"):
         print("[+] Collecting conflict intelligence")
+        started = time.monotonic()
         collected = collect_conflicts(articles)
         events.extend(collected)
-        health.append(_health_record("conflict", time.monotonic(), len(collected)))
+        health.append(_health_record("conflict", started, len(collected)))
 
 
     if source_enabled(CONFIG, "aircraft", "opensky"):
@@ -144,6 +177,11 @@ def collect_all_sources():
         events.extend(collected)
         health.append(_health_record("gdacs", started, len(collected)))
 
+    present = {item["source"] for item in health}
+    for name, enabled in _configured_sources().items():
+        if not enabled and name not in present:
+            health.append(_health_record(name, time.monotonic(), 0, status="disabled"))
+
     global LAST_COLLECTION_HEALTH
     LAST_COLLECTION_HEALTH = health
     return events
@@ -176,7 +214,7 @@ def process_events(events):
 
 
 
-def main():
+def main(use_existing=False):
 
 
     print(
@@ -191,7 +229,12 @@ def main():
         """
     )
     
-    raw_events = collect_all_sources()
+    global LAST_COLLECTION_HEALTH
+    if use_existing:
+        raw_events = load_events()
+        LAST_COLLECTION_HEALTH = _offline_health()
+    else:
+        raw_events = collect_all_sources()
 
     processed_events = process_events(
         raw_events
@@ -202,9 +245,7 @@ def main():
         processed_events
     )
 
-    all_events = append_events(
-        processed_events
-    )
+    all_events = processed_events if use_existing else append_events(processed_events)
 
     # Historical merging can change source counts. These scorers are
     # idempotent, so the complete database can safely be refreshed each run.
@@ -262,17 +303,12 @@ def main():
         "total_events": len(all_events),
         "events": all_events,
     }
-    health = {
-        "schema_version": SCHEMA_VERSION,
-        "generated": generated,
-        "status": "healthy" if all(item["status"] == "ok" for item in LAST_COLLECTION_HEALTH) else "degraded",
-        "sources": LAST_COLLECTION_HEALTH,
-        "published_event_count": len(all_events),
-        "freshness": {
-            "oldest_event": min((event.get("timestamp", "") for event in all_events), default=None),
-            "newest_event": max((event.get("timestamp", "") for event in all_events), default=None),
-        },
-    }
+    health = build_health(
+        all_events,
+        LAST_COLLECTION_HEALTH,
+        generated,
+        CONFIG["output"]["stale_after_minutes"],
+    )
     artifacts = {
         "world_events.json": world_events,
         "intelligence_brief.json": intelligence_brief,
@@ -295,5 +331,11 @@ def main():
 
 
 if __name__ == "__main__":
-
-    main()
+    parser = argparse.ArgumentParser(description="Sentinel Grid intelligence publisher")
+    parser.add_argument(
+        "--publish-existing",
+        action="store_true",
+        help="Publish the retained database without contacting external sources",
+    )
+    arguments = parser.parse_args()
+    main(use_existing=arguments.publish_existing)

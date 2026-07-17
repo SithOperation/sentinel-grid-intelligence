@@ -2,6 +2,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+import os
 
 from intelligence.map_generator import generate_map_events
 from intelligence.threat_scoring import analyze_threats
@@ -17,6 +18,7 @@ import main as pipeline
 from output import dashboard_exporter
 from output.contracts import ContractError, SCHEMA_VERSION
 from output.publisher import publish_artifacts
+from output.health import build_health
 from storage.event_database import apply_retention
 from utils.sanitization import plain_text, safe_url
 from datetime import datetime, timedelta, timezone
@@ -89,6 +91,15 @@ class PipelineTests(unittest.TestCase):
         second_id = remove_duplicates([second])[0]["event_id"]
         self.assertEqual(first_id, second_id)
 
+    def test_aircraft_observations_are_not_collapsed_by_shared_title(self):
+        first = create_event("aircraft", "air_activity", "Aircraft activity detected")
+        first["timestamp"] = "2026-07-17T12:00:00+00:00"
+        first["aircraft"] = {"icao": "abc123"}
+        second = create_event("aircraft", "air_activity", "Aircraft activity detected")
+        second["timestamp"] = "2026-07-17T12:01:00+00:00"
+        second["aircraft"] = {"icao": "def456"}
+        self.assertEqual(len(remove_duplicates([first, second])), 2)
+
     def test_map_rejects_invalid_coordinates_but_keeps_equator(self):
         events = [
             {"event_id": "unknown", "location": {"latitude": 0, "longitude": 0}},
@@ -126,6 +137,7 @@ class PipelineTests(unittest.TestCase):
                 patch.object(pipeline, "collect_all_sources", return_value=[event]),
                 patch.object(event_database, "DATABASE_PATH", root / "events.json"),
                 patch.object(pipeline, "OUTPUT_DIRECTORY", root),
+                patch("output.publisher.os.replace", wraps=os.replace) as replace,
             ):
                 pipeline.main()
 
@@ -143,6 +155,24 @@ class PipelineTests(unittest.TestCase):
             self.assertTrue(all(path.exists() for path in expected))
             world = json.loads((root / "world_events.json").read_text(encoding="utf-8"))
             self.assertEqual(world["schema_version"], SCHEMA_VERSION)
+            manifest = json.loads((root / "manifest.json").read_text(encoding="utf-8"))
+            self.assertEqual(Path(replace.call_args_list[-1].args[1]).name, "manifest.json")
+            self.assertEqual(len(manifest["files"]["map_events.json"]["sha256"]), 64)
+
+    def test_offline_publication_does_not_call_collectors(self):
+        event = create_event("news", "report", "Stored event", source=["BBC"])
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            with (
+                patch.object(event_database, "DATABASE_PATH", root / "events.json"),
+                patch.object(pipeline, "OUTPUT_DIRECTORY", root),
+                patch.object(pipeline, "collect_all_sources", side_effect=AssertionError("network path called")),
+            ):
+                event_database.save_events([event])
+                pipeline.main(use_existing=True)
+            health = json.loads((root / "health.json").read_text(encoding="utf-8"))
+            self.assertEqual(health["status"], "degraded")
+            self.assertTrue(all(item["status"] in {"not_checked", "disabled"} for item in health["sources"]))
 
     def test_invalid_release_does_not_replace_current_output(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -165,6 +195,18 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(plain_text("<b>Hello</b><script>bad()</script>", 100), "Hello bad()")
         self.assertEqual(safe_url("javascript:alert(1)"), "")
         self.assertEqual(safe_url("https://example.com/report"), "https://example.com/report")
+
+    def test_health_marks_old_data_stale(self):
+        generated = datetime.now(timezone.utc)
+        old = generated - timedelta(hours=8)
+        health = build_health(
+            [{"timestamp": old.isoformat()}],
+            [{"source": "test", "status": "ok"}],
+            generated.isoformat(),
+            stale_after_minutes=390,
+        )
+        self.assertTrue(health["stale"])
+        self.assertTrue(health["degraded"])
 
 
 if __name__ == "__main__":
