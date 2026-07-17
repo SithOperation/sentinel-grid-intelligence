@@ -10,6 +10,7 @@ Preserves existing intelligence data.
 
 import datetime
 from datetime import timezone
+from utils.sanitization import plain_text, safe_url
 
 
 
@@ -19,6 +20,11 @@ def normalize_events(events):
 
 
     for event in events:
+
+        event["title"] = plain_text(event.get("title", "Unknown event"), 500)
+        event["description"] = plain_text(event.get("description", ""), 5000)
+        if "url" in event:
+            event["url"] = safe_url(event["url"])
 
 
         # Preserve existing event IDs
@@ -41,6 +47,11 @@ def normalize_events(events):
         event.setdefault(
             "confidence",
             50
+        )
+
+        event.setdefault(
+            "base_confidence",
+            event["confidence"]
         )
 
 

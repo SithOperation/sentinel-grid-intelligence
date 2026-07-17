@@ -15,7 +15,6 @@ Provides:
 
 import os
 import json
-import websocket
 
 
 AISSTREAM_URL = (
@@ -53,6 +52,8 @@ def fetch(limit=25):
 
 
     try:
+
+        import websocket
 
 
         ws = websocket.create_connection(

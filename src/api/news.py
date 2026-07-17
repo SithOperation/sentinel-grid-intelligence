@@ -105,7 +105,12 @@ def parse_feed(xml_data):
                     item.findtext(
                         "link",
                         ""
-                    )
+                    ),
+
+
+                    "published":
+
+                    item.findtext("pubDate", "")
 
                 }
 

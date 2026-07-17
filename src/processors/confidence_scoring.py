@@ -13,6 +13,11 @@ Output:
 confidence score + confidence level
 """
 
+from settings import load_config
+
+
+CONFIDENCE_LEVELS = load_config()["confidence"]
+
 
 SOURCE_WEIGHTS = {
 
@@ -78,29 +83,11 @@ def apply_confidence(events):
     for event in events:
 
 
-        score = event.get(
-
-            "confidence",
-
-            50
-
-        )
-
-
-
         source = event.get(
 
             "source",
 
             []
-
-        )
-
-
-
-        score += calculate_source_bonus(
-
-            source
 
         )
 
@@ -124,16 +111,25 @@ def apply_confidence(events):
 
         )
 
+        source_bonus = calculate_source_bonus(source)
+        verification_bonus = source_count * 5 if source_count > 1 else 0
+
+        if "base_confidence" not in event:
+            # Older database records predate base_confidence and already include
+            # these bonuses. Recover their base so repeated runs stay stable.
+            event["base_confidence"] = max(
+                0,
+                event.get("confidence", 50) - source_bonus - verification_bonus,
+            )
+
+        score = event["base_confidence"] + source_bonus
+
 
 
         if source_count > 1:
 
 
-            score += (
-
-                source_count * 5
-
-            )
+            score += verification_bonus
 
 
 
@@ -147,21 +143,21 @@ def apply_confidence(events):
 
 
 
-        if score >= 90:
+        if score >= CONFIDENCE_LEVELS["verified"]:
 
 
             event["confidence_level"] = "verified"
 
 
 
-        elif score >= 70:
+        elif score >= CONFIDENCE_LEVELS["high"]:
 
 
             event["confidence_level"] = "high"
 
 
 
-        elif score >= 40:
+        elif score >= CONFIDENCE_LEVELS["medium"]:
 
 
             event["confidence_level"] = "medium"

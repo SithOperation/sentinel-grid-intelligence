@@ -1,3 +1,6 @@
+from datetime import datetime, timezone
+
+
 def generate_dashboard(
     events,
     brief,
@@ -6,7 +9,7 @@ def generate_dashboard(
 
     dashboard = {
 
-        "generated": None,
+        "generated": datetime.now(timezone.utc).isoformat(),
 
         "summary": {
 

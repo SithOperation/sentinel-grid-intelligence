@@ -42,10 +42,7 @@ def classify_events(events):
                    "troops"
                ]):
 
-            event.setdefault(
-                "category",
-                "conflict"
-            )
+            event["category"] = "conflict"
 
 
 
@@ -59,10 +56,7 @@ def classify_events(events):
                      "cve"
                  ]):
 
-            event.setdefault(
-                "category",
-                "cyber"
-            )
+            event["category"] = "cyber"
 
 
 
@@ -73,10 +67,7 @@ def classify_events(events):
                      "naval"
                  ]):
 
-            event.setdefault(
-                "category",
-                "maritime"
-            )
+            event["category"] = "maritime"
 
 
 
@@ -86,19 +77,13 @@ def classify_events(events):
                      "flight"
                  ]):
 
-            event.setdefault(
-                "category",
-                "air"
-            )
+            event["category"] = "air"
 
 
 
         else:
 
-            event.setdefault(
-                "category",
-                "general"
-            )
+            event.setdefault("category", "general")
 
 
 

@@ -22,9 +22,17 @@ def generate_map_events(events):
         )
 
 
-        # Skip events without coordinates
-
-        if latitude == 0 and longitude == 0:
+        # A pair of zeroes is the standard "unknown" location. Keep valid
+        # points on the equator or prime meridian, but reject malformed data.
+        if (
+            latitude is None
+            or longitude is None
+            or (latitude == 0 and longitude == 0)
+            or not isinstance(latitude, (int, float))
+            or not isinstance(longitude, (int, float))
+            or not -90 <= latitude <= 90
+            or not -180 <= longitude <= 180
+        ):
             continue
 
 

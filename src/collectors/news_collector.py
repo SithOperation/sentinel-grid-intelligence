@@ -17,6 +17,7 @@ Sentinel Grid standardized event format
 
 from api.news import fetch
 from models.event_model import create_event
+from email.utils import parsedate_to_datetime
 
 
 
@@ -70,6 +71,13 @@ def create_news_event(article):
 
     event["category"] = "global"
 
+    try:
+        event["timestamp"] = parsedate_to_datetime(article.get("published", "")).isoformat()
+    except (TypeError, ValueError):
+        pass
+
+    event["url"] = article.get("link", "")
+
 
 
     event["verification"] = {
@@ -93,7 +101,7 @@ def create_news_event(article):
 
 
 
-def collect_news():
+def collect_news(articles=None):
 
 
     events = []
@@ -111,7 +119,8 @@ def collect_news():
     try:
 
 
-        articles = fetch()
+        if articles is None:
+            articles = fetch()
 
 
 

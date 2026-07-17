@@ -189,6 +189,9 @@ def create_maritime_event(message):
 
     }
 
+    if metadata.get("time_utc"):
+        event["timestamp"] = metadata["time_utc"]
+
 
 
     event["verification"] = {

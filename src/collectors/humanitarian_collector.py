@@ -18,6 +18,7 @@ Sentinel Grid standardized event format
 
 from api.gdacs import fetch
 from models.event_model import create_event
+from email.utils import parsedate_to_datetime
 
 
 
@@ -89,6 +90,19 @@ def create_humanitarian_event(item):
 
 
     event["url"] = link
+
+    point = item.findtext("{http://www.georss.org/georss}point", "")
+    try:
+        latitude, longitude = (float(value) for value in point.split())
+        event["location"]["latitude"] = latitude
+        event["location"]["longitude"] = longitude
+    except (TypeError, ValueError):
+        pass
+
+    try:
+        event["timestamp"] = parsedate_to_datetime(item.findtext("pubDate", "")).isoformat()
+    except (TypeError, ValueError):
+        pass
 
 
 

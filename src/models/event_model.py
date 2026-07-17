@@ -113,6 +113,11 @@ def create_event(
         confidence,
 
 
+        "base_confidence":
+
+        confidence,
+
+
 
         "verification":
 

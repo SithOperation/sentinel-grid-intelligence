@@ -165,30 +165,21 @@ def remove_duplicates(events):
 
                 +
 
-                1
+                event.get("duplicate_count", 1)
 
             )
 
 
 
-            existing["verification"]["source_count"] = (
-
-                existing["duplicate_count"]
-
-            )
-
-
-            existing["source"].extend(
-
-                event.get(
-
-                    "source",
-
-                    []
-
-                )
-
-            )
+            verification = existing.setdefault("verification", {})
+            existing_sources = existing.get("source", [])
+            if not isinstance(existing_sources, list):
+                existing_sources = [existing_sources]
+            new_sources = event.get("source", [])
+            if not isinstance(new_sources, list):
+                new_sources = [new_sources]
+            existing["source"] = list(dict.fromkeys(existing_sources + new_sources))
+            verification["source_count"] = len(existing["source"])
 
 
             continue
@@ -196,6 +187,8 @@ def remove_duplicates(events):
 
 
         event["event_hash"] = event_hash
+
+        event["event_id"] = f"SG-{event_hash[:12]}"
 
 
         event["duplicate_count"] = 1

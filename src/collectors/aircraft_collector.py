@@ -24,6 +24,7 @@ Sentinel Grid standardized event format
 
 from api.opensky import fetch
 from models.event_model import create_event
+from datetime import datetime, timezone
 
 
 
@@ -160,6 +161,10 @@ def create_aircraft_event(aircraft):
         )
 
     }
+
+    observation_time = aircraft[3] or aircraft[4]
+    if observation_time:
+        event["timestamp"] = datetime.fromtimestamp(observation_time, timezone.utc).isoformat()
 
 
 

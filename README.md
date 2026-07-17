@@ -78,6 +78,44 @@ Future:
 - PostGIS
 - FastAPI
 
+## Setup and operation
+
+Create a virtual environment, install `requirements.txt`, and run the engine
+from the repository root:
+
+```powershell
+python -m venv venv
+.\venv\Scripts\python.exe -m pip install -r requirements.txt
+$env:PYTHONPATH = "src"
+.\venv\Scripts\python.exe src\main.py
+```
+
+Source switches and the output directory are controlled by `config.yaml`.
+AISStream is optional and requires `AISSTREAM_API_KEY`; when it is absent, the
+other enabled collectors continue normally. Generated frontend datasets are
+written to the configured output directory, while historical deduplicated
+events are stored in `data/database/events.json`.
+
+Each run builds and validates a staged release before publishing it. The
+website can use `data/output/manifest.json` as its update signal and
+`data/output/health.json` to display stale or degraded source coverage. The
+complete file contract is documented in `docs/data-contract.md`.
+
+Retention, maximum map-event count, and maximum artifact size are configured
+in `config.yaml`. The defaults retain 30 days and at most 5,000 historical
+events, publish at most 2,000 map points, and reject any artifact over 25 MB.
+
+The scheduled GitHub workflow runs every six hours and uses only public sources
+and repository storage. AISStream remains disabled automatically unless the
+optional `AISSTREAM_API_KEY` repository secret is provided.
+
+Run the local verification suite with:
+
+```powershell
+$env:PYTHONPATH = "src"
+.\venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+
 
 ---
 

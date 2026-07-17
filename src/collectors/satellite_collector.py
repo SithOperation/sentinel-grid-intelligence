@@ -162,6 +162,11 @@ def create_satellite_event(event):
 
     }
 
+    if geometry and geometry[-1].get("date"):
+        event_record["timestamp"] = geometry[-1]["date"]
+
+    event_record["url"] = event.get("link", "")
+
 
 
     event_record["verification"] = {

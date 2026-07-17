@@ -17,6 +17,7 @@ Sentinel Grid standardized event format
 
 from api.news import fetch
 from models.event_model import create_event
+from email.utils import parsedate_to_datetime
 
 
 
@@ -107,6 +108,13 @@ def create_conflict_event(article):
 
     event["equipment"] = []
 
+    try:
+        event["timestamp"] = parsedate_to_datetime(article.get("published", "")).isoformat()
+    except (TypeError, ValueError):
+        pass
+
+    event["url"] = article.get("link", "")
+
 
     event["verification"] = {
 
@@ -128,7 +136,7 @@ def create_conflict_event(article):
 
 
 
-def collect_conflicts():
+def collect_conflicts(articles=None):
 
     events = []
 
@@ -142,7 +150,8 @@ def collect_conflicts():
 
     try:
 
-        articles = fetch()
+        if articles is None:
+            articles = fetch()
 
 
         source_counts = {}
