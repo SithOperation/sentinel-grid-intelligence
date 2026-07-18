@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-18T08:07:14.535481+00:00",
+  "generated": "2026-07-18T13:46:45.880729+00:00",
   "summary": {
     "threat_level": "CRITICAL",
-    "total_events": 276
+    "total_events": 281
   },
   "critical_events": [
     {
@@ -6822,7 +6822,7 @@
       "category": "conflict",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167960",
       "event_hash": "07ff16e52023780f508385c29991dc3e5c20ea6ad747fb30da5190a9b218682a",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -6953,7 +6953,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167960",
       "category": "conflict",
       "event_hash": "25fd0dcbe78d02eea076705b49d3cef000d0830879f354281adaba79f378ef28",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -7182,7 +7182,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167970",
       "event_hash": "89a95481732fc6eca1d11c6911738d098d2676920cf5defc6e51d4cddefc0bd8",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -7383,6 +7383,70 @@
       "threat_level": "CRITICAL"
     },
     {
+      "event_id": "SG-81f2afb5b0e6",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Baristas behind bars: Thai prisoners brew a path back to daily life",
+      "description": "It looks like a regular coffee shop, albeit set up in an old red bus. Stairs lead up to a serving hatch, with a menu of drink options. A selection of jaunty coffee-related messages like “My one and only love: Americano” and “Miss you a latte,” adorn the side of the bus.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-17T12:00:00+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167954",
+      "event_hash": "81f2afb5b0e6ef8d214b5df367ef505bf5a7efdbe400cad92feb395b20dd87db",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-f0cc4bfb7b07",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "World News in Brief: Appeal for calm in Kashmir, women on the move, Ebola deaths mount, 12th anniversary of MH17",
+      "description": "The UN human rights chief, Volker Türk, has appealed for calm in Pakistan-Administered Kashmir amid unrest ahead of regional elections.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-17T12:00:00+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167970",
+      "event_hash": "f0cc4bfb7b0744d28266a6c4fb02d66014b3d86336267d2bc9103752b1440324",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
       "event_id": "SG-60404444a958",
       "event_type": "news",
       "classification": "geopolitical_reporting",
@@ -7513,7 +7577,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/c9d8ylw60e9o?at_medium=RSS&at_campaign=rss",
       "event_hash": "e52b42d5082b2ee0aab1c96e596ee1553e602d20a04c191ee6b57e588d35a215",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -7642,7 +7706,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
       "event_hash": "18521d2d6c788292c5627eab43bf4aa9d99aa657e3594d77b389d424e5b2ed7e",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -7675,7 +7739,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "64707443d1533bb7b995888775efcf4af00ecd75587f808ead0f82991957be5e",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 75,
       "threat_level": "HIGH"
@@ -10136,7 +10200,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
       "event_hash": "76d9dadbfe8d2aed0113169d05aea91244908db108db152088ac608b5026b38e",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -10169,7 +10233,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "6cbb352c5b443f7b4643b769a9bf11935669eaa978bb5dfe122171781e3c84ba",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 75,
       "threat_level": "HIGH"
@@ -10205,7 +10269,7 @@
       },
       "category": "disaster_alert",
       "event_hash": "b7baaa6b8217c570bc2e3e609f63737d9c307f0e566625ad2a7a5a761030b681",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 55,
       "threat_level": "MEDIUM"
@@ -10237,16 +10301,113 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
       "event_hash": "1d49c0f69005bc469fb50fd20e755c36d6c3d7ac7365d7e3685e1c11375ee632",
+      "duplicate_count": 2,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-ee78e43c919a",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Laos says it can't determine cause of tourist deaths linked to methanol",
+      "description": "Officials say they have no evidence of poisoning over the 2024 deaths because autopsies were not conducted.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-18T11:10:20+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/cdx8rj99endo?at_medium=RSS&at_campaign=rss",
+      "event_hash": "ee78e43c919ab45d5122b73d32c408e8e76d844eaf0014961fa64e0360a2e1f4",
       "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-0db7ff95700a",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
+      "description": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-18T13:06:25+00:00",
+      "location": {
+        "country": "Ukraine",
+        "region": "Eastern Europe",
+        "latitude": 48.3794,
+        "longitude": 31.1656
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "conflict",
+      "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
+      "event_hash": "0db7ff95700a752d601c7cd0c4914a8ee3529e7d9431f4928981485d2e4f69d8",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 35,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-5088ecc83817",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
+      "description": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-18T13:06:25+00:00",
+      "location": {
+        "country": "Ukraine",
+        "region": "Eastern Europe",
+        "latitude": 48.3794,
+        "longitude": 31.1656
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
+      "category": "conflict",
+      "event_hash": "5088ecc838173c01d63a231cc205de441ef25781f4c954a274ec32380d57c8ab",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 75,
+      "threat_level": "HIGH"
     }
   ],
   "regional_analysis": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 158,
+      "event_count": 161,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -10387,6 +10548,8 @@
         "Guterres: AI must be shaped by 'all of humanity', not a handful of powers",
         "Djibouti: Emergency alert spotlights sharp hunger spike",
         "Hunger deepens for displaced families in Sudan’s El Obeid",
+        "Baristas behind bars: Thai prisoners brew a path back to daily life",
+        "World News in Brief: Appeal for calm in Kashmir, women on the move, Ebola deaths mount, 12th anniversary of MH17",
         "Uganda suspends school trips after 20 pupils die in bus crash",
         "Green earthquake (Magnitude 7.3M, Depth:18.584km) in Mexico 17/07/2026 14:48 UTC, 60 thousand (in MMI>=VII).",
         "Green earthquake (Magnitude 6M, Depth:10km) in Mexico 17/07/2026 15:20 UTC, 1.2 million in MMI IV.",
@@ -10408,7 +10571,8 @@
         "Indian activist on hunger strike for 20 days forcibly taken to hospital",
         "Indian activist on hunger strike for 20 days forcibly taken to hospital",
         "Green flood alert in Vietnam",
-        "Space start-up launches India’s first commercial rocket designed for orbit"
+        "Space start-up launches India’s first commercial rocket designed for orbit",
+        "Laos says it can't determine cause of tourist deaths linked to methanol"
       ]
     },
     "Middle East": {
@@ -10484,7 +10648,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 34,
+      "event_count": 36,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -10522,7 +10686,9 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "One anti-war critic fined, another held as Russia clamps down on dissent",
-        "One anti-war critic fined, another held as Russia clamps down on dissent"
+        "One anti-war critic fined, another held as Russia clamps down on dissent",
+        "Russian online retail warehouses hit by deadly Ukrainian strikes",
+        "Russian online retail warehouses hit by deadly Ukrainian strikes"
       ]
     },
     "Americas": {

@@ -4352,6 +4352,50 @@
     }
   },
   {
+    "event_id": "SG-81f2afb5b0e6",
+    "event_hash": "81f2afb5b0e6ef8d214b5df367ef505bf5a7efdbe400cad92feb395b20dd87db",
+    "timestamp": "2026-07-17T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Baristas behind bars: Thai prisoners brew a path back to daily life",
+    "description": "It looks like a regular coffee shop, albeit set up in an old red bus. Stairs lead up to a serving hatch, with a menu of drink options. A selection of jaunty coffee-related messages like “My one and only love: Americano” and “Miss you a latte,” adorn ",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-f0cc4bfb7b07",
+    "event_hash": "f0cc4bfb7b0744d28266a6c4fb02d66014b3d86336267d2bc9103752b1440324",
+    "timestamp": "2026-07-17T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "World News in Brief: Appeal for calm in Kashmir, women on the move, Ebola deaths mount, 12th anniversary of MH17",
+    "description": "The UN human rights chief, Volker Türk, has appealed for calm in Pakistan-Administered Kashmir amid unrest ahead of regional elections.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
     "event_id": "SG-60404444a958",
     "event_hash": "60404444a958c493b80f4d627eb15d71296724f89683a876de6082b044223f21",
     "timestamp": "2026-07-17T13:45:02+00:00",
@@ -6043,6 +6087,72 @@
       "region": "Unknown",
       "latitude": 0,
       "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-ee78e43c919a",
+    "event_hash": "ee78e43c919ab45d5122b73d32c408e8e76d844eaf0014961fa64e0360a2e1f4",
+    "timestamp": "2026-07-18T11:10:20+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Laos says it can't determine cause of tourist deaths linked to methanol",
+    "description": "Officials say they have no evidence of poisoning over the 2024 deaths because autopsies were not conducted.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-0db7ff95700a",
+    "event_hash": "0db7ff95700a752d601c7cd0c4914a8ee3529e7d9431f4928981485d2e4f69d8",
+    "timestamp": "2026-07-18T13:06:25+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
+    "description": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Ukraine",
+      "region": "Eastern Europe",
+      "latitude": 48.3794,
+      "longitude": 31.1656
+    }
+  },
+  {
+    "event_id": "SG-5088ecc83817",
+    "event_hash": "5088ecc838173c01d63a231cc205de441ef25781f4c954a274ec32380d57c8ab",
+    "timestamp": "2026-07-18T13:06:25+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
+    "description": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
+    "priority": "high",
+    "threat_score": 75,
+    "threat_level": "HIGH",
+    "confidence": 80,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Ukraine",
+      "region": "Eastern Europe",
+      "latitude": 48.3794,
+      "longitude": 31.1656
     }
   }
 ]
