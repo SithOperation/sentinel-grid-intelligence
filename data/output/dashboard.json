@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-18T13:46:45.880729+00:00",
+  "generated": "2026-07-18T19:30:07.653441+00:00",
   "summary": {
     "threat_level": "CRITICAL",
-    "total_events": 281
+    "total_events": 286
   },
   "critical_events": [
     {
@@ -274,6 +274,12 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
+    },
+    {
+      "title": "Two US troops killed and one missing after Iranian attack in Jordan",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 100
     }
   ],
   "events": [
@@ -5412,7 +5418,7 @@
       "threat_level": "MEDIUM",
       "event_hash": "1cfd1391337d34d72c159a0850b0de0c3ff049749d1e1801a1e6dd27464b1988",
       "base_confidence": 80,
-      "duplicate_count": 2
+      "duplicate_count": 1
     },
     {
       "event_id": "SG-5e6f5a876153",
@@ -7409,7 +7415,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167954",
       "event_hash": "81f2afb5b0e6ef8d214b5df367ef505bf5a7efdbe400cad92feb395b20dd87db",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -7441,7 +7447,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167970",
       "event_hash": "f0cc4bfb7b0744d28266a6c4fb02d66014b3d86336267d2bc9103752b1440324",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -7836,7 +7842,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss",
       "event_hash": "25f917c1bb85f3516e4649cbb9cd8834c5322aecf671d786e23422ff45861d00",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10006,7 +10012,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss",
       "event_hash": "a53dfee285949607b29b761d3cd1b5e425690fb62241313f065be9484b1609f4",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10039,7 +10045,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "34783fe0ccec8236a72bfb5421c54e59605b9f6ee4d122647e6f4c05935f3c71",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -10135,7 +10141,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
       "event_hash": "9ce0ed617f4d65b2d3bb900744d370118e95101f07475d17e53a831089bee25a",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 45,
       "threat_level": "MEDIUM"
@@ -10168,7 +10174,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "efdd7100c6fc75b8c8db746b98a6b6a2b3162b7676b7da79acc3d31894a1e8b9",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 85,
       "threat_level": "CRITICAL"
@@ -10333,7 +10339,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cdx8rj99endo?at_medium=RSS&at_campaign=rss",
       "event_hash": "ee78e43c919ab45d5122b73d32c408e8e76d844eaf0014961fa64e0360a2e1f4",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10365,7 +10371,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
       "event_hash": "0db7ff95700a752d601c7cd0c4914a8ee3529e7d9431f4928981485d2e4f69d8",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -10398,16 +10404,181 @@
       "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "5088ecc838173c01d63a231cc205de441ef25781f4c954a274ec32380d57c8ab",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 75,
       "threat_level": "HIGH"
+    },
+    {
+      "event_id": "SG-b9425ee7a112",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "German politician resigns over surrogacy child controversy",
+      "description": "Jens Spahn faced criticism over his use of a surrogate, a ban on which he previously backed.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-18T15:23:31+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss",
+      "event_hash": "b9425ee7a1122584fa41fe219d94eba6003a712c767806426fdcc6d45033893b",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-443bd3971919",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Hungary's president agrees to stand down after parliament backs removal",
+      "description": "Tamás Sulyok, seen as an Orbán loyalist, had until Saturday night to agree to end his term.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-18T17:33:28+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss",
+      "event_hash": "443bd3971919aab2d0630f377fb467578bb5671b013703b80e634273f08e51f4",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-9d7de381cef3",
+      "event_type": "humanitarian",
+      "classification": "disaster_alert",
+      "priority": "high",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/07/2026 17:26 UTC, 820 thousand in MMI IV.",
+      "description": "On 7/18/2026 5:26:25 PM, an earthquake occurred in Mexico potentially affecting 820 thousand in MMI IV. The earthquake had Magnitude 5.7M, Depth:10km.",
+      "source": [
+        "GDACS"
+      ],
+      "timestamp": "2026-07-18T17:44:22+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 14.2392,
+        "longitude": -92.8805
+      },
+      "actors": [],
+      "confidence": 95,
+      "base_confidence": 80,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552687",
+      "crisis": {
+        "type": "global_disaster_alert",
+        "severity": "unknown"
+      },
+      "category": "disaster_alert",
+      "event_hash": "9d7de381cef37ff89685ba4df701c48c4660ae8b65eb09a569e8d13cf46f3d21",
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 55,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-1c49330a4aa5",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Two US troops killed and one missing after Iranian attack in Jordan",
+      "description": "The announcement comes after Jordan said it intercepted 10 Iranian missiles fired into its airspace overnight into Saturday.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-18T19:14:09+00:00",
+      "location": {
+        "country": "Iran",
+        "region": "Middle East",
+        "latitude": 32.4279,
+        "longitude": 53.688
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "conflict",
+      "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
+      "event_hash": "1c49330a4aa50bef51f674cc8710060450d3fd6088ede7861c35446892f7e204",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 65,
+      "threat_level": "HIGH"
+    },
+    {
+      "event_id": "SG-6ce0cf8678ce",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "Two US troops killed and one missing after Iranian attack in Jordan",
+      "description": "The announcement comes after Jordan said it intercepted 10 Iranian missiles fired into its airspace overnight into Saturday.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-18T19:14:09+00:00",
+      "location": {
+        "country": "Iran",
+        "region": "Middle East",
+        "latitude": 32.4279,
+        "longitude": 53.688
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
+      "category": "conflict",
+      "event_hash": "6ce0cf8678ce338b6d6a5412dafe5956e88f69362df82b39c244cac324cffa30",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 100,
+      "threat_level": "CRITICAL"
     }
   ],
   "regional_analysis": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 161,
+      "event_count": 164,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -10572,12 +10743,15 @@
         "Indian activist on hunger strike for 20 days forcibly taken to hospital",
         "Green flood alert in Vietnam",
         "Space start-up launches India’s first commercial rocket designed for orbit",
-        "Laos says it can't determine cause of tourist deaths linked to methanol"
+        "Laos says it can't determine cause of tourist deaths linked to methanol",
+        "German politician resigns over surrogacy child controversy",
+        "Hungary's president agrees to stand down after parliament backs removal",
+        "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/07/2026 17:26 UTC, 820 thousand in MMI IV."
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 47,
+      "event_count": 49,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -10628,7 +10802,9 @@
         "US denies Iranian claims it hit civilian infrastructure in latest strikes",
         "US denies Iranian claims it hit civilian infrastructure in latest strikes",
         "US strikes hit Iran for seventh consecutive night",
-        "US strikes hit Iran for seventh consecutive night"
+        "US strikes hit Iran for seventh consecutive night",
+        "Two US troops killed and one missing after Iranian attack in Jordan",
+        "Two US troops killed and one missing after Iranian attack in Jordan"
       ]
     },
     "Indo-Pacific": {

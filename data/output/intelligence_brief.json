@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 281,
+  "total_events": 286,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -272,6 +272,12 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
+    },
+    {
+      "title": "Two US troops killed and one missing after Iranian attack in Jordan",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 100
     }
   ],
   "high_priority_events": [
@@ -544,12 +550,18 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 75
+    },
+    {
+      "title": "Two US troops killed and one missing after Iranian attack in Jordan",
+      "type": "news",
+      "classification": "geopolitical_reporting",
+      "score": 65
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 161,
+      "event_count": 164,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -714,12 +726,15 @@
         "Indian activist on hunger strike for 20 days forcibly taken to hospital",
         "Green flood alert in Vietnam",
         "Space start-up launches India’s first commercial rocket designed for orbit",
-        "Laos says it can't determine cause of tourist deaths linked to methanol"
+        "Laos says it can't determine cause of tourist deaths linked to methanol",
+        "German politician resigns over surrogacy child controversy",
+        "Hungary's president agrees to stand down after parliament backs removal",
+        "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/07/2026 17:26 UTC, 820 thousand in MMI IV."
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 47,
+      "event_count": 49,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -770,7 +785,9 @@
         "US denies Iranian claims it hit civilian infrastructure in latest strikes",
         "US denies Iranian claims it hit civilian infrastructure in latest strikes",
         "US strikes hit Iran for seventh consecutive night",
-        "US strikes hit Iran for seventh consecutive night"
+        "US strikes hit Iran for seventh consecutive night",
+        "Two US troops killed and one missing after Iranian attack in Jordan",
+        "Two US troops killed and one missing after Iranian attack in Jordan"
       ]
     },
     "Indo-Pacific": {
