@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-19T08:32:07.261114+00:00",
+  "generated": "2026-07-19T13:52:12.616297+00:00",
   "summary": {
     "threat_level": "CRITICAL",
-    "total_events": 298
+    "total_events": 307
   },
   "critical_events": [
     {
@@ -286,6 +286,18 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
+    },
+    {
+      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 100
+    },
+    {
+      "title": "US and Iran trade fire after two US soldiers killed in Jordan",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 100
     }
   ],
   "events": [
@@ -5350,7 +5362,7 @@
       "threat_level": "MEDIUM",
       "event_hash": "49099accdc1dbbc3873ef9f305243cfb1f810b85534b5c378e66fedeec825629",
       "base_confidence": 80,
-      "duplicate_count": 2
+      "duplicate_count": 1
     },
     {
       "event_id": "SG-5902f770c526",
@@ -6802,7 +6814,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167961",
       "event_hash": "f31915188e219b02e94d6e8343f840fa736c438d6df31e8719929f360531cdcb",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -6932,7 +6944,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167961",
       "category": "conflict_report",
       "event_hash": "abec191d7f3c3388123d52231dc42f66c6afeb51e21ed5eed262d122710f0fe9",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -10351,6 +10363,38 @@
       "threat_level": "LOW"
     },
     {
+      "event_id": "SG-e35fba36d79a",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "A former Ferrari boss has a blunt message: Your commute is more dangerous than his old job",
+      "description": "Jean Todt spent decades around the deadliest motorsport on Earth. He was a rally co‑driver, then ran Ferrari’s Formula One team, then became president of world motorsport’s governing body. In his early years, a driver dying at the track barely made news.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-18T12:00:00+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167974",
+      "event_hash": "e35fba36d79ac1f2c130b3314f0683c194d25a3215811f81679134029a2c6f8e",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
       "event_id": "SG-0db7ff95700a",
       "event_type": "news",
       "classification": "geopolitical_reporting",
@@ -10377,7 +10421,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
       "event_hash": "0db7ff95700a752d601c7cd0c4914a8ee3529e7d9431f4928981485d2e4f69d8",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -10410,7 +10454,7 @@
       "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "5088ecc838173c01d63a231cc205de441ef25781f4c954a274ec32380d57c8ab",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 75,
       "threat_level": "HIGH"
@@ -10611,7 +10655,43 @@
       },
       "category": "disaster_alert",
       "event_hash": "c9b2207252930ae36158c0e2d1ef4e2ff30ff07ebf2dc58440e90b6e4b040223",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 55,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-452570918321",
+      "event_type": "humanitarian",
+      "classification": "disaster_alert",
+      "priority": "high",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in Scotia Sea 18/07/2026 19:50 UTC, No people affected in 100km.",
+      "description": "On 7/18/2026 7:50:37 PM, an earthquake occurred in Scotia Sea potentially affecting No people affected in 100km. The earthquake had Magnitude 5.5M, Depth:10km.",
+      "source": [
+        "GDACS"
+      ],
+      "timestamp": "2026-07-18T20:08:52+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": -60.6982,
+        "longitude": -50.9727
+      },
+      "actors": [],
+      "confidence": 95,
+      "base_confidence": 80,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552700",
+      "crisis": {
+        "type": "global_disaster_alert",
+        "severity": "unknown"
+      },
+      "category": "disaster_alert",
+      "event_hash": "4525709183216508d10b9e4b4910ca0568cc168e6111dcf94a157247c2b9b8c7",
+      "duplicate_count": 1,
       "confidence_level": "verified",
       "threat_score": 55,
       "threat_level": "MEDIUM"
@@ -10643,7 +10723,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
       "event_hash": "7881a43206754a4483e2c509d1aa326aa14bc0da6bb8f047b68d99dea143b99c",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10676,7 +10756,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "bc389f2c52380e35a27d591d26c1ffe25994d92879956ef569cde29b9a1b7001",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -10773,7 +10853,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
       "event_hash": "b73e45504123cea8e079dff56ecd362f860af7900af92b6a4f96847511e3a8fa",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10845,7 +10925,7 @@
       },
       "category": "disaster_alert",
       "event_hash": "37dd7a98c6f081ee1df4748f51e3f5a73b174e3edcb94e6f2e98d87df5dd5acb",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 55,
       "threat_level": "MEDIUM"
@@ -10978,16 +11058,246 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss",
       "event_hash": "c63cca2f17b8468a1df3ab24493c3c4f2a39526245991d52e4339eeee8b1c8e7",
+      "duplicate_count": 2,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-59bffc72fa55",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Ferry carrying 116 passengers sinks off Guyana coast, authorities say",
+      "description": "The vessel capsized between Georgetown and Port Kaituma, with 53 people so far rescued.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-19T09:59:41+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "maritime",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
+      "event_hash": "59bffc72fa552d6207c28f00ac423b926784f90c187eea361362415a9bd46a2b",
       "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-1f60b47c70d5",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
+      "description": "Five people are killed and at least 35 injured as Ukraine's two largest cities are targeted, as Kyiv continues its own assault on Russian infrastructure.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-19T11:28:24+00:00",
+      "location": {
+        "country": "Ukraine",
+        "region": "Eastern Europe",
+        "latitude": 48.3794,
+        "longitude": 31.1656
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "conflict",
+      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
+      "event_hash": "1f60b47c70d50bed5f268ecd30c37037b3cb9c32d1e4d373716afc3e39a10ed1",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 75,
+      "threat_level": "HIGH"
+    },
+    {
+      "event_id": "SG-c8e05f43f35a",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
+      "description": "Five people are killed and at least 35 injured as Ukraine's two largest cities are targeted, as Kyiv continues its own assault on Russian infrastructure.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-19T11:28:24+00:00",
+      "location": {
+        "country": "Ukraine",
+        "region": "Eastern Europe",
+        "latitude": 48.3794,
+        "longitude": 31.1656
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
+      "category": "conflict",
+      "event_hash": "c8e05f43f35a7b1549056dfd078458331991e7a3a5bd5127044f6822ec030c33",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 100,
+      "threat_level": "CRITICAL"
+    },
+    {
+      "event_id": "SG-ca03c1789e3c",
+      "event_type": "humanitarian",
+      "classification": "disaster_alert",
+      "priority": "high",
+      "title": "Green flood alert in South Korea",
+      "description": "On 18/07/2026, a flood started in South Korea, lasting until 20/07/2026 (last update). The flood caused 0 deaths and 95 displaced .",
+      "source": [
+        "GDACS"
+      ],
+      "timestamp": "2026-07-19T12:38:47+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 37.5666791,
+        "longitude": 126.9782914
+      },
+      "actors": [],
+      "confidence": 95,
+      "base_confidence": 80,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104032",
+      "crisis": {
+        "type": "global_disaster_alert",
+        "severity": "unknown"
+      },
+      "category": "disaster_alert",
+      "event_hash": "ca03c1789e3cb56d9e1716defa05fcb8afaa76c2ba7d11e9115b501635b08460",
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 55,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-654611ff8dc9",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Tate brothers arrested in US as further UK charges take total to 59",
+      "description": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-19T12:53:20+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
+      "event_hash": "654611ff8dc9dca7b5ecd80f0517e8b37c923785c822a6e32157ac846c14e247",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-3938c994f57c",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "US and Iran trade fire after two US soldiers killed in Jordan",
+      "description": "Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-19T13:10:57+00:00",
+      "location": {
+        "country": "Iran",
+        "region": "Middle East",
+        "latitude": 32.4279,
+        "longitude": 53.688
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "conflict",
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "event_hash": "3938c994f57c06e99532ae2a5474c17fd102b4137fe5135dc58851cbcb1c03bf",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 65,
+      "threat_level": "HIGH"
+    },
+    {
+      "event_id": "SG-4a9602d1a053",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "US and Iran trade fire after two US soldiers killed in Jordan",
+      "description": "Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-19T13:10:57+00:00",
+      "location": {
+        "country": "Iran",
+        "region": "Middle East",
+        "latitude": 32.4279,
+        "longitude": 53.688
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "category": "conflict",
+      "event_hash": "4a9602d1a05384a1d9097b4e602d8ddfb040cc40e90210a90ea81b9f5a480b56",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 100,
+      "threat_level": "CRITICAL"
     }
   ],
   "regional_analysis": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 172,
+      "event_count": 177,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -11153,22 +11463,27 @@
         "Green flood alert in Vietnam",
         "Space start-up launches India’s first commercial rocket designed for orbit",
         "Laos says it can't determine cause of tourist deaths linked to methanol",
+        "A former Ferrari boss has a blunt message: Your commute is more dangerous than his old job",
         "German politician resigns over surrogacy child controversy",
         "Hungary's president agrees to stand down after parliament backs removal",
         "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/07/2026 17:26 UTC, 820 thousand in MMI IV.",
         "Green earthquake (Magnitude 5.5M, Depth:10km) in Scotia Sea 18/07/2026 19:50 UTC, [unknown].",
+        "Green earthquake (Magnitude 5.5M, Depth:10km) in Scotia Sea 18/07/2026 19:50 UTC, No people affected in 100km.",
         "New EU border system tripling time at passport control, airport boss says",
         "New EU border system tripling time at passport control, airport boss says",
         "Andrew Tate and brother arrested in US after more charges laid against them in UK",
         "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 20 thousand (in MMI>=VII).",
         "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 30 thousand (in MMI>=VII).",
         "Green notification for tropical cyclone SIX-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
-        "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US"
+        "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US",
+        "Ferry carrying 116 passengers sinks off Guyana coast, authorities say",
+        "Green flood alert in South Korea",
+        "Tate brothers arrested in US as further UK charges take total to 59"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 51,
+      "event_count": 53,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -11223,7 +11538,9 @@
         "Two US troops killed and one missing after Iranian attack in Jordan",
         "Two US troops killed and one missing after Iranian attack in Jordan",
         "US and Iran exchange strikes after two US soldiers killed in Jordan",
-        "US and Iran exchange strikes after two US soldiers killed in Jordan"
+        "US and Iran exchange strikes after two US soldiers killed in Jordan",
+        "US and Iran trade fire after two US soldiers killed in Jordan",
+        "US and Iran trade fire after two US soldiers killed in Jordan"
       ]
     },
     "Indo-Pacific": {
@@ -11243,7 +11560,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 38,
+      "event_count": 40,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -11285,7 +11602,9 @@
         "Russian online retail warehouses hit by deadly Ukrainian strikes",
         "Russian online retail warehouses hit by deadly Ukrainian strikes",
         "Russians turn to cash, putting more strain on slowing wartime economy",
-        "Russians turn to cash, putting more strain on slowing wartime economy"
+        "Russians turn to cash, putting more strain on slowing wartime economy",
+        "Russia launches major ballistic missile attack on Ukrainian cities",
+        "Russia launches major ballistic missile attack on Ukrainian cities"
       ]
     },
     "Americas": {

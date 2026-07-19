@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 298,
+  "total_events": 307,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -284,6 +284,18 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
+    },
+    {
+      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 100
+    },
+    {
+      "title": "US and Iran trade fire after two US soldiers killed in Jordan",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 100
     }
   ],
   "high_priority_events": [
@@ -580,12 +592,24 @@
       "type": "humanitarian",
       "classification": "disaster_alert",
       "score": 65
+    },
+    {
+      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
+      "type": "news",
+      "classification": "geopolitical_reporting",
+      "score": 75
+    },
+    {
+      "title": "US and Iran trade fire after two US soldiers killed in Jordan",
+      "type": "news",
+      "classification": "geopolitical_reporting",
+      "score": 65
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 172,
+      "event_count": 177,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -751,22 +775,27 @@
         "Green flood alert in Vietnam",
         "Space start-up launches India’s first commercial rocket designed for orbit",
         "Laos says it can't determine cause of tourist deaths linked to methanol",
+        "A former Ferrari boss has a blunt message: Your commute is more dangerous than his old job",
         "German politician resigns over surrogacy child controversy",
         "Hungary's president agrees to stand down after parliament backs removal",
         "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/07/2026 17:26 UTC, 820 thousand in MMI IV.",
         "Green earthquake (Magnitude 5.5M, Depth:10km) in Scotia Sea 18/07/2026 19:50 UTC, [unknown].",
+        "Green earthquake (Magnitude 5.5M, Depth:10km) in Scotia Sea 18/07/2026 19:50 UTC, No people affected in 100km.",
         "New EU border system tripling time at passport control, airport boss says",
         "New EU border system tripling time at passport control, airport boss says",
         "Andrew Tate and brother arrested in US after more charges laid against them in UK",
         "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 20 thousand (in MMI>=VII).",
         "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 30 thousand (in MMI>=VII).",
         "Green notification for tropical cyclone SIX-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
-        "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US"
+        "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US",
+        "Ferry carrying 116 passengers sinks off Guyana coast, authorities say",
+        "Green flood alert in South Korea",
+        "Tate brothers arrested in US as further UK charges take total to 59"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 51,
+      "event_count": 53,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -821,7 +850,9 @@
         "Two US troops killed and one missing after Iranian attack in Jordan",
         "Two US troops killed and one missing after Iranian attack in Jordan",
         "US and Iran exchange strikes after two US soldiers killed in Jordan",
-        "US and Iran exchange strikes after two US soldiers killed in Jordan"
+        "US and Iran exchange strikes after two US soldiers killed in Jordan",
+        "US and Iran trade fire after two US soldiers killed in Jordan",
+        "US and Iran trade fire after two US soldiers killed in Jordan"
       ]
     },
     "Indo-Pacific": {
@@ -841,7 +872,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 38,
+      "event_count": 40,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -883,7 +914,9 @@
         "Russian online retail warehouses hit by deadly Ukrainian strikes",
         "Russian online retail warehouses hit by deadly Ukrainian strikes",
         "Russians turn to cash, putting more strain on slowing wartime economy",
-        "Russians turn to cash, putting more strain on slowing wartime economy"
+        "Russians turn to cash, putting more strain on slowing wartime economy",
+        "Russia launches major ballistic missile attack on Ukrainian cities",
+        "Russia launches major ballistic missile attack on Ukrainian cities"
       ]
     },
     "Americas": {
