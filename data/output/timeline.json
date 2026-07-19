@@ -6420,6 +6420,28 @@
     }
   },
   {
+    "event_id": "SG-37dd7a98c6f0",
+    "event_hash": "37dd7a98c6f081ee1df4748f51e3f5a73b174e3edcb94e6f2e98d87df5dd5acb",
+    "timestamp": "2026-07-19T02:42:14+00:00",
+    "event_type": "humanitarian",
+    "classification": "disaster_alert",
+    "title": "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 30 thousand (in MMI>=VII).",
+    "description": "On 7/19/2026 2:24:36 AM, an earthquake occurred in Peru potentially affecting 30 thousand (in MMI>=VII). The earthquake had Magnitude 5.5M, Depth:10km.",
+    "priority": "high",
+    "threat_score": 55,
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "source": [
+      "GDACS"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": -12.0429,
+      "longitude": -75.3013
+    }
+  },
+  {
     "event_id": "SG-c04ba81af394",
     "event_hash": "c04ba81af394be3edce0be7433874bdeb077e42e75db9f6fade05b18e415bb92",
     "timestamp": "2026-07-19T02:53:14+00:00",
@@ -6439,6 +6461,72 @@
       "region": "Unknown",
       "latitude": 11.3,
       "longitude": -109.1
+    }
+  },
+  {
+    "event_id": "SG-0dfba291124a",
+    "event_hash": "0dfba291124afdc7ab6a7652eb4fe7f84ccce764cf1f547c6d2bb604a495c092",
+    "timestamp": "2026-07-19T05:10:57+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
+    "description": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.",
+    "priority": "medium",
+    "threat_score": 45,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
+    }
+  },
+  {
+    "event_id": "SG-8f395a4675f2",
+    "event_hash": "8f395a4675f21bce9baeae488a8d3636fcc738f9a3ec5f10164a719db90d6941",
+    "timestamp": "2026-07-19T05:10:57+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
+    "description": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.",
+    "priority": "high",
+    "threat_score": 85,
+    "threat_level": "CRITICAL",
+    "confidence": 80,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
+    }
+  },
+  {
+    "event_id": "SG-c63cca2f17b8",
+    "event_hash": "c63cca2f17b8468a1df3ab24493c3c4f2a39526245991d52e4339eeee8b1c8e7",
+    "timestamp": "2026-07-19T07:47:02+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US",
+    "description": "He was arrested in 2021 during Cuba's largest anti-government protests in decades and spent five years ⁠in prison.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ]

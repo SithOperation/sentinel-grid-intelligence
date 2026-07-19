@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-07-19T03:51:56.199708+00:00",
-  "total_events": 294,
+  "generated": "2026-07-19T08:32:07.261127+00:00",
+  "total_events": 298,
   "events": [
     {
       "event_id": "SG-a329e4e29994",
@@ -9829,7 +9829,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
       "event_hash": "a15e99b3504ffe8391270142ff45072dd06eea464144a234961a03ca6a28add2",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10256,7 +10256,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
       "event_hash": "1c49330a4aa50bef51f674cc8710060450d3fd6088ede7861c35446892f7e204",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -10289,7 +10289,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "6ce0cf8678ce338b6d6a5412dafe5956e88f69362df82b39c244cac324cffa30",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 100,
       "threat_level": "CRITICAL"
@@ -10325,7 +10325,7 @@
       },
       "category": "disaster_alert",
       "event_hash": "c9b2207252930ae36158c0e2d1ef4e2ff30ff07ebf2dc58440e90b6e4b040223",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 55,
       "threat_level": "MEDIUM"
@@ -10357,7 +10357,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
       "event_hash": "7881a43206754a4483e2c509d1aa326aa14bc0da6bb8f047b68d99dea143b99c",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10390,7 +10390,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "bc389f2c52380e35a27d591d26c1ffe25994d92879956ef569cde29b9a1b7001",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -10422,7 +10422,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
       "event_hash": "e3b4027a29ec11df5af164eaf3a7435b3b2890d0c81461c211107f4c1d49a9fd",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10455,7 +10455,7 @@
       "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "b00c80dd50baa5f81133fcefb9bdf5c90aacaf315ccd81194715d02ade2cd394",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -10487,7 +10487,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
       "event_hash": "b73e45504123cea8e079dff56ecd362f860af7900af92b6a4f96847511e3a8fa",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10529,6 +10529,42 @@
       "threat_level": "MEDIUM"
     },
     {
+      "event_id": "SG-37dd7a98c6f0",
+      "event_type": "humanitarian",
+      "classification": "disaster_alert",
+      "priority": "high",
+      "title": "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 30 thousand (in MMI>=VII).",
+      "description": "On 7/19/2026 2:24:36 AM, an earthquake occurred in Peru potentially affecting 30 thousand (in MMI>=VII). The earthquake had Magnitude 5.5M, Depth:10km.",
+      "source": [
+        "GDACS"
+      ],
+      "timestamp": "2026-07-19T02:42:14+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": -12.0429,
+        "longitude": -75.3013
+      },
+      "actors": [],
+      "confidence": 95,
+      "base_confidence": 80,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552752",
+      "crisis": {
+        "type": "global_disaster_alert",
+        "severity": "unknown"
+      },
+      "category": "disaster_alert",
+      "event_hash": "37dd7a98c6f081ee1df4748f51e3f5a73b174e3edcb94e6f2e98d87df5dd5acb",
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 55,
+      "threat_level": "MEDIUM"
+    },
+    {
       "event_id": "SG-c04ba81af394",
       "event_type": "humanitarian",
       "classification": "disaster_alert",
@@ -10559,10 +10595,107 @@
       },
       "category": "cyber",
       "event_hash": "c04ba81af394be3edce0be7433874bdeb077e42e75db9f6fade05b18e415bb92",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 65,
       "threat_level": "HIGH"
+    },
+    {
+      "event_id": "SG-0dfba291124a",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
+      "description": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-19T05:10:57+00:00",
+      "location": {
+        "country": "Iran",
+        "region": "Middle East",
+        "latitude": 32.4279,
+        "longitude": 53.688
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "conflict",
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "event_hash": "0dfba291124afdc7ab6a7652eb4fe7f84ccce764cf1f547c6d2bb604a495c092",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 45,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-8f395a4675f2",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
+      "description": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-19T05:10:57+00:00",
+      "location": {
+        "country": "Iran",
+        "region": "Middle East",
+        "latitude": 32.4279,
+        "longitude": 53.688
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "category": "conflict",
+      "event_hash": "8f395a4675f21bce9baeae488a8d3636fcc738f9a3ec5f10164a719db90d6941",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 85,
+      "threat_level": "CRITICAL"
+    },
+    {
+      "event_id": "SG-c63cca2f17b8",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US",
+      "description": "He was arrested in 2021 during Cuba's largest anti-government protests in decades and spent five years ⁠in prison.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-19T07:47:02+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss",
+      "event_hash": "c63cca2f17b8468a1df3ab24493c3c4f2a39526245991d52e4339eeee8b1c8e7",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
     }
   ]
 }
