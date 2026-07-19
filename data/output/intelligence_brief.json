@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 286,
+  "total_events": 294,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -556,12 +556,30 @@
       "type": "news",
       "classification": "geopolitical_reporting",
       "score": 65
+    },
+    {
+      "title": "Russians turn to cash, putting more strain on slowing wartime economy",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "New EU border system tripling time at passport control, airport boss says",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "Green notification for tropical cyclone SIX-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+      "type": "humanitarian",
+      "classification": "disaster_alert",
+      "score": 65
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 164,
+      "event_count": 170,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -729,7 +747,13 @@
         "Laos says it can't determine cause of tourist deaths linked to methanol",
         "German politician resigns over surrogacy child controversy",
         "Hungary's president agrees to stand down after parliament backs removal",
-        "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/07/2026 17:26 UTC, 820 thousand in MMI IV."
+        "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/07/2026 17:26 UTC, 820 thousand in MMI IV.",
+        "Green earthquake (Magnitude 5.5M, Depth:10km) in Scotia Sea 18/07/2026 19:50 UTC, [unknown].",
+        "New EU border system tripling time at passport control, airport boss says",
+        "New EU border system tripling time at passport control, airport boss says",
+        "Andrew Tate and brother arrested in US after more charges laid against them in UK",
+        "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 20 thousand (in MMI>=VII).",
+        "Green notification for tropical cyclone SIX-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm)."
       ]
     },
     "Middle East": {
@@ -807,7 +831,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 36,
+      "event_count": 38,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -847,7 +871,9 @@
         "One anti-war critic fined, another held as Russia clamps down on dissent",
         "One anti-war critic fined, another held as Russia clamps down on dissent",
         "Russian online retail warehouses hit by deadly Ukrainian strikes",
-        "Russian online retail warehouses hit by deadly Ukrainian strikes"
+        "Russian online retail warehouses hit by deadly Ukrainian strikes",
+        "Russians turn to cash, putting more strain on slowing wartime economy",
+        "Russians turn to cash, putting more strain on slowing wartime economy"
       ]
     },
     "Americas": {

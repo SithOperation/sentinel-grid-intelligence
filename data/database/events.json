@@ -5097,7 +5097,7 @@
         "threat_level": "MEDIUM",
         "event_hash": "5902f770c526b690905ccf026fd5ef48072babc96b36c21858892674821880d3",
         "base_confidence": 80,
-        "duplicate_count": 2
+        "duplicate_count": 1
     },
     {
         "event_id": "SG-1cfd1391337d",
@@ -6808,7 +6808,7 @@
         },
         "category": "disaster_alert",
         "event_hash": "b6e5cbd1fa150de5cb89182fa903e9fae5bda494886f1d4ee121dbf7f56da860",
-        "duplicate_count": 2,
+        "duplicate_count": 1,
         "confidence_level": "verified",
         "threat_score": 55,
         "threat_level": "MEDIUM"
@@ -7590,7 +7590,7 @@
         "category": "conflict",
         "url": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss",
         "event_hash": "a4a7288923ec49f29eb29751778c0796c8458012ae7fab93963f338c01a5ce5a",
-        "duplicate_count": 2,
+        "duplicate_count": 1,
         "confidence_level": "high",
         "threat_score": 35,
         "threat_level": "MEDIUM"
@@ -7623,7 +7623,7 @@
         "url": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss",
         "category": "conflict",
         "event_hash": "b2bb641cc2328cea433fe5eef12e1160d0e33c39640c27a3f285bb7a9f4c1340",
-        "duplicate_count": 2,
+        "duplicate_count": 1,
         "confidence_level": "high",
         "threat_score": 75,
         "threat_level": "HIGH"
@@ -9793,7 +9793,7 @@
         "category": "global",
         "url": "https://www.bbc.co.uk/news/articles/cx2rmjk0740o?at_medium=RSS&at_campaign=rss",
         "event_hash": "0d94868936ae75b6ee2548dc05d6df85a0f975a0ae0e5fab9f3da4e9b40acc18",
-        "duplicate_count": 2,
+        "duplicate_count": 1,
         "confidence_level": "high",
         "threat_score": 25,
         "threat_level": "LOW"
@@ -9922,7 +9922,7 @@
         "category": "conflict",
         "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
         "event_hash": "76d9dadbfe8d2aed0113169d05aea91244908db108db152088ac608b5026b38e",
-        "duplicate_count": 2,
+        "duplicate_count": 1,
         "confidence_level": "high",
         "threat_score": 35,
         "threat_level": "MEDIUM"
@@ -9955,7 +9955,7 @@
         "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
         "category": "conflict",
         "event_hash": "6cbb352c5b443f7b4643b769a9bf11935669eaa978bb5dfe122171781e3c84ba",
-        "duplicate_count": 2,
+        "duplicate_count": 1,
         "confidence_level": "high",
         "threat_score": 75,
         "threat_level": "HIGH"
@@ -9991,7 +9991,7 @@
         },
         "category": "disaster_alert",
         "event_hash": "b7baaa6b8217c570bc2e3e609f63737d9c307f0e566625ad2a7a5a761030b681",
-        "duplicate_count": 2,
+        "duplicate_count": 1,
         "confidence_level": "verified",
         "threat_score": 55,
         "threat_level": "MEDIUM"
@@ -10152,7 +10152,7 @@
         "category": "global",
         "url": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss",
         "event_hash": "b9425ee7a1122584fa41fe219d94eba6003a712c767806426fdcc6d45033893b",
-        "duplicate_count": 1,
+        "duplicate_count": 2,
         "confidence_level": "high",
         "threat_score": 25,
         "threat_level": "LOW"
@@ -10184,7 +10184,7 @@
         "category": "global",
         "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss",
         "event_hash": "443bd3971919aab2d0630f377fb467578bb5671b013703b80e634273f08e51f4",
-        "duplicate_count": 1,
+        "duplicate_count": 2,
         "confidence_level": "high",
         "threat_score": 25,
         "threat_level": "LOW"
@@ -10220,7 +10220,7 @@
         },
         "category": "disaster_alert",
         "event_hash": "9d7de381cef37ff89685ba4df701c48c4660ae8b65eb09a569e8d13cf46f3d21",
-        "duplicate_count": 1,
+        "duplicate_count": 2,
         "confidence_level": "verified",
         "threat_score": 55,
         "threat_level": "MEDIUM"
@@ -10252,7 +10252,7 @@
         "category": "conflict",
         "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
         "event_hash": "1c49330a4aa50bef51f674cc8710060450d3fd6088ede7861c35446892f7e204",
-        "duplicate_count": 1,
+        "duplicate_count": 2,
         "confidence_level": "high",
         "threat_score": 65,
         "threat_level": "HIGH"
@@ -10285,9 +10285,279 @@
         "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
         "category": "conflict",
         "event_hash": "6ce0cf8678ce338b6d6a5412dafe5956e88f69362df82b39c244cac324cffa30",
-        "duplicate_count": 1,
+        "duplicate_count": 2,
         "confidence_level": "high",
         "threat_score": 100,
         "threat_level": "CRITICAL"
+    },
+    {
+        "event_id": "SG-c9b220725293",
+        "event_type": "humanitarian",
+        "classification": "disaster_alert",
+        "priority": "high",
+        "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in Scotia Sea 18/07/2026 19:50 UTC, [unknown].",
+        "description": "On 7/18/2026 7:50:37 PM, an earthquake occurred in Scotia Sea potentially affecting [unknown]. The earthquake had Magnitude 5.5M, Depth:10km.",
+        "source": [
+            "GDACS"
+        ],
+        "timestamp": "2026-07-18T20:08:52+00:00",
+        "location": {
+            "country": "Unknown",
+            "region": "Unknown",
+            "latitude": -60.7066,
+            "longitude": -51.0559
+        },
+        "actors": [],
+        "confidence": 95,
+        "base_confidence": 80,
+        "verification": {
+            "confirmed": true,
+            "source_count": 1
+        },
+        "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552700",
+        "crisis": {
+            "type": "global_disaster_alert",
+            "severity": "unknown"
+        },
+        "category": "disaster_alert",
+        "event_hash": "c9b2207252930ae36158c0e2d1ef4e2ff30ff07ebf2dc58440e90b6e4b040223",
+        "duplicate_count": 1,
+        "confidence_level": "verified",
+        "threat_score": 55,
+        "threat_level": "MEDIUM"
+    },
+    {
+        "event_id": "SG-7881a4320675",
+        "event_type": "news",
+        "classification": "geopolitical_reporting",
+        "priority": "medium",
+        "title": "Russians turn to cash, putting more strain on slowing wartime economy",
+        "description": "Russians have been hit by mobile internet shutdowns and more businesses are seeking to dodge tax after more than four years of war with Ukraine.",
+        "source": [
+            "BBC World News"
+        ],
+        "timestamp": "2026-07-18T23:59:26+00:00",
+        "location": {
+            "country": "Ukraine",
+            "region": "Eastern Europe",
+            "latitude": 48.3794,
+            "longitude": 31.1656
+        },
+        "actors": [],
+        "confidence": 70,
+        "base_confidence": 60,
+        "verification": {
+            "confirmed": true,
+            "source_count": 1
+        },
+        "category": "conflict",
+        "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
+        "event_hash": "7881a43206754a4483e2c509d1aa326aa14bc0da6bb8f047b68d99dea143b99c",
+        "duplicate_count": 1,
+        "confidence_level": "high",
+        "threat_score": 25,
+        "threat_level": "LOW"
+    },
+    {
+        "event_id": "SG-bc389f2c5238",
+        "event_type": "conflict",
+        "classification": "conflict_report",
+        "priority": "high",
+        "title": "Russians turn to cash, putting more strain on slowing wartime economy",
+        "description": "Russians have been hit by mobile internet shutdowns and more businesses are seeking to dodge tax after more than four years of war with Ukraine.",
+        "source": [
+            "BBC World News"
+        ],
+        "timestamp": "2026-07-18T23:59:26+00:00",
+        "location": {
+            "country": "Ukraine",
+            "region": "Eastern Europe",
+            "latitude": 48.3794,
+            "longitude": 31.1656
+        },
+        "actors": [],
+        "confidence": 80,
+        "base_confidence": 70,
+        "verification": {
+            "confirmed": false,
+            "source_count": 1
+        },
+        "equipment": [],
+        "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
+        "category": "conflict",
+        "event_hash": "bc389f2c52380e35a27d591d26c1ffe25994d92879956ef569cde29b9a1b7001",
+        "duplicate_count": 1,
+        "confidence_level": "high",
+        "threat_score": 65,
+        "threat_level": "HIGH"
+    },
+    {
+        "event_id": "SG-e3b4027a29ec",
+        "event_type": "news",
+        "classification": "geopolitical_reporting",
+        "priority": "medium",
+        "title": "New EU border system tripling time at passport control, airport boss says",
+        "description": "Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.",
+        "source": [
+            "BBC World News"
+        ],
+        "timestamp": "2026-07-19T01:47:59+00:00",
+        "location": {
+            "country": "Unknown",
+            "region": "Unknown",
+            "latitude": 0,
+            "longitude": 0
+        },
+        "actors": [],
+        "confidence": 70,
+        "base_confidence": 60,
+        "verification": {
+            "confirmed": true,
+            "source_count": 1
+        },
+        "category": "conflict",
+        "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
+        "event_hash": "e3b4027a29ec11df5af164eaf3a7435b3b2890d0c81461c211107f4c1d49a9fd",
+        "duplicate_count": 1,
+        "confidence_level": "high",
+        "threat_score": 25,
+        "threat_level": "LOW"
+    },
+    {
+        "event_id": "SG-b00c80dd50ba",
+        "event_type": "conflict",
+        "classification": "conflict_report",
+        "priority": "high",
+        "title": "New EU border system tripling time at passport control, airport boss says",
+        "description": "Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.",
+        "source": [
+            "BBC World News"
+        ],
+        "timestamp": "2026-07-19T01:47:59+00:00",
+        "location": {
+            "country": "Unknown",
+            "region": "Unknown",
+            "latitude": 0,
+            "longitude": 0
+        },
+        "actors": [],
+        "confidence": 80,
+        "base_confidence": 70,
+        "verification": {
+            "confirmed": false,
+            "source_count": 1
+        },
+        "equipment": [],
+        "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
+        "category": "conflict",
+        "event_hash": "b00c80dd50baa5f81133fcefb9bdf5c90aacaf315ccd81194715d02ade2cd394",
+        "duplicate_count": 1,
+        "confidence_level": "high",
+        "threat_score": 65,
+        "threat_level": "HIGH"
+    },
+    {
+        "event_id": "SG-b73e45504123",
+        "event_type": "news",
+        "classification": "geopolitical_reporting",
+        "priority": "medium",
+        "title": "Andrew Tate and brother arrested in US after more charges laid against them in UK",
+        "description": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are \"innocent\".",
+        "source": [
+            "BBC World News"
+        ],
+        "timestamp": "2026-07-19T02:17:07+00:00",
+        "location": {
+            "country": "Unknown",
+            "region": "Unknown",
+            "latitude": 0,
+            "longitude": 0
+        },
+        "actors": [],
+        "confidence": 70,
+        "base_confidence": 60,
+        "verification": {
+            "confirmed": true,
+            "source_count": 1
+        },
+        "category": "global",
+        "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
+        "event_hash": "b73e45504123cea8e079dff56ecd362f860af7900af92b6a4f96847511e3a8fa",
+        "duplicate_count": 1,
+        "confidence_level": "high",
+        "threat_score": 25,
+        "threat_level": "LOW"
+    },
+    {
+        "event_id": "SG-b0c65127a022",
+        "event_type": "humanitarian",
+        "classification": "disaster_alert",
+        "priority": "high",
+        "title": "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 20 thousand (in MMI>=VII).",
+        "description": "On 7/19/2026 2:24:36 AM, an earthquake occurred in Peru potentially affecting 20 thousand (in MMI>=VII). The earthquake had Magnitude 5.5M, Depth:10km.",
+        "source": [
+            "GDACS"
+        ],
+        "timestamp": "2026-07-19T02:42:14+00:00",
+        "location": {
+            "country": "Unknown",
+            "region": "Unknown",
+            "latitude": -12.0429,
+            "longitude": -75.3013
+        },
+        "actors": [],
+        "confidence": 95,
+        "base_confidence": 80,
+        "verification": {
+            "confirmed": true,
+            "source_count": 1
+        },
+        "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552752",
+        "crisis": {
+            "type": "global_disaster_alert",
+            "severity": "unknown"
+        },
+        "category": "disaster_alert",
+        "event_hash": "b0c65127a0229c23e50fc60227ad6a201fd791409466b3fc61e109ae39d3127e",
+        "duplicate_count": 1,
+        "confidence_level": "verified",
+        "threat_score": 55,
+        "threat_level": "MEDIUM"
+    },
+    {
+        "event_id": "SG-c04ba81af394",
+        "event_type": "humanitarian",
+        "classification": "disaster_alert",
+        "priority": "high",
+        "title": "Green notification for tropical cyclone SIX-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+        "description": "From 19/07/2026 to 19/07/2026, a Tropical Depression (maximum wind speed of 176 km/h) SIX-E-26 was active in EastPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0 (0 in tropical storm).",
+        "source": [
+            "GDACS"
+        ],
+        "timestamp": "2026-07-19T02:53:14+00:00",
+        "location": {
+            "country": "Unknown",
+            "region": "Unknown",
+            "latitude": 11.3,
+            "longitude": -109.1
+        },
+        "actors": [],
+        "confidence": 95,
+        "base_confidence": 80,
+        "verification": {
+            "confirmed": true,
+            "source_count": 1
+        },
+        "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001289",
+        "crisis": {
+            "type": "global_disaster_alert",
+            "severity": "unknown"
+        },
+        "category": "cyber",
+        "event_hash": "c04ba81af394be3edce0be7433874bdeb077e42e75db9f6fade05b18e415bb92",
+        "duplicate_count": 1,
+        "confidence_level": "verified",
+        "threat_score": 65,
+        "threat_level": "HIGH"
     }
 ]
