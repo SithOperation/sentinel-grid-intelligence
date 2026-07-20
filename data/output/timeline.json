@@ -6508,6 +6508,28 @@
     }
   },
   {
+    "event_id": "SG-efb2b3bb6c87",
+    "event_hash": "efb2b3bb6c87aceecaad11f519bb5f14b4a994f4f55ad5c72b3f2b318832c888",
+    "timestamp": "2026-07-19T02:53:14+00:00",
+    "event_type": "humanitarian",
+    "classification": "disaster_alert",
+    "title": "Green notification for tropical cyclone FAUSTO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+    "description": "From 19/07/2026 to 20/07/2026, a Tropical Storm (maximum wind speed of 176 km/h) FAUSTO-26 was active in EastPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) win",
+    "priority": "high",
+    "threat_score": 65,
+    "threat_level": "HIGH",
+    "confidence": 95,
+    "source": [
+      "GDACS"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 12.6,
+      "longitude": -114.7
+    }
+  },
+  {
     "event_id": "SG-0dfba291124a",
     "event_hash": "0dfba291124afdc7ab6a7652eb4fe7f84ccce764cf1f547c6d2bb604a495c092",
     "timestamp": "2026-07-19T05:10:57+00:00",
@@ -6703,6 +6725,50 @@
       "region": "Unknown",
       "latitude": 0,
       "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-1505d46a27de",
+    "event_hash": "1505d46a27de57145df1f0bc91be68244494fb13fa9807f9373e5ac47564fe11",
+    "timestamp": "2026-07-19T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Ukraine: UN condemns overnight attack on Kyiv",
+    "description": "United Nations agencies have deplored a fresh Russian assault on the Ukrainian capital Kyiv which left at least one person dead and a dozen injured.",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Ukraine",
+      "region": "Eastern Europe",
+      "latitude": 48.3794,
+      "longitude": 31.1656
+    }
+  },
+  {
+    "event_id": "SG-16e93946fe08",
+    "event_hash": "16e93946fe08ac1540b7fef185aa4bf36c69129fe576d609d2181a5561ad711e",
+    "timestamp": "2026-07-19T12:00:00+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Ukraine: UN condemns overnight attack on Kyiv",
+    "description": "United Nations agencies have deplored a fresh Russian assault on the Ukrainian capital Kyiv which left at least one person dead and a dozen injured.",
+    "priority": "high",
+    "threat_score": 75,
+    "threat_level": "HIGH",
+    "confidence": 80,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Ukraine",
+      "region": "Eastern Europe",
+      "latitude": 48.3794,
+      "longitude": 31.1656
     }
   },
   {
@@ -6911,6 +6977,116 @@
     "classification": "geopolitical_reporting",
     "title": "Ferry carrying 133 passengers and crew sinks off Guyana coast",
     "description": "Fifteen children are among 67 people rescued, officials say, with dozens still missing.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-bd9999d0bf39",
+    "event_hash": "bd9999d0bf392ba9fe60cef0ff708a41de714fee47dacbedefa997f7b03065a2",
+    "timestamp": "2026-07-19T19:45:12+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "US soldier killed and one injured after Iranian attack in Iraq",
+    "description": "The US military reports another death a day after two of its soldiers were killed in Jordan.",
+    "priority": "medium",
+    "threat_score": 45,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
+    }
+  },
+  {
+    "event_id": "SG-025d59e6ae07",
+    "event_hash": "025d59e6ae0795957b07b62c17c4a1f3b86aad8e2023dc0655789ee013f8b2ae",
+    "timestamp": "2026-07-19T19:45:12+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "US soldier killed and one injured after Iranian attack in Iraq",
+    "description": "The US military reports another death a day after two of its soldiers were killed in Jordan.",
+    "priority": "high",
+    "threat_score": 85,
+    "threat_level": "CRITICAL",
+    "confidence": 80,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
+    }
+  },
+  {
+    "event_id": "SG-37ead99eb7fb",
+    "event_hash": "37ead99eb7fb4c84f9b16b8bbdaf0b03f8299387f071c1bd6476f26b74fc006d",
+    "timestamp": "2026-07-20T01:11:08+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Norway opens new memorial for victims of 2011 massacre",
+    "description": "The artwork in the capital Oslo was unveiled on Sunday ahead of the 15th anniversary of the attack.",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-814e5586ccb4",
+    "event_hash": "814e5586ccb4546f4669fde6177fdf874efbfeff61d4287f3639c3993db1ca8a",
+    "timestamp": "2026-07-20T01:11:08+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Norway opens new memorial for victims of 2011 massacre",
+    "description": "The artwork in the capital Oslo was unveiled on Sunday ahead of the 15th anniversary of the attack.",
+    "priority": "high",
+    "threat_score": 75,
+    "threat_level": "HIGH",
+    "confidence": 80,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-8c7e773c9c92",
+    "event_hash": "8c7e773c9c9252857b254f7145662db441300a9b1dd9a3dcf890bf3e0ef8fdd7",
+    "timestamp": "2026-07-20T02:35:04+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Test that found source of US explosive diarrhoea outbreak was false positive, health officials say",
+    "description": "The latest update from the US Food and Drug Administration means the exact source of the parasite is still not known.",
     "priority": "medium",
     "threat_score": 25,
     "threat_level": "LOW",

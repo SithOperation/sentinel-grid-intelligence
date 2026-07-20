@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 316,
+  "total_events": 324,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -296,6 +296,12 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 100
+    },
+    {
+      "title": "US soldier killed and one injured after Iranian attack in Iraq",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 85
     }
   ],
   "high_priority_events": [
@@ -594,6 +600,12 @@
       "score": 65
     },
     {
+      "title": "Green notification for tropical cyclone FAUSTO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+      "type": "humanitarian",
+      "classification": "disaster_alert",
+      "score": 65
+    },
+    {
       "title": "Russia launches major ballistic missile attack on Ukrainian cities",
       "type": "news",
       "classification": "geopolitical_reporting",
@@ -606,6 +618,12 @@
       "score": 65
     },
     {
+      "title": "Ukraine: UN condemns overnight attack on Kyiv",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
+    },
+    {
       "title": "US and Iran trade fire after two US soldiers killed in Jordan",
       "type": "news",
       "classification": "geopolitical_reporting",
@@ -616,12 +634,18 @@
       "type": "humanitarian",
       "classification": "disaster_alert",
       "score": 65
+    },
+    {
+      "title": "Norway opens new memorial for victims of 2011 massacre",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 186,
+      "event_count": 190,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -799,6 +823,7 @@
         "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 20 thousand (in MMI>=VII).",
         "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 30 thousand (in MMI>=VII).",
         "Green notification for tropical cyclone SIX-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+        "Green notification for tropical cyclone FAUSTO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
         "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US",
         "Neighbours actor Terence Donovan dies aged 90",
         "Ferry carrying 116 passengers sinks off Guyana coast, authorities say",
@@ -811,12 +836,15 @@
         "Green notification for tropical cyclone TWO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
         "Health officials identify source of US explosive diarrhoea outbreak",
         "Green earthquake (Magnitude 5.5M, Depth:35km) in Mexico 19/07/2026 17:45 UTC, 440 thousand in MMI IV.",
-        "Ferry carrying 133 passengers and crew sinks off Guyana coast"
+        "Ferry carrying 133 passengers and crew sinks off Guyana coast",
+        "Norway opens new memorial for victims of 2011 massacre",
+        "Norway opens new memorial for victims of 2011 massacre",
+        "Test that found source of US explosive diarrhoea outbreak was false positive, health officials say"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 53,
+      "event_count": 55,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -873,7 +901,9 @@
         "US and Iran exchange strikes after two US soldiers killed in Jordan",
         "US and Iran exchange strikes after two US soldiers killed in Jordan",
         "US and Iran trade fire after two US soldiers killed in Jordan",
-        "US and Iran trade fire after two US soldiers killed in Jordan"
+        "US and Iran trade fire after two US soldiers killed in Jordan",
+        "US soldier killed and one injured after Iranian attack in Iraq",
+        "US soldier killed and one injured after Iranian attack in Iraq"
       ]
     },
     "Indo-Pacific": {
@@ -893,7 +923,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 40,
+      "event_count": 42,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -937,7 +967,9 @@
         "Russians turn to cash, putting more strain on slowing wartime economy",
         "Russians turn to cash, putting more strain on slowing wartime economy",
         "Russia launches major ballistic missile attack on Ukrainian cities",
-        "Russia launches major ballistic missile attack on Ukrainian cities"
+        "Russia launches major ballistic missile attack on Ukrainian cities",
+        "Ukraine: UN condemns overnight attack on Kyiv",
+        "Ukraine: UN condemns overnight attack on Kyiv"
       ]
     },
     "Americas": {
