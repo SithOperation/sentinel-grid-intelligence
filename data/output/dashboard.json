@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-20T04:02:52.021551+00:00",
+  "generated": "2026-07-20T09:32:57.152385+00:00",
   "summary": {
     "threat_level": "CRITICAL",
-    "total_events": 324
+    "total_events": 326
   },
   "critical_events": [
     {
@@ -6692,7 +6692,7 @@
       },
       "category": "disaster_alert",
       "event_hash": "ff961cf038edf2fdb28316acfb56900defbac31e5cab02a7979bc2c4e201b4f2",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "verified",
       "threat_score": 55,
       "threat_level": "MEDIUM"
@@ -10794,7 +10794,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
       "event_hash": "e3b4027a29ec11df5af164eaf3a7435b3b2890d0c81461c211107f4c1d49a9fd",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -10827,7 +10827,7 @@
       "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "b00c80dd50baa5f81133fcefb9bdf5c90aacaf315ccd81194715d02ade2cd394",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -11003,7 +11003,7 @@
       },
       "category": "cyber",
       "event_hash": "efb2b3bb6c87aceecaad11f519bb5f14b4a994f4f55ad5c72b3f2b318832c888",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -11326,7 +11326,7 @@
       "category": "conflict",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167975",
       "event_hash": "1505d46a27de57145df1f0bc91be68244494fb13fa9807f9373e5ac47564fe11",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -11359,7 +11359,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167975",
       "category": "conflict",
       "event_hash": "16e93946fe08ac1540b7fef185aa4bf36c69129fe576d609d2181a5561ad711e",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 75,
       "threat_level": "HIGH"
@@ -11724,7 +11724,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
       "event_hash": "bd9999d0bf392ba9fe60cef0ff708a41de714fee47dacbedefa997f7b03065a2",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 45,
       "threat_level": "MEDIUM"
@@ -11757,7 +11757,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "025d59e6ae0795957b07b62c17c4a1f3b86aad8e2023dc0655789ee013f8b2ae",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 85,
       "threat_level": "CRITICAL"
@@ -11789,7 +11789,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo?at_medium=RSS&at_campaign=rss",
       "event_hash": "37ead99eb7fb4c84f9b16b8bbdaf0b03f8299387f071c1bd6476f26b74fc006d",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -11822,7 +11822,7 @@
       "url": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "814e5586ccb4546f4669fde6177fdf874efbfeff61d4287f3639c3993db1ca8a",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 75,
       "threat_level": "HIGH"
@@ -11854,16 +11854,84 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do?at_medium=RSS&at_campaign=rss",
       "event_hash": "8c7e773c9c9252857b254f7145662db441300a9b1dd9a3dcf890bf3e0ef8fdd7",
+      "duplicate_count": 2,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-616a17ba8d6f",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Food delivery rider wins China's top literary prize",
+      "description": "Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-20T03:53:07+00:00",
+      "location": {
+        "country": "China",
+        "region": "East Asia",
+        "latitude": 35.8617,
+        "longitude": 104.1954
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/c5ydr3xd0kvo?at_medium=RSS&at_campaign=rss",
+      "event_hash": "616a17ba8d6f48a93d6f6cc74a8b34a1ad6ede58fb5b088a60bcafbd31ba17e7",
       "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-3950e3b66f98",
+      "event_type": "humanitarian",
+      "classification": "disaster_alert",
+      "priority": "high",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Canada 20/07/2026 06:41 UTC, 10 thousand in MMI>=III.",
+      "description": "On 7/20/2026 6:41:30 AM, an earthquake occurred in Canada potentially affecting 10 thousand in MMI>=III. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "source": [
+        "GDACS"
+      ],
+      "timestamp": "2026-07-20T07:00:01+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 49.4076,
+        "longitude": -129.342
+      },
+      "actors": [],
+      "confidence": 95,
+      "base_confidence": 80,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552972",
+      "crisis": {
+        "type": "global_disaster_alert",
+        "severity": "unknown"
+      },
+      "category": "disaster_alert",
+      "event_hash": "3950e3b66f98e19bb22e88d056dd59a57963bda5e8346ac958564ccbdcc02443",
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 55,
+      "threat_level": "MEDIUM"
     }
   ],
   "regional_analysis": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 190,
+      "event_count": 191,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -12057,7 +12125,8 @@
         "Ferry carrying 133 passengers and crew sinks off Guyana coast",
         "Norway opens new memorial for victims of 2011 massacre",
         "Norway opens new memorial for victims of 2011 massacre",
-        "Test that found source of US explosive diarrhoea outbreak was false positive, health officials say"
+        "Test that found source of US explosive diarrhoea outbreak was false positive, health officials say",
+        "Green earthquake (Magnitude 5.6M, Depth:10km) in Canada 20/07/2026 06:41 UTC, 10 thousand in MMI>=III."
       ]
     },
     "Middle East": {
@@ -12126,7 +12195,7 @@
     },
     "Indo-Pacific": {
       "region": "Indo-Pacific",
-      "event_count": 6,
+      "event_count": 7,
       "highest_threat": "MEDIUM",
       "threat_score": 40,
       "activity_level": "ACTIVE",
@@ -12136,7 +12205,8 @@
         "More people around the world now favour China over the US, Pew study suggests",
         "Aircraft activity detected",
         "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms",
-        "China hits out at British Steel nationalisation"
+        "China hits out at British Steel nationalisation",
+        "Food delivery rider wins China's top literary prize"
       ]
     },
     "Europe": {
