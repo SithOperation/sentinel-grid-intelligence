@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 338,
+  "total_events": 373,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -305,6 +305,12 @@
     },
     {
       "title": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 85
+    },
+    {
+      "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
@@ -648,7 +654,19 @@
       "score": 75
     },
     {
+      "title": "LIVE: Haiti endures violence and hunger, but hopes grow for a more secure future",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
       "title": "Lamine Yamal celebrates World Cup win with little brother who charmed fans",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
+    },
+    {
+      "title": "Hamas names Khalil al-Hayya as new overall leader",
       "type": "conflict",
       "classification": "conflict_report",
       "score": 75
@@ -657,7 +675,7 @@
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 201,
+      "event_count": 232,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -789,9 +807,21 @@
         "Venezuela: IOM warns of potential El Niño threat to families displaced by earthquake",
         "Peacekeepers step up support as families return to south Lebanon",
         "WHO warns DR Congo Ebola outbreak is outpacing response as Uganda reaches milestone",
+        "Wildfire Mile Marker 40- Broward (06), Broward, Florida",
+        "Wildfire Bologna, Grant, Oregon",
+        "Wildfire 0494 AKAWA BUTTE, Jefferson, Oregon",
+        "Wildfire 0476 HOAG, Gilliam, Oregon",
+        "Wildfire 0485 DEEP CANYON, Wasco, Oregon",
+        "Wildfire Egypt, Harney, Oregon",
+        "Wildfire 0500 COYOTE, Crook, Oregon",
+        "Wildfire Hagen, Umatilla, Oregon",
+        "Wildfire 0497 HENRY, Crook, Oregon",
+        "Wildfire COLUMBIA COUNTY, Columbia, Washington",
+        "Wildfire 0462, Sherman, Oregon",
         "Canada fires prompt US air quality alerts as smoke blankets major cities",
         "More than 500 Rohingya vanished at sea - what happened?",
         "Green flood alert in France",
+        "Wildfire POWDER RIVER, Baker, Oregon",
         "Djibouti: Emergency alert spotlights sharp hunger spike",
         "World News in Brief: Appeal for calm in Kashmir, women on the move, increased Ebola deaths in communities, 12th anniversary of MH17",
         "Hunger deepens for displaced families in Sudan’s El Obeid",
@@ -801,21 +831,28 @@
         "Baristas behind bars: Thai prisoners brew a path back to daily life",
         "World News in Brief: Appeal for calm in Kashmir, women on the move, Ebola deaths mount, 12th anniversary of MH17",
         "Uganda suspends school trips after 20 pupils die in bus crash",
+        "Wildfire Modrite, Ferry, Washington",
+        "Wildfire NEFF JONES, Franklin, Washington",
         "Green earthquake (Magnitude 7.3M, Depth:18.584km) in Mexico 17/07/2026 14:48 UTC, 60 thousand (in MMI>=VII).",
         "Green earthquake (Magnitude 6M, Depth:10km) in Mexico 17/07/2026 15:20 UTC, 1.2 million in MMI IV.",
         "Air conditioner sparked deadly blaze at children's orphanage - police",
         "Second tanker in three months hijacked off Yemen by suspected Somali pirates",
         "Second tanker in three months hijacked off Yemen by suspected Somali pirates",
+        "Incident Complex HAY CREEK COMPLEX, Gilliam, Oregon",
         "Magnitude 7.3 earthquake quake strikes off Mexico coast",
         "Magnitude 7.3 earthquake quake strikes off Mexico coast",
         "EU proposes slowing down cuts to carbon emissions for businesses",
+        "Wildfire BERGER (50), Palm Beach, Florida",
         "Aircraft activity detected",
         "Aircraft activity detected",
+        "Wildfire DEVIL'S CANYON, Franklin, Washington",
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
         "Fortinet FortiSandbox OS Command Injection Vulnerability",
         "Fortinet FortiSandbox OS Command Injection Vulnerability",
+        "Wildfire WALLACE WALKER, Franklin, Washington",
+        "Wildfire 0512 BOX SPRINGS, Jefferson, Oregon",
         "White House defends Argentina team over Falklands banner",
         "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
         "Indian activist on hunger strike for 20 days forcibly taken to hospital",
@@ -824,9 +861,13 @@
         "Space start-up launches India’s first commercial rocket designed for orbit",
         "Laos says it can't determine cause of tourist deaths linked to methanol",
         "A former Ferrari boss has a blunt message: Your commute is more dangerous than his old job",
+        "Wildfire BISCAR, Lassen, California",
         "German politician resigns over surrogacy child controversy",
+        "Wildfire Ohio, Blaine, Idaho",
         "Hungary's president agrees to stand down after parliament backs removal",
+        "Wildfire Horse Island, Berkeley, South Carolina",
         "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/07/2026 17:26 UTC, 820 thousand in MMI IV.",
+        "Wildfire BROOK, Shasta, California",
         "Green earthquake (Magnitude 5.5M, Depth:10km) in Scotia Sea 18/07/2026 19:50 UTC, [unknown].",
         "Green earthquake (Magnitude 5.5M, Depth:10km) in Scotia Sea 18/07/2026 19:50 UTC, No people affected in 100km.",
         "New EU border system tripling time at passport control, airport boss says",
@@ -850,6 +891,7 @@
         "Health officials identify source of US explosive diarrhoea outbreak",
         "Green earthquake (Magnitude 5.5M, Depth:35km) in Mexico 19/07/2026 17:45 UTC, 440 thousand in MMI IV.",
         "Ferry carrying 133 passengers and crew sinks off Guyana coast",
+        "Wildfire Big Gulch, Moffat, Colorado",
         "Norway opens new memorial for victims of 2011 massacre",
         "Norway opens new memorial for victims of 2011 massacre",
         "Test that found source of US explosive diarrhoea outbreak was false positive, health officials say",
@@ -859,15 +901,22 @@
         "JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child",
         "Scores feared dead after passenger ferry capsizes off Guyana",
         "Moon Day focuses growing concerns around space junk",
+        "‘I consider it a miracle’: Pregnant woman pulled from post-quake rubble in Venezuela",
+        "LIVE: Haiti endures violence and hunger, but hopes grow for a more secure future",
+        "LIVE: Haiti endures violence and hunger, but hopes grow for a more secure future",
         "Utah firefighter and four family members killed in flash flooding",
         "Police block thousands of 'cockroach' protesters marching on India's parliament",
+        "Rare identical quadruplets born in Australia",
         "Lamine Yamal celebrates World Cup win with little brother who charmed fans",
-        "Lamine Yamal celebrates World Cup win with little brother who charmed fans"
+        "Lamine Yamal celebrates World Cup win with little brother who charmed fans",
+        "Newcastle, Liverpool and England legend Keegan dies",
+        "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison",
+        "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 57,
+      "event_count": 59,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -928,7 +977,9 @@
         "US soldier killed and one injured after Iranian attack in Iraq",
         "US soldier killed and one injured after Iranian attack in Iraq",
         "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
-        "Trump says US strikes hit Iran in 'honour' of American soldiers killed"
+        "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+        "Hamas names Khalil al-Hayya as new overall leader",
+        "Hamas names Khalil al-Hayya as new overall leader"
       ]
     },
     "Indo-Pacific": {
@@ -949,7 +1000,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 42,
+      "event_count": 44,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -995,7 +1046,9 @@
         "Russia launches major ballistic missile attack on Ukrainian cities",
         "Russia launches major ballistic missile attack on Ukrainian cities",
         "Ukraine: UN condemns overnight attack on Kyiv",
-        "Ukraine: UN condemns overnight attack on Kyiv"
+        "Ukraine: UN condemns overnight attack on Kyiv",
+        "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
+        "Ten killed as Russian attacks on merchant ships in Black Sea intensify"
       ]
     },
     "Americas": {
