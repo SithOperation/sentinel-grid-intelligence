@@ -6486,6 +6486,28 @@
     }
   },
   {
+    "event_id": "SG-efaba1540059",
+    "event_hash": "efaba1540059fca9683c9f7396185999ebb76e4685ec0c669404d42124beda24",
+    "timestamp": "2026-07-19T02:42:14+00:00",
+    "event_type": "humanitarian",
+    "classification": "disaster_alert",
+    "title": "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 320 thousand (in MMI>=VII).",
+    "description": "On 7/19/2026 2:24:36 AM, an earthquake occurred in Peru potentially affecting 320 thousand (in MMI>=VII). The earthquake had Magnitude 5.5M, Depth:10km.",
+    "priority": "high",
+    "threat_score": 55,
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "source": [
+      "GDACS"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": -12.0429,
+      "longitude": -75.3013
+    }
+  },
+  {
     "event_id": "SG-c04ba81af394",
     "event_hash": "c04ba81af394be3edce0be7433874bdeb077e42e75db9f6fade05b18e415bb92",
     "timestamp": "2026-07-19T02:53:14+00:00",
@@ -7124,6 +7146,28 @@
     }
   },
   {
+    "event_id": "SG-9bd154b89ce0",
+    "event_hash": "9bd154b89ce03436014242d917f1db37c878c5ab13180e337adc1950a87ff63c",
+    "timestamp": "2026-07-20T06:00:00Z",
+    "event_type": "satellite",
+    "classification": "earth_observation",
+    "title": "Tropical Storm Fausto",
+    "description": "Severe Storms",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "source": [
+      "NASA EONET"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 12.7,
+      "longitude": -115.2
+    }
+  },
+  {
     "event_id": "SG-3950e3b66f98",
     "event_hash": "3950e3b66f98e19bb22e88d056dd59a57963bda5e8346ac958564ccbdcc02443",
     "timestamp": "2026-07-20T07:00:01+00:00",
@@ -7143,6 +7187,226 @@
       "region": "Unknown",
       "latitude": 49.4076,
       "longitude": -129.342
+    }
+  },
+  {
+    "event_id": "SG-d0b3f28fa87e",
+    "event_hash": "d0b3f28fa87e608c0b1e278744b07c445c93b6a3c70f36e1e76fae3d0a86bbb8",
+    "timestamp": "2026-07-20T10:02:44+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Boy, 13, dies during World Cup celebrations in Spain",
+    "description": "Two other young people were injured after a fountain partially collapsed in Salamanca's Ciudad Rodrigo.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-c8bc16c06935",
+    "event_hash": "c8bc16c06935debfebaec986ffc91e8f0be10c500fadffd470a5f4250cee30fa",
+    "timestamp": "2026-07-20T11:18:40+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+    "description": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
+    "priority": "medium",
+    "threat_score": 45,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
+    }
+  },
+  {
+    "event_id": "SG-57d846134493",
+    "event_hash": "57d84613449383081991ed1701ce9488a0eb20ab86ec8cfb837af6f26bdcab71",
+    "timestamp": "2026-07-20T11:18:40+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+    "description": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
+    "priority": "high",
+    "threat_score": 85,
+    "threat_level": "CRITICAL",
+    "confidence": 80,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
+    }
+  },
+  {
+    "event_id": "SG-1b8a882e0c90",
+    "event_hash": "1b8a882e0c9069bed218c6612029d052e4c9f2244ff13140afabef4b66139e21",
+    "timestamp": "2026-07-20T11:28:30+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child",
+    "description": "The couple welcomed their fourth child, Alec Neel Vance, on Sunday morning.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-6d13aae9152d",
+    "event_hash": "6d13aae9152d07ec9dbf8aa6e29f56e4e26f8ccbe4e5a45db38cd2a216f976cd",
+    "timestamp": "2026-07-20T11:37:32+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Scores feared dead after passenger ferry capsizes off Guyana",
+    "description": "Sixty-seven people have been rescued but the ferry is thought to have had more than 130 people on board.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-d188d7b8be35",
+    "event_hash": "d188d7b8be35d17fcfd8237308c86dd7e750f087ffb1ea7b599ee7a1f8059b0c",
+    "timestamp": "2026-07-20T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Moon Day focuses growing concerns around space junk",
+    "description": "Amid surging lunar exploration, the UN on Monday urged governments to ensure that humanity's return to the Moon does not come at the expense of planet Earth – or the long-term sustainability of space.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-83cd38d64e8e",
+    "event_hash": "83cd38d64e8e7d5f8e195ffff50ac340862b88f24dd2d0039baded214e28c3e9",
+    "timestamp": "2026-07-20T12:13:58+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Utah firefighter and four family members killed in flash flooding",
+    "description": "A husband, wife and their three sons died - meaning that only a daughter who did not join the outing is still alive.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-32d1e72fcdfb",
+    "event_hash": "32d1e72fcdfb04af27d9c05fb0ccaa475e87d873c283dd74ec32abf4681e8f73",
+    "timestamp": "2026-07-20T12:31:10+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Police block thousands of 'cockroach' protesters marching on India's parliament",
+    "description": "Some protesters demanding education reforms said they were injured in clashes with police who banned the march.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-8ffa79888d26",
+    "event_hash": "8ffa79888d265df5f3f9e658c08ac731de9bc72359aff32e0cdf13481fb53aed",
+    "timestamp": "2026-07-20T13:13:29+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Lamine Yamal celebrates World Cup win with little brother who charmed fans",
+    "description": "The three-year-old brother of Yamal has been hailed one of Spain's World Cup breakout stars by fans",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-92b291d84251",
+    "event_hash": "92b291d8425107d2e6aa0b3dc2956f893ce113f2b52428b659ece7136f144b6b",
+    "timestamp": "2026-07-20T13:13:29+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Lamine Yamal celebrates World Cup win with little brother who charmed fans",
+    "description": "The three-year-old brother of Yamal has been hailed one of Spain's World Cup breakout stars by fans",
+    "priority": "high",
+    "threat_score": 75,
+    "threat_level": "HIGH",
+    "confidence": 80,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ]

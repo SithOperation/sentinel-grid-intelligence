@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 326,
+  "total_events": 338,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -299,6 +299,12 @@
     },
     {
       "title": "US soldier killed and one injured after Iranian attack in Iraq",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 85
+    },
+    {
+      "title": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
@@ -640,12 +646,18 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 75
+    },
+    {
+      "title": "Lamine Yamal celebrates World Cup win with little brother who charmed fans",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 191,
+      "event_count": 201,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -822,6 +834,7 @@
         "Andrew Tate and brother arrested in US after more charges laid against them in UK",
         "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 20 thousand (in MMI>=VII).",
         "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 30 thousand (in MMI>=VII).",
+        "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 320 thousand (in MMI>=VII).",
         "Green notification for tropical cyclone SIX-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
         "Green notification for tropical cyclone FAUSTO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
         "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US",
@@ -840,12 +853,21 @@
         "Norway opens new memorial for victims of 2011 massacre",
         "Norway opens new memorial for victims of 2011 massacre",
         "Test that found source of US explosive diarrhoea outbreak was false positive, health officials say",
-        "Green earthquake (Magnitude 5.6M, Depth:10km) in Canada 20/07/2026 06:41 UTC, 10 thousand in MMI>=III."
+        "Tropical Storm Fausto",
+        "Green earthquake (Magnitude 5.6M, Depth:10km) in Canada 20/07/2026 06:41 UTC, 10 thousand in MMI>=III.",
+        "Boy, 13, dies during World Cup celebrations in Spain",
+        "JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child",
+        "Scores feared dead after passenger ferry capsizes off Guyana",
+        "Moon Day focuses growing concerns around space junk",
+        "Utah firefighter and four family members killed in flash flooding",
+        "Police block thousands of 'cockroach' protesters marching on India's parliament",
+        "Lamine Yamal celebrates World Cup win with little brother who charmed fans",
+        "Lamine Yamal celebrates World Cup win with little brother who charmed fans"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 55,
+      "event_count": 57,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -904,7 +926,9 @@
         "US and Iran trade fire after two US soldiers killed in Jordan",
         "US and Iran trade fire after two US soldiers killed in Jordan",
         "US soldier killed and one injured after Iranian attack in Iraq",
-        "US soldier killed and one injured after Iranian attack in Iraq"
+        "US soldier killed and one injured after Iranian attack in Iraq",
+        "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+        "Trump says US strikes hit Iran in 'honour' of American soldiers killed"
       ]
     },
     "Indo-Pacific": {

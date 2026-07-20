@@ -2232,6 +2232,18 @@
     "timestamp": "2026-07-19T02:42:14+00:00"
   },
   {
+    "event_id": "SG-efaba1540059",
+    "type": "humanitarian",
+    "title": "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 320 thousand (in MMI>=VII).",
+    "description": "On 7/19/2026 2:24:36 AM, an earthquake occurred in Peru potentially affecting 320 thousand (in MMI>=VII). The earthquake had Magnitude 5.5M, Depth:10km.",
+    "latitude": -12.0429,
+    "longitude": -75.3013,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-07-19T02:42:14+00:00"
+  },
+  {
     "event_id": "SG-c04ba81af394",
     "type": "humanitarian",
     "title": "Green notification for tropical cyclone SIX-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
@@ -2424,6 +2436,18 @@
     "timestamp": "2026-07-20T03:53:07+00:00"
   },
   {
+    "event_id": "SG-9bd154b89ce0",
+    "type": "satellite",
+    "title": "Tropical Storm Fausto",
+    "description": "Severe Storms",
+    "latitude": 12.7,
+    "longitude": -115.2,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-07-20T06:00:00Z"
+  },
+  {
     "event_id": "SG-3950e3b66f98",
     "type": "humanitarian",
     "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Canada 20/07/2026 06:41 UTC, 10 thousand in MMI>=III.",
@@ -2434,5 +2458,29 @@
     "threat_level": "MEDIUM",
     "confidence": 95,
     "timestamp": "2026-07-20T07:00:01+00:00"
+  },
+  {
+    "event_id": "SG-c8bc16c06935",
+    "type": "news",
+    "title": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+    "description": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
+    "latitude": 32.4279,
+    "longitude": 53.688,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "timestamp": "2026-07-20T11:18:40+00:00"
+  },
+  {
+    "event_id": "SG-57d846134493",
+    "type": "conflict",
+    "title": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+    "description": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
+    "latitude": 32.4279,
+    "longitude": 53.688,
+    "priority": "high",
+    "threat_level": "CRITICAL",
+    "confidence": 80,
+    "timestamp": "2026-07-20T11:18:40+00:00"
   }
 ]
