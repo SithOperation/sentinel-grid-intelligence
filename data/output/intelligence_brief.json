@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 442,
+  "total_events": 456,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -718,12 +718,30 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 75
+    },
+    {
+      "title": "'Anti-ICE' army veteran started fire outside Manhattan federal building, say officials",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
+    },
+    {
+      "title": "India's 'cockroach' protest continues a day after police crackdown",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 271,
+      "event_count": 282,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -971,10 +989,13 @@
         "Merger deal between Paramount and Warner Bros paused by judge",
         "Green earthquake (Magnitude 5.5M, Depth:10km) in Pacific-Antarctic Ridge 20/07/2026 05:38 UTC, [unknown].",
         "Green earthquake (Magnitude 5.6M, Depth:10km) in Northern Mid-Atlantic Ridge 20/07/2026 21:28 UTC, [unknown].",
+        "Tropical Storm Bertha",
         "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
         "At least 27 dead and 83 missing after passenger ferry capsizes off Guyana",
         "'Anti-ICE' Army veteran set fire outside Manhattan federal building, say officials",
         "'Anti-ICE' Army veteran set fire outside Manhattan federal building, say officials",
+        "'Anti-ICE' army veteran started fire outside Manhattan federal building, say officials",
+        "'Anti-ICE' army veteran started fire outside Manhattan federal building, say officials",
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
@@ -998,12 +1019,20 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
-        "Aircraft activity detected"
+        "Aircraft activity detected",
+        "India's 'cockroach' protest continues a day after police crackdown",
+        "India's 'cockroach' protest continues a day after police crackdown",
+        "Green flood alert in Afghanistan",
+        "Police officers arrested for allegedly seeking roadside bribe from Nigeria's anti-corruption boss",
+        "DR Congo: Ebola outbreak still expanding, WHO sees signs of stabilization",
+        "Shock and anger after top Ghanaian politician sentenced to 20 years for illegal mining",
+        "Green earthquake (Magnitude 5.6M, Depth:10km) in Kermadec Islands Region 21/07/2026 12:14 UTC, [unknown].",
+        "Dozens hurt in Bologna protests after man dies while being restrained by police"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 63,
+      "event_count": 65,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1070,7 +1099,9 @@
         "Hamas names Khalil al-Hayya as new overall leader",
         "Hamas names Khalil al-Hayya as new overall leader",
         "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-        "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers"
+        "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+        "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+        "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal"
       ]
     },
     "Indo-Pacific": {
@@ -1093,7 +1124,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 63,
+      "event_count": 64,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1160,7 +1191,8 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
-        "Aircraft activity detected"
+        "Aircraft activity detected",
+        "Row escalates in Ukraine over army chief's future"
       ]
     },
     "Americas": {
