@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-21T14:20:16.045393+00:00",
+  "generated": "2026-07-21T19:50:16.718082+00:00",
   "summary": {
     "threat_level": "CRITICAL",
-    "total_events": 456
+    "total_events": 469
   },
   "critical_events": [
     {
@@ -334,6 +334,36 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
+    },
+    {
+      "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 95
+    },
+    {
+      "title": "WordPress Core SQL Injection Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "score": 100
+    },
+    {
+      "title": "WordPress Core Interpretation Conflict Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "score": 100
+    },
+    {
+      "title": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "score": 100
+    },
+    {
+      "title": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "score": 100
     }
   ],
   "events": [
@@ -5023,7 +5053,7 @@
       "threat_level": "CRITICAL",
       "event_hash": "beeb64aa5c3709e331f166b2e09464a8990f05e3c45e00dda398dc25526d5478",
       "base_confidence": 100,
-      "duplicate_count": 2
+      "duplicate_count": 1
     },
     {
       "event_id": "SG-3676189f5629",
@@ -5067,7 +5097,7 @@
       "threat_level": "CRITICAL",
       "event_hash": "3676189f5629f4bafb24e572a434450e0096547bd7d1feca7c999dc8f15a3155",
       "base_confidence": 100,
-      "duplicate_count": 2
+      "duplicate_count": 1
     },
     {
       "event_id": "SG-13f39e7988c8",
@@ -5111,7 +5141,7 @@
       "threat_level": "CRITICAL",
       "event_hash": "13f39e7988c8f9f2d1d673523f3d49a998e958ac8a0778ad7ca69518780ff1f1",
       "base_confidence": 100,
-      "duplicate_count": 2
+      "duplicate_count": 1
     },
     {
       "event_id": "SG-0c883d60bdf8",
@@ -5155,7 +5185,7 @@
       "threat_level": "CRITICAL",
       "event_hash": "0c883d60bdf857c34a9973b22eaa737da04fa062a0e8a9a0ddc54f02cdd66563",
       "base_confidence": 100,
-      "duplicate_count": 2
+      "duplicate_count": 1
     },
     {
       "event_id": "SG-0f336b25730e",
@@ -12155,7 +12185,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167963",
       "event_hash": "44f09ad4d964f2bbd3383c1b4ef23f7e1bf892e6bf0e0c3ce7ca1cbea1a49490",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -12188,7 +12218,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167963",
       "category": "conflict_report",
       "event_hash": "ec1111b938af1f18c0ebb40a121f14fa0c42b553c004697691b5d4395ce795d4",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -12220,7 +12250,7 @@
       "category": "conflict",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167975",
       "event_hash": "1505d46a27de57145df1f0bc91be68244494fb13fa9807f9373e5ac47564fe11",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -12253,7 +12283,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167975",
       "category": "conflict",
       "event_hash": "16e93946fe08ac1540b7fef185aa4bf36c69129fe576d609d2181a5561ad711e",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 75,
       "threat_level": "HIGH"
@@ -13189,7 +13219,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167976",
       "event_hash": "d188d7b8be35d17fcfd8237308c86dd7e750f087ffb1ea7b599ee7a1f8059b0c",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -14105,7 +14135,7 @@
       "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21437",
       "category": "earth_observation",
       "event_hash": "a586409abd16572a65934f9283f7f2c9779d39eaebca577576c1789432c75e7f",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -14137,7 +14167,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
       "event_hash": "05588490476e83fbabe6422b13309d819e66de2fc4c0077a11c21e41e0fc2ef7",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -14169,7 +14199,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
       "event_hash": "b676e8f04709ef021bb343eae13196dead134abb504dc089ad71323932ca1b85",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -14266,7 +14296,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/c1m1rr90dzxo?at_medium=RSS&at_campaign=rss",
       "event_hash": "52eb3d2827f55c8a92788708157b1084096ff8e4063f2f1829b408c22e72f6ff",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -14299,7 +14329,7 @@
       "url": "https://www.bbc.co.uk/news/articles/c1m1rr90dzxo?at_medium=RSS&at_campaign=rss",
       "category": "conflict_report",
       "event_hash": "164433949e215762ceb6986679ba4c21e6839e0fc99101ae6e1479d3abb0602f",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 75,
       "threat_level": "HIGH"
@@ -16337,7 +16367,7 @@
       },
       "category": "disaster_alert",
       "event_hash": "327047a8ee0dbac35fbcd0c4ad2c67b12573ebbc4a6432dc73bb65c0911e089e",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 55,
       "threat_level": "MEDIUM"
@@ -16369,7 +16399,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
       "event_hash": "614c592666c39dad51ae7885076de61260a41b67edc9b10495ad7a685ba27f48",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -16402,7 +16432,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "e9068722355c476b8ffbbf0d777bbf32d9bb55d8ae3438f0a987a0233bde82d6",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 75,
       "threat_level": "HIGH"
@@ -16466,10 +16496,139 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167983",
       "event_hash": "460982d0ed47f45ed9355d3b10a3c8113c1bde714ed28b0d49c2ef8bba295194",
+      "duplicate_count": 2,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-3b3dea1604e4",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Global hunger declines again but progress remains uneven across regions",
+      "description": "Global hunger declined for a third consecutive year in 2025 showing that progress is possible, but gains remain fragile and far too slow to achieve the Sustainable Development Goals (SDGs) by the 2030 deadline.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167987",
+      "event_hash": "3b3dea1604e4d52974f3738fd0d222471e3bd0135c96428cd8cb2e0d7ac53e77",
       "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-e34a291cb0fb",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "UN refugee agency reports 144 migrants dead or missing off Mauritanian coast",
+      "description": "The UN’s refugee agency (UNHCR) reports that 144 migrants attempting to reach Europe are dead or missing due to a series of “tragic maritime incidents” off the coast of Mauritania last week.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167985",
+      "event_hash": "e34a291cb0fb656326384a27a995d05293a5c992eb73091f70b756220308af3a",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-a2e542fb8635",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Security Council LIVE: Spotlight on Syria as Guterres heads to Damascus",
+      "description": "The Security Council discussed the situation on the ground in Syria amid reports of an Israeli attack in occupied territory and of a multi-national oil pipeline to counter the closure of the critical Strait of Hormuz – still the focus of the ongoing US-Iran war. The meeting follows UN independent investigators’ findings that security conditions remain fragile in the south as António Guterres heads to Damascus for his first visit to the country as Secretary-General.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Israel",
+        "region": "Middle East",
+        "latitude": 31.0461,
+        "longitude": 34.8516
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167984",
+      "event_hash": "a2e542fb8635452b2562058b641e90265f2fc993be23d286bb72173906219a89",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 35,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-37b00ea6d46c",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "Security Council LIVE: Spotlight on Syria as Guterres heads to Damascus",
+      "description": "The Security Council discussed the situation on the ground in Syria amid reports of an Israeli attack in occupied territory and of a multi-national oil pipeline to counter the closure of the critical Strait of Hormuz – still the focus of the ongoing US-Iran war. The meeting follows UN independent investigators’ findings that security conditions remain fragile in the south as António Guterres heads to Damascus for his first visit to the country as Secretary-General.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Israel",
+        "region": "Middle East",
+        "latitude": 31.0461,
+        "longitude": 34.8516
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167984",
+      "category": "conflict",
+      "event_hash": "37b00ea6d46caaec6d5a33b2be0924cbffea19ef7c3671d7e324aa10638c2ed1",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 75,
+      "threat_level": "HIGH"
     },
     {
       "event_id": "SG-00e914408ed7",
@@ -16498,7 +16657,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cpvwnjllwvwo?at_medium=RSS&at_campaign=rss",
       "event_hash": "00e914408ed7c384298e48a967ab59a5c05666aeb05518a94c22651504f2cfaf",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -16530,7 +16689,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/c7vgel8374yo?at_medium=RSS&at_campaign=rss",
       "event_hash": "574db537b450a5beffad6ee96bc0b34413b0a8e8000646fee3b8a210f730e60c",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -16566,7 +16725,7 @@
       },
       "category": "disaster_alert",
       "event_hash": "493a8a1ae78c3158e3430387082ef0c35d94b696b2be92d775b8b671a7349469",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 55,
       "threat_level": "MEDIUM"
@@ -16598,16 +16757,341 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
       "event_hash": "b0b7602ab4d54fe2339e08301d1e7fab7fe8278ace7bd14b80b73e58995baedd",
+      "duplicate_count": 2,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-2c0481001efc",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
+      "description": "Firas al-Masri, his wife and their four children died in one attack, which the Israeli military says targeted a Hamas operative.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-21T15:54:11+00:00",
+      "location": {
+        "country": "Israel",
+        "region": "Middle East",
+        "latitude": 31.0461,
+        "longitude": 34.8516
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "conflict",
+      "url": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
+      "event_hash": "2c0481001efc2cea5dc01fa0c6ac79318a7aff483d867251154036b7e232e8d5",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 55,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-becf807793fc",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
+      "description": "Firas al-Masri, his wife and their four children died in one attack, which the Israeli military says targeted a Hamas operative.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-21T15:54:11+00:00",
+      "location": {
+        "country": "Israel",
+        "region": "Middle East",
+        "latitude": 31.0461,
+        "longitude": 34.8516
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
+      "category": "conflict",
+      "event_hash": "becf807793fc21288c884bf165e31e70ca71cb0c74bd33e2dbf2328a93d9a190",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 95,
+      "threat_level": "CRITICAL"
+    },
+    {
+      "event_id": "SG-d26b4cda150d",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Brazil's Amazon sees sharp decline in size of area burned in 2025",
+      "description": "The amount of land burned in the world's largest rainforest was the smallest since MapBiomas records began in 1985.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-21T15:57:29+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/cqx78eplqqlo?at_medium=RSS&at_campaign=rss",
+      "event_hash": "d26b4cda150d2f16bb976caba9c829c08c1c2ed6653f7ed3f0f41cc2dc810d22",
       "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-5f5e03e594c7",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Two French firefighters die tackling blaze near Bordeaux airport",
+      "description": "The blaze close to the parking lots at Bordeaux-Mérignac Airport is said to have originated from a brush fire.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-21T16:44:30+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/cy0j9yyed1lo?at_medium=RSS&at_campaign=rss",
+      "event_hash": "5f5e03e594c72941bbc24e59c0659eb96c4348ff0fe5eebc9ce365022e80fcf0",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-e82cfd7237d7",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Carney looking at 'all options' as Trump announces 50% tariffs on Canada",
+      "description": "The duties mark a major escalation in trade tensions between the North American neighbours.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-21T17:33:22+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
+      "event_hash": "e82cfd7237d7798913347cffb3a6bdd2040d6ecf3a89ab5b748951535938b5f1",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-c68f36f54504",
+      "event_type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "priority": "high",
+      "title": "WordPress Core SQL Injection Vulnerability",
+      "description": "WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default WordPress installations.",
+      "source": [
+        "CISA KEV"
+      ],
+      "timestamp": "2026-07-21T19:50:15.737071+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 100,
+      "base_confidence": 90,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "threat": {
+        "cve": "CVE-2026-60137",
+        "vendor": "WordPress",
+        "product": "Core"
+      },
+      "target": {
+        "sector": "UNKNOWN",
+        "organization": "UNKNOWN",
+        "country": "UNKNOWN"
+      },
+      "category": "conflict",
+      "event_hash": "c68f36f545044c9d269854d9e8153e4f2756d6155c2deef80759cfd4cbcf5872",
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 100,
+      "threat_level": "CRITICAL"
+    },
+    {
+      "event_id": "SG-63d61a30549a",
+      "event_type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "priority": "high",
+      "title": "WordPress Core Interpretation Conflict Vulnerability",
+      "description": "WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-2026-60137.",
+      "source": [
+        "CISA KEV"
+      ],
+      "timestamp": "2026-07-21T19:50:15.737104+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 100,
+      "base_confidence": 90,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "threat": {
+        "cve": "CVE-2026-63030",
+        "vendor": "WordPress",
+        "product": "Core"
+      },
+      "target": {
+        "sector": "UNKNOWN",
+        "organization": "UNKNOWN",
+        "country": "UNKNOWN"
+      },
+      "category": "conflict",
+      "event_hash": "63d61a30549a4f8e58092443bd94b85bbd22e55bfedba446f6ecef24b656d7c5",
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 100,
+      "threat_level": "CRITICAL"
+    },
+    {
+      "event_id": "SG-dbd1b402347d",
+      "event_type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "priority": "high",
+      "title": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+      "description": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations.",
+      "source": [
+        "CISA KEV"
+      ],
+      "timestamp": "2026-07-21T19:50:15.737112+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 100,
+      "base_confidence": 90,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "threat": {
+        "cve": "CVE-2026-0770",
+        "vendor": "Langflow",
+        "product": "Langflow"
+      },
+      "target": {
+        "sector": "UNKNOWN",
+        "organization": "UNKNOWN",
+        "country": "UNKNOWN"
+      },
+      "category": "conflict",
+      "event_hash": "dbd1b402347dff45e30e746392a387237fc1c033d14b2a3c61be11fe80e7b998",
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 100,
+      "threat_level": "CRITICAL"
+    },
+    {
+      "event_id": "SG-59b6173bc072",
+      "event_type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "priority": "high",
+      "title": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
+      "description": "DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability.",
+      "source": [
+        "CISA KEV"
+      ],
+      "timestamp": "2026-07-21T19:50:15.737119+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 100,
+      "base_confidence": 90,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "threat": {
+        "cve": "CVE-2021-27137",
+        "vendor": "DD-WRT",
+        "product": "DD-WRT"
+      },
+      "target": {
+        "sector": "UNKNOWN",
+        "organization": "UNKNOWN",
+        "country": "UNKNOWN"
+      },
+      "category": "conflict",
+      "event_hash": "59b6173bc072801dbfc45663f0636ab3fd9d3b470ad52ec90e2a8cd94e2836b9",
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 100,
+      "threat_level": "CRITICAL"
     }
   ],
   "regional_analysis": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 282,
+      "event_count": 291,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -16891,14 +17375,23 @@
         "Green flood alert in Afghanistan",
         "Police officers arrested for allegedly seeking roadside bribe from Nigeria's anti-corruption boss",
         "DR Congo: Ebola outbreak still expanding, WHO sees signs of stabilization",
+        "Global hunger declines again but progress remains uneven across regions",
+        "UN refugee agency reports 144 migrants dead or missing off Mauritanian coast",
         "Shock and anger after top Ghanaian politician sentenced to 20 years for illegal mining",
         "Green earthquake (Magnitude 5.6M, Depth:10km) in Kermadec Islands Region 21/07/2026 12:14 UTC, [unknown].",
-        "Dozens hurt in Bologna protests after man dies while being restrained by police"
+        "Dozens hurt in Bologna protests after man dies while being restrained by police",
+        "Brazil's Amazon sees sharp decline in size of area burned in 2025",
+        "Two French firefighters die tackling blaze near Bordeaux airport",
+        "Carney looking at 'all options' as Trump announces 50% tariffs on Canada",
+        "WordPress Core SQL Injection Vulnerability",
+        "WordPress Core Interpretation Conflict Vulnerability",
+        "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+        "DD-WRT Stack-Based Buffer Overflow Vulnerability"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 65,
+      "event_count": 69,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -16967,7 +17460,11 @@
         "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
         "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
         "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
-        "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal"
+        "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+        "Security Council LIVE: Spotlight on Syria as Guterres heads to Damascus",
+        "Security Council LIVE: Spotlight on Syria as Guterres heads to Damascus",
+        "Israeli strikes in Gaza kill 12, including family of six, medics say",
+        "Israeli strikes in Gaza kill 12, including family of six, medics say"
       ]
     },
     "Indo-Pacific": {

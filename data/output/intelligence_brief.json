@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 456,
+  "total_events": 469,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -332,6 +332,36 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
+    },
+    {
+      "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 95
+    },
+    {
+      "title": "WordPress Core SQL Injection Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "score": 100
+    },
+    {
+      "title": "WordPress Core Interpretation Conflict Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "score": 100
+    },
+    {
+      "title": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "score": 100
+    },
+    {
+      "title": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "score": 100
     }
   ],
   "high_priority_events": [
@@ -736,12 +766,18 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 75
+    },
+    {
+      "title": "Security Council LIVE: Spotlight on Syria as Guterres heads to Damascus",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 282,
+      "event_count": 291,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1025,14 +1061,23 @@
         "Green flood alert in Afghanistan",
         "Police officers arrested for allegedly seeking roadside bribe from Nigeria's anti-corruption boss",
         "DR Congo: Ebola outbreak still expanding, WHO sees signs of stabilization",
+        "Global hunger declines again but progress remains uneven across regions",
+        "UN refugee agency reports 144 migrants dead or missing off Mauritanian coast",
         "Shock and anger after top Ghanaian politician sentenced to 20 years for illegal mining",
         "Green earthquake (Magnitude 5.6M, Depth:10km) in Kermadec Islands Region 21/07/2026 12:14 UTC, [unknown].",
-        "Dozens hurt in Bologna protests after man dies while being restrained by police"
+        "Dozens hurt in Bologna protests after man dies while being restrained by police",
+        "Brazil's Amazon sees sharp decline in size of area burned in 2025",
+        "Two French firefighters die tackling blaze near Bordeaux airport",
+        "Carney looking at 'all options' as Trump announces 50% tariffs on Canada",
+        "WordPress Core SQL Injection Vulnerability",
+        "WordPress Core Interpretation Conflict Vulnerability",
+        "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+        "DD-WRT Stack-Based Buffer Overflow Vulnerability"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 65,
+      "event_count": 69,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1101,7 +1146,11 @@
         "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
         "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
         "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
-        "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal"
+        "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+        "Security Council LIVE: Spotlight on Syria as Guterres heads to Damascus",
+        "Security Council LIVE: Spotlight on Syria as Guterres heads to Damascus",
+        "Israeli strikes in Gaza kill 12, including family of six, medics say",
+        "Israeli strikes in Gaza kill 12, including family of six, medics say"
       ]
     },
     "Indo-Pacific": {
