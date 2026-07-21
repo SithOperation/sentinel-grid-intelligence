@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-07-21T03:43:04.318024+00:00",
+  "generated": "2026-07-21T08:43:09.633527+00:00",
   "status": "degraded",
   "degraded": true,
   "stale": false,
   "stale_after_minutes": 390,
-  "published_event_count": 387,
+  "published_event_count": 442,
   "freshness": {
     "oldest_event": "2026-07-03T17:07:09+00:00",
-    "newest_event": "2026-07-21T02:41:28+00:00",
-    "age_minutes": 61.61
+    "newest_event": "2026-07-21T08:43:00+00:00",
+    "age_minutes": 0.16
   },
   "sources": [
     {
@@ -17,9 +17,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 30,
-      "duration_ms": 962,
-      "checked_at": "2026-07-21T03:42:40.527160+00:00",
-      "last_success": "2026-07-21T03:42:40.527160+00:00",
+      "duration_ms": 1296,
+      "checked_at": "2026-07-21T08:43:06.689642+00:00",
+      "last_success": "2026-07-21T08:43:06.689642+00:00",
       "error": null
     },
     {
@@ -27,19 +27,19 @@
       "enabled": true,
       "status": "ok",
       "event_count": 19,
-      "duration_ms": 2,
-      "checked_at": "2026-07-21T03:42:40.528888+00:00",
-      "last_success": "2026-07-21T03:42:40.528888+00:00",
+      "duration_ms": 1,
+      "checked_at": "2026-07-21T08:43:06.691038+00:00",
+      "last_success": "2026-07-21T08:43:06.691038+00:00",
       "error": null
     },
     {
       "source": "opensky",
       "enabled": true,
-      "status": "no_data",
-      "event_count": 0,
-      "duration_ms": 20214,
-      "checked_at": "2026-07-21T03:43:00.742794+00:00",
-      "last_success": null,
+      "status": "ok",
+      "event_count": 48,
+      "duration_ms": 1295,
+      "checked_at": "2026-07-21T08:43:07.985619+00:00",
+      "last_success": "2026-07-21T08:43:07.985619+00:00",
       "error": null
     },
     {
@@ -48,7 +48,7 @@
       "status": "no_data",
       "event_count": 0,
       "duration_ms": 0,
-      "checked_at": "2026-07-21T03:43:00.742837+00:00",
+      "checked_at": "2026-07-21T08:43:07.985646+00:00",
       "last_success": null,
       "error": null
     },
@@ -57,9 +57,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 25,
-      "duration_ms": 2151,
-      "checked_at": "2026-07-21T03:43:02.894229+00:00",
-      "last_success": "2026-07-21T03:43:02.894229+00:00",
+      "duration_ms": 558,
+      "checked_at": "2026-07-21T08:43:08.543374+00:00",
+      "last_success": "2026-07-21T08:43:08.543374+00:00",
       "error": null
     },
     {
@@ -67,9 +67,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 25,
-      "duration_ms": 104,
-      "checked_at": "2026-07-21T03:43:02.997747+00:00",
-      "last_success": "2026-07-21T03:43:02.997747+00:00",
+      "duration_ms": 85,
+      "checked_at": "2026-07-21T08:43:08.628800+00:00",
+      "last_success": "2026-07-21T08:43:08.628800+00:00",
       "error": null
     },
     {
@@ -77,9 +77,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 10,
-      "duration_ms": 1265,
-      "checked_at": "2026-07-21T03:43:04.263197+00:00",
-      "last_success": "2026-07-21T03:43:04.263197+00:00",
+      "duration_ms": 947,
+      "checked_at": "2026-07-21T08:43:09.575321+00:00",
+      "last_success": "2026-07-21T08:43:09.575321+00:00",
       "error": null
     }
   ]
