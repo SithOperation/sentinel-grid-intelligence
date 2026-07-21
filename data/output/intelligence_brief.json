@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 373,
+  "total_events": 387,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -310,7 +310,25 @@
       "score": 85
     },
     {
+      "title": "Ukraine: Deadly Russian attacks severely damage aid warehouses",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 85
+    },
+    {
+      "title": "Middle East: Civilians again under fire as US-Iran strikes continue",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 85
+    },
+    {
       "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 85
+    },
+    {
+      "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
@@ -648,6 +666,12 @@
       "score": 65
     },
     {
+      "title": "Green notification for tropical cyclone 02L-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+      "type": "humanitarian",
+      "classification": "disaster_alert",
+      "score": 65
+    },
+    {
       "title": "Norway opens new memorial for victims of 2011 massacre",
       "type": "conflict",
       "classification": "conflict_report",
@@ -670,12 +694,18 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 75
+    },
+    {
+      "title": "Merger deal between Paramount and Warner Bros paused by judge",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 232,
+      "event_count": 240,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -888,8 +918,10 @@
         "Runners complete 'world's coolest marathon' on drifting North Pole ice",
         "The 1975's Matty Healy marries model Gabbriette Bechtel in Los Angeles",
         "Green notification for tropical cyclone TWO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+        "Green notification for tropical cyclone 02L-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
         "Health officials identify source of US explosive diarrhoea outbreak",
         "Green earthquake (Magnitude 5.5M, Depth:35km) in Mexico 19/07/2026 17:45 UTC, 440 thousand in MMI IV.",
+        "Green earthquake (Magnitude 5.5M, Depth:35km) in Mexico 19/07/2026 17:45 UTC, 450 thousand in MMI IV.",
         "Ferry carrying 133 passengers and crew sinks off Guyana coast",
         "Wildfire Big Gulch, Moffat, Colorado",
         "Norway opens new memorial for victims of 2011 massacre",
@@ -911,12 +943,18 @@
         "Lamine Yamal celebrates World Cup win with little brother who charmed fans",
         "Newcastle, Liverpool and England legend Keegan dies",
         "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison",
-        "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia"
+        "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
+        "Tate brothers appear in US court for extradition proceedings",
+        "Merger deal between Paramount and Warner Bros paused by judge",
+        "Merger deal between Paramount and Warner Bros paused by judge",
+        "Green earthquake (Magnitude 5.5M, Depth:10km) in Pacific-Antarctic Ridge 20/07/2026 05:38 UTC, [unknown].",
+        "Green earthquake (Magnitude 5.6M, Depth:10km) in Northern Mid-Atlantic Ridge 20/07/2026 21:28 UTC, [unknown].",
+        "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 59,
+      "event_count": 63,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -978,8 +1016,12 @@
         "US soldier killed and one injured after Iranian attack in Iraq",
         "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
         "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+        "Middle East: Civilians again under fire as US-Iran strikes continue",
+        "Middle East: Civilians again under fire as US-Iran strikes continue",
         "Hamas names Khalil al-Hayya as new overall leader",
-        "Hamas names Khalil al-Hayya as new overall leader"
+        "Hamas names Khalil al-Hayya as new overall leader",
+        "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+        "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers"
       ]
     },
     "Indo-Pacific": {
@@ -1000,7 +1042,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 44,
+      "event_count": 46,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1047,6 +1089,8 @@
         "Russia launches major ballistic missile attack on Ukrainian cities",
         "Ukraine: UN condemns overnight attack on Kyiv",
         "Ukraine: UN condemns overnight attack on Kyiv",
+        "Ukraine: Deadly Russian attacks severely damage aid warehouses",
+        "Ukraine: Deadly Russian attacks severely damage aid warehouses",
         "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
         "Ten killed as Russian attacks on merchant ships in Black Sea intensify"
       ]

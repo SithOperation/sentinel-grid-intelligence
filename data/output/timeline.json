@@ -7454,6 +7454,28 @@
     }
   },
   {
+    "event_id": "SG-30b5b5db93a1",
+    "event_hash": "30b5b5db93a1ddfd121e42f9c76ad1ffafe31886104795420f3a7b8c1b388737",
+    "timestamp": "2026-07-19T15:09:29+00:00",
+    "event_type": "humanitarian",
+    "classification": "disaster_alert",
+    "title": "Green notification for tropical cyclone 02L-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+    "description": "From 19/07/2026 to 21/07/2026, a Tropical Storm (maximum wind speed of 83 km/h) 02L-26 was active in Atlantic. The cyclone affects these countries: United States (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds ",
+    "priority": "high",
+    "threat_score": 65,
+    "threat_level": "HIGH",
+    "confidence": 95,
+    "source": [
+      "GDACS"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 28.2,
+      "longitude": -85.9
+    }
+  },
+  {
     "event_id": "SG-1eedb1cec7ad",
     "event_hash": "1eedb1cec7ad1e22d21f1aa2a1901137857ec6ecc4ace8adc71049088843eba6",
     "timestamp": "2026-07-19T15:17:23+00:00",
@@ -7483,6 +7505,28 @@
     "classification": "disaster_alert",
     "title": "Green earthquake (Magnitude 5.5M, Depth:35km) in Mexico 19/07/2026 17:45 UTC, 440 thousand in MMI IV.",
     "description": "On 7/19/2026 5:45:16 PM, an earthquake occurred in Mexico potentially affecting 440 thousand in MMI IV. The earthquake had Magnitude 5.5M, Depth:35km.",
+    "priority": "high",
+    "threat_score": 55,
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "source": [
+      "GDACS"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 14.1592,
+      "longitude": -92.9052
+    }
+  },
+  {
+    "event_id": "SG-fbe957ce4af1",
+    "event_hash": "fbe957ce4af1615061d34f05efd3dee3abde2789891f96ab42f2b736396b3cb4",
+    "timestamp": "2026-07-19T18:01:18+00:00",
+    "event_type": "humanitarian",
+    "classification": "disaster_alert",
+    "title": "Green earthquake (Magnitude 5.5M, Depth:35km) in Mexico 19/07/2026 17:45 UTC, 450 thousand in MMI IV.",
+    "description": "On 7/19/2026 5:45:16 PM, an earthquake occurred in Mexico potentially affecting 450 thousand in MMI IV. The earthquake had Magnitude 5.5M, Depth:35km.",
     "priority": "high",
     "threat_score": 55,
     "threat_level": "MEDIUM",
@@ -7916,6 +7960,94 @@
     }
   },
   {
+    "event_id": "SG-523584e0121e",
+    "event_hash": "523584e0121ed9b4a13b1da6604ff5c6b91f87d165cd1b4708019b472669b9ed",
+    "timestamp": "2026-07-20T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Ukraine: Deadly Russian attacks severely damage aid warehouses",
+    "description": "Russian attacks and drone strikes killed at least two children and injured dozens more across Ukraine over recent days while severely damaging three critical aid warehouses, UN agencies reported on Monday.",
+    "priority": "medium",
+    "threat_score": 45,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Ukraine",
+      "region": "Eastern Europe",
+      "latitude": 48.3794,
+      "longitude": 31.1656
+    }
+  },
+  {
+    "event_id": "SG-ff596dfab47f",
+    "event_hash": "ff596dfab47f78205d649ab6979e91d4eee1a116310a8161cab176df38aaf604",
+    "timestamp": "2026-07-20T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Middle East: Civilians again under fire as US-Iran strikes continue",
+    "description": "As the United States and Iran trade deadly attacks for a second week, the UN continues to call for de-escalation while highlighting the devastation caused to civilians and critical infrastructure across the Middle East.",
+    "priority": "medium",
+    "threat_score": 45,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
+    }
+  },
+  {
+    "event_id": "SG-c00e023471ee",
+    "event_hash": "c00e023471ee9f00301555b59a518436a0234959f6128c831fdd3f59e427b474",
+    "timestamp": "2026-07-20T12:00:00+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Ukraine: Deadly Russian attacks severely damage aid warehouses",
+    "description": "Russian attacks and drone strikes killed at least two children and injured dozens more across Ukraine over recent days while severely damaging three critical aid warehouses, UN agencies reported on Monday.",
+    "priority": "high",
+    "threat_score": 85,
+    "threat_level": "CRITICAL",
+    "confidence": 80,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Ukraine",
+      "region": "Eastern Europe",
+      "latitude": 48.3794,
+      "longitude": 31.1656
+    }
+  },
+  {
+    "event_id": "SG-ae63a5238712",
+    "event_hash": "ae63a5238712ad6d5902373568a709a24d9413fa7ac15d23e3b3f31fc868c29f",
+    "timestamp": "2026-07-20T12:00:00+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Middle East: Civilians again under fire as US-Iran strikes continue",
+    "description": "As the United States and Iran trade deadly attacks for a second week, the UN continues to call for de-escalation while highlighting the devastation caused to civilians and critical infrastructure across the Middle East.",
+    "priority": "high",
+    "threat_score": 85,
+    "threat_level": "CRITICAL",
+    "confidence": 80,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
+    }
+  },
+  {
     "event_id": "SG-83cd38d64e8e",
     "event_hash": "83cd38d64e8e7d5f8e195ffff50ac340862b88f24dd2d0039baded214e28c3e9",
     "timestamp": "2026-07-20T12:13:58+00:00",
@@ -8177,6 +8309,182 @@
       "region": "Unknown",
       "latitude": 0,
       "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-1b2eec5f50f0",
+    "event_hash": "1b2eec5f50f074b390561dcd2e41eacba29922ff9fed025800d58db4e0143453",
+    "timestamp": "2026-07-20T19:05:50+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Tate brothers appear in US court for extradition proceedings",
+    "description": "They were arrested on Saturday after the UK announced dozens of new charges, including rape and sex trafficking, which they deny.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-5f1c5bc160f9",
+    "event_hash": "5f1c5bc160f95eefa01fea074707222057bfe51d1b7fb8bd6026c7059dd16934",
+    "timestamp": "2026-07-20T19:48:13+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Merger deal between Paramount and Warner Bros paused by judge",
+    "description": "US court temporarily stops Paramount and Warner Bros merging after 12 states launched legal action.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-6007dc2d5ffe",
+    "event_hash": "6007dc2d5ffe395ede4ffd520bd63db019990ca9990183573a8332348ea0da0c",
+    "timestamp": "2026-07-20T19:48:13+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Merger deal between Paramount and Warner Bros paused by judge",
+    "description": "US court temporarily stops Paramount and Warner Bros merging after 12 states launched legal action.",
+    "priority": "high",
+    "threat_score": 65,
+    "threat_level": "HIGH",
+    "confidence": 80,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-359ddd56c98a",
+    "event_hash": "359ddd56c98a4d2f85ae4804517840a88934968051724c0691a5059b5c2774f3",
+    "timestamp": "2026-07-20T20:58:06+00:00",
+    "event_type": "humanitarian",
+    "classification": "disaster_alert",
+    "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in Pacific-Antarctic Ridge 20/07/2026 05:38 UTC, [unknown].",
+    "description": "On 7/20/2026 5:38:56 AM, an earthquake occurred in Pacific-Antarctic Ridge potentially affecting [unknown]. The earthquake had Magnitude 5.5M, Depth:10km.",
+    "priority": "high",
+    "threat_score": 55,
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "source": [
+      "GDACS"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": -57.2663,
+      "longitude": -141.7631
+    }
+  },
+  {
+    "event_id": "SG-2fb5c29d3d05",
+    "event_hash": "2fb5c29d3d055d099015fdb690a9738995f1718afe9b424d1cebacc61c5db5a0",
+    "timestamp": "2026-07-20T21:47:37+00:00",
+    "event_type": "humanitarian",
+    "classification": "disaster_alert",
+    "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Northern Mid-Atlantic Ridge 20/07/2026 21:28 UTC, [unknown].",
+    "description": "On 7/20/2026 9:28:30 PM, an earthquake occurred in Northern Mid-Atlantic Ridge potentially affecting [unknown]. The earthquake had Magnitude 5.6M, Depth:10km.",
+    "priority": "high",
+    "threat_score": 55,
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "source": [
+      "GDACS"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 14.5216,
+      "longitude": -45.1002
+    }
+  },
+  {
+    "event_id": "SG-05588490476e",
+    "event_hash": "05588490476e83fbabe6422b13309d819e66de2fc4c0077a11c21e41e0fc2ef7",
+    "timestamp": "2026-07-21T00:34:47+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
+    "description": "The duties mark a major escalation in trade tensions between the North American neighbours.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-8714e437f3eb",
+    "event_hash": "8714e437f3eb301afdf1346b3ae51505802a7141936102f77a375fb130f4a604",
+    "timestamp": "2026-07-21T02:41:28+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+    "description": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
+    "priority": "medium",
+    "threat_score": 45,
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
+    }
+  },
+  {
+    "event_id": "SG-60255a860cba",
+    "event_hash": "60255a860cbaddae08ad07b0fb66ccb151291bdacdab84c3e7b93715ce688b62",
+    "timestamp": "2026-07-21T02:41:28+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+    "description": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
+    "priority": "high",
+    "threat_score": 85,
+    "threat_level": "CRITICAL",
+    "confidence": 80,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Iran",
+      "region": "Middle East",
+      "latitude": 32.4279,
+      "longitude": 53.688
     }
   }
 ]
