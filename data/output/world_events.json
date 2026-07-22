@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-07-21T19:50:16.718099+00:00",
-  "total_events": 469,
+  "generated": "2026-07-22T03:43:54.668875+00:00",
+  "total_events": 479,
   "events": [
     {
       "event_id": "SG-a329e4e29994",
@@ -11491,7 +11491,43 @@
       },
       "category": "disaster_alert",
       "event_hash": "efaba1540059fca9683c9f7396185999ebb76e4685ec0c669404d42124beda24",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
+      "confidence_level": "verified",
+      "threat_score": 55,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-d2e018e48c3e",
+      "event_type": "humanitarian",
+      "classification": "disaster_alert",
+      "priority": "high",
+      "title": "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 240 thousand (in MMI>=VII).",
+      "description": "On 7/19/2026 2:24:35 AM, an earthquake occurred in Peru potentially affecting 240 thousand (in MMI>=VII). The earthquake had Magnitude 5.5M, Depth:10km.",
+      "source": [
+        "GDACS"
+      ],
+      "timestamp": "2026-07-19T02:42:14+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": -12.1036,
+        "longitude": -75.3034
+      },
+      "actors": [],
+      "confidence": 95,
+      "base_confidence": 80,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552752",
+      "crisis": {
+        "type": "global_disaster_alert",
+        "severity": "unknown"
+      },
+      "category": "disaster_alert",
+      "event_hash": "d2e018e48c3e6e8e433ca558b03304c3329ec1ff62ead7df2f240b315a5b9f06",
+      "duplicate_count": 1,
       "confidence_level": "verified",
       "threat_score": 55,
       "threat_level": "MEDIUM"
@@ -12887,7 +12923,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167978",
       "event_hash": "d97b5fd39fba61f81cc91af396d29cee65790b317291ca6a3ce078fd79d663ac",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -12919,7 +12955,7 @@
       "category": "conflict",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167972",
       "event_hash": "ae45361f86977f6f6331e2feca7cc52061d93273e201d5ddc67c9bcdfd71b82e",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -12952,7 +12988,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167972",
       "category": "conflict",
       "event_hash": "4e5a2deae8a3de7c4d683d14ba823adfa4c0a7c9f6ae8f6b8799be00eb41f7e6",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -12984,7 +13020,7 @@
       "category": "conflict",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167980",
       "event_hash": "523584e0121ed9b4a13b1da6604ff5c6b91f87d165cd1b4708019b472669b9ed",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 45,
       "threat_level": "MEDIUM"
@@ -13016,7 +13052,7 @@
       "category": "conflict",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167979",
       "event_hash": "ff596dfab47f78205d649ab6979e91d4eee1a116310a8161cab176df38aaf604",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 45,
       "threat_level": "MEDIUM"
@@ -13049,7 +13085,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167980",
       "category": "conflict",
       "event_hash": "c00e023471ee9f00301555b59a518436a0234959f6128c831fdd3f59e427b474",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 85,
       "threat_level": "CRITICAL"
@@ -13082,7 +13118,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167979",
       "category": "conflict",
       "event_hash": "ae63a5238712ad6d5902373568a709a24d9413fa7ac15d23e3b3f31fc868c29f",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 85,
       "threat_level": "CRITICAL"
@@ -13146,7 +13182,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167982",
       "event_hash": "cb61efbee51715824ae0896dd6c9fb82a308811cef2f5bebfee95ece23fd9aff",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -13179,7 +13215,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167982",
       "category": "conflict_report",
       "event_hash": "bab833d3c3f808543e192b80c2b7a534ceb6972f8e03c1161f93dae2c596215c",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 65,
       "threat_level": "HIGH"
@@ -16164,7 +16200,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167987",
       "event_hash": "3b3dea1604e4d52974f3738fd0d222471e3bd0135c96428cd8cb2e0d7ac53e77",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -16196,7 +16232,7 @@
       "category": "global",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167985",
       "event_hash": "e34a291cb0fb656326384a27a995d05293a5c992eb73091f70b756220308af3a",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -16228,7 +16264,7 @@
       "category": "conflict",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167984",
       "event_hash": "a2e542fb8635452b2562058b641e90265f2fc993be23d286bb72173906219a89",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 35,
       "threat_level": "MEDIUM"
@@ -16261,6 +16297,265 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167984",
       "category": "conflict",
       "event_hash": "37b00ea6d46caaec6d5a33b2be0924cbffea19ef7c3671d7e324aa10638c2ed1",
+      "duplicate_count": 2,
+      "confidence_level": "high",
+      "threat_score": 75,
+      "threat_level": "HIGH"
+    },
+    {
+      "event_id": "SG-a2eadfa3f919",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "‘Business as usual is a business of death’: UN adopts road safety pledge over US objection",
+      "description": "The UN General Assembly closed its first ever High-level Meeting on road safety on Tuesday by adopting a sweeping new declaration aimed at halving road deaths by 2030 – over the sole objection of the United States.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167993",
+      "event_hash": "a2eadfa3f919d5b71bab11688867ce4a2df4ec5bc727e27f6975403ed78d2306",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-a91cb8ac2197",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "World News in Brief: Sexual violence in DR Congo, deaths in Ukraine and Russia, crime in Southeast Asia",
+      "description": "Independent UN human rights experts on Tuesday condemned the M23 armed group’s “reign of terror” over territory it controls in eastern Democratic Republic of the Congo (DRC), calling for an end to the Rwanda-backed group’s sexual torture and violence against civilians.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Ukraine",
+        "region": "Eastern Europe",
+        "latitude": 48.3794,
+        "longitude": 31.1656
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167992",
+      "event_hash": "a91cb8ac2197395ff2edd9a31e8ce77b989e279e9c51579107f9b71be41a9f5c",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 35,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-046542a923d2",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Israeli attacks on Gaza intensify amid surge of West Bank settler violence",
+      "description": "Amid intensified deadly Israeli attacks in Gaza, the UN chief and top officials condemned the killings while a surge violence rocked the West Bank and aid agencies scrambled to help Palestinians.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Israel",
+        "region": "Middle East",
+        "latitude": 31.0461,
+        "longitude": 34.8516
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167991",
+      "event_hash": "046542a923d25a15dda906213e8e5e6ccb6187470eee4e4e321d687c7d1cfd0f",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 35,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-859c81523d69",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Critical minerals: The hidden resources powering the clean energy future",
+      "description": "Why are critical minerals suddenly at the centre of global politics?",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Unknown",
+        "region": "Unknown",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167990",
+      "event_hash": "859c81523d6991506b44f4222b6a3005e9bbbfefed5aa1f35c9f400038a3bd4b",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
+    },
+    {
+      "event_id": "SG-f854a9020c29",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Guterres calls for stepping up diplomatic efforts to end US-Iran conflict",
+      "description": "The United Nations again called for restraint as war ramps up in the Middle East, underscoring the need for dialogue and an end to attacks on “vital infrastructure” across the region.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Iran",
+        "region": "Middle East",
+        "latitude": 32.4279,
+        "longitude": 53.688
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167989",
+      "event_hash": "f854a9020c29b600153b8a6e8ef3e8f02b6572b6445bb0ce03f323031511c6ce",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 35,
+      "threat_level": "MEDIUM"
+    },
+    {
+      "event_id": "SG-f4439b19c094",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "World News in Brief: Sexual violence in DR Congo, deaths in Ukraine and Russia, crime in Southeast Asia",
+      "description": "Independent UN human rights experts on Tuesday condemned the M23 armed group’s “reign of terror” over territory it controls in eastern Democratic Republic of the Congo (DRC), calling for an end to the Rwanda-backed group’s sexual torture and violence against civilians.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Ukraine",
+        "region": "Eastern Europe",
+        "latitude": 48.3794,
+        "longitude": 31.1656
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167992",
+      "category": "conflict_report",
+      "event_hash": "f4439b19c0942671ceb48bb837d7b717ab1246893d4fd07daaf9a53c3eaf9094",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 75,
+      "threat_level": "HIGH"
+    },
+    {
+      "event_id": "SG-2d197670badc",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "Israeli attacks on Gaza intensify amid surge of West Bank settler violence",
+      "description": "Amid intensified deadly Israeli attacks in Gaza, the UN chief and top officials condemned the killings while a surge violence rocked the West Bank and aid agencies scrambled to help Palestinians.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Israel",
+        "region": "Middle East",
+        "latitude": 31.0461,
+        "longitude": 34.8516
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167991",
+      "category": "conflict",
+      "event_hash": "2d197670badc3d24b7b2cb7cc648a90d40e0c7e89db9860e9786e7f2bd9073c9",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 75,
+      "threat_level": "HIGH"
+    },
+    {
+      "event_id": "SG-b2bf9f330f37",
+      "event_type": "conflict",
+      "classification": "conflict_report",
+      "priority": "high",
+      "title": "Guterres calls for stepping up diplomatic efforts to end US-Iran conflict",
+      "description": "The United Nations again called for restraint as war ramps up in the Middle East, underscoring the need for dialogue and an end to attacks on “vital infrastructure” across the region.",
+      "source": [
+        "UN News"
+      ],
+      "timestamp": "2026-07-21T12:00:00+00:00",
+      "location": {
+        "country": "Iran",
+        "region": "Middle East",
+        "latitude": 32.4279,
+        "longitude": 53.688
+      },
+      "actors": [],
+      "confidence": 80,
+      "base_confidence": 70,
+      "verification": {
+        "confirmed": false,
+        "source_count": 1
+      },
+      "equipment": [],
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167989",
+      "category": "conflict",
+      "event_hash": "b2bf9f330f372b764a7ff353feab3406a2ca431c74c3adc460a2d441366e5fc3",
       "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 75,
@@ -16325,7 +16620,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/c7vgel8374yo?at_medium=RSS&at_campaign=rss",
       "event_hash": "574db537b450a5beffad6ee96bc0b34413b0a8e8000646fee3b8a210f730e60c",
-      "duplicate_count": 2,
+      "duplicate_count": 1,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -16425,7 +16720,7 @@
       "category": "conflict",
       "url": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
       "event_hash": "2c0481001efc2cea5dc01fa0c6ac79318a7aff483d867251154036b7e232e8d5",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 55,
       "threat_level": "MEDIUM"
@@ -16458,7 +16753,7 @@
       "url": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
       "category": "conflict",
       "event_hash": "becf807793fc21288c884bf165e31e70ca71cb0c74bd33e2dbf2328a93d9a190",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 95,
       "threat_level": "CRITICAL"
@@ -16490,7 +16785,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cqx78eplqqlo?at_medium=RSS&at_campaign=rss",
       "event_hash": "d26b4cda150d2f16bb976caba9c829c08c1c2ed6653f7ed3f0f41cc2dc810d22",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -16522,7 +16817,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cy0j9yyed1lo?at_medium=RSS&at_campaign=rss",
       "event_hash": "5f5e03e594c72941bbc24e59c0659eb96c4348ff0fe5eebc9ce365022e80fcf0",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -16554,7 +16849,7 @@
       "category": "global",
       "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
       "event_hash": "e82cfd7237d7798913347cffb3a6bdd2040d6ecf3a89ab5b748951535938b5f1",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "high",
       "threat_score": 25,
       "threat_level": "LOW"
@@ -16595,7 +16890,7 @@
       },
       "category": "conflict",
       "event_hash": "c68f36f545044c9d269854d9e8153e4f2756d6155c2deef80759cfd4cbcf5872",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 100,
       "threat_level": "CRITICAL"
@@ -16636,7 +16931,7 @@
       },
       "category": "conflict",
       "event_hash": "63d61a30549a4f8e58092443bd94b85bbd22e55bfedba446f6ecef24b656d7c5",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 100,
       "threat_level": "CRITICAL"
@@ -16677,7 +16972,7 @@
       },
       "category": "conflict",
       "event_hash": "dbd1b402347dff45e30e746392a387237fc1c033d14b2a3c61be11fe80e7b998",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 100,
       "threat_level": "CRITICAL"
@@ -16718,10 +17013,42 @@
       },
       "category": "conflict",
       "event_hash": "59b6173bc072801dbfc45663f0636ab3fd9d3b470ad52ec90e2a8cd94e2836b9",
-      "duplicate_count": 1,
+      "duplicate_count": 2,
       "confidence_level": "verified",
       "threat_score": 100,
       "threat_level": "CRITICAL"
+    },
+    {
+      "event_id": "SG-12f45115caea",
+      "event_type": "news",
+      "classification": "geopolitical_reporting",
+      "priority": "medium",
+      "title": "Zelensky sacks Ukraine's top army commander after days of protests",
+      "description": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.",
+      "source": [
+        "BBC World News"
+      ],
+      "timestamp": "2026-07-21T23:59:34+00:00",
+      "location": {
+        "country": "Ukraine",
+        "region": "Eastern Europe",
+        "latitude": 48.3794,
+        "longitude": 31.1656
+      },
+      "actors": [],
+      "confidence": 70,
+      "base_confidence": 60,
+      "verification": {
+        "confirmed": true,
+        "source_count": 1
+      },
+      "category": "global",
+      "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
+      "event_hash": "12f45115caea078786dd8c9fe93c1bc2ba77202a79f25c59bbfb8f84220b1d82",
+      "duplicate_count": 1,
+      "confidence_level": "high",
+      "threat_score": 25,
+      "threat_level": "LOW"
     }
   ]
 }
