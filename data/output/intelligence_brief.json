@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 554,
+  "total_events": 574,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -367,6 +367,18 @@
       "title": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
       "type": "conflict",
       "classification": "conflict_report",
+      "score": 100
+    },
+    {
+      "title": "Check Point SmartConsole Improper Authentication Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
+      "score": 100
+    },
+    {
+      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
+      "type": "cyber",
+      "classification": "known_exploited_vulnerability",
       "score": 100
     }
   ],
@@ -826,12 +838,36 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 65
+    },
+    {
+      "title": "Nicaragua continues to weaken political freedoms, UN warns",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "Security Council LIVE: Can critical minerals fuel peace and prosperity instead of conflict?",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 321,
+      "event_count": 334,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1144,8 +1180,14 @@
         "Security Council LIVE: Can critical minerals fuel peace instead of conflict?",
         "From lithium to nickel: How the UN is helping countries make the most of critical minerals",
         "Security Council LIVE: Can critical minerals fuel peace instead of conflict?",
+        "Nicaragua continues to weaken political freedoms, UN warns",
+        "Deadly Afghanistan floods kill at least 26 as aid agencies race to reach survivors",
+        "Security Council LIVE: Can critical minerals fuel peace and prosperity instead of conflict?",
+        "Nicaragua continues to weaken political freedoms, UN warns",
+        "Security Council LIVE: Can critical minerals fuel peace and prosperity instead of conflict?",
         "Modelling scout linked to Epstein found dead in Paris suburbs",
         "Aircraft activity detected",
+        "British woman jailed for blackmail after accusing banker of rape in Hong Kong",
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
@@ -1156,12 +1198,19 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
-        "Aircraft activity detected"
+        "Aircraft activity detected",
+        "Tankers make sharp U-turns after Houthi shipping threat",
+        "Wreckage of Pan Am plane that shaped aviation safety found 74 years on",
+        "Modelling scout linked to Epstein found dead in Paris",
+        "Green forest fire notification in Angola, The Democratic Republic of Congo",
+        "Police formally investigate woman after Brit stabbed to death in French village",
+        "Check Point SmartConsole Improper Authentication Vulnerability",
+        "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 80,
+      "event_count": 85,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1245,7 +1294,12 @@
         "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
         "US 'will target Iran's bridges and power plants' if Hormuz attacks persist",
         "US 'will target Iran's bridges and power plants' if Hormuz attacks persist",
-        "US to announce deal allowing Saudi Arabia a nuclear programme, reports say"
+        "US to announce deal allowing Saudi Arabia a nuclear programme, reports say",
+        "US to announce deal allowing Saudi Arabia a nuclear programme",
+        "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
+        "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
+        "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+        "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist"
       ]
     },
     "Indo-Pacific": {
@@ -1268,7 +1322,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 80,
+      "event_count": 82,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1352,7 +1406,9 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
-        "Aircraft activity detected"
+        "Aircraft activity detected",
+        "Ukrainian drones hit Russian online giant retailer Wildberries for second time",
+        "Two Russians handed down jail terms for terrorism and spying in Angola"
       ]
     },
     "Americas": {
