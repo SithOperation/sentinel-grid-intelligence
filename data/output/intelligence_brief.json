@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 479,
+  "total_events": 493,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -361,6 +361,12 @@
       "title": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
       "type": "cyber",
       "classification": "known_exploited_vulnerability",
+      "score": 100
+    },
+    {
+      "title": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+      "type": "conflict",
+      "classification": "conflict_report",
       "score": 100
     }
   ],
@@ -790,12 +796,30 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 75
+    },
+    {
+      "title": "Iran war has cost US $37.5bn so far, Hegseth says, as Pentagon seeks billions more",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+      "type": "news",
+      "classification": "geopolitical_reporting",
+      "score": 65
+    },
+    {
+      "title": "More warehouses of Russian online retailer Wildberries hit by Ukraine, officials say",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 294,
+      "event_count": 302,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1093,12 +1117,20 @@
         "WordPress Core SQL Injection Vulnerability",
         "WordPress Core Interpretation Conflict Vulnerability",
         "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
-        "DD-WRT Stack-Based Buffer Overflow Vulnerability"
+        "DD-WRT Stack-Based Buffer Overflow Vulnerability",
+        "Tokyo urges men to wear shorts to work, but some women say it's 'leg hair harassment'",
+        "Michelin-starred restaurateur faces jail for using ants as dessert garnish",
+        "France passes law banning under-15s from social media",
+        "Rebel Wilson cleared in defamation case brought by actress in her own film",
+        "Green flood alert in Latvia",
+        "Green flood alert in Romania",
+        "India's Modi government under growing pressure as 'cockroach' protests intensify",
+        "Police station opens at Hitler's birthplace in bid to rid site of Nazi link"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 73,
+      "event_count": 77,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1175,7 +1207,11 @@
         "Israeli attacks on Gaza intensify amid surge of West Bank settler violence",
         "Guterres calls for stepping up diplomatic efforts to end US-Iran conflict",
         "Israeli strikes in Gaza kill 12, including family of six, medics say",
-        "Israeli strikes in Gaza kill 12, including family of six, medics say"
+        "Israeli strikes in Gaza kill 12, including family of six, medics say",
+        "Iran war has cost US $37.5bn so far, Hegseth says, as Pentagon seeks billions more",
+        "Iran war has cost US $37.5bn so far, Hegseth says, as Pentagon seeks billions more",
+        "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+        "US renews strikes on Iran as Trump threatens to attack underground nuclear site"
       ]
     },
     "Indo-Pacific": {
@@ -1198,7 +1234,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 67,
+      "event_count": 69,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1269,7 +1305,9 @@
         "World News in Brief: Sexual violence in DR Congo, deaths in Ukraine and Russia, crime in Southeast Asia",
         "World News in Brief: Sexual violence in DR Congo, deaths in Ukraine and Russia, crime in Southeast Asia",
         "Row escalates in Ukraine over army chief's future",
-        "Zelensky sacks Ukraine's top army commander after days of protests"
+        "Zelensky sacks Ukraine's top army commander after days of protests",
+        "More warehouses of Russian online retailer Wildberries hit by Ukraine, officials say",
+        "More warehouses of Russian online retailer Wildberries hit by Ukraine, officials say"
       ]
     },
     "Americas": {
