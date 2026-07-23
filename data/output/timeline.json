@@ -14098,6 +14098,28 @@
     }
   },
   {
+    "event_id": "SG-8617288401d7",
+    "event_hash": "8617288401d77288570d656f1d6fd7c040d25979d5cc3cbd7c332fbb54df979a",
+    "timestamp": "2026-07-23T08:39:30+00:00",
+    "event_type": "humanitarian",
+    "classification": "disaster_alert",
+    "title": "Orange notification for tropical cyclone ELEVEN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 23.59 million .",
+    "description": "From 23/07/2026 to 23/07/2026, a Tropical Depression (maximum wind speed of 139 km/h) ELEVEN-26 was active in NWPacific. The cyclone affects these countries: China (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind sp",
+    "priority": "high",
+    "threat_score": 65,
+    "threat_level": "HIGH",
+    "confidence": 95,
+    "source": [
+      "GDACS"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 18.0,
+      "longitude": 126.9
+    }
+  },
+  {
     "event_id": "SG-a65c9c2a59a2",
     "event_hash": "a65c9c2a59a2d409bf8550a29e33d4235c1990bdb09acdd145984978b765d8db",
     "timestamp": "2026-07-23T10:04:56+00:00",
@@ -14183,6 +14205,138 @@
       "region": "Middle East",
       "latitude": 32.4279,
       "longitude": 53.688
+    }
+  },
+  {
+    "event_id": "SG-a91951b98d9f",
+    "event_hash": "a91951b98d9fcb94959ff07926377d99ccb80639ebb13ead99b3ce7883ac4414",
+    "timestamp": "2026-07-23T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "World News in Brief: New ECOSOC chief, Secretary-General candidates’ debate, torture in Mali, drowning prevention",
+    "description": "Amar Bendjama, Permanent Representative of Algeria to the UN, was elected on Thursday to serve as the next president of the UN’s Economic and Social Council (ECOSOC).",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-b4e14089f9ae",
+    "event_hash": "b4e14089f9ae2e968c124d35e2e47718259d7c780e9b03078891c91bace9b6b9",
+    "timestamp": "2026-07-23T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Gaza’s food gains could unravel without sustained aid, UN warns",
+    "description": "Food security and child nutrition have improved across the Gaza Strip largely due to a scale-up in humanitarian assistance and commercial traffic, but progress remains fragile and could quickly reverse without sustained access, funding and recovery s",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Palestine",
+      "region": "Middle East",
+      "latitude": 31.3547,
+      "longitude": 34.3088
+    }
+  },
+  {
+    "event_id": "SG-dd540b60d100",
+    "event_hash": "dd540b60d10075edbb45def51af79cc7c779a4bde4fa076ebeb8256e0426d722",
+    "timestamp": "2026-07-23T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Satellites can now spot methane leaks in real time – but most go unfixed",
+    "description": "Satellites can now spot major methane leaks from space within days. Yet only 13 per cent of those alerts lead to any response from the governments or companies responsible.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-933bf234ac9a",
+    "event_hash": "933bf234ac9a775371f4d85fa30d8ad54ca9804a0ad83cccd9cd3a1451d8b4d7",
+    "timestamp": "2026-07-23T12:00:00+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Security Council LIVE: How to turn preventive diplomacy rhetoric into action",
+    "description": "The Security Council is debating on Thursday how best to settle disputes between States peacefully. Ambassadors will be exploring such themes as effective early warning and how to move from rhetorical support for preventive diplomacy to ensuring more",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-aeae8cf0daf3",
+    "event_hash": "aeae8cf0daf382041229ddc013b3fc359ba0a8bd41e8269e95d417093daf0375",
+    "timestamp": "2026-07-23T12:00:00+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Gaza’s food gains could unravel without sustained aid, UN warns",
+    "description": "Food security and child nutrition have improved across the Gaza Strip largely due to a scale-up in humanitarian assistance and commercial traffic, but progress remains fragile and could quickly reverse without sustained access, funding and recovery s",
+    "priority": "high",
+    "threat_score": 65,
+    "threat_level": "HIGH",
+    "confidence": 80,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Palestine",
+      "region": "Middle East",
+      "latitude": 31.3547,
+      "longitude": 34.3088
+    }
+  },
+  {
+    "event_id": "SG-3f107978c0d9",
+    "event_hash": "3f107978c0d906d8f4dfc76b9b54d6488b1afdb7392ade0c3a260e044f53e5a0",
+    "timestamp": "2026-07-23T12:00:00+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Security Council LIVE: How to turn preventive diplomacy rhetoric into action",
+    "description": "The Security Council is debating on Thursday how best to settle disputes between States peacefully. Ambassadors will be exploring such themes as effective early warning and how to move from rhetorical support for preventive diplomacy to ensuring more",
+    "priority": "high",
+    "threat_score": 65,
+    "threat_level": "HIGH",
+    "confidence": 80,
+    "source": [
+      "UN News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -15415,6 +15569,1194 @@
       "region": "Unknown",
       "latitude": 37.9272,
       "longitude": -88.8743
+    }
+  },
+  {
+    "event_id": "SG-59ccb8fbaf1b",
+    "event_hash": "59ccb8fbaf1bf9d5b2adfeb034312736e9c3b2fe0994cb6307df883c1336c68d",
+    "timestamp": "2026-07-23T15:54:41+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Nicaragua's legislature debates barring opposition from elections",
+    "description": "The move comes days after President Daniel Ortega demanded 'a wall, a blockade' against opposition parties.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-d6198dd3abb9",
+    "event_hash": "d6198dd3abb93526316a388e17d901c942223afe5a61374c19adc5857291b655",
+    "timestamp": "2026-07-23T16:07:24+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Ex-governor convicted of murdering a pregnant student in Kenya",
+    "description": "Okoth Obado was found guilty of killing Sharon Otieno with whom he had had an affair.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-9b7e1cc7ac58",
+    "event_hash": "9b7e1cc7ac58d386ea38d764b75049067bbd3f2b803f7f64e3952ebb02d64711",
+    "timestamp": "2026-07-23T16:26:49+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Teen jailed for exam cheating in Guinea dies after sickle cell complications, father says",
+    "description": "Mamadou Djouma Bah, 17, was arrested and sentenced to prison for exam fraud earlier this month.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Unknown",
+      "region": "Unknown",
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "event_id": "SG-3609746152e2",
+    "event_hash": "3609746152e27520bcebb652f36f230589cbc08cbf4b8e2ad8e8a65edddfb4e6",
+    "timestamp": "2026-07-23T17:37:59+00:00",
+    "event_type": "news",
+    "classification": "geopolitical_reporting",
+    "title": "Ukraine's ousted defence minister insists on being reinstated",
+    "description": "Mykhailo Fedorov refuses President Zelensky's offer to accept an alternative post, as the battle of wills continues.",
+    "priority": "medium",
+    "threat_score": 25,
+    "threat_level": "LOW",
+    "confidence": 70,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Ukraine",
+      "region": "Eastern Europe",
+      "latitude": 48.3794,
+      "longitude": 31.1656
+    }
+  },
+  {
+    "event_id": "SG-46cd1631d386",
+    "event_hash": "46cd1631d386b529bc5f16a200c5c03f040b398dc93f0c364f808bd897d698fc",
+    "timestamp": "2026-07-23T17:37:59+00:00",
+    "event_type": "conflict",
+    "classification": "conflict_report",
+    "title": "Ukraine's ousted defence minister insists on being reinstated",
+    "description": "Mykhailo Fedorov refuses President Zelensky's offer to accept an alternative post, as the battle of wills continues.",
+    "priority": "high",
+    "threat_score": 65,
+    "threat_level": "HIGH",
+    "confidence": 80,
+    "source": [
+      "BBC World News"
+    ],
+    "location": {
+      "country": "Ukraine",
+      "region": "Eastern Europe",
+      "latitude": 48.3794,
+      "longitude": 31.1656
+    }
+  },
+  {
+    "event_id": "SG-ea487ea0d6f9",
+    "event_hash": "ea487ea0d6f961e2d483452d2ddb7f2798ac9f10c427a25a01e692316f3b5d86",
+    "timestamp": "2026-07-23T19:39:23+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 41.7837,
+      "longitude": -111.8544
+    }
+  },
+  {
+    "event_id": "SG-6ba95253379f",
+    "event_hash": "6ba95253379ff4addfd13a894eab455e564d0906841c02c728f3ccf9bf2b6469",
+    "timestamp": "2026-07-23T19:41:01+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 43.9915,
+      "longitude": -88.5501
+    }
+  },
+  {
+    "event_id": "SG-a35a70d4e7ce",
+    "event_hash": "a35a70d4e7ce877aaf7ee11a40e0103f73ca311b021dec3ae0b18186831ae675",
+    "timestamp": "2026-07-23T19:41:19+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 42.3645,
+      "longitude": -85.0523
+    }
+  },
+  {
+    "event_id": "SG-6ac5ec06ff13",
+    "event_hash": "6ac5ec06ff13234a888779edbbd78c9e7d9b3ef13c7ff2d4ab81c11470fd2e21",
+    "timestamp": "2026-07-23T19:41:40+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 39.7582,
+      "longitude": -82.6871
+    }
+  },
+  {
+    "event_id": "SG-21ef7014f0c2",
+    "event_hash": "21ef7014f0c2750fe2f4dc60bfc6f5dae86dee4e2cfdd4054737351133f21b82",
+    "timestamp": "2026-07-23T19:42:41+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 32.8265,
+      "longitude": -116.9715
+    }
+  },
+  {
+    "event_id": "SG-7d2cf63b0c8b",
+    "event_hash": "7d2cf63b0c8b57d316d0bb28768108b9d180acc4fbba4f65d1b99345e3172a12",
+    "timestamp": "2026-07-23T19:42:43+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 13.673,
+      "longitude": -85.5093
+    }
+  },
+  {
+    "event_id": "SG-dc27669dd8d5",
+    "event_hash": "dc27669dd8d578f692815069c08d9e7d5da1a9318e1f32b3bbd3c70662d063c5",
+    "timestamp": "2026-07-23T19:42:45+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "Canada",
+      "region": "Unknown",
+      "latitude": 46.779,
+      "longitude": -79.3902
+    }
+  },
+  {
+    "event_id": "SG-43ae81a4a75f",
+    "event_hash": "43ae81a4a75f9b2667e1357395f806a9040cbb82fb5cac20b7c6919d2e0dc12e",
+    "timestamp": "2026-07-23T19:42:56+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "South Africa",
+      "region": "Unknown",
+      "latitude": -27.4432,
+      "longitude": 26.5382
+    }
+  },
+  {
+    "event_id": "SG-6be76f31569e",
+    "event_hash": "6be76f31569e96f91f495eb5f8f7f6c1b2706cacafd14f181395724da0b6933a",
+    "timestamp": "2026-07-23T19:43:31+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 39.6418,
+      "longitude": -100.1724
+    }
+  },
+  {
+    "event_id": "SG-bae6d1b78520",
+    "event_hash": "bae6d1b7852086885b18ac3318e0fcb8bb74ab7a98f97a7aefc890369a737d12",
+    "timestamp": "2026-07-23T19:44:07+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "South Africa",
+      "region": "Unknown",
+      "latitude": -26.5542,
+      "longitude": 27.9257
+    }
+  },
+  {
+    "event_id": "SG-a6fd9344fc13",
+    "event_hash": "a6fd9344fc139f802f9fea0108e6fa1e117d4008da78855fcba6a29583dfa0a3",
+    "timestamp": "2026-07-23T19:44:15+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 42.5623,
+      "longitude": -128.8121
+    }
+  },
+  {
+    "event_id": "SG-54410198c46f",
+    "event_hash": "54410198c46f2cff94e13105f20b633f559733ff74969e97b5079f9c7e095462",
+    "timestamp": "2026-07-23T19:44:18+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "India",
+      "region": "Unknown",
+      "latitude": 22.2087,
+      "longitude": 54.9207
+    }
+  },
+  {
+    "event_id": "SG-66bccccc98cb",
+    "event_hash": "66bccccc98cbd31088351266c51888940c99103ef4066bd51d51bd8c0dee008b",
+    "timestamp": "2026-07-23T19:44:18+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "Canada",
+      "region": "Unknown",
+      "latitude": 43.7585,
+      "longitude": -79.8775
+    }
+  },
+  {
+    "event_id": "SG-ed0a1f30d910",
+    "event_hash": "ed0a1f30d91088c921f368c3cf6e450b369ef866a6102961d52d81f3c5a9d01a",
+    "timestamp": "2026-07-23T19:44:20+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 38.9525,
+      "longitude": -77.456
+    }
+  },
+  {
+    "event_id": "SG-f7b088ba3015",
+    "event_hash": "f7b088ba3015653b94de6007d7cb0bf60fa8ce1730d33588da288d074257da34",
+    "timestamp": "2026-07-23T19:44:21+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 38.0302,
+      "longitude": -84.5087
+    }
+  },
+  {
+    "event_id": "SG-8397623e79fe",
+    "event_hash": "8397623e79fe992e4c5da35c626b0e0922051b403621c5b64bd6d24f9e72f4e7",
+    "timestamp": "2026-07-23T19:44:22+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 38.9513,
+      "longitude": -77.4397
+    }
+  },
+  {
+    "event_id": "SG-2799802acb4e",
+    "event_hash": "2799802acb4e0d85f716d092779ef0a663ffb89ce32f0d1f8a33d87f56a5fcbb",
+    "timestamp": "2026-07-23T19:44:22+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 48.7257,
+      "longitude": 2.3655
+    }
+  },
+  {
+    "event_id": "SG-b518d3fc5d1f",
+    "event_hash": "b518d3fc5d1f294bbc4576ac5d3d7e80824b82b1bfee000e1d58a221916bb1bc",
+    "timestamp": "2026-07-23T19:44:23+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 21.3656,
+      "longitude": -157.9553
+    }
+  },
+  {
+    "event_id": "SG-cafeabcad913",
+    "event_hash": "cafeabcad9133bb577fe93862668aefd56ff2c6bb6d9111e946e33454f7b0dba",
+    "timestamp": "2026-07-23T19:44:24+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 37.4963,
+      "longitude": -121.2244
+    }
+  },
+  {
+    "event_id": "SG-e4e4bde6267e",
+    "event_hash": "e4e4bde6267e3d6b6f525bc2f5806280c61abc268990cab505cdc383d73befbe",
+    "timestamp": "2026-07-23T19:44:25+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 33.8071,
+      "longitude": -116.6957
+    }
+  },
+  {
+    "event_id": "SG-459ea036cb40",
+    "event_hash": "459ea036cb4026bc36bed0a64415f52fa25c13222130b9e3bf23ac891ab9e8d4",
+    "timestamp": "2026-07-23T19:44:25+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 34.7828,
+      "longitude": -80.9188
+    }
+  },
+  {
+    "event_id": "SG-74293f9500b4",
+    "event_hash": "74293f9500b4a08cbedb2c5f2039ea928a8df89e9118c6db0f6cda26196d06c3",
+    "timestamp": "2026-07-23T19:44:26+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 45.7947,
+      "longitude": -3.8932
+    }
+  },
+  {
+    "event_id": "SG-0e49edb15b35",
+    "event_hash": "0e49edb15b35fcf8c9186787407ab47fec945c78a56df1ca99908089cf6c0649",
+    "timestamp": "2026-07-23T19:44:26+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 31.3444,
+      "longitude": -85.4779
+    }
+  },
+  {
+    "event_id": "SG-a16598747c04",
+    "event_hash": "a16598747c041be6c1a1f5c521c250c92f83f6783898e3812b188d0fbb8d0d3d",
+    "timestamp": "2026-07-23T19:44:26+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 44.6404,
+      "longitude": -93.5247
+    }
+  },
+  {
+    "event_id": "SG-bc3cf0e7e757",
+    "event_hash": "bc3cf0e7e7574a1a9d5bc19d596d864716e640b640d1bd466d658a8d9caac543",
+    "timestamp": "2026-07-23T19:44:26+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "India",
+      "region": "Unknown",
+      "latitude": 25.3296,
+      "longitude": 55.9407
+    }
+  },
+  {
+    "event_id": "SG-c9fefcddf857",
+    "event_hash": "c9fefcddf857fcf6c9f66cf339420b81e74f1dcdc91674d160c599d57378e3b3",
+    "timestamp": "2026-07-23T19:44:26+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 41.0588,
+      "longitude": -80.3963
+    }
+  },
+  {
+    "event_id": "SG-4c2f0a0d0bfd",
+    "event_hash": "4c2f0a0d0bfdd421bae9c07d1744f405c8b22d8b04aa3fd9a862716da103373e",
+    "timestamp": "2026-07-23T19:44:26+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "India",
+      "region": "Unknown",
+      "latitude": 23.2289,
+      "longitude": 68.1108
+    }
+  },
+  {
+    "event_id": "SG-dce9eab638ce",
+    "event_hash": "dce9eab638cee8b6cd1e88d0c13cb8a07be621b50e09203fcdb5bd3f22955ef8",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "Canada",
+      "region": "Unknown",
+      "latitude": 45.6446,
+      "longitude": -74.4133
+    }
+  },
+  {
+    "event_id": "SG-049b0679f3dd",
+    "event_hash": "049b0679f3dd07ff761aeb574dbe529a380f597db7e0f08c4b3774a1a8e49b82",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 41.9708,
+      "longitude": -2.6566
+    }
+  },
+  {
+    "event_id": "SG-e4052480dc96",
+    "event_hash": "e4052480dc96fd9f4d1fc9e6772115a823d1985887273946a16cea52ee93089f",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 42.4244,
+      "longitude": 24.5888
+    }
+  },
+  {
+    "event_id": "SG-bcd7ae41eebf",
+    "event_hash": "bcd7ae41eebf422dbb2054d47ee15b9ee03c16b2c4399501491348d35c803fae",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 46.2812,
+      "longitude": 2.8886
+    }
+  },
+  {
+    "event_id": "SG-f9c88d3d76a2",
+    "event_hash": "f9c88d3d76a2f933ea168ee5fd8b33e6a28e6507e311b235bc92ebac1bbce1d3",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "India",
+      "region": "Unknown",
+      "latitude": 28.2754,
+      "longitude": 76.6371
+    }
+  },
+  {
+    "event_id": "SG-6de5171c94fd",
+    "event_hash": "6de5171c94fdcb063c113288c51a6a4179174eac7293dfa669036ffebe5c1de1",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 48.6409,
+      "longitude": 2.0943
+    }
+  },
+  {
+    "event_id": "SG-f87ef0530590",
+    "event_hash": "f87ef053059031129ee28c69fb31f8e8d4c05d60f17896b682849e39448eb4e1",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "Canada",
+      "region": "Unknown",
+      "latitude": 43.6093,
+      "longitude": -79.2692
+    }
+  },
+  {
+    "event_id": "SG-3d885ed3cd28",
+    "event_hash": "3d885ed3cd281614630299cdd0c8e02c9c4fc287fcf753a76cc687915c3c0cc0",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 47.5393,
+      "longitude": 2.8166
+    }
+  },
+  {
+    "event_id": "SG-5782bfc6f248",
+    "event_hash": "5782bfc6f248351c605172bc253fa641216b6a60a38aed16e407c0c727f58395",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 44.7758,
+      "longitude": 10.6244
+    }
+  },
+  {
+    "event_id": "SG-0e731748d767",
+    "event_hash": "0e731748d7673a32b6575157db58bd9e4cde97feee64768f946a142748d342b1",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 34.2284,
+      "longitude": -6.5618
+    }
+  },
+  {
+    "event_id": "SG-f4ef1da1ee11",
+    "event_hash": "f4ef1da1ee116f8c21f8fad7ddaba1939d1d918020a1eeba54bb8a91240ae64a",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 43.0493,
+      "longitude": 2.8153
+    }
+  },
+  {
+    "event_id": "SG-fb63a67c1916",
+    "event_hash": "fb63a67c1916d9ff94bdd6649828cdf63bae320e88dc50f5e91f8336990f4e4b",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "France",
+      "region": "Unknown",
+      "latitude": 41.7627,
+      "longitude": 14.2115
+    }
+  },
+  {
+    "event_id": "SG-21f4e6fed0f0",
+    "event_hash": "21f4e6fed0f045c20b85a56dfb408f8bf1451d8a85fe90a53925a12bb799c88a",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 36.7433,
+      "longitude": -102.7693
+    }
+  },
+  {
+    "event_id": "SG-5c72fe2149fa",
+    "event_hash": "5c72fe2149fa7c1b6f8f8d8b4333f9b7136169daa66b9593311919ea16b6e12c",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 41.5186,
+      "longitude": -76.6168
+    }
+  },
+  {
+    "event_id": "SG-ce676d19be35",
+    "event_hash": "ce676d19be354557839918f403f19c2db0537d12c8fe1a150aaf611a250e1600",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 28.0299,
+      "longitude": -82.3264
+    }
+  },
+  {
+    "event_id": "SG-39c4285b32a6",
+    "event_hash": "39c4285b32a63b92da63b9f2b203553b1b458e30d02c28e0ce444dd7f49e8dae",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 39.0489,
+      "longitude": -102.6716
+    }
+  },
+  {
+    "event_id": "SG-93ab4181b198",
+    "event_hash": "93ab4181b198b36cfc783d3c31bdac459ed6c9470b06f4835f5f03ebeaca718a",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 35.4787,
+      "longitude": -91.2223
+    }
+  },
+  {
+    "event_id": "SG-db224182b663",
+    "event_hash": "db224182b6633f9f8c6b67453a08caa984881ae275ce5c8bf1cb0e86343f4285",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 32.7915,
+      "longitude": -117.3039
+    }
+  },
+  {
+    "event_id": "SG-b00e13a9910e",
+    "event_hash": "b00e13a9910efbb51a84cfc6a1bac0715958f33526d9cbec016439831994fae5",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 32.1091,
+      "longitude": -83.1363
+    }
+  },
+  {
+    "event_id": "SG-29ce378cef89",
+    "event_hash": "29ce378cef89ee9290ab5ee96b6d826e90d007e8e6bc4a68104d3e3a301d318e",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 47.531,
+      "longitude": -122.3173
+    }
+  },
+  {
+    "event_id": "SG-c56cd1601cab",
+    "event_hash": "c56cd1601cab469db89380fc99cddc6d6c61822e83c8390a7126dccab241e30b",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "India",
+      "region": "Unknown",
+      "latitude": 28.0583,
+      "longitude": 79.3833
+    }
+  },
+  {
+    "event_id": "SG-669d89c5d11f",
+    "event_hash": "669d89c5d11f8839b932d85d1418ae2c3d7696dbf3fad08c53f809998d06ba63",
+    "timestamp": "2026-07-23T19:44:27+00:00",
+    "event_type": "aircraft",
+    "classification": "air_activity",
+    "title": "Aircraft activity detected",
+    "description": "Open source ADS-B aircraft observation",
+    "priority": "medium",
+    "threat_score": 35,
+    "threat_level": "MEDIUM",
+    "confidence": 80,
+    "source": [
+      "OpenSky Network"
+    ],
+    "location": {
+      "country": "United States",
+      "region": "Unknown",
+      "latitude": 40.8034,
+      "longitude": -79.8418
     }
   }
 ]
