@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 574,
+  "total_events": 637,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -370,6 +370,12 @@
       "score": 100
     },
     {
+      "title": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 95
+    },
+    {
       "title": "Check Point SmartConsole Improper Authentication Vulnerability",
       "type": "cyber",
       "classification": "known_exploited_vulnerability",
@@ -380,6 +386,12 @@
       "type": "cyber",
       "classification": "known_exploited_vulnerability",
       "score": 100
+    },
+    {
+      "title": "Houthis claim attack on oil tankers as US launches more strikes on Iran",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 85
     }
   ],
   "high_priority_events": [
@@ -852,6 +864,12 @@
       "score": 65
     },
     {
+      "title": "Thousands prevented from returning home to southern Lebanon",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
       "title": "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
       "type": "conflict",
       "classification": "conflict_report",
@@ -862,12 +880,18 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 75
+    },
+    {
+      "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 334,
+      "event_count": 359,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1185,6 +1209,8 @@
         "Security Council LIVE: Can critical minerals fuel peace and prosperity instead of conflict?",
         "Nicaragua continues to weaken political freedoms, UN warns",
         "Security Council LIVE: Can critical minerals fuel peace and prosperity instead of conflict?",
+        "Thousands prevented from returning home to southern Lebanon",
+        "Thousands prevented from returning home to southern Lebanon",
         "Modelling scout linked to Epstein found dead in Paris suburbs",
         "Aircraft activity detected",
         "British woman jailed for blackmail after accusing banker of rape in Hong Kong",
@@ -1205,12 +1231,35 @@
         "Green forest fire notification in Angola, The Democratic Republic of Congo",
         "Police formally investigate woman after Brit stabbed to death in French village",
         "Check Point SmartConsole Improper Authentication Vulnerability",
-        "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability"
+        "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
+        "Fire kills 10 members of same family in Peru, police say",
+        "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
+        "US signs landmark nuclear deal with Saudi Arabia",
+        "Green forest fire notification in Algeria",
+        "Green forest fire notification in Zambia",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 85,
+      "event_count": 87,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1299,15 +1348,17 @@
         "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
         "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
         "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
-        "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist"
+        "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+        "Houthis claim attack on oil tankers as US launches more strikes on Iran",
+        "Houthis claim attack on oil tankers as US launches more strikes on Iran"
       ]
     },
     "Indo-Pacific": {
       "region": "Indo-Pacific",
-      "event_count": 9,
+      "event_count": 15,
       "highest_threat": "MEDIUM",
       "threat_score": 40,
-      "activity_level": "ACTIVE",
+      "activity_level": "ELEVATED",
       "events": [
         "More people around the world now favour China over the US, Pew study suggests",
         "Aircraft activity detected",
@@ -1317,12 +1368,18 @@
         "China hits out at British Steel nationalisation",
         "Food delivery rider wins China's top literary prize",
         "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
         "Aircraft activity detected"
       ]
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 82,
+      "event_count": 87,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1397,6 +1454,8 @@
         "More warehouses of Russian online retailer Wildberries hit by Ukraine, officials say",
         "More warehouses of Russian online retailer Wildberries hit by Ukraine, officials say",
         "Ukrainian drones hit more sites of Russian online retailer Wildberries",
+        "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas",
+        "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas",
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
@@ -1408,16 +1467,44 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Ukrainian drones hit Russian online giant retailer Wildberries for second time",
-        "Two Russians handed down jail terms for terrorism and spying in Angola"
+        "Two Russians handed down jail terms for terrorism and spying in Angola",
+        "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+        "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+        "Aircraft activity detected"
       ]
     },
     "Americas": {
       "region": "Americas",
-      "event_count": 64,
+      "event_count": 89,
       "highest_threat": "MEDIUM",
       "threat_score": 40,
       "activity_level": "SEVERE",
       "events": [
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
