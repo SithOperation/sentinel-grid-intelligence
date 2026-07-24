@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 954,
+  "total_events": 1024,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -404,6 +404,18 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 85
+    },
+    {
+      "title": "Nigeria's president approves largest military expansion in recent times",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 95
+    },
+    {
+      "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 100
     }
   ],
   "high_priority_events": [
@@ -994,12 +1006,54 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 75
+    },
+    {
+      "title": "After an Ebola centre was attacked, peacekeepers moved in next door",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
+    },
+    {
+      "title": "Middle East: UN warns against wider escalation after Houthi attacks in the Red Sea",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
+    },
+    {
+      "title": "Wildfires surge across Europe as Spain and France battle major blazes",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "In El Obeid, Sudanese women face drones by day, rape by night, to reach water",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
+    },
+    {
+      "title": "Green notification for tropical cyclone SEVEN-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+      "type": "humanitarian",
+      "classification": "disaster_alert",
+      "score": 65
+    },
+    {
+      "title": "World chess chief faces endgame after EU announces Russia war sanctions",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
+      "type": "news",
+      "classification": "geopolitical_reporting",
+      "score": 75
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 497,
+      "event_count": 514,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1486,6 +1540,13 @@
         "India's 'cockroach' protesters hold talks with government as stalemate continues",
         "Tens of thousands evacuated from French tourist spot and near Madrid as wildfires spread",
         "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
+        "After an Ebola centre was attacked, peacekeepers moved in next door",
+        "Wildfires surge across Europe as Spain and France battle major blazes",
+        "In El Obeid, Sudanese women face drones by day, rape by night, to reach water",
+        "After an Ebola centre was attacked, peacekeepers moved in next door",
+        "Wildfires surge across Europe as Spain and France battle major blazes",
+        "In El Obeid, Sudanese women face drones by day, rape by night, to reach water",
+        "Tropical Storm Noul",
         "Green flood alert in Russia, Ukraine",
         "US hits dozens of countries with new wave of tariffs",
         "Tanzanian lecturer arrested over anti-government protests charged with terrorism",
@@ -1500,12 +1561,22 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Green notification for tropical cyclone SEVEN-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+        "Nigeria's president approves largest military expansion in recent times",
+        "Nigeria's president approves largest military expansion in recent times",
+        "Green earthquake (Magnitude 5.7M, Depth:10km) in New Zealand 24/07/2026 16:51 UTC, Few people affected (in MMI>=VII).",
+        "Trump vows to investigate EU over fining of US tech companies",
+        "Green forest fire notification in Botswana",
+        "Green forest fire notification in Namibia",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
         "Aircraft activity detected"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 98,
+      "event_count": 100,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1606,6 +1677,8 @@
         "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
         "US and Iran trade more strikes in Gulf as fears of escalation mount",
         "US and Iran trade more strikes in Gulf as fears of escalation mount",
+        "Middle East: UN warns against wider escalation after Houthi attacks in the Red Sea",
+        "Middle East: UN warns against wider escalation after Houthi attacks in the Red Sea",
         "Four Palestinians and two Israelis killed in West Bank shooting",
         "Four Palestinians and two Israelis killed in West Bank shooting"
       ]
@@ -1638,7 +1711,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 137,
+      "event_count": 157,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1779,16 +1852,67 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
+        "Aircraft activity detected",
+        "World chess chief faces endgame after EU announces Russia war sanctions",
+        "World chess chief faces endgame after EU announces Russia war sanctions",
+        "Ten killed in Russian attack on drone exhibition near Kyiv",
+        "Ten killed in Russian attack on drone exhibition near Kyiv",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
         "Aircraft activity detected"
       ]
     },
     "Americas": {
       "region": "Americas",
-      "event_count": 205,
+      "event_count": 236,
       "highest_threat": "MEDIUM",
       "threat_score": 40,
       "activity_level": "SEVERE",
       "events": [
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
