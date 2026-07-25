@@ -1,7 +1,7 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 1090,
+  "total_events": 1146,
   "critical_events": [
     {
       "title": "On Our Radar",
@@ -413,6 +413,12 @@
     },
     {
       "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 100
+    },
+    {
+      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
       "type": "conflict",
       "classification": "conflict_report",
       "score": 100
@@ -954,6 +960,12 @@
       "score": 65
     },
     {
+      "title": "Orange notification for tropical cyclone NOUL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 7.435 million .",
+      "type": "humanitarian",
+      "classification": "disaster_alert",
+      "score": 65
+    },
+    {
       "title": "Stranded seafarers remain trapped as Hormuz shipping stalls",
       "type": "conflict",
       "classification": "conflict_report",
@@ -1044,6 +1056,12 @@
       "score": 65
     },
     {
+      "title": "‘Judges should be superhuman’: The invisible burden behind the bench",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
+    },
+    {
       "title": "Green notification for tropical cyclone SEVEN-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
       "type": "humanitarian",
       "classification": "disaster_alert",
@@ -1078,12 +1096,18 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 65
+    },
+    {
+      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+      "type": "news",
+      "classification": "geopolitical_reporting",
+      "score": 65
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 558,
+      "event_count": 587,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1468,6 +1492,7 @@
         "Orange notification for tropical cyclone NOUL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 2.45 million .",
         "Orange notification for tropical cyclone NOUL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 6.289 million .",
         "Orange notification for tropical cyclone NOUL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 6.384 million .",
+        "Orange notification for tropical cyclone NOUL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 7.435 million .",
         "South Korea woman acquitted of murdering newborn after hospital delivery",
         "Wildfire RAILROAD, Grant, Washington",
         "'Let's enjoy the ride' says Elon Musk, as AI fears mount",
@@ -1583,6 +1608,8 @@
         "Security Council debrief: Race for critical minerals intensifies amidst warnings of conflict",
         "‘Women do not stop giving birth in an emergency’ – one month after Venezuela quakes",
         "Security Council debrief: Race for critical minerals intensifies amidst warnings of conflict",
+        "‘Judges should be superhuman’: The invisible burden behind the bench",
+        "‘Judges should be superhuman’: The invisible burden behind the bench",
         "Green flood alert in Russia, Ukraine",
         "US hits dozens of countries with new wave of tariffs",
         "Tanzanian lecturer arrested over anti-government protests charged with terrorism",
@@ -1645,12 +1672,38 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Green flood alert in Kazakhstan",
+        "Trump takes swipes at press during White House Correspondents' Dinner",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
         "Aircraft activity detected"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 100,
+      "event_count": 102,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1754,7 +1807,9 @@
         "Middle East: UN warns against wider escalation after Houthi attacks in the Red Sea",
         "Middle East: UN warns against wider escalation after Houthi attacks in the Red Sea",
         "Four Palestinians and two Israelis killed in West Bank shooting",
-        "Four Palestinians and two Israelis killed in West Bank shooting"
+        "Four Palestinians and two Israelis killed in West Bank shooting",
+        "Iran-backed Houthis claim missile attack on Saudi Arabia",
+        "Iran-backed Houthis claim missile attack on Saudi Arabia"
       ]
     },
     "Indo-Pacific": {
@@ -1788,7 +1843,7 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 157,
+      "event_count": 179,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "SEVERE",
@@ -1949,16 +2004,41 @@
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
         "Aircraft activity detected"
       ]
     },
     "Americas": {
       "region": "Americas",
-      "event_count": 255,
+      "event_count": 258,
       "highest_threat": "MEDIUM",
       "threat_score": 40,
       "activity_level": "SEVERE",
       "events": [
+        "Aircraft activity detected",
+        "Aircraft activity detected",
+        "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
         "Aircraft activity detected",
