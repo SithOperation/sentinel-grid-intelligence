@@ -15,7 +15,12 @@ def _encoded(data):
     return json.dumps(data, indent=2, ensure_ascii=False).encode("utf-8")
 
 
-def publish_artifacts(artifacts, output_directory, max_file_size_mb=25):
+def publish_artifacts(
+    artifacts,
+    output_directory,
+    max_file_size_mb=25,
+    generated=None,
+):
     validate_artifacts(artifacts)
     output_directory = Path(output_directory)
     output_directory.mkdir(parents=True, exist_ok=True)
@@ -32,7 +37,9 @@ def publish_artifacts(artifacts, output_directory, max_file_size_mb=25):
     manifest = {
         "schema_version": SCHEMA_VERSION,
         "publication_id": publication_id,
-        "generated": datetime.now(timezone.utc).isoformat(),
+        "generated": (generated or datetime.now(timezone.utc))
+        .astimezone(timezone.utc)
+        .isoformat(),
         "files": {
             name: {
                 "bytes": len(payload),
@@ -42,7 +49,9 @@ def publish_artifacts(artifacts, output_directory, max_file_size_mb=25):
         },
     }
 
-    with tempfile.TemporaryDirectory(prefix="sentinel-stage-", dir=output_directory.parent) as stage:
+    with tempfile.TemporaryDirectory(
+        prefix="sentinel-stage-", dir=output_directory.parent
+    ) as stage:
         stage_path = Path(stage)
         for filename, payload in encoded.items():
             (stage_path / filename).write_bytes(payload)

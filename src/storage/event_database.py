@@ -12,12 +12,7 @@ def load_events():
     if not DATABASE_PATH.exists():
         return []
 
-    with open(
-        DATABASE_PATH,
-        "r",
-        encoding="utf-8"
-    ) as file:
-
+    with open(DATABASE_PATH, "r", encoding="utf-8") as file:
         events = json.load(file)
 
     if not isinstance(events, list):
@@ -25,49 +20,29 @@ def load_events():
     return events
 
 
-
 def save_events(events):
 
-    DATABASE_PATH.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
+    DATABASE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-
-    with open(
-        DATABASE_PATH,
-        "w",
-        encoding="utf-8"
-    ) as file:
-
-        json.dump(
-            events,
-            file,
-            indent=4
-        )
-
+    with open(DATABASE_PATH, "w", encoding="utf-8") as file:
+        json.dump(events, file, indent=4)
 
 
 def append_events(new_events):
 
     existing = load_events()
 
-
     existing.extend(new_events)
     existing = remove_duplicates(existing)
 
-
-    save_events(
-        existing
-    )
-
+    save_events(existing)
 
     return existing
 
 
-def apply_retention(events, max_age_days=30, max_events=5000, now=None):
+def apply_retention(events, max_age_hours=48, max_events=5000, now=None):
     now = now or datetime.now(timezone.utc)
-    cutoff = now - timedelta(days=max_age_days)
+    cutoff = now - timedelta(hours=max_age_hours)
     retained = []
 
     for event in events:
@@ -77,8 +52,8 @@ def apply_retention(events, max_age_days=30, max_events=5000, now=None):
             if parsed.tzinfo is None:
                 parsed = parsed.replace(tzinfo=timezone.utc)
         except (TypeError, ValueError):
-            parsed = now
-        if parsed >= cutoff:
+            continue
+        if cutoff <= parsed <= now:
             retained.append((parsed, event))
 
     retained.sort(key=lambda item: item[0])

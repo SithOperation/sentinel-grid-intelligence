@@ -102,12 +102,15 @@ website can use `data/output/manifest.json` as its update signal and
 complete file contract is documented in `docs/data-contract.md`.
 
 Retention, maximum map-event count, and maximum artifact size are configured
-in `config.yaml`. The defaults retain 30 days and at most 5,000 historical
-events, publish at most 2,000 map points, and reject any artifact over 25 MB.
+in `config.yaml`. The backend enforces one shared hard 48-hour event window,
+retains at most 5,000 events, publishes at most 2,000 map points, and rejects
+any artifact over 25 MB.
 
-The scheduled GitHub workflow runs every six hours and uses only public sources
-and repository storage. AISStream remains disabled automatically unless the
-optional `AISSTREAM_API_KEY` repository secret is provided.
+The scheduled GitHub workflow runs every six hours and uses repository storage.
+Official X collection requires `X_API_BEARER_TOKEN`. AISStream remains disabled
+automatically unless the optional `AISSTREAM_API_KEY` secret is provided. A
+failed optional source degrades health without preventing other collectors or
+discarding valid retained X reports in favor of an invented empty result.
 
 Run the local verification suite with:
 

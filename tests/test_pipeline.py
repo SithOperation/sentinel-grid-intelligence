@@ -155,7 +155,9 @@ class PipelineTests(unittest.TestCase):
             world = json.loads((root / "world_events.json").read_text(encoding="utf-8"))
             self.assertEqual(world["schema_version"], SCHEMA_VERSION)
             manifest = json.loads((root / "manifest.json").read_text(encoding="utf-8"))
-            self.assertEqual(Path(replace.call_args_list[-1].args[1]).name, "manifest.json")
+            self.assertEqual(
+                Path(replace.call_args_list[-1].args[1]).name, "manifest.json"
+            )
             self.assertEqual(len(manifest["files"]["map_events.json"]["sha256"]), 64)
 
     def test_offline_publication_does_not_call_collectors(self):
@@ -165,13 +167,22 @@ class PipelineTests(unittest.TestCase):
             with (
                 patch.object(event_database, "DATABASE_PATH", root / "events.json"),
                 patch.object(pipeline, "OUTPUT_DIRECTORY", root),
-                patch.object(pipeline, "collect_all_sources", side_effect=AssertionError("network path called")),
+                patch.object(
+                    pipeline,
+                    "collect_all_sources",
+                    side_effect=AssertionError("network path called"),
+                ),
             ):
                 event_database.save_events([event])
                 pipeline.main(use_existing=True)
             health = json.loads((root / "health.json").read_text(encoding="utf-8"))
             self.assertEqual(health["status"], "degraded")
-            self.assertTrue(all(item["status"] in {"not_checked", "disabled"} for item in health["sources"]))
+            self.assertTrue(
+                all(
+                    item["status"] in {"not_checked", "disabled"}
+                    for item in health["sources"]
+                )
+            )
 
     def test_invalid_release_does_not_replace_current_output(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -185,15 +196,24 @@ class PipelineTests(unittest.TestCase):
     def test_retention_limits_age_and_count(self):
         now = datetime.now(timezone.utc)
         events = []
-        for days in (40, 3, 2, 1):
-            events.append({"timestamp": (now - timedelta(days=days)).isoformat(), "days": days})
-        retained = apply_retention(events, max_age_days=30, max_events=2, now=now)
-        self.assertEqual([event["days"] for event in retained], [2, 1])
+        for hours in (72, 3, 2, 1):
+            events.append(
+                {
+                    "timestamp": (now - timedelta(hours=hours)).isoformat(),
+                    "hours": hours,
+                }
+            )
+        retained = apply_retention(events, max_age_hours=48, max_events=2, now=now)
+        self.assertEqual([event["hours"] for event in retained], [2, 1])
 
     def test_feed_content_is_sanitized(self):
-        self.assertEqual(plain_text("<b>Hello</b><script>bad()</script>", 100), "Hello bad()")
+        self.assertEqual(
+            plain_text("<b>Hello</b><script>bad()</script>", 100), "Hello bad()"
+        )
         self.assertEqual(safe_url("javascript:alert(1)"), "")
-        self.assertEqual(safe_url("https://example.com/report"), "https://example.com/report")
+        self.assertEqual(
+            safe_url("https://example.com/report"), "https://example.com/report"
+        )
 
     def test_health_marks_old_data_stale(self):
         generated = datetime.now(timezone.utc)

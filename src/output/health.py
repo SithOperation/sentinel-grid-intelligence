@@ -22,7 +22,9 @@ def build_health(events, source_health, generated, stale_after_minutes):
     ]
     oldest = min(timestamps) if timestamps else None
     newest = max(timestamps) if timestamps else None
-    age_minutes = round((generated_at - newest).total_seconds() / 60, 2) if newest else None
+    age_minutes = (
+        round((generated_at - newest).total_seconds() / 60, 2) if newest else None
+    )
     stale = age_minutes is None or age_minutes > stale_after_minutes
     degraded = stale or any(item["status"] != "ok" for item in source_health)
 

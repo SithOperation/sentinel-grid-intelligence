@@ -1,5 +1,9 @@
 """Lightweight, dependency-free contracts for published frontend artifacts."""
 
+from datetime import UTC, datetime
+
+from models.x_report import validate_x_report_document
+
 SCHEMA_VERSION = "1.0"
 
 
@@ -36,6 +40,9 @@ def validate_artifacts(artifacts):
         "map_events.json",
         "dashboard.json",
         "health.json",
+        "x_reports.json",
+        "x_report_events.json",
+        "x_report_pinpoints.geojson",
     }
     missing = required_files.difference(artifacts)
     if missing:
@@ -55,14 +62,24 @@ def validate_artifacts(artifacts):
     _require_mapping(artifacts["dashboard.json"], "dashboard")
     dashboard = artifacts["dashboard.json"]
     _require_mapping(dashboard.get("summary"), "dashboard.summary")
-    if "threat_level" not in dashboard["summary"] or "total_events" not in dashboard["summary"]:
+    if (
+        "threat_level" not in dashboard["summary"]
+        or "total_events" not in dashboard["summary"]
+    ):
         raise ContractError("dashboard.summary requires threat_level and total_events")
 
     health = artifacts["health.json"]
     _require_mapping(health, "health")
     health_fields = {
-        "schema_version", "generated", "status", "degraded", "stale",
-        "stale_after_minutes", "published_event_count", "freshness", "sources",
+        "schema_version",
+        "generated",
+        "status",
+        "degraded",
+        "stale",
+        "stale_after_minutes",
+        "published_event_count",
+        "freshness",
+        "sources",
     }
     missing_health = health_fields.difference(health)
     if missing_health:
@@ -74,22 +91,38 @@ def validate_artifacts(artifacts):
     _require_mapping(health["freshness"], "health.freshness")
     _require_list(health["sources"], "health.sources")
     source_fields = {
-        "source", "enabled", "status", "event_count", "duration_ms",
-        "checked_at", "last_success", "error",
+        "source",
+        "enabled",
+        "status",
+        "event_count",
+        "duration_ms",
+        "checked_at",
+        "last_success",
+        "error",
     }
     for index, source in enumerate(health["sources"]):
         _require_mapping(source, f"health.sources[{index}]")
         missing_source = source_fields.difference(source)
         if missing_source:
-            raise ContractError(f"health.sources[{index}] missing {sorted(missing_source)}")
+            raise ContractError(
+                f"health.sources[{index}] missing {sorted(missing_source)}"
+            )
 
     map_events = artifacts["map_events.json"]
     _require_list(map_events, "map_events")
     for index, event in enumerate(map_events):
         _require_mapping(event, f"map_events[{index}]")
         missing = {
-            "event_id", "type", "title", "description", "latitude", "longitude",
-            "priority", "threat_level", "confidence", "timestamp",
+            "event_id",
+            "type",
+            "title",
+            "description",
+            "latitude",
+            "longitude",
+            "priority",
+            "threat_level",
+            "confidence",
+            "timestamp",
         }.difference(event)
         if missing:
             raise ContractError(f"map_events[{index}] missing {sorted(missing)}")
@@ -99,5 +132,30 @@ def validate_artifacts(artifacts):
             raise ContractError(f"map_events[{index}] has invalid latitude")
         if not isinstance(longitude, (int, float)) or not -180 <= longitude <= 180:
             raise ContractError(f"map_events[{index}] has invalid longitude")
+
+    generated = world.get("generated")
+    try:
+        reference_time = datetime.fromisoformat(str(generated).replace("Z", "+00:00"))
+        if reference_time.tzinfo is None:
+            reference_time = reference_time.replace(tzinfo=UTC)
+        validate_x_report_document(
+            artifacts["x_reports.json"],
+            reference_time=reference_time,
+        )
+    except (TypeError, ValueError) as error:
+        raise ContractError(f"x_reports.json is invalid: {error}") from error
+
+    x_events = artifacts["x_report_events.json"]
+    x_geojson = artifacts["x_report_pinpoints.geojson"]
+    _require_mapping(x_events, "x_report_events")
+    _require_mapping(x_geojson, "x_report_pinpoints")
+    _require_list(x_events.get("events"), "x_report_events.events")
+    _require_list(x_geojson.get("features"), "x_report_pinpoints.features")
+    if (
+        x_geojson.get("type") != "FeatureCollection"
+        or x_events.get("generation_id") != x_geojson.get("generation_id")
+        or len(x_geojson["features"]) != len(artifacts["x_reports.json"]["reports"])
+    ):
+        raise ContractError("X website compatibility artifacts do not match")
 
     return True

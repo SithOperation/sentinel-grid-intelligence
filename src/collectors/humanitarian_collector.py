@@ -15,7 +15,6 @@ Output:
 Sentinel Grid standardized event format
 """
 
-
 from email.utils import parsedate_to_datetime
 
 from api.gdacs import fetch
@@ -24,70 +23,21 @@ from models.event_model import create_event
 
 def create_humanitarian_event(item):
 
+    title = item.findtext("title") or "Global disaster event"
 
-    title = (
+    description = item.findtext("description") or ""
 
-        item.findtext(
-            "title"
-        )
-
-        or
-
-        "Global disaster event"
-
-    )
-
-
-    description = (
-
-        item.findtext(
-            "description"
-        )
-
-        or
-
-        ""
-
-    )
-
-
-    link = (
-
-        item.findtext(
-            "link"
-        )
-
-        or
-
-        ""
-
-    )
-
-
+    link = item.findtext("link") or ""
 
     event = create_event(
-
         event_type="humanitarian",
-
         classification="disaster_alert",
-
         priority="high",
-
         title=title,
-
         description=description[:500],
-
-        source=[
-
-            "GDACS"
-
-        ],
-
-        confidence=80
-
+        source=["GDACS"],
+        confidence=80,
     )
-
-
 
     event["url"] = link
 
@@ -100,103 +50,35 @@ def create_humanitarian_event(item):
         pass
 
     try:
-        event["timestamp"] = parsedate_to_datetime(item.findtext("pubDate", "")).isoformat()
+        event["timestamp"] = parsedate_to_datetime(
+            item.findtext("pubDate", "")
+        ).isoformat()
     except (TypeError, ValueError):
         pass
 
+    event["crisis"] = {"type": "global_disaster_alert", "severity": "unknown"}
 
-
-    event["crisis"] = {
-
-
-        "type":
-
-        "global_disaster_alert",
-
-
-        "severity":
-
-        "unknown"
-
-    }
-
-
-
-    event["verification"] = {
-
-
-        "confirmed":
-
-        True,
-
-
-        "source_count":
-
-        1
-
-    }
-
-
+    event["verification"] = {"confirmed": True, "source_count": 1}
 
     return event
 
 
-
-
 def collect_humanitarian():
-
 
     events = []
 
-
-
     try:
-
-
         disaster_items = fetch()
 
-
-
         for item in disaster_items:
-
-
-            events.append(
-
-                create_humanitarian_event(
-
-                    item
-
-                )
-
-            )
-
-
+            events.append(create_humanitarian_event(item))
 
             if len(events) >= 10:
-
                 break
 
-
-
-        print(
-
-            f"[+] GDACS humanitarian collected {len(events)} events"
-
-        )
-
-
+        print(f"[+] GDACS humanitarian collected {len(events)} events")
 
     except Exception as error:
-
-
-        print(
-
-            "[!] GDACS humanitarian collector failed:",
-
-            error
-
-        )
-
-
+        print("[!] GDACS humanitarian collector failed:", error)
 
     return events

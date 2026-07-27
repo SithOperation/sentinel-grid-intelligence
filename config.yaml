@@ -38,6 +38,15 @@ sources:
     gdacs:
       enabled: true
 
+  x:
+    enabled: true
+    accounts_file: config/x_accounts.json
+    keywords_file: config/x_keywords.json
+    max_pages: 5
+    page_size: 100
+    retries: 3
+    backoff_seconds: 1.0
+    timeout_seconds: 30.0
 
 
 output:
@@ -53,7 +62,7 @@ output:
 
 retention:
 
-  max_age_days: 30
+  max_age_hours: 48
 
   max_events: 5000
 

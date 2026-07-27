@@ -20,60 +20,24 @@ CISA_KEV_URL = (
 )
 
 
-HEADERS = {
-
-    "User-Agent":
-
-    "Sentinel-Grid-Intelligence/1.0"
-
-}
-
+HEADERS = {"User-Agent": "Sentinel-Grid-Intelligence/1.0"}
 
 
 def fetch():
-
     """
     Retrieve CISA Known Exploited Vulnerabilities.
     """
 
     try:
-
-        response = requests.get(
-
-            CISA_KEV_URL,
-
-            headers=HEADERS,
-
-            timeout=20
-
-        )
-
+        response = requests.get(CISA_KEV_URL, headers=HEADERS, timeout=20)
 
         response.raise_for_status()
 
-
         data = response.json()
 
-
-        return data.get(
-
-            "vulnerabilities",
-
-            []
-
-        )
-
+        return data.get("vulnerabilities", [])
 
     except Exception as error:
-
-
-        print(
-
-            "[!] CISA API failed:",
-
-            error
-
-        )
-
+        print("[!] CISA API failed:", error)
 
         return []

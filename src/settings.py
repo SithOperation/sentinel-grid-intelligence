@@ -1,5 +1,6 @@
 """Configuration loading for the Sentinel Grid pipeline."""
 
+import json
 from copy import deepcopy
 from pathlib import Path
 
@@ -17,6 +18,16 @@ DEFAULT_CONFIG = {
         "satellite": {"nasa_eonet": {"enabled": True}},
         "cyber": {"enabled": True},
         "humanitarian": {"gdacs": {"enabled": True}},
+        "x": {
+            "enabled": True,
+            "accounts_file": "config/x_accounts.json",
+            "keywords_file": "config/x_keywords.json",
+            "max_pages": 5,
+            "page_size": 100,
+            "retries": 3,
+            "backoff_seconds": 1.0,
+            "timeout_seconds": 30.0,
+        },
     },
     "output": {
         "directory": "data/output",
@@ -24,7 +35,7 @@ DEFAULT_CONFIG = {
         "max_file_size_mb": 25,
         "stale_after_minutes": 390,
     },
-    "retention": {"max_age_days": 30, "max_events": 5000},
+    "retention": {"max_age_hours": 48, "max_events": 5000},
     "confidence": {"verified": 90, "high": 70, "medium": 40},
 }
 
@@ -53,13 +64,38 @@ def load_config(path=CONFIG_PATH):
         ("output", "max_map_events"),
         ("output", "max_file_size_mb"),
         ("output", "stale_after_minutes"),
-        ("retention", "max_age_days"),
+        ("retention", "max_age_hours"),
         ("retention", "max_events"),
     ):
         value = config[section][key]
         if not isinstance(value, int) or isinstance(value, bool) or value <= 0:
             raise ValueError(f"{section}.{key} must be a positive integer")
+    x_config = config["sources"]["x"]
+    for key in ("max_pages", "page_size", "retries"):
+        value = x_config[key]
+        if not isinstance(value, int) or isinstance(value, bool):
+            raise TypeError(f"sources.x.{key} must be an integer")
+    if x_config["max_pages"] < 1 or not 5 <= x_config["page_size"] <= 100:
+        raise ValueError("sources.x page limits are invalid")
+    if x_config["retries"] < 0:
+        raise ValueError("sources.x.retries cannot be negative")
+    for key in ("backoff_seconds", "timeout_seconds"):
+        value = x_config[key]
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
+            raise TypeError(f"sources.x.{key} must be numeric")
+    if x_config["backoff_seconds"] < 0 or x_config["timeout_seconds"] <= 0:
+        raise ValueError("sources.x retry timing is invalid")
     return config
+
+
+def load_json_mapping(path):
+    """Load a repository-relative JSON object."""
+    resolved = resolve_project_path(path)
+    with resolved.open("r", encoding="utf-8") as stream:
+        value = json.load(stream)
+    if not isinstance(value, dict):
+        raise TypeError(f"{resolved} must contain a JSON object")
+    return value
 
 
 def source_enabled(config, *keys):

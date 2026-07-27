@@ -24,6 +24,11 @@ its datasets only when `publication_id` changes.
 - `trends.json`: distributions and aggregate confidence.
 - `intelligence_brief.json`: threat and regional summary.
 - `dashboard.json`: frontend summary plus retained event details.
+- `x_reports.json`: strict 48-hour X report compatibility feed. The same
+  reports are first-class events in `world_events.json`, `map_events.json`,
+  `timeline.json`, and `dashboard.json`.
+- `x_report_events.json` and `x_report_pinpoints.geojson`: compatibility
+  metadata and pinpoint layers consumed by the current website map.
 
 The browser must treat all strings as untrusted text and use text rendering,
 not raw HTML injection. URLs are restricted to HTTP and HTTPS during backend
@@ -53,7 +58,7 @@ requires a new major contract version.
 }
 ```
 
-The `files` object contains all seven non-manifest artifacts. A new random
+The `files` object contains all ten non-manifest artifacts. A new random
 publication ID is created only after every artifact has serialized, passed its
 contract, and passed its configured size limit. Files are replaced from the
 staging directory and `manifest.json` is replaced last.
@@ -90,7 +95,8 @@ staging directory and `manifest.json` is replaced last.
 ```
 
 Source status is `ok`, `no_data`, `disabled`, or `not_checked`. Offline
-publication uses `not_checked` and adds a human-readable `note`. The optional
+publication uses `not_checked` and adds a human-readable `note`. Collectors may
+also report `partial` or `error`; either degrades overall health. The optional
 `error` value is reserved for a sanitized collector error. Any non-`ok` enabled
 source or stale event data makes the release degraded. Data is stale when the
 newest valid event is older than `output.stale_after_minutes` (390 minutes by
