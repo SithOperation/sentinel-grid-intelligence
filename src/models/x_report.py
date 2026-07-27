@@ -14,6 +14,7 @@ SCHEMA_VERSION = "1.0"
 RETENTION_HOURS = 48
 EVENT_TYPES = frozenset(
     {
+        "early_report",
         "reported_attack",
         "reported_military_activity",
         "reported_strike",
@@ -22,11 +23,15 @@ EVENT_TYPES = frozenset(
 )
 SOURCE_CLASSES = frozenset(
     {
+        "official",
         "social_media_aggregator",
         "social_media_monitor",
         "social_media_osint",
         "unknown_social_media",
     }
+)
+LOCATION_PRECISIONS = frozenset(
+    {"exact", "neighborhood", "city", "regional_approximate", "region", "country"}
 )
 _HANDLE = re.compile(r"^[A-Za-z0-9_]{1,15}$")
 _STATUS_PATH = re.compile(r"^/([A-Za-z0-9_]{1,15})/status/([0-9]+)$")
@@ -87,8 +92,8 @@ class XReport:
             raise ValueError(f"unsupported source_class: {self.source_class}")
         if self.event_type not in EVENT_TYPES:
             raise ValueError(f"unsupported event_type: {self.event_type}")
-        if self.location_precision != "regional_approximate":
-            raise ValueError("X place reports must use regional_approximate precision")
+        if self.location_precision not in LOCATION_PRECISIONS:
+            raise ValueError("X report location_precision is invalid")
         if not self.location_name.strip():
             raise ValueError("location_name must be non-empty")
         for name in ("latitude", "longitude", "confidence"):
@@ -241,7 +246,7 @@ def validate_x_report_document(
             raise ValueError("X report classification is invalid")
         if (
             value["verification_status"] != "not_independently_verified"
-            or value["location_precision"] != "regional_approximate"
+            or value["location_precision"] not in LOCATION_PRECISIONS
             or not isinstance(value["summary"], str)
             or not value["summary"].strip()
             or not isinstance(value["location_name"], str)

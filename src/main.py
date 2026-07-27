@@ -26,7 +26,7 @@ import datetime
 import time
 
 from api.news import fetch as fetch_news_articles
-from api.x_api import XApiTransport, XCollectionError
+from api.x_public import PublicXTransport
 from collectors.aircraft_collector import collect_aircraft
 from collectors.conflict_collector import collect_conflicts
 from collectors.cyber_collector import collect_cyber
@@ -36,7 +36,7 @@ from collectors.maritime_collector import collect_maritime
 # Collectors
 from collectors.news_collector import collect_news
 from collectors.satellite_collector import collect_satellite
-from collectors.x_collector import XCollector, load_x_accounts
+from collectors.x_collector import XCollector, load_x_urls
 from intelligence.intelligence_brief import generate_brief
 from intelligence.map_generator import generate_map_events
 from intelligence.regional_analysis import analyze_regions
@@ -57,7 +57,6 @@ from processors.event_deduplication import remove_duplicates
 from processors.geolocation import apply_geolocation
 from settings import (
     load_config,
-    load_json_mapping,
     resolve_project_path,
     source_enabled,
 )
@@ -187,43 +186,47 @@ def collect_all_sources(reference_time=None):
         started = time.monotonic()
         x_config = CONFIG["sources"]["x"]
         try:
-            account_payload = load_json_mapping(x_config["accounts_file"])
-            keyword_payload = load_json_mapping(x_config["keywords_file"])
-            account_values = account_payload.get("accounts")
-            if not isinstance(account_values, list):
-                raise TypeError("X account configuration requires an accounts array")
-            accounts = load_x_accounts(account_values)
+            url_values = x_config["urls"]
+            if not isinstance(url_values, list):
+                raise TypeError("X configuration requires a urls array")
+            urls = load_x_urls(url_values)
             collector = XCollector(
-                accounts,
-                keyword_payload,
+                urls,
                 reference_time=reference_time,
-                transport=XApiTransport(
-                    retries=x_config["retries"],
-                    backoff_seconds=x_config["backoff_seconds"],
-                    timeout_seconds=x_config["timeout_seconds"],
+                transport=PublicXTransport(
+                    connect_timeout_seconds=x_config["connection_timeout_seconds"],
+                    read_timeout_seconds=x_config["request_timeout_seconds"],
+                    max_response_bytes=x_config["max_response_bytes"],
                 ),
-                max_pages=x_config["max_pages"],
-                page_size=x_config["page_size"],
+                cache_path=resolve_project_path(x_config["cache_file"]),
+                request_interval_seconds=x_config["request_interval_seconds"],
+                max_urls_per_run=x_config["max_urls_per_run"],
             )
             result = collector.collect()
             collected = list(result.events)
             events.extend(collected)
-            failures = [item for item in result.accounts if item.status == "failed"]
-            detail = (
-                "; ".join(f"@{item.account}: {item.error}" for item in failures)
-                if failures
-                else None
+            failures = [
+                item
+                for item in result.urls
+                if item.status in {"rejected", "unavailable"}
+            ]
+            detail = "; ".join(f"{item.url}: {item.reason}" for item in failures)
+            record = _health_record(
+                "x",
+                started,
+                len(collected),
+                status=(
+                    "error"
+                    if result.total_failure
+                    else "partial"
+                    if result.partial
+                    else None
+                ),
+                detail=detail or None,
             )
-            health.append(
-                _health_record(
-                    "x",
-                    started,
-                    len(collected),
-                    status="partial" if result.partial else None,
-                    detail=detail,
-                )
-            )
-        except (XCollectionError, OSError, TypeError, ValueError) as error:
+            record["metrics"] = result.health_metrics()
+            health.append(record)
+        except (OSError, TypeError, ValueError) as error:
             print(f"[!] X collector failed safely: {error}")
             health.append(
                 _health_record("x", started, 0, status="error", detail=str(error))

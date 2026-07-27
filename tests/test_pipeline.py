@@ -30,6 +30,7 @@ class SettingsTests(unittest.TestCase):
         self.assertTrue(source_enabled(config, "news"))
         self.assertTrue(source_enabled(config, "satellite", "nasa_eonet"))
         self.assertTrue(source_enabled(config, "humanitarian", "gdacs"))
+        self.assertFalse(source_enabled(config, "maritime", "aisstream"))
 
     def test_invalid_limits_are_rejected(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -1,336 +1,340 @@
-"""Production X API v2 collector integrated with Sentinel events."""
+"""Explicit-public-URL X collector integrated with Sentinel events."""
 
 from __future__ import annotations
 
+import json
 import os
-from collections.abc import Mapping, Sequence
+import time
+from collections import Counter
+from collections.abc import Callable, Mapping, Sequence
 from dataclasses import dataclass
 from datetime import UTC, datetime, timedelta
-from typing import Any, Protocol
-from urllib.parse import urlencode
+from pathlib import Path
+from typing import Protocol
 
-from api.x_api import (
-    XApiTransport,
-    XAuthenticationError,
+from api.x_public import (
+    PublicPage,
+    PublicPost,
     XCollectionError,
-    XProviderError,
+    XMetadataError,
+    XUnavailableError,
+    extract_public_post,
 )
-from models.x_report import EVENT_TYPES, SOURCE_CLASSES, XReport
-
-API_ROOT = "https://api.x.com/2"
+from models.x_report import (
+    EVENT_TYPES,
+    LOCATION_PRECISIONS,
+    SOURCE_CLASSES,
+    XReport,
+    canonical_x_url,
+)
 
 
 class Transport(Protocol):
-    def get(self, url: str, bearer_token: str) -> Mapping[str, Any]: ...
+    def fetch(self, url: str) -> PublicPage: ...
 
 
 @dataclass(frozen=True, slots=True)
-class XAccount:
-    handle: str
+class XStatusURL:
+    url: str
     source_class: str
+    location_name: str
+    latitude: float
+    longitude: float
+    location_precision: str
+    event_type: str
 
     def __post_init__(self) -> None:
-        normalized = self.handle.strip().lstrip("@")
-        if (
-            not normalized
-            or len(normalized) > 15
-            or not normalized.replace("_", "").isalnum()
-        ):
-            raise ValueError(f"invalid X account handle: {self.handle!r}")
+        canonical, _, _ = canonical_x_url(self.url)
         if self.source_class not in SOURCE_CLASSES:
             raise ValueError(f"unsupported X source class: {self.source_class}")
-        object.__setattr__(self, "handle", normalized)
+        if self.event_type not in EVENT_TYPES:
+            raise ValueError(f"unsupported X event type: {self.event_type}")
+        if self.location_precision not in LOCATION_PRECISIONS:
+            raise ValueError(
+                f"unsupported X location precision: {self.location_precision}"
+            )
+        if not self.location_name.strip():
+            raise ValueError("X location_name must be non-empty")
+        if (
+            isinstance(self.latitude, bool)
+            or not isinstance(self.latitude, (int, float))
+            or not -90 <= self.latitude <= 90
+            or isinstance(self.longitude, bool)
+            or not isinstance(self.longitude, (int, float))
+            or not -180 <= self.longitude <= 180
+        ):
+            raise ValueError("X configured coordinates are invalid")
+        object.__setattr__(self, "url", canonical)
+
+    @property
+    def status_id(self) -> str:
+        return canonical_x_url(self.url)[2]
 
 
 @dataclass(frozen=True, slots=True)
-class AccountResult:
-    account: str
+class URLResult:
+    url: str
     status: str
-    posts_received: int
-    reports_accepted: int
-    error: str | None = None
+    reason: str | None = None
 
 
 @dataclass(frozen=True, slots=True)
 class XCollectionResult:
     events: tuple[dict[str, object], ...]
-    accounts: tuple[AccountResult, ...]
+    urls: tuple[URLResult, ...]
+    configured_count: int
+    fetched_count: int
+    accepted_count: int
+    rejected_count: int
+    unavailable_count: int
+    cached_count: int
+    failure_reasons: Mapping[str, int]
 
     @property
     def partial(self) -> bool:
-        return any(item.status == "failed" for item in self.accounts)
+        return bool(self.events) and any(
+            item.status in {"rejected", "unavailable"} for item in self.urls
+        )
+
+    @property
+    def total_failure(self) -> bool:
+        return bool(self.urls) and not self.events
+
+    def health_metrics(self) -> dict[str, object]:
+        return {
+            "configured_url_count": self.configured_count,
+            "fetched_count": self.fetched_count,
+            "accepted_count": self.accepted_count,
+            "rejected_count": self.rejected_count,
+            "unavailable_count": self.unavailable_count,
+            "cached_count": self.cached_count,
+            "failure_reasons": dict(self.failure_reasons),
+        }
 
 
-def load_x_accounts(values: Sequence[Mapping[str, object]]) -> list[XAccount]:
-    accounts: list[XAccount] = []
+def load_x_urls(values: Sequence[Mapping[str, object]]) -> list[XStatusURL]:
+    urls: list[XStatusURL] = []
     for value in values:
         if value.get("enabled", True) is False:
             continue
-        handle, source_class = value.get("handle"), value.get("source_class")
-        if not isinstance(handle, str) or not isinstance(source_class, str):
-            raise TypeError("X account configuration is invalid")
-        accounts.append(XAccount(handle, source_class))
-    if len({item.handle.casefold() for item in accounts}) != len(accounts):
-        raise ValueError("X account handles must be unique")
-    return accounts
+        required = {
+            "url": str,
+            "source_class": str,
+            "location_name": str,
+            "latitude": (int, float),
+            "longitude": (int, float),
+            "location_precision": str,
+            "event_type": str,
+        }
+        for key, expected in required.items():
+            if (
+                key not in value
+                or isinstance(value[key], bool)
+                or not isinstance(value[key], expected)
+            ):
+                raise TypeError(f"X URL configuration field {key!r} is invalid")
+        latitude = value["latitude"]
+        longitude = value["longitude"]
+        assert isinstance(latitude, (int, float))
+        assert isinstance(longitude, (int, float))
+        urls.append(
+            XStatusURL(
+                url=str(value["url"]),
+                source_class=str(value["source_class"]),
+                location_name=str(value["location_name"]),
+                latitude=float(latitude),
+                longitude=float(longitude),
+                location_precision=str(value["location_precision"]),
+                event_type=str(value["event_type"]),
+            )
+        )
+    status_ids = [item.status_id for item in urls]
+    if len(set(status_ids)) != len(status_ids):
+        raise ValueError("configured X status IDs must be unique")
+    return urls
 
 
 class XCollector:
-    """Collect configured accounts independently through official endpoints."""
+    """Collect only explicitly configured public status URLs."""
 
     def __init__(
         self,
-        accounts: Sequence[XAccount],
-        keywords: Mapping[str, Sequence[str]],
+        urls: Sequence[XStatusURL],
         *,
         reference_time: datetime,
-        bearer_token: str | None = None,
-        transport: Transport | None = None,
-        max_pages: int = 5,
-        page_size: int = 100,
+        transport: Transport,
+        cache_path: Path,
+        request_interval_seconds: float = 2,
+        max_urls_per_run: int = 25,
+        sleeper: Callable[[float], None] = time.sleep,
     ) -> None:
         if reference_time.tzinfo is None or reference_time.utcoffset() is None:
             raise ValueError("reference_time must be timezone-aware")
-        if set(keywords) - EVENT_TYPES:
-            raise ValueError("X keyword configuration contains unsupported event types")
-        if any(
-            not isinstance(words, (list, tuple))
-            or not all(isinstance(word, str) and word.strip() for word in words)
-            for words in keywords.values()
-        ):
-            raise TypeError("X keyword groups must contain non-empty strings")
-        self.accounts = tuple(accounts)
-        self.keywords = {
-            event_type: tuple(word.casefold() for word in words)
-            for event_type, words in keywords.items()
-        }
+        if request_interval_seconds < 0:
+            raise ValueError("X request interval cannot be negative")
+        if max_urls_per_run < 1:
+            raise ValueError("X maximum URLs per run must be positive")
+        self.urls = tuple(urls[:max_urls_per_run])
+        self.configured_count = len(urls)
         self.reference_time = reference_time.astimezone(UTC)
-        self.token = (
-            bearer_token
-            if bearer_token is not None
-            else os.environ.get("X_API_BEARER_TOKEN")
-        )
-        self.transport = transport or XApiTransport()
-        self.max_pages = max_pages
-        self.page_size = page_size
+        self.transport = transport
+        self.cache_path = cache_path
+        self.request_interval_seconds = request_interval_seconds
+        self.sleeper = sleeper
 
     def collect(self) -> XCollectionResult:
-        if not self.token:
-            raise XAuthenticationError(
-                "X_API_BEARER_TOKEN is required for X collection"
-            )
+        cache = self._load_cache()
         events: list[dict[str, object]] = []
-        outcomes: list[AccountResult] = []
-        for account in self.accounts:
-            try:
-                reports, received = self._collect_account(account)
-                events.extend(report.to_event() for report in reports)
-                outcomes.append(
-                    AccountResult(account.handle, "success", received, len(reports))
-                )
-            except XCollectionError as error:
-                outcomes.append(
-                    AccountResult(account.handle, "failed", 0, 0, str(error))
-                )
-            except (KeyError, TypeError, ValueError) as error:
-                # All provider-shaped validation failures become source-specific
-                # errors so a malformed account cannot abort other accounts.
-                outcomes.append(
-                    AccountResult(
-                        account.handle,
-                        "failed",
-                        0,
-                        0,
-                        f"malformed X provider response: {error}",
-                    )
-                )
-        if not outcomes or not any(item.status == "success" for item in outcomes):
-            details = "; ".join(
-                f"@{item.account}: {item.error}" for item in outcomes if item.error
-            )
-            raise XProviderError(
-                f"X collection failed for all accounts{': ' + details if details else ''}"
-            )
-        return XCollectionResult(tuple(events), tuple(outcomes))
-
-    def _collect_account(self, account: XAccount) -> tuple[list[XReport], int]:
-        assert self.token is not None
-        user = self.transport.get(
-            f"{API_ROOT}/users/by/username/{account.handle}", self.token
-        )
-        user_data = user.get("data")
-        if not isinstance(user_data, dict) or not isinstance(user_data.get("id"), str):
-            raise XProviderError("user lookup response is missing data.id")
+        outcomes: list[URLResult] = []
+        failures: Counter[str] = Counter()
+        fetched = accepted = rejected = unavailable = cached = 0
+        fetch_number = 0
         cutoff = self.reference_time - timedelta(hours=48)
-        parameters = {
-            "max_results": str(self.page_size),
-            "start_time": cutoff.isoformat().replace("+00:00", "Z"),
-            "tweet.fields": "created_at,geo,referenced_tweets",
-            "expansions": "geo.place_id,referenced_tweets.id,referenced_tweets.id.author_id",
-            "place.fields": "full_name,geo",
-            "user.fields": "username",
-        }
-        reports: list[XReport] = []
-        received = 0
-        next_token: str | None = None
-        for _ in range(self.max_pages):
-            query = dict(parameters)
-            if next_token:
-                query["pagination_token"] = next_token
-            response = self.transport.get(
-                f"{API_ROOT}/users/{user_data['id']}/tweets?{urlencode(query)}",
-                self.token,
-            )
-            posts = response.get("data", [])
-            if not isinstance(posts, list):
-                raise XProviderError("timeline data must be an array")
-            received += len(posts)
-            reports.extend(self._reports_from_page(account, response, cutoff))
-            meta = response.get("meta", {})
-            if not isinstance(meta, dict):
-                raise XProviderError("timeline meta must be an object")
-            token = meta.get("next_token")
-            if token is None:
-                break
-            if not isinstance(token, str) or not token:
-                raise XProviderError("timeline next_token must be a non-empty string")
-            next_token = token
-        return reports, received
 
-    def _reports_from_page(
-        self,
-        account: XAccount,
-        response: Mapping[str, Any],
-        cutoff: datetime,
-    ) -> list[XReport]:
-        posts, includes = response.get("data", []), response.get("includes", {})
-        if not isinstance(posts, list) or not isinstance(includes, dict):
-            raise XProviderError("timeline response has malformed data or includes")
-        places = self._indexed_objects(includes.get("places", []), "places")
-        users = self._indexed_objects(includes.get("users", []), "users")
-        referenced = self._indexed_objects(includes.get("tweets", []), "tweets")
-        reports = []
-        for post in posts:
-            if not isinstance(post, dict):
-                raise XProviderError("timeline post must be an object")
-            report = self._post_to_report(
-                account, post, places, users, referenced, cutoff
-            )
-            if report is not None:
-                reports.append(report)
-        return reports
+        for configured in self.urls:
+            try:
+                post = self._cached_post(cache, configured)
+                fetched_post = False
+                if post is not None:
+                    cached += 1
+                    outcome_status = "cached"
+                else:
+                    if fetch_number:
+                        self.sleeper(self.request_interval_seconds)
+                    fetch_number += 1
+                    fetched += 1
+                    page = self.transport.fetch(configured.url)
+                    post = extract_public_post(page)
+                    fetched_post = True
+                    outcome_status = "accepted"
+                report = self._to_report(configured, post)
+                if (
+                    report.published_at < cutoff
+                    or report.published_at > self.reference_time
+                ):
+                    raise XMetadataError("post is outside the rolling 48-hour window")
+                if fetched_post:
+                    cache[configured.status_id] = {
+                        "canonical_url": post.canonical_url,
+                        "account": post.account,
+                        "text": post.text,
+                        "published_at": post.published_at,
+                        "fetched_at": self.reference_time.isoformat(),
+                    }
+                events.append(report.to_event())
+                accepted += 1
+                outcomes.append(URLResult(configured.url, outcome_status))
+            except XUnavailableError as error:
+                unavailable += 1
+                failures[str(error)] += 1
+                outcomes.append(URLResult(configured.url, "unavailable", str(error)))
+            except (XCollectionError, OSError, TypeError, ValueError) as error:
+                rejected += 1
+                failures[str(error)] += 1
+                outcomes.append(URLResult(configured.url, "rejected", str(error)))
 
-    @staticmethod
-    def _indexed_objects(value: object, label: str) -> dict[str, Mapping[str, Any]]:
-        if not isinstance(value, list):
-            raise XProviderError(f"timeline includes.{label} must be an array")
-        return {
-            item["id"]: item
-            for item in value
-            if isinstance(item, dict) and isinstance(item.get("id"), str)
-        }
-
-    def _post_to_report(
-        self,
-        account: XAccount,
-        post: Mapping[str, Any],
-        places: Mapping[str, Mapping[str, Any]],
-        users: Mapping[str, Mapping[str, Any]],
-        referenced: Mapping[str, Mapping[str, Any]],
-        cutoff: datetime,
-    ) -> XReport | None:
-        post_id, text, created_at = (
-            post.get("id"),
-            post.get("text"),
-            post.get("created_at"),
+        if accepted:
+            self._save_cache(cache)
+        return XCollectionResult(
+            events=tuple(events),
+            urls=tuple(outcomes),
+            configured_count=self.configured_count,
+            fetched_count=fetched,
+            accepted_count=accepted,
+            rejected_count=rejected,
+            unavailable_count=unavailable,
+            cached_count=cached,
+            failure_reasons=dict(sorted(failures.items())),
         )
-        if not isinstance(post_id, str) or not post_id:
-            raise XProviderError("post is missing id, text, or created_at")
-        if not isinstance(text, str) or not text:
-            raise XProviderError("post is missing id, text, or created_at")
-        if not isinstance(created_at, str) or not created_at:
-            raise XProviderError("post is missing id, text, or created_at")
+
+    def _to_report(self, configured: XStatusURL, post: PublicPost) -> XReport:
         try:
-            published = datetime.fromisoformat(created_at.replace("Z", "+00:00"))
+            published = datetime.fromisoformat(post.published_at.replace("Z", "+00:00"))
         except ValueError as error:
-            raise XProviderError("post created_at is invalid") from error
+            raise XMetadataError("public metadata timestamp is invalid") from error
         if published.tzinfo is None or published.utcoffset() is None:
-            raise XProviderError("post created_at must include a timezone")
-        published = published.astimezone(UTC)
-        if published < cutoff or published > self.reference_time:
-            return None
-        geo = post.get("geo")
-        place_id = geo.get("place_id") if isinstance(geo, dict) else None
-        place = places.get(place_id) if isinstance(place_id, str) else None
-        location = self._location_from_place(place)
-        if location is None:
-            return None
-        quoted_url = reposted_url = None
-        references = post.get("referenced_tweets", [])
-        if not isinstance(references, list):
-            raise XProviderError("referenced_tweets must be an array")
-        for reference in references:
-            if not isinstance(reference, dict):
-                raise XProviderError("referenced tweet must be an object")
-            ref_id, ref_type = reference.get("id"), reference.get("type")
-            expanded = referenced.get(ref_id) if isinstance(ref_id, str) else None
-            author_id = expanded.get("author_id") if expanded else None
-            user = users.get(author_id) if isinstance(author_id, str) else None
-            username = user.get("username") if user else None
-            if not (isinstance(ref_id, str) and isinstance(username, str)):
-                continue
-            url = f"https://x.com/{username}/status/{ref_id}"
-            if ref_type == "quoted":
-                quoted_url = url
-            elif ref_type == "retweeted":
-                reposted_url = url
+            raise XMetadataError("public metadata timestamp must include a timezone")
         return XReport(
-            account=account.handle,
-            source_url=f"https://x.com/{account.handle}/status/{post_id}",
-            summary=text,
+            account=post.account,
+            source_url=post.canonical_url,
+            summary=post.text,
             published_at=published,
             collected_at=self.reference_time,
-            source_class=account.source_class,
-            event_type=self._classify(text),
-            latitude=location[1],
-            longitude=location[2],
-            location_name=location[0],
-            quoted_url=quoted_url,
-            reposted_url=reposted_url,
+            source_class=configured.source_class,
+            event_type=configured.event_type,
+            latitude=configured.latitude,
+            longitude=configured.longitude,
+            location_name=configured.location_name,
+            location_precision=configured.location_precision,
         )
 
-    def _classify(self, text: str) -> str:
-        normalized = text.casefold()
-        for event_type, keywords in self.keywords.items():
-            if any(keyword in normalized for keyword in keywords):
-                return event_type
-        return "unclassified_early_report"
+    def _load_cache(self) -> dict[str, dict[str, object]]:
+        try:
+            value = json.loads(self.cache_path.read_text(encoding="utf-8"))
+        except FileNotFoundError:
+            return {}
+        except (json.JSONDecodeError, OSError):
+            return {}
+        if not isinstance(value, dict) or not isinstance(value.get("posts"), dict):
+            return {}
+        return {
+            str(key): item
+            for key, item in value["posts"].items()
+            if isinstance(item, dict)
+        }
 
     @staticmethod
-    def _location_from_place(
-        place: Mapping[str, Any] | None,
-    ) -> tuple[str, float, float] | None:
-        if place is None or not isinstance(place.get("full_name"), str):
+    def _cached_post(
+        cache: Mapping[str, Mapping[str, object]], configured: XStatusURL
+    ) -> PublicPost | None:
+        item = cache.get(configured.status_id)
+        if not item or item.get("canonical_url") != configured.url:
             return None
-        geo = place.get("geo")
-        bbox = geo.get("bbox") if isinstance(geo, dict) else None
+        fields = ("canonical_url", "account", "text", "published_at")
+        if not all(isinstance(item.get(field), str) for field in fields):
+            return None
+        canonical_url = item["canonical_url"]
+        account = item["account"]
+        text = item["text"]
+        published_at = item["published_at"]
+        assert isinstance(canonical_url, str)
+        assert isinstance(account, str)
+        assert isinstance(text, str)
+        assert isinstance(published_at, str)
+        try:
+            canonical, url_account, status_id = canonical_x_url(canonical_url)
+        except ValueError:
+            return None
         if (
-            not isinstance(bbox, list)
-            or len(bbox) != 4
-            or any(
-                isinstance(value, bool) or not isinstance(value, (int, float))
-                for value in bbox
+            canonical != configured.url
+            or status_id != configured.status_id
+            or url_account.casefold() != account.casefold()
+            or not text.strip()
+            or not published_at.strip()
+        ):
+            return None
+        return PublicPost(
+            status_id=status_id,
+            canonical_url=canonical,
+            account=account,
+            text=text,
+            published_at=published_at,
+        )
+
+    def _save_cache(self, cache: Mapping[str, Mapping[str, object]]) -> None:
+        self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+        temporary = self.cache_path.with_name(
+            f".{self.cache_path.name}.{os.getpid()}.tmp"
+        )
+        payload = {"schema_version": "1.0", "posts": cache}
+        try:
+            temporary.write_text(
+                json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
             )
-        ):
-            raise XProviderError("X place bounding box is invalid")
-        west, south, east, north = (float(value) for value in bbox)
-        if not (
-            -180 <= west <= 180 and -180 <= east <= 180 and -90 <= south <= north <= 90
-        ):
-            raise XProviderError("X place bounding box is outside coordinate bounds")
-        latitude = (south + north) / 2
-        if west <= east:
-            longitude = (west + east) / 2
-        else:
-            longitude = ((west + east + 360) / 2 + 180) % 360 - 180
-        return place["full_name"], latitude, longitude
+            os.replace(temporary, self.cache_path)
+        finally:
+            try:
+                temporary.unlink()
+            except FileNotFoundError:
+                pass

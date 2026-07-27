@@ -1,160 +1,337 @@
-import io
 import json
-import os
 import tempfile
 import unittest
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
 
+import requests
+
 import main as pipeline
-from api.x_api import XApiTransport, XAuthenticationError, XProviderError
-from collectors.x_collector import XAccount, XCollector
+from api.x_public import (
+    PublicPage,
+    PublicXTransport,
+    XFetchError,
+    XMetadataError,
+    XUnavailableError,
+    extract_public_post,
+)
+from collectors.x_collector import XCollector, XStatusURL, load_x_urls
 from intelligence.map_generator import generate_map_events
 from models.x_report import (
     XReport,
     build_x_report_document,
+    canonical_x_url,
     validate_x_report_document,
 )
 from storage import event_database
 from storage.event_database import apply_retention
 
 REFERENCE = datetime(2026, 7, 27, 12, 0, tzinfo=UTC)
-KEYWORDS = {"reported_attack": ["attack"]}
+STATUS_ID = "1234567890123456789"
+CANONICAL = f"https://x.com/Example/status/{STATUS_ID}"
+FIXTURES = Path(__file__).parent / "fixtures" / "x_public"
 
 
-def report(
-    *,
-    account="GoodAccount",
-    published_at=REFERENCE,
-    longitude=20.0,
-) -> XReport:
+def fixture(name):
+    return (FIXTURES / name).read_text(encoding="utf-8")
+
+
+def configured(url=CANONICAL):
+    return XStatusURL(
+        url=url,
+        source_class="official",
+        location_name="Example City",
+        latitude=10,
+        longitude=20,
+        location_precision="city",
+        event_type="early_report",
+    )
+
+
+def report(*, published_at=REFERENCE, status_id="123"):
     return XReport(
-        account=account,
-        source_url=f"https://x.com/{account}/status/123",
+        account="GoodAccount",
+        source_url=f"https://x.com/GoodAccount/status/{status_id}",
         summary="Attack reported near the city",
         published_at=published_at,
         collected_at=REFERENCE,
         source_class="social_media_osint",
         event_type="reported_attack",
-        latitude=10.0,
-        longitude=longitude,
+        latitude=10,
+        longitude=20,
         location_name="Test City",
     )
 
 
-def timeline(post_id="123", bbox=None):
-    return {
-        "data": [
-            {
-                "id": post_id,
-                "text": "Attack reported near the city",
-                "created_at": REFERENCE.isoformat(),
-                "geo": {"place_id": "place-1"},
-            }
-        ],
-        "includes": {
-            "places": [
-                {
-                    "id": "place-1",
-                    "full_name": "Test City",
-                    "geo": {"bbox": bbox or [19.0, 9.0, 21.0, 11.0]},
-                }
-            ]
-        },
-        "meta": {},
-    }
+class FixtureTransport:
+    def __init__(self, values):
+        self.values = values
+        self.calls = []
 
-
-class RoutedTransport:
-    def __init__(self, timelines):
-        self.timelines = timelines
-
-    def get(self, url, bearer_token):
-        if "/users/by/username/" in url:
-            handle = url.rsplit("/", 1)[-1]
-            return {"data": {"id": handle}}
-        user_id = url.split("/users/", 1)[1].split("/", 1)[0]
-        value = self.timelines[user_id]
+    def fetch(self, url):
+        self.calls.append(url)
+        value = self.values[url]
         if isinstance(value, Exception):
             raise value
-        return value
+        return PublicPage(url, url, fixture(value))
+
+
+class FakeResponse:
+    def __init__(
+        self,
+        *,
+        url=CANONICAL,
+        body=b"<html></html>",
+        status_code=200,
+        headers=None,
+        history=None,
+    ):
+        self.url = url
+        self.body = body
+        self.status_code = status_code
+        self.headers = headers or {"Content-Type": "text/html"}
+        self.history = history or []
+        self.encoding = "utf-8"
+        self.closed = False
+
+    def iter_content(self, chunk_size):
+        del chunk_size
+        yield self.body
+
+    def close(self):
+        self.closed = True
+
+
+class FakeSession:
+    def __init__(self, value):
+        self.value = value
+        self.kwargs = None
+
+    def get(self, url, **kwargs):
+        del url
+        self.kwargs = kwargs
+        if isinstance(self.value, Exception):
+            raise self.value
+        return self.value
 
 
 class XMigrationTests(unittest.TestCase):
-    def test_valid_x_report_ingestion_and_map_integration(self):
-        collector = XCollector(
-            [XAccount("GoodAccount", "social_media_osint")],
-            KEYWORDS,
-            reference_time=REFERENCE,
-            bearer_token="test-token",
-            transport=RoutedTransport({"GoodAccount": timeline()}),
+    def test_successful_public_metadata_extraction(self):
+        post = extract_public_post(
+            PublicPage(CANONICAL, CANONICAL, fixture("jsonld_post.html"))
         )
+        self.assertEqual(post.status_id, STATUS_ID)
+        self.assertEqual(post.account, "Example")
+        self.assertEqual(post.published_at, "2026-07-27T11:00:00Z")
 
-        result = collector.collect()
-        self.assertEqual(len(result.events), 1)
-        event = result.events[0]
-        self.assertEqual(event["classification"], "reported_attack")
-        x_report = event["x_report"]
-        self.assertIsInstance(x_report, dict)
-        assert isinstance(x_report, dict)
-        self.assertEqual(x_report["status_id"], "123")
-        mapped = generate_map_events([event])
-        self.assertEqual(len(mapped), 1)
-        self.assertEqual(mapped[0]["type"], "x_report")
-        self.assertEqual(mapped[0]["url"], "https://x.com/GoodAccount/status/123")
-
-    def test_malformed_provider_response_isolated_per_account(self):
-        collector = XCollector(
-            [
-                XAccount("BadAccount", "social_media_osint"),
-                XAccount("GoodAccount", "social_media_osint"),
-            ],
-            KEYWORDS,
-            reference_time=REFERENCE,
-            bearer_token="test-token",
-            transport=RoutedTransport(
-                {
-                    "BadAccount": {"data": "not-an-array"},
-                    "GoodAccount": timeline(),
-                }
-            ),
+    def test_html_escaping_and_entity_decoding(self):
+        post = extract_public_post(
+            PublicPage(CANONICAL, CANONICAL, fixture("jsonld_post.html"))
         )
+        self.assertEqual(post.text, "Flood & fire reported <near> the river")
 
-        result = collector.collect()
-        self.assertTrue(result.partial)
-        self.assertEqual(len(result.events), 1)
-        self.assertEqual(result.accounts[0].status, "failed")
-        self.assertIn("timeline data", result.accounts[0].error or "")
+    def test_open_graph_metadata_fallback(self):
+        post = extract_public_post(
+            PublicPage(CANONICAL, CANONICAL, fixture("opengraph_post.html"))
+        )
+        self.assertEqual(post.text, "Public & verified report")
 
-    def test_malformed_json_becomes_provider_error(self):
-        response = io.BytesIO(b"{not-json")
-        with (
-            patch("api.x_api.urlopen", return_value=response),
-            self.assertRaises(XProviderError),
+    def test_url_normalization(self):
+        for url in (
+            CANONICAL,
+            f"https://www.x.com/Example/status/{STATUS_ID}",
+            f"https://twitter.com/Example/status/{STATUS_ID}",
+            f"https://www.twitter.com/Example/status/{STATUS_ID}",
         ):
-            XApiTransport(retries=0).get("https://api.x.com/2/test", "token")
+            self.assertEqual(canonical_x_url(url)[0], CANONICAL)
+            self.assertEqual(configured(url).url, CANONICAL)
 
-    def test_invalid_coordinates_do_not_abort_other_accounts(self):
-        collector = XCollector(
-            [
-                XAccount("BadAccount", "social_media_osint"),
-                XAccount("GoodAccount", "social_media_osint"),
-            ],
-            KEYWORDS,
-            reference_time=REFERENCE,
-            bearer_token="test-token",
-            transport=RoutedTransport(
-                {
-                    "BadAccount": timeline("111", [0, -91, 1, 10]),
-                    "GoodAccount": timeline(),
-                }
-            ),
+    def test_invalid_host_and_status_id_rejected(self):
+        for url in (
+            f"https://example.com/Example/status/{STATUS_ID}",
+            "https://x.com/Example/status/not-numeric",
+            f"http://x.com/Example/status/{STATUS_ID}",
+            "https://x.com/Example",
+        ):
+            with self.subTest(url=url), self.assertRaises(ValueError):
+                canonical_x_url(url)
+
+    def test_redirect_to_external_domain_rejected(self):
+        response = FakeResponse(
+            status_code=302,
+            headers={
+                "Content-Type": "text/html",
+                "Location": "https://example.com/landing",
+            },
         )
+        transport = PublicXTransport(session=FakeSession(response))
+        with self.assertRaisesRegex(XFetchError, "redirect destination"):
+            transport.fetch(CANONICAL)
 
-        result = collector.collect()
-        self.assertTrue(result.partial)
+    def test_redirect_cannot_change_configured_status_id(self):
+        response = FakeResponse(
+            status_code=302,
+            headers={
+                "Content-Type": "text/html",
+                "Location": "https://x.com/Example/status/999",
+            },
+        )
+        transport = PublicXTransport(session=FakeSession(response))
+        with self.assertRaisesRegex(XFetchError, "changed the configured"):
+            transport.fetch(CANONICAL)
+
+    def test_response_size_limit(self):
+        response = FakeResponse(body=b"x" * 2049)
+        transport = PublicXTransport(
+            session=FakeSession(response), max_response_bytes=2048
+        )
+        with self.assertRaisesRegex(XFetchError, "size limit"):
+            transport.fetch(CANONICAL)
+
+    def test_timeout_handling(self):
+        transport = PublicXTransport(
+            session=FakeSession(requests.Timeout("read timed out"))
+        )
+        with self.assertRaisesRegex(XFetchError, "timed out"):
+            transport.fetch(CANONICAL)
+
+    def test_deleted_and_login_wall_handling(self):
+        for name in ("deleted.html", "login_wall.html"):
+            with self.subTest(name=name), self.assertRaises(XUnavailableError):
+                extract_public_post(PublicPage(CANONICAL, CANONICAL, fixture(name)))
+
+    def test_missing_timestamp_and_malformed_metadata(self):
+        with self.assertRaisesRegex(XMetadataError, "timestamp"):
+            extract_public_post(
+                PublicPage(CANONICAL, CANONICAL, fixture("missing_timestamp.html"))
+            )
+        with self.assertRaisesRegex(XMetadataError, "post text"):
+            extract_public_post(
+                PublicPage(CANONICAL, CANONICAL, fixture("malformed_metadata.html"))
+            )
+
+    def test_valid_ingestion_map_and_health_metrics(self):
+        with tempfile.TemporaryDirectory() as directory:
+            transport = FixtureTransport({CANONICAL: "jsonld_post.html"})
+            result = XCollector(
+                [configured()],
+                reference_time=REFERENCE,
+                transport=transport,
+                cache_path=Path(directory) / "cache.json",
+                request_interval_seconds=0,
+            ).collect()
         self.assertEqual(len(result.events), 1)
+        self.assertEqual(result.fetched_count, 1)
+        self.assertEqual(result.accepted_count, 1)
+        self.assertEqual(result.health_metrics()["configured_url_count"], 1)
+        mapped = generate_map_events(list(result.events))
+        self.assertEqual(mapped[0]["url"], CANONICAL)
+        self.assertEqual(mapped[0]["type"], "x_report")
+
+    def test_per_url_failure_isolation(self):
+        second = configured("https://x.com/Other/status/987654321")
+        transport = FixtureTransport(
+            {
+                CANONICAL: "jsonld_post.html",
+                second.url: "jsonld_post.html",
+            }
+        )
+        # Use matching metadata for the second URL.
+        other_html = (
+            fixture("jsonld_post.html")
+            .replace(CANONICAL, second.url)
+            .replace("@Example", "@Other")
+        )
+        with (
+            tempfile.TemporaryDirectory() as directory,
+            patch(
+                "collectors.x_collector.extract_public_post",
+                side_effect=[
+                    XUnavailableError("public post is unavailable"),
+                    extract_public_post(PublicPage(second.url, second.url, other_html)),
+                ],
+            ),
+        ):
+            result = XCollector(
+                [configured(), second],
+                reference_time=REFERENCE,
+                transport=transport,
+                cache_path=Path(directory) / "cache.json",
+                request_interval_seconds=0,
+            ).collect()
+        self.assertEqual(len(result.events), 1)
+        self.assertTrue(result.partial)
+        self.assertEqual(result.unavailable_count, 1)
+
+    def test_cache_reuse_by_status_id(self):
+        with tempfile.TemporaryDirectory() as directory:
+            cache_path = Path(directory) / "cache.json"
+            first_transport = FixtureTransport({CANONICAL: "jsonld_post.html"})
+            first = XCollector(
+                [configured()],
+                reference_time=REFERENCE,
+                transport=first_transport,
+                cache_path=cache_path,
+                request_interval_seconds=0,
+            ).collect()
+            second_transport = FixtureTransport({})
+            second = XCollector(
+                [configured()],
+                reference_time=REFERENCE,
+                transport=second_transport,
+                cache_path=cache_path,
+                request_interval_seconds=0,
+            ).collect()
+        self.assertEqual(first.fetched_count, 1)
+        self.assertEqual(second.cached_count, 1)
+        self.assertEqual(second_transport.calls, [])
+
+    def test_malformed_cache_is_refetched(self):
+        with tempfile.TemporaryDirectory() as directory:
+            cache_path = Path(directory) / "cache.json"
+            cache_path.write_text(
+                json.dumps(
+                    {
+                        "schema_version": "1.0",
+                        "posts": {
+                            STATUS_ID: {
+                                "canonical_url": CANONICAL,
+                                "account": None,
+                                "text": None,
+                                "published_at": None,
+                            }
+                        },
+                    }
+                ),
+                encoding="utf-8",
+            )
+            transport = FixtureTransport({CANONICAL: "jsonld_post.html"})
+            result = XCollector(
+                [configured()],
+                reference_time=REFERENCE,
+                transport=transport,
+                cache_path=cache_path,
+                request_interval_seconds=0,
+            ).collect()
+        self.assertEqual(result.fetched_count, 1)
+        self.assertEqual(result.cached_count, 0)
+        self.assertEqual(result.accepted_count, 1)
+
+    def test_exact_48_hour_boundary_is_retained(self):
+        boundary = report(published_at=REFERENCE - timedelta(hours=48), status_id="1")
+        older = report(
+            published_at=REFERENCE - timedelta(hours=48, microseconds=1),
+            status_id="2",
+        )
+        retained = apply_retention(
+            [boundary.to_event(), older.to_event()],
+            max_age_hours=48,
+            now=REFERENCE,
+        )
+        self.assertEqual(len(retained), 1)
+        document = build_x_report_document(retained, REFERENCE)
+        validate_x_report_document(document, reference_time=REFERENCE)
 
     def test_account_must_match_source_url(self):
         with self.assertRaisesRegex(ValueError, "must match"):
@@ -164,80 +341,30 @@ class XMigrationTests(unittest.TestCase):
                 summary="Report",
                 published_at=REFERENCE,
                 collected_at=REFERENCE,
-                source_class="social_media_osint",
-                event_type="unclassified_early_report",
+                source_class="official",
+                event_type="early_report",
                 latitude=1,
                 longitude=1,
                 location_name="Place",
+                location_precision="city",
             )
 
-    def test_exact_48_hour_boundary_is_retained(self):
-        boundary = report(published_at=REFERENCE - timedelta(hours=48))
-        older = report(published_at=REFERENCE - timedelta(hours=48, microseconds=1))
-        retained = apply_retention(
-            [boundary.to_event(), older.to_event()],
-            max_age_hours=48,
-            now=REFERENCE,
-        )
+    def test_invalid_coordinates_rejected_in_configuration(self):
+        payload = [
+            {
+                "url": CANONICAL,
+                "source_class": "official",
+                "location_name": "Place",
+                "latitude": 91,
+                "longitude": 0,
+                "location_precision": "city",
+                "event_type": "early_report",
+            }
+        ]
+        with self.assertRaisesRegex(ValueError, "coordinates"):
+            load_x_urls(payload)
 
-        self.assertEqual(len(retained), 1)
-        document = build_x_report_document(retained, REFERENCE)
-        validate_x_report_document(document, reference_time=REFERENCE)
-
-    def test_antimeridian_midpoint_stays_near_dateline(self):
-        location = XCollector._location_from_place(
-            {"full_name": "Dateline", "geo": {"bbox": [170, -10, -170, 10]}}
-        )
-        self.assertIsNotNone(location)
-        assert location is not None
-        self.assertEqual(abs(location[2]), 180)
-
-    def test_partial_account_failure_still_returns_successful_reports(self):
-        collector = XCollector(
-            [
-                XAccount("Down", "social_media_monitor"),
-                XAccount("GoodAccount", "social_media_osint"),
-            ],
-            KEYWORDS,
-            reference_time=REFERENCE,
-            bearer_token="test-token",
-            transport=RoutedTransport(
-                {
-                    "Down": XProviderError("provider unavailable"),
-                    "GoodAccount": timeline(),
-                }
-            ),
-        )
-        result = collector.collect()
-        self.assertEqual(
-            [item.status for item in result.accounts], ["failed", "success"]
-        )
-        self.assertEqual(len(result.events), 1)
-
-    def test_total_provider_failure_is_reported_clearly(self):
-        collector = XCollector(
-            [XAccount("Down", "social_media_monitor")],
-            KEYWORDS,
-            reference_time=REFERENCE,
-            bearer_token="test-token",
-            transport=RoutedTransport({"Down": XProviderError("provider unavailable")}),
-        )
-        with self.assertRaisesRegex(XProviderError, "failed for all accounts"):
-            collector.collect()
-
-    def test_missing_secret_fails_x_portion_clearly(self):
-        with patch.dict(os.environ, {}, clear=True):
-            collector = XCollector(
-                [XAccount("GoodAccount", "social_media_osint")],
-                KEYWORDS,
-                reference_time=REFERENCE,
-                bearer_token=None,
-                transport=RoutedTransport({}),
-            )
-            with self.assertRaisesRegex(XAuthenticationError, "X_API_BEARER_TOKEN"):
-                collector.collect()
-
-    def test_missing_x_secret_does_not_stop_other_collectors(self):
+    def test_all_x_failures_do_not_stop_existing_collectors(self):
         config = {
             "sources": {
                 "news": {"enabled": False},
@@ -249,32 +376,50 @@ class XMigrationTests(unittest.TestCase):
                 "humanitarian": {"gdacs": {"enabled": False}},
                 "x": {
                     "enabled": True,
-                    "accounts_file": "config/x_accounts.json",
-                    "keywords_file": "config/x_keywords.json",
-                    "max_pages": 1,
-                    "page_size": 10,
-                    "retries": 0,
-                    "backoff_seconds": 0,
-                    "timeout_seconds": 1,
+                    "connection_timeout_seconds": 1,
+                    "request_timeout_seconds": 1,
+                    "request_interval_seconds": 0,
+                    "max_response_bytes": 2048,
+                    "max_urls_per_run": 1,
+                    "cache_file": "data/cache/test.json",
+                    "urls": [
+                        {
+                            "url": CANONICAL,
+                            "source_class": "official",
+                            "location_name": "Place",
+                            "latitude": 1,
+                            "longitude": 1,
+                            "location_precision": "city",
+                            "event_type": "early_report",
+                        }
+                    ],
                 },
             }
         }
         cyber_event = {"event_type": "cyber", "title": "Retained cyber event"}
+        failed_transport = FixtureTransport(
+            {CANONICAL: XUnavailableError("public post is unavailable")}
+        )
         with (
+            tempfile.TemporaryDirectory() as directory,
             patch.object(pipeline, "CONFIG", config),
             patch.object(pipeline, "collect_cyber", return_value=[cyber_event]),
-            patch.dict(os.environ, {}, clear=True),
+            patch.object(
+                pipeline,
+                "resolve_project_path",
+                return_value=Path(directory) / "cache.json",
+            ),
+            patch.object(pipeline, "PublicXTransport", return_value=failed_transport),
         ):
             collected = pipeline.collect_all_sources(REFERENCE)
-
         self.assertEqual(collected, [cyber_event])
         x_health = next(
             item for item in pipeline.LAST_COLLECTION_HEALTH if item["source"] == "x"
         )
         self.assertEqual(x_health["status"], "error")
-        self.assertIn("X_API_BEARER_TOKEN", x_health["error"])
+        self.assertEqual(x_health["metrics"]["unavailable_count"], 1)
 
-    def test_failed_collection_preserves_retained_x_output(self):
+    def test_last_known_good_and_website_artifacts_are_preserved(self):
         event = report(published_at=REFERENCE - timedelta(hours=1)).to_event()
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -285,15 +430,22 @@ class XMigrationTests(unittest.TestCase):
             ):
                 event_database.save_events([event])
                 pipeline.main(reference_time=REFERENCE)
-
+            output = root / "output"
             document = json.loads(
-                (root / "output" / "x_reports.json").read_text(encoding="utf-8")
+                (output / "x_reports.json").read_text(encoding="utf-8")
             )
             self.assertEqual(len(document["reports"]), 1)
-            manifest = json.loads(
-                (root / "output" / "manifest.json").read_text(encoding="utf-8")
-            )
-            self.assertIn("x_reports.json", manifest["files"])
+            for name in (
+                "x_report_events.json",
+                "x_report_pinpoints.geojson",
+                "world_events.json",
+                "map_events.json",
+                "timeline.json",
+                "dashboard.json",
+                "health.json",
+                "manifest.json",
+            ):
+                self.assertTrue((output / name).is_file(), name)
 
 
 if __name__ == "__main__":

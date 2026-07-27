@@ -23,7 +23,7 @@ sources:
   maritime:
 
     aisstream:
-      enabled: true
+      enabled: false
 
 
   satellite:
@@ -40,13 +40,15 @@ sources:
 
   x:
     enabled: true
-    accounts_file: config/x_accounts.json
-    keywords_file: config/x_keywords.json
-    max_pages: 5
-    page_size: 100
-    retries: 3
-    backoff_seconds: 1.0
-    timeout_seconds: 30.0
+    connection_timeout_seconds: 5
+    request_timeout_seconds: 10
+    request_interval_seconds: 2
+    max_response_bytes: 1000000
+    max_urls_per_run: 25
+    cache_file: data/cache/x_public_posts.json
+    # Only explicitly listed public status URLs are fetched. Location and
+    # classification are operator-supplied; no private user data is inferred.
+    urls: []
 
 
 output:

@@ -1,6 +1,5 @@
 """Configuration loading for the Sentinel Grid pipeline."""
 
-import json
 from copy import deepcopy
 from pathlib import Path
 
@@ -14,19 +13,19 @@ DEFAULT_CONFIG = {
         "news": {"enabled": True},
         "conflict": {"enabled": True},
         "aircraft": {"opensky": {"enabled": True}},
-        "maritime": {"aisstream": {"enabled": True}},
+        "maritime": {"aisstream": {"enabled": False}},
         "satellite": {"nasa_eonet": {"enabled": True}},
         "cyber": {"enabled": True},
         "humanitarian": {"gdacs": {"enabled": True}},
         "x": {
             "enabled": True,
-            "accounts_file": "config/x_accounts.json",
-            "keywords_file": "config/x_keywords.json",
-            "max_pages": 5,
-            "page_size": 100,
-            "retries": 3,
-            "backoff_seconds": 1.0,
-            "timeout_seconds": 30.0,
+            "connection_timeout_seconds": 5,
+            "request_timeout_seconds": 10,
+            "request_interval_seconds": 2,
+            "max_response_bytes": 1_000_000,
+            "max_urls_per_run": 25,
+            "cache_file": "data/cache/x_public_posts.json",
+            "urls": [],
         },
     },
     "output": {
@@ -71,31 +70,34 @@ def load_config(path=CONFIG_PATH):
         if not isinstance(value, int) or isinstance(value, bool) or value <= 0:
             raise ValueError(f"{section}.{key} must be a positive integer")
     x_config = config["sources"]["x"]
-    for key in ("max_pages", "page_size", "retries"):
+    for key in ("max_response_bytes", "max_urls_per_run"):
         value = x_config[key]
         if not isinstance(value, int) or isinstance(value, bool):
             raise TypeError(f"sources.x.{key} must be an integer")
-    if x_config["max_pages"] < 1 or not 5 <= x_config["page_size"] <= 100:
-        raise ValueError("sources.x page limits are invalid")
-    if x_config["retries"] < 0:
-        raise ValueError("sources.x.retries cannot be negative")
-    for key in ("backoff_seconds", "timeout_seconds"):
+    if x_config["max_response_bytes"] < 1024 or x_config["max_urls_per_run"] < 1:
+        raise ValueError("sources.x size and URL limits are invalid")
+    for key in (
+        "connection_timeout_seconds",
+        "request_timeout_seconds",
+        "request_interval_seconds",
+    ):
         value = x_config[key]
         if isinstance(value, bool) or not isinstance(value, (int, float)):
             raise TypeError(f"sources.x.{key} must be numeric")
-    if x_config["backoff_seconds"] < 0 or x_config["timeout_seconds"] <= 0:
-        raise ValueError("sources.x retry timing is invalid")
+    if (
+        x_config["connection_timeout_seconds"] <= 0
+        or x_config["request_timeout_seconds"] <= 0
+        or x_config["request_interval_seconds"] < 0
+    ):
+        raise ValueError("sources.x request timing is invalid")
+    if (
+        not isinstance(x_config["cache_file"], str)
+        or not x_config["cache_file"].strip()
+    ):
+        raise TypeError("sources.x.cache_file must be a path string")
+    if not isinstance(x_config["urls"], list):
+        raise TypeError("sources.x.urls must be an array")
     return config
-
-
-def load_json_mapping(path):
-    """Load a repository-relative JSON object."""
-    resolved = resolve_project_path(path)
-    with resolved.open("r", encoding="utf-8") as stream:
-        value = json.load(stream)
-    if not isinstance(value, dict):
-        raise TypeError(f"{resolved} must contain a JSON object")
-    return value
 
 
 def source_enabled(config, *keys):

@@ -20,6 +20,7 @@ The system collects and processes:
 - Satellite observations
 - Cyber security events
 - Humanitarian events
+- Explicitly configured public X/Twitter status reports
 
 
 ---
@@ -91,10 +92,10 @@ $env:PYTHONPATH = "src"
 ```
 
 Source switches and the output directory are controlled by `config.yaml`.
-AISStream is optional and requires `AISSTREAM_API_KEY`; when it is absent, the
-other enabled collectors continue normally. Generated frontend datasets are
-written to the configured output directory, while historical deduplicated
-events are stored in `data/database/events.json`.
+AISStream maritime collection is disabled by default and is not configured in
+the scheduled workflow. Generated frontend datasets are written to the
+configured output directory, while historical deduplicated events are stored
+in `data/database/events.json`.
 
 Each run builds and validates a staged release before publishing it. The
 website can use `data/output/manifest.json` as its update signal and
@@ -107,10 +108,38 @@ retains at most 5,000 events, publishes at most 2,000 map points, and rejects
 any artifact over 25 MB.
 
 The scheduled GitHub workflow runs every six hours and uses repository storage.
-Official X collection requires `X_API_BEARER_TOKEN`. AISStream remains disabled
-automatically unless the optional `AISSTREAM_API_KEY` secret is provided. A
-failed optional source degrades health without preventing other collectors or
-discarding valid retained X reports in favor of an invented empty result.
+X collection needs no secret: it reads only the explicit public status URLs in
+`sources.x.urls`. It does not crawl timelines or use the official X API.
+Maritime tracking remains disabled. A failed optional source degrades health
+without preventing other collectors or discarding valid retained X reports in
+favor of an invented empty result.
+
+Configure each X post with operator-supplied classification and location data:
+
+```yaml
+sources:
+  x:
+    enabled: true
+    connection_timeout_seconds: 5
+    request_timeout_seconds: 10
+    request_interval_seconds: 2
+    max_response_bytes: 1000000
+    max_urls_per_run: 25
+    cache_file: data/cache/x_public_posts.json
+    urls:
+      - url: https://x.com/example/status/1234567890123456789
+        source_class: official
+        location_name: Example City
+        latitude: 0.0
+        longitude: 0.0
+        location_precision: city
+        event_type: early_report
+```
+
+Accepted `x.com` and `twitter.com` variants are normalized to
+`https://x.com/<account>/status/<status_id>`. Only public JSON-LD or Open Graph
+metadata is consumed; inaccessible, login-gated, deleted, malformed, or stale
+posts are rejected independently.
 
 Run the local verification suite with:
 
