@@ -13,9 +13,8 @@ Provides:
 """
 
 
-import os
 import json
-
+import os
 
 AISSTREAM_URL = (
     "wss://stream.aisstream.io/v0/stream"

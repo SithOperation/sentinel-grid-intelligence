@@ -1,12 +1,18 @@
+import json
+import os
 import tempfile
 import unittest
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
-import os
 
+import main as pipeline
 from intelligence.map_generator import generate_map_events
 from intelligence.threat_scoring import analyze_threats
 from models.event_model import create_event
+from output.contracts import SCHEMA_VERSION, ContractError
+from output.health import build_health
+from output.publisher import publish_artifacts
 from processors.confidence_scoring import apply_confidence
 from processors.data_normalizer import normalize_events
 from processors.event_classifier import classify_events
@@ -14,15 +20,8 @@ from processors.event_deduplication import remove_duplicates
 from processors.geolocation import apply_geolocation
 from settings import load_config, source_enabled
 from storage import event_database
-import main as pipeline
-from output import dashboard_exporter
-from output.contracts import ContractError, SCHEMA_VERSION
-from output.publisher import publish_artifacts
-from output.health import build_health
 from storage.event_database import apply_retention
 from utils.sanitization import plain_text, safe_url
-from datetime import datetime, timedelta, timezone
-import json
 
 
 class SettingsTests(unittest.TestCase):

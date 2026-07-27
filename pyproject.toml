@@ -1,0 +1,4 @@
+[tool.ruff.lint]
+# External APIs and collector adapters are isolation boundaries: a malformed
+# third-party payload must degrade one source instead of aborting publication.
+ignore = ["BLE001"]

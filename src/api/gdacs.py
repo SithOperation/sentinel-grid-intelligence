@@ -11,9 +11,9 @@ Provides:
 - humanitarian disaster alerts
 """
 
-import requests
 import xml.etree.ElementTree as ET
 
+import requests
 
 GDACS_URL = (
     "https://www.gdacs.org/xml/rss.xml"

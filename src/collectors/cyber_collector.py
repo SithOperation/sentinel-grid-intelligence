@@ -19,7 +19,6 @@ from api.cisa import fetch
 from models.event_model import create_event
 
 
-
 def collect_cyber():
 
     events = []

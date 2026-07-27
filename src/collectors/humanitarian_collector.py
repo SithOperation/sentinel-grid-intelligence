@@ -16,10 +16,10 @@ Sentinel Grid standardized event format
 """
 
 
-from api.gdacs import fetch
-from models.event_model import create_event
 from email.utils import parsedate_to_datetime
 
+from api.gdacs import fetch
+from models.event_model import create_event
 
 
 def create_humanitarian_event(item):

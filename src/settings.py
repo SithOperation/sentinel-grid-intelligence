@@ -5,7 +5,6 @@ from pathlib import Path
 
 import yaml
 
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = PROJECT_ROOT / "config.yaml"
 
@@ -48,7 +47,7 @@ def load_config(path=CONFIG_PATH):
         loaded = yaml.safe_load(file) or {}
 
     if not isinstance(loaded, dict):
-        raise ValueError("config.yaml must contain a YAML mapping")
+        raise TypeError("config.yaml must contain a YAML mapping")
     config = _merge(config, loaded)
     for section, key in (
         ("output", "max_map_events"),

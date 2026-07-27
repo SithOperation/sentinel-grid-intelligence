@@ -21,44 +21,44 @@ JSON Output
 
 """
 
+import argparse
 import datetime
 import time
-import argparse
 
-
-# Collectors
-
-from collectors.news_collector import collect_news
-from collectors.conflict_collector import collect_conflicts
+from api.news import fetch as fetch_news_articles
 from collectors.aircraft_collector import collect_aircraft
-from collectors.maritime_collector import collect_maritime
-from collectors.satellite_collector import collect_satellite
+from collectors.conflict_collector import collect_conflicts
 from collectors.cyber_collector import collect_cyber
 from collectors.humanitarian_collector import collect_humanitarian
+from collectors.maritime_collector import collect_maritime
 
-
-# Processing
-
-from processors.data_normalizer import normalize_events
-from processors.event_classifier import classify_events
-from processors.confidence_scoring import apply_confidence
-from processors.geolocation import apply_geolocation
-from processors.event_deduplication import remove_duplicates
-from intelligence.threat_scoring import analyze_threats
-from intelligence.conflict_analysis import analyze_conflicts
-from intelligence.regional_analysis import analyze_regions
+# Collectors
+from collectors.news_collector import collect_news
+from collectors.satellite_collector import collect_satellite
 from intelligence.intelligence_brief import generate_brief
-from output.dashboard_exporter import build_dashboard
+from intelligence.map_generator import generate_map_events
+from intelligence.regional_analysis import analyze_regions
+from intelligence.threat_scoring import analyze_threats
 from intelligence.timeline_analysis import generate_timeline
 from intelligence.trend_analysis import analyze_trends
-from intelligence.map_generator import generate_map_events
-from storage.event_database import append_events, apply_retention, load_events, save_events
-from settings import load_config, resolve_project_path, source_enabled
-from api.news import fetch as fetch_news_articles
 from output.contracts import SCHEMA_VERSION
-from output.publisher import publish_artifacts
+from output.dashboard_exporter import build_dashboard
 from output.health import build_health
+from output.publisher import publish_artifacts
+from processors.confidence_scoring import apply_confidence
 
+# Processing
+from processors.data_normalizer import normalize_events
+from processors.event_classifier import classify_events
+from processors.event_deduplication import remove_duplicates
+from processors.geolocation import apply_geolocation
+from settings import load_config, resolve_project_path, source_enabled
+from storage.event_database import (
+    append_events,
+    apply_retention,
+    load_events,
+    save_events,
+)
 
 # Output location
 
@@ -258,11 +258,6 @@ def main(use_existing=False):
         max_events=retention["max_events"],
     )
     save_events(all_events)
-
-
-    conflict_analysis = analyze_conflicts(
-        all_events
-    )
 
 
     regional_analysis = analyze_regions(

@@ -16,9 +16,6 @@ Produces:
 from collections import Counter
 
 
-
-
-
 def analyze_trends(events):
 
 

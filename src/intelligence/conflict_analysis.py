@@ -149,9 +149,7 @@ def analyze_conflicts(events):
 
 
 
-        if threat_score > highest_threat:
-
-            highest_threat = threat_score
+        highest_threat = max(highest_threat, threat_score)
 
 
 

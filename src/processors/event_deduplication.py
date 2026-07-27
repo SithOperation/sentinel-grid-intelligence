@@ -14,7 +14,6 @@ Features:
 import hashlib
 
 
-
 def clean(value):
 
     if value is None:

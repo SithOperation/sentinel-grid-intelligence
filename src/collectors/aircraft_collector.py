@@ -22,17 +22,16 @@ Sentinel Grid standardized event format
 """
 
 
-from api.opensky import fetch
-from models.event_model import create_event
 from datetime import datetime, timezone
 
-
+from api.opensky import fetch
+from models.event_model import create_event
 
 MAX_AIRCRAFT = 50
 
 
 
-def safe_value(value, default="UNKNOWN"):
+def safe_value(value, default: object = "UNKNOWN") -> object:
 
     if value is None:
 

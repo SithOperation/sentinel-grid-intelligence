@@ -273,10 +273,7 @@ def analyze_regions(events):
 
 
 
-        if score > regions[region]["threat_score"]:
-
-
-            regions[region]["threat_score"] = score
+        regions[region]["threat_score"] = max(regions[region]["threat_score"], score)
 
 
 

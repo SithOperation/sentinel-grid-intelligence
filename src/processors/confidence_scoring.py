@@ -15,7 +15,6 @@ confidence score + confidence level
 
 from settings import load_config
 
-
 CONFIDENCE_LEVELS = load_config()["confidence"]
 
 
@@ -133,9 +132,7 @@ def apply_confidence(events):
 
 
 
-        if score > 100:
-
-            score = 100
+        score = min(score, 100)
 
 
 

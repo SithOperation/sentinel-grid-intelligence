@@ -15,10 +15,9 @@ Provides:
 """
 
 
-import requests
 import xml.etree.ElementTree as ET
 
-
+import requests
 
 NEWS_FEEDS = [
 

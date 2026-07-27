@@ -12,9 +12,8 @@ Standard event structure used across:
 
 """
 
-from datetime import datetime, timezone
 import uuid
-
+from datetime import datetime, timezone
 
 
 def create_event(

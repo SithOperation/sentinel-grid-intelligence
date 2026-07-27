@@ -19,7 +19,6 @@ from api.nasa_eonet import fetch
 from models.event_model import create_event
 
 
-
 def create_satellite_event(event):
 
 

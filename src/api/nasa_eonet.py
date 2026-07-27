@@ -14,7 +14,6 @@ Provides:
 
 import requests
 
-
 EONET_URL = (
 
     "https://eonet.gsfc.nasa.gov/api/v3/events"

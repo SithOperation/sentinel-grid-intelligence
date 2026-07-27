@@ -13,9 +13,6 @@ Used for:
 from datetime import datetime
 
 
-
-
-
 def safe_timestamp(timestamp):
 
 

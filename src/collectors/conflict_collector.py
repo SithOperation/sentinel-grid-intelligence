@@ -15,11 +15,10 @@ Sentinel Grid standardized event format
 """
 
 
-from api.news import fetch
-from models.event_model import create_event
 from email.utils import parsedate_to_datetime
 
-
+from api.news import fetch
+from models.event_model import create_event
 
 CONFLICT_KEYWORDS = [
 

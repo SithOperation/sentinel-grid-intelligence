@@ -27,7 +27,6 @@ from api.aisstream import fetch
 from models.event_model import create_event
 
 
-
 def create_maritime_event(message):
 
 

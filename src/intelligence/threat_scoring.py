@@ -295,9 +295,7 @@ def calculate_threat_score(event):
     #
 
 
-    if score > 100:
-
-        score = 100
+    score = min(score, 100)
 
 
 

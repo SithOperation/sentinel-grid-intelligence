@@ -1,10 +1,8 @@
-from pathlib import Path
 import json
 from datetime import datetime, timedelta, timezone
 
 from processors.event_deduplication import remove_duplicates
 from settings import PROJECT_ROOT
-
 
 DATABASE_PATH = PROJECT_ROOT / "data/database/events.json"
 
@@ -23,7 +21,7 @@ def load_events():
         events = json.load(file)
 
     if not isinstance(events, list):
-        raise ValueError("Event database must contain a JSON array")
+        raise TypeError("Event database must contain a JSON array")
     return events
 
 

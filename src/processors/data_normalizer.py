@@ -10,8 +10,8 @@ Preserves existing intelligence data.
 
 import datetime
 from datetime import timezone
-from utils.sanitization import plain_text, safe_url
 
+from utils.sanitization import plain_text, safe_url
 
 
 def normalize_events(events):

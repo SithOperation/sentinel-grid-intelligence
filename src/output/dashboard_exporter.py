@@ -4,10 +4,10 @@ Dashboard Exporter
 Creates frontend-ready intelligence data.
 """
 
-import json
 import datetime
-from settings import load_config, resolve_project_path
+import json
 
+from settings import load_config, resolve_project_path
 
 CONFIG = load_config()
 DASHBOARD_PATH = resolve_project_path(CONFIG["output"]["directory"]) / "dashboard.json"

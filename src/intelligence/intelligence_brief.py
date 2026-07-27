@@ -27,9 +27,7 @@ def determine_global_level(events):
         )
 
 
-        if score > highest_score:
-
-            highest_score = score
+        highest_score = max(highest_score, score)
 
 
 

@@ -15,10 +15,8 @@ Provides:
 """
 
 
+
 import requests
-import os
-
-
 
 OPENSKY_URL = (
 
