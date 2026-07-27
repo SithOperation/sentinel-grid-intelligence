@@ -1,93 +1,86 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-07-17T16:42:18.857093+00:00",
+  "generated": "2026-07-27T16:58:05.163899+00:00",
   "status": "degraded",
   "degraded": true,
-  "stale": true,
+  "stale": false,
   "stale_after_minutes": 390,
-  "published_event_count": 162,
+  "published_event_count": 1491,
   "freshness": {
-    "oldest_event": "2026-07-15T21:17:39.058601+00:00",
-    "newest_event": "2026-07-16T09:20:46.674500+00:00",
-    "age_minutes": 1881.54
+    "oldest_event": "2026-07-03T17:07:09+00:00",
+    "newest_event": "2026-07-27T16:57:54+00:00",
+    "age_minutes": 0.19
   },
   "sources": [
     {
       "source": "news",
       "enabled": true,
-      "status": "not_checked",
-      "event_count": 0,
-      "duration_ms": 0,
-      "checked_at": "2026-07-17T16:42:18.849600+00:00",
-      "last_success": null,
-      "error": null,
-      "note": "Offline publication reused the retained database"
+      "status": "ok",
+      "event_count": 30,
+      "duration_ms": 1739,
+      "checked_at": "2026-07-27T16:57:58.821596+00:00",
+      "last_success": "2026-07-27T16:57:58.821596+00:00",
+      "error": null
     },
     {
       "source": "conflict",
       "enabled": true,
-      "status": "not_checked",
-      "event_count": 0,
-      "duration_ms": 0,
-      "checked_at": "2026-07-17T16:42:18.849620+00:00",
-      "last_success": null,
-      "error": null,
-      "note": "Offline publication reused the retained database"
+      "status": "ok",
+      "event_count": 22,
+      "duration_ms": 2,
+      "checked_at": "2026-07-27T16:57:58.823249+00:00",
+      "last_success": "2026-07-27T16:57:58.823249+00:00",
+      "error": null
     },
     {
       "source": "opensky",
       "enabled": true,
-      "status": "not_checked",
-      "event_count": 0,
-      "duration_ms": 0,
-      "checked_at": "2026-07-17T16:42:18.849624+00:00",
-      "last_success": null,
-      "error": null,
-      "note": "Offline publication reused the retained database"
+      "status": "ok",
+      "event_count": 49,
+      "duration_ms": 3294,
+      "checked_at": "2026-07-27T16:58:02.117045+00:00",
+      "last_success": "2026-07-27T16:58:02.117045+00:00",
+      "error": null
     },
     {
       "source": "aisstream",
       "enabled": true,
-      "status": "not_checked",
+      "status": "no_data",
       "event_count": 0,
       "duration_ms": 0,
-      "checked_at": "2026-07-17T16:42:18.849625+00:00",
+      "checked_at": "2026-07-27T16:58:02.117076+00:00",
       "last_success": null,
-      "error": null,
-      "note": "Offline publication reused the retained database"
+      "error": null
     },
     {
       "source": "nasa_eonet",
       "enabled": true,
-      "status": "not_checked",
-      "event_count": 0,
-      "duration_ms": 0,
-      "checked_at": "2026-07-17T16:42:18.849627+00:00",
-      "last_success": null,
-      "error": null,
-      "note": "Offline publication reused the retained database"
+      "status": "ok",
+      "event_count": 25,
+      "duration_ms": 627,
+      "checked_at": "2026-07-27T16:58:02.744144+00:00",
+      "last_success": "2026-07-27T16:58:02.744144+00:00",
+      "error": null
     },
     {
       "source": "cisa",
       "enabled": true,
-      "status": "not_checked",
-      "event_count": 0,
-      "duration_ms": 0,
-      "checked_at": "2026-07-17T16:42:18.849629+00:00",
-      "last_success": null,
-      "error": null,
-      "note": "Offline publication reused the retained database"
+      "status": "ok",
+      "event_count": 25,
+      "duration_ms": 116,
+      "checked_at": "2026-07-27T16:58:02.860081+00:00",
+      "last_success": "2026-07-27T16:58:02.860081+00:00",
+      "error": null
     },
     {
       "source": "gdacs",
       "enabled": true,
-      "status": "not_checked",
-      "event_count": 0,
-      "duration_ms": 0,
-      "checked_at": "2026-07-17T16:42:18.849631+00:00",
-      "last_success": null,
-      "error": null,
-      "note": "Offline publication reused the retained database"
+      "status": "ok",
+      "event_count": 10,
+      "duration_ms": 2012,
+      "checked_at": "2026-07-27T16:58:04.871995+00:00",
+      "last_success": "2026-07-27T16:58:04.871995+00:00",
+      "error": null
     }
   ]
 }
