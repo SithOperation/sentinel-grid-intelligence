@@ -36,10 +36,28 @@ jobs:
       - run: python src/main.py --validate-existing
         env:
           PYTHONPATH: src
+      - name: Record validated publication metadata
+        id: publication
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from pathlib import Path
+
+          output = Path("data/output")
+          manifest = json.loads((output / "manifest.json").read_text(encoding="utf-8"))
+          events = json.loads((output / "map_events.json").read_text(encoding="utf-8"))
+          print(f"publication_id={manifest['publication_id']}")
+          print(f"generated={manifest['generated']}")
+          print(f"map_event_count={len(events)}")
+          PY
       - name: Commit validated publication
+        id: commit
         run: |
           if git diff --quiet -- data; then
             echo "No publication changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "commit_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "sentinel-grid-bot"
@@ -47,3 +65,49 @@ jobs:
           git add data/database/events.json data/output
           git commit -m "data: publish validated intelligence update"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "commit_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Notify website of validated Sentinel publication
+        shell: bash
+        env:
+          WEBSITE_DISPATCH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+          PUBLICATION_ID: ${{ steps.publication.outputs.publication_id }}
+          GENERATED: ${{ steps.publication.outputs.generated }}
+          MAP_EVENT_COUNT: ${{ steps.publication.outputs.map_event_count }}
+          SOURCE_COMMIT: ${{ steps.commit.outputs.commit_sha }}
+        run: |
+          set +x
+          if [[ -z "$WEBSITE_DISPATCH_TOKEN" ]]; then
+            echo "::warning::WEBSITE_DISPATCH_TOKEN is not configured; scheduled website synchronization remains active"
+            exit 0
+          fi
+          payload="$(
+            python - <<'PY'
+          import json
+          import os
+
+          print(
+              json.dumps(
+                  {
+                      "event_type": "sentinel-publication-updated",
+                      "client_payload": {
+                          "publication_id": os.environ["PUBLICATION_ID"],
+                          "source_commit": os.environ["SOURCE_COMMIT"],
+                          "generated": os.environ["GENERATED"],
+                          "map_event_count": int(os.environ["MAP_EVENT_COUNT"]),
+                      },
+                  }
+              )
+          )
+          PY
+          )"
+          curl \
+            --fail-with-body \
+            --silent \
+            --show-error \
+            --request POST \
+            --header "Authorization: Bearer $WEBSITE_DISPATCH_TOKEN" \
+            --header "Accept: application/vnd.github+json" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --data "$payload" \
+            https://api.github.com/repos/SithOperation/my-website/dispatches
