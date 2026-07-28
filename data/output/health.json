@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-07-27T19:53:28.287307+00:00",
+  "generated": "2026-07-28T03:32:39.282712+00:00",
   "status": "degraded",
   "degraded": true,
   "stale": false,
   "stale_after_minutes": 390,
-  "published_event_count": 347,
+  "published_event_count": 420,
   "freshness": {
-    "oldest_event": "2026-07-26T00:54:06+00:00",
-    "newest_event": "2026-07-27T19:53:16+00:00",
-    "age_minutes": 0.2
+    "oldest_event": "2026-07-26T03:48:12+00:00",
+    "newest_event": "2026-07-28T03:32:39+00:00",
+    "age_minutes": 0.0
   },
   "sources": [
     {
@@ -17,9 +17,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 30,
-      "duration_ms": 1071,
-      "checked_at": "2026-07-27T19:53:29.358698+00:00",
-      "last_success": "2026-07-27T19:53:29.358698+00:00",
+      "duration_ms": 2662,
+      "checked_at": "2026-07-28T03:32:41.944286+00:00",
+      "last_success": "2026-07-28T03:32:41.944286+00:00",
       "error": null
     },
     {
@@ -28,8 +28,8 @@
       "status": "ok",
       "event_count": 24,
       "duration_ms": 2,
-      "checked_at": "2026-07-27T19:53:29.360282+00:00",
-      "last_success": "2026-07-27T19:53:29.360282+00:00",
+      "checked_at": "2026-07-28T03:32:41.945924+00:00",
+      "last_success": "2026-07-28T03:32:41.945924+00:00",
       "error": null
     },
     {
@@ -37,19 +37,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 50,
-      "duration_ms": 1651,
-      "checked_at": "2026-07-27T19:53:31.011654+00:00",
-      "last_success": "2026-07-27T19:53:31.011654+00:00",
-      "error": null
-    },
-    {
-      "source": "aisstream",
-      "enabled": true,
-      "status": "no_data",
-      "event_count": 0,
-      "duration_ms": 0,
-      "checked_at": "2026-07-27T19:53:31.011684+00:00",
-      "last_success": null,
+      "duration_ms": 1662,
+      "checked_at": "2026-07-28T03:32:43.607846+00:00",
+      "last_success": "2026-07-28T03:32:43.607846+00:00",
       "error": null
     },
     {
@@ -57,9 +47,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 25,
-      "duration_ms": 14075,
-      "checked_at": "2026-07-27T19:53:45.086181+00:00",
-      "last_success": "2026-07-27T19:53:45.086181+00:00",
+      "duration_ms": 1272,
+      "checked_at": "2026-07-28T03:32:44.879409+00:00",
+      "last_success": "2026-07-28T03:32:44.879409+00:00",
       "error": null
     },
     {
@@ -67,9 +57,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 25,
-      "duration_ms": 106,
-      "checked_at": "2026-07-27T19:53:45.192567+00:00",
-      "last_success": "2026-07-27T19:53:45.192567+00:00",
+      "duration_ms": 273,
+      "checked_at": "2026-07-28T03:32:45.152700+00:00",
+      "last_success": "2026-07-28T03:32:45.152700+00:00",
       "error": null
     },
     {
@@ -77,20 +67,39 @@
       "enabled": true,
       "status": "ok",
       "event_count": 10,
-      "duration_ms": 1986,
-      "checked_at": "2026-07-27T19:53:47.178576+00:00",
-      "last_success": "2026-07-27T19:53:47.178576+00:00",
+      "duration_ms": 3071,
+      "checked_at": "2026-07-28T03:32:48.223435+00:00",
+      "last_success": "2026-07-28T03:32:48.223435+00:00",
       "error": null
     },
     {
       "source": "x",
       "enabled": true,
-      "status": "error",
+      "status": "no_data",
       "event_count": 0,
       "duration_ms": 0,
-      "checked_at": "2026-07-27T19:53:47.179015+00:00",
+      "checked_at": "2026-07-28T03:32:48.223674+00:00",
       "last_success": null,
-      "error": "X_API_BEARER_TOKEN is required for X collection"
+      "error": null,
+      "metrics": {
+        "configured_url_count": 0,
+        "fetched_count": 0,
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "unavailable_count": 0,
+        "cached_count": 0,
+        "failure_reasons": {}
+      }
+    },
+    {
+      "source": "aisstream",
+      "enabled": false,
+      "status": "disabled",
+      "event_count": 0,
+      "duration_ms": 0,
+      "checked_at": "2026-07-28T03:32:48.223695+00:00",
+      "last_success": null,
+      "error": null
     }
   ]
 }
