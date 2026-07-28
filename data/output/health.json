@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-07-28T05:09:57.215584+00:00",
+  "generated": "2026-07-28T05:53:28.938339+00:00",
   "status": "degraded",
   "degraded": true,
   "stale": false,
   "stale_after_minutes": 390,
-  "published_event_count": 414,
+  "published_event_count": 436,
   "freshness": {
     "oldest_event": "2026-07-25T10:13:00+00:00",
-    "newest_event": "2026-07-28T05:09:57.215584+00:00",
+    "newest_event": "2026-07-28T05:53:28.938339+00:00",
     "age_minutes": 0.0
   },
   "sources": [
@@ -18,8 +18,8 @@
       "status": "ok",
       "event_count": 23,
       "duration_ms": 2,
-      "checked_at": "2026-07-28T05:09:59.236458+00:00",
-      "last_success": "2026-07-28T05:09:59.236458+00:00",
+      "checked_at": "2026-07-28T05:53:30.139712+00:00",
+      "last_success": "2026-07-28T05:53:30.139712+00:00",
       "error": null
     },
     {
@@ -27,9 +27,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 22,
-      "duration_ms": 670,
-      "checked_at": "2026-07-28T05:09:59.906444+00:00",
-      "last_success": "2026-07-28T05:09:59.906444+00:00",
+      "duration_ms": 2451,
+      "checked_at": "2026-07-28T05:53:32.590748+00:00",
+      "last_success": "2026-07-28T05:53:32.590748+00:00",
       "error": null,
       "metrics": {
         "records_received": 200,
@@ -44,8 +44,8 @@
       "enabled": true,
       "status": "no_data",
       "event_count": 0,
-      "duration_ms": 670,
-      "checked_at": "2026-07-28T05:09:59.906720+00:00",
+      "duration_ms": 2451,
+      "checked_at": "2026-07-28T05:53:32.591019+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -60,35 +60,35 @@
       "source": "usgs_earthquakes",
       "enabled": true,
       "status": "ok",
-      "event_count": 58,
-      "duration_ms": 115,
-      "checked_at": "2026-07-28T05:10:00.021698+00:00",
-      "last_success": "2026-07-28T05:10:00.021698+00:00",
+      "event_count": 59,
+      "duration_ms": 162,
+      "checked_at": "2026-07-28T05:53:32.753245+00:00",
+      "last_success": "2026-07-28T05:53:32.753245+00:00",
       "error": null,
       "metrics": {
-        "records_received": 58,
-        "records_accepted": 58,
+        "records_received": 59,
+        "records_accepted": 59,
         "records_rejected": 0,
-        "response_size_bytes": 41635,
-        "provider_generated": "2026-07-28T05:09:24+00:00"
+        "response_size_bytes": 42342,
+        "provider_generated": "2026-07-28T05:52:49+00:00"
       }
     },
     {
       "source": "nws_weather_alerts",
       "enabled": true,
       "status": "ok",
-      "event_count": 322,
-      "duration_ms": 383,
-      "checked_at": "2026-07-28T05:10:00.404619+00:00",
-      "last_success": "2026-07-28T05:10:00.404619+00:00",
+      "event_count": 327,
+      "duration_ms": 225,
+      "checked_at": "2026-07-28T05:53:32.978589+00:00",
+      "last_success": "2026-07-28T05:53:32.978589+00:00",
       "error": null,
       "metrics": {
-        "records_received": 322,
-        "records_accepted": 322,
+        "records_received": 327,
+        "records_accepted": 327,
         "records_rejected": 0,
-        "missing_geometry": 292,
+        "missing_geometry": 296,
         "expired_alerts": 0,
-        "response_size_bytes": 1613898
+        "response_size_bytes": 1648170
       }
     },
     {
@@ -96,9 +96,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 10,
-      "duration_ms": 2589,
-      "checked_at": "2026-07-28T05:10:02.993544+00:00",
-      "last_success": "2026-07-28T05:10:02.993544+00:00",
+      "duration_ms": 2502,
+      "checked_at": "2026-07-28T05:53:35.481060+00:00",
+      "last_success": "2026-07-28T05:53:35.481060+00:00",
       "error": null
     },
     {
@@ -107,7 +107,7 @@
       "status": "no_data",
       "event_count": 0,
       "duration_ms": 0,
-      "checked_at": "2026-07-28T05:10:02.993850+00:00",
+      "checked_at": "2026-07-28T05:53:35.481395+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
