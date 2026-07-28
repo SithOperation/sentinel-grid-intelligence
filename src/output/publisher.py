@@ -20,11 +20,18 @@ def publish_artifacts(
     output_directory,
     max_file_size_mb=25,
     generated=None,
+    publication_id=None,
 ):
-    validate_artifacts(artifacts)
     output_directory = Path(output_directory)
     output_directory.mkdir(parents=True, exist_ok=True)
-    publication_id = uuid.uuid4().hex
+    publication_id = publication_id or uuid.uuid4().hex
+    validate_artifacts(artifacts)
+    source_feed = artifacts.get("source_feed.json")
+    if (
+        not isinstance(source_feed, dict)
+        or source_feed.get("publication_id") != publication_id
+    ):
+        raise ValueError("source_feed.json must use the release publication ID")
     size_limit = max_file_size_mb * 1024 * 1024
     encoded = {}
 
@@ -57,10 +64,31 @@ def publish_artifacts(
             (stage_path / filename).write_bytes(payload)
         (stage_path / "manifest.json").write_bytes(_encoded(manifest))
 
-        # The manifest is replaced last; consumers can use its publication ID
-        # as the signal that a complete validated release is available.
-        for filename in encoded:
-            os.replace(stage_path / filename, output_directory / filename)
-        os.replace(stage_path / "manifest.json", output_directory / "manifest.json")
+        backup_path = stage_path / "previous"
+        backup_path.mkdir()
+        release_files = [*encoded, "manifest.json"]
+        existed = {
+            filename: (output_directory / filename).is_file()
+            for filename in release_files
+        }
+        for filename, present in existed.items():
+            if present:
+                (backup_path / filename).write_bytes(
+                    (output_directory / filename).read_bytes()
+                )
+        try:
+            # The manifest is replaced last; consumers can use its publication ID
+            # as the signal that a complete validated release is available.
+            for filename in encoded:
+                os.replace(stage_path / filename, output_directory / filename)
+            os.replace(stage_path / "manifest.json", output_directory / "manifest.json")
+        except Exception:
+            for filename in release_files:
+                target = output_directory / filename
+                if existed[filename]:
+                    os.replace(backup_path / filename, target)
+                else:
+                    target.unlink(missing_ok=True)
+            raise
 
     return manifest

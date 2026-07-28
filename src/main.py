@@ -25,6 +25,7 @@ import argparse
 import datetime
 import json
 import time
+import uuid
 
 from api.bounded_json import ProviderError
 from api.nasa_eonet import fetch as fetch_eonet
@@ -63,6 +64,9 @@ from settings import (
     resolve_project_path,
     source_enabled,
 )
+from sources.feed import build_source_feed
+from sources.models import AdapterHealth, AdapterStatus, HealthReason
+from sources.registry import load_registry
 from storage import event_database
 from storage.event_database import (
     append_events,
@@ -383,6 +387,28 @@ def main(use_existing=False, reference_time=None):
         x_reports,
         reference_time,
     )
+    publication_id = uuid.uuid4().hex
+    registry = load_registry(resolve_project_path("config/source_registry.yaml"))
+    source_health = [
+        AdapterHealth(
+            source.id,
+            AdapterStatus.UNAVAILABLE,
+            HealthReason.DISABLED if use_existing else HealthReason.BLOCKED,
+            None,
+            generated,
+            0,
+            0,
+            None,
+        )
+        for source in registry.sources
+    ]
+    source_feed = build_source_feed(
+        [],
+        source_health,
+        publication_id=publication_id,
+        generated_at=reference_time,
+    )
+    health["source_feed"] = source_feed["health"]
     artifacts = {
         "world_events.json": world_events,
         "intelligence_brief.json": intelligence_brief,
@@ -394,12 +420,14 @@ def main(use_existing=False, reference_time=None):
         "x_reports.json": x_reports,
         "x_report_events.json": x_report_events,
         "x_report_pinpoints.geojson": x_report_pinpoints,
+        "source_feed.json": source_feed,
     }
     manifest = publish_artifacts(
         artifacts,
         OUTPUT_DIRECTORY,
         max_file_size_mb=CONFIG["output"]["max_file_size_mb"],
         generated=reference_time,
+        publication_id=publication_id,
     )
 
     print(f"[+] Intelligence update complete ({manifest['publication_id']})")
@@ -416,6 +444,7 @@ RUNTIME_OUTPUT_FILES = {
     "x_reports.json",
     "x_report_events.json",
     "x_report_pinpoints.geojson",
+    "source_feed.json",
     "manifest.json",
 }
 

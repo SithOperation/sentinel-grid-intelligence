@@ -4,6 +4,7 @@ from datetime import UTC, datetime
 from urllib.parse import urlsplit
 
 from models.x_report import validate_x_report_document
+from sources.feed import validate_source_feed
 
 SCHEMA_VERSION = "1.0"
 SUPPORTED_EVENT_TYPES = {
@@ -89,6 +90,7 @@ def validate_artifacts(artifacts):
         "x_reports.json",
         "x_report_events.json",
         "x_report_pinpoints.geojson",
+        "source_feed.json",
     }
     missing = required_files.difference(artifacts)
     if missing:
@@ -126,6 +128,7 @@ def validate_artifacts(artifacts):
         "published_event_count",
         "freshness",
         "sources",
+        "source_feed",
     }
     missing_health = health_fields.difference(health)
     if missing_health:
@@ -136,6 +139,14 @@ def validate_artifacts(artifacts):
         raise ContractError("health has an invalid status")
     _require_mapping(health["freshness"], "health.freshness")
     _require_list(health["sources"], "health.sources")
+    _require_mapping(health["source_feed"], "health.source_feed")
+    if health["source_feed"].get("status") not in {
+        "fresh",
+        "stale",
+        "partial",
+        "unavailable",
+    }:
+        raise ContractError("health.source_feed has an invalid status")
     source_fields = {
         "source",
         "enabled",
@@ -209,5 +220,13 @@ def validate_artifacts(artifacts):
         or len(x_geojson["features"]) != len(artifacts["x_reports.json"]["reports"])
     ):
         raise ContractError("X website compatibility artifacts do not match")
+
+    try:
+        validate_source_feed(
+            artifacts["source_feed.json"],
+            reference_time=reference_time,
+        )
+    except (TypeError, ValueError) as error:
+        raise ContractError(f"source_feed.json is invalid: {error}") from error
 
     return True

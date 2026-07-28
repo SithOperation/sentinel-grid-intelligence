@@ -29,10 +29,18 @@ its datasets only when `publication_id` changes.
   `timeline.json`, and `dashboard.json`.
 - `x_report_events.json` and `x_report_pinpoints.geojson`: compatibility
   metadata and pinpoint layers consumed by the current website map.
+- `source_feed.json`: mandatory versioned source-discovery feed. It may contain
+  zero items and degraded health, but always exists and uses the same
+  publication ID as `manifest.json`. Adapter failures cannot block core
+  publication, and an older feed is never reused in a newer release.
 
 The browser must treat all strings as untrusted text and use text rendering,
 not raw HTML injection. URLs are restricted to HTTP and HTTPS during backend
 normalization.
+
+Source-feed inclusion, geographic eligibility, claim confidence, and event
+association are independent decisions. Expired source records may remain in a
+bounded internal cache for deduplication but cannot appear in the public feed.
 
 All event-bearing artifacts are derived from one retained canonical list using
 an inclusive rolling 72-hour UTC cutoff. Events exactly on the boundary remain;

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sentinel-grid.example/schema/source_feed.schema.json",
+  "title": "Sentinel Source Feed",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "publication_id", "generated_at", "count", "health", "items"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "publication_id": {"type": "string", "pattern": "^[0-9a-f]{32}$"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "count": {"type": "integer", "minimum": 0},
+    "health": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["status", "sources"],
+      "properties": {
+        "status": {"enum": ["fresh", "stale", "partial", "unavailable"]},
+        "sources": {"type": "array"}
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id", "platform", "source_id", "source_name", "source_handle",
+          "source_url", "published_at", "discovered_at", "last_seen_at",
+          "cached_at", "expires_at", "title", "text", "media_type",
+          "feed_eligible", "map_eligible", "embed_eligible",
+          "map_exclusion_reason", "embed_exclusion_reason", "latitude",
+          "longitude", "location_label", "location_status",
+          "location_confidence", "claim_status", "claim_confidence",
+          "event_id", "association_status", "association_method",
+          "association_confidence", "content_hash", "sanitization_status",
+          "retention_status"
+        ],
+        "properties": {
+          "id": {"type": "string", "pattern": "^src_[0-9a-f]{24}$"},
+          "platform": {"type": "string"},
+          "source_id": {"type": "string"},
+          "source_name": {"type": "string"},
+          "source_handle": {"type": ["string", "null"]},
+          "source_url": {"type": "string", "format": "uri"},
+          "published_at": {"type": ["string", "null"], "format": "date-time"},
+          "discovered_at": {"type": "string", "format": "date-time"},
+          "last_seen_at": {"type": "string", "format": "date-time"},
+          "cached_at": {"type": ["string", "null"], "format": "date-time"},
+          "expires_at": {"type": "string", "format": "date-time"},
+          "title": {"type": ["string", "null"]},
+          "text": {"type": "string"},
+          "media_type": {"type": "string"},
+          "feed_eligible": {"const": true},
+          "map_eligible": {"type": "boolean"},
+          "embed_eligible": {"type": "boolean"},
+          "map_exclusion_reason": {"type": ["string", "null"]},
+          "embed_exclusion_reason": {"type": ["string", "null"]},
+          "latitude": {"type": ["number", "null"], "minimum": -90, "maximum": 90},
+          "longitude": {"type": ["number", "null"], "minimum": -180, "maximum": 180},
+          "location_label": {"type": ["string", "null"]},
+          "location_status": {"enum": ["verified", "source_reported", "approximate", "inferred", "missing", "conflicting"]},
+          "location_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "claim_status": {"enum": ["verified", "corroborated", "source_reported", "unverified", "disputed", "false"]},
+          "claim_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "event_id": {"type": ["string", "null"]},
+          "association_status": {"enum": ["confirmed", "corroborated", "candidate", "rejected", "unassociated"]},
+          "association_method": {"type": ["string", "null"]},
+          "association_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "content_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+          "sanitization_status": {"const": "passed"},
+          "retention_status": {"const": "active"}
+        }
+      }
+    }
+  }
+}
