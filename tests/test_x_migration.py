@@ -318,15 +318,15 @@ class XMigrationTests(unittest.TestCase):
         self.assertEqual(result.cached_count, 0)
         self.assertEqual(result.accepted_count, 1)
 
-    def test_exact_48_hour_boundary_is_retained(self):
-        boundary = report(published_at=REFERENCE - timedelta(hours=48), status_id="1")
+    def test_exact_72_hour_boundary_is_retained(self):
+        boundary = report(published_at=REFERENCE - timedelta(hours=72), status_id="1")
         older = report(
-            published_at=REFERENCE - timedelta(hours=48, microseconds=1),
+            published_at=REFERENCE - timedelta(hours=72, microseconds=1),
             status_id="2",
         )
         retained = apply_retention(
             [boundary.to_event(), older.to_event()],
-            max_age_hours=48,
+            max_age_hours=72,
             now=REFERENCE,
         )
         self.assertEqual(len(retained), 1)
@@ -367,12 +367,8 @@ class XMigrationTests(unittest.TestCase):
     def test_all_x_failures_do_not_stop_existing_collectors(self):
         config = {
             "sources": {
-                "news": {"enabled": False},
-                "conflict": {"enabled": False},
-                "aircraft": {"opensky": {"enabled": False}},
-                "maritime": {"aisstream": {"enabled": False}},
-                "satellite": {"nasa_eonet": {"enabled": False}},
-                "cyber": {"enabled": True},
+                "conflict": {"enabled": True},
+                "eonet": {"enabled": False},
                 "humanitarian": {"gdacs": {"enabled": False}},
                 "x": {
                     "enabled": True,
@@ -396,14 +392,15 @@ class XMigrationTests(unittest.TestCase):
                 },
             }
         }
-        cyber_event = {"event_type": "cyber", "title": "Retained cyber event"}
+        conflict_event = {"event_type": "conflict", "title": "Retained conflict event"}
         failed_transport = FixtureTransport(
             {CANONICAL: XUnavailableError("public post is unavailable")}
         )
         with (
             tempfile.TemporaryDirectory() as directory,
             patch.object(pipeline, "CONFIG", config),
-            patch.object(pipeline, "collect_cyber", return_value=[cyber_event]),
+            patch.object(pipeline, "fetch_news_articles", return_value=[]),
+            patch.object(pipeline, "collect_conflicts", return_value=[conflict_event]),
             patch.object(
                 pipeline,
                 "resolve_project_path",
@@ -412,7 +409,7 @@ class XMigrationTests(unittest.TestCase):
             patch.object(pipeline, "PublicXTransport", return_value=failed_transport),
         ):
             collected = pipeline.collect_all_sources(REFERENCE)
-        self.assertEqual(collected, [cyber_event])
+        self.assertEqual(collected, [conflict_event])
         x_health = next(
             item for item in pipeline.LAST_COLLECTION_HEALTH if item["source"] == "x"
         )

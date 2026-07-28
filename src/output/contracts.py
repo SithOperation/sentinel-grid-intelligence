@@ -1,10 +1,23 @@
 """Lightweight, dependency-free contracts for published frontend artifacts."""
 
 from datetime import UTC, datetime
+from urllib.parse import urlsplit
 
 from models.x_report import validate_x_report_document
 
 SCHEMA_VERSION = "1.0"
+SUPPORTED_EVENT_TYPES = {
+    "conflict",
+    "humanitarian",
+    "earthquake",
+    "volcano",
+    "weather_alert",
+    "wildfire",
+    "flood",
+    "tropical_cyclone",
+    "natural_hazard",
+    "x_report",
+}
 
 
 class ContractError(ValueError):
@@ -29,6 +42,39 @@ def _validate_events(events, name):
         missing = required.difference(event)
         if missing:
             raise ContractError(f"{name}[{index}] missing {sorted(missing)}")
+        if not isinstance(event["event_id"], str) or not event["event_id"].startswith(
+            "SG-"
+        ):
+            raise ContractError(f"{name}[{index}] has an invalid stable event ID")
+        if event["event_type"] not in SUPPORTED_EVENT_TYPES:
+            raise ContractError(f"{name}[{index}] has an unsupported event type")
+        try:
+            timestamp = datetime.fromisoformat(
+                str(event["timestamp"]).replace("Z", "+00:00")
+            )
+            if timestamp.tzinfo is None or timestamp.utcoffset() is None:
+                raise ValueError
+        except (TypeError, ValueError) as error:
+            raise ContractError(f"{name}[{index}] has an invalid timestamp") from error
+        if event.get("event_type") in {
+            "earthquake",
+            "volcano",
+            "weather_alert",
+            "wildfire",
+            "flood",
+            "tropical_cyclone",
+            "natural_hazard",
+        }:
+            provider = event.get("provider")
+            if (
+                not isinstance(provider, dict)
+                or not provider.get("id")
+                or not provider.get("name")
+            ):
+                raise ContractError(f"{name}[{index}] requires provider metadata")
+            parsed_url = urlsplit(str(event.get("url", "")))
+            if parsed_url.scheme not in {"http", "https"} or not parsed_url.netloc:
+                raise ContractError(f"{name}[{index}] requires a source URL")
 
 
 def validate_artifacts(artifacts):
@@ -132,6 +178,12 @@ def validate_artifacts(artifacts):
             raise ContractError(f"map_events[{index}] has invalid latitude")
         if not isinstance(longitude, (int, float)) or not -180 <= longitude <= 180:
             raise ContractError(f"map_events[{index}] has invalid longitude")
+        if latitude == 0 and longitude == 0:
+            raise ContractError(
+                f"map_events[{index}] cannot use placeholder coordinates"
+            )
+        if event.get("type") not in SUPPORTED_EVENT_TYPES:
+            raise ContractError(f"map_events[{index}] has an unsupported event type")
 
     generated = world.get("generated")
     try:

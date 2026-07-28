@@ -24,7 +24,7 @@ its datasets only when `publication_id` changes.
 - `trends.json`: distributions and aggregate confidence.
 - `intelligence_brief.json`: threat and regional summary.
 - `dashboard.json`: frontend summary plus retained event details.
-- `x_reports.json`: strict 48-hour X report compatibility feed. The same
+- `x_reports.json`: strict 72-hour X report compatibility feed. The same
   reports are first-class events in `world_events.json`, `map_events.json`,
   `timeline.json`, and `dashboard.json`.
 - `x_report_events.json` and `x_report_pinpoints.geojson`: compatibility
@@ -33,6 +33,13 @@ its datasets only when `publication_id` changes.
 The browser must treat all strings as untrusted text and use text rendering,
 not raw HTML injection. URLs are restricted to HTTP and HTTPS during backend
 normalization.
+
+All event-bearing artifacts are derived from one retained canonical list using
+an inclusive rolling 72-hour UTC cutoff. Events exactly on the boundary remain;
+older, future, missing, or malformed timestamps do not. Active NWS alerts use
+the collection timestamp as their canonical timestamp while retaining all
+provider lifecycle timestamps in `weather` metadata. Alerts whose `ends` or
+`expires` time has passed are excluded regardless of issue time.
 
 ## Compatibility
 

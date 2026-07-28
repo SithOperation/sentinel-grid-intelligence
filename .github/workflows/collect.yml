@@ -23,8 +23,17 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: python -m pip install -r requirements.txt
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m ruff check src tests
+      - run: python -m ruff format --check src tests
+      - run: python -m pyright src tests
+      - run: python -m unittest discover -s tests -v
+        env:
+          PYTHONPATH: src
       - run: python src/main.py
+        env:
+          PYTHONPATH: src
+      - run: python src/main.py --validate-existing
         env:
           PYTHONPATH: src
       - name: Commit validated publication

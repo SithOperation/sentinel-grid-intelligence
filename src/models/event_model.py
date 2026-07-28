@@ -2,13 +2,10 @@
 Sentinel Grid Event Model
 
 Standard event structure used across:
-- news
 - conflict
-- aircraft
-- maritime
-- satellite
-- cyber
 - humanitarian
+- natural hazards
+- public reports
 
 """
 

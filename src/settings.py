@@ -10,12 +10,34 @@ CONFIG_PATH = PROJECT_ROOT / "config.yaml"
 
 DEFAULT_CONFIG = {
     "sources": {
-        "news": {"enabled": True},
         "conflict": {"enabled": True},
-        "aircraft": {"opensky": {"enabled": True}},
-        "maritime": {"aisstream": {"enabled": False}},
-        "satellite": {"nasa_eonet": {"enabled": True}},
-        "cyber": {"enabled": True},
+        "eonet": {
+            "enabled": True,
+            "collect_natural_events": True,
+            "collect_volcanoes": True,
+            "endpoint_url": "https://eonet.gsfc.nasa.gov/api/v3/events",
+            "connection_timeout_seconds": 5,
+            "request_timeout_seconds": 15,
+            "max_response_bytes": 5_000_000,
+        },
+        "earthquake": {
+            "usgs": {
+                "enabled": True,
+                "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
+                "connection_timeout_seconds": 5,
+                "request_timeout_seconds": 15,
+                "max_response_bytes": 5_000_000,
+            }
+        },
+        "weather": {
+            "nws": {
+                "enabled": True,
+                "alerts_url": "https://api.weather.gov/alerts/active",
+                "connection_timeout_seconds": 5,
+                "request_timeout_seconds": 20,
+                "max_response_bytes": 15_000_000,
+            }
+        },
         "humanitarian": {"gdacs": {"enabled": True}},
         "x": {
             "enabled": True,
@@ -34,7 +56,7 @@ DEFAULT_CONFIG = {
         "max_file_size_mb": 25,
         "stale_after_minutes": 390,
     },
-    "retention": {"max_age_hours": 48, "max_events": 5000},
+    "retention": {"max_age_hours": 72, "max_events": 5000},
     "confidence": {"verified": 90, "high": 70, "medium": 40},
 }
 
@@ -70,6 +92,37 @@ def load_config(path=CONFIG_PATH):
         if not isinstance(value, int) or isinstance(value, bool) or value <= 0:
             raise ValueError(f"{section}.{key} must be a positive integer")
     x_config = config["sources"]["x"]
+    for family, provider, url_key in (
+        ("earthquake", "usgs", "feed_url"),
+        ("eonet", None, "endpoint_url"),
+        ("weather", "nws", "alerts_url"),
+    ):
+        provider_config = (
+            config["sources"][family][provider]
+            if provider is not None
+            else config["sources"][family]
+        )
+        path = f"sources.{family}.{provider}" if provider else f"sources.{family}"
+        if not isinstance(provider_config["enabled"], bool):
+            raise TypeError(f"{path}.enabled must be boolean")
+        if family == "eonet":
+            for flag in ("collect_natural_events", "collect_volcanoes"):
+                if not isinstance(provider_config[flag], bool):
+                    raise TypeError(f"{path}.{flag} must be boolean")
+        url = provider_config[url_key]
+        if not isinstance(url, str) or not url.strip().startswith("https://"):
+            raise ValueError(f"{path}.{url_key} must be a nonempty HTTPS URL")
+        for key in ("connection_timeout_seconds", "request_timeout_seconds"):
+            value = provider_config[key]
+            if (
+                isinstance(value, bool)
+                or not isinstance(value, (int, float))
+                or value <= 0
+            ):
+                raise ValueError(f"{path}.{key} must be positive")
+        limit = provider_config["max_response_bytes"]
+        if isinstance(limit, bool) or not isinstance(limit, int) or limit <= 0:
+            raise ValueError(f"{path}.max_response_bytes must be positive")
     for key in ("max_response_bytes", "max_urls_per_run"):
         value = x_config[key]
         if not isinstance(value, int) or isinstance(value, bool):

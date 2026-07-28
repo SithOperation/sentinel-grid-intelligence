@@ -189,7 +189,7 @@ class XCollector:
         failures: Counter[str] = Counter()
         fetched = accepted = rejected = unavailable = cached = 0
         fetch_number = 0
-        cutoff = self.reference_time - timedelta(hours=48)
+        cutoff = self.reference_time - timedelta(hours=72)
 
         for configured in self.urls:
             try:
@@ -212,7 +212,7 @@ class XCollector:
                     report.published_at < cutoff
                     or report.published_at > self.reference_time
                 ):
-                    raise XMetadataError("post is outside the rolling 48-hour window")
+                    raise XMetadataError("post is outside the rolling 72-hour window")
                 if fetched_post:
                     cache[configured.status_id] = {
                         "canonical_url": post.canonical_url,

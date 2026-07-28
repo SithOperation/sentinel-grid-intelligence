@@ -27,10 +27,12 @@ from utils.sanitization import plain_text, safe_url
 class SettingsTests(unittest.TestCase):
     def test_repository_config_matches_runtime_sources(self):
         config = load_config()
-        self.assertTrue(source_enabled(config, "news"))
-        self.assertTrue(source_enabled(config, "satellite", "nasa_eonet"))
+        self.assertTrue(source_enabled(config, "eonet"))
         self.assertTrue(source_enabled(config, "humanitarian", "gdacs"))
-        self.assertFalse(source_enabled(config, "maritime", "aisstream"))
+        self.assertTrue(source_enabled(config, "earthquake", "usgs"))
+        self.assertTrue(config["sources"]["eonet"]["collect_volcanoes"])
+        self.assertTrue(source_enabled(config, "weather", "nws"))
+        self.assertEqual(config["retention"]["max_age_hours"], 72)
 
     def test_invalid_limits_are_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -78,7 +80,9 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(result[0]["verification"]["source_count"], 2)
 
     def test_confidence_scoring_is_idempotent(self):
-        event = create_event("cyber", "kev", "CVE test", source=["CISA"], confidence=70)
+        event = create_event(
+            "conflict", "report", "Verified report", source=["Reuters"], confidence=70
+        )
         apply_confidence([event])
         first_score = event["confidence"]
         apply_confidence([event])
@@ -91,20 +95,23 @@ class PipelineTests(unittest.TestCase):
         second_id = remove_duplicates([second])[0]["event_id"]
         self.assertEqual(first_id, second_id)
 
-    def test_aircraft_observations_are_not_collapsed_by_shared_title(self):
-        first = create_event("aircraft", "air_activity", "Aircraft activity detected")
-        first["timestamp"] = "2026-07-17T12:00:00+00:00"
-        first["aircraft"] = {"icao": "abc123"}
-        second = create_event("aircraft", "air_activity", "Aircraft activity detected")
-        second["timestamp"] = "2026-07-17T12:01:00+00:00"
-        second["aircraft"] = {"icao": "def456"}
-        self.assertEqual(len(remove_duplicates([first, second])), 2)
-
     def test_map_rejects_invalid_coordinates_but_keeps_equator(self):
         events = [
-            {"event_id": "unknown", "location": {"latitude": 0, "longitude": 0}},
-            {"event_id": "bad", "location": {"latitude": 100, "longitude": 20}},
-            {"event_id": "equator", "location": {"latitude": 0, "longitude": 20}},
+            {
+                "event_id": "unknown",
+                "event_type": "earthquake",
+                "location": {"latitude": 0, "longitude": 0},
+            },
+            {
+                "event_id": "bad",
+                "event_type": "earthquake",
+                "location": {"latitude": 100, "longitude": 20},
+            },
+            {
+                "event_id": "equator",
+                "event_type": "earthquake",
+                "location": {"latitude": 0, "longitude": 20},
+            },
         ]
         self.assertEqual(
             [event["event_id"] for event in generate_map_events(events)],
@@ -112,7 +119,7 @@ class PipelineTests(unittest.TestCase):
         )
 
     def test_database_merges_across_runs(self):
-        event = create_event("cyber", "kev", "CVE test", source=["CISA"])
+        event = create_event("conflict", "report", "Verified event", source=["Reuters"])
         with tempfile.TemporaryDirectory() as directory:
             database_path = Path(directory) / "events.json"
             with patch.object(event_database, "DATABASE_PATH", database_path):
@@ -204,7 +211,7 @@ class PipelineTests(unittest.TestCase):
                     "hours": hours,
                 }
             )
-        retained = apply_retention(events, max_age_hours=48, max_events=2, now=now)
+        retained = apply_retention(events, max_age_hours=72, max_events=2, now=now)
         self.assertEqual([event["hours"] for event in retained], [2, 1])
 
     def test_feed_content_is_sanitized(self):

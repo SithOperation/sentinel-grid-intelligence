@@ -18,7 +18,6 @@ Factors:
 - Priority
 - Confidence
 - Threat indicators
-- Cyber vulnerability severity
 """
 
 
@@ -46,15 +45,57 @@ def calculate_threat_score(event):
 
     event_weights = {
         "conflict": 40,
-        "cyber": 35,
         "humanitarian": 25,
-        "maritime": 20,
-        "aircraft": 20,
-        "satellite": 15,
-        "news": 10,
+        "wildfire": 20,
+        "flood": 20,
+        "tropical_cyclone": 25,
+        "natural_hazard": 15,
+        "earthquake": 15,
+        "volcano": 20,
+        "weather_alert": 15,
     }
 
     score += event_weights.get(event_type, 0)
+
+    if event_type == "earthquake":
+        details = event.get("earthquake", {})
+        magnitude = details.get("magnitude")
+        if isinstance(magnitude, (int, float)):
+            score += 5 if magnitude >= 4 else 0
+            score += 10 if magnitude >= 5 else 0
+            score += 15 if magnitude >= 6 else 0
+            score += 15 if magnitude >= 7 else 0
+        if details.get("tsunami"):
+            score += 15
+        if str(details.get("alert", "")).casefold() in {"orange", "red"}:
+            score += 15
+
+    if event_type == "volcano":
+        volcanic_terms = (
+            "eruption",
+            "ash plume",
+            "evacuation",
+            "aviation warning",
+            "pyroclastic",
+            "lava flow",
+            "explosive",
+        )
+        score += min(30, sum(5 for term in volcanic_terms if term in text))
+
+    if event_type == "weather_alert":
+        weather = event.get("weather", {})
+        severity_bonus = {
+            "Extreme": 30,
+            "Severe": 20,
+            "Moderate": 10,
+            "Minor": 0,
+            "Unknown": 0,
+        }
+        score += severity_bonus.get(weather.get("severity"), 0)
+        if weather.get("urgency") == "Immediate":
+            score += 10
+        if weather.get("certainty") == "Observed":
+            score += 5
 
     #
     # Classification weighting
@@ -92,16 +133,6 @@ def calculate_threat_score(event):
     for term in critical_terms:
         if term in text:
             score += 20
-
-    #
-    # Cyber specific scoring
-    #
-
-    if event_type == "cyber":
-        threat = event.get("threat", {})
-
-        if threat.get("cve"):
-            score += 15
 
     #
     # Priority scoring

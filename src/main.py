@@ -23,19 +23,22 @@ JSON Output
 
 import argparse
 import datetime
+import json
 import time
 
+from api.bounded_json import ProviderError
+from api.nasa_eonet import fetch as fetch_eonet
 from api.news import fetch as fetch_news_articles
 from api.x_public import PublicXTransport
-from collectors.aircraft_collector import collect_aircraft
 from collectors.conflict_collector import collect_conflicts
-from collectors.cyber_collector import collect_cyber
+from collectors.earthquake_collector import collect_earthquakes
+from collectors.hazard_common import CollectionResult
 from collectors.humanitarian_collector import collect_humanitarian
-from collectors.maritime_collector import collect_maritime
 
 # Collectors
-from collectors.news_collector import collect_news
-from collectors.satellite_collector import collect_satellite
+from collectors.satellite_collector import collect_natural_events
+from collectors.volcano_collector import collect_volcanoes
+from collectors.weather_collector import collect_weather_alerts
 from collectors.x_collector import XCollector, load_x_urls
 from intelligence.intelligence_brief import generate_brief
 from intelligence.map_generator import generate_map_events
@@ -44,7 +47,7 @@ from intelligence.threat_scoring import analyze_threats
 from intelligence.timeline_analysis import generate_timeline
 from intelligence.trend_analysis import analyze_trends
 from models.x_report import build_x_report_document, build_x_website_artifacts
-from output.contracts import SCHEMA_VERSION
+from output.contracts import SCHEMA_VERSION, validate_artifacts
 from output.dashboard_exporter import build_dashboard
 from output.health import build_health
 from output.publisher import publish_artifacts
@@ -60,6 +63,7 @@ from settings import (
     resolve_project_path,
     source_enabled,
 )
+from storage import event_database
 from storage.event_database import (
     append_events,
     apply_retention,
@@ -72,6 +76,18 @@ from storage.event_database import (
 CONFIG = load_config()
 OUTPUT_DIRECTORY = resolve_project_path(CONFIG["output"]["directory"])
 LAST_COLLECTION_HEALTH = []
+SUPPORTED_EVENT_TYPES = {
+    "conflict",
+    "humanitarian",
+    "earthquake",
+    "volcano",
+    "weather_alert",
+    "wildfire",
+    "flood",
+    "tropical_cyclone",
+    "natural_hazard",
+    "x_report",
+}
 
 
 def _health_record(name, started, count, status=None, detail=None):
@@ -89,14 +105,23 @@ def _health_record(name, started, count, status=None, detail=None):
     }
 
 
+def _result_health(name, started, result):
+    record = _health_record(
+        name, started, len(result.events), status=result.status, detail=result.error
+    )
+    record["metrics"] = result.metrics
+    return record
+
+
 def _configured_sources():
     return {
-        "news": source_enabled(CONFIG, "news"),
         "conflict": source_enabled(CONFIG, "conflict"),
-        "opensky": source_enabled(CONFIG, "aircraft", "opensky"),
-        "aisstream": source_enabled(CONFIG, "maritime", "aisstream"),
-        "nasa_eonet": source_enabled(CONFIG, "satellite", "nasa_eonet"),
-        "cisa": source_enabled(CONFIG, "cyber"),
+        "nasa_eonet_natural_events": source_enabled(CONFIG, "eonet")
+        and CONFIG["sources"]["eonet"]["collect_natural_events"],
+        "usgs_earthquakes": source_enabled(CONFIG, "earthquake", "usgs"),
+        "nasa_eonet_volcanoes": source_enabled(CONFIG, "eonet")
+        and CONFIG["sources"]["eonet"]["collect_volcanoes"],
+        "nws_weather_alerts": source_enabled(CONFIG, "weather", "nws"),
         "gdacs": source_enabled(CONFIG, "humanitarian", "gdacs"),
         "x": source_enabled(CONFIG, "x"),
     }
@@ -127,17 +152,9 @@ def collect_all_sources(reference_time=None):
     events = []
 
     health = []
-    news_enabled = source_enabled(CONFIG, "news")
     conflict_enabled = source_enabled(CONFIG, "conflict")
     started = time.monotonic()
-    articles = fetch_news_articles() if news_enabled or conflict_enabled else []
-    news_fetch_started = started
-
-    if source_enabled(CONFIG, "news"):
-        print("[+] Collecting news intelligence")
-        collected = collect_news(articles)
-        events.extend(collected)
-        health.append(_health_record("news", news_fetch_started, len(collected)))
+    articles = fetch_news_articles() if conflict_enabled else []
 
     if source_enabled(CONFIG, "conflict"):
         print("[+] Collecting conflict intelligence")
@@ -146,33 +163,64 @@ def collect_all_sources(reference_time=None):
         events.extend(collected)
         health.append(_health_record("conflict", started, len(collected)))
 
-    if source_enabled(CONFIG, "aircraft", "opensky"):
-        print("[+] Collecting aircraft intelligence")
+    if source_enabled(CONFIG, "eonet"):
+        eonet_config = CONFIG["sources"]["eonet"]
+        print("[+] Collecting NASA EONET natural-hazard intelligence")
         started = time.monotonic()
-        collected = collect_aircraft()
-        events.extend(collected)
-        health.append(_health_record("opensky", started, len(collected)))
+        try:
+            separator = "&" if "?" in eonet_config["endpoint_url"] else "?"
+            eonet_url = (
+                f"{eonet_config['endpoint_url']}{separator}status=open&limit=200"
+            )
+            eonet_response = fetch_eonet(
+                eonet_url,
+                connection_timeout_seconds=eonet_config["connection_timeout_seconds"],
+                request_timeout_seconds=eonet_config["request_timeout_seconds"],
+                max_response_bytes=eonet_config["max_response_bytes"],
+            )
+            eonet_error = None
+        except ProviderError as error:
+            eonet_response = None
+            eonet_error = str(error)
+        for enabled, name, collector in (
+            (
+                eonet_config["collect_natural_events"],
+                "nasa_eonet_natural_events",
+                collect_natural_events,
+            ),
+            (
+                eonet_config["collect_volcanoes"],
+                "nasa_eonet_volcanoes",
+                collect_volcanoes,
+            ),
+        ):
+            if not enabled:
+                continue
+            result = (
+                CollectionResult(status="error", error=eonet_error)
+                if eonet_response is None
+                else collector(eonet_config, reference_time, response=eonet_response)
+            )
+            events.extend(result.events)
+            health.append(_result_health(name, started, result))
 
-    if source_enabled(CONFIG, "maritime", "aisstream"):
-        print("[+] Collecting maritime intelligence")
+    if source_enabled(CONFIG, "earthquake", "usgs"):
+        print("[+] Collecting USGS earthquake intelligence")
         started = time.monotonic()
-        collected = collect_maritime()
-        events.extend(collected)
-        health.append(_health_record("aisstream", started, len(collected)))
+        result = collect_earthquakes(
+            CONFIG["sources"]["earthquake"]["usgs"], reference_time
+        )
+        events.extend(result.events)
+        health.append(_result_health("usgs_earthquakes", started, result))
 
-    if source_enabled(CONFIG, "satellite", "nasa_eonet"):
-        print("[+] Collecting satellite intelligence")
+    if source_enabled(CONFIG, "weather", "nws"):
+        print("[+] Collecting NWS weather-alert intelligence")
         started = time.monotonic()
-        collected = collect_satellite()
-        events.extend(collected)
-        health.append(_health_record("nasa_eonet", started, len(collected)))
-
-    if source_enabled(CONFIG, "cyber"):
-        print("[+] Collecting cyber intelligence")
-        started = time.monotonic()
-        collected = collect_cyber()
-        events.extend(collected)
-        health.append(_health_record("cisa", started, len(collected)))
+        result = collect_weather_alerts(
+            CONFIG["sources"]["weather"]["nws"], reference_time
+        )
+        events.extend(result.events)
+        health.append(_result_health("nws_weather_alerts", started, result))
 
     if source_enabled(CONFIG, "humanitarian", "gdacs"):
         print("[+] Collecting humanitarian intelligence")
@@ -247,6 +295,9 @@ def process_events(events):
     Intelligence processing pipeline.
     """
 
+    events = [
+        event for event in events if event.get("event_type") in SUPPORTED_EVENT_TYPES
+    ]
     events = normalize_events(events)
 
     events = apply_geolocation(events)
@@ -354,6 +405,43 @@ def main(use_existing=False, reference_time=None):
     print(f"[+] Intelligence update complete ({manifest['publication_id']})")
 
 
+RUNTIME_OUTPUT_FILES = {
+    "world_events.json",
+    "intelligence_brief.json",
+    "timeline.json",
+    "trends.json",
+    "map_events.json",
+    "dashboard.json",
+    "health.json",
+    "x_reports.json",
+    "x_report_events.json",
+    "x_report_pinpoints.geojson",
+    "manifest.json",
+}
+
+
+def reset_generated_data():
+    """Remove only Sentinel's explicitly known generated and retained files."""
+    targets = [OUTPUT_DIRECTORY / name for name in RUNTIME_OUTPUT_FILES]
+    targets.append(event_database.DATABASE_PATH)
+    x_cache = resolve_project_path(CONFIG["sources"]["x"]["cache_file"])
+    targets.append(x_cache)
+    removed = []
+    for path in targets:
+        if path.is_file():
+            path.unlink()
+            removed.append(path)
+    return removed
+
+
+def validate_existing_publication():
+    artifacts = {}
+    for name in RUNTIME_OUTPUT_FILES - {"manifest.json"}:
+        path = OUTPUT_DIRECTORY / name
+        artifacts[name] = json.loads(path.read_text(encoding="utf-8"))
+    validate_artifacts(artifacts)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Sentinel Grid intelligence publisher")
     parser.add_argument(
@@ -361,5 +449,22 @@ if __name__ == "__main__":
         action="store_true",
         help="Publish the retained database without contacting external sources",
     )
+    parser.add_argument(
+        "--reset-generated-data",
+        action="store_true",
+        help="Deliberately remove only known generated outputs, retained events, and X cache",
+    )
+    parser.add_argument(
+        "--validate-existing",
+        action="store_true",
+        help="Validate the currently published artifact group",
+    )
     arguments = parser.parse_args()
-    main(use_existing=arguments.publish_existing)
+    if arguments.reset_generated_data:
+        for removed_path in reset_generated_data():
+            print(f"[-] Removed runtime file: {removed_path}")
+    elif arguments.validate_existing:
+        validate_existing_publication()
+        print("[+] Existing publication contracts are valid")
+    else:
+        main(use_existing=arguments.publish_existing)

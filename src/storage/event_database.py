@@ -40,7 +40,7 @@ def append_events(new_events):
     return existing
 
 
-def apply_retention(events, max_age_hours=48, max_events=5000, now=None):
+def apply_retention(events, max_age_hours=72, max_events=5000, now=None):
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=max_age_hours)
     retained = []
@@ -53,6 +53,17 @@ def apply_retention(events, max_age_hours=48, max_events=5000, now=None):
                 parsed = parsed.replace(tzinfo=timezone.utc)
         except (TypeError, ValueError):
             continue
+        if event.get("event_type") == "weather_alert":
+            weather = event.get("weather", {})
+            expiration = weather.get("ends") or weather.get("expires")
+            try:
+                expires = datetime.fromisoformat(str(expiration).replace("Z", "+00:00"))
+                if expires.tzinfo is None:
+                    expires = expires.replace(tzinfo=timezone.utc)
+            except (TypeError, ValueError):
+                continue
+            if expires < now:
+                continue
         if cutoff <= parsed <= now:
             retained.append((parsed, event))
 

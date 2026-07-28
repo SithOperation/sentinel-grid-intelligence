@@ -1,88 +1,43 @@
 # Sentinel Grid Intelligence
 
-## Open Source Global Conflict & Security Intelligence Platform
+Sentinel Grid Intelligence is a standalone, free-to-run, location-based
+intelligence pipeline. It collects recent physical events from public sources,
+normalizes them into one canonical event model, and atomically publishes
+validated static JSON for a MapLibre frontend.
 
-Sentinel Grid Intelligence is an OSINT/GEOINT collection and processing
-platform designed to gather publicly available global security information,
-normalize intelligence events, and provide structured data for visualization
-through MapLibre.
+Sentinel covers:
 
----
+- USGS earthquakes
+- NASA EONET volcanoes, wildfires, floods, severe storms, and selected hazards
+- U.S. National Weather Service active alerts
+- GDACS global disasters and humanitarian emergencies
+- conflict reports extracted from public news feeds
+- explicitly configured public X status reports with operator-supplied,
+  validated coordinates
 
-## Purpose
+Sentinel does not collect cyber or AI news, track aircraft, track ships, or use
+AIS. Cyber and AI reporting belongs to the separate AI Cyber Digest project.
+Sentinel has no dependency on deleted disaster or weather repositories and
+does not require paid APIs.
 
-The system collects and processes:
+## Pipeline
 
-- Conflict events
-- Military activity reports
-- Aircraft activity
-- Maritime activity
-- Satellite observations
-- Cyber security events
-- Humanitarian events
-- Explicitly configured public X/Twitter status reports
+```text
+USGS + NASA EONET + NWS + GDACS + conflict feeds + public X URLs
+    -> normalization
+    -> classification and geolocation validation
+    -> conservative deduplication
+    -> confidence and threat scoring
+    -> rolling 72-hour UTC retention
+    -> analysis
+    -> validated atomic publication
+```
 
+NASA EONET is fetched once per run and the response is split into volcano and
+selected natural-event collectors. Provider failures are isolated and reported
+in `health.json`; one outage does not stop other collectors.
 
----
-
-## Architecture
-
-Public Sources
-
-↓
-
-Collectors
-
-↓
-
-Processing Engine
-
-↓
-
-Confidence Scoring
-
-↓
-
-JSON / GeoJSON Output
-
-↓
-
-Sentinel Grid MapLibre Frontend
-
-
----
-
-## Technology Stack
-
-Backend:
-
-- Python
-- Requests
-- Pandas
-- BeautifulSoup
-- GeoJSON
-
-
-Automation:
-
-- GitHub Actions
-
-
-Frontend:
-
-- MapLibre GL JS
-
-
-Future:
-
-- PostgreSQL
-- PostGIS
-- FastAPI
-
-## Setup and operation
-
-Create a virtual environment, install `requirements.txt`, and run the engine
-from the repository root:
+## Setup
 
 ```powershell
 python -m venv venv
@@ -91,75 +46,62 @@ $env:PYTHONPATH = "src"
 .\venv\Scripts\python.exe src\main.py
 ```
 
-Source switches and the output directory are controlled by `config.yaml`.
-AISStream maritime collection is disabled by default and is not configured in
-the scheduled workflow. Generated frontend datasets are written to the
-configured output directory, while historical deduplicated events are stored
-in `data/database/events.json`.
+Configuration lives in `config.yaml`. USGS, EONET, NWS, GDACS, public news
+feeds, and public X page metadata require no secret. X collection reads only
+explicit public status URLs in `sources.x.urls`; it does not use the paid X API
+or crawl accounts.
 
-Each run builds and validates a staged release before publishing it. The
-website can use `data/output/manifest.json` as its update signal and
-`data/output/health.json` to display stale or degraded source coverage. The
-complete file contract is documented in `docs/data-contract.md`.
+Every event-bearing artifact derives from the same canonical retained list.
+The rolling UTC cutoff is inclusive at exactly 72 hours. Malformed, future, and
+older timestamps are discarded. Active NWS alerts use collection time as their
+canonical timestamp and preserve provider lifecycle timestamps in metadata;
+expired alerts are always removed.
 
-Retention, maximum map-event count, and maximum artifact size are configured
-in `config.yaml`. The backend enforces one shared hard 48-hour event window,
-retains at most 5,000 events, publishes at most 2,000 map points, and rejects
-any artifact over 25 MB.
+Map output accepts only supported physical-event types with valid coordinates.
+It rejects `(0, 0)`, invalid points, imprecise country-center conflict matches,
+and events without trustworthy coordinates. Such events may remain in non-map
+outputs only when they still fit Sentinel's location-based mission.
 
-The scheduled GitHub workflow runs every six hours and uses repository storage.
-X collection needs no secret: it reads only the explicit public status URLs in
-`sources.x.urls`. It does not crawl timelines or use the official X API.
-Maritime tracking remains disabled. A failed optional source degrades health
-without preventing other collectors or discarding valid retained X reports in
-favor of an invented empty result.
+## Publication
 
-Configure each X post with operator-supplied classification and location data:
+Generated artifacts are written under `data/output`; retained canonical events
+are stored in `data/database/events.json`. A release is staged and validated
+before replacement, with `manifest.json` replaced last as the completion
+signal. See `docs/data-contract.md`.
 
-```yaml
-sources:
-  x:
-    enabled: true
-    connection_timeout_seconds: 5
-    request_timeout_seconds: 10
-    request_interval_seconds: 2
-    max_response_bytes: 1000000
-    max_urls_per_run: 25
-    cache_file: data/cache/x_public_posts.json
-    urls:
-      - url: https://x.com/example/status/1234567890123456789
-        source_class: official
-        location_name: Example City
-        latitude: 0.0
-        longitude: 0.0
-        location_precision: city
-        event_type: early_report
-```
-
-Accepted `x.com` and `twitter.com` variants are normalized to
-`https://x.com/<account>/status/<status_id>`. Only public JSON-LD or Open Graph
-metadata is consumed; inaccessible, login-gated, deleted, malformed, or stale
-posts are rejected independently.
-
-Run the local verification suite with:
-
-```powershell
-$env:PYTHONPATH = "src"
-.\venv\Scripts\python.exe -m unittest discover -s tests -v
-```
-
-Publish the retained database without contacting external sources with:
+Publish retained data without network calls:
 
 ```powershell
 $env:PYTHONPATH = "src"
 .\venv\Scripts\python.exe src\main.py --publish-existing
 ```
 
+Validate the current publication:
 
----
+```powershell
+.\venv\Scripts\python.exe src\main.py --validate-existing
+```
+
+Deliberately clear only known generated artifacts, the retained database, and
+the configured X cache:
+
+```powershell
+.\venv\Scripts\python.exe src\main.py --reset-generated-data
+```
+
+The reset command never scans for or deletes arbitrary JSON files.
+
+## Verification
+
+```powershell
+$env:PYTHONPATH = "src"
+.\venv\Scripts\python.exe -m ruff check src tests
+.\venv\Scripts\python.exe -m ruff format --check src tests
+.\venv\Scripts\python.exe -m pyright src tests
+.\venv\Scripts\python.exe -m unittest discover -s tests -v
+```
 
 ## Disclaimer
 
-This project uses publicly available information.
-It is designed for research, education, and OSINT analysis.
-It does not provide classified or real-time military intelligence.
+Sentinel uses publicly available information for research, education, and
+open-source intelligence analysis. It does not provide classified intelligence.

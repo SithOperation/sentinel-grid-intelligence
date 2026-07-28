@@ -76,7 +76,15 @@ def has_coordinates(event):
 
     longitude = location.get("longitude", 0)
 
-    return latitude != 0 and longitude != 0
+    return (
+        isinstance(latitude, (int, float))
+        and not isinstance(latitude, bool)
+        and isinstance(longitude, (int, float))
+        and not isinstance(longitude, bool)
+        and -90 <= latitude <= 90
+        and -180 <= longitude <= 180
+        and not (latitude == 0 and longitude == 0)
+    )
 
 
 def geolocate_event(event):

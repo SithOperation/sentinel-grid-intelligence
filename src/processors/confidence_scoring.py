@@ -19,11 +19,10 @@ CONFIDENCE_LEVELS = load_config()["confidence"]
 
 
 SOURCE_WEIGHTS = {
-    "cisa": 20,
     "nasa": 15,
-    "opensky": 10,
-    "aisstream": 10,
     "gdacs": 15,
+    "usgs": 20,
+    "national weather service": 20,
     "un": 10,
     "bbc": 10,
     "reuters": 15,

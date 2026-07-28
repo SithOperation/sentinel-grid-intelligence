@@ -1,8 +1,24 @@
+MAP_EVENT_TYPES = {
+    "conflict",
+    "humanitarian",
+    "earthquake",
+    "volcano",
+    "weather_alert",
+    "wildfire",
+    "flood",
+    "tropical_cyclone",
+    "natural_hazard",
+    "x_report",
+}
+
+
 def generate_map_events(events):
 
     map_events = []
 
     for event in events:
+        if event.get("event_type") not in MAP_EVENT_TYPES:
+            continue
         location = event.get("location", {})
 
         latitude = location.get("latitude", 0)
@@ -20,6 +36,10 @@ def generate_map_events(events):
             or not -90 <= latitude <= 90
             or not -180 <= longitude <= 180
         ):
+            continue
+        if event.get("event_type") == "conflict" and not location.get("city"):
+            # Text-derived country centers are not sufficiently precise for a
+            # conflict marker. Direct collector geometry remains eligible.
             continue
 
         map_events.append(

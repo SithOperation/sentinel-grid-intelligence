@@ -11,7 +11,7 @@ from datetime import UTC, datetime, timedelta
 from urllib.parse import urlsplit
 
 SCHEMA_VERSION = "1.0"
-RETENTION_HOURS = 48
+RETENTION_HOURS = 72
 EVENT_TYPES = frozenset(
     {
         "early_report",
@@ -238,7 +238,7 @@ def validate_x_report_document(
         published = _aware_utc(published, "published_at")
         collected = _aware_utc(collected, "collected_at")
         if not cutoff <= published <= reference or collected > reference:
-            raise ValueError("X report is outside the 48-hour publication window")
+            raise ValueError("X report is outside the 72-hour publication window")
         if (
             value["event_type"] not in EVENT_TYPES
             or value["source_class"] not in SOURCE_CLASSES
