@@ -9,6 +9,7 @@ MAP_EVENT_TYPES = {
     "tropical_cyclone",
     "natural_hazard",
     "x_report",
+    "reddit_report",
 }
 
 

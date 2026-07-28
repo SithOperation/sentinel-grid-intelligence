@@ -66,6 +66,7 @@ from settings import (
 )
 from sources.feed import build_source_feed
 from sources.models import AdapterHealth, AdapterStatus, HealthReason
+from sources.reddit import discover_reddit_sources, reddit_map_events
 from sources.registry import load_registry
 from storage import event_database
 from storage.event_database import (
@@ -91,6 +92,7 @@ SUPPORTED_EVENT_TYPES = {
     "tropical_cyclone",
     "natural_hazard",
     "x_report",
+    "reddit_report",
 }
 
 
@@ -326,12 +328,48 @@ def main(use_existing=False, reference_time=None):
     )
 
     reference_time = reference_time or datetime.datetime.now(datetime.UTC)
+    registry = load_registry(resolve_project_path("config/source_registry.yaml"))
     global LAST_COLLECTION_HEALTH
     if use_existing:
         raw_events = load_events()
         LAST_COLLECTION_HEALTH = _offline_health()
+        source_items = []
+        source_health = [
+            AdapterHealth(
+                source.id,
+                AdapterStatus.UNAVAILABLE,
+                HealthReason.DISABLED,
+                None,
+                reference_time.isoformat(),
+                0,
+                0,
+                None,
+            )
+            for source in registry.sources
+        ]
     else:
         raw_events = collect_all_sources(reference_time)
+        source_items, source_health = discover_reddit_sources(
+            list(registry.sources),
+            reference_time,
+            cache_path=resolve_project_path("data/cache/reddit_atom.xml"),
+        )
+        raw_events.extend(reddit_map_events(source_items))
+        discovered_ids = {item.source_id for item in source_health}
+        source_health.extend(
+            AdapterHealth(
+                source.id,
+                AdapterStatus.UNAVAILABLE,
+                HealthReason.BLOCKED,
+                None,
+                reference_time.isoformat(),
+                0,
+                0,
+                None,
+            )
+            for source in registry.sources
+            if source.id not in discovered_ids
+        )
 
     processed_events = process_events(raw_events)
 
@@ -388,22 +426,8 @@ def main(use_existing=False, reference_time=None):
         reference_time,
     )
     publication_id = uuid.uuid4().hex
-    registry = load_registry(resolve_project_path("config/source_registry.yaml"))
-    source_health = [
-        AdapterHealth(
-            source.id,
-            AdapterStatus.UNAVAILABLE,
-            HealthReason.DISABLED if use_existing else HealthReason.BLOCKED,
-            None,
-            generated,
-            0,
-            0,
-            None,
-        )
-        for source in registry.sources
-    ]
     source_feed = build_source_feed(
-        [],
+        source_items,
         source_health,
         publication_id=publication_id,
         generated_at=reference_time,

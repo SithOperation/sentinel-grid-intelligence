@@ -1,124 +1,153 @@
 version: "1.0"
 sources:
-  - &x_source
-    id: worldsource24
-    name: World Source 24
-    adapter: x
-    url: https://x.com/Worldsource24
+  - &reddit_source
+    id: reddit_osint_ukraine
+    name: r/OSINTUkraine
+    adapter: reddit
+    url: https://www.reddit.com/r/OSINTUkraine
     enabled: true
-    categories: [conflict]
-    trust_tier: aggregator
+    categories: [conflict, osint]
+    trust_tier: osint
+    source_tier: 1
     default_feed_eligible: true
-    allow_embedding: true
-    maximum_items: 20
+    allow_embedding: false
+    maximum_items: 25
     discovery_interval_minutes: 30
     retention_hours: 72
     expected_language: en
     geographic_scope: global
-    owner: World Source 24
-  - <<: *x_source
-    id: faytuks_network
-    name: Faytuks Network
-    url: https://x.com/FaytuksNetwork
-    owner: Faytuks Network
-  - <<: *x_source
-    id: preston_stewart
-    name: Preston Stewart
-    url: https://x.com/prestonstew_
-    trust_tier: osint
-    owner: Preston Stewart
-  - <<: *x_source
-    id: osint613
-    name: OSINT 613
-    url: https://x.com/Osint613
-    trust_tier: osint
-    owner: OSINT 613
-  - <<: *x_source
-    id: sentdefender
-    name: Status-6
-    url: https://x.com/sentdefender
-    trust_tier: osint
-    owner: Status-6
-  - <<: *x_source
-    id: vahid
-    name: Vahid
-    url: https://x.com/Vahid
-    trust_tier: osint
-    owner: Vahid
-  - <<: *x_source
-    id: kyiv_independent
-    name: The Kyiv Independent
-    url: https://x.com/KyivIndependent
-    trust_tier: publisher
-    owner: The Kyiv Independent
-  - <<: *x_source
-    id: maks_nafo_fella
-    name: Maks NAFO Fella
-    url: https://x.com/Maks_NAFO_FELLA
-    trust_tier: aggregator
-    owner: Maks NAFO Fella
-  - <<: *x_source
-    id: osinttechnical
-    name: OSINTtechnical
-    url: https://x.com/Osinttechnical
-    trust_tier: osint
-    owner: OSINTtechnical
-  - <<: *x_source
-    id: nexta_tv
-    name: NEXTA
-    url: https://x.com/nexta_tv
-    trust_tier: publisher
-    owner: NEXTA
-  - <<: *x_source
-    id: osint_warfare
-    name: OSINT Warfare
-    url: https://x.com/OSINTWarfare
-    trust_tier: osint
-    owner: OSINT Warfare
-  - <<: *x_source
-    id: wartranslated
-    name: WarTranslated
-    url: https://x.com/wartranslated
-    trust_tier: osint
-    owner: WarTranslated
-  - <<: *x_source
-    id: visegrad24
-    name: Visegrád 24
-    url: https://x.com/visegrad24
-    trust_tier: publisher
-    owner: Visegrád 24
-  - <<: *x_source
-    id: its_the_enforcer
-    name: The Enforcer
-    url: https://x.com/ItsTheEnforcer
-    trust_tier: aggregator
-    owner: The Enforcer
-  - <<: *x_source
-    id: front_ukrainian
-    name: Ukrainian Front
-    url: https://x.com/front_ukrainian
-    trust_tier: aggregator
-    owner: Ukrainian Front
-  - <<: *x_source
-    id: war_monitor_3
-    name: War Monitor
-    url: https://x.com/WarMonitor3
-    trust_tier: aggregator
-    owner: War Monitor
-  - <<: *x_source
-    id: reddit_ukraine
-    name: r/ukraine
-    adapter: reddit
-    url: https://www.reddit.com/r/ukraine
+    owner: Reddit community r/OSINTUkraine
+  - <<: *reddit_source
+    id: reddit_credible_defense
+    name: r/CredibleDefense
+    url: https://www.reddit.com/r/CredibleDefense
+    categories: [conflict, defense]
+    owner: Reddit community r/CredibleDefense
+  - <<: *reddit_source
+    id: reddit_combat_footage
+    name: r/CombatFootage
+    url: https://www.reddit.com/r/CombatFootage
+    categories: [conflict, media]
     trust_tier: community
-    allow_embedding: false
-    owner: Reddit community r/ukraine
-  - <<: *x_source
+    owner: Reddit community r/CombatFootage
+  - <<: *reddit_source
+    id: reddit_worldnews
+    name: r/worldnews
+    url: https://www.reddit.com/r/worldnews
+    categories: [current_events]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/worldnews
+  - <<: *reddit_source
+    id: reddit_ukrainian_conflict
+    name: r/UkrainianConflict
+    url: https://www.reddit.com/r/UkrainianConflict
+    categories: [conflict, ukraine]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/UkrainianConflict
+  - <<: *reddit_source
+    id: reddit_war
+    name: r/war
+    url: https://www.reddit.com/r/war
+    categories: [conflict]
+    trust_tier: community
+    owner: Reddit community r/war
+    source_tier: 3
+  - <<: *reddit_source
+    id: reddit_geopolitics
+    name: r/geopolitics
+    url: https://www.reddit.com/r/geopolitics
+    categories: [analysis, geopolitics]
+    trust_tier: community
+    source_tier: 3
+    owner: Reddit community r/geopolitics
+  - <<: *reddit_source
+    id: reddit_foreign_policy
+    name: r/foreignpolicy
+    url: https://www.reddit.com/r/foreignpolicy
+    categories: [analysis, geopolitics]
+    trust_tier: community
+    source_tier: 3
+    owner: Reddit community r/foreignpolicy
+  - <<: *reddit_source
+    id: reddit_israel
+    name: r/Israel
+    url: https://www.reddit.com/r/Israel
+    categories: [regional, israel]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/Israel
+  - <<: *reddit_source
+    id: reddit_israel_war
+    name: r/IsraelWar
+    url: https://www.reddit.com/r/IsraelWar
+    categories: [regional, conflict]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/IsraelWar
+  - <<: *reddit_source
+    id: reddit_israel_palestine
+    name: r/IsraelPalestine
+    url: https://www.reddit.com/r/IsraelPalestine
+    categories: [regional, conflict]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/IsraelPalestine
+  - <<: *reddit_source
+    id: reddit_iran
+    name: r/iran
+    url: https://www.reddit.com/r/iran
+    categories: [regional, iran]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/iran
+  - <<: *reddit_source
+    id: reddit_iranian
+    name: r/iranian
+    url: https://www.reddit.com/r/iranian
+    categories: [regional, iran]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/iranian
+  - <<: *reddit_source
+    id: reddit_lebanon
+    name: r/lebanon
+    url: https://www.reddit.com/r/lebanon
+    categories: [regional, lebanon]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/lebanon
+  - <<: *reddit_source
+    id: reddit_syria
+    name: r/syria
+    url: https://www.reddit.com/r/syria
+    categories: [regional, syria]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/syria
+  - <<: *reddit_source
+    id: reddit_iraq
+    name: r/Iraq
+    url: https://www.reddit.com/r/Iraq
+    categories: [regional, iraq]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/Iraq
+  - <<: *reddit_source
+    id: reddit_turkey
+    name: r/Turkey
+    url: https://www.reddit.com/r/Turkey
+    categories: [regional, turkey]
+    trust_tier: community
+    source_tier: 2
+    owner: Reddit community r/Turkey
+  - <<: *reddit_source
     id: president_ukraine
     name: President of Ukraine
     adapter: website
     url: https://www.president.gov.ua/en
+    categories: [government, ukraine]
     trust_tier: official
-    allow_embedding: false
+    source_tier: 1
     owner: Office of the President of Ukraine
-

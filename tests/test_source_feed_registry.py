@@ -14,8 +14,9 @@ def test_authoritative_registry_contains_controlled_sources():
     registry = load_registry(ROOT / "config/source_registry.yaml")
     assert registry.version == "1.0"
     assert len(registry.sources) == 18
-    assert {source.adapter for source in registry.sources} == {"x", "reddit", "website"}
+    assert {source.adapter for source in registry.sources} == {"reddit", "website"}
     assert len({source.id for source in registry.sources}) == 18
+    assert {source.source_tier for source in registry.sources} == {1, 2, 3}
 
 
 def test_registry_rejects_unknown_fields(tmp_path):
@@ -29,7 +30,7 @@ def test_registry_rejects_unknown_fields(tmp_path):
 
 def test_registry_rejects_duplicate_canonical_urls(tmp_path):
     value = yaml.safe_load((ROOT / "config/source_registry.yaml").read_text())
-    value["sources"][1]["url"] = "https://twitter.com/Worldsource24/"
+    value["sources"][1]["url"] = value["sources"][0]["url"]
     path = tmp_path / "registry.yaml"
     path.write_text(yaml.safe_dump(value), encoding="utf-8")
     with pytest.raises(ValueError, match="URLs must be unique"):

@@ -188,6 +188,49 @@ def parse_reddit_listing(
     return manual_items(source_id, "reddit", values, discovered_at)
 
 
+def parse_reddit_atom(
+    payload: str,
+    discovered_at: datetime,
+) -> list[DiscoveredItem]:
+    """Parse Reddit's public Atom feed and retain its subreddit identity."""
+    try:
+        root = ElementTree.fromstring(payload)
+    except ElementTree.ParseError as error:
+        raise ValueError("Reddit Atom response is malformed") from error
+    items = []
+    for entry in root.findall(".//{*}entry"):
+        category = entry.find("{*}category")
+        subreddit = category.get("term") if category is not None else None
+        link = entry.find("{*}link")
+        href = link.get("href") if link is not None else None
+        if not subreddit or not href:
+            continue
+        identifier = entry.findtext("{*}id")
+        if identifier and identifier.startswith("t3_"):
+            identifier = identifier[3:]
+        items.extend(
+            manual_items(
+                f"reddit_{subreddit.casefold()}",
+                "reddit",
+                [
+                    {
+                        "url": href,
+                        "platform_item_id": identifier,
+                        "published_at": entry.findtext("{*}published")
+                        or entry.findtext("{*}updated"),
+                        "title": entry.findtext("{*}title"),
+                        "text": entry.findtext("{*}content")
+                        or entry.findtext("{*}title")
+                        or "",
+                        "media_type": "external",
+                    }
+                ],
+                discovered_at,
+            )
+        )
+    return items
+
+
 def _walk(value: object) -> Iterator[Mapping[str, Any]]:
     if isinstance(value, dict):
         yield value

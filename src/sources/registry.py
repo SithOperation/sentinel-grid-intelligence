@@ -28,6 +28,7 @@ ALLOWED_FIELDS = {
     "expected_language",
     "geographic_scope",
     "owner",
+    "source_tier",
 }
 _ID = re.compile(r"^[a-z][a-z0-9_]{2,63}$")
 
@@ -49,6 +50,7 @@ class SourceDefinition:
     expected_language: str
     geographic_scope: str
     owner: str
+    source_tier: int
 
 
 @dataclass(frozen=True, slots=True)
@@ -105,6 +107,7 @@ def _source(value: object) -> SourceDefinition:
         "maximum_items",
         "discovery_interval_minutes",
         "retention_hours",
+        "source_tier",
     ):
         if (
             isinstance(value[field], bool)
@@ -134,6 +137,7 @@ def _source(value: object) -> SourceDefinition:
         expected_language=value["expected_language"].strip(),
         geographic_scope=value["geographic_scope"].strip(),
         owner=value["owner"].strip(),
+        source_tier=value["source_tier"],
     )
 
 

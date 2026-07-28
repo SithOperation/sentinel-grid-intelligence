@@ -20,6 +20,13 @@ def normalize_item(item: DiscoveredItem) -> DiscoveredItem:
         title=plain_text(item.title, 300) or None,
         text=plain_text(item.text, 5000),
         media_type=plain_text(item.media_type, 32).casefold() or "external",
+        latitude=item.latitude,
+        longitude=item.longitude,
+        location_label=plain_text(item.location_label, 300) or None,
+        location_status=item.location_status,
+        location_confidence=item.location_confidence,
+        claim_confidence=item.claim_confidence,
+        map_eligible=item.map_eligible,
     )
 
 

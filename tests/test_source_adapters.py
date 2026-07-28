@@ -5,6 +5,7 @@ import pytest
 
 from sources.adapters import (
     manual_items,
+    parse_reddit_atom,
     parse_reddit_listing,
     parse_rss,
     parse_website_links,
@@ -73,6 +74,17 @@ def test_reddit_listing_parser():
     items = parse_reddit_listing("reddit_ukraine", payload, NOW)
     assert items[0].platform_item_id == "abc"
     assert items[0].media_type == "video"
+
+
+def test_reddit_atom_parser_preserves_subreddit():
+    atom = f"""<feed xmlns="http://www.w3.org/2005/Atom"><entry>
+    <category term="worldnews"/><id>t3_abc</id>
+    <link href="https://www.reddit.com/r/worldnews/comments/abc/report/"/>
+    <published>{NOW.isoformat()}</published><title>Nuclear report</title>
+    <content>Report from Tehran</content></entry></feed>"""
+    items = parse_reddit_atom(atom, NOW)
+    assert items[0].source_id == "reddit_worldnews"
+    assert items[0].platform_item_id == "abc"
 
 
 def test_x_syndication_parser_uses_embedded_fixture_not_live_access():

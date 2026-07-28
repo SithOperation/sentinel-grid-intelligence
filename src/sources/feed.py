@@ -9,6 +9,7 @@ from datetime import UTC, datetime, timedelta
 
 from sources.models import AdapterHealth, AdapterStatus, DiscoveredItem, utc_iso
 from sources.normalize import retain_and_deduplicate
+from sources.reddit import reddit_event_id
 
 SCHEMA_VERSION = "1.0"
 _PUBLICATION_ID = re.compile(r"^[0-9a-f]{32}$")
@@ -55,6 +56,7 @@ def build_source_feed(
                 separators=(",", ":"),
             ).encode()
         ).hexdigest()
+        event_id = reddit_event_id(item) if item.platform == "reddit" else None
         public_items.append(
             {
                 "id": item.stable_id,
@@ -74,23 +76,35 @@ def build_source_feed(
                 "text": item.text,
                 "media_type": item.media_type,
                 "feed_eligible": True,
-                "map_eligible": False,
+                "map_eligible": item.map_eligible,
                 "embed_eligible": item.platform == "x",
-                "map_exclusion_reason": "missing_location",
+                "map_exclusion_reason": None
+                if item.map_eligible
+                else "insufficient_map_evidence"
+                if item.latitude is not None and item.longitude is not None
+                else "missing_location",
                 "embed_exclusion_reason": None
                 if item.platform == "x"
                 else "unsupported",
-                "latitude": None,
-                "longitude": None,
-                "location_label": None,
-                "location_status": "missing",
-                "location_confidence": 0.0,
+                "latitude": item.latitude,
+                "longitude": item.longitude,
+                "location_label": item.location_label,
+                "location_status": item.location_status,
+                "location_confidence": item.location_confidence,
                 "claim_status": "unverified",
-                "claim_confidence": 0.0,
-                "event_id": None,
-                "association_status": "unassociated",
-                "association_method": None,
-                "association_confidence": 0.0,
+                "claim_confidence": item.claim_confidence,
+                "event_id": event_id,
+                "association_status": "confirmed"
+                if item.map_eligible
+                else "unassociated",
+                "association_method": "x_place"
+                if item.location_status == "verified"
+                else "source_text_location"
+                if item.map_eligible
+                else None,
+                "association_confidence": item.location_confidence
+                if item.map_eligible
+                else 0.0,
                 "content_hash": f"sha256:{content_hash}",
                 "sanitization_status": "passed",
                 "retention_status": "active",

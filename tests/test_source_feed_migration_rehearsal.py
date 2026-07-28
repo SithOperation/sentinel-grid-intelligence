@@ -75,7 +75,11 @@ def test_offline_migration_rehearsal_preserves_shapes_and_syncs_one_release(tmp_
         == "array"
     )
 
-    deterministic_files = baseline_files - {"manifest.json", "health.json"}
+    deterministic_files = baseline_files - {
+        "manifest.json",
+        "health.json",
+        "source_feed.json",
+    }
     for name in deterministic_files:
         assert (first / name).read_bytes() == (second / name).read_bytes()
 

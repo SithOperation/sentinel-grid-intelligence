@@ -83,6 +83,13 @@ class DiscoveredItem:
     title: str | None
     text: str
     media_type: str = "external"
+    latitude: float | None = None
+    longitude: float | None = None
+    location_label: str | None = None
+    location_status: LocationStatus = LocationStatus.MISSING
+    location_confidence: float = 0.0
+    claim_confidence: float = 0.0
+    map_eligible: bool = False
 
     @property
     def stable_id(self) -> str:
