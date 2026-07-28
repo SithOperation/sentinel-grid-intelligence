@@ -27,7 +27,7 @@ jobs:
       - run: python -m ruff check src tests
       - run: python -m ruff format --check src tests
       - run: python -m pyright src tests
-      - run: python -m unittest discover -s tests -v
+      - run: python -m pytest -q
         env:
           PYTHONPATH: src
       - run: python src/main.py
