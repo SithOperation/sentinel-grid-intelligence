@@ -1,56 +1,5 @@
 [
   {
-    "event_id": "SG-4b12793844fb",
-    "type": "wildfire",
-    "title": "Wildfire SR - Buffalo, Sheridan, Wyoming",
-    "description": "32 Miles E from Sheridan, WY",
-    "latitude": 44.792721,
-    "longitude": -106.320165,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-26T09:17:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21831",
-    "classification": "eonet_wildfire",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-e2a47057e64d",
-    "type": "wildfire",
-    "title": "Wildfire New Pass, Churchill, Nevada",
-    "description": "30 Miles NW from Austin, NV",
-    "latitude": 39.698784,
-    "longitude": -117.486992,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-26T12:28:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21819",
-    "classification": "eonet_wildfire",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-51377282d076",
-    "type": "wildfire",
-    "title": "Wildfire Chimney, Elko, Nevada",
-    "description": "16 Miles SE from Midas, NV",
-    "latitude": 41.441783,
-    "longitude": -116.988933,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-26T12:37:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21818",
-    "classification": "eonet_wildfire",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
     "event_id": "SG-36e4322d18fd",
     "type": "humanitarian",
     "title": "Green forest fire notification in United States",
@@ -1397,23 +1346,6 @@
     ]
   },
   {
-    "event_id": "SG-f5e09c3feb40",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Texas... Nueces River At Cotulla affecting La Salle County. Nueces River Near Tilden affecting McMullen County. ...The Flood Warning is extended for the following rivers in Texas... Nueces River Near Three Rivers affecting Live Oak County. For the Nueces River...including Cotulla, Tilden, Three Rivers... Major flooding is forecast. - Forecast...The river is expected to fall below flood stage early tomorrow afternoon and continue falling to 9.8 feet Saturday evening. - Flood stage is 15.0 feet. - Flood History...This crest compares to a previous crest of 16.7 feet on 08/06/2007. - http://www.weather.gov/safety/flood",
-    "latitude": 28.298571428571428,
-    "longitude": -99.11285714285714,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-28T08:54:22.846810+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4ed71208603bae662751caf0b271fca39af14f2.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-f3bedb1c1fc3",
     "type": "earthquake",
     "title": "M4.2 earthquake — 118 km SW of Puerto Madero, Mexico",
@@ -2045,23 +1977,6 @@
     ]
   },
   {
-    "event_id": "SG-c2f5dd414606",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Texas... Nueces River At Cotulla affecting La Salle County. Nueces River Near Tilden affecting McMullen County. ...The Flood Warning is extended for the following rivers in Texas... Nueces River Near Three Rivers affecting Live Oak County. For the Nueces River...including Cotulla, Tilden, Three Rivers, Mathis, Bluntzer, Calallen...Major flooding is forecast. - Forecast...The river is expected to fall below flood stage this afternoon and continue falling to 9.5 feet Sunday morning. - Flood stage is 15.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 28.298571428571428,
-    "longitude": -99.11285714285714,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-28T22:17:47.508242+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90cfd6f0503596862be6e3d9169a8b80f15a4956.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-b3337cfa4f05",
     "type": "earthquake",
     "title": "M3.6 earthquake — 271 km SW of Adak, Alaska",
@@ -2232,6 +2147,23 @@
     ]
   },
   {
+    "event_id": "SG-90701df8fb34",
+    "type": "earthquake",
+    "title": "M2.94 earthquake — 38 km NNW of San Antonio, Puerto Rico",
+    "description": "M 2.9 - 38 km NNW of San Antonio, Puerto Rico",
+    "latitude": 18.806,
+    "longitude": -67.2523333333333,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T02:09:19.180000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71526538",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-05a5e55381b0",
     "type": "earthquake",
     "title": "M4.8 earthquake — 195 km W of Abepura, Indonesia",
@@ -2385,23 +2317,6 @@
     ]
   },
   {
-    "event_id": "SG-4ee754e0190b",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWFFC The National Weather Service in Peachtree City has issued a * Flash Flood Warning for... Southwestern Gilmer County in north central Georgia... Northeastern Pickens County in north central Georgia... * Until 515 AM EDT. * At 1118 PM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1.5 and 2.5 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Jasper, Talking Rock, Talona, Sequoyah Lake and Lake Tamarack. This includes the following streams and drainages... Turkey Creek, Davis Creek, Coosawattee River, Gunstock Branch, Pickett Branch, Amicalola Creek, East Branch Long Swamp Creek, Hinton Creek, Cartecay River, Fausett Creek, Hobson Creek, Long Swamp Creek, Mountaintown Creek, Scarecorn Creek, Sharp Mountain Creek, Disharoon Creek, Town Creek, Pettit Creek, Talking Rock Creek, Price Creek, Talona Creek, Flat Creek, Fisher Creek and Fir Creek.",
-    "latitude": 34.57153846153846,
-    "longitude": -84.48692307692308,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-29T03:36:22.195437+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66ad0130ecfda06c9f949c6e5e1bc91386f12a95.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-031329616f92",
     "type": "earthquake",
     "title": "M5 earthquake — south of Tonga",
@@ -2453,37 +2368,20 @@
     ]
   },
   {
-    "event_id": "SG-3974a91ee60b",
-    "type": "weather_alert",
-    "title": "Air Quality Alert",
-    "description": "AQAMSO * WHAT...Air Quality Advisory due to smoke from wildfires. Air Quality Index ranging from Moderate to Unhealthy for Sensitive Groups. * WHERE...All Areas on the Nez Perce Reservation. * WHEN...Until 10:00 AM PDT Friday July 31. * IMPACTS...Those who experience health effects from smoke include children under 18, elders, pregnant women, people with asthma or have difficulty breathing, diabetes, heart problems or otherwise compromised health, and people who have high exposure (those who work, exercise, or spend extensive time outdoors).",
-    "latitude": 46.30352941176471,
-    "longitude": -116.24529411764706,
+    "event_id": "SG-0519076ef636",
+    "type": "earthquake",
+    "title": "M4.1 earthquake — 84 km NE of San Pedro de Atacama, Chile",
+    "description": "M 4.1 - 84 km NE of San Pedro de Atacama, Chile",
+    "latitude": -22.358,
+    "longitude": -67.6387,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d6b7dcad46a9af4ed9ec643242cb9f51394aeb6.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-07-29T08:21:12.792000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tglq",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-d3ac424a98be",
-    "type": "weather_alert",
-    "title": "Air Quality Alert",
-    "description": "AQAMSO * WHAT...Air Quality Advisory due to smoke from wildfires. Air Quality Index ranging from Moderate to Unhealthy for Sensitive Groups. * WHERE...All Areas on the Nez Perce Reservation. * WHEN...Until 10:00 AM PDT Friday July 27. * IMPACTS...Those who experience health effects from smoke include children under 18, elders, pregnant women, people with asthma or have difficulty breathing, diabetes, heart problems or otherwise compromised health, and people who have high exposure (those who work, exercise, or spend extensive time outdoors).",
-    "latitude": 46.30352941176471,
-    "longitude": -116.24529411764706,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4a13d3e343e78ce62b081b7257e3964f301e656.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
@@ -2521,193 +2419,6 @@
     ]
   },
   {
-    "event_id": "SG-c9a87961893c",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban and small stream flooding caused by excessive rainfall continues. * WHERE...A portion of northeast New Jersey, including the following counties, Bergen, Essex and Passaic. * WHEN...Until 630 AM EDT. * IMPACTS...River or stream flows are elevated. * ADDITIONAL DETAILS... - At 455 AM EDT, gauge reports indicated heavy rain due to thunderstorms. This is causing urban and small stream flooding. Rapid river rises have already caused minor flooding in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 0.1 to 0.3 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Paterson, Passaic, Wayne, Hackensack, Bergenfield, Paramus, Ridgewood, Ramsey, Ridgefield, Fort Lee, Englewood, Hawthorne, Oradell, Fairfield, Norwood, Teterboro, Clifton, Teaneck, Fair Lawn and Garfield. - http://www.weather.gov/safety/flood",
-    "latitude": 40.92333333333333,
-    "longitude": -74.23933333333333,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.617528f636cb578b1b07982ad10ce71074cc6270.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-9e013765722f",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWILM The National Weather Service in Wilmington has issued a * Special Marine Warning for... Waters from Surf City NC to Little River Inlet SC from 20 to 60 NM... * Until 515 AM EDT. * At 439 AM EDT, a strong thunderstorm was located 23 nm east of Wreck 33, moving east at 45 knots. HAZARD...Wind gusts 34 knots or greater and small hail. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * The strong thunderstorm will remain over mainly open waters.",
-    "latitude": 33.653333333333336,
-    "longitude": -76.95333333333333,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2b425f63680dd95c15070ef84cafb1989786f38.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-bdc5d7586f4f",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWMHX The National Weather Service in Newport has issued a * Special Marine Warning for... S of Cape Lookout NC to Surf City NC out to 20 NM... S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM... Waters from Cape Lookout to Surf City NC from 20 to 60 NM... Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM... * Until 515 AM EDT. * At 426 AM EDT, a severe thunderstorm capable of producing waterspouts was located 8 nm southwest of 14 Buoy, moving east at 30 knots. HAZARD...Waterspouts and wind gusts to 40 knots. SOURCE...Radar. IMPACT...Waterspouts can easily overturn boats and create locally hazardous seas. Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... 14 Buoy.",
-    "latitude": 33.86857142857143,
-    "longitude": -76.22285714285714,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39fa2d785dc3af8a73f404f56121ebf64f40f25c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-7cf47847ea50",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWALY The National Weather Service in Albany has issued a * Flash Flood Warning for... Eastern Albany County in east central New York... Western Rensselaer County in east central New York... South Central Saratoga County in east central New York... East Central Schenectady County in east central New York... * Until 730 AM EDT. * At 426 AM EDT, Doppler radar indicated heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Albany, Troy, Clifton Park, East Greenbush, Cohoes, Watervliet, Rensselaer, Colonie, Latham, Delmar, Menands, Ravena, Green Island, Waterford, Castleton-On-Hudson, Loudonville, Selkirk, Halfmoon, Coeymans and West Albany.",
-    "latitude": 42.62,
-    "longitude": -73.78727272727272,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f38d4989f2a35d3d29dfe30c2947fedde351ab29.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-d4224e9fbd59",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...A portion of southeast New York, including the following counties, Nassau and Suffolk. * WHEN...Until 530 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water over roadways. Ponding of water in urban or other areas is occurring or is imminent. * ADDITIONAL DETAILS... - At 424 AM EDT, Doppler radar and automated rain gauges indicated heavy rain. Minor flooding is already occurring in the advisory area. Between 1.5 and 2.5 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Islip, Brentwood, Levittown, Freeport, Commack, Huntington Station, Deer Park, Lindenhurst, Glen Cove, Plainview, Garden City, Massapequa, Hauppauge, Syosset, Mineola, Huntington, Westbury, Babylon, Great Neck and Farmingdale. - http://www.weather.gov/safety/flood",
-    "latitude": 40.804500000000004,
-    "longitude": -73.38250000000001,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1fc7711108f8a4c550ffda6774dacda859cda850.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-ca99b71c2517",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWOKX The National Weather Service in Upton has issued a * Flash Flood Warning for... Western Putnam County in southeastern New York... Northern Westchester County in southeastern New York... * Until 615 AM EDT. * At 415 AM EDT, Doppler radar and automated rain gauges indicated heavy rain falling in Peekskill. Between 3.5 and 5.5 inches of rain have fallen. The expected rainfall rate is 0.75 to 2 inches in 1 hour. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is already occurring. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar and automated gauges. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Peekskill, Mahopac, Cold Spring, Yorktown Heights, Fahnestock State Park, Jefferson Valley, Putnam Valley, Croton-on-Hudson and Buchanan.",
-    "latitude": 41.333999999999996,
-    "longitude": -73.92333333333333,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ef1a44a610480807376c89863c87d842dc309e8a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-596184df37de",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Dawson County in south central Nebraska... * WHEN...Until 800 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams. * ADDITIONAL DETAILS... - At 310 AM CDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area, especially in the area between Lexington and Overton that received heavy rain yesterday. - This includes the following streams and drainages... Elm Creek, Buffalo Creek, Crooked Creek, Spring Creek, Wood River, French Creek, and Bell Creek. Additional rainfall amounts of 1 to 3 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Lexington, Cozad, Gothenburg, Overton, Eddyville and Willow Island.",
-    "latitude": 40.75928571428572,
-    "longitude": -99.59071428571428,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e4225f0801abbab0697ffe338c72b1ea09ee4b0.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-27b1cd88d0b4",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southwestern Custer County in central Nebraska... * WHEN...Until 600 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 305 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 2 and 2.5 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Oconto. - http://www.weather.gov/safety/flood",
-    "latitude": 41.108,
-    "longitude": -99.964,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf5f9145ee7733d0ef1f05bf7700ead44dbcde75.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b45cfce3f03e",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...A portion of southeast New York, including the following county, Suffolk. * WHEN...Until 600 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Ponding of water in urban or other areas is occurring or is imminent. * ADDITIONAL DETAILS... - At 357 AM EDT, Doppler radar and automated rain gauges indicated heavy rain. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.5 and 1 inch of rain has fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Centereach, Shirley, Medford, Ronkonkoma, Manorville, Stony Brook, Patchogue, Middle Island, Port Jefferson, Wading River, Center Moriches, Coram, Holbrook, Sayville, Farmingville, Mastic, Rocky Point, Mastic Beach, Mount Sinai and Yaphank. - http://www.weather.gov/safety/flood",
-    "latitude": 40.81611111111111,
-    "longitude": -73.065,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8307948ec33aaf6a76e7685e1c21bb1b9391449.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-41c5daf958b4",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWMHX The National Weather Service in Newport has issued a * Special Marine Warning for... S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM... S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM... Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM... Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM... Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM... * Until 515 AM EDT. * At 351 AM EDT, a severe thunderstorm capable of producing waterspouts was located 32 nm south of Monitor Marine Sanctuary, moving east at 50 knots. HAZARD...Waterspouts and wind gusts to nearly 50 knots. SOURCE...Radar. IMPACT...Waterspouts can easily overturn boats and create locally hazardous seas. Small craft could be damaged in briefly higher winds and suddenly higher waves. * The severe thunderstorm will remain over mainly open waters.",
-    "latitude": 34.600833333333334,
-    "longitude": -75.07083333333334,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7973df004e6d1da462b02f7fe064552806d8c96.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-891c24f45260",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWALY The National Weather Service in Albany has extended the * Flash Flood Warning for... South Central Greene County in east central New York... Northeastern Ulster County in east central New York... * Until 700 AM EDT. * At 348 AM EDT, Doppler radar indicated heavy rain across the warned area. Between 1 and 3 inches of rain have fallen. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Hunter, Woodstock, North-South Lake Campground, Lanesville, West Hurley, Tannersville, Elka Park, Edgewood, Haines Falls, East Jewett, Platte Clove, Shady, Lake Hill, South Jewett, Willow, Byrdcliffe, Mountain House, Bearsville, Daisy and Palenville.",
-    "latitude": 42.21714285714285,
-    "longitude": -74.1557142857143,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.afaf77cc30d56865656334d25d792ec39f25bb53.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-b75df6ba2cae",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2719,40 +2430,6 @@
     "confidence": 100,
     "timestamp": "2026-07-29T09:07:08.512107+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.51997f5cb17bd4289c38f60ef9d6b211249924c1.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c5cbf81da30c",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWALY The National Weather Service in Albany has issued a * Flash Flood Warning for... Central Albany County in east central New York... Southeastern Schenectady County in east central New York... * Until 645 AM EDT. * At 340 AM EDT, Doppler radar indicated heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Albany, Schenectady, Rotterdam, Scotia, Delmar, Guilderland, Niskayuna, Duanesburg, Voorheesville, Altamont, East Glenville, Alplaus, Feura Bush, New Scotland, Princetown, Fullers, Guilderland Center, Parkers Corners, Fort Hunter and Dunnsville.",
-    "latitude": 42.76,
-    "longitude": -73.97,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0a8ab3f4b3b04816da3c2a683effcf4fe5beb2d.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-5a1bf6538fae",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban and small stream flooding caused by excessive rainfall is expected. * WHERE...Portions of southern Connecticut, including the following counties, Fairfield and New Haven and southeast New York, including the following counties, Putnam and Westchester. * WHEN...Until 545 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 335 AM EDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause urban and small stream flooding. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Bridgeport, Stamford, Norwalk, Danbury, Milford, Shelton, Southbury, New Canaan, Lake Carmel, Sherman, Brewster, Newtown, Fairfield, Stratford, Trumbull, Westport, Ridgefield, Darien, Monroe and Bethel. - http://www.weather.gov/safety/flood",
-    "latitude": 41.3685,
-    "longitude": -73.338,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31674b3a9e2dec7fca4287ea28abe8d5137a9233.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2776,23 +2453,6 @@
     ]
   },
   {
-    "event_id": "SG-afee4c00bfbb",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...A portion of northern New York, including the following counties, Franklin and St. Lawrence. * WHEN...Until 630 AM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 321 AM EDT, Doppler radar indicated heavy rain. Flooding is ongoing or expected to begin shortly in the warned area. Between 1 and 2 inches of rain have fallen in the last 2 hours. - Additional rainfall amounts of 0.5 to 1.5 inches are possible in the warned area. - Some locations that will experience flooding include... Brushton, Moira, Bombay, Brasher, Lawrence, Dickinson, Fort Covington, Bangor, Stockholm, Ironton, North Lawrence, South Bombay, Lawrenceville, Akwesasne Mohawk Territory, Brasher Falls and Winthrop. - http://www.weather.gov/safety/flood",
-    "latitude": 44.905454545454546,
-    "longitude": -74.63636363636364,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.228c93184cd12fb42657333eceb9234551a5332a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-aa0643257afb",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2810,6 +2470,278 @@
     ]
   },
   {
+    "event_id": "SG-dfe528ee593c",
+    "type": "earthquake",
+    "title": "M2.77 earthquake — 10 km SSW of Lamont, CA",
+    "description": "M 2.8 - 10 km SSW of Lamont, CA",
+    "latitude": 35.1806666666667,
+    "longitude": -118.971333333333,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T09:35:20.990000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663002",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-c71033b114e0",
+    "type": "earthquake",
+    "title": "M2.88 earthquake — 29 km N of San Juan, Puerto Rico",
+    "description": "M 2.9 - 29 km N of San Juan, Puerto Rico",
+    "latitude": 18.7315,
+    "longitude": -66.1408333333333,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T09:42:03.940000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71526598",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-40013c36b156",
+    "type": "earthquake",
+    "title": "M3.03 earthquake — 5 km W of San Antonio, Puerto Rico",
+    "description": "M 3.0 - 5 km W of San Antonio, Puerto Rico",
+    "latitude": 18.4901666666667,
+    "longitude": -67.1481666666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T10:28:37.390000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71526613",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-45dd94331a64",
+    "type": "earthquake",
+    "title": "M5 earthquake — South Sandwich Islands region",
+    "description": "M 5.0 - South Sandwich Islands region",
+    "latitude": -55.8769,
+    "longitude": -27.3636,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T10:30:59.826000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgm6",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-c9990e16c673",
+    "type": "reddit_report",
+    "title": "Russian jet-powered drone attacks 5-story apartment building in Kharkiv, injuring 9",
+    "description": "On Jul. 28, Russian forces hit a five-story apartment building in Kharkiv with a jet-powered Geran-4 drone, injuring at least nine people. The Russian drone crashed through the building’s roof, causing a fire that spread over 200 square meters (about 2,150 square feet), while the blast wave blew out windows at nearby houses, and damaged the vehicle and power grids in the area of impact. Read full submitted by /u/overworkedreporter to r/OSINTUkraine [link] [comments]",
+    "latitude": 49.9935,
+    "longitude": 36.2304,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 80,
+    "timestamp": "2026-07-29T11:06:01+00:00",
+    "url": "https://reddit.com/r/OSINTUkraine/comments/1v9szp2/russian_jetpowered_drone_attacks_5story_apartment",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_osint_ukraine"
+    ]
+  },
+  {
+    "event_id": "SG-a59b3442fe20",
+    "type": "earthquake",
+    "title": "M4.4 earthquake — 14 km ESE of Shimabara, Japan",
+    "description": "M 4.4 - 14 km ESE of Shimabara, Japan",
+    "latitude": 32.7155,
+    "longitude": 130.5047,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T11:47:53.799000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgmj",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-4b1202d5720b",
+    "type": "earthquake",
+    "title": "M3.75 earthquake — 118 km N of Cruz Bay, U.S. Virgin Islands",
+    "description": "M 3.8 - 118 km N of Cruz Bay, U.S. Virgin Islands",
+    "latitude": 19.3923,
+    "longitude": -64.6318,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T12:35:57.740000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026210000",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-355e618419f9",
+    "type": "earthquake",
+    "title": "M4.1 earthquake — Rat Islands, Aleutian Islands, Alaska",
+    "description": "M 4.1 - Rat Islands, Aleutian Islands, Alaska",
+    "latitude": 51.8835,
+    "longitude": 178.304,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T12:45:05.880000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgmr",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9dc1f8f5074b",
+    "type": "earthquake",
+    "title": "M2.5 earthquake — 25 km SSE of Funny River, Alaska",
+    "description": "M 2.5 - 25 km SSE of Funny River, Alaska",
+    "latitude": 60.286,
+    "longitude": -150.625,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T13:02:22.183000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026oxardp",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-3229c80da9f9",
+    "type": "earthquake",
+    "title": "M5 earthquake — 4 km NNE of Balangonan, Philippines",
+    "description": "M 5.0 - 4 km NNE of Balangonan, Philippines",
+    "latitude": 5.6157,
+    "longitude": 125.3648,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T13:16:59.109000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgmy",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-4c7bddef16f7",
+    "type": "earthquake",
+    "title": "M5.4 earthquake — 11 km N of Tsunagi, Japan",
+    "description": "M 5.4 - 11 km N of Tsunagi, Japan",
+    "latitude": 32.34,
+    "longitude": 130.4881,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T13:19:36.661000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgmx",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7a65d8d6520d",
+    "type": "earthquake",
+    "title": "M5 earthquake — 48 km SW of Balangonan, Philippines",
+    "description": "M 5.0 - 48 km SW of Balangonan, Philippines",
+    "latitude": 5.3176,
+    "longitude": 124.9945,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T13:23:56.014000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgn0",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-e865d0a9d0ba",
+    "type": "humanitarian",
+    "title": "Green flood alert in Canada",
+    "description": "On 27/07/2026, a flood started in Canada, lasting until 29/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+    "latitude": 43.2556116,
+    "longitude": -79.0723264,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-07-29T13:52:17+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104058",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-2f1c0e25d99f",
+    "type": "earthquake",
+    "title": "M5.1 earthquake — 79 km NE of Casuguran, Philippines",
+    "description": "M 5.1 - 79 km NE of Casuguran, Philippines",
+    "latitude": 15.2694,
+    "longitude": 122.8525,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:11:03.513000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgnu",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-3974a91ee60b",
+    "type": "weather_alert",
+    "title": "Air Quality Alert",
+    "description": "AQAMSO * WHAT...Air Quality Advisory due to smoke from wildfires. Air Quality Index ranging from Moderate to Unhealthy for Sensitive Groups. * WHERE...All Areas on the Nez Perce Reservation. * WHEN...Until 10:00 AM PDT Friday July 31. * IMPACTS...Those who experience health effects from smoke include children under 18, elders, pregnant women, people with asthma or have difficulty breathing, diabetes, heart problems or otherwise compromised health, and people who have high exposure (those who work, exercise, or spend extensive time outdoors).",
+    "latitude": 46.30352941176471,
+    "longitude": -116.24529411764706,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d6b7dcad46a9af4ed9ec643242cb9f51394aeb6.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d3ac424a98be",
+    "type": "weather_alert",
+    "title": "Air Quality Alert",
+    "description": "AQAMSO * WHAT...Air Quality Advisory due to smoke from wildfires. Air Quality Index ranging from Moderate to Unhealthy for Sensitive Groups. * WHERE...All Areas on the Nez Perce Reservation. * WHEN...Until 10:00 AM PDT Friday July 27. * IMPACTS...Those who experience health effects from smoke include children under 18, elders, pregnant women, people with asthma or have difficulty breathing, diabetes, heart problems or otherwise compromised health, and people who have high exposure (those who work, exercise, or spend extensive time outdoors).",
+    "latitude": 46.30352941176471,
+    "longitude": -116.24529411764706,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4a13d3e343e78ce62b081b7257e3964f301e656.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
     "event_id": "SG-a75a968b2eb1",
     "type": "weather_alert",
     "title": "Heat Advisory",
@@ -2819,8 +2751,229 @@
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-07-29T09:07:08.512107+00:00",
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ce228f3a5763f7303e0aa76a2885a74b8b97d090.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9e562ff261e7",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Minor flooding is forecast. * WHERE...Esopus Creek at Mount Marion. * WHEN...Until late this evening. * IMPACTS...At 22.0 feet, Moderate flood stage. Flooding affects about 25 homes on Orlando Street, Buckley Street and Sandy Lane. * ADDITIONAL DETAILS... - At 9:30 AM EDT Wednesday the stage was 19.0 feet. - Forecast...The river is expected to rise above flood stage late this morning to a crest of 21.1 feet this afternoon. It will then fall below flood stage late this afternoon. - Flood stage is 20.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 41.982,
+    "longitude": -74.01,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75301941e6d1cbf2512ba3ca0660f79725e9aff7.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c264f258f5dd",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Urban and small stream flooding caused by excessive rainfall is expected. * WHERE...A portion of southeast New York, including the following county, Rockland. * WHEN...Until 200 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. River or stream flows are elevated. * ADDITIONAL DETAILS... - At 1011 AM EDT, gauge reports indicated rapid rises with the Hackensack River at West Nyack from the earlier heavy rain. This will cause urban and small stream flooding. Rapid river rises will cause minor flooding in the advisory area. - Around 6.5 feet with Hackensack River at West Nyack, road along retention pond south of Route 59 begins to flood. - Some locations that will experience flooding include... Blauvelt and West Nyack. - http://www.weather.gov/safety/flood",
+    "latitude": 41.07714285714286,
+    "longitude": -73.96714285714286,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.111e45b64a7700650072d92f9d232efeef12f761.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-6f4a1c4969fd",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Minor flooding is occurring and moderate flooding is forecast. * WHERE...Esopus Creek at Cold Brook. * WHEN...Until just after midnight tonight. * IMPACTS...At 16.0 feet, Water reaches roads. * ADDITIONAL DETAILS... - At 10:00 AM EDT Wednesday the stage was 13.2 feet. - Forecast...The river is expected to rise to a crest of 15.0 feet this afternoon. It will then fall below flood stage this evening. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 42.048,
+    "longitude": -74.30199999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9cc04be7819ceec5d1a27bf1a72e498ec14cc94c.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-6fd51b699d4a",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Minor flooding is occurring and moderate flooding is forecast. * WHERE...Schoharie Creek at Prattsville. * WHEN...Until just after midnight tonight. * IMPACTS...At 14.0 feet, Moderate flood stage. Water overflows onto Main Street or NY State Route 23. * ADDITIONAL DETAILS... - At 10:00 AM EDT Wednesday the stage was 12.4 feet. - Forecast...The river is expected to rise to a crest of 14.5 feet this afternoon. It will then fall below flood stage this evening. - Flood stage is 12.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 42.31166666666667,
+    "longitude": -74.40666666666667,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bef9bd7016e47735e74de479d3c25866b0108b53.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-ed0929ae4245",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...A portion of east central New York, including the following counties, Columbia, Dutchess and Ulster. * WHEN...Until 400 PM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Streams continue to rise due to excess runoff from earlier rainfall. Expect many areas of slow moving or standing water. * ADDITIONAL DETAILS... - At 1007 AM EDT, Doppler radar indicated heavy rain. Flooding is ongoing or expected to begin shortly in the warned area. Between 2 and 3 inches of rain have fallen. - Additional rainfall amounts up to 2 inches are possible in the warned area. - Some locations that will experience flooding include... Kingston, Saugerties, Rhinebeck, Hurley, Woodstock, Livingston, Copake, Pine Plains, Clermont, Red Hook, Ancram, Millerton, Staatsburg, Port Ewen, Saugerties South, Lake Katrine, Stanfordville, Tillson, West Hurley and High Falls. - http://www.weather.gov/safety/flood",
+    "latitude": 42.02125,
+    "longitude": -73.72125,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e22490c844e34f853117637d1aace073c6e74e49.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-92eb7fc987dc",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Texas... Nueces River Near Three Rivers affecting Live Oak County. ...The Flood Warning continues for the following rivers in Texas... Nueces River Near Tilden affecting McMullen County. For the Nueces River...including Cotulla, Tilden, Three Rivers, Mathis, Bluntzer, Calallen...Major flooding is forecast. * WHAT...Major flooding is forecast. * WHERE...Nueces River near Three Rivers. * WHEN...From this afternoon until further notice. * IMPACTS...At 40.0 feet, Significant flooding reaches miles from the main channel, flooding homes in the flood plain near Three Rivers to Lake Corpus Christi. Up to 4 feet of water is in River Creek Acres Subdivision, flooding several homes. Kellner Camp along County Road 336 floods, with water several feet deep surrounding homes. Antelope Lane is flooded cutting off access to J.I. Hailey Subdivision at Jones River bend. Water approaches the base of homes along the river in Buckeye Knoll Subdivision, 2 miles west of Swinny Switch. * ADDITIONAL DETAILS... - At 8:15 AM CDT Wednesday the stage was 17.4 feet. - Bankfull stage is 20.0 feet. - Forecast...The river is expected to rise above flood stage late this afternoon and continue rising to a crest of 40.4 feet Friday evening. - Flood stage is 25.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 28.32857142857143,
+    "longitude": -98.14571428571428,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e6edf428d2a81b815d946c695ee48d84461a7d37.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4b83a0e500b9",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Texas... Nueces River Near Three Rivers affecting Live Oak County. ...The Flood Warning continues for the following rivers in Texas... Nueces River Near Tilden affecting McMullen County. For the Nueces River...including Cotulla, Tilden, Three Rivers, Mathis, Bluntzer, Calallen...Major flooding is forecast. - Forecast...The river is expected to fall to 19.3 feet Monday morning. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 28.25857142857143,
+    "longitude": -98.59857142857143,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e6edf428d2a81b815d946c695ee48d84461a7d37.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-e51fd8f7da1e",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Brown County in northeastern Kansas... Northeastern Nemaha County in northeastern Kansas... * WHEN...Until 1115 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams. * ADDITIONAL DETAILS... - At 811 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause urban and small stream flooding. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 1.5 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Hiawatha, Sabetha, Everest, Fairview, Robinson, Morrill, Bern, Powhattan, Oneida, Hamlin and Willis.",
+    "latitude": 39.84125,
+    "longitude": -95.67375,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1fd6ba344a2b1c0656bdc8f9c61e9e96140c175.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8274ea4a3c87",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWALY The National Weather Service in Albany has issued a * Flash Flood Warning for... Southwestern Saratoga County in east central New York... Northeastern Schenectady County in east central New York... Southeastern Fulton County in eastern New York... East Central Montgomery County in eastern New York... * Until 245 PM EDT. * At 852 AM EDT, Doppler radar indicated heavy rain across the warned area. Between 2 and 4 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Glenville, Hagaman, Galway, Pattersonville-Rotterdam Junction, Rotterdam Junction, Burnt Hills, Rock City Falls, East Glenville, Charlton, West Charlton, Shuttleworth Corners, Lower Corners, Cummings Corners, O'brien Corners, Blue Corners, Holbrook Corners, Fairweather Corners, Holsapple Corners, Bunn Corners and West Corners.",
+    "latitude": 42.965,
+    "longitude": -74.0325,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.603a5da1ef625e5a78262baa53cc0f471d3eb4e8.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-63d104497c28",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWALY The National Weather Service in Albany has issued a * Flash Flood Warning for... North Central Rensselaer County in east central New York... Southeastern Saratoga County in east central New York... Southwestern Washington County in east central New York... * Until 215 PM EDT. * At 816 AM EDT, Doppler radar indicated heavy rain across the warned area. Between 1 and 3 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Saratoga Springs, Mechanicville, Milton, Ballston Spa, Greenwich, Round Lake, Country Knolls, Center Brunswick, North Ballston Spa, Gates, Malta, Lee, Pittstown, Easton, Stillwater, Schuylerville, Victory, Schaghticoke, Valley Falls and Bemis Heights.",
+    "latitude": 42.958,
+    "longitude": -73.63300000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.165433673546856afcdc76725003c2049cb72953.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2d2a0ce90fee",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWALY The National Weather Service in Albany has extended the * Flash Flood Warning for... Eastern Albany County in east central New York... Western Rensselaer County in east central New York... South Central Saratoga County in east central New York... East Central Schenectady County in east central New York... * Until 1130 AM EDT. * At 805 AM EDT, Doppler radar indicated heavy rain across the warned area. Between 3 and 5 inches of rain have fallen. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Heavy rain producing flash flooding. SOURCE...Radar. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. Several roads are closed and/or impassable. Travel is not recommended. * Some locations that will experience flash flooding include... Albany, Troy, Clifton Park, East Greenbush, Cohoes, Watervliet, Rensselaer, Colonie, Latham, Delmar, Menands, Ravena, Green Island, Waterford, Castleton-On-Hudson, Loudonville, Selkirk, Halfmoon, Coeymans and West Albany.",
+    "latitude": 42.62,
+    "longitude": -73.78727272727272,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3acb41c7770ca03d1e2033f81f34148d6f6ae020.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-cc4aecd1ae5b",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...North Central Sullivan County in central New York... * WHEN...Until 200 PM EDT Wednesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Expect many areas of slow moving or standing water. * ADDITIONAL DETAILS... - At 738 AM EDT, Doppler Radar estimates between 3 and 6 inches of rain have fallen from Tuesday through last night, with locally higher amounts. While additional rainfall today will be much lighter, flooding is already occurring in the warned area from the earlier heavy rain. - Willowemoc Creek near Livingston Manor was around 10 feet at dawn, which is roughly 8 feet higher than Tuesday morning. The water level will drop today but flooding issues are ongoing and will persist through at least midday. - Some locations that will experience flooding include... Livingston Manor, Parksville, Hazel, Willowemoc, Roscoe, Rockland, Parkston, Debruce, Anderson, Waneta Lake, Joscelyn, Lewbeach, Beaverkill Campground, Mongaup Pond Campground and Shandelee. - http://www.weather.gov/safety/flood",
+    "latitude": 41.925000000000004,
+    "longitude": -74.8075,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52f3a8c806027a5daeccd4c1a065f286bad1ac17.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8c90b444fb11",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWALY The National Weather Service in Albany has issued a * Flash Flood Warning for... Central Columbia County in east central New York... Northeastern Greene County in east central New York... Southwestern Rensselaer County in east central New York... * Until 130 PM EDT Wednesday. * At 724 AM EDT, Doppler radar indicated heavy rain across the warned area. Between 2 and 4 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is already occurring. HAZARD...Life threatening flash flooding. Heavy rain producing flash flooding. SOURCE...Radar. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Troy, East Greenbush, Rensselaer, Hudson, Chatham, Nassau, Claverack, New Baltimore, Coxsackie, Valatie, Athens, Castleton-On-Hudson, Philmont, Kinderhook, Lorenz Park, Claverack-Red Mills, West Sand Lake, Averill Park, Wynantskill and Wyantskill.",
+    "latitude": 42.473,
+    "longitude": -73.71600000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-07-29T14:30:19.230660+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.51e8381af715ef8cab73cadbda355cc1e94ee85d.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
