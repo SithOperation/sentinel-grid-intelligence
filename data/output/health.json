@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-08-09T07:14:29.029887+00:00",
+  "generated": "2026-08-09T13:14:22.823553+00:00",
   "status": "degraded",
   "degraded": true,
   "stale": false,
   "stale_after_minutes": 390,
-  "published_event_count": 599,
+  "published_event_count": 637,
   "freshness": {
-    "oldest_event": "2026-08-06T08:15:16+00:00",
-    "newest_event": "2026-08-09T07:14:29.029887+00:00",
+    "oldest_event": "2026-08-06T13:42:11.429000+00:00",
+    "newest_event": "2026-08-09T13:14:22.823553+00:00",
     "age_minutes": 0.0
   },
   "sources": [
@@ -16,10 +16,10 @@
       "source": "conflict",
       "enabled": true,
       "status": "ok",
-      "event_count": 8,
-      "duration_ms": 0,
-      "checked_at": "2026-08-09T07:14:30.149649+00:00",
-      "last_success": "2026-08-09T07:14:30.149649+00:00",
+      "event_count": 18,
+      "duration_ms": 1,
+      "checked_at": "2026-08-09T13:14:23.668589+00:00",
+      "last_success": "2026-08-09T13:14:23.668589+00:00",
       "error": null
     },
     {
@@ -27,16 +27,16 @@
       "enabled": true,
       "status": "ok",
       "event_count": 2,
-      "duration_ms": 290,
-      "checked_at": "2026-08-09T07:14:30.439456+00:00",
-      "last_success": "2026-08-09T07:14:30.439456+00:00",
+      "duration_ms": 225,
+      "checked_at": "2026-08-09T13:14:23.893731+00:00",
+      "last_success": "2026-08-09T13:14:23.893731+00:00",
       "error": null,
       "metrics": {
         "records_received": 200,
         "records_accepted": 2,
         "records_rejected": 198,
         "missing_geometry": 0,
-        "response_size_bytes": 149290
+        "response_size_bytes": 149648
       }
     },
     {
@@ -44,8 +44,8 @@
       "enabled": true,
       "status": "no_data",
       "event_count": 0,
-      "duration_ms": 290,
-      "checked_at": "2026-08-09T07:14:30.439671+00:00",
+      "duration_ms": 225,
+      "checked_at": "2026-08-09T13:14:23.893994+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -53,42 +53,42 @@
         "records_accepted": 0,
         "records_rejected": 200,
         "missing_geometry": 0,
-        "response_size_bytes": 149290
+        "response_size_bytes": 149648
       }
     },
     {
       "source": "usgs_earthquakes",
       "enabled": true,
       "status": "ok",
-      "event_count": 52,
-      "duration_ms": 84,
-      "checked_at": "2026-08-09T07:14:30.524030+00:00",
-      "last_success": "2026-08-09T07:14:30.524030+00:00",
+      "event_count": 46,
+      "duration_ms": 60,
+      "checked_at": "2026-08-09T13:14:23.953538+00:00",
+      "last_success": "2026-08-09T13:14:23.953538+00:00",
       "error": null,
       "metrics": {
-        "records_received": 52,
-        "records_accepted": 52,
+        "records_received": 46,
+        "records_accepted": 46,
         "records_rejected": 0,
-        "response_size_bytes": 37224,
-        "provider_generated": "2026-08-09T07:13:36+00:00"
+        "response_size_bytes": 33078,
+        "provider_generated": "2026-08-09T13:13:59+00:00"
       }
     },
     {
       "source": "nws_weather_alerts",
       "enabled": true,
       "status": "ok",
-      "event_count": 151,
-      "duration_ms": 121,
-      "checked_at": "2026-08-09T07:14:30.644723+00:00",
-      "last_success": "2026-08-09T07:14:30.644723+00:00",
+      "event_count": 155,
+      "duration_ms": 209,
+      "checked_at": "2026-08-09T13:14:24.162606+00:00",
+      "last_success": "2026-08-09T13:14:24.162606+00:00",
       "error": null,
       "metrics": {
-        "records_received": 151,
-        "records_accepted": 151,
+        "records_received": 155,
+        "records_accepted": 155,
         "records_rejected": 0,
-        "missing_geometry": 146,
+        "missing_geometry": 151,
         "expired_alerts": 0,
-        "response_size_bytes": 851619
+        "response_size_bytes": 881580
       }
     },
     {
@@ -96,9 +96,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 10,
-      "duration_ms": 2452,
-      "checked_at": "2026-08-09T07:14:33.096489+00:00",
-      "last_success": "2026-08-09T07:14:33.096489+00:00",
+      "duration_ms": 1936,
+      "checked_at": "2026-08-09T13:14:26.098261+00:00",
+      "last_success": "2026-08-09T13:14:26.098261+00:00",
       "error": null
     },
     {
@@ -107,7 +107,7 @@
       "status": "no_data",
       "event_count": 0,
       "duration_ms": 0,
-      "checked_at": "2026-08-09T07:14:33.096751+00:00",
+      "checked_at": "2026-08-09T13:14:26.098490+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -127,11 +127,11 @@
       {
         "source_id": "reddit_osint_ukraine",
         "status": "stale",
-        "reason": "success",
+        "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
-        "items_discovered": 1,
-        "items_published": 1,
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
+        "items_discovered": 0,
+        "items_published": 0,
         "cache_age_seconds": null
       },
       {
@@ -139,7 +139,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -149,7 +149,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -159,9 +159,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
-        "items_discovered": 24,
-        "items_published": 24,
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
+        "items_discovered": 25,
+        "items_published": 25,
         "cache_age_seconds": null
       },
       {
@@ -169,9 +169,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
-        "items_discovered": 22,
-        "items_published": 22,
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
+        "items_discovered": 20,
+        "items_published": 20,
         "cache_age_seconds": null
       },
       {
@@ -179,7 +179,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -189,9 +189,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
-        "items_discovered": 6,
-        "items_published": 6,
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
+        "items_discovered": 9,
+        "items_published": 9,
         "cache_age_seconds": null
       },
       {
@@ -199,9 +199,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
-        "items_discovered": 14,
-        "items_published": 14,
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
+        "items_discovered": 9,
+        "items_published": 9,
         "cache_age_seconds": null
       },
       {
@@ -209,9 +209,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
-        "items_discovered": 11,
-        "items_published": 11,
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
+        "items_discovered": 17,
+        "items_published": 17,
         "cache_age_seconds": null
       },
       {
@@ -219,7 +219,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -229,9 +229,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
-        "items_discovered": 6,
-        "items_published": 6,
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
+        "items_discovered": 5,
+        "items_published": 5,
         "cache_age_seconds": null
       },
       {
@@ -239,19 +239,19 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
-        "items_discovered": 9,
-        "items_published": 9,
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
+        "items_discovered": 5,
+        "items_published": 5,
         "cache_age_seconds": null
       },
       {
         "source_id": "reddit_iranian",
         "status": "stale",
-        "reason": "cache_used",
+        "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
-        "items_discovered": 0,
-        "items_published": 0,
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
+        "items_discovered": 1,
+        "items_published": 1,
         "cache_age_seconds": null
       },
       {
@@ -259,7 +259,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
         "items_discovered": 4,
         "items_published": 4,
         "cache_age_seconds": null
@@ -269,7 +269,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -279,7 +279,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -289,7 +289,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
         "items_discovered": 2,
         "items_published": 2,
         "cache_age_seconds": null
@@ -299,7 +299,7 @@
         "status": "unavailable",
         "reason": "blocked",
         "last_success_at": null,
-        "last_attempt_at": "2026-08-09T07:14:29.029887+00:00",
+        "last_attempt_at": "2026-08-09T13:14:22.823553+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
