@@ -1,14 +1,8 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 721,
+  "total_events": 858,
   "critical_events": [
-    {
-      "title": "Security Council LIVE: Civilian suffering grows in Russia-Ukraine war",
-      "type": "conflict",
-      "classification": "conflict_report",
-      "score": 95
-    },
     {
       "title": "UK drone factories may face attacks from 'unknown sources', says Kremlin adviser",
       "type": "conflict",
@@ -32,207 +26,39 @@
       "type": "reddit_report",
       "classification": "source_reported",
       "score": 85
+    },
+    {
+      "title": "Lebanon: UN warns of growing civilian risks as military activity continues",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 85
+    },
+    {
+      "title": "Tornado Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 100
+    },
+    {
+      "title": "Tornado Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 100
+    },
+    {
+      "title": "Tornado Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 100
+    },
+    {
+      "title": "Child Abduction Emergency",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 100
     }
   ],
   "high_priority_events": [
-    {
-      "title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
-      "type": "conflict",
-      "classification": "conflict_report",
-      "score": 75
-    },
-    {
-      "title": "Security Council LIVE: War, hunger, flooding escalates in Sudan",
-      "type": "conflict",
-      "classification": "conflict_report",
-      "score": 75
-    },
-    {
-      "title": "Sudan war: $22 million education boost to help 200,000 children",
-      "type": "conflict",
-      "classification": "conflict_report",
-      "score": 65
-    },
-    {
-      "title": "100 days of Ebola and the race to stop the spread",
-      "type": "conflict",
-      "classification": "conflict_report",
-      "score": 65
-    },
-    {
-      "title": "Global food supply has become ‘collateral damage’ in conflicts: Secretary-General",
-      "type": "conflict",
-      "classification": "conflict_report",
-      "score": 65
-    },
-    {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 80
-    },
-    {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 80
-    },
-    {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 80
-    },
-    {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 80
-    },
-    {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 80
-    },
-    {
-      "title": "Israel warns of 'forceful' response to kites flown from Gaza",
-      "type": "conflict",
-      "classification": "conflict_report",
-      "score": 65
-    },
-    {
-      "title": "M6 earthquake — 215 km NNE of Lospalos, Timor Leste",
-      "type": "earthquake",
-      "classification": "seismic_event",
-      "score": 75
-    },
-    {
-      "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-      "type": "conflict",
-      "classification": "conflict_report",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Watch",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Watch",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Watch",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Watch",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Green notification for tropical cyclone TEN-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
-      "type": "humanitarian",
-      "classification": "disaster_alert",
-      "score": 65
-    },
-    {
-      "title": "Green notification for tropical cyclone JULIO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
-      "type": "humanitarian",
-      "classification": "disaster_alert",
-      "score": 65
-    },
     {
       "title": "Flood Warning",
       "type": "weather_alert",
@@ -466,12 +292,6 @@
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 65
-    },
-    {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 80
     },
     {
       "title": "Flood Warning",
@@ -1002,12 +822,6 @@
       "score": 80
     },
     {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 80
-    },
-    {
       "title": "Red Flag Warning",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
@@ -1308,18 +1122,6 @@
       "score": 65
     },
     {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
       "title": "Flood Watch",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
@@ -1344,30 +1146,6 @@
       "score": 80
     },
     {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 80
-    },
-    {
-      "title": "Flood Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 80
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
       "title": "Red Flag Warning",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
@@ -1378,18 +1156,6 @@
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 80
-    },
-    {
-      "title": "Special Marine Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 75
-    },
-    {
-      "title": "Special Marine Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 75
     },
     {
       "title": "Extreme Heat Warning",
@@ -1452,15 +1218,153 @@
       "score": 65
     },
     {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
       "title": "Red Flag Warning",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 65
     },
     {
+      "title": "Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
       "title": "Extreme Heat Warning",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Red Flag Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Red Flag Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Man who attacked nun on CCTV in Jerusalem acquitted on grounds of mental health",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
+    },
+    {
+      "title": "Security Council LIVE: Tracking Syria’s transition",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 75
+    },
+    {
+      "title": "Green notification for tropical cyclone DOLLY-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+      "type": "humanitarian",
+      "classification": "disaster_alert",
+      "score": 65
+    },
+    {
+      "title": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "Two killed in 'domestic violence incident' at school near Berlin",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 65
+    },
+    {
+      "title": "M6 earthquake — 145 km N of Caluula, Somalia",
+      "type": "earthquake",
+      "classification": "seismic_event",
+      "score": 75
+    },
+    {
+      "title": "Green notification for tropical cyclone KARINA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+      "type": "humanitarian",
+      "classification": "disaster_alert",
+      "score": 65
+    },
+    {
+      "title": "Green notification for tropical cyclone LOWELL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+      "type": "humanitarian",
+      "classification": "disaster_alert",
       "score": 65
     },
     {
@@ -1480,6 +1384,198 @@
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Red Flag Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Flash Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Special Marine Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Flash Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flash Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Flash Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
     },
     {
       "title": "Extreme Heat Warning",
@@ -1500,10 +1596,172 @@
       "score": 75
     },
     {
-      "title": "Flood Watch",
+      "title": "Flash Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Flood Warning",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 65
+    },
+    {
+      "title": "Flash Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Red Flag Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Red Flag Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Red Flag Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Red Flag Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flash Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flash Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
     },
     {
       "title": "Flood Watch",
@@ -1512,7 +1770,43 @@
       "score": 65
     },
     {
-      "title": "Flood Watch",
+      "title": "High Wind Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 65
@@ -1527,6 +1821,42 @@
       "title": "Red Flag Warning",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flash Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
       "score": 65
     },
     {
@@ -1542,7 +1872,31 @@
       "score": 80
     },
     {
-      "title": "Extreme Heat Warning",
+      "title": "Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Flood Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 65
@@ -1563,47 +1917,17 @@
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 157,
+      "event_count": 168,
       "highest_threat": "CRITICAL",
       "threat_score": 85,
       "activity_level": "SEVERE",
       "events": [
-        "M5.5 earthquake — 207 km SSE of Amahai, Indonesia",
-        "M4.9 earthquake — 218 km ENE of Neiafu, Tonga",
-        "Green forest fire notification in Indonesia",
-        "M2.9 earthquake — 51 km SSW of Whites City, New Mexico",
-        "M2.6 earthquake — 98 km ENE of Ouzinkie, Alaska",
-        "M2.7 earthquake — 92 km SE of Ugashik, Alaska",
-        "M2.6 earthquake — 19 km N of Pilot Point, Alaska",
-        "Security Council LIVE: War, hunger, flooding escalates in Sudan",
-        "Sudan war: $22 million education boost to help 200,000 children",
-        "Tropical Storm Iselle",
-        "Tropical Storm Moke",
-        "Tropical Storm Narra",
-        "Tropical Storm Lala",
-        "100 days of Ebola and the race to stop the spread",
-        "Global food supply has become ‘collateral damage’ in conflicts: Secretary-General",
-        "M3.6 earthquake — 233 km ESE of Attu Station, Alaska",
-        "M5 earthquake — southern Mid-Atlantic Ridge",
-        "M2.85 earthquake — 19 km SW of Toms Place, CA",
-        "The deadliest week for Ukrainian civilians since May 2022: a double-tap on a Kryvyi Rih mall killed 15, the second drone timed at first responders. Over Kyiv, 5 of 44 ballistic missiles were intercepted, a wartime low. France pledged interceptors, citing the 1%",
-        "M6 earthquake — 215 km NNE of Lospalos, Timor Leste",
-        "M4.8 earthquake — 91 km N of Ruteng, Indonesia",
-        "M4.9 earthquake — 76 km SE of Taira, Japan",
-        "M2.6 earthquake — 11 km ENE of Pleasant Hill, Louisiana",
-        "M4.7 earthquake — Pagan region, Northern Mariana Islands",
-        "M2.92 earthquake — 56 km NW of San Antonio, Puerto Rico",
-        "M5 earthquake — 209 km NNE of Lospalos, Timor Leste",
-        "Kyiv Hosted First-Ever Drone Parade",
-        "M3.9 earthquake — 58 km SSE of Kokhanok, Alaska",
-        "Green notification for tropical cyclone TEN-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
-        "Green notification for tropical cyclone JULIO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
-        "M4.6 earthquake — 236 km ESE of Kimbe, Papua New Guinea",
         "M3 earthquake — 27 km ENE of Chignik, Alaska",
         "Green forest fire notification in Tanzania",
         "M3.2 earthquake — 46 km SSE of Denali National Park, Alaska",
         "Typhoon Saudel",
         "M4.9 earthquake — 34 km NW of Ruteng, Indonesia",
+        "Wildfire California Creek, Elko, Nevada",
         "M2.74 earthquake — 17 km SSE of Shandon, CA",
         "M4.9 earthquake — 4 km NNE of Jalālābād, Afghanistan",
         "M4.5 earthquake — 74 km SSE of Panguna, Papua New Guinea",
@@ -1642,12 +1966,14 @@
         "Israel cannot go back to Oct. 6",
         "M2.9 earthquake — 56 km ESE of Denali National Park, Alaska",
         "M2.8 earthquake — 232 km ESE of Attu Station, Alaska",
+        "Wildfire MUSTANG, Malheur, Oregon",
         "M2.8 earthquake — 38 km NE of Chenega, Alaska",
         "M4.5 earthquake — Vanuatu region",
         "Germany's Merz warns attackers will 'pay price' after drone incident",
         "M4.3 earthquake — 180 km NE of Kuril’sk, Russia",
         "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
         "M2.5 earthquake — 39 km NE of Chenega, Alaska",
+        "Wildfire LAUGHLIN, Colfax, New Mexico",
         "M4.2 earthquake — 16 km ENE of Çelikhan, Turkey",
         "Green forest fire notification in Angola",
         "M4.2 earthquake — 192 km SSE of Sarangani, Philippines",
@@ -1658,6 +1984,7 @@
         "M3.4 earthquake — 56 km WNW of Nanwalek, Alaska",
         "M3.06 earthquake — 12 km WSW of Salton City, CA",
         "M4.7 earthquake — 77 km E of Tomioka, Japan",
+        "Wildfire McConnell, Humboldt, Nevada",
         "M4.9 earthquake — 47 km NE of Ruteng, Indonesia",
         "M4.4 earthquake — 56 km NNW of Barishal, Pakistan",
         "M3 earthquake — 204 km W of Bandon, Oregon",
@@ -1710,6 +2037,7 @@
         "M2.8 earthquake — 119 km SW of Adak, Alaska",
         "M2.9 earthquake — 90 km SE of King Cove, Alaska",
         "M3.11 earthquake — 36 km NNE of Arecibo, Puerto Rico",
+        "Wildfire Calico, Humboldt, Nevada",
         "M2.6 earthquake — 2 km WSW of La Parguera, Puerto Rico",
         "M4.7 earthquake — 34 km NNE of Ruteng, Indonesia",
         "Green forest fire notification in Namibia",
@@ -1718,35 +2046,57 @@
         "M4.5 earthquake — 147 km E of Sola, Vanuatu",
         "M4.6 earthquake — 106 km ESE of Yujing, Taiwan",
         "M3.44 earthquake — 31 km NE of Miches, Dominican Republic",
+        "M2.8 earthquake — 154 km SSE of Atka, Alaska",
         "Green forest fire notification in Algeria",
         "Green notification for tropical cyclone ETAU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+        "M2.56 earthquake — 52 km SSW of Progreso, B.C., MX",
         "M5.1 earthquake — South Atlantic Ocean",
+        "M2.5 earthquake — 89 km SSE of Sand Point, Alaska",
+        "M2.8 earthquake — Rat Islands, Aleutian Islands, Alaska",
+        "M2.6 earthquake — 37 km W of Anchor Point, Alaska",
         "M5.3 earthquake — Volcano Islands, Japan region",
         "M4.3 earthquake — 48 km WSW of Abra Pampa, Argentina",
-        "M2.5 earthquake — 5 km NNW of Petersville, Alaska",
-        "Molniya drone attacks Kharkiv, injuring man"
-      ]
-    },
-    "Europe": {
-      "region": "Europe",
-      "event_count": 6,
-      "highest_threat": "CRITICAL",
-      "threat_score": 95,
-      "activity_level": "ACTIVE",
-      "events": [
-        "Russia's second-biggest online retailer targeted in Ukrainian strikes",
-        "Security Council LIVE: Civilian suffering grows in Russia-Ukraine war",
-        "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-        "UK drone factories may face attacks from 'unknown sources', says Kremlin adviser",
-        "Swedish military seeks to take over Russian-owned estate near naval base",
-        "CIA chief travels to Moscow for unannounced talks, US media reports"
+        "M2.46 earthquake — 18 km SE of Waimea, Hawaii",
+        "M3.9 earthquake — 134 km E of Atka, Alaska",
+        "M2.8 earthquake — 6 km N of Petersville, Alaska",
+        "Molniya drone attacks Kharkiv, injuring man",
+        "M4.5 earthquake — 205 km SE of Vilyuchinsk, Russia",
+        "M3.4 earthquake — 30 km NE of Fox River, Alaska",
+        "M5.3 earthquake — 54 km NNE of Labuan Bajo, Indonesia",
+        "M2.9 earthquake — 105 km SE of False Pass, Alaska",
+        "M4.9 earthquake — Indian Ocean Triple Junction",
+        "Security Council LIVE: Tracking Syria’s transition",
+        "M2.5 earthquake — 98 km SW of Atka, Alaska",
+        "Russian jet-powered Shahed drone hits shopping mall in Kharkiv, killing 1, injuring 4",
+        "M4.8 earthquake — 195 km SE of Akutan, Alaska",
+        "M5 earthquake — western Xizang",
+        "M2.8 earthquake — 16 km NW of Mentone, Texas",
+        "Green notification for tropical cyclone DOLLY-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+        "M3.5 earthquake — 10 km NW of Mérida, Venezuela",
+        "Convicted Bosnian Serb war criminal Mladić dies aged 84",
+        "M2.6 earthquake — 3 km N of Sterling, Alaska",
+        "Two killed in 'domestic violence incident' at school near Berlin",
+        "M4.1 earthquake — 29 km NW of Tumbes, Peru",
+        "M4.1 earthquake — 14 km NNE of Machala, Ecuador",
+        "M4.5 earthquake — 42 km E of Estique, Peru",
+        "M2.6 earthquake — 62 km SW of Port Alexander, Alaska",
+        "M3 earthquake — 51 km E of Denali National Park, Alaska",
+        "M4.9 earthquake — 3 km WNW of Mangili, Philippines",
+        "M2.6 earthquake — 57 km S of Whites City, New Mexico",
+        "M4.4 earthquake — Pagan region, Northern Mariana Islands",
+        "M2.61 earthquake — 3 km SW of La Parguera, Puerto Rico",
+        "M4.8 earthquake — 63 km NE of Kuji, Japan",
+        "M6 earthquake — 145 km N of Caluula, Somalia",
+        "Green notification for tropical cyclone KARINA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+        "Green notification for tropical cyclone LOWELL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+        "M2.6 earthquake — 25 km NE of Beluga, Alaska"
       ]
     },
     "Americas": {
       "region": "Americas",
-      "event_count": 554,
-      "highest_threat": "HIGH",
-      "threat_score": 80,
+      "event_count": 681,
+      "highest_threat": "CRITICAL",
+      "threat_score": 100,
       "activity_level": "SEVERE",
       "events": [
         "Flood Warning",
@@ -1754,33 +2104,6 @@
         "Flood Warning",
         "Flood Warning",
         "Flood Warning",
-        "Flood Warning",
-        "Extreme Heat Watch",
-        "Extreme Heat Watch",
-        "Extreme Heat Watch",
-        "Extreme Heat Watch",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Heat Advisory",
-        "Extreme Heat Warning",
-        "Heat Advisory",
-        "Heat Advisory",
-        "Heat Advisory",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Flood Warning",
-        "Flood Warning",
-        "Flood Warning",
-        "Flood Warning",
-        "Flood Warning",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
@@ -1824,7 +2147,6 @@
         "Extreme Heat Warning",
         "Heat Advisory",
         "Heat Advisory",
-        "Flood Warning",
         "Flood Warning",
         "Flood Warning",
         "Red Flag Warning",
@@ -1835,25 +2157,14 @@
         "Heat Advisory",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Flood Warning",
         "Flood Warning",
         "Flood Warning",
         "Flood Warning",
         "Flood Warning",
         "Flood Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
@@ -1872,40 +2183,16 @@
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
-        "Small Craft Advisory",
         "Red Flag Warning",
         "Red Flag Warning",
         "Flood Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Heat Advisory",
         "Extreme Heat Warning",
         "Heat Advisory",
         "Extreme Heat Warning",
         "Flood Warning",
         "Flood Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Beach Hazards Statement",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
@@ -1944,23 +2231,12 @@
         "Extreme Heat Warning",
         "Heat Advisory",
         "Small Craft Advisory",
-        "Small Craft Advisory",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Heat Advisory",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Heat Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Flood Warning",
         "Flood Warning",
         "Flood Warning",
         "Flood Warning",
@@ -1970,7 +2246,6 @@
         "Beach Hazards Statement",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Small Craft Advisory",
         "Flood Warning",
         "Flood Warning",
         "Heat Advisory",
@@ -1979,7 +2254,6 @@
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Heat Advisory",
-        "Small Craft Advisory",
         "Fire Weather Watch",
         "Fire Weather Watch",
         "Small Craft Advisory",
@@ -2009,20 +2283,10 @@
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Fire Weather Watch",
         "Extreme Heat Warning",
         "Beach Hazards Statement",
         "Wind Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Heat Advisory",
@@ -2036,7 +2300,6 @@
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
-        "Small Craft Advisory",
         "Flash Flood Watch",
         "Flood Watch",
         "Extreme Heat Warning",
@@ -2064,43 +2327,68 @@
         "Flood Warning",
         "Small Craft Advisory",
         "Small Craft Advisory",
+        "Beach Hazards Statement",
+        "Flood Watch",
+        "Flood Warning",
+        "Flood Warning",
+        "Flood Warning",
+        "Red Flag Warning",
+        "Flood Warning",
+        "Heat Advisory",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Small Craft Advisory",
         "Small Craft Advisory",
         "Beach Hazards Statement",
-        "Air Quality Alert",
-        "Air Quality Alert",
-        "Air Quality Alert",
-        "Air Quality Alert",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Gale Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Gale Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Gale Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
+        "Beach Hazards Statement",
+        "Flash Flood Watch",
+        "Heat Advisory",
+        "Extreme Heat Warning",
+        "Heat Advisory",
+        "Extreme Heat Warning",
+        "Heat Advisory",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Heat Advisory",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
         "Small Craft Advisory",
         "Small Craft Advisory",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
         "Small Craft Advisory",
+        "Flood Watch",
+        "Flood Watch",
+        "Flood Watch",
+        "Flood Watch",
+        "Small Craft Advisory",
+        "Red Flag Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Flood Warning",
+        "Flood Warning",
+        "Small Craft Advisory",
+        "Wind Advisory",
+        "Extreme Heat Warning",
+        "Red Flag Warning",
+        "Red Flag Warning",
+        "Wind Advisory",
+        "Air Quality Alert",
+        "Air Quality Alert",
+        "Air Quality Alert",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
         "Gale Warning",
         "Gale Warning",
         "Gale Warning",
@@ -2116,21 +2404,18 @@
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Gale Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Gale Warning",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Gale Warning",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Gale Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
         "Gale Warning",
         "Small Craft Advisory",
         "Gale Warning",
@@ -2138,99 +2423,16 @@
         "Gale Warning",
         "Rip Current Statement",
         "Air Quality Alert",
-        "Air Quality Alert",
-        "Flood Watch",
-        "Air Quality Alert",
-        "Flood Warning",
-        "Flood Warning",
-        "Flood Warning",
-        "Flood Warning",
-        "Flood Warning",
-        "Air Quality Alert",
         "Extreme Heat Warning",
         "Heat Advisory",
         "Heat Advisory",
         "Extreme Heat Warning",
         "Red Flag Warning",
-        "Flood Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Special Weather Statement",
-        "Special Marine Warning",
-        "Test Message",
-        "Dense Fog Advisory",
-        "Dense Fog Advisory",
-        "Dense Fog Advisory",
-        "Special Weather Statement",
-        "Special Marine Warning",
         "Special Weather Statement",
         "Heat Advisory",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Special Weather Statement",
-        "Special Weather Statement",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Beach Hazards Statement",
-        "Marine Weather Statement",
-        "Beach Hazards Statement",
-        "Flash Flood Watch",
         "Heat Advisory",
-        "Extreme Heat Warning",
-        "Heat Advisory",
-        "Extreme Heat Warning",
-        "Heat Advisory",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Heat Advisory",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Red Flag Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Extreme Heat Warning",
-        "Beach Hazards Statement",
-        "Beach Hazards Statement",
-        "Flash Flood Warning",
-        "Small Craft Advisory",
-        "Special Weather Statement",
-        "Flood Watch",
-        "Flood Watch",
-        "Flood Watch",
-        "Heat Advisory",
-        "Heat Advisory",
-        "Heat Advisory",
-        "Flood Watch",
         "Heat Advisory",
         "Air Quality Alert",
-        "Small Craft Advisory",
-        "Red Flag Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Flood Warning",
-        "Flood Warning",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
@@ -2278,8 +2480,6 @@
         "Small Craft Advisory",
         "Gale Warning",
         "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Gale Warning",
         "Gale Warning",
         "Gale Warning",
         "Small Craft Advisory",
@@ -2292,30 +2492,321 @@
         "Gale Warning",
         "Gale Warning",
         "Gale Warning",
-        "Gale Warning",
         "Small Craft Advisory",
         "Gale Warning",
         "Small Craft Advisory",
+        "Air Quality Alert",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Flood Advisory",
+        "Tornado Warning",
+        "Special Weather Statement",
+        "Marine Weather Statement",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Special Weather Statement",
+        "Flood Advisory",
+        "Test Message",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Special Weather Statement",
+        "Severe Thunderstorm Warning",
+        "Flash Flood Warning",
+        "Severe Thunderstorm Warning",
+        "Special Weather Statement",
+        "Severe Thunderstorm Warning",
+        "Flood Advisory",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Flood Advisory",
+        "Severe Thunderstorm Warning",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Flood Advisory",
+        "Severe Thunderstorm Warning",
+        "Special Marine Warning",
+        "Severe Thunderstorm Warning",
+        "Tornado Warning",
+        "Flood Advisory",
+        "Tornado Warning",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Severe Thunderstorm Warning",
+        "Special Weather Statement",
+        "Severe Thunderstorm Warning",
+        "Special Weather Statement",
+        "Severe Thunderstorm Warning",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Flood Advisory",
+        "Special Weather Statement",
+        "Flood Advisory",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Severe Thunderstorm Warning",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Flash Flood Warning",
+        "Flood Warning",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Flood Advisory",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Special Weather Statement",
+        "Flash Flood Warning",
+        "Flood Advisory",
+        "Flash Flood Warning",
+        "Flood Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Flood Advisory",
+        "Air Quality Alert",
+        "Flood Advisory",
+        "Flood Advisory",
+        "Flash Flood Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Special Weather Statement",
+        "Flash Flood Warning",
+        "Flood Advisory",
+        "Flood Advisory",
+        "Flood Advisory",
+        "Flood Warning",
+        "Air Quality Alert",
+        "Flash Flood Warning",
+        "Heat Advisory",
+        "Extreme Heat Warning",
+        "Heat Advisory",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Heat Advisory",
+        "Heat Advisory",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Flood Advisory",
+        "Child Abduction Emergency",
+        "Marine Weather Statement",
+        "Flood Advisory",
+        "Red Flag Warning",
+        "Red Flag Warning",
+        "Red Flag Warning",
+        "Red Flag Warning",
+        "Beach Hazards Statement",
+        "Flood Advisory",
+        "Flood Advisory",
+        "Air Quality Alert",
+        "Extreme Heat Warning",
+        "Flash Flood Warning",
+        "Flood Advisory",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Flood Advisory",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "Small Craft Advisory",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "Flash Flood Warning",
+        "Winter Weather Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Flood Watch",
+        "Air Quality Alert",
         "Air Quality Alert",
         "Wind Advisory",
+        "High Wind Warning",
         "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Extreme Heat Warning",
+        "Flood Watch",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
         "Red Flag Warning",
-        "Red Flag Warning",
+        "Heat Advisory",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "Flood Watch",
         "Air Quality Alert",
-        "Wind Advisory"
+        "Air Quality Alert",
+        "Flash Flood Watch",
+        "Air Quality Alert",
+        "Air Quality Alert",
+        "High Surf Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Severe Thunderstorm Watch",
+        "Severe Thunderstorm Watch",
+        "High Surf Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Beach Hazards Statement",
+        "Flood Warning",
+        "Flood Warning",
+        "Flood Warning",
+        "Flood Warning",
+        "Flood Warning",
+        "Flood Watch",
+        "Flood Watch",
+        "Wind Advisory",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Gale Warning",
+        "Gale Warning",
+        "Gale Warning",
+        "Gale Warning",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Gale Warning",
+        "Gale Warning",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Gale Warning",
+        "Gale Warning",
+        "Gale Warning",
+        "Gale Warning",
+        "Red Flag Warning",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Gale Warning",
+        "Small Craft Advisory",
+        "Red Flag Warning"
+      ]
+    },
+    "Europe": {
+      "region": "Europe",
+      "event_count": 3,
+      "highest_threat": "CRITICAL",
+      "threat_score": 95,
+      "activity_level": "ACTIVE",
+      "events": [
+        "UK drone factories may face attacks from 'unknown sources', says Kremlin adviser",
+        "Swedish military seeks to take over Russian-owned estate near naval base",
+        "CIA chief travels to Moscow for unannounced talks, US media reports"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 4,
-      "highest_threat": "HIGH",
-      "threat_score": 75,
+      "event_count": 6,
+      "highest_threat": "CRITICAL",
+      "threat_score": 85,
       "activity_level": "ACTIVE",
       "events": [
-        "Israel warns of 'forceful' response to kites flown from Gaza",
         "China warns it will protect its interests after US widens sanctions against Iran",
         "Trump says all mines cleared from Strait of Hormuz",
-        "Security Council LIVE: Rising tensions in Gaza, West Bank"
+        "Security Council LIVE: Rising tensions in Gaza, West Bank",
+        "Man who attacked nun on CCTV in Jerusalem acquitted on grounds of mental health",
+        "Lebanon: UN warns of growing civilian risks as military activity continues",
+        "Board of Peace's Gaza envoy criticises Israeli strikes and Hamas actions"
       ]
     }
   }
