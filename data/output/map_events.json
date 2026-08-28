@@ -1,652 +1,5 @@
 [
   {
-    "event_id": "SG-acbe6a4b0f0a",
-    "type": "earthquake",
-    "title": "M4.9 earthquake — 94 km W of Ambon, Indonesia",
-    "description": "M 4.9 - 94 km W of Ambon, Indonesia",
-    "latitude": -3.6519,
-    "longitude": 127.3328,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T11:29:44.762000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tncc",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-a388aeb1a287",
-    "type": "tropical_cyclone",
-    "title": "Tropical Storm Julio",
-    "description": "Severe Storms",
-    "latitude": 17.0,
-    "longitude": -119.1,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T12:00:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23286",
-    "classification": "eonet_tropical_cyclone",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-36e4322d18fd",
-    "type": "humanitarian",
-    "title": "Green forest fire notification in United States",
-    "description": "On 24/08/2026, a forest fire started in United States, until 25/08/2026.",
-    "latitude": 32.9142627813871,
-    "longitude": -98.30296919404682,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 95,
-    "timestamp": "2026-08-25T12:01:56+00:00",
-    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031101",
-    "classification": "disaster_alert",
-    "source": [
-      "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-158cc03c8fa7",
-    "type": "earthquake",
-    "title": "M5.5 earthquake — south of the Fiji Islands",
-    "description": "M 5.5 - south of the Fiji Islands",
-    "latitude": -23.3497,
-    "longitude": 179.8207,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T12:12:03.252000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnci",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program",
-      "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-d451965ffa79",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois... Illinois River at Beardstown affecting Brown, Schuyler, Morgan and Cass Counties. Illinois River near Havana affecting Mason, Fulton and Cass Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Illinois River at Beardstown. * WHEN...Until Monday afternoon. * IMPACTS...At 18.0 feet, Seepage problems begin in the Lost Creek Drainage and Levee District. * ADDITIONAL DETAILS... - At 8:45 PM CDT Monday the stage was 16.2 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:45 PM CDT Monday was 16.3 feet. - Forecast...The river is expected to fall below flood stage Monday, August 31. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 40.098571428571425,
-    "longitude": -90.35285714285715,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-25T13:09:26.937050+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c14f38cf836978ebe82026fa568defb4d55265c9.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-1f0c0985950c",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana...Illinois... Wabash River at New Harmony. .Heavy rainfall last week continues to cause slow rises on the Wabash River. At New Harmony, the river is forecast to climb above flood stage Tuesday, and crest around a half foot above flood stage Thursday. For the Wabash River...including New Harmony...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Wabash River at New Harmony. * WHEN...From Tuesday morning to Saturday evening. * IMPACTS...At 15.0 feet, The river overflows low ground on the Illinois side. * ADDITIONAL DETAILS... - At 8:30 PM CDT Monday the stage was 14.8 feet. - Forecast...The river is expected to rise above flood stage tomorrow morning to a crest of 15.6 feet early Thursday afternoon. It will then fall below flood stage early Saturday afternoon. - Flood stage is 15.0 feet.",
-    "latitude": 37.99142857142857,
-    "longitude": -88.00999999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-25T13:09:26.937050+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf02c70fd0b64236770f01dbe4723a7ce53874dd.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-6c58b0bb79ed",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana... Wabash River from Montezuma through Mount Carmel. White River from Edwardsport through Hazleton. .Minor flooding continues along the White River from Edwardsport downriver with the crest already past Hazleton. Minor flooding also continues on the Wabash River from Montezuma down to Mount Carmel with the crest approaching Vincennes. Rain amounts with scattered storms Wednesday evening are not expected to impact main stem river levels. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at Mount Carmel. * WHEN...Until Saturday afternoon. * IMPACTS...At 20.0 feet, River is bankfull in all locations. All oil field production ceases with the exception of pumping units on substructures. Access to these are by boat only. Agricultural losses increase dramatically. Farmers move livestock to higher ground. City of Mount Carmel leaves flood gates B and C in year round. * ADDITIONAL DETAILS... - At 6:45 AM CDT /7:45 AM EDT/ Tuesday the stage was 19.7 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 6:45 AM CDT /7:45 AM EDT/ Tuesday was 19.7 feet. - Forecast...The river is expected to rise to a crest of 20.1 feet Thursday morning. It will then fall below flood stage early Saturday morning. - Flood stage is 19.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 38.339999999999996,
-    "longitude": -87.83142857142857,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-25T13:09:26.937050+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.966efdc66b3086f5aa2b21cb1cfbfa88e06cea31.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-120943dce6d1",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana... Wabash River from Montezuma through Mount Carmel. White River from Edwardsport through Hazleton. .Minor flooding continues along the White River from Edwardsport downriver with the crest already past Hazleton. Minor flooding also continues on the Wabash River from Montezuma down to Mount Carmel with the crest approaching Vincennes. Rain amounts with scattered storms Wednesday evening are not expected to impact main stem river levels. * WHAT...Minor flooding is forecast. * WHERE...White River at Hazleton. * WHEN...Until Friday evening. * IMPACTS...At 18.0 feet, Floodwaters cover much low ground in agricultural season. Low lying oil fields...Pottsville Road and possibly a few other low rural roads flood. High water isolates Pottstown, a river cabin community. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...The river is expected to fall below flood stage Friday morning and continue falling to 3.2 feet Thursday, September 03. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 38.480000000000004,
-    "longitude": -87.56142857142856,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-25T13:09:26.937050+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.966efdc66b3086f5aa2b21cb1cfbfa88e06cea31.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a9d4b284bb42",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana... Wabash River from Montezuma through Mount Carmel. White River from Edwardsport through Hazleton. .Minor flooding continues along the White River from Edwardsport downriver with the crest already past Hazleton. Minor flooding also continues on the Wabash River from Montezuma down to Mount Carmel with the crest approaching Vincennes. Rain amounts with scattered storms Wednesday evening are not expected to impact main stem river levels. * WHAT...Minor flooding is forecast. * WHERE...Wabash River at Hutsonville Legacy Power Plant Site. * WHEN...Until Saturday morning. * IMPACTS...At 22.0 feet, River cabins become isolated. Basement flooding begins in Hutsonville. Extensive agricultural flooding is in progress. Higher Illinois rural roads in eastern Clark and Crawford counties flood. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...The river is expected to fall below flood stage late Friday evening and continue falling to 9.2 feet Thursday, September 03. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.230000000000004,
-    "longitude": -87.60428571428572,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-25T13:09:26.937050+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.966efdc66b3086f5aa2b21cb1cfbfa88e06cea31.009.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-351850a92e37",
-    "type": "earthquake",
-    "title": "M4.4 earthquake — 15 km W of Lushnjë, Albania",
-    "description": "M 4.4 - 15 km W of Lushnjë, Albania",
-    "latitude": 40.9504,
-    "longitude": 19.5197,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T13:56:35.422000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnd0",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-0c18548a440a",
-    "type": "earthquake",
-    "title": "M4.3 earthquake — 90 km SSW of Severo-Kuril’sk, Russia",
-    "description": "M 4.3 - 90 km SSW of Severo-Kuril’sk, Russia",
-    "latitude": 49.8967,
-    "longitude": 155.7768,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T14:45:07.724000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnd3",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-d31de84dcfac",
-    "type": "earthquake",
-    "title": "M5 earthquake — 54 km NNE of Ruteng, Indonesia",
-    "description": "M 5.0 - 54 km NNE of Ruteng, Indonesia",
-    "latitude": -8.1362,
-    "longitude": 120.5816,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T14:58:54.206000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnd4",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-93d44bf40d3c",
-    "type": "earthquake",
-    "title": "M5.2 earthquake — 243 km SE of Hihifo, Tonga",
-    "description": "M 5.2 - 243 km SE of Hihifo, Tonga",
-    "latitude": -17.2913,
-    "longitude": -171.9817,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T15:15:54.612000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnd7",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-251c17ce2d49",
-    "type": "reddit_report",
-    "title": "Israel cannot go back to Oct. 6",
-    "description": "Washington and Jerusalem need a coordinated strategy that pursues realistic diplomacy in Syria, Lebanon, Gaza and Iran without sacrificing the military leverage that makes diplomacy possible. Hamas and Hezbollah must be genuinely demilitarized, not merely pushed underground until the next war. Turkish Islamist expansion into Syria must be constrained. Israel must retain freedom of action if Iran rebuilds its nuclear infrastructure or ballistic-missile production. This needs to be settled before a new American president, Republican or Democrat, takes office in January 2029. Trump wants peace. But after Oct. 7, Israel cannot afford to confuse quiet with peace, a ceasefire with meaningful reconciliation or an enemy’s temporary pragmatism with a permanent change of intent. If Washington pressures Israel to return to the assumptions of Oct. 6, it may inadvertently help create the conditions for another Oct. 7. by Dr. Eric R. Mandel https://www.jns.org/opinion/dr-eric-r-mandel/israel-cannot-go-back-to-oct-6 submitted by /u/Shira-Neshama to r/Israel [link] [comments]",
-    "latitude": 31.7683,
-    "longitude": 35.2137,
-    "priority": "medium",
-    "threat_level": "CRITICAL",
-    "confidence": 70,
-    "timestamp": "2026-08-25T15:23:45+00:00",
-    "url": "https://reddit.com/r/Israel/comments/1vy2wgs/israel_cannot_go_back_to_oct_6",
-    "classification": "source_reported",
-    "source": [
-      "Reddit reddit_israel"
-    ]
-  },
-  {
-    "event_id": "SG-172cad4713e9",
-    "type": "earthquake",
-    "title": "M2.9 earthquake — 56 km ESE of Denali National Park, Alaska",
-    "description": "M 2.9 - 56 km ESE of Denali National Park, Alaska",
-    "latitude": 63.301,
-    "longitude": -150.718,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T16:02:00.638000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qvdggc",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-69c21b7e72a9",
-    "type": "earthquake",
-    "title": "M2.8 earthquake — 232 km ESE of Attu Station, Alaska",
-    "description": "M 2.8 - 232 km ESE of Attu Station, Alaska",
-    "latitude": 52.123,
-    "longitude": 176.405,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T16:02:44.874000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qvdgxu",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-d0cce3b1db3d",
-    "type": "wildfire",
-    "title": "Wildfire MUSTANG, Malheur, Oregon",
-    "description": "94 Miles SE from BURNS, OR",
-    "latitude": 42.667167,
-    "longitude": -117.442833,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T16:04:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23456",
-    "classification": "eonet_wildfire",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-964ca3d0f237",
-    "type": "earthquake",
-    "title": "M2.8 earthquake — 38 km NE of Chenega, Alaska",
-    "description": "M 2.8 - 38 km NE of Chenega, Alaska",
-    "latitude": 60.316,
-    "longitude": -147.528,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T16:21:30.835000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qvdxai",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-751497b0a83f",
-    "type": "earthquake",
-    "title": "M4.5 earthquake — Vanuatu region",
-    "description": "M 4.5 - Vanuatu region",
-    "latitude": -14.235,
-    "longitude": 170.4985,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T16:23:33.830000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbsj",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-fc120ae0c7a6",
-    "type": "earthquake",
-    "title": "M4.3 earthquake — 180 km NE of Kuril’sk, Russia",
-    "description": "M 4.3 - 180 km NE of Kuril’sk, Russia",
-    "latitude": 46.2509,
-    "longitude": 149.6836,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T17:44:51.336000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbsx",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-7576f54b626f",
-    "type": "tropical_cyclone",
-    "title": "Tropical Storm Narra",
-    "description": "Severe Storms",
-    "latitude": 20.0,
-    "longitude": 109.6,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T18:00:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23207",
-    "classification": "eonet_tropical_cyclone",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-84e9a9f8f40c",
-    "type": "earthquake",
-    "title": "M2.5 earthquake — 39 km NE of Chenega, Alaska",
-    "description": "M 2.5 - 39 km NE of Chenega, Alaska",
-    "latitude": 60.349,
-    "longitude": -147.569,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T18:11:07.871000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qvhofb",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-dca95ba878cc",
-    "type": "wildfire",
-    "title": "Wildfire LAUGHLIN, Colfax, New Mexico",
-    "description": "10 Miles E from MAWELL, NM",
-    "latitude": 36.5230556,
-    "longitude": -104.4530556,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T18:35:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23466",
-    "classification": "eonet_wildfire",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-976df0829279",
-    "type": "earthquake",
-    "title": "M4.2 earthquake — 16 km ENE of Çelikhan, Turkey",
-    "description": "M 4.2 - 16 km ENE of Çelikhan, Turkey",
-    "latitude": 38.1053,
-    "longitude": 38.3938,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T18:43:54.134000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbta",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-c0ddfed44eb7",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana...Illinois... Wabash River at New Harmony. .Heavy rainfall last week continues to cause slow rises on the Wabash River. At New Harmony, the river is forecast to crest around at 15.7 feet early Friday and then fall below flood stage early Sunday morning. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at New Harmony. * WHEN...Until Sunday morning. * IMPACTS...At 15.0 feet, The river overflows low ground on the Illinois side. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 15.0 feet. - Forecast...The river is expected to rise to a crest of 15.7 feet early Friday morning. It will then fall below flood stage early Sunday morning. - Flood stage is 15.0 feet.",
-    "latitude": 37.99142857142857,
-    "longitude": -88.00999999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-25T18:55:33.289289+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb26d991f7bb2e8a4b65f88e9efcfc0ce8d0a26b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-5ab1a736cfce",
-    "type": "humanitarian",
-    "title": "Green forest fire notification in Angola",
-    "description": "On 24/08/2026, a forest fire started in Angola, until 25/08/2026.",
-    "latitude": -11.562753400637511,
-    "longitude": 14.965659558931613,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 95,
-    "timestamp": "2026-08-25T19:01:21+00:00",
-    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031114",
-    "classification": "disaster_alert",
-    "source": [
-      "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-62e6fbcef9a2",
-    "type": "earthquake",
-    "title": "M4.2 earthquake — 192 km SSE of Sarangani, Philippines",
-    "description": "M 4.2 - 192 km SSE of Sarangani, Philippines",
-    "latitude": 3.693,
-    "longitude": 125.8069,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T19:16:11.963000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbtj",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-d757ed069327",
-    "type": "earthquake",
-    "title": "M4.3 earthquake — 169 km SSE of Vilyuchinsk, Russia",
-    "description": "M 4.3 - 169 km SSE of Vilyuchinsk, Russia",
-    "latitude": 51.5035,
-    "longitude": 159.2777,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T19:33:01.086000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbtn",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-1757424b1de8",
-    "type": "earthquake",
-    "title": "M2.67 earthquake — 24 km SE of Emajagua, Puerto Rico",
-    "description": "M 2.7 - 24 km SE of Emajagua, Puerto Rico",
-    "latitude": 17.8766666666667,
-    "longitude": -65.6966666666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T19:47:01.170000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529788",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-8d6d3a31ab1c",
-    "type": "earthquake",
-    "title": "M2.61 earthquake — 15 km N of Kukuihaele, Hawaii",
-    "description": "M 2.6 - 15 km N of Kukuihaele, Hawaii",
-    "latitude": 20.261,
-    "longitude": -155.582166666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T19:52:38.830000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75023872",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-b5c5931b870e",
-    "type": "earthquake",
-    "title": "M3.9 earthquake — 10 km WSW of Nanwalek, Alaska",
-    "description": "M 3.9 - 10 km WSW of Nanwalek, Alaska",
-    "latitude": 59.334,
-    "longitude": -152.093,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T20:01:13.167000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qvlgrk",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-d50a579af4df",
-    "type": "earthquake",
-    "title": "M3.4 earthquake — 56 km WNW of Nanwalek, Alaska",
-    "description": "M 3.4 - 56 km WNW of Nanwalek, Alaska",
-    "latitude": 59.515,
-    "longitude": -152.86,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T20:01:13.329000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qvlfsy",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-ee407c3c7145",
-    "type": "earthquake",
-    "title": "M3.06 earthquake — 12 km WSW of Salton City, CA",
-    "description": "M 3.1 - 12 km WSW of Salton City, CA",
-    "latitude": 33.2393333333333,
-    "longitude": -116.066833333333,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T20:17:07.170000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536408",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-f82ee4e700f2",
-    "type": "earthquake",
-    "title": "M4.7 earthquake — 77 km E of Tomioka, Japan",
-    "description": "M 4.7 - 77 km E of Tomioka, Japan",
-    "latitude": 37.2686,
-    "longitude": 141.8893,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T20:23:36.308000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbu3",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-a009c7c06139",
-    "type": "wildfire",
-    "title": "Wildfire McConnell, Humboldt, Nevada",
-    "description": "3 Miles E from Orovada, NV",
-    "latitude": 41.517567,
-    "longitude": -117.74215,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T20:43:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23455",
-    "classification": "eonet_wildfire",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-dd7227ca1cf3",
-    "type": "earthquake",
-    "title": "M4.9 earthquake — 47 km NE of Ruteng, Indonesia",
-    "description": "M 4.9 - 47 km NE of Ruteng, Indonesia",
-    "latitude": -8.2554,
-    "longitude": 120.7135,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T21:23:59.352000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbup",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-9caad960fc31",
-    "type": "earthquake",
-    "title": "M4.4 earthquake — 56 km NNW of Barishal, Pakistan",
-    "description": "M 4.4 - 56 km NNW of Barishal, Pakistan",
-    "latitude": 36.7826,
-    "longitude": 74.4191,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T22:00:24.458000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbv0",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-8c77c4789921",
-    "type": "earthquake",
-    "title": "M3 earthquake — 204 km W of Bandon, Oregon",
-    "description": "M 3.0 - 204 km W of Bandon, Oregon",
-    "latitude": 43.3484,
-    "longitude": -126.9068,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-25T22:01:39.896000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbv1",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-d5db13be418e",
     "type": "earthquake",
     "title": "M2.6 earthquake — 143 km W of Ferndale, California",
@@ -2333,7 +1686,7 @@
     ]
   },
   {
-    "event_id": "SG-fdef994bc326",
+    "event_id": "SG-7c161288c921",
     "type": "earthquake",
     "title": "M2.6 earthquake — 203 km S of False Pass, Alaska",
     "description": "M 2.6 - 203 km S of False Pass, Alaska",
@@ -2657,23 +2010,6 @@
     ]
   },
   {
-    "event_id": "SG-3f0c01924a41",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Indiana... Illinois... White River at Hazleton. Wabash River from Hutsonville to Mount Carmel. .Minor flooding continues along the lower White River at Hazleton and should come to an end by Friday morning. Minor flooding also continues on the Wabash River from Hutsonville down to Mount Carmel with the crest approaching Mount Carmel. Flooding should come to an end on the Wabash during the weekend. * WHAT...Minor flooding is forecast. * WHERE...White River at Hazleton. * WHEN...Until Friday morning. * IMPACTS...At 17.0 feet, Lowest reading available from the Hazleton Staff Gage. Since the 1930s the White River has moved from the \"old wellhouse\" to several hundred yards from the \"old wellhouse\". The river returns to the \"old wellhouse\" around 17 to 17.5 feet. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...The river is expected to fall below flood stage late this evening and continue falling to 5.4 feet Sunday, September 06. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 38.480000000000004,
-    "longitude": -87.56142857142856,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-27T22:14:24.658916+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6315cb2dc8d0f54eaa778ad01fb00cd0c181d340.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-24d9dc26eb25",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2821,6 +2157,23 @@
     "confidence": 100,
     "timestamp": "2026-08-28T00:00:00+00:00",
     "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22563",
+    "classification": "eonet_tropical_cyclone",
+    "source": [
+      "NASA EONET"
+    ]
+  },
+  {
+    "event_id": "SG-22924dadb389",
+    "type": "tropical_cyclone",
+    "title": "Typhoon Saudel",
+    "description": "Severe Storms",
+    "latitude": 28.1,
+    "longitude": 121.0,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T00:00:00+00:00",
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22926",
     "classification": "eonet_tropical_cyclone",
     "source": [
       "NASA EONET"
@@ -3032,6 +2385,40 @@
     ]
   },
   {
+    "event_id": "SG-00f3fe4fdef8",
+    "type": "earthquake",
+    "title": "M2.5 earthquake — 122 km WSW of Adak, Alaska",
+    "description": "M 2.5 - 122 km WSW of Adak, Alaska",
+    "latitude": 51.363,
+    "longitude": -178.196,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T05:55:40.656000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qzxcfs",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-96c944a7511b",
+    "type": "earthquake",
+    "title": "M3.1 earthquake — 238 km W of Adak, Alaska",
+    "description": "M 3.1 - 238 km W of Adak, Alaska",
+    "latitude": 51.521,
+    "longitude": 179.964,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T06:26:43.584000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qzyddy",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-ba9de51f052d",
     "type": "humanitarian",
     "title": "Orange flood alert in Nepal",
@@ -3134,6 +2521,23 @@
     ]
   },
   {
+    "event_id": "SG-eda1c7ecbe2e",
+    "type": "earthquake",
+    "title": "M2.98 earthquake — 3 km NW of Little America, Wyoming",
+    "description": "M 3.0 - 3 km NW of Little America, Wyoming",
+    "latitude": 41.5596666666667,
+    "longitude": -109.888833333333,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T09:27:59.920000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80150926",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-134919b38924",
     "type": "earthquake",
     "title": "M2.8 earthquake — 56 km S of Whites City, New Mexico",
@@ -3145,6 +2549,57 @@
     "confidence": 100,
     "timestamp": "2026-08-28T10:02:25.484000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qxmlhv",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-22d5044a09f7",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — 114 km N of Hirara, Japan",
+    "description": "M 4.5 - 114 km N of Hirara, Japan",
+    "latitude": 25.8399,
+    "longitude": 125.2609,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T10:11:33.232000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcit",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-1b086a8dbd56",
+    "type": "earthquake",
+    "title": "M3.1 earthquake — 97 km S of Akhiok, Alaska",
+    "description": "M 3.1 - 97 km S of Akhiok, Alaska",
+    "latitude": 56.079,
+    "longitude": -154.419,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T10:18:23.669000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rafwcu",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-0ef9429d68bd",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 176 km NNE of Lospalos, Timor Leste",
+    "description": "M 4.6 - 176 km NNE of Lospalos, Timor Leste",
+    "latitude": -6.9733,
+    "longitude": 127.3738,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T10:23:05.552000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcj1",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -3182,57 +2637,6 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-3ed1508c7df0",
-    "type": "weather_alert",
-    "title": "Marine Weather Statement",
-    "description": "The areas affected include... Coastal waters from Tarpon Springs to Suwannee River FL out 20 NM... Waters from Tarpon Springs to Suwannee River FL out 20 to 60 NM... * At 714 AM EDT, Doppler radar indicated strong thunderstorms, capable of producing winds to around 30 knots. These strong thunderstorms were located 11 NM west of Aripeka, moving northeast at 10 knots. Locations impacted include... Bayport, Ozello, Hernando Beach and Yankeetown.",
-    "latitude": 28.658947368421053,
-    "longitude": -82.71736842105264,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-28T11:20:41.675537+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c410830b7a2a4b95ca353b233e531bae49cb4287.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-16287be0ce58",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Harris County in southeastern Texas... * WHEN...Until 700 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 539 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 2 inches of rain have fallen. - Additional rainfall amounts up to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Memorial Park, Greater Heights, Neartown / Montrose, Fourth Ward, Afton Oaks / River Oaks Area, Near Northside Houston, Midtown Houston, Greenway / Upper Kirby Area, Downtown Houston, University Place, southeastern Northside / Northline, Lazybrook / Timbergrove, Independence Heights, Central Northwest, The Galleria, Museum Park, Spring Branch East and Greater Uptown. - http://www.weather.gov/safety/flood",
-    "latitude": 29.785714285714285,
-    "longitude": -95.42285714285715,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-28T11:20:41.675537+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.543f54d27a3f61b2370230866dc4ae6ecf0642e3.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-8e2f47b61b24",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southeastern Okaloosa County in northwestern Florida... * WHEN...Until 730 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 429 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 2 and 3 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Wright, Fort Walton Beach, Niceville, Destin, Eglin AFB, Valparaiso, Mary Esther, Lake Lorraine, Ocean City, Shalimar, Cinco Bayou, Eglin Village, Longwood, Postil and Seminole. - http://www.weather.gov/safety/flood",
-    "latitude": 30.43769230769231,
-    "longitude": -86.50461538461538,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-28T11:20:41.675537+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4277ea8de552d804dd3385d11ba586ef736a1a8.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
     ]
   },
   {
@@ -3349,6 +2753,1232 @@
     "confidence": 100,
     "timestamp": "2026-08-28T11:20:41.675537+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2f3fad0995624f68e614b2f8acfeb9076f13f41.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-6269518830a9",
+    "type": "earthquake",
+    "title": "M2.7 earthquake — 169 km SW of Adak, Alaska",
+    "description": "M 2.7 - 169 km SW of Adak, Alaska",
+    "latitude": 51.037,
+    "longitude": -178.668,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T11:53:18.849000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rajaku",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-fbaf285ff0f8",
+    "type": "earthquake",
+    "title": "M2.69 earthquake — 6 km NNW of Redwood Valley, CA",
+    "description": "M 2.7 - 6 km NNW of Redwood Valley, CA",
+    "latitude": 39.3171653747559,
+    "longitude": -123.217834472656,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T12:15:25.690000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426292",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-f088bc54c3b0",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — 109 km S of Vanimo, Papua New Guinea",
+    "description": "M 4.5 - 109 km S of Vanimo, Papua New Guinea",
+    "latitude": -3.6651,
+    "longitude": 141.2038,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T12:21:36.915000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcjf",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7d3c9a53ec64",
+    "type": "earthquake",
+    "title": "M2.9 earthquake — 92 km SE of Atka, Alaska",
+    "description": "M 2.9 - 92 km SE of Atka, Alaska",
+    "latitude": 51.554,
+    "longitude": -173.346,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T12:31:47.826000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rakhsb",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7a57f69904dd",
+    "type": "earthquake",
+    "title": "M2.8 earthquake — 173 km WSW of Adak, Alaska",
+    "description": "M 2.8 - 173 km WSW of Adak, Alaska",
+    "latitude": 51.036,
+    "longitude": -178.741,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T12:32:37.229000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rakihk",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-85444cc63534",
+    "type": "earthquake",
+    "title": "M2.7 earthquake — 87 km ESE of Adak, Alaska",
+    "description": "M 2.7 - 87 km ESE of Adak, Alaska",
+    "latitude": 51.716,
+    "longitude": -175.392,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T13:09:06.205000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ralobx",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-f965812d775d",
+    "type": "earthquake",
+    "title": "M2.6 earthquake — 225 km W of Adak, Alaska",
+    "description": "M 2.6 - 225 km W of Adak, Alaska",
+    "latitude": 51.781,
+    "longitude": -179.9,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T13:29:07.127000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ramfkc",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7c455fbf7861",
+    "type": "reddit_report",
+    "title": "Kyiv records 13 air raid alerts in a single day, most since full-scale invasion began, as Russian attacks continue into morning",
+    "description": "submitted by /u/AdSpecialist6598 to r/worldnews [link] [comments]",
+    "latitude": 50.4501,
+    "longitude": 30.5234,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "timestamp": "2026-08-28T13:30:59+00:00",
+    "url": "https://reddit.com/r/worldnews/comments/1w0qobo/kyiv_records_13_air_raid_alerts_in_a_single_day",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_worldnews"
+    ]
+  },
+  {
+    "event_id": "SG-db2ba85567cf",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 26 km W of Ollagüe, Chile",
+    "description": "M 4.6 - 26 km W of Ollagüe, Chile",
+    "latitude": -21.2109,
+    "longitude": -68.5089,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T14:11:54.373000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcjv",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-a81766543b5d",
+    "type": "earthquake",
+    "title": "M2.91 earthquake — 9 km NE of Charlotte Amalie, U.S. Virgin Islands",
+    "description": "M 2.9 - 9 km NE of Charlotte Amalie, U.S. Virgin Islands",
+    "latitude": 18.4013333333333,
+    "longitude": -64.8641666666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T14:26:08.370000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71530188",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-b3e7af274816",
+    "type": "earthquake",
+    "title": "M4.4 earthquake — 18 km ENE of Kuji, Japan",
+    "description": "M 4.4 - 18 km ENE of Kuji, Japan",
+    "latitude": 40.2476,
+    "longitude": 141.9657,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T14:31:46.027000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tck0",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-34b14ae82f02",
+    "type": "earthquake",
+    "title": "M2.68 earthquake — 22 km SE of Yosemite Valley, CA",
+    "description": "M 2.7 - 22 km SE of Yosemite Valley, CA",
+    "latitude": 37.5839996337891,
+    "longitude": -119.422500610352,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T14:51:34.080000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426327",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-f6b7cf88ee1c",
+    "type": "earthquake",
+    "title": "M3.5 earthquake — 135 km SW of Adak, Alaska",
+    "description": "M 3.5 - 135 km SW of Adak, Alaska",
+    "latitude": 51.196,
+    "longitude": -178.25,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T15:04:11.432000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rapjuq",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-eeeb60614469",
+    "type": "reddit_report",
+    "title": "Photos show aftermath of another Russian airstrike on shopping mall in Kharkiv",
+    "description": "submitted by /u/Gwara_Media to r/OSINTUkraine [link] [comments]",
+    "latitude": 49.9935,
+    "longitude": 36.2304,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 90,
+    "timestamp": "2026-08-28T15:07:13+00:00",
+    "url": "https://reddit.com/r/OSINTUkraine/comments/1w0t5he/photos_show_aftermath_of_another_russian",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_osint_ukraine",
+      "Reddit reddit_ukrainian_conflict"
+    ]
+  },
+  {
+    "event_id": "SG-812059bc0b5f",
+    "type": "earthquake",
+    "title": "M2.7 earthquake — 181 km WSW of Adak, Alaska",
+    "description": "M 2.7 - 181 km WSW of Adak, Alaska",
+    "latitude": 51.018,
+    "longitude": -178.849,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T16:46:52.225000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rasuvt",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-51d04404e4b2",
+    "type": "earthquake",
+    "title": "M3.3 earthquake — 85 km SSE of False Pass, Alaska",
+    "description": "M 3.3 - 85 km SSE of False Pass, Alaska",
+    "latitude": 54.159,
+    "longitude": -162.842,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T17:27:56.659000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rauekh",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-26c68d9a5537",
+    "type": "earthquake",
+    "title": "M2.7 earthquake — 108 km SSW of Port Alexander, Alaska",
+    "description": "M 2.7 - 108 km SSW of Port Alexander, Alaska",
+    "latitude": 55.296,
+    "longitude": -134.986,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T17:37:07.317000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026raumta",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-c09687fd0588",
+    "type": "earthquake",
+    "title": "M4.4 earthquake — 59 km E of Pondaguitan, Philippines",
+    "description": "M 4.4 - 59 km E of Pondaguitan, Philippines",
+    "latitude": 6.4352,
+    "longitude": 126.7143,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T17:41:50.617000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcn8",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-a7db1d7396d6",
+    "type": "earthquake",
+    "title": "M2.8 earthquake — 39 km NE of Atka, Alaska",
+    "description": "M 2.8 - 39 km NE of Atka, Alaska",
+    "latitude": 52.492,
+    "longitude": -173.87,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T17:54:37.394000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ravbmp",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7a44181700f6",
+    "type": "earthquake",
+    "title": "M4.9 earthquake — Southwest Indian Ridge",
+    "description": "M 4.9 - Southwest Indian Ridge",
+    "latitude": -28.3225,
+    "longitude": 62.5441,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T19:12:55.174000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcnj",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-41bf2d66e34a",
+    "type": "reddit_report",
+    "title": "Massive detonation at a Ukrainian ammunition depot in Kyiv Oblast following Russian strikes on the object this evening. Judging by the visuals of the blasts, it appears that it was a storage of surface-to-air missiles.",
+    "description": "submitted by /u/rulepanic to r/UkrainianConflict [link] [comments]",
+    "latitude": 50.4501,
+    "longitude": 30.5234,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "timestamp": "2026-08-28T19:41:23+00:00",
+    "url": "https://reddit.com/r/UkrainianConflict/comments/1w10mjs/massive_detonation_at_a_ukrainian_ammunition",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_ukrainian_conflict"
+    ]
+  },
+  {
+    "event_id": "SG-1ac2ef498029",
+    "type": "earthquake",
+    "title": "M5 earthquake — 191 km ESE of Kimbe, Papua New Guinea",
+    "description": "M 5.0 - 191 km ESE of Kimbe, Papua New Guinea",
+    "latitude": -6.211,
+    "longitude": 151.7381,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T20:19:38.305000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcp5",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-0343dbebb206",
+    "type": "reddit_report",
+    "title": "Explosions reported in Bucha district: warehouse facilities on fire, traffic blocked on Kyiv-Chop road – photo, video",
+    "description": "submitted by /u/Lion8330 to r/UkrainianConflict [link] [comments]",
+    "latitude": 50.4501,
+    "longitude": 30.5234,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 70,
+    "timestamp": "2026-08-28T20:28:17+00:00",
+    "url": "https://reddit.com/r/UkrainianConflict/comments/1w11vr5/explosions_reported_in_bucha_district_warehouse",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_ukrainian_conflict"
+    ]
+  },
+  {
+    "event_id": "SG-93ca812ce97f",
+    "type": "earthquake",
+    "title": "M2.5 earthquake — 18 km NE of Gardendale, Texas",
+    "description": "M 2.5 - 18 km NE of Gardendale, Texas",
+    "latitude": 32.121,
+    "longitude": -102.218,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T20:31:29.870000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qyhjok",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9927ed86d1cb",
+    "type": "earthquake",
+    "title": "M2.63 earthquake — 17 km SSW of Beatty, Nevada",
+    "description": "M 2.6 - 17 km SSW of Beatty, Nevada",
+    "latitude": 36.7591,
+    "longitude": -116.805,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T21:01:01.987000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923949",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-c08521e83492",
+    "type": "reddit_report",
+    "title": "Russian jet-powered drone strikes Kharkiv gas station, kills 1, injures 5",
+    "description": "submitted by /u/Gwara_Media to r/OSINTUkraine [link] [comments]",
+    "latitude": 49.9935,
+    "longitude": 36.2304,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 90,
+    "timestamp": "2026-08-28T21:16:35+00:00",
+    "url": "https://reddit.com/r/OSINTUkraine/comments/1w13481/russian_jetpowered_drone_strikes_kharkiv_gas",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_osint_ukraine",
+      "Reddit reddit_ukrainian_conflict"
+    ]
+  },
+  {
+    "event_id": "SG-483b9395b5fa",
+    "type": "earthquake",
+    "title": "M2.57 earthquake — 66 km W of Petrolia, CA",
+    "description": "M 2.6 - 66 km W of Petrolia, CA",
+    "latitude": 40.3356666564941,
+    "longitude": -125.064002990723,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T21:24:32.660000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426512",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-5a4180a062d8",
+    "type": "reddit_report",
+    "title": "Global Freelancers Are Unknowingly Funding War Criminals, Resulting in Over 20,000 Children Ki**ed and 44,000 Injure*d",
+    "description": "Fiverr maintains systematic economic, operational, and administrative links that channel resources to the state budget and initiatives benefiting the zionists military. Because Fiverr International Ltd. is headquartered and registered in Tel Aviv, its multi-million dollar global commission revenues are subject to Israeli tax laws. The company's co-founder and CEO, Micha Kaufman, has explicitly stated that he resisted international investor pressure to relocate the corporate entity to Silicon Valley specifically for \"patriotic, Zionist reasons,\" emphasizing his intent to keep tech jobs local so that the company's financial success would \"ultimately benefit the [Israeli] tax system\" revenues which directly fund the state’s national budget, Ministry of Defense, and the ongoing military operations in Gaza. Fiverr actively leveraged its corporate infrastructure financing and physically housing the \"Lev Echad\" wartime network inside its own Tel Aviv headquarters. According to primary defense and corporate watchdog indexes, this massive logistical operation mobilized tens of thousands of zionists to package and dispatch critical medical and transport supplies that were directly distributed to zionists army ( war criminals ) personnel mobilized for active combat. submitted by /u/Suuuuuuuuiiiiiiiiiii to r/IsraelPalestine [link] [comments]",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-08-28T21:34:33+00:00",
+    "url": "https://reddit.com/r/IsraelPalestine/comments/1w13kpq/global_freelancers_are_unknowingly_funding_war",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_israel_palestine"
+    ]
+  },
+  {
+    "event_id": "SG-9af6f589507f",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 515 PM CDT, Doppler radar was tracking a strong thunderstorm near Santa Anna, moving southwest at 15 mph. HAZARD...Wind gusts up to 50 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Santa Anna, Rockwood, Mozelle, Fisk, and Shields.",
+    "latitude": 31.698,
+    "longitude": -99.372,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c320aa99aa4fd0ad2eea844fbfe159737ef1590f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8d87853d8c3e",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 414 PM MDT, severe thunderstorms were located along a line extending from 8 miles north of Grantsville to near Camp Williams, moving northeast at 35 mph. HAZARD...60 mph wind gusts. SOURCE...Radar indicated. IMPACT...Expect damage to roofs, siding, and trees. Locations impacted include... Salt Lake City, West Valley City, Sandy, Murray, Tooele, Grantsville, West Jordan, Taylorsville, South Jordan, Lehi, Draper, Riverton, Pleasant Grove, Midvale, American Fork, Herriman, Eagle Mountain, Alpine, Stansbury Park, and Bluffdale. This includes the following highways... Interstate 15 between mile markers 277 and 299. Interstate 80 in Utah between mile markers 81 and 109.",
+    "latitude": 40.644,
+    "longitude": -112.22,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20ef2a37223c0125e04acea1590920d3400eb627.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8f64cdae20f4",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 413 PM MDT, Doppler radar was tracking a line of strong thunderstorms extending from over Galeton to near Commerce City, or extending from 10 miles northeast of Greeley to 10 miles north of Denver, moving southeast at 25 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down small tree limbs and blow around unsecured objects. Locations impacted include... Northeastern Aurora, Thornton, Commerce City, Northglenn, Brighton, Denver International Airport, D.I.A Terminal and Concourses, Fort Lupton, Lochbuie, Hudson, Kersey, Keenesburg, Prospect Valley, Milton Reservoir, Roggen, Barr Lake and Gill.",
+    "latitude": 40.06,
+    "longitude": -104.6275,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c379103c4c4486e9e089c9be14733096b57c2973.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-cdb65616fc77",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 313 PM PDT, Doppler radar was tracking a strong thunderstorm 7 miles south of Oasis, moving northeast at 20 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Oasis and Silver Zone Pass.",
+    "latitude": 40.964,
+    "longitude": -114.376,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24133b5a294270af8f4aa53f463a9cf40e854097.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-126f8a202a5c",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "SMWLCH The National Weather Service in Lake Charles has issued a * Special Marine Warning for... Calcasieu Lake... * Until 545 PM CDT. * At 513 PM CDT, a strong thunderstorm was located 12 nm north of Cameron, moving west at 5 knots. HAZARD...Wind gusts to 40 knots. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * The strong thunderstorm will remain over mainly open waters.",
+    "latitude": 29.985,
+    "longitude": -93.30833333333334,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20e567bb73245e24f5bb2ec466983fb5c9cfc646.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-e7b44f7f1d30",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 611 PM EDT, a severe thunderstorm was located near Haynesville, or 20 miles southwest of Houlton, moving northeast at 35 mph. HAZARD...60 mph wind gusts and penny size hail. SOURCE...Radar indicated. IMPACT...Expect damage to trees and power lines. Locations impacted include... Houlton, Hodgdon, Island Falls, Amity, Haynesville, Cary Plantation, Reed Plantation, Linneus, Oakfield, Cary, Reed, Orient, Glenwood, Forkstown, and North Amity. This includes US Highway 1 between Orient and Hodgdon.",
+    "latitude": 45.898,
+    "longitude": -67.917,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4cbb5fc813ddfa80416701c11b781af443d8cea.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-ba010f15bcab",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "SMWAKQ The National Weather Service in Wakefield has issued a * Special Marine Warning for... Chesapeake Bay from New Point Comfort to Little Creek VA... Chesapeake Bay from Windmill Point to New Point Comfort VA... * Until 715 PM EDT. * At 611 PM EDT, a strong thunderstorm was located over New Point Comfort, moving southeast at 10 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Tue Marshes Light, New Point Comfort, York Spit Reef, Buoy 36a, The Hump, Plantation Light, Cabbage Patch, and Poquoson.",
+    "latitude": 37.202,
+    "longitude": -76.318,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4760bef48e9f3221e41f32a28bcfe86670a3e680.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-21241f8cd15a",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 409 PM MDT, severe thunderstorms were located along a line extending from near West Mountain to 9 miles northwest of Mount Pleasant, moving east at 50 mph. HAZARD...60 mph wind gusts. SOURCE...Radar indicated. IMPACT...Expect damage to roofs, siding, and trees. Locations impacted include... Provo, Payson, Orem, Spanish Fork, Pleasant Grove, Springville, American Fork, Lindon, Santaquin, Mapleton, Salem, Elk Ridge, Woodland Hills, Rocky Ridge, Vineyard, Scofield, Brigham Young University, Palmyra, Lake Shore, and Benjamin. This includes the following highways... Interstate 15 between mile markers 235 and 276. US Route 6 between mile markers 152 and 198. US Route 89 between mile markers 286 and 312.",
+    "latitude": 39.896,
+    "longitude": -111.63,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3437da99473bc6c6091b0415b884cc2c12111c2f.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-839b811f81f1",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 309 PM MST /409 PM MDT/, Doppler radar was tracking showers likely producing gusty winds. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could be a hazard to boating. Locations impacted include... Western Lake Powell. This includes U.S. Highway 89 between mile markers 549 and 552. This includes the following recreation areas and campgrounds... Wahweap Campground.",
+    "latitude": 36.96153846153846,
+    "longitude": -111.42384615384616,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e795122092a01e0066f66d40fdaeada03a259df.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-223c4cb85c4a",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 509 PM CDT, Doppler radar was tracking strong thunderstorms along a line extending from near Industry to near Simonton. Movement was southwest at 10 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Sealy, Brookshire, Bellville, Wallis, Fulshear, Simonton, San Felipe, Pattison, Orchard, Weston Lakes, New Ulm, Cat Spring, and Frelsburg.",
+    "latitude": 29.82,
+    "longitude": -96.28,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c524e80fb16f9c6ed1775a6c519b46596bdc8ec1.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b035500474e4",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "SVRCAR The National Weather Service in Caribou Maine has issued a * Severe Thunderstorm Warning for... Eastern Piscataquis County in north central Maine... Central Penobscot County in east central Maine... * Until 700 PM EDT. * At 609 PM EDT, a severe thunderstorm was located near Lake View Plantation, or 10 miles northwest of Howland, moving east at 20 mph. HAZARD...60 mph wind gusts and quarter size hail. SOURCE...Radar indicated. IMPACT...Minor hail damage to vehicles is possible. Expect wind damage to trees and power lines. * Locations impacted include... Howland, Medway, Lake View Plantation, Lincoln, Enfield, Chester, Burlington, Lowell, Medford, Woodville, Maxfield, Seboeis, and Cedar Lake. This includes Interstate 95 between mile markers 218 and 242.",
+    "latitude": 45.354,
+    "longitude": -68.712,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc012a656dcde370f88fbe6e1fe18c1db7bded2e.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-489a74944b09",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "SVRGSP The National Weather Service in Greenville-Spartanburg has issued a * Severe Thunderstorm Warning for... Northeastern Chester County in Upstate South Carolina... South central York County in Upstate South Carolina... * Until 645 PM EDT. * At 604 PM EDT, a severe thunderstorm was located 7 miles north of Chester, or near Lowrys, and is nearly stationary. It may begin to drift south or new storms may develop near it and also become severe. HAZARD...60 mph wind gusts and penny size hail. SOURCE...Radar indicated. IMPACT...Expect damage to trees and power lines. * Locations impacted include... Chester, Mcconnells, Richburg, Lowrys, and Chester State Park.",
+    "latitude": 34.814,
+    "longitude": -81.228,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cda29f92e74259ff466c7570d3a4912ac7e6a447.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-54ace180fe62",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 504 PM CDT, Doppler radar was tracking a strong thunderstorm over Grand Lake, moving west at 15 mph. HAZARD...Wind gusts up to 50 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to vegetation and outdoor objects is possible. Locations impacted include... Grand Lake, Heberts Marina, and Hackberry.",
+    "latitude": 30.008,
+    "longitude": -93.298,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df7e63bb7f59c2b3ba62d960634be5e075ebbb0b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-3bc17e70c6a1",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 602 PM EDT, Doppler radar was tracking a strong thunderstorm near Plant Hatch, moving south at 10 mph. HAZARD...Wind gusts around 40 mph and minor flooding due to heavy rainfall. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor flooding due to heavy rainfall is possible. Locations impacted include... Baxley, Hazlehurst, Graham, Plant Hatch, and Pine Grove.",
+    "latitude": 31.911578947368422,
+    "longitude": -82.49105263157894,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28d1376fb4ccc2ba2120b52e3e6990a07dd7abe0.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-33b949609a11",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 601 PM EDT, Doppler radar was tracking a strong thunderstorm over Pineville, or near Indian Land, moving southeast at 15 mph. HAZARD...Wind gusts up to 50 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Indian Land, Waxhaw, Andrew Jackson State Park, Van Wyck, Carolina Commons Shopping Center, and Community of Almond Glen.",
+    "latitude": 34.934615384615384,
+    "longitude": -80.86461538461539,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70cd2aa44ec76fee42e3dfbbb8065804bcad3e18.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-3db710398e0d",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "SVRRAH The National Weather Service in Raleigh has issued a * Severe Thunderstorm Warning for... Western Moore County in central North Carolina... Southeastern Davidson County in central North Carolina... Anson County in central North Carolina... Montgomery County in central North Carolina... Richmond County in central North Carolina... Southern Randolph County in central North Carolina... Stanly County in central North Carolina... * Until 645 PM EDT. * At 600 PM EDT, a cluster of severe thunderstorms were located mainly over Stanly and Montgomery counties, moving south at 20 mph. HAZARD...60 mph wind gusts and quarter size hail. SOURCE...Radar indicated. IMPACT...Hail damage to vehicles is expected. Expect wind damage to roofs, siding, and trees. * Locations impacted include... Albemarle, Rockingham, Wadesboro, Troy, Badin Lake, Hamlet, Biscoe, Ansonville, Seagrove, and Plyler. This includes Interstate 73 between Mile Markers 26 and 62.",
+    "latitude": 35.184999999999995,
+    "longitude": -80.01285714285714,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.097ef08e0799a97487f6ee8aab7ce860afd8149b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d08211da54cd",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 600 PM EDT, Doppler radar was tracking strong thunderstorms along a line extending from 9 miles southeast of Uptown Charlotte to 7 miles northwest of Indian Land. Movement was southeast at 10 mph. HAZARD...Wind gusts up to 40 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to outdoor objects is possible. Locations impacted include... South Charlotte, Southwest Charlotte, Matthews, Indian Trail, Weddington, Stallings, Pineville, Wesley Chapel, Waxhaw, and Mineral Springs.",
+    "latitude": 34.97428571428571,
+    "longitude": -80.78571428571429,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5359c8235db64b7995561d1766c103df1ad7410a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-84dbc8d7a1a1",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 557 PM EDT, Doppler radar was tracking a cluster of strong thunderstorms over Albemarle, moving south at 20 mph. HAZARD...Wind gusts of 50 to 55 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Albemarle, Troy, Badin Lake, Ansonville, Plyler, Polkton, Locust, Norwood, Badin, and Oakboro.",
+    "latitude": 35.26052631578948,
+    "longitude": -80.30157894736843,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16017a0a192cf0c150f2c5da6ab541117d2275ae.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b5fa1da9597f",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "SVRGSP The National Weather Service in Greenville-Spartanburg has issued a * Severe Thunderstorm Warning for... Union County in the Piedmont of North Carolina... * Until 700 PM EDT. * At 558 PM EDT, a severe thunderstorm was located near Monroe, moving slowly east at 5 mph. The storm is likely to eventually begin moving southward. HAZARD...60 mph wind gusts and nickel size hail. SOURCE...Radar indicated. IMPACT...Expect damage to trees and power lines. * Locations impacted include... Monroe, Unionville, Wingate, Marshville, Lake Park, Sturdivants, Trinity, New Salem, Hemby Bridge, and Fairview In Union County.",
+    "latitude": 35.04666666666667,
+    "longitude": -80.41888888888889,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b122b37e5f6d710d1a87de43947db3519eabc452.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1835d788139b",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 455 PM CDT, Doppler radar was tracking an outflow boundary along a line extending from 9 miles southeast of Rosebud to 10 miles northeast of Rockdale to 7 miles north of Caldwell. Movement was southwest at 30 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Strong outflow winds will be near... Cameron around 500 PM CDT. Rockdale around 505 PM CDT. Alcoa Lake around 515 PM CDT. Other locations impacted by these storms include Hanover, Minerva, Ben Arnold, San Gabriel, Baileyville, Sharp, Maysfield, Yarrelton, Hoyte, and Crossroads.",
+    "latitude": 30.883333333333333,
+    "longitude": -96.8547619047619,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.286097a922d3b9c3d27702dcfa2a64db45ce6071.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8c41cb5e3f40",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Harris County in southeastern Texas... * WHEN...Until 600 PM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 457 PM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 3 inches of rain have fallen. - Some locations that will experience flooding include... Willowbrook. - http://www.weather.gov/safety/flood",
+    "latitude": 29.992,
+    "longitude": -95.58,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d72ad27517f0a6ab92fc317dc9722cf12cb031fd.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-cef3d8a5fc9e",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "SVRHGX The National Weather Service in League City has issued a * Severe Thunderstorm Warning for... Southeastern Montgomery County in southeastern Texas... North central Harris County in southeastern Texas... * Until 530 PM CDT. * At 455 PM CDT, a severe thunderstorm was located over northwestern Bush Intercontinental Airport, or near Spring, moving west at 15 mph. HAZARD...60 mph wind gusts. SOURCE...Radar indicated. IMPACT...Expect damage to roofs, siding, and trees. * Locations impacted include... Humble, Greater Greenspoint, Spring, Kingwood, and Bush Intercontinental Airport.",
+    "latitude": 30.013333333333335,
+    "longitude": -95.38833333333334,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.60d36798b9088dc200e13e1cedfc5fe1bf6dcd1f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c27769133763",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall over Secret Pass burn scar is expected. * WHERE...Southeastern Elko County in northeastern Nevada... * WHEN...Until 445 PM PDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas and over Secret Pass burn scar. Water over roadways. * ADDITIONAL DETAILS... - At 251 PM PDT, Doppler radar indicated heavy rain. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.1 and 0.2 inches of rain have fallen. - Some locations that will experience flooding include... Mainly rural areas of Southeastern Elko County. - http://www.weather.gov/safety/flood",
+    "latitude": 40.885,
+    "longitude": -115.26,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ecae6a8bd5bb1caeece12285cd8a31e0571a4c8.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b43f2f267059",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southeastern Davidson County in central North Carolina... Northwestern Montgomery County in central North Carolina... Southwestern Randolph County in central North Carolina... North Central Stanly County in central North Carolina... * WHEN...Until 900 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 553 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 2 inches of rain have fallen. - Additional rainfall amounts up to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Badin Lake, Denton, Richfield, New London, Martha, Gordontown, Pinehaven Marina, Newsom, Whip-O-Will Campground, Fish Tales Marina, High Rock, High Rock Boat Dock Marina, Nc Wildlife Access Boat Launch, High Rock Lake Marina & Campground and High Rock Lake. - http://www.weather.gov/safety/flood",
+    "latitude": 35.586666666666666,
+    "longitude": -80.18666666666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.100a6dfe926ec7ee9ffaad5581d8b3da78c38975.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-524d81268c70",
+    "type": "weather_alert",
+    "title": "Marine Weather Statement",
+    "description": "The areas affected include... Volusia-Brevard County Line to Sebastian Inlet 0-20 nm... At 547 PM EDT, Doppler radar indicated a strong thunderstorm, capable of producing winds to around 30 knots. This thunderstorm was located over Titusville, moving east at 5 knots.",
+    "latitude": 28.60666666666667,
+    "longitude": -80.67999999999999,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9602c412a66a19efd24a4e7f536c447fd75ca9ef.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4fe559985786",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "SVRRAH The National Weather Service in Raleigh has issued a * Severe Thunderstorm Warning for... Northwestern Moore County in central North Carolina... Montgomery County in central North Carolina... Southern Randolph County in central North Carolina... * Until 630 PM EDT. * At 546 PM EDT, a severe thunderstorm was located near Seagrove, or 9 miles north of Troy, and is nearly stationary. HAZARD...60 mph wind gusts and quarter size hail. SOURCE...Radar indicated. IMPACT...Hail damage to vehicles is expected. Expect wind damage to roofs, siding, and trees. * Locations impacted include... Troy, North Carolina Zoo, Badin Lake, Biscoe, Seagrove, Mount Gilead, Robbins, Star, Candor, and Eldorado. This includes Interstate 73 between Mile Markers 41 and 70.",
+    "latitude": 35.45666666666667,
+    "longitude": -79.8925,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a771e5793f0fcff89635944159e186ad58806ee2.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c99e9176a48f",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 544 PM EDT, Doppler radar was tracking a strong thunderstorm over Shannon, or near Red Springs, moving north at 10 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Fayetteville, Raeford, Maxton, Antioch, Hope Mills, Wagram, Silver City, Rockfish, Bowmore, and Sandhills Game Land. This includes Interstate 95 between Mile Markers 46 and 41.",
+    "latitude": 34.87571428571429,
+    "longitude": -79.14642857142857,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.487baff651fff086915604285ee76e724b9f0cf4.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4fb831c96454",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 544 PM EDT, a strong thunderstorm was near Workmore, or 9 miles southwest of McRae. This storm was nearly stationary. HAZARD...Frequent cloud to ground lightning and heavy rain. SOURCE...Radar indicated. IMPACT...Lightning is one of nature's leading killers. If you can hear thunder, you are close enough to be struck by lightning. Heavy rain may cause temporary street flooding especially in poor drainage areas. Locations impacted include... Milan, Jacksonville, Horse Creek Wma, and Workmore.",
+    "latitude": 31.84333333333333,
+    "longitude": -82.87066666666666,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4cc5e3cb96aa16856e23a2bcc8d4e9b4a71b893d.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d5ac07b81822",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 541 PM EDT, Doppler radar was tracking strong thunderstorms along a line extending from 11 miles north of Rock Hill to 7 miles southeast of Spartanburg. Movement was south at 10 mph. HAZARD...Wind gusts up to 40 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to outdoor objects is possible. Locations impacted include... Rock Hill, Union, York, Chester, Fort Mill, Tega Cay, Clover, Newport, Pacolet, and Lesslie.",
+    "latitude": 34.91285714285714,
+    "longitude": -81.145,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e694bdf5db0cb300ed3b493f36b94ba18130b9e.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-853cfebd5d5f",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 539 PM EDT, Doppler radar was tracking strong thunderstorms capable of producing a landspout along a line extending from Southeast Arcadia to 10 miles south of Arcadia to near Babcock Ranch. Movement was northeast at 5 mph. HAZARD...Landspouts and wind gusts of 50 to 55 mph. SOURCE...Radar indicated. IMPACT...Minor damage to outdoor objects is possible. Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Babcock Ranch and Southeast Arcadia.",
+    "latitude": 27.08,
+    "longitude": -81.75833333333334,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7dc67b62efb5b9ea909f5c5c1d555250d1cae48e.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-cd005c61d2c0",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...North Central Duval County in northeastern Florida... West Central Nassau County in northeastern Florida... * WHEN...Until 845 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 538 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Callahan, Ratliff and Nassau Village-Ratliff. - http://www.weather.gov/safety/flood",
+    "latitude": 30.487142857142857,
+    "longitude": -81.84619047619047,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd14432955baf3b9a9a715599b4ffc8e726a82a1.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-ef9442949c61",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWAKQ The National Weather Service in Wakefield has issued a * Flash Flood Warning for... Surry County in southeastern Virginia... Northeastern Sussex County in southeastern Virginia... * Until 800 PM EDT. * At 526 PM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 2 and 2.5 inches of rain have fallen in the past 40 minutes. The expected rainfall rate is 0.75 to 1 inch in 15 minutes. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Dendron, Elberon, Ellis Fork and Runnymede.",
+    "latitude": 37.041000000000004,
+    "longitude": -76.896,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39bfe598af99e39782730b39d5b697731c3d0458.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-46462c48de29",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "At 305 PM MDT, Doppler radar and automated rain gauges indicated thunderstorms producing heavy rain over the Hermits Peak and Calf Canyon Burn Scar. Between 0.75 and 1.5 inches of rain have fallen, primarily along the headwaters of the Tecolote and Gallinas Creeks. Flooding impacts will continue, but no additional rainfall is expected. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding in and around the Hermits Peak and Calf Canyon Burn Scar. SOURCE...Radar and automated gauges. IMPACT...Life threatening flash flooding of areas in and around the Hermits Peak and Calf Canyon Burn Scar. Some locations that will experience flash flooding include... El Porvenir, Montezuma, Mineral Hill, Gallinas and San Geronimo. This also includes Blue Haven Youth Camp and Sebastian Canyon.",
+    "latitude": 35.650666666666666,
+    "longitude": -105.43599999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac480c86bb7ad0fd20a4b6f3de4204f88f7f1044.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2cdba5a87d81",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWSLC The National Weather Service in Salt Lake City has issued a * Flash Flood Warning for... Southeastern Iron County in southern Utah... West Central Kane County in southern Utah... Southeastern Washington County in southwestern Utah... * Until 600 PM MDT. * At 305 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area, including Zion National Park. Up to 0.25 inches of rain have fallen. Additional rainfall amounts of 0.5 to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of slot canyons, normally dry washes, and creeks. * Some locations that will experience flash flooding include... Zion National Park, La Verkin, Apple Valley, Virgin, Springdale and Rockville.",
+    "latitude": 37.256,
+    "longitude": -113.128,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b26b9759a51732694bda8a4d1581b1cf5e8bbc74.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9427c897d19e",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...West Central Socorro County in central New Mexico... * WHEN...Until 600 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 255 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause arroyo and small stream flooding. Between 0.5 and 1 inch of rain has fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... National Radio Astronomy Observatory. - http://www.weather.gov/safety/flood",
+    "latitude": 34.035000000000004,
+    "longitude": -107.57,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f181c28a1961db0617c4d6c9d7bb59566abe3b3.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-72020dc88caa",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWEPZ The National Weather Service in El Paso Tx/Santa Teresa has issued a * Flash Flood Warning for... Northeastern Grant County in southwestern New Mexico... * Until 445 PM MDT. * At 242 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 1.5 inches of rain have fallen. Additional rainfall amounts up to 0.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Lake Roberts, Sapillo Creek Valley, Trout Valley and Lake Roberts Heights.",
+    "latitude": 33.036,
+    "longitude": -108.16600000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4dd921188e73058d8135d1c401195ab044e6f7b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-aaea0014a5ea",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northeastern Nassau County in northeastern Florida... Southeastern Camden County in southeastern Georgia... * WHEN...Until 715 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 419 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 3 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... St. Marys, Fernandina Beach, Kings Bay Base, Yulee, Dungeness, Cumberland Island and High Point. - http://www.weather.gov/safety/flood",
+    "latitude": 30.755555555555556,
+    "longitude": -81.49666666666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.40426989173b3299fabb750c6ba5d528a7202b7a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-18429c286a96",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...Central Sandoval County in north central New Mexico... * WHEN...Until 430 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 134 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause arroyo and small stream flooding. Between 0.75 and 1.1 inches of rain have fallen. - Additional rainfall amounts up to 0.25 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Fenton Lake State Park. - http://www.weather.gov/safety/flood",
+    "latitude": 35.875,
+    "longitude": -106.728,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d8c657df1fa3a2221b99a129dee35e0d943b1b2.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f629d9888f79",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...Northeastern Rio Arriba County in north central New Mexico... Northwestern Taos County in north central New Mexico... * WHEN...Until 430 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 132 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause arroyo and small stream flooding. Between 0.75 and 1.25 inches of rain have fallen. - Additional rainfall amounts up to 0.25 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Tres Piedras. - http://www.weather.gov/safety/flood",
+    "latitude": 36.645833333333336,
+    "longitude": -106.00916666666666,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.49edbb798b9c36deecc03af2987ca8fe7374360b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-5b99677fb4e1",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Indiana... Illinois... Wabash River at New Harmony. .The stage at New Harmony has crested and is forecast to fall below flood stage late Saturday. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at New Harmony. * WHEN...Until late Saturday night. * ADDITIONAL DETAILS... - At 9:30 AM CDT Friday the stage was 15.2 feet. - Forecast...The river is expected to hold steady near 15.3 feet this afternoon. It will then fall below flood stage tomorrow evening. - Flood stage is 15.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 37.99142857142857,
+    "longitude": -88.00999999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39eccd9e18b73386624b9dcef188c223962fce29.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2313f41468dd",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Indiana...Illinois... Wabash River from Hutsonville to Vincennes. .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crest. Flooding should come to an end on the Wabash during the weekend. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at Vincennes. * WHEN...Until late Saturday night. * IMPACTS...At 18.0 feet, Agricultural lands and some oil fields flood. Several township roads about 1.25 miles south of St. Francesville and River Road between Billett Road and Lincoln Memorial Bridge in Lawrence County are flooded. Extensive flooding of Kimmell Park at Vincennes. * ADDITIONAL DETAILS... - At 8:45 AM CDT /9:45 AM EDT/ Friday the stage was 18.1 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:45 AM CDT /9:45 AM EDT/ Friday was 18.6 feet. - Forecast...The river is expected to fall below flood stage tomorrow afternoon and continue falling to 4.6 feet Monday, September 07. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 38.714285714285715,
+    "longitude": -87.57142857142857,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d6d2ad6897bfc2053b7ba54c44a8a9b438cb92a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8e1215cf7c02",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Indiana...Illinois... Wabash River from Hutsonville to Vincennes. .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crest. Flooding should come to an end on the Wabash during the weekend. * WHAT...Minor flooding is forecast. * WHERE...Wabash River at Hutsonville Legacy Power Plant Site. * WHEN...Until Sunday morning. * IMPACTS...At 18.0 feet, Seep water occurs behind levees on Indiana side. Hutson Creek begins to overflow from backwater. Old Darwin Road and a few rural roads in eastern Clark and Crawford counties in Illinois are impassable. Low agricultural land floods. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...The river is expected to fall below flood stage late tomorrow evening and continue falling to 6.5 feet Monday, September 07. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.230000000000004,
+    "longitude": -87.60428571428572,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d6d2ad6897bfc2053b7ba54c44a8a9b438cb92a.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-af83f189f98f",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Illinois... Illinois River at Beardstown affecting Schuyler, Morgan, Cass and Brown Counties. Illinois River near Havana affecting Fulton, Mason and Cass Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Illinois River at Beardstown. * WHEN...Until late Saturday night. * IMPACTS...At 14.4 feet, Seepage problems begin in the Coal Creek Drainage and Levee District. * ADDITIONAL DETAILS... - At 8:45 AM CDT Friday the stage was 14.8 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:45 AM CDT Friday was 15.4 feet. - Forecast...The river is expected to fall below flood stage tomorrow evening and continue falling to 11.5 feet Friday, September 04. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 40.098571428571425,
+    "longitude": -90.35285714285715,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf144b3fbb1c00e70d11145cd0b83e2f4df23a65.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-31755da13a62",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Illinois... Illinois River at Beardstown affecting Schuyler, Morgan, Cass and Brown Counties. Illinois River near Havana affecting Fulton, Mason and Cass Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Illinois River near Havana. * WHEN...Until Saturday morning. * IMPACTS...At 14.0 feet, Minor flooding begins to agricultural areas not protected by levees. * ADDITIONAL DETAILS... - At 8:45 AM CDT Friday the stage was 14.2 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:45 AM CDT Friday was 14.8 feet. - Forecast...The river is expected to fall below flood stage just after midnight tonight and continue falling to 9.8 feet Friday, September 04. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 40.36571428571428,
+    "longitude": -90.01142857142857,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-28T22:16:59.541208+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf144b3fbb1c00e70d11145cd0b83e2f4df23a65.002.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
