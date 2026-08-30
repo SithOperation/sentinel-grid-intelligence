@@ -1,288 +1,5 @@
 [
   {
-    "event_id": "SG-dae86b75d11d",
-    "type": "earthquake",
-    "title": "M2.8 earthquake — 6 km N of Petersville, Alaska",
-    "description": "M 2.8 - 6 km N of Petersville, Alaska",
-    "latitude": 62.557,
-    "longitude": -150.742,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T08:22:49.283000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qyfxsi",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-7c03dd3f00d3",
-    "type": "europe_security",
-    "title": "EU heavyweights call on Brussels to reignite frozen Russian asset debate",
-    "description": "POLITICO Europe Defence reported: Ukraine already faces a €23 billion hole in its defense budget.",
-    "latitude": 49.0,
-    "longitude": 31.4,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-08-27T09:16:52+00:00",
-    "url": "https://www.politico.eu/article/eu-heavyweights-call-on-brussels-to-reignite-frozen-russian-asset-debate",
-    "classification": "russian_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "RUSSIA",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-61c8971e3a65",
-    "location_precision": "country",
-    "europe_layers": [
-      "russian_activity",
-      "ukraine_war"
-    ]
-  },
-  {
-    "event_id": "SG-0e740c771cc4",
-    "type": "reddit_report",
-    "title": "Molniya drone attacks Kharkiv, injuring man",
-    "description": "submitted by /u/Gwara_Media to r/OSINTUkraine [link] [comments]",
-    "latitude": 49.9935,
-    "longitude": 36.2304,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 90,
-    "timestamp": "2026-08-27T09:28:24+00:00",
-    "url": "https://reddit.com/r/OSINTUkraine/comments/1vzp3vr/molniya_drone_attacks_kharkiv_injuring_man",
-    "classification": "source_reported",
-    "source": [
-      "Reddit reddit_osint_ukraine",
-      "Reddit reddit_ukrainian_conflict"
-    ]
-  },
-  {
-    "event_id": "SG-9a04693aa770",
-    "type": "earthquake",
-    "title": "M4.5 earthquake — 205 km SE of Vilyuchinsk, Russia",
-    "description": "M 4.5 - 205 km SE of Vilyuchinsk, Russia",
-    "latitude": 51.4769,
-    "longitude": 160.2665,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T09:33:59.785000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc8e",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-b0c28a69c139",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois...Indiana... Wabash River from Montezuma to Mount Carmel. White River from Petersburg to Hazleton. .Minor flooding continues along the lower White River from Petersburg to Hazleton. Minor flooding also continues on the Wabash River from Montezuma down to Mount Carmel with the crest at Vincennes. Rain amounts with scattered storms this evening are not expected to impact main stem river levels, but locally heavy rainfall in a basin could cause a bump in stage as well as lengthen the amount of time in flood. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at Riverton. * WHEN...Until late Saturday night. * IMPACTS...At 20.7 feet, Leaverton Park at Palestine, Illinois extensively floods including the campground area. Rodeo area still dry at this level. Most if not all local unimproved roads leading to the Wabash River in the Palestine area are impassable by any land vehicle. Extensive backwater flooding of Minnow Slough, Sugar Creek and Lamotte Creek in Palestine area. Numerous river cabins surrounded by water across the river from Merom Bluff. Backyards of a few residences southeast of Palestine along East River Road flood. * ADDITIONAL DETAILS... - At 12:00 PM CDT /1:00 PM EDT/ Wednesday the stage was 20.8 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 12:00 PM CDT /1:00 PM EDT/ Wednesday was 21.2 feet. - Forecast...The river is expected to fall below flood stage Saturday afternoon and continue falling to 7.6 feet Saturday, September 05. - Flood stage is 15.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.01,
-    "longitude": -87.57571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-27T09:43:57.419103+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.370c270d7d1b162addcf02dc7258854c454ad061.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a18213d1e0e4",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Indiana... Illinois... Wabash River at New Harmony. .Recent heavy rainfall is resulting in continued slow rises on the Wabash River. At New Harmony, the river will crest O.7 feet above flood stage Friday, then fall below flood stage early Sunday. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at New Harmony. * WHEN...Until Sunday morning. * ADDITIONAL DETAILS... - At 10:30 AM CDT Wednesday the stage was 15.3 feet. - Forecast...The river is expected to rise to a crest of 15.7 feet early Friday morning. It will then fall below flood stage early Sunday morning. - Flood stage is 15.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 37.99142857142857,
-    "longitude": -88.00999999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-27T09:43:57.419103+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80abf59b6e06e78388409835cfc374b6df25c536.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-cd6a259d08f2",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois... Illinois River at Beardstown affecting Brown, Schuyler, Morgan and Cass Counties. Illinois River near Havana affecting Fulton, Cass and Mason Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Illinois River at Beardstown. * WHEN...Until Monday morning. * IMPACTS...At 14.4 feet, Seepage problems begin in the Coal Creek Drainage and Levee District. * ADDITIONAL DETAILS... - At 7:45 PM CDT Wednesday the stage was 15.6 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:45 PM CDT Wednesday was 16.0 feet. - Forecast...The river is expected to fall below flood stage early Monday morning and continue falling to 12.4 feet Wednesday, September 02. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 40.098571428571425,
-    "longitude": -90.35285714285715,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-27T09:43:57.419103+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e58e572d30a7f9919450eb1ec53c819e613e0e40.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-1a60ed7d3ead",
-    "type": "earthquake",
-    "title": "M3.4 earthquake — 30 km NE of Fox River, Alaska",
-    "description": "M 3.4 - 30 km NE of Fox River, Alaska",
-    "latitude": 60.021,
-    "longitude": -150.512,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T10:05:03.286000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qyjins",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-5d0c91184034",
-    "type": "earthquake",
-    "title": "M5.3 earthquake — 54 km NNE of Labuan Bajo, Indonesia",
-    "description": "M 5.3 - 54 km NNE of Labuan Bajo, Indonesia",
-    "latitude": -8.0324,
-    "longitude": 120.0539,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T10:33:24.325000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc8j",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-225083b28688",
-    "type": "earthquake",
-    "title": "M2.9 earthquake — 105 km SE of False Pass, Alaska",
-    "description": "M 2.9 - 105 km SE of False Pass, Alaska",
-    "latitude": 54.08,
-    "longitude": -162.482,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T10:55:57.166000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qylbzs",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-d8aae5705c4b",
-    "type": "conflict",
-    "title": "Man who attacked nun on CCTV in Jerusalem acquitted on grounds of mental health",
-    "description": "A Jerusalem court said the Jewish attacker was having a psychotic episode when he assaulted the nun, in an incident which caused outrage.",
-    "latitude": 31.7683,
-    "longitude": 35.2137,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 80,
-    "timestamp": "2026-08-27T11:23:28+00:00",
-    "url": "https://www.bbc.co.uk/news/articles/cpwl54kddeko?at_medium=RSS&at_campaign=rss",
-    "classification": "conflict_report",
-    "source": [
-      "BBC World News"
-    ]
-  },
-  {
-    "event_id": "SG-d71702de3b96",
-    "type": "earthquake",
-    "title": "M4.9 earthquake — Indian Ocean Triple Junction",
-    "description": "M 4.9 - Indian Ocean Triple Junction",
-    "latitude": -26.0744,
-    "longitude": 70.7736,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T11:47:16.381000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc95",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-61fd12db0c2c",
-    "type": "europe_security",
-    "title": "NATO and Moscow must increase dialogue to avoid accidental war, Russian envoy says",
-    "description": "POLITICO Europe Defence reported: Despite recent U.S. moves to restore military contact, the risk of conflict is rising \"significantly,\" Nikolay Korchunov says.",
-    "latitude": 61.524,
-    "longitude": 105.3188,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-08-27T11:58:44+00:00",
-    "url": "https://www.politico.eu/article/nato-and-moscow-must-increase-dialogue-to-avoid-accidental-war-russian-envoy-says",
-    "classification": "russian_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "NATO",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-f75d7d3952a0",
-    "location_precision": null,
-    "europe_layers": [
-      "nato_activity",
-      "russian_activity"
-    ]
-  },
-  {
-    "event_id": "SG-4f8ae66298f6",
-    "type": "earthquake",
-    "title": "M2.5 earthquake — 98 km SW of Atka, Alaska",
-    "description": "M 2.5 - 98 km SW of Atka, Alaska",
-    "latitude": 51.523,
-    "longitude": -175.124,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T12:21:11.155000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qynxwz",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-47e671cf900a",
-    "type": "reddit_report",
-    "title": "Russian jet-powered Shahed drone hits shopping mall in Kharkiv, killing 1, injuring 4",
-    "description": "submitted by /u/Gwara_Media to r/OSINTUkraine [link] [comments]",
-    "latitude": 49.9935,
-    "longitude": 36.2304,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 90,
-    "timestamp": "2026-08-27T13:19:09+00:00",
-    "url": "https://reddit.com/r/OSINTUkraine/comments/1vztry6/russian_jetpowered_shahed_drone_hits_shopping",
-    "classification": "source_reported",
-    "source": [
-      "Reddit reddit_osint_ukraine",
-      "Reddit reddit_ukrainian_conflict"
-    ]
-  },
-  {
     "event_id": "SG-7cd279c6a421",
     "type": "earthquake",
     "title": "M5 earthquake — western Xizang",
@@ -1363,40 +1080,6 @@
     ]
   },
   {
-    "event_id": "SG-9de8f0df26bc",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois... Illinois River at Beardstown affecting Schuyler, Brown, Morgan and Cass Counties. Illinois River near Havana affecting Fulton, Mason and Cass Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Illinois River at Beardstown. * WHEN...Until Sunday morning. * IMPACTS...At 14.4 feet, Seepage problems begin in the Coal Creek Drainage and Levee District. * ADDITIONAL DETAILS... - At 7:45 PM CDT Thursday the stage was 15.1 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:45 PM CDT Thursday was 15.6 feet. - Forecast...The river is expected to fall below flood stage early Sunday morning and continue falling to 10.6 feet Thursday, September 03. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 40.098571428571425,
-    "longitude": -90.35285714285715,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-28T11:20:41.675537+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.668e1ae69338a74e54485f42c8b6cbf9659a53ab.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b9cbef4352f0",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois...Indiana... Wabash River at Mount Carmel Wabash River at Riverton ...The Flood Warning is extended for the following rivers in Illinois...Indiana... Wabash River at Vincennes Wabash River at Hutsonville Legacy Power Plant Site .Minor flooding also continues on the Wabash River from Hutsonville down to Mount Carmel with the crest approaching Mount Carmel. Flooding should come to an end on the Wabash during the weekend. * WHAT...Minor flooding is forecast. * WHERE...Wabash River at Hutsonville Legacy Power Plant Site. * WHEN...Until Sunday morning. * IMPACTS...At 20.0 feet, Leaverton Park in Palestine and park in Hutsonville begin to flood. Agricultural flooding spreads to higher land. Seep water is noticeable behind levees. Some elevated river cottages are surrounded by water. Several county or township roads east of Lincoln Heritage Trail between Palestine and Hutsonville in Crawford County Illinois are impassable. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...The river is expected to fall below flood stage Saturday evening and continue falling to 6.7 feet Sunday, September 06. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.230000000000004,
-    "longitude": -87.60428571428572,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-28T11:20:41.675537+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd9499db912cf41eedf6e7ed89ab331259907008.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-6269518830a9",
     "type": "earthquake",
     "title": "M2.7 earthquake — 169 km SW of Adak, Alaska",
@@ -1943,23 +1626,6 @@
     ]
   },
   {
-    "event_id": "SG-2313f41468dd",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana...Illinois... Wabash River from Hutsonville to Vincennes. .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crest. Flooding should come to an end on the Wabash during the weekend. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at Vincennes. * WHEN...Until late Saturday night. * IMPACTS...At 18.0 feet, Agricultural lands and some oil fields flood. Several township roads about 1.25 miles south of St. Francesville and River Road between Billett Road and Lincoln Memorial Bridge in Lawrence County are flooded. Extensive flooding of Kimmell Park at Vincennes. * ADDITIONAL DETAILS... - At 8:45 AM CDT /9:45 AM EDT/ Friday the stage was 18.1 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:45 AM CDT /9:45 AM EDT/ Friday was 18.6 feet. - Forecast...The river is expected to fall below flood stage tomorrow afternoon and continue falling to 4.6 feet Monday, September 07. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 38.714285714285715,
-    "longitude": -87.57142857142857,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-28T22:16:59.541208+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d6d2ad6897bfc2053b7ba54c44a8a9b438cb92a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-8e1215cf7c02",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2382,23 +2048,6 @@
     "classification": "disaster_alert",
     "source": [
       "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-7f757588f476",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana...Illinois... Wabash River from Hutsonville to Vincennes. .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crested. Flooding should come to an end on the Wabash over the weekend. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at Vincennes. * WHEN...Until Sunday morning. * IMPACTS...At 18.0 feet, Agricultural lands and some oil fields flood. Several township roads about 1.25 miles south of St. Francesville and River Road between Billett Road and Lincoln Memorial Bridge in Lawrence County are flooded. Extensive flooding of Kimmell Park at Vincennes. * ADDITIONAL DETAILS... - At 7:45 PM CDT /8:45 PM EDT/ Friday the stage was 17.7 feet. - Bankfull stage is 10.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:45 PM CDT /8:45 PM EDT/ Friday was 18.4 feet. - Forecast...The river is expected to fall below flood stage tomorrow evening and continue falling to 4.5 feet Monday, September 07. - Flood stage is 16.0 feet. - Flood History...This crest compares to a previous crest of 17.7 feet on 06/12/1980. - http://www.weather.gov/safety/flood",
-    "latitude": 38.714285714285715,
-    "longitude": -87.57142857142857,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-29T07:01:56.308021+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55513f7e9c408f5bc1ea8c3d4b8ca021151f81f3.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
     ]
   },
   {
@@ -2889,6 +2538,23 @@
     ]
   },
   {
+    "event_id": "SG-5375c62a74a6",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 209 km SSW of Al Ghayz̧ah, Yemen",
+    "description": "M 4.6 - 209 km SSW of Al Ghayz̧ah, Yemen",
+    "latitude": 14.4444,
+    "longitude": 51.4684,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-29T19:36:06.021000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcyu",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-7f2abe4092c2",
     "type": "earthquake",
     "title": "M4.2 earthquake — 42 km ESE of Farkhār, Afghanistan",
@@ -3042,6 +2708,23 @@
     ]
   },
   {
+    "event_id": "SG-850fcf2a7883",
+    "type": "earthquake",
+    "title": "M3.34 earthquake — 40 km NW of Rincón, Puerto Rico",
+    "description": "M 3.3 - 40 km NW of Rincón, Puerto Rico",
+    "latitude": 18.5581666666667,
+    "longitude": -67.5618333333333,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T01:50:22.410000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71530298",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-9da1a7015738",
     "type": "earthquake",
     "title": "M2.5 earthquake — 70 km WNW of Nikiski, Alaska",
@@ -3095,15 +2778,15 @@
   {
     "event_id": "SG-b4c92bb70ccb",
     "type": "earthquake",
-    "title": "M4.2 earthquake — 48 km NNW of San Antonio, Puerto Rico",
-    "description": "M 4.2 - 48 km NNW of San Antonio, Puerto Rico",
-    "latitude": 18.9034,
-    "longitude": -67.2509,
+    "title": "M3.96 earthquake — 50 km NNW of San Antonio, Puerto Rico",
+    "description": "M 4.0 - 50 km NNW of San Antonio, Puerto Rico",
+    "latitude": 18.9116,
+    "longitude": -67.2885,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-08-30T05:47:02.828000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwu",
+    "timestamp": "2026-08-30T05:47:03.570000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026242001",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -3127,6 +2810,23 @@
     ]
   },
   {
+    "event_id": "SG-b174a5407b7d",
+    "type": "earthquake",
+    "title": "M3.77 earthquake — 75 km NE of Cruz Bay, U.S. Virgin Islands",
+    "description": "M 3.8 - 75 km NE of Cruz Bay, U.S. Virgin Islands",
+    "latitude": 18.888,
+    "longitude": -64.3826,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T07:24:17.320000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026242000",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-4a325dce1539",
     "type": "earthquake",
     "title": "M4.9 earthquake — 76 km WNW of Bengkulu, Indonesia",
@@ -3144,6 +2844,126 @@
     ]
   },
   {
+    "event_id": "SG-442e9c33b3b0",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — 156 km SSE of Vilyuchinsk, Russia",
+    "description": "M 4.5 - 156 km SSE of Vilyuchinsk, Russia",
+    "latitude": 51.5864,
+    "longitude": 159.1009,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T08:09:44.363000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcxi",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9256cf433af1",
+    "type": "earthquake",
+    "title": "M5.8 earthquake — Kermadec Islands, New Zealand",
+    "description": "M 5.8 - Kermadec Islands, New Zealand",
+    "latitude": -30.1462,
+    "longitude": -177.8882,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T09:02:09.229000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcxn",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program",
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-f3bfbea6c18a",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — south of the Fiji Islands",
+    "description": "M 4.5 - south of the Fiji Islands",
+    "latitude": -23.414,
+    "longitude": -179.9128,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T09:13:55.515000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcy0",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-4ae6b5b2eb23",
+    "type": "earthquake",
+    "title": "M2.9 earthquake — 26 km W of Auburn, Wyoming",
+    "description": "M 2.9 - 26 km W of Auburn, Wyoming",
+    "latitude": 42.834,
+    "longitude": -111.323,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T09:17:01.614000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcy1",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-c7a961e313d6",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 52 km NNE of Ruteng, Indonesia",
+    "description": "M 4.6 - 52 km NNE of Ruteng, Indonesia",
+    "latitude": -8.1634,
+    "longitude": 120.6265,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T11:03:03.581000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcyr",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-cf59aca69966",
+    "type": "earthquake",
+    "title": "M4.3 earthquake — 90 km SW of Brisas Barra de Suchiate, Mexico",
+    "description": "M 4.3 - 90 km SW of Brisas Barra de Suchiate, Mexico",
+    "latitude": 14.0451,
+    "longitude": -92.8925,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T11:21:28.783000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcyl",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-272e2a42d309",
+    "type": "reddit_report",
+    "title": "Hijabi friendly places in Lebanon/Beirut?",
+    "description": "Hello, my mother is planning a trip to Beirut soon and I could use some recommendations for her upcoming visit. 1- Are there are any beaches/beach clubs that allow Burkinis? (Swim-safe ones) 2- What restaurants with classic live music do you recommend? Could be in Beirut or in another city. She doesn't like loud music/DJs so not a pub more like a regular restaurant with a band that allows hijabis. Thank you so much! submitted by /u/CaptainPhasma1 to r/lebanon [link] [comments]",
+    "latitude": 33.8938,
+    "longitude": 35.5018,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-08-30T11:44:02+00:00",
+    "url": "https://reddit.com/r/lebanon/comments/1w2fd6t/hijabi_friendly_places_in_lebanonbeirut",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_lebanon"
+    ]
+  },
+  {
     "event_id": "SG-26912e81fab1",
     "type": "weather_alert",
     "title": "Flood Advisory",
@@ -3153,7 +2973,7 @@
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-08-30T08:06:11.833375+00:00",
+    "timestamp": "2026-08-30T13:43:43.084550+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73bb894b58cb370a80e3d911af38308f7db77b25.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -3170,7 +2990,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-08-30T08:06:11.833375+00:00",
+    "timestamp": "2026-08-30T13:43:43.084550+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a43560fddf6a3a82ffea67dc14c36f61179d0bd.003.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -3187,7 +3007,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-08-30T08:06:11.833375+00:00",
+    "timestamp": "2026-08-30T13:43:43.084550+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a43560fddf6a3a82ffea67dc14c36f61179d0bd.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -3195,34 +3015,102 @@
     ]
   },
   {
-    "event_id": "SG-1a41edb81648",
+    "event_id": "SG-3a0089f76481",
     "type": "weather_alert",
-    "title": "Severe Thunderstorm Warning",
-    "description": "At 303 AM CDT, a severe thunderstorm was located near Mellette, or 8 miles south of Warner, moving east at 35 mph. HAZARD...Ping pong ball size hail and 60 mph wind gusts. SOURCE...Radar indicated. IMPACT...People and animals outdoors will be injured. Expect hail damage to roofs, siding, windows, and vehicles. Expect wind damage to roofs, siding, and trees. This severe thunderstorm will be near... Mellette and Mansfield around 305 AM CDT. Brentford and Stratford around 315 AM CDT. Hutterville Colony, Verdon and Conde around 325 AM CDT.",
-    "latitude": 45.22714285714286,
-    "longitude": -98.41428571428571,
+    "title": "Special Marine Warning",
+    "description": "SMWMFL The National Weather Service in Miami has issued a * Special Marine Warning for... Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM... Waters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM... * Until 1015 AM EDT. * At 940 AM EDT, strong thunderstorms were located along a line extending from 7 nm northeast of Ocean Ridge to 19 nm east of Highland Beach, moving northwest at 15 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Riviera Beach, Ocean Ridge, Palm Beach, Hypoluxo, Juno Beach, Gulf Stream, Palm Beach Shores, Delray Beach, South Palm Beach, Manalapan, Briny Breezes, North Palm Beach, and Jupiter.",
+    "latitude": 26.51,
+    "longitude": -79.748,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-08-30T08:06:11.833375+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d8d476f3d29ccbba2e7aeb726a80f72f61dd8dc.001.1",
+    "timestamp": "2026-08-30T13:43:43.084550+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8e4f9eb39d120f092de404d8139450a6687475b2.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-f470646c81ba",
+    "event_id": "SG-dc8d506357a9",
     "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWGUM The National Weather Service in Tiyan has issued a * Flash Flood Warning for... Central Guam... * Until 630 PM ChST. * At 533 PM ChST, Doppler radar indicated heavy rain across the warned area. Additional rainfall amounts of 2 to 3 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Dededo, Tamuning, Mangilao, Chalan Pago-Ordot, Barrigada, Mongmong-Toto-Maite and Sinajana.",
-    "latitude": 13.5175,
-    "longitude": 144.789375,
+    "title": "Special Weather Statement",
+    "description": "At 736 AM MDT, Doppler radar was tracking a strong thunderstorm near Lindon, or 9 miles north of Provo, moving east at 50 mph. HAZARD...Wind gusts of 50 to 55 mph and nickel size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Provo, Park City, Heber City, Orem, Lehi, Draper, Pleasant Grove, American Fork, Heber, Lindon, Alpine, Kamas, Oakley, Francis, Daniel, Vineyard, Wasatch Mountain State Park, Samak, Timber Lakes, and Little Cottonwood Canyon. This includes the following highways... Interstate 15 between mile markers 269 and 279. US Route 40 between mile markers 6 and 34. Utah Route 35 between mile markers 0 and 21. Mirror Lake Highway between mile markers 0 and 17.",
+    "latitude": 40.44,
+    "longitude": -111.50399999999999,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T13:43:43.084550+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55a60b9c68685ea97b186644a2000c009a48ed9a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-117ce1d4ac4a",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "SMWCHS The National Weather Service in Charleston has issued a * Special Marine Warning for... Waters from Edisto Beach SC to Savannah GA out 60 NM... * Until 1100 AM EDT. * At 935 AM EDT, a strong thunderstorm was located 11 NM southeast of Hunting Island Reef, moving northwest at 10 knots. HAZARD...Wind gusts to 34 knots. SOURCE...Radar indicated. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Hunting Island Reef, Fripp Island Reef, Betsy Ross Reef, Fripp Island Wreck, Beaufort 45 Feet Reef and General Gordon.",
+    "latitude": 32.14125,
+    "longitude": -80.33375,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-08-30T08:06:11.833375+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e50eaaf6bf8d76a193159dd62953aca95676b3a.001.1",
+    "timestamp": "2026-08-30T13:43:43.084550+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43835341f2c4fe25ab9234ddbc4f3fb7731f1684.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-a034a5df5c5e",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "SMWMOB The National Weather Service in Mobile has issued a * Special Marine Warning for... Coastal waters from Pensacola FL to Pascagoula MS out 20 NM... Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM... * Until 915 AM CDT. * At 752 AM CDT, strong thunderstorms capable of producing waterspouts were located along a line extending from 9 nm southeast of Perdido Pass to 25 nm south of Gulf Shores Beach, moving west at 5 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Waterspouts can easily overturn boats and create locally hazardous seas. Small craft could be damaged in briefly higher winds and suddenly higher waves. * Strong thunderstorms will remain over mainly open waters.",
+    "latitude": 30.143,
+    "longitude": -87.69500000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-30T13:43:43.084550+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.976a306b3485e3b81520a3da48dfa4c34b64662d.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-3595b8209e64",
+    "type": "weather_alert",
+    "title": "Marine Weather Statement",
+    "description": "At 728 AM CDT...A line of strong thunderstorms was located along a line extending from near Perdido Pass to 20 nm south of Gulf Shores Beach...moving west at 10 knots. Locations impacted include... Arnica Bay, Big Lagoon, Pensacola Beach, Pensacola Pass, Sand Island Lighthouse, Fort Pickens, Bon Secour Bay, Farewell Buoy, Perdido Pass, and Orange Beach. The primary threats from these storms are wind gusts up to 30 knots...locally higher waves...and heavy downpours. Boaters should consider seeking safe harbor until these storms have passed. Weather conditions support the development of waterspouts. Waterspouts can easily overturn boats and create locally hazardous waves and seas. If a waterspout is sighted...seek safe harbor immediately.",
+    "latitude": 30.28,
+    "longitude": -87.6921052631579,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T13:43:43.084550+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d4683fa5d670a959f05247a3787e7ce8065377ed.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-80ba4347353a",
+    "type": "weather_alert",
+    "title": "Marine Weather Statement",
+    "description": "The areas affected include... Anegada Passage east of Virgin Gorda and Saint Croix south to 17N... Caribbean Waters of Puerto Rico from 10 NM to 17N, including the Coastal Waters of Saint Croix... At 740 AM AST, Doppler radar indicated strong thunderstorms, capable of producing winds to around 40 knots and frequent lightning.. These thunderstorms were located over the waters around St Croix, moving southwest at 15 knots.",
+    "latitude": 17.54,
+    "longitude": -65.168,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T13:43:43.084550+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a15e85369fd4f17028b8c82eda8e10d89ce43a1.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
