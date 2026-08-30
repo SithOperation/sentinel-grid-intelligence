@@ -1,73 +1,5 @@
 [
   {
-    "event_id": "SG-c2b5e35e05ca",
-    "type": "earthquake",
-    "title": "M5.3 earthquake — Volcano Islands, Japan region",
-    "description": "M 5.3 - Volcano Islands, Japan region",
-    "latitude": 24.2906,
-    "longitude": 142.7624,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T05:44:26.043000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc7l",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-4dbc3046841d",
-    "type": "earthquake",
-    "title": "M4.3 earthquake — 48 km WSW of Abra Pampa, Argentina",
-    "description": "M 4.3 - 48 km WSW of Abra Pampa, Argentina",
-    "latitude": -22.9043,
-    "longitude": -66.1304,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T05:53:12.896000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc7m",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-84e7aa5f57fd",
-    "type": "earthquake",
-    "title": "M2.46 earthquake — 18 km SE of Waimea, Hawaii",
-    "description": "M 2.5 - 18 km SE of Waimea, Hawaii",
-    "latitude": 19.892,
-    "longitude": -155.5695,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T06:02:15.010000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75024632",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-ffd99bf57ce7",
-    "type": "earthquake",
-    "title": "M3.9 earthquake — 134 km E of Atka, Alaska",
-    "description": "M 3.9 - 134 km E of Atka, Alaska",
-    "latitude": 52.003,
-    "longitude": -172.262,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T07:54:56.056000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qyfbjt",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-dae86b75d11d",
     "type": "earthquake",
     "title": "M2.8 earthquake — 6 km N of Petersville, Alaska",
@@ -82,6 +14,36 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7c03dd3f00d3",
+    "type": "europe_security",
+    "title": "EU heavyweights call on Brussels to reignite frozen Russian asset debate",
+    "description": "POLITICO Europe Defence reported: Ukraine already faces a €23 billion hole in its defense budget.",
+    "latitude": 49.0,
+    "longitude": 31.4,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-08-27T09:16:52+00:00",
+    "url": "https://www.politico.eu/article/eu-heavyweights-call-on-brussels-to-reignite-frozen-russian-asset-debate",
+    "classification": "russian_activity",
+    "source": [
+      "POLITICO Europe Defence"
+    ],
+    "status": "single_source",
+    "source_type": "media",
+    "source_perspective": "european_media",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "RUSSIA",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-61c8971e3a65",
+    "location_precision": "country",
+    "europe_layers": [
+      "russian_activity",
+      "ukraine_war"
     ]
   },
   {
@@ -256,6 +218,36 @@
     ]
   },
   {
+    "event_id": "SG-61fd12db0c2c",
+    "type": "europe_security",
+    "title": "NATO and Moscow must increase dialogue to avoid accidental war, Russian envoy says",
+    "description": "POLITICO Europe Defence reported: Despite recent U.S. moves to restore military contact, the risk of conflict is rising \"significantly,\" Nikolay Korchunov says.",
+    "latitude": 61.524,
+    "longitude": 105.3188,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-08-27T11:58:44+00:00",
+    "url": "https://www.politico.eu/article/nato-and-moscow-must-increase-dialogue-to-avoid-accidental-war-russian-envoy-says",
+    "classification": "russian_activity",
+    "source": [
+      "POLITICO Europe Defence"
+    ],
+    "status": "single_source",
+    "source_type": "media",
+    "source_perspective": "european_media",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "NATO",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-f75d7d3952a0",
+    "location_precision": null,
+    "europe_layers": [
+      "nato_activity",
+      "russian_activity"
+    ]
+  },
+  {
     "event_id": "SG-4f8ae66298f6",
     "type": "earthquake",
     "title": "M2.5 earthquake — 98 km SW of Atka, Alaska",
@@ -390,6 +382,68 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-17b90e95ede1",
+    "type": "europe_security",
+    "title": "Poland rules out hosting nuclear weapons despite Russian threat",
+    "description": "POLITICO Europe Defence reported: BRUSSELS — Poland “does not want” allied nuclear weapons stationed on its territory, the country’s Deputy Defense Minister Paweł Zalewski said Thursday, despite growing worries of a Russian incursion into NATO territory. “I would like to say very clearly and openly: Poland does not want to have nuclear warheads on its territory,” he told reporters […]",
+    "latitude": 52.1,
+    "longitude": 19.4,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-08-27T15:49:44+00:00",
+    "url": "https://www.politico.eu/article/poland-rules-out-hosting-nuclear-weapons-despite-russian-threat",
+    "classification": "russian_activity",
+    "source": [
+      "POLITICO Europe Defence"
+    ],
+    "status": "single_source",
+    "source_type": "media",
+    "source_perspective": "european_media",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "NATO",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-15283380c14b",
+    "location_precision": "country",
+    "europe_layers": [
+      "eastern_flank",
+      "nato_activity",
+      "russian_activity"
+    ]
+  },
+  {
+    "event_id": "SG-43642e48611e",
+    "type": "europe_security",
+    "title": "Russia’s ‘hybrid war’ on Europe is starting to look a lot less hybrid",
+    "description": "POLITICO Europe Defence reported: With drone incursions, assassination attempts and sabotage on European soil, some critics say the conflict with Moscow is no longer just \"hybrid\" in nature.",
+    "latitude": 61.524,
+    "longitude": 105.3188,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-08-27T16:44:54+00:00",
+    "url": "https://www.politico.eu/article/russias-hybrid-war-on-europe-is-starting-to-look-a-lot-less-hybrid",
+    "classification": "drone_activity",
+    "source": [
+      "POLITICO Europe Defence"
+    ],
+    "status": "single_source",
+    "source_type": "media",
+    "source_perspective": "european_media",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "RUSSIA",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-0431bd63edfd",
+    "location_precision": null,
+    "europe_layers": [
+      "drone_activity",
+      "missile_drone",
+      "russian_activity"
     ]
   },
   {
@@ -700,40 +754,6 @@
     ]
   },
   {
-    "event_id": "SG-7b2c783f0461",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois...Indiana... Wabash River at New Harmony. .The river at New Harmony is cresting about a half foot above flood stage. It will remain there tonight, then fall slowly until it goes below flood stage Saturday evening. For the Wabash River...including New Harmony...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at New Harmony. * WHEN...Until late Saturday night. * IMPACTS...At 15.0 feet, The river overflows low ground on the Illinois side. * ADDITIONAL DETAILS... - At 3:30 PM CDT Thursday the stage was 15.5 feet. - Forecast...The river is cresting at 15.5 feet now, where it will remain nearly steady through tonight, then it is expected to fall slowly until going below flood stage Saturday evening. - Flood stage is 15.0 feet.",
-    "latitude": 37.99142857142857,
-    "longitude": -88.00999999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-27T22:14:24.658916+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.513640b480ba84882390db5bf2fd06ea93789431.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-dbbd5d3b8453",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Indiana... Illinois... White River at Hazleton. Wabash River from Hutsonville to Mount Carmel. .Minor flooding continues along the lower White River at Hazleton and should come to an end by Friday morning. Minor flooding also continues on the Wabash River from Hutsonville down to Mount Carmel with the crest approaching Mount Carmel. Flooding should come to an end on the Wabash during the weekend. * WHAT...Minor flooding is forecast. * WHERE...Wabash River at Hutsonville Legacy Power Plant Site. * WHEN...Until late Saturday night. * IMPACTS...At 20.0 feet, Leaverton Park in Palestine and park in Hutsonville begin to flood. Agricultural flooding spreads to higher land. Seep water is noticeable behind levees. Some elevated river cottages are surrounded by water. Several county or township roads east of Lincoln Heritage Trail between Palestine and Hutsonville in Crawford County Illinois are impassable. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...The river is expected to fall below flood stage early Saturday afternoon and continue falling to 6.9 feet Sunday, September 06. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.230000000000004,
-    "longitude": -87.60428571428572,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-27T22:14:24.658916+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6315cb2dc8d0f54eaa778ad01fb00cd0c181d340.004.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-8b6342fe276e",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -918,6 +938,36 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-6f727e97ad7f",
+    "type": "europe_security",
+    "title": "Fleeing Russians fear Putin is quietly preparing for another mobilization",
+    "description": "POLITICO Europe Defence reported: A recent spike in traffic on Russia's southern border comes amid increasingly aggressing recruitment measures and worries of another military call-up.",
+    "latitude": 61.524,
+    "longitude": 105.3188,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-08-28T02:02:00+00:00",
+    "url": "https://www.politico.eu/article/russian-vladimir-putin-quietly-preparing-another-mobilization",
+    "classification": "mobilization",
+    "source": [
+      "POLITICO Europe Defence"
+    ],
+    "status": "single_source",
+    "source_type": "media",
+    "source_perspective": "european_media",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "RUSSIA",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-7b6df3b08204",
+    "location_precision": null,
+    "europe_layers": [
+      "mobilization",
+      "russian_activity"
     ]
   },
   {
@@ -1341,23 +1391,6 @@
     "confidence": 100,
     "timestamp": "2026-08-28T11:20:41.675537+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd9499db912cf41eedf6e7ed89ab331259907008.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-01dd38b6d15e",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois...Indiana... Wabash River at New Harmony. .The river at New Harmony is cresting about a half foot above flood stage. It will remain there tonight, then fall slowly until it goes below flood stage Saturday evening. For the Wabash River...including New Harmony...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at New Harmony. * WHEN...Until late Saturday night. * IMPACTS...At 15.0 feet, The river overflows low ground on the Illinois side. * ADDITIONAL DETAILS... - At 7:30 PM CDT Thursday the stage was 15.5 feet. - Forecast...The river is expected to remain nearly steady at its crest of 15.5 feet thru tonight, then will begin to fall below flood stage Saturday evening. - Flood stage is 15.0 feet.",
-    "latitude": 37.99142857142857,
-    "longitude": -88.00999999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-28T11:20:41.675537+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2f3fad0995624f68e614b2f8acfeb9076f13f41.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -1910,23 +1943,6 @@
     ]
   },
   {
-    "event_id": "SG-5b99677fb4e1",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Indiana... Illinois... Wabash River at New Harmony. .The stage at New Harmony has crested and is forecast to fall below flood stage late Saturday. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at New Harmony. * WHEN...Until late Saturday night. * ADDITIONAL DETAILS... - At 9:30 AM CDT Friday the stage was 15.2 feet. - Forecast...The river is expected to hold steady near 15.3 feet this afternoon. It will then fall below flood stage tomorrow evening. - Flood stage is 15.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 37.99142857142857,
-    "longitude": -88.00999999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-28T22:16:59.541208+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39eccd9e18b73386624b9dcef188c223962fce29.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-2313f41468dd",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -1955,23 +1971,6 @@
     "confidence": 100,
     "timestamp": "2026-08-28T22:16:59.541208+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d6d2ad6897bfc2053b7ba54c44a8a9b438cb92a.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-af83f189f98f",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois... Illinois River at Beardstown affecting Schuyler, Morgan, Cass and Brown Counties. Illinois River near Havana affecting Fulton, Mason and Cass Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Illinois River at Beardstown. * WHEN...Until late Saturday night. * IMPACTS...At 14.4 feet, Seepage problems begin in the Coal Creek Drainage and Levee District. * ADDITIONAL DETAILS... - At 8:45 AM CDT Friday the stage was 14.8 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:45 AM CDT Friday was 15.4 feet. - Forecast...The river is expected to fall below flood stage tomorrow evening and continue falling to 11.5 feet Friday, September 04. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 40.098571428571425,
-    "longitude": -90.35285714285715,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-28T22:16:59.541208+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf144b3fbb1c00e70d11145cd0b83e2f4df23a65.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2386,23 +2385,6 @@
     ]
   },
   {
-    "event_id": "SG-2fc359ea877b",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois... Illinois River at Beardstown affecting Morgan, Cass, Brown and Schuyler Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Illinois River at Beardstown. * WHEN...Until late Saturday night. * IMPACTS...At 14.4 feet, Seepage problems begin in the Coal Creek Drainage and Levee District. * ADDITIONAL DETAILS... - At 7:45 PM CDT Friday the stage was 14.4 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:45 PM CDT Friday was 15.1 feet. - Forecast...The river is expected to fall below flood stage tomorrow evening and continue falling to 11.4 feet Friday, September 04. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 40.098571428571425,
-    "longitude": -90.35285714285715,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-29T07:01:56.308021+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9ba0ec6ecbecaa3845f0aa14c666df5cd00b58b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-7f757588f476",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2553,6 +2535,38 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7c8af61f3174",
+    "type": "europe_security",
+    "title": "Russia kills dozens as drone hits ammo warehouse near homes in Ukraine",
+    "description": "POLITICO Europe Defence reported: Ukrainian police have started an investigation into why ammunition was stored near residential properties.",
+    "latitude": 49.0,
+    "longitude": 31.4,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-08-29T09:58:14+00:00",
+    "url": "https://www.politico.eu/article/russia-kills-27-as-drone-hits-ammo-warehouse-near-homes-in-ukraine",
+    "classification": "drone_activity",
+    "source": [
+      "POLITICO Europe Defence"
+    ],
+    "status": "single_source",
+    "source_type": "media",
+    "source_perspective": "european_media",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "RUSSIA",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-a933123e86d6",
+    "location_precision": "country",
+    "europe_layers": [
+      "drone_activity",
+      "missile_drone",
+      "russian_activity",
+      "ukraine_war"
     ]
   },
   {
@@ -2794,6 +2808,36 @@
     ]
   },
   {
+    "event_id": "SG-207fd5e2bb08",
+    "type": "europe_security",
+    "title": "Russia plans new ground attack on Kyiv, Ukraine warns",
+    "description": "POLITICO Europe Defence reported: Volodymyr Zelenskyy's office reveals new intelligence about Kremlin plans for an offensive against the capital.",
+    "latitude": 49.0,
+    "longitude": 31.4,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-08-29T16:01:28+00:00",
+    "url": "https://www.politico.eu/article/russia-plans-new-ground-attack-on-kyiv-ukraine-warns",
+    "classification": "russian_activity",
+    "source": [
+      "POLITICO Europe Defence"
+    ],
+    "status": "single_source",
+    "source_type": "media",
+    "source_perspective": "european_media",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "RUSSIA",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-ca8fd3e4be0e",
+    "location_precision": "country",
+    "europe_layers": [
+      "russian_activity",
+      "ukraine_war"
+    ]
+  },
+  {
     "event_id": "SG-47d402343b5e",
     "type": "earthquake",
     "title": "M4.3 earthquake — 142 km NW of Ternate, Indonesia",
@@ -3032,71 +3076,71 @@
     ]
   },
   {
-    "event_id": "SG-4b6fe4d35531",
-    "type": "weather_alert",
-    "title": "Severe Thunderstorm Warning",
-    "description": "At 1218 AM CDT /1118 PM MDT/, a severe thunderstorm was located 6 miles south of Swiftbird Day School, or 24 miles west of Gettysburg, moving east at 25 mph. THIS IS A DESTRUCTIVE STORM FOR SOUTHEAST DEWEY COUNTY MOVING INTO WESTERN POTTER COUNTY AND THE VERY NORTHWEST CORNER OF SULLY COUNTY. HAZARD...Three inch hail and 60 mph wind gusts. SOURCE...Radar indicated. IMPACT...People and animals outdoors will be severely injured. Expect shattered windows, extensive damage to roofs, siding, and vehicles. This severe thunderstorm will be near... Swiftbird Day School around 1225 AM CDT. Swiftbird around 1230 AM CDT. Whitlocks Bay Rec Area around 1240 AM CDT. Other locations impacted by the severe thunderstorm include Lake Oahe.",
-    "latitude": 44.971666666666664,
-    "longitude": -100.41000000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6880bb6ebb1b64d0e261a069d37032d6c124ca11.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-ced39c6090b3",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 1055 PM MDT, Doppler radar was tracking a strong thunderstorm over Cascade, moving northeast at 25 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Great Falls, Cascade, Black Eagle, Ulm, Vaughn, First Peoples Buffalo Jump State Park, and Sun River.",
-    "latitude": 47.368,
-    "longitude": -111.63199999999999,
+    "event_id": "SG-8b3e0483d43b",
+    "type": "earthquake",
+    "title": "M4.7 earthquake — 26 km WSW of Tocopilla, Chile",
+    "description": "M 4.7 - 26 km WSW of Tocopilla, Chile",
+    "latitude": -22.1794,
+    "longitude": -70.4392,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88547b5c36ffb1fd59eaca82e3e3bf0783899491.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-08-30T05:19:51.149000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwp",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-a50f565124ab",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 942 PM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 1.5 inches of rain have fallen. Additional rainfall amounts of 0.25 to 0.5 inches are possible in the warned area. Flash flooding is ongoing. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. Some locations that will experience flash flooding include... Globe, Miami, Central Heights-Midland City, Claypool and Cutter.",
-    "latitude": 33.29714285714285,
-    "longitude": -110.84857142857143,
-    "priority": "high",
-    "threat_level": "HIGH",
+    "event_id": "SG-b4c92bb70ccb",
+    "type": "earthquake",
+    "title": "M4.2 earthquake — 48 km NNW of San Antonio, Puerto Rico",
+    "description": "M 4.2 - 48 km NNW of San Antonio, Puerto Rico",
+    "latitude": 18.9034,
+    "longitude": -67.2509,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5387a4af06b20549b9a05aeee4395b4df2b4f6b0.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-08-30T05:47:02.828000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwu",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-ebc5ba8acb6b",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 939 PM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 1.5 inches of rain have fallen. Additional rainfall amounts of 0.25 to 0.5 inches are possible in the warned area. Flash flooding is ongoing. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. Some locations that will experience flash flooding include... Hayden and Christmas.",
-    "latitude": 33.131,
-    "longitude": -110.63199999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26ce7fc281dfc251fe12132a5ef5d45cfbc4145b.001.1",
-    "classification": "severe_weather_alert",
+    "event_id": "SG-e9b16df939b5",
+    "type": "reddit_report",
+    "title": "Russian strike on Kyiv-area ammunition depot triggers blast, killing 37",
+    "description": "submitted by /u/ipeedinherasshole to r/worldnews [link] [comments]",
+    "latitude": 50.4501,
+    "longitude": 30.5234,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 70,
+    "timestamp": "2026-08-30T07:14:51+00:00",
+    "url": "https://reddit.com/r/worldnews/comments/1w2amb1/russian_strike_on_kyivarea_ammunition_depot",
+    "classification": "source_reported",
     "source": [
-      "National Weather Service"
+      "Reddit reddit_worldnews"
+    ]
+  },
+  {
+    "event_id": "SG-4a325dce1539",
+    "type": "earthquake",
+    "title": "M4.9 earthquake — 76 km WNW of Bengkulu, Indonesia",
+    "description": "M 4.9 - 76 km WNW of Bengkulu, Indonesia",
+    "latitude": -3.4659,
+    "longitude": 101.6611,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T07:37:53.032000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcxc",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
@@ -3109,93 +3153,8 @@
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
+    "timestamp": "2026-08-30T08:06:11.833375+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73bb894b58cb370a80e3d911af38308f7db77b25.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-d777fc5b3122",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 900 PM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1.5 and 3.5 inches of rain have fallen. Additional rainfall amounts up to 0.1 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... San Pedro and Pan Tak. This includes Route 86 between mile markers 133 and 143.",
-    "latitude": 32.08307692307692,
-    "longitude": -111.49846153846154,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24ce13c6a309bd3fdfa7890d8b9504f4ec3858ee.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-6504c2025f68",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWTWC The National Weather Service in Tucson has extended the * Flash Flood Warning for... South Central Pima County in southeastern Arizona... * Until 1115 PM MST. * At 836 PM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 3 inches of rain have fallen. Additional rainfall amounts up to 0.2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Vamori, Cowlic, Choulic and Coldfields. This includes the following Flash Flood Prone Locations... Indian Route 20 at Cowlic. Significant rain has occurred on the western slopes of the Boboquivari Mountains into the lower deserts from Topawa to the International Border. Expect significant and rapid rises on washes including the Vamori Wash. This will take some time for the flood wave to move down the wash, which will likely occur after midnight.",
-    "latitude": 31.729999999999997,
-    "longitude": -111.93909090909091,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2a021ab1f95243408ba82c2b9c7b2e97fa65438b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-9ebdfb32bbd7",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWTWC The National Weather Service in Tucson has extended the * Flash Flood Warning for... South Central Pima County in southeastern Arizona... * Until 1045 PM MST. * At 749 PM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 2 and 3.7 inches of rain have fallen. Additional rainfall amounts up to 0.1 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Topawa, San Miguel, South Komelik, Choulic, Newfield, Coldfields, Fresnal Canyon and Hashan Chuchg. This includes Route 286 between mile markers 28 and 30. This includes the following Flash Flood Prone Locations... Indian Route 19 south of Topawa. Significant rainfall is occurring in Fresnal Canyon and the western slopes of the Boboquivari Mountains, which will flow toward Topawa and Route 19 or San Miguel Road. Expect rapid rises and significant flows in these areas.",
-    "latitude": 31.743571428571432,
-    "longitude": -111.64928571428571,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5c1b147bea5c9b004930c0886b69690ac2614487.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4bbbc0b759e2",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWTWC The National Weather Service in Tucson has extended the * Flash Flood Warning for... North Central Pima County in southeastern Arizona... * Until 1115 PM MST. * At 748 PM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 3.5 inches of rain have fallen. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Queens Well and Silver Bell.",
-    "latitude": 32.306666666666665,
-    "longitude": -111.56400000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc4599e0d8790b36006d0d1b4267818a1096f25f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-288881a326a1",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWFGZ The National Weather Service in Flagstaff has issued a * Flash Flood Warning for... Coconino County in north central Arizona...the Colorado River near mile marker 62. * Until 1215 AM MST /115 AM MDT/ Tonight. * At 522 PM MST /622 PM MDT/, Doppler radar indicated thunderstorms that produced heavy rain earlier southwest of Cameron have resulted in a flash flood along the Little Colorado River west of Cameron. Between 1 and 2 inches were estimate by radar earlier in the afternoon. Flash flooding is ongoing or expected to begin shortly. The flood wave is expected to reach the Colorado River between 10 PM and 1 AM. HAZARD...Life threatening flash flooding. Heavy rain from thunderstorms earlier. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding along the Little Colorado River west of Cameron. * Some locations that will experience flash flooding include... Little Colorado River Navajo Tribal Park. This includes the following highways... the Colorado River near mile marker 62. State Route 64 between mile markers 281 and 284. This includes the following recreation areas and campgrounds... Blue Water Base Camp, Old Fish Camp Site, Above LCR Camp Site and Below LCR Camp Site. This includes the following swimming holes... Blue Water Base Camp. This includes the following Little Colorado River west of Cameron.",
-    "latitude": 36.06166666666667,
-    "longitude": -111.68722222222223,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb78c70d614c522ed611c2267e3a6464a123fbf1.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -3211,7 +3170,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
+    "timestamp": "2026-08-30T08:06:11.833375+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a43560fddf6a3a82ffea67dc14c36f61179d0bd.003.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -3228,8 +3187,42 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-08-30T05:21:35.589051+00:00",
+    "timestamp": "2026-08-30T08:06:11.833375+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a43560fddf6a3a82ffea67dc14c36f61179d0bd.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1a41edb81648",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 303 AM CDT, a severe thunderstorm was located near Mellette, or 8 miles south of Warner, moving east at 35 mph. HAZARD...Ping pong ball size hail and 60 mph wind gusts. SOURCE...Radar indicated. IMPACT...People and animals outdoors will be injured. Expect hail damage to roofs, siding, windows, and vehicles. Expect wind damage to roofs, siding, and trees. This severe thunderstorm will be near... Mellette and Mansfield around 305 AM CDT. Brentford and Stratford around 315 AM CDT. Hutterville Colony, Verdon and Conde around 325 AM CDT.",
+    "latitude": 45.22714285714286,
+    "longitude": -98.41428571428571,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-30T08:06:11.833375+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d8d476f3d29ccbba2e7aeb726a80f72f61dd8dc.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f470646c81ba",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWGUM The National Weather Service in Tiyan has issued a * Flash Flood Warning for... Central Guam... * Until 630 PM ChST. * At 533 PM ChST, Doppler radar indicated heavy rain across the warned area. Additional rainfall amounts of 2 to 3 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Dededo, Tamuning, Mangilao, Chalan Pago-Ordot, Barrigada, Mongmong-Toto-Maite and Sinajana.",
+    "latitude": 13.5175,
+    "longitude": 144.789375,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-08-30T08:06:11.833375+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e50eaaf6bf8d76a193159dd62953aca95676b3a.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
