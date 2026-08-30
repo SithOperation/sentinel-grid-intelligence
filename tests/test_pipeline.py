@@ -235,6 +235,18 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(health["stale"])
         self.assertTrue(health["degraded"])
 
+    def test_health_does_not_treat_zero_current_events_as_an_outage(self):
+        generated = datetime.now(timezone.utc)
+        health = build_health(
+            [{"timestamp": generated.isoformat()}],
+            [{"source": "inactive-volcano-feed", "status": "no_data"}],
+            generated.isoformat(),
+            stale_after_minutes=390,
+        )
+        self.assertFalse(health["stale"])
+        self.assertFalse(health["degraded"])
+        self.assertEqual(health["status"], "healthy")
+
 
 if __name__ == "__main__":
     unittest.main()

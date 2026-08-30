@@ -108,7 +108,8 @@ def collect_weather_alerts(
             if (
                 status.lower() == "test"
                 or message_type.lower() == "test"
-                or title.lower() in {"test message", "required weekly test", "required monthly test"}
+                or title.lower()
+                in {"test message", "required weekly test", "required monthly test"}
             ):
                 test_messages = metrics["test_messages"]
                 assert isinstance(test_messages, int)

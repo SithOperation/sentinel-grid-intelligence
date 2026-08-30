@@ -177,12 +177,16 @@ def collect_all_sources(reference_time=None):
         started = time.monotonic()
         try:
             europe_config = load_europe_config(
-                resolve_project_path(CONFIG["sources"]["europe_security"]["config_file"])
+                resolve_project_path(
+                    CONFIG["sources"]["europe_security"]["config_file"]
+                )
             )
             result = collect_europe_security(
                 europe_config,
                 reference_time,
-                state_path=resolve_project_path(CONFIG["sources"]["europe_security"]["state_file"]),
+                state_path=resolve_project_path(
+                    CONFIG["sources"]["europe_security"]["state_file"]
+                ),
             )
         except (OSError, TypeError, ValueError) as error:
             result = CollectionResult(status="error", error=str(error))
@@ -499,7 +503,9 @@ def reset_generated_data():
     targets.append(event_database.DATABASE_PATH)
     x_cache = resolve_project_path(CONFIG["sources"]["x"]["cache_file"])
     targets.append(x_cache)
-    targets.append(resolve_project_path(CONFIG["sources"]["europe_security"]["state_file"]))
+    targets.append(
+        resolve_project_path(CONFIG["sources"]["europe_security"]["state_file"])
+    )
     removed = []
     for path in targets:
         if path.is_file():

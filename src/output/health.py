@@ -26,7 +26,12 @@ def build_health(events, source_health, generated, stale_after_minutes):
         round((generated_at - newest).total_seconds() / 60, 2) if newest else None
     )
     stale = age_minutes is None or age_minutes > stale_after_minutes
-    degraded = stale or any(item["status"] != "ok" for item in source_health)
+    # A healthy source can legitimately have no matching events during a poll,
+    # and an intentionally disabled source is not an outage. Degrade coverage
+    # only for stale data or an actual collection failure/partial failure.
+    degraded = stale or any(
+        item["status"] in {"error", "partial"} for item in source_health
+    )
 
     return {
         "schema_version": SCHEMA_VERSION,

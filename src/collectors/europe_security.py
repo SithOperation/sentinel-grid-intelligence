@@ -28,12 +28,21 @@ from sources.canonical import canonicalize_url
 
 USER_AGENT = "SentinelGrid/1.0 (+public OSINT RSS collector)"
 ALLOWED_STATUSES = {
-    "unverified", "single_source", "developing", "corroborated",
-    "officially_reported", "confirmed", "disputed", "retracted",
+    "unverified",
+    "single_source",
+    "developing",
+    "corroborated",
+    "officially_reported",
+    "confirmed",
+    "disputed",
+    "retracted",
 }
 RELIABILITY_BASE = {
-    "low_medium": 0.25, "medium": 0.35, "medium_high": 0.45,
-    "high": 0.55, "very_high": 0.65,
+    "low_medium": 0.25,
+    "medium": 0.35,
+    "medium_high": 0.45,
+    "high": 0.55,
+    "very_high": 0.65,
 }
 LOCATIONS = {
     "warsaw": ("Poland", "Warsaw", 52.2297, 21.0122, "city"),
@@ -76,7 +85,9 @@ def sanitize(value: object, limit: int = 2000) -> str:
 
 
 def _tag(element, name):
-    return next((child for child in element if child.tag.rsplit("}", 1)[-1] == name), None)
+    return next(
+        (child for child in element if child.tag.rsplit("}", 1)[-1] == name), None
+    )
 
 
 def _text(element, *names):
@@ -97,7 +108,9 @@ def parse_date(value: str, fallback: datetime) -> datetime:
             parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
         except (TypeError, ValueError):
             return fallback
-    return parsed.replace(tzinfo=UTC) if parsed.tzinfo is None else parsed.astimezone(UTC)
+    return (
+        parsed.replace(tzinfo=UTC) if parsed.tzinfo is None else parsed.astimezone(UTC)
+    )
 
 
 @dataclass
@@ -125,9 +138,13 @@ class Observation:
     matched_terms: dict = field(default_factory=dict)
 
 
-def parse_feed(payload: bytes | str, source: dict, reference_time: datetime) -> list[Observation]:
+def parse_feed(
+    payload: bytes | str, source: dict, reference_time: datetime
+) -> list[Observation]:
     root = ET.fromstring(payload)
-    entries = [node for node in root.iter() if node.tag.rsplit("}", 1)[-1] in {"item", "entry"}]
+    entries = [
+        node for node in root.iter() if node.tag.rsplit("}", 1)[-1] in {"item", "entry"}
+    ]
     observations = []
     for entry in entries[: int(source.get("max_items", 50))]:
         title = sanitize(_text(entry, "title"), 500)
@@ -144,7 +161,11 @@ def parse_feed(payload: bytes | str, source: dict, reference_time: datetime) -> 
         external = post_url
         if is_reddit:
             external = next(
-                (url for url in parser.links if "reddit.com" not in urlsplit(url).netloc.casefold()),
+                (
+                    url
+                    for url in parser.links
+                    if "reddit.com" not in urlsplit(url).netloc.casefold()
+                ),
                 post_url,
             )
         try:
@@ -152,69 +173,140 @@ def parse_feed(payload: bytes | str, source: dict, reference_time: datetime) -> 
             external = canonicalize_url(external)
         except ValueError:
             continue
-        published = parse_date(_text(entry, "pubDate", "published", "updated"), reference_time)
+        published = parse_date(
+            _text(entry, "pubDate", "published", "updated"), reference_time
+        )
         author = sanitize(_text(entry, "author"), 100) or None
-        observations.append(Observation(
-            source_id=str(source["id"]), source_name=str(source["name"]),
-            source_type=str(source["source_type"]),
-            source_perspective=str(source["source_perspective"]),
-            reliability=str(source["reliability"]), title=title,
-            description=description, post_url=post_url, external_url=external,
-            canonical_source_url=external, published=published,
-            subreddit=source.get("subreddit"), author=author,
-            flair=sanitize(_text(entry, "category"), 100) or None,
-        ))
+        observations.append(
+            Observation(
+                source_id=str(source["id"]),
+                source_name=str(source["name"]),
+                source_type=str(source["source_type"]),
+                source_perspective=str(source["source_perspective"]),
+                reliability=str(source["reliability"]),
+                title=title,
+                description=description,
+                post_url=post_url,
+                external_url=external,
+                canonical_source_url=external,
+                published=published,
+                subreddit=source.get("subreddit"),
+                author=author,
+                flair=sanitize(_text(entry, "category"), 100) or None,
+            )
+        )
     return observations
 
 
 def classify(observation: Observation, terms: dict) -> bool:
     text = f"{observation.title} {observation.description}".casefold()
-    matched = {group: [term for term in values if term.casefold() in text] for group, values in terms.items()}
+    matched = {
+        group: [term for term in values if term.casefold() in text]
+        for group, values in terms.items()
+    }
     observation.matched_terms = {key: value for key, value in matched.items() if value}
-    if not matched.get("geography") and not matched.get("nato") and not matched.get("russia"):
+    if (
+        not matched.get("geography")
+        and not matched.get("nato")
+        and not matched.get("russia")
+    ):
         return False
-    if not matched.get("military_activity") and not any(term in text for term in ("security", "defence", "defense", "war")):
+    if not matched.get("military_activity") and not any(
+        term in text for term in ("security", "defence", "defense", "war")
+    ):
         return False
     rules = [
         ("airspace_incident", ("airspace violation", "airspace incursion")),
-        ("missile_activity", ("missile", "rocket")), ("drone_activity", ("drone", "uav")),
+        ("missile_activity", ("missile", "rocket")),
+        ("drone_activity", ("drone", "uav")),
         ("naval_activity", ("naval", "fleet", "warship", "baltic sea", "black sea")),
-        ("air_activity", ("aircraft", "bomber", "fighter", "awacs", "intercept", "scrambled")),
+        (
+            "air_activity",
+            ("aircraft", "bomber", "fighter", "awacs", "intercept", "scrambled"),
+        ),
         ("military_exercise", ("exercise", "drill", "war game")),
         ("mobilization", ("mobilization", "mobilisation")),
         ("military_deployment", ("deployment", "troop movement", "military convoy")),
         ("border_incident", ("border incident", "border crossing")),
-        ("cyber_activity", ("cyber",)), ("security_warning", ("warning", "alert")),
+        ("cyber_activity", ("cyber",)),
+        ("security_warning", ("warning", "alert")),
         ("polish_military_activity", ("polish military", "polish armed forces")),
-        ("russian_activity", tuple(term.casefold() for term in terms.get("russia", []))),
+        (
+            "russian_activity",
+            tuple(term.casefold() for term in terms.get("russia", [])),
+        ),
         ("nato_activity", tuple(term.casefold() for term in terms.get("nato", []))),
     ]
-    observation.category = next((category for category, needles in rules if any(n in text for n in needles)), "military_statement")
-    perspective_actor = {"nato_official": "NATO", "polish_official": "POLAND", "russian_official": "RUSSIA", "russian_state_media": "RUSSIA"}
-    observation.actor_reporting = perspective_actor.get(observation.source_perspective, "UNKNOWN")
-    subjects = [("NATO", matched.get("nato")), ("RUSSIA", matched.get("russia")), ("POLAND", ["poland"] if "poland" in text else []), ("BELARUS", ["belarus"] if "belarus" in text else []), ("UKRAINE", ["ukraine"] if "ukraine" in text else [])]
-    observation.actor_subject = next((actor for actor, hits in subjects if hits and actor != observation.actor_reporting), next((actor for actor, hits in subjects if hits), "UNKNOWN"))
+    observation.category = next(
+        (category for category, needles in rules if any(n in text for n in needles)),
+        "military_statement",
+    )
+    perspective_actor = {
+        "nato_official": "NATO",
+        "polish_official": "POLAND",
+        "russian_official": "RUSSIA",
+        "russian_state_media": "RUSSIA",
+    }
+    observation.actor_reporting = perspective_actor.get(
+        observation.source_perspective, "UNKNOWN"
+    )
+    subjects = [
+        ("NATO", matched.get("nato")),
+        ("RUSSIA", matched.get("russia")),
+        ("POLAND", ["poland"] if "poland" in text else []),
+        ("BELARUS", ["belarus"] if "belarus" in text else []),
+        ("UKRAINE", ["ukraine"] if "ukraine" in text else []),
+    ]
+    observation.actor_subject = next(
+        (
+            actor
+            for actor, hits in subjects
+            if hits and actor != observation.actor_reporting
+        ),
+        next((actor for actor, hits in subjects if hits), "UNKNOWN"),
+    )
     for term, value in LOCATIONS.items():
         if term in text:
             country, region, lat, lon, precision = value
-            observation.location = {"country": country, "region": region, "latitude": lat, "longitude": lon, "precision": precision, "method": "controlled_term_table"}
+            observation.location = {
+                "country": country,
+                "region": region,
+                "latitude": lat,
+                "longitude": lon,
+                "precision": precision,
+                "method": "controlled_term_table",
+            }
             break
     return True
 
 
 def _title_key(value: str) -> str:
     words = re.findall(r"[a-z0-9]+", value.casefold())
-    return " ".join(word for word in words if word not in {"the", "a", "an", "to", "of", "in", "on", "and"})
+    return " ".join(
+        word
+        for word in words
+        if word not in {"the", "a", "an", "to", "of", "in", "on", "and"}
+    )
 
 
 def _same_event(left: Observation, right: Observation) -> bool:
     if left.canonical_source_url == right.canonical_source_url:
         return True
-    if left.category != right.category or abs((left.published - right.published).total_seconds()) > 86400:
+    if (
+        left.category != right.category
+        or abs((left.published - right.published).total_seconds()) > 86400
+    ):
         return False
-    if left.location and right.location and left.location.get("region") != right.location.get("region"):
+    if (
+        left.location
+        and right.location
+        and left.location.get("region") != right.location.get("region")
+    ):
         return False
-    return SequenceMatcher(None, _title_key(left.title), _title_key(right.title)).ratio() >= 0.72
+    return (
+        SequenceMatcher(None, _title_key(left.title), _title_key(right.title)).ratio()
+        >= 0.72
+    )
 
 
 def confidence_for(reports: list[Observation]) -> tuple[float, str, int, int]:
@@ -243,7 +335,9 @@ def confidence_for(reports: list[Observation]) -> tuple[float, str, int, int]:
 def cluster_observations(observations: list[Observation]) -> list[list[Observation]]:
     clusters: list[list[Observation]] = []
     for observation in sorted(observations, key=lambda item: item.published):
-        cluster = next((items for items in clusters if _same_event(items[0], observation)), None)
+        cluster = next(
+            (items for items in clusters if _same_event(items[0], observation)), None
+        )
         if cluster is None:
             clusters.append([observation])
         else:
@@ -252,17 +346,42 @@ def cluster_observations(observations: list[Observation]) -> list[list[Observati
 
 
 def normalize_cluster(reports: list[Observation]) -> dict:
-    lead = max(reports, key=lambda item: (item.source_type == "official", RELIABILITY_BASE.get(item.reliability, 0)))
-    confidence, status, source_count, independent_count = confidence_for(reports)
-    first_seen, last_seen = min(item.published for item in reports), max(item.published for item in reports)
-    digest = hashlib.sha256("|".join(sorted({item.canonical_source_url for item in reports})).encode()).hexdigest()[:12]
-    prefix = "A Reddit post claims" if lead.source_type == "reddit" else f"{lead.source_name} reported"
-    breaking_terms = (
-        "airspace violation", "border crossing", "missile impact", "article 4",
-        "article 5", "mobilization", "nato response", "nuclear forces",
-        "strategic bomber", "mass drone attack", "large military exercise",
+    lead = max(
+        reports,
+        key=lambda item: (
+            item.source_type == "official",
+            RELIABILITY_BASE.get(item.reliability, 0),
+        ),
     )
-    combined_text = " ".join(f"{item.title} {item.description}" for item in reports).casefold()
+    confidence, status, source_count, independent_count = confidence_for(reports)
+    first_seen, last_seen = (
+        min(item.published for item in reports),
+        max(item.published for item in reports),
+    )
+    digest = hashlib.sha256(
+        "|".join(sorted({item.canonical_source_url for item in reports})).encode()
+    ).hexdigest()[:12]
+    prefix = (
+        "A Reddit post claims"
+        if lead.source_type == "reddit"
+        else f"{lead.source_name} reported"
+    )
+    breaking_terms = (
+        "airspace violation",
+        "border crossing",
+        "missile impact",
+        "article 4",
+        "article 5",
+        "mobilization",
+        "nato response",
+        "nuclear forces",
+        "strategic bomber",
+        "mass drone attack",
+        "large military exercise",
+    )
+    combined_text = " ".join(
+        f"{item.title} {item.description}" for item in reports
+    ).casefold()
     official = any(item.source_type == "official" for item in reports)
     breaking = any(term in combined_text for term in breaking_terms) and (
         independent_count >= 2 or (official and len(reports) >= 2)
@@ -274,7 +393,14 @@ def normalize_cluster(reports: list[Observation]) -> dict:
         europe_layers.add("nato_activity")
     if "RUSSIA" in actors:
         europe_layers.add("russian_activity")
-    if country in {"Poland", "Poland/Lithuania", "Lithuania", "Latvia", "Estonia", "Finland"}:
+    if country in {
+        "Poland",
+        "Poland/Lithuania",
+        "Lithuania",
+        "Latvia",
+        "Estonia",
+        "Finland",
+    }:
         europe_layers.add("eastern_flank")
     if country == "Ukraine":
         europe_layers.add("ukraine_war")
@@ -282,30 +408,84 @@ def normalize_cluster(reports: list[Observation]) -> dict:
         europe_layers.add("missile_drone")
     if any(item.source_type == "reddit" for item in reports):
         europe_layers.add("reddit_osint")
-    event = create_event("europe_security", lead.category, lead.title, f"{prefix}: {lead.description or lead.title}", [lead.source_name], "high" if confidence >= 0.75 else "medium", lead.location, round(confidence * 100))
-    event.update({
-        "event_id": f"SG-EU-{digest}", "timestamp": last_seen.isoformat(),
-        "first_seen": first_seen.isoformat(), "last_seen": last_seen.isoformat(),
-        "status": status, "actor": lead.actor_subject, "actors": sorted({item.actor_subject for item in reports if item.actor_subject != "UNKNOWN"}),
-        "actor_reporting": lead.actor_reporting, "actor_subject": lead.actor_subject,
-        "source_url": lead.canonical_source_url, "url": lead.canonical_source_url,
-        "source_type": lead.source_type, "source_perspective": lead.source_perspective,
-        "source_count": source_count, "independent_source_count": independent_count,
-        "source_types": sorted({item.source_type for item in reports}),
-        "source_domains": sorted({urlsplit(item.post_url).netloc for item in reports}),
-        "original_source_domains": sorted({urlsplit(item.canonical_source_url).netloc for item in reports}),
-        "event_cluster_id": f"EU-{digest}", "verification": {"confirmed": status == "confirmed", "source_count": independent_count},
-        "europe_layers": sorted(europe_layers),
-        "metadata": {"observation_count": len(reports), "location_precision": (lead.location or {}).get("precision"), "matched_terms": lead.matched_terms, "breaking": breaking,
-            "reports": [{"source": item.source_name, "subreddit": item.subreddit, "post_title": item.title, "post_url": item.post_url, "external_url": item.external_url, "author": item.author, "published": item.published.isoformat(), "score": item.score, "comment_count": item.comment_count, "post_flair": item.flair} for item in reports]},
-    })
+    event = create_event(
+        "europe_security",
+        lead.category,
+        lead.title,
+        f"{prefix}: {lead.description or lead.title}",
+        [lead.source_name],
+        "high" if confidence >= 0.75 else "medium",
+        lead.location,
+        round(confidence * 100),
+    )
+    event.update(
+        {
+            "event_id": f"SG-EU-{digest}",
+            "timestamp": last_seen.isoformat(),
+            "first_seen": first_seen.isoformat(),
+            "last_seen": last_seen.isoformat(),
+            "status": status,
+            "actor": lead.actor_subject,
+            "actors": sorted(
+                {
+                    item.actor_subject
+                    for item in reports
+                    if item.actor_subject != "UNKNOWN"
+                }
+            ),
+            "actor_reporting": lead.actor_reporting,
+            "actor_subject": lead.actor_subject,
+            "source_url": lead.canonical_source_url,
+            "url": lead.canonical_source_url,
+            "source_type": lead.source_type,
+            "source_perspective": lead.source_perspective,
+            "source_count": source_count,
+            "independent_source_count": independent_count,
+            "source_types": sorted({item.source_type for item in reports}),
+            "source_domains": sorted(
+                {urlsplit(item.post_url).netloc for item in reports}
+            ),
+            "original_source_domains": sorted(
+                {urlsplit(item.canonical_source_url).netloc for item in reports}
+            ),
+            "event_cluster_id": f"EU-{digest}",
+            "verification": {
+                "confirmed": status == "confirmed",
+                "source_count": independent_count,
+            },
+            "europe_layers": sorted(europe_layers),
+            "metadata": {
+                "observation_count": len(reports),
+                "location_precision": (lead.location or {}).get("precision"),
+                "matched_terms": lead.matched_terms,
+                "breaking": breaking,
+                "reports": [
+                    {
+                        "source": item.source_name,
+                        "subreddit": item.subreddit,
+                        "post_title": item.title,
+                        "post_url": item.post_url,
+                        "external_url": item.external_url,
+                        "author": item.author,
+                        "published": item.published.isoformat(),
+                        "score": item.score,
+                        "comment_count": item.comment_count,
+                        "post_flair": item.flair,
+                    }
+                    for item in reports
+                ],
+            },
+        }
+    )
     return event
 
 
 def load_europe_config(path: str | Path) -> dict:
     value = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
-    if not isinstance(value.get("sources"), list) or not isinstance(value.get("terms"), dict):
-        raise ValueError("Europe security configuration requires sources and terms")
+    if not isinstance(value.get("sources"), list) or not isinstance(
+        value.get("terms"), dict
+    ):
+        raise TypeError("Europe security configuration requires sources and terms")
     return value
 
 
@@ -329,7 +509,13 @@ def _save_state(path: str | Path | None, state: dict) -> None:
     os.replace(temporary, target)
 
 
-def collect_europe_security(config: dict, reference_time: datetime, *, transport=requests.get, state_path: str | Path | None = None) -> CollectionResult:
+def collect_europe_security(
+    config: dict,
+    reference_time: datetime,
+    *,
+    transport=requests.get,
+    state_path: str | Path | None = None,
+) -> CollectionResult:
     observations: list[Observation] = []
     errors = []
     received = 0
@@ -339,7 +525,10 @@ def collect_europe_security(config: dict, reference_time: datetime, *, transport
             continue
         try:
             source_state = state["sources"].setdefault(source["id"], {})
-            headers = {"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9"}
+            headers = {
+                "User-Agent": USER_AGENT,
+                "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9",
+            }
             if source_state.get("etag"):
                 headers["If-None-Match"] = source_state["etag"]
             if source_state.get("last_modified"):
@@ -356,27 +545,54 @@ def collect_europe_security(config: dict, reference_time: datetime, *, transport
             seen = set(source_state.get("seen", []))
             fresh = []
             for item in parsed:
-                item_id = hashlib.sha256(f"{item.post_url}|{item.published.isoformat()}".encode()).hexdigest()
+                item_id = hashlib.sha256(
+                    f"{item.post_url}|{item.published.isoformat()}".encode()
+                ).hexdigest()
                 if item_id not in seen:
                     fresh.append(item)
                     seen.add(item_id)
-            observations.extend(item for item in fresh if classify(item, config["terms"]))
+            observations.extend(
+                item for item in fresh if classify(item, config["terms"])
+            )
             response_headers = getattr(response, "headers", {})
-            source_state.update({
-                "etag": response_headers.get("ETag"),
-                "last_modified": response_headers.get("Last-Modified"),
-                "last_success": reference_time.isoformat(),
-                "failure_count": 0,
-                "items_received": len(parsed),
-                "seen": list(seen)[-5000:],
-            })
+            source_state.update(
+                {
+                    "etag": response_headers.get("ETag"),
+                    "last_modified": response_headers.get("Last-Modified"),
+                    "last_success": reference_time.isoformat(),
+                    "failure_count": 0,
+                    "items_received": len(parsed),
+                    "seen": list(seen)[-5000:],
+                }
+            )
         except Exception as error:
             errors.append(f"{source.get('id', 'unknown')}: {error}")
             source_state = state["sources"].setdefault(source.get("id", "unknown"), {})
             source_state["last_failure"] = reference_time.isoformat()
-            source_state["failure_count"] = int(source_state.get("failure_count", 0)) + 1
+            source_state["failure_count"] = (
+                int(source_state.get("failure_count", 0)) + 1
+            )
     _save_state(state_path, state)
     clusters = cluster_observations(observations)
     events = [normalize_cluster(cluster) for cluster in clusters]
-    status = "partial" if errors and events else "error" if errors else "ok" if events else "no_data"
-    return CollectionResult(events=events, status=status, error="; ".join(errors) or None, metrics={"sources_configured": len(config["sources"]), "items_received": received, "relevant_observations": len(observations), "event_clusters": len(events), "source_failures": len(errors)})
+    status = (
+        "partial"
+        if errors and events
+        else "error"
+        if errors
+        else "ok"
+        if events
+        else "no_data"
+    )
+    return CollectionResult(
+        events=events,
+        status=status,
+        error="; ".join(errors) or None,
+        metrics={
+            "sources_configured": len(config["sources"]),
+            "items_received": received,
+            "relevant_observations": len(observations),
+            "event_clusters": len(events),
+            "source_failures": len(errors),
+        },
+    )

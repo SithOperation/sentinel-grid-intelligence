@@ -1,4 +1,5 @@
 from datetime import UTC, datetime
+from xml.etree.ElementTree import ParseError
 
 import pytest
 
@@ -13,7 +14,6 @@ from collectors.europe_security import (
 )
 from sources.canonical import canonicalize_url
 
-
 NOW = datetime(2026, 8, 30, 12, tzinfo=UTC)
 TERMS = {
     "nato": ["nato"],
@@ -25,9 +25,12 @@ TERMS = {
 
 def reddit_source(subreddit="worldnews"):
     return {
-        "id": f"reddit_{subreddit}", "name": f"r/{subreddit}",
-        "source_type": "reddit", "source_perspective": "reddit_osint",
-        "reliability": "medium", "subreddit": subreddit,
+        "id": f"reddit_{subreddit}",
+        "name": f"r/{subreddit}",
+        "source_type": "reddit",
+        "source_perspective": "reddit_osint",
+        "reliability": "medium",
+        "subreddit": subreddit,
     }
 
 
@@ -41,7 +44,10 @@ def atom(external="https://www.reuters.com/world/europe/story/?utm_source=reddit
 
 
 def test_canonical_url_removes_tracking_www_http_and_fragment():
-    assert canonicalize_url("http://www.Reuters.com/a/?utm_medium=x&gclid=y#z") == "https://reuters.com/a"
+    assert (
+        canonicalize_url("http://www.Reuters.com/a/?utm_medium=x&gclid=y#z")
+        == "https://reuters.com/a"
+    )
 
 
 def test_reddit_atom_extracts_external_url_and_sanitizes_html():
@@ -69,15 +75,30 @@ def test_cross_subreddit_reposts_are_one_underlying_source():
 
 
 def test_actor_reporting_is_separate_from_subject():
-    item = Observation("tass", "TASS", "state_media", "russian_state_media", "medium", "Russia says NATO aircraft approached Kaliningrad", "airspace violation", "https://tass.com/1", "https://tass.com/1", "https://tass.com/1", NOW)
+    item = Observation(
+        "tass",
+        "TASS",
+        "state_media",
+        "russian_state_media",
+        "medium",
+        "Russia says NATO aircraft approached Kaliningrad",
+        "airspace violation",
+        "https://tass.com/1",
+        "https://tass.com/1",
+        "https://tass.com/1",
+        NOW,
+    )
     assert classify(item, TERMS)
     assert item.actor_reporting == "RUSSIA"
     assert item.actor_subject == "NATO"
+    assert item.location is not None
     assert item.location["precision"] == "city"
 
 
 def test_confidence_does_not_use_reddit_popularity_or_reposts():
-    reports = [parse_feed(atom(), reddit_source(name), NOW)[0] for name in ("a", "b", "c", "d")]
+    reports = [
+        parse_feed(atom(), reddit_source(name), NOW)[0] for name in ("a", "b", "c", "d")
+    ]
     confidence, status, source_count, independent_count = confidence_for(reports)
     assert confidence == 0.35
     assert status == "single_source"
@@ -87,11 +108,23 @@ def test_confidence_does_not_use_reddit_popularity_or_reposts():
 def test_dates_and_malformed_feed():
     assert parse_date("Sun, 30 Aug 2026 10:00:00 GMT", NOW).tzinfo is not None
     assert parse_date("not-a-date", NOW) == NOW
-    with pytest.raises(Exception):
+    with pytest.raises(ParseError):
         parse_feed("<broken", reddit_source(), NOW)
 
 
 def test_missing_location_is_not_fabricated():
-    item = Observation("media", "Media", "media", "european_media", "high", "NATO deployment announced", "military deployment", "https://example.com/1", "https://example.com/1", "https://example.com/1", NOW)
+    item = Observation(
+        "media",
+        "Media",
+        "media",
+        "european_media",
+        "high",
+        "NATO deployment announced",
+        "military deployment",
+        "https://example.com/1",
+        "https://example.com/1",
+        "https://example.com/1",
+        NOW,
+    )
     assert classify(item, TERMS)
     assert item.location is None

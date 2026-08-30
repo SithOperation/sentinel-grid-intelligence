@@ -45,20 +45,20 @@ def generate_map_events(events):
             continue
 
         map_event = {
-                "event_id": event.get("event_id"),
-                "type": event.get("event_type", "unknown"),
-                "title": event.get("title"),
-                "description": event.get("description"),
-                "latitude": latitude,
-                "longitude": longitude,
-                "priority": event.get("priority", "unknown"),
-                "threat_level": event.get("threat_level", "unknown"),
-                "confidence": event.get("confidence", 0),
-                "timestamp": event.get("timestamp"),
-                "url": event.get("url", ""),
-                "classification": event.get("classification", "unknown"),
-                "source": event.get("source", []),
-            }
+            "event_id": event.get("event_id"),
+            "type": event.get("event_type", "unknown"),
+            "title": event.get("title"),
+            "description": event.get("description"),
+            "latitude": latitude,
+            "longitude": longitude,
+            "priority": event.get("priority", "unknown"),
+            "threat_level": event.get("threat_level", "unknown"),
+            "confidence": event.get("confidence", 0),
+            "timestamp": event.get("timestamp"),
+            "url": event.get("url", ""),
+            "classification": event.get("classification", "unknown"),
+            "source": event.get("source", []),
+        }
         if event.get("event_type") == "europe_security":
             map_event.update(
                 {
@@ -68,7 +68,9 @@ def generate_map_events(events):
                     "actor_reporting": event.get("actor_reporting"),
                     "actor_subject": event.get("actor_subject"),
                     "source_count": event.get("source_count", 1),
-                    "independent_source_count": event.get("independent_source_count", 1),
+                    "independent_source_count": event.get(
+                        "independent_source_count", 1
+                    ),
                     "event_cluster_id": event.get("event_cluster_id"),
                     "location_precision": location.get("precision"),
                     "europe_layers": event.get("europe_layers", []),

@@ -86,7 +86,10 @@ def generate_brief(events, regional_data=None):
                 europe["nato_activity"].append(detail)
             if category == "russian_activity" or "RUSSIA" in event.get("actors", []):
                 europe["russian_activity"].append(detail)
-            if event.get("location", {}).get("country") in {"Poland", "Poland/Lithuania"}:
+            if event.get("location", {}).get("country") in {
+                "Poland",
+                "Poland/Lithuania",
+            }:
                 europe["poland_eastern_flank"].append(detail)
             if event.get("status") in {"disputed", "retracted"}:
                 europe["conflicting_reports"].append(detail)
