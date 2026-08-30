@@ -42,6 +42,15 @@ def generate_brief(events, regional_data=None):
         "critical_events": [],
         "high_priority_events": [],
         "regional_summary": regional_data or {},
+        "europe_security": {
+            "top_developing": [],
+            "nato_activity": [],
+            "russian_activity": [],
+            "poland_eastern_flank": [],
+            "conflicting_reports": [],
+            "newly_corroborated": [],
+            "high_confidence": [],
+        },
     }
 
     for event in events:
@@ -59,5 +68,31 @@ def generate_brief(events, regional_data=None):
 
         elif level == "HIGH":
             brief["high_priority_events"].append(summary)
+
+        if event.get("event_type") == "europe_security":
+            europe = brief["europe_security"]
+            detail = {
+                **summary,
+                "status": event.get("status", "unverified"),
+                "confidence": event.get("confidence", 0),
+                "source_perspective": event.get("source_perspective"),
+                "actor_reporting": event.get("actor_reporting", "UNKNOWN"),
+                "actor_subject": event.get("actor_subject", "UNKNOWN"),
+            }
+            category = event.get("classification")
+            if event.get("status") in {"developing", "officially_reported"}:
+                europe["top_developing"].append(detail)
+            if category == "nato_activity" or "NATO" in event.get("actors", []):
+                europe["nato_activity"].append(detail)
+            if category == "russian_activity" or "RUSSIA" in event.get("actors", []):
+                europe["russian_activity"].append(detail)
+            if event.get("location", {}).get("country") in {"Poland", "Poland/Lithuania"}:
+                europe["poland_eastern_flank"].append(detail)
+            if event.get("status") in {"disputed", "retracted"}:
+                europe["conflicting_reports"].append(detail)
+            if event.get("status") == "corroborated":
+                europe["newly_corroborated"].append(detail)
+            if event.get("confidence", 0) >= 75:
+                europe["high_confidence"].append(detail)
 
     return brief

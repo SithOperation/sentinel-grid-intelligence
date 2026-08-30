@@ -1,0 +1,56 @@
+schema_version: "1.0"
+max_response_bytes: 2000000
+
+# Disabled sources remain documented candidates until their publisher exposes a
+# stable, public syndication endpoint with terms compatible with aggregation.
+sources:
+  - id: nato_official
+    name: NATO News
+    url: https://www.nato.int/cps/en/natohq/rssFeed.xsl/rssFeed.xml
+    source_type: official
+    source_group: OFFICIAL_NATO
+    source_perspective: nato_official
+    reliability: very_high
+    poll_minutes: 15
+    enabled: false
+  - id: poland_bbn_public
+    name: Polish National Security Bureau
+    url: https://www.bbn.gov.pl/pl/rss
+    source_type: official
+    source_group: OFFICIAL_POLAND
+    source_perspective: polish_official
+    reliability: very_high
+    poll_minutes: 15
+    enabled: false
+  - id: politico_europe_defence
+    name: POLITICO Europe Defence
+    url: https://www.politico.eu/section/defense/feed/
+    source_type: media
+    source_group: EUROPEAN_MEDIA
+    source_perspective: european_media
+    reliability: high
+    poll_minutes: 15
+    enabled: true
+  - id: tass_public_rss
+    name: TASS
+    url: https://tass.com/rss/v2.xml
+    source_type: state_media
+    source_group: RUSSIAN_STATE
+    source_perspective: russian_state_media
+    reliability: medium
+    poll_minutes: 15
+    enabled: false
+  - {id: reddit_credibledefense, name: r/CredibleDefense, url: https://www.reddit.com/r/CredibleDefense/new/.rss, source_type: reddit, source_group: REDDIT_OSINT, source_perspective: reddit_osint, reliability: medium_high, subreddit: CredibleDefense, poll_minutes: 10, enabled: true}
+  - {id: reddit_europe, name: r/europe, url: https://www.reddit.com/r/europe/new/.rss, source_type: reddit, source_group: REDDIT_OSINT, source_perspective: reddit_osint, reliability: medium, subreddit: europe, poll_minutes: 10, enabled: true}
+  - {id: reddit_worldnews, name: r/worldnews, url: https://www.reddit.com/r/worldnews/new/.rss, source_type: reddit, source_group: REDDIT_OSINT, source_perspective: reddit_osint, reliability: medium, subreddit: worldnews, poll_minutes: 10, enabled: true}
+  - {id: reddit_geopolitics, name: r/geopolitics, url: https://www.reddit.com/r/geopolitics/new/.rss, source_type: reddit, source_group: REDDIT_OSINT, source_perspective: reddit_osint, reliability: medium, subreddit: geopolitics, poll_minutes: 10, enabled: true}
+  - {id: reddit_poland, name: r/poland, url: https://www.reddit.com/r/poland/new/.rss, source_type: reddit, source_group: REDDIT_OSINT, source_perspective: reddit_osint, reliability: medium, subreddit: poland, poll_minutes: 10, enabled: true}
+  - {id: reddit_ukraine, name: r/ukraine, url: https://www.reddit.com/r/ukraine/new/.rss, source_type: reddit, source_group: REDDIT_OSINT, source_perspective: reddit_osint, reliability: medium, subreddit: ukraine, poll_minutes: 10, enabled: true}
+  - {id: reddit_ukrainewarvideoreport, name: r/UkraineWarVideoReport, url: https://www.reddit.com/r/UkraineWarVideoReport/new/.rss, source_type: reddit, source_group: REDDIT_OSINT, source_perspective: reddit_osint, reliability: low_medium, subreddit: UkraineWarVideoReport, poll_minutes: 10, enabled: true}
+  - {id: reddit_combatfootage, name: r/CombatFootage, url: https://www.reddit.com/r/CombatFootage/new/.rss, source_type: reddit, source_group: REDDIT_OSINT, source_perspective: reddit_osint, reliability: low_medium, subreddit: CombatFootage, poll_minutes: 10, enabled: true}
+
+terms:
+  nato: [nato, north atlantic treaty organization, allied command, eastern flank, eastern sentry, baltic sentry, article 4, article 5, nato battlegroup, enhanced forward presence, air policing, awacs, nato exercise]
+  russia: [russia, russian armed forces, russian military, russian troops, russian aerospace forces, russian navy, baltic fleet, northern fleet, black sea fleet, kaliningrad]
+  military_activity: [deployment, exercise, drill, mobilization, mobilisation, troop movement, airspace violation, airspace incursion, intercept, scrambled, fighter aircraft, bomber, reconnaissance aircraft, missile launch, drone attack, air defense, air defence, military convoy, naval exercise, military, security warning]
+  geography: [poland, warsaw, suwalki, suwałki, kaliningrad, belarus, lithuania, latvia, estonia, finland, sweden, norway, baltic sea, black sea, ukraine]

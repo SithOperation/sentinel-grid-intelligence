@@ -14,18 +14,23 @@ TRACKING_KEYS = {
     "utm_name",
     "utm_source",
     "utm_term",
+    "mc_cid",
+    "mc_eid",
+    "ref",
 }
 
 
 def canonicalize_url(value: str) -> str:
     parsed = urlsplit(value.strip())
-    if parsed.scheme != "https" or not parsed.netloc or parsed.username:
-        raise ValueError("source item URL must be a public HTTPS URL")
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc or parsed.username:
+        raise ValueError("source item URL must be a public HTTP(S) URL")
     host = parsed.netloc.casefold()
     if host in {"twitter.com", "www.twitter.com", "www.x.com", "mobile.x.com"}:
         host = "x.com"
     elif host in {"old.reddit.com", "new.reddit.com", "www.reddit.com"}:
         host = "reddit.com"
+    elif host in {"www.reuters.com", "mobile.reuters.com"}:
+        host = "reuters.com"
     path = parsed.path.rstrip("/") or "/"
     query = urlencode(
         [

@@ -3,8 +3,9 @@ name: Collect and publish static intelligence
 on:
   workflow_dispatch:
   schedule:
-    # Four runs per day keeps public-source traffic and Actions usage modest.
-    - cron: "17 */6 * * *"
+    # Near-live public weather updates. The pipeline commits and dispatches only
+    # validated publications; website synchronization remains event-driven.
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write

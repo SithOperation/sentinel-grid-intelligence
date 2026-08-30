@@ -60,6 +60,7 @@ def collect_weather_alerts(
         "records_rejected": 0,
         "missing_geometry": 0,
         "expired_alerts": 0,
+        "test_messages": 0,
     }
     try:
         response = fetch(
@@ -101,6 +102,18 @@ def collect_weather_alerts(
             severity = str(props.get("severity") or "Unknown")
             if severity not in valid_severity:
                 raise ValueError("invalid severity")
+            status = str(props.get("status") or "").strip()
+            message_type = str(props.get("messageType") or "").strip()
+            title = str(props.get("event") or "Weather alert").strip()
+            if (
+                status.lower() == "test"
+                or message_type.lower() == "test"
+                or title.lower() in {"test message", "required weekly test", "required monthly test"}
+            ):
+                test_messages = metrics["test_messages"]
+                assert isinstance(test_messages, int)
+                metrics["test_messages"] = test_messages + 1
+                raise ValueError("test weather message")
             point = representative_point(feature.get("geometry"))
             if point is None:
                 missing = metrics["missing_geometry"]
@@ -122,7 +135,6 @@ def collect_weather_alerts(
                     "longitude": longitude,
                 }
                 geometry_derived = feature.get("geometry", {}).get("type") != "Point"
-            title = str(props.get("event") or "Weather alert")
             priority = (
                 "critical"
                 if severity == "Extreme"

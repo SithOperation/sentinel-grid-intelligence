@@ -11,6 +11,11 @@ CONFIG_PATH = PROJECT_ROOT / "config.yaml"
 DEFAULT_CONFIG = {
     "sources": {
         "conflict": {"enabled": True},
+        "europe_security": {
+            "enabled": True,
+            "config_file": "config/europe_security.yaml",
+            "state_file": "data/cache/europe_security_state.json",
+        },
         "eonet": {
             "enabled": True,
             "collect_natural_events": True,
@@ -92,6 +97,12 @@ def load_config(path=CONFIG_PATH):
         if not isinstance(value, int) or isinstance(value, bool) or value <= 0:
             raise ValueError(f"{section}.{key} must be a positive integer")
     x_config = config["sources"]["x"]
+    europe_config = config["sources"]["europe_security"]
+    if not isinstance(europe_config["enabled"], bool):
+        raise TypeError("sources.europe_security.enabled must be boolean")
+    for key in ("config_file", "state_file"):
+        if not isinstance(europe_config[key], str) or not europe_config[key].strip():
+            raise TypeError(f"sources.europe_security.{key} must be a path string")
     for family, provider, url_key in (
         ("earthquake", "usgs", "feed_url"),
         ("eonet", None, "endpoint_url"),

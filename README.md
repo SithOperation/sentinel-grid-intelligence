@@ -64,6 +64,20 @@ outputs only when they still fit Sentinel's location-based mission.
 
 ## Publication
 
+### Europe / NATO / Russia public reporting
+
+Sentinel correlates public NATO, European security-media, and Reddit RSS/Atom
+reporting through a provenance-aware collector. Reddit reposts of one external
+article remain separate observations but never become false corroboration.
+Locations use controlled city/region/country coordinates, and unlocated reports
+remain off-map. Configure feeds and term groups in
+`config/europe_security.yaml`; see `docs/europe-security-collector.md` for the
+confidence, perspective, polling, and extension model.
+
+### Near-live weather
+
+The scheduled publisher collects official active National Weather Service alerts every 15 minutes. Expired, malformed, duplicate, and administrative test messages are rejected before publication. A failed provider request does not erase the last validated website publication; the next successful run replaces it through the normal atomic publication and repository-dispatch flow. No paid weather API is required.
+
 Generated artifacts are written under `data/output`; retained canonical events
 are stored in `data/database/events.json`. A release is staged and validated
 before replacement, with `manifest.json` replaced last as the completion

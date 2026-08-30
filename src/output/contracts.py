@@ -19,6 +19,7 @@ SUPPORTED_EVENT_TYPES = {
     "natural_hazard",
     "x_report",
     "reddit_report",
+    "europe_security",
 }
 
 

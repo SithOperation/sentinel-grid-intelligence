@@ -33,6 +33,7 @@ from api.news import fetch as fetch_news_articles
 from api.x_public import PublicXTransport
 from collectors.conflict_collector import collect_conflicts
 from collectors.earthquake_collector import collect_earthquakes
+from collectors.europe_security import collect_europe_security, load_europe_config
 from collectors.hazard_common import CollectionResult
 from collectors.humanitarian_collector import collect_humanitarian
 
@@ -93,6 +94,7 @@ SUPPORTED_EVENT_TYPES = {
     "natural_hazard",
     "x_report",
     "reddit_report",
+    "europe_security",
 }
 
 
@@ -122,6 +124,7 @@ def _result_health(name, started, result):
 def _configured_sources():
     return {
         "conflict": source_enabled(CONFIG, "conflict"),
+        "europe_security": source_enabled(CONFIG, "europe_security"),
         "nasa_eonet_natural_events": source_enabled(CONFIG, "eonet")
         and CONFIG["sources"]["eonet"]["collect_natural_events"],
         "usgs_earthquakes": source_enabled(CONFIG, "earthquake", "usgs"),
@@ -168,6 +171,23 @@ def collect_all_sources(reference_time=None):
         collected = collect_conflicts(articles)
         events.extend(collected)
         health.append(_health_record("conflict", started, len(collected)))
+
+    if source_enabled(CONFIG, "europe_security"):
+        print("[+] Collecting public European security reporting")
+        started = time.monotonic()
+        try:
+            europe_config = load_europe_config(
+                resolve_project_path(CONFIG["sources"]["europe_security"]["config_file"])
+            )
+            result = collect_europe_security(
+                europe_config,
+                reference_time,
+                state_path=resolve_project_path(CONFIG["sources"]["europe_security"]["state_file"]),
+            )
+        except (OSError, TypeError, ValueError) as error:
+            result = CollectionResult(status="error", error=str(error))
+        events.extend(result.events)
+        health.append(_result_health("europe_security", started, result))
 
     if source_enabled(CONFIG, "eonet"):
         eonet_config = CONFIG["sources"]["eonet"]
@@ -479,6 +499,7 @@ def reset_generated_data():
     targets.append(event_database.DATABASE_PATH)
     x_cache = resolve_project_path(CONFIG["sources"]["x"]["cache_file"])
     targets.append(x_cache)
+    targets.append(resolve_project_path(CONFIG["sources"]["europe_security"]["state_file"]))
     removed = []
     for path in targets:
         if path.is_file():

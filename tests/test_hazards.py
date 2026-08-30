@@ -322,6 +322,17 @@ class HazardCollectorTests(unittest.TestCase):
         self.assertEqual(result.events[0]["timestamp"], REFERENCE.isoformat())
         self.assertEqual(result.metrics["expired_alerts"], 1)
 
+    def test_weather_test_messages_are_rejected(self):
+        test_alert = nws_alert("test-alert")
+        test_alert["properties"]["event"] = "Test Message"
+        result = collect_weather_alerts(
+            {**BASE, "alerts_url": "https://example.gov/alerts"},
+            REFERENCE,
+            FixtureTransport({"features": [test_alert]}),
+        )
+        self.assertEqual(result.events, [])
+        self.assertEqual(result.metrics["test_messages"], 1)
+
     def test_provider_failure_status(self):
         for collector, key in (
             (collect_earthquakes, "feed_url"),
@@ -339,6 +350,7 @@ class RetentionAndPipelineTests(unittest.TestCase):
     def test_runtime_source_health_contains_only_active_families(self):
         expected = {
             "conflict",
+            "europe_security",
             "nasa_eonet_natural_events",
             "usgs_earthquakes",
             "nasa_eonet_volcanoes",

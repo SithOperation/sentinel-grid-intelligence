@@ -10,6 +10,11 @@ sources:
   conflict:
     enabled: true
 
+  europe_security:
+    enabled: true
+    config_file: config/europe_security.yaml
+    state_file: data/cache/europe_security_state.json
+
   eonet:
     enabled: true
     collect_natural_events: true

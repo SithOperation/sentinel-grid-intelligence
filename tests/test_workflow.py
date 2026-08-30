@@ -17,3 +17,9 @@ def test_collection_dispatches_validated_publication_metadata() -> None:
     assert "generated" in text
     assert "map_event_count" in text
     assert "scheduled website synchronization remains active" in text
+
+
+def test_collection_uses_near_live_weather_cadence() -> None:
+    workflow_path = Path(__file__).parents[1] / ".github" / "workflows" / "collect.yml"
+    workflow_text = workflow_path.read_text(encoding="utf-8")
+    assert 'cron: "*/15 * * * *"' in workflow_text
