@@ -1,271 +1,5 @@
 [
   {
-    "event_id": "SG-7cd279c6a421",
-    "type": "earthquake",
-    "title": "M5 earthquake — western Xizang",
-    "description": "M 5.0 - western Xizang",
-    "latitude": 33.2423,
-    "longitude": 86.9395,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T14:45:48.054000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc9m",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-c8c2c3303466",
-    "type": "earthquake",
-    "title": "M2.8 earthquake — 16 km NW of Mentone, Texas",
-    "description": "M 2.8 - 16 km NW of Mentone, Texas",
-    "latitude": 31.794,
-    "longitude": -103.737,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T14:48:52.845000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qwahjm",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-580bda9b276c",
-    "type": "humanitarian",
-    "title": "Green notification for tropical cyclone DOLLY-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
-    "description": "From 27/08/2026 to 27/08/2026, a Tropical Storm (maximum wind speed of 74 km/h) DOLLY-26 was active in Atlantic. The cyclone affects these countries: Guadeloupe, Antigua and Barbuda, Montserrat (vulnerability High). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0 (0 in tropical storm).",
-    "latitude": 13.7,
-    "longitude": -40.7,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 95,
-    "timestamp": "2026-08-27T15:17:00+00:00",
-    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001313",
-    "classification": "disaster_alert",
-    "source": [
-      "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-852078bf4deb",
-    "type": "earthquake",
-    "title": "M2.5 earthquake — 167 km SSE of Old Harbor, Alaska",
-    "description": "M 2.5 - 167 km SSE of Old Harbor, Alaska",
-    "latitude": 55.902,
-    "longitude": -151.931,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T15:29:01.125000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qyufbr",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-04bb91448f60",
-    "type": "earthquake",
-    "title": "M3.5 earthquake — 10 km NW of Mérida, Venezuela",
-    "description": "M 3.5 - 10 km NW of Mérida, Venezuela",
-    "latitude": 8.6667,
-    "longitude": -71.214,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T15:36:05.076000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tca4",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-867da2a51398",
-    "type": "earthquake",
-    "title": "M2.7 earthquake — 90 km SE of Akutan, Alaska",
-    "description": "M 2.7 - 90 km SE of Akutan, Alaska",
-    "latitude": 53.59,
-    "longitude": -164.758,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T15:40:12.899000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qyuokz",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-17b90e95ede1",
-    "type": "europe_security",
-    "title": "Poland rules out hosting nuclear weapons despite Russian threat",
-    "description": "POLITICO Europe Defence reported: BRUSSELS — Poland “does not want” allied nuclear weapons stationed on its territory, the country’s Deputy Defense Minister Paweł Zalewski said Thursday, despite growing worries of a Russian incursion into NATO territory. “I would like to say very clearly and openly: Poland does not want to have nuclear warheads on its territory,” he told reporters […]",
-    "latitude": 52.1,
-    "longitude": 19.4,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-08-27T15:49:44+00:00",
-    "url": "https://www.politico.eu/article/poland-rules-out-hosting-nuclear-weapons-despite-russian-threat",
-    "classification": "russian_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "NATO",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-15283380c14b",
-    "location_precision": "country",
-    "europe_layers": [
-      "eastern_flank",
-      "nato_activity",
-      "russian_activity"
-    ]
-  },
-  {
-    "event_id": "SG-43642e48611e",
-    "type": "europe_security",
-    "title": "Russia’s ‘hybrid war’ on Europe is starting to look a lot less hybrid",
-    "description": "POLITICO Europe Defence reported: With drone incursions, assassination attempts and sabotage on European soil, some critics say the conflict with Moscow is no longer just \"hybrid\" in nature.",
-    "latitude": 61.524,
-    "longitude": 105.3188,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-08-27T16:44:54+00:00",
-    "url": "https://www.politico.eu/article/russias-hybrid-war-on-europe-is-starting-to-look-a-lot-less-hybrid",
-    "classification": "drone_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "RUSSIA",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-0431bd63edfd",
-    "location_precision": null,
-    "europe_layers": [
-      "drone_activity",
-      "missile_drone",
-      "russian_activity"
-    ]
-  },
-  {
-    "event_id": "SG-7c161288c921",
-    "type": "earthquake",
-    "title": "M2.6 earthquake — 203 km S of False Pass, Alaska",
-    "description": "M 2.6 - 203 km S of False Pass, Alaska",
-    "latitude": 53.029,
-    "longitude": -163.283,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T16:56:30.620000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qyxcos",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-199195d36b77",
-    "type": "earthquake",
-    "title": "M2.6 earthquake — 3 km N of Sterling, Alaska",
-    "description": "M 2.6 - 3 km N of Sterling, Alaska",
-    "latitude": 60.573,
-    "longitude": -150.763,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T17:05:33.195000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qyxkno",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-c07bc451a59a",
-    "type": "earthquake",
-    "title": "M4.1 earthquake — 29 km NW of Tumbes, Peru",
-    "description": "M 4.1 - 29 km NW of Tumbes, Peru",
-    "latitude": -3.3927,
-    "longitude": -80.6517,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T17:09:28.808000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcbz",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-1e7990b9e5c2",
-    "type": "earthquake",
-    "title": "M4.1 earthquake — 14 km NNE of Machala, Ecuador",
-    "description": "M 4.1 - 14 km NNE of Machala, Ecuador",
-    "latitude": -3.1421,
-    "longitude": -79.8986,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T17:23:23.348000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcc0",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-34dec27435bb",
-    "type": "earthquake",
-    "title": "M2.6 earthquake — 95 km S of Unalaska, Alaska",
-    "description": "M 2.6 - 95 km S of Unalaska, Alaska",
-    "latitude": 53.016,
-    "longitude": -166.677,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T17:33:33.905000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qyyiup",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-310df26fc373",
-    "type": "earthquake",
-    "title": "M4.5 earthquake — 42 km E of Estique, Peru",
-    "description": "M 4.5 - 42 km E of Estique, Peru",
-    "latitude": -17.5572,
-    "longitude": -69.6195,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-27T17:40:41.549000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcc3",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-e73124e35051",
     "type": "earthquake",
     "title": "M2.6 earthquake — 63 km WSW of Port Alexander, Alaska",
@@ -1626,23 +1360,6 @@
     ]
   },
   {
-    "event_id": "SG-8e1215cf7c02",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana...Illinois... Wabash River from Hutsonville to Vincennes. .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crest. Flooding should come to an end on the Wabash during the weekend. * WHAT...Minor flooding is forecast. * WHERE...Wabash River at Hutsonville Legacy Power Plant Site. * WHEN...Until Sunday morning. * IMPACTS...At 18.0 feet, Seep water occurs behind levees on Indiana side. Hutson Creek begins to overflow from backwater. Old Darwin Road and a few rural roads in eastern Clark and Crawford counties in Illinois are impassable. Low agricultural land floods. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...The river is expected to fall below flood stage late tomorrow evening and continue falling to 6.5 feet Monday, September 07. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.230000000000004,
-    "longitude": -87.60428571428572,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-28T22:16:59.541208+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d6d2ad6897bfc2053b7ba54c44a8a9b438cb92a.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-0760872571b2",
     "type": "earthquake",
     "title": "M4.1 earthquake — 20 km SSW of Nueva Sesecapa, Mexico",
@@ -2048,23 +1765,6 @@
     "classification": "disaster_alert",
     "source": [
       "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-a0c71c721391",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana...Illinois... Wabash River from Hutsonville to Vincennes. .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crested. Flooding should come to an end on the Wabash over the weekend. * WHAT...Minor flooding is forecast. * WHERE...Wabash River at Hutsonville Legacy Power Plant Site. * WHEN...Until Sunday morning. * IMPACTS...At 18.0 feet, Seep water occurs behind levees on Indiana side. Hutson Creek begins to overflow from backwater. Old Darwin Road and a few rural roads in eastern Clark and Crawford counties in Illinois are impassable. Low agricultural land floods. * ADDITIONAL DETAILS... - There is no current observed data. - Bankfull stage is 12.0 feet. - Forecast...The river is expected to fall below flood stage late tomorrow evening and continue falling to 6.4 feet Monday, September 07. - Flood stage is 16.0 feet. - Flood History...This crest compares to a previous crest of 17.2 feet on 06/23/1946. - http://www.weather.gov/safety/flood",
-    "latitude": 39.230000000000004,
-    "longitude": -87.60428571428572,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-29T07:01:56.308021+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55513f7e9c408f5bc1ea8c3d4b8ca021151f81f3.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
     ]
   },
   {
@@ -2572,40 +2272,6 @@
     ]
   },
   {
-    "event_id": "SG-51424de944c5",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois...Indiana... Wabash River at Vincennes ...The Flood Warning continues for the following rivers in Illinois...Indiana... Wabash River at Hutsonville Legacy Power Plant Site Wabash River at Riverton .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crested. Flooding should come to an end on the Wabash over the weekend. * WHAT...Minor flooding is forecast. * WHERE...Wabash River at Hutsonville Legacy Power Plant Site. * WHEN...Until Sunday morning. * IMPACTS...At 16.0 feet, Old Darwin Road and a few low rural roads between York and Hutsonville, Illinois begin to flood. Agricultural flooding begins along portions of the river. * ADDITIONAL DETAILS... - There is no current observed data. - Bankfull stage is 12.0 feet. - Forecast...The river is expected to fall below flood stage late this evening and continue falling to 6.6 feet Tuesday, September 08. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.230000000000004,
-    "longitude": -87.60428571428572,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-29T20:53:30.085590+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f12e54866dbe297df5336b1953067bd10aeed14.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-196ecc870ffc",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois...Indiana... Wabash River at Vincennes ...The Flood Warning continues for the following rivers in Illinois...Indiana... Wabash River at Hutsonville Legacy Power Plant Site Wabash River at Riverton .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crested. Flooding should come to an end on the Wabash over the weekend. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at Vincennes. * WHEN...Until Sunday morning. * IMPACTS...At 17.0 feet, Considerable agricultural flooding extends from just north of the junction of Illinois 33 with Business 50 to the St. Francesville, Illinois area. River Road from Lincoln Memorial Bridge to Billett Rd is impassable. Extensive seep water forms behind Illinois levees extending from Russellville to U.S. Highway 50. Flooding of agricultural land begins in Knox County Indiana west of the railroad extending for the Oaktown area to the north side of Vincennes. Extensive flooding of Small Creek. * ADDITIONAL DETAILS... - At 9:45 AM CDT /10:45 AM EDT/ Saturday the stage was 17.1 feet. - Bankfull stage is 10.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 9:45 AM CDT /10:45 AM EDT/ Saturday was 18.1 feet. - Forecast...The river is expected to fall below flood stage late this evening and continue falling to 4.4 feet Tuesday, September 08. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 38.714285714285715,
-    "longitude": -87.57142857142857,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-29T20:53:30.085590+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f12e54866dbe297df5336b1953067bd10aeed14.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-38099f811300",
     "type": "earthquake",
     "title": "M4.8 earthquake — 58 km ESE of Koshima, Japan",
@@ -2776,7 +2442,7 @@
     ]
   },
   {
-    "event_id": "SG-b4c92bb70ccb",
+    "event_id": "SG-1eb4533b653b",
     "type": "earthquake",
     "title": "M3.96 earthquake — 50 km NNW of San Antonio, Puerto Rico",
     "description": "M 4.0 - 50 km NNW of San Antonio, Puerto Rico",
@@ -2964,153 +2630,153 @@
     ]
   },
   {
-    "event_id": "SG-26912e81fab1",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Small stream flooding caused by excessive rainfall is expected. * WHERE...Central Pima County in southeastern Arizona... * WHEN...Until 930 AM MST Sunday. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry washes. Overflowing poor drainage areas. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 934 PM MST, gauge reports indicated heavy rain due to thunderstorms fell in the middle and upper reaches of the Vamori Wash this evening. This will cause small stream flooding. Rises in the Vamori Wash could be sudden, but the flood wave will slowly travel downstream. - This includes the following streams and drainages... San Simon Wash, Hali Murk Wash, Chukut Kuk Wash, San Luis Wash and Vamori Wash. - Some locations that will experience flooding include... Santa Cruz and Kupk. - http://www.weather.gov/safety/flood",
-    "latitude": 31.8765,
-    "longitude": -112.276,
+    "event_id": "SG-2ae48650f390",
+    "type": "earthquake",
+    "title": "M2.6 earthquake — 57 km NW of Toyah, Texas",
+    "description": "M 2.6 - 57 km NW of Toyah, Texas",
+    "latitude": 31.649,
+    "longitude": -104.26,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-08-30T13:43:43.084550+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73bb894b58cb370a80e3d911af38308f7db77b25.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-08-30T14:27:57.251000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rbmtxj",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-791038074fa2",
+    "type": "earthquake",
+    "title": "M3.32 earthquake — 54 km N of Charlotte Amalie, U.S. Virgin Islands",
+    "description": "M 3.3 - 54 km N of Charlotte Amalie, U.S. Virgin Islands",
+    "latitude": 18.8221666666667,
+    "longitude": -65.0275,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T15:33:01.080000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71530363",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-98d5599e7c8e",
+    "type": "earthquake",
+    "title": "M2.61 earthquake — 0 km S of Pāhala, Hawaii",
+    "description": "M 2.6 - 0 km S of Pāhala, Hawaii",
+    "latitude": 19.2013339996338,
+    "longitude": -155.47883605957,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T15:42:18.850000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75026867",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-73ef7f15f46b",
+    "type": "earthquake",
+    "title": "M4.7 earthquake — 62 km SSE of Palca, Peru",
+    "description": "M 4.7 - 62 km SSE of Palca, Peru",
+    "latitude": -18.2459,
+    "longitude": -69.6387,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T16:04:07.774000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tczt",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
     "event_id": "SG-a94f9d98eecf",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following river in Illinois... Indiana... Wabash River at Hutsonville to Vincennes .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crested. Flooding should come to an end on the Wabash over the weekend. * WHAT...Minor flooding is forecast. * WHERE...Wabash River at Hutsonville Legacy Power Plant Site. * WHEN...Until Sunday morning. * IMPACTS...At 16.0 feet, Old Darwin Road and a few low rural roads between York and Hutsonville, Illinois begin to flood. Agricultural flooding begins along portions of the river. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...The river is expected to fall below flood stage late this evening and continue falling to 6.6 feet Tuesday, September 08. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.230000000000004,
-    "longitude": -87.60428571428572,
+    "description": "...The Flood Warning continues for the following rivers in Indiana... Illinois... Wabash River at Riverton .Minor flooding continues on the Wabash River at Riverton. The river has crested. Flooding is expected come to an end on the Wabash later tonight. * WHAT...Minor flooding is occurring. * WHERE...Wabash River at Riverton. * WHEN...Until late Sunday night. * IMPACTS...At 16.0 feet, Some agricultural lands underwater. A few rural roads in Crawford County, Illinois close as water backs up Minnow Slough. High water affects campground at Leaverton Park in Palestine. A few private roads near the Gill Township levee in Sullivan County may flood. Water level is at the top of most makeshift levees. * ADDITIONAL DETAILS... - At 8:00 AM CDT /9:00 AM EDT/ Sunday the stage was 16.6 feet. - Bankfull stage is 10.5 feet. - Forecast...The river is expected to fall below flood stage just after midnight tonight and continue falling to 4.7 feet Wednesday, September 09. - Flood stage is 15.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.01,
+    "longitude": -87.57571428571428,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-08-30T13:43:43.084550+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a43560fddf6a3a82ffea67dc14c36f61179d0bd.003.1",
+    "timestamp": "2026-08-30T17:47:34.498154+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f8e04e3194ea99a680df2f24a964cc9d3d3e12b.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-e0d39017c2d5",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following river in Illinois... Indiana... Wabash River at Hutsonville to Vincennes .Minor flooding continues on the Wabash River from Hutsonville down to Vincennes. The river has crested. Flooding should come to an end on the Wabash over the weekend. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River at Vincennes. * WHEN...Until Sunday morning. * IMPACTS...At 17.0 feet, Considerable agricultural flooding extends from just north of the junction of Illinois 33 with Business 50 to the St. Francesville, Illinois area. River Road from Lincoln Memorial Bridge to Billett Rd is impassable. Extensive seep water forms behind Illinois levees extending from Russellville to U.S. Highway 50. Flooding of agricultural land begins in Knox County Indiana west of the railroad extending for the Oaktown area to the north side of Vincennes. Extensive flooding of Small Creek. * ADDITIONAL DETAILS... - At 4:45 PM CDT /5:45 PM EDT/ Saturday the stage was 16.8 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 4:45 PM CDT /5:45 PM EDT/ Saturday was 17.8 feet. - Forecast...The river is expected to fall below flood stage late this evening and continue falling to 4.4 feet Tuesday, September 08. - Flood stage is 16.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 38.714285714285715,
-    "longitude": -87.57142857142857,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T13:43:43.084550+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a43560fddf6a3a82ffea67dc14c36f61179d0bd.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-3a0089f76481",
+    "event_id": "SG-4c8009b7e7a7",
     "type": "weather_alert",
     "title": "Special Marine Warning",
-    "description": "SMWMFL The National Weather Service in Miami has issued a * Special Marine Warning for... Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM... Waters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM... * Until 1015 AM EDT. * At 940 AM EDT, strong thunderstorms were located along a line extending from 7 nm northeast of Ocean Ridge to 19 nm east of Highland Beach, moving northwest at 15 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Riviera Beach, Ocean Ridge, Palm Beach, Hypoluxo, Juno Beach, Gulf Stream, Palm Beach Shores, Delray Beach, South Palm Beach, Manalapan, Briny Breezes, North Palm Beach, and Jupiter.",
-    "latitude": 26.51,
-    "longitude": -79.748,
+    "description": "SMWSJU The National Weather Service in San Juan has issued a * Special Marine Warning for... Caribbean waters of Puerto Rico from 10 NM to 17N, including the coastal waters of Saint Croix... Coastal Waters of Southern Puerto Rico out 10 NM... * Until 230 PM AST. * At 131 PM AST, strong thunderstorms were located over the Caribbean waters around 10 nm from south-central PR, moving west at 15 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar indicated. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Mainly open waters of Caribbean waters of Puerto Rico from 10 NM to 17N, including the coastal waters of Saint Croix and Coastal Waters of Southern Puerto Rico out 10 NM.",
+    "latitude": 17.676666666666666,
+    "longitude": -66.82833333333333,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-08-30T13:43:43.084550+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8e4f9eb39d120f092de404d8139450a6687475b2.001.1",
+    "timestamp": "2026-08-30T17:47:34.498154+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.923f0a108291a200e7eea9fa1ac300abe0e1f964.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-dc8d506357a9",
+    "event_id": "SG-936b27410fe0",
+    "type": "weather_alert",
+    "title": "Marine Weather Statement",
+    "description": "A Marine Weather Statement has been issued for the following areas... Coastal Waters from Port Fourchon LA to Lower Atchafalaya River LA out 20 nm... Coastal waters from Port Fourchon Louisiana to Lower Atchafalaya River LA from 20 to 60 NM... Coastal waters from Southwest Pass of the Mississippi River to Port Fourchon Louisiana from 20 to 60 NM... Coastal waters from the Southwest Pass of the Mississippi River to Port Fourchon Louisiana out 20 NM... At 1222 PM CDT, Doppler radar indicated strong thunderstorms, capable of producing winds of 25 to 30 knots and weak waterspouts. These thunderstorms are generally located along a line extending from 23 nm south of Isle Derniers to 11 nm south of Timbalier Island to near Louisiana Offshore Oil Port to 16 nm southwest of Southwest Pass Of the Mississippi River, moving southwest at 10 knots.",
+    "latitude": 28.752999999999997,
+    "longitude": -90.25699999999999,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-08-30T17:47:34.498154+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2eba1f0046e54483b46be0d03b32aeaf22504233.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2e8b9e1f1206",
     "type": "weather_alert",
     "title": "Special Weather Statement",
-    "description": "At 736 AM MDT, Doppler radar was tracking a strong thunderstorm near Lindon, or 9 miles north of Provo, moving east at 50 mph. HAZARD...Wind gusts of 50 to 55 mph and nickel size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Provo, Park City, Heber City, Orem, Lehi, Draper, Pleasant Grove, American Fork, Heber, Lindon, Alpine, Kamas, Oakley, Francis, Daniel, Vineyard, Wasatch Mountain State Park, Samak, Timber Lakes, and Little Cottonwood Canyon. This includes the following highways... Interstate 15 between mile markers 269 and 279. US Route 40 between mile markers 6 and 34. Utah Route 35 between mile markers 0 and 21. Mirror Lake Highway between mile markers 0 and 17.",
-    "latitude": 40.44,
-    "longitude": -111.50399999999999,
+    "description": "At 105 PM AST, Doppler radar was tracking a strong thunderstorm over southwestern municipalities, moving southwest at 15 mph. HAZARD...Wind gusts up to 40 mph and frequent lightning. Funnel clouds possible. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Yauco, Sabana Grande, San German, Lajas, Guanica, Hormigueros, Cabo Rojo, Guayanilla, Mayaguez, Monte Grande, Puerto Real, Palomas, Maricao, Liborio Negron Torres, Lluveras, Sabana Eneas, Fuig, La Parguera and Maria Antonia.",
+    "latitude": 18.005714285714287,
+    "longitude": -67.02809523809523,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-08-30T13:43:43.084550+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55a60b9c68685ea97b186644a2000c009a48ed9a.001.1",
+    "timestamp": "2026-08-30T17:47:34.498154+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47d553dc02800a9e199b75ea23043ef9bee10846.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-117ce1d4ac4a",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWCHS The National Weather Service in Charleston has issued a * Special Marine Warning for... Waters from Edisto Beach SC to Savannah GA out 60 NM... * Until 1100 AM EDT. * At 935 AM EDT, a strong thunderstorm was located 11 NM southeast of Hunting Island Reef, moving northwest at 10 knots. HAZARD...Wind gusts to 34 knots. SOURCE...Radar indicated. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Hunting Island Reef, Fripp Island Reef, Betsy Ross Reef, Fripp Island Wreck, Beaufort 45 Feet Reef and General Gordon.",
-    "latitude": 32.14125,
-    "longitude": -80.33375,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T13:43:43.084550+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43835341f2c4fe25ab9234ddbc4f3fb7731f1684.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a034a5df5c5e",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWMOB The National Weather Service in Mobile has issued a * Special Marine Warning for... Coastal waters from Pensacola FL to Pascagoula MS out 20 NM... Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM... * Until 915 AM CDT. * At 752 AM CDT, strong thunderstorms capable of producing waterspouts were located along a line extending from 9 nm southeast of Perdido Pass to 25 nm south of Gulf Shores Beach, moving west at 5 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Waterspouts can easily overturn boats and create locally hazardous seas. Small craft could be damaged in briefly higher winds and suddenly higher waves. * Strong thunderstorms will remain over mainly open waters.",
-    "latitude": 30.143,
-    "longitude": -87.69500000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-08-30T13:43:43.084550+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.976a306b3485e3b81520a3da48dfa4c34b64662d.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-3595b8209e64",
+    "event_id": "SG-c38fad27b05d",
     "type": "weather_alert",
     "title": "Marine Weather Statement",
-    "description": "At 728 AM CDT...A line of strong thunderstorms was located along a line extending from near Perdido Pass to 20 nm south of Gulf Shores Beach...moving west at 10 knots. Locations impacted include... Arnica Bay, Big Lagoon, Pensacola Beach, Pensacola Pass, Sand Island Lighthouse, Fort Pickens, Bon Secour Bay, Farewell Buoy, Perdido Pass, and Orange Beach. The primary threats from these storms are wind gusts up to 30 knots...locally higher waves...and heavy downpours. Boaters should consider seeking safe harbor until these storms have passed. Weather conditions support the development of waterspouts. Waterspouts can easily overturn boats and create locally hazardous waves and seas. If a waterspout is sighted...seek safe harbor immediately.",
-    "latitude": 30.28,
-    "longitude": -87.6921052631579,
+    "description": "The areas affected include... Caribbean waters of Puerto Rico from 10 NM to 17N, including the coastal waters of Saint Croix... Coastal Waters of Southern Puerto Rico out 10 NM... * At 1158 AM AST, Doppler radar indicated strong thunderstorms, capable of producing winds to around 40 to 50 knots and frequent lighting. These thunderstorms were mainly over the nearshore and offshore Caribbean waters, moving west at 15 knots. Additional thunderstorms can move from Puerto Rico towards the nearshore Caribbean waters. Locations impacted include... Mainly open waters of Caribbean waters of Puerto Rico from 10 NM to 17N, including the coastal waters of Saint Croix and Coastal Waters of Southern Puerto Rico out 10 NM.",
+    "latitude": 17.886000000000003,
+    "longitude": -66.3595,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-08-30T13:43:43.084550+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d4683fa5d670a959f05247a3787e7ce8065377ed.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-80ba4347353a",
-    "type": "weather_alert",
-    "title": "Marine Weather Statement",
-    "description": "The areas affected include... Anegada Passage east of Virgin Gorda and Saint Croix south to 17N... Caribbean Waters of Puerto Rico from 10 NM to 17N, including the Coastal Waters of Saint Croix... At 740 AM AST, Doppler radar indicated strong thunderstorms, capable of producing winds to around 40 knots and frequent lightning.. These thunderstorms were located over the waters around St Croix, moving southwest at 15 knots.",
-    "latitude": 17.54,
-    "longitude": -65.168,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-30T13:43:43.084550+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a15e85369fd4f17028b8c82eda8e10d89ce43a1.001.1",
+    "timestamp": "2026-08-30T17:47:34.498154+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cfe2aba39196998cd9de5f9fd014563446a72c13.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
