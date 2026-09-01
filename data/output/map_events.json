@@ -1,171 +1,5 @@
 [
   {
-    "event_id": "SG-9baf9123b765",
-    "type": "earthquake",
-    "title": "M4.8 earthquake — 184 km SE of Perryville, Alaska",
-    "description": "M 4.8 - 184 km SE of Perryville, Alaska",
-    "latitude": 54.821,
-    "longitude": -156.951,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-29T15:16:55.105000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rcluqc",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-ebc44dfc1d6d",
-    "type": "earthquake",
-    "title": "M4.7 earthquake — 16 km ENE of Hasaki, Japan",
-    "description": "M 4.7 - 16 km ENE of Hasaki, Japan",
-    "latitude": 35.8029,
-    "longitude": 140.9937,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-29T15:17:06.003000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcu2",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-7942f7ffe577",
-    "type": "earthquake",
-    "title": "M3.7 earthquake — 92 km SE of Atka, Alaska",
-    "description": "M 3.7 - 92 km SE of Atka, Alaska",
-    "latitude": 51.5657,
-    "longitude": -173.3208,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-29T15:24:47.674000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcuf",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-207fd5e2bb08",
-    "type": "europe_security",
-    "title": "Russia plans new ground attack on Kyiv, Ukraine warns",
-    "description": "POLITICO Europe Defence reported: Volodymyr Zelenskyy's office reveals new intelligence about Kremlin plans for an offensive against the capital.",
-    "latitude": 49.0,
-    "longitude": 31.4,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-08-29T16:01:28+00:00",
-    "url": "https://www.politico.eu/article/russia-plans-new-ground-attack-on-kyiv-ukraine-warns",
-    "classification": "russian_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "RUSSIA",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-ca8fd3e4be0e",
-    "location_precision": "country",
-    "europe_layers": [
-      "russian_activity",
-      "ukraine_war"
-    ]
-  },
-  {
-    "event_id": "SG-cc129568a4a5",
-    "type": "wildfire",
-    "title": "Wildfire RAILROAD SOUTH, Comanche, Oklahoma",
-    "description": "3 Miles E from Indiahoma, OK",
-    "latitude": 34.6084,
-    "longitude": -98.7205,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-29T16:31:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23676",
-    "classification": "eonet_wildfire",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-47d402343b5e",
-    "type": "earthquake",
-    "title": "M4.3 earthquake — 142 km NW of Ternate, Indonesia",
-    "description": "M 4.3 - 142 km NW of Ternate, Indonesia",
-    "latitude": 1.8152,
-    "longitude": 126.6085,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-29T16:42:43.142000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcu7",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-99d90a0c7baf",
-    "type": "earthquake",
-    "title": "M2.94 earthquake — 77 km W of Petrolia, CA",
-    "description": "M 2.9 - 77 km W of Petrolia, CA",
-    "latitude": 40.4536666870117,
-    "longitude": -125.173164367676,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-29T17:12:32.170000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426827",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-7f6045417c69",
-    "type": "earthquake",
-    "title": "M3.9 earthquake — 12 km NW of La Romana, Dominican Republic",
-    "description": "M 3.9 - 12 km NW of La Romana, Dominican Republic",
-    "latitude": 18.4995,
-    "longitude": -69.0589,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-29T17:36:19.199000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcue",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-345a271801ce",
-    "type": "wildfire",
-    "title": "Wildfire WRIGHT, Hughes, Oklahoma",
-    "description": "5 Miles SW from Dustin, OK",
-    "latitude": 35.224667,
-    "longitude": -96.1149,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-08-29T18:05:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23674",
-    "classification": "eonet_wildfire",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
     "event_id": "SG-6b1a6a356611",
     "type": "wildfire",
     "title": "Wildfire 4V, San Miguel, New Mexico",
@@ -1538,6 +1372,23 @@
     ]
   },
   {
+    "event_id": "SG-51169397d9b9",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Botswana",
+    "description": "On 30/08/2026, a forest fire started in Botswana, until 01/09/2026.",
+    "latitude": -21.652465586739485,
+    "longitude": 26.572307257071916,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-08-31T19:01:32+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031388",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
     "event_id": "SG-6e0b1fa42780",
     "type": "humanitarian",
     "title": "Green forest fire notification in Mozambique",
@@ -1844,6 +1695,23 @@
     ]
   },
   {
+    "event_id": "SG-c79aad3dc92e",
+    "type": "earthquake",
+    "title": "M3 earthquake — 58 km SSW of Adak, Alaska",
+    "description": "M 3.0 - 58 km SSW of Adak, Alaska",
+    "latitude": 51.414,
+    "longitude": -177.038,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T03:04:24.961000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rhblzv",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-f91baf200751",
     "type": "earthquake",
     "title": "M3.6 earthquake — 4 km WSW of Caldera, Panama",
@@ -1946,17 +1814,17 @@
     ]
   },
   {
-    "event_id": "SG-c6412b22ed35",
+    "event_id": "SG-879db3e3adf0",
     "type": "earthquake",
-    "title": "M4.5 earthquake — 90 km SSW of Nikolski, Alaska",
-    "description": "M 4.5 - 90 km SSW of Nikolski, Alaska",
-    "latitude": 52.1624,
-    "longitude": -169.2588,
+    "title": "M4.2 earthquake — 99 km SSW of Nikolski, Alaska",
+    "description": "M 4.2 - 99 km SSW of Nikolski, Alaska",
+    "latitude": 52.071,
+    "longitude": -169.221,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-01T07:45:38.175000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdal",
+    "timestamp": "2026-09-01T08:18:45.288000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rhlymu",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -1978,6 +1846,23 @@
     "source": [
       "USGS Earthquake Hazards Program",
       "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-c6412b22ed35",
+    "type": "earthquake",
+    "title": "M3.4 earthquake — 92 km SSW of Nikolski, Alaska",
+    "description": "M 3.4 - 92 km SSW of Nikolski, Alaska",
+    "latitude": 52.16,
+    "longitude": -169.325,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T08:35:06.613000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rhmmqm",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
@@ -2371,6 +2256,23 @@
     ]
   },
   {
+    "event_id": "SG-1c7e1c35ed37",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 84 km SSW of Nikolski, Alaska",
+    "description": "M 4.6 - 84 km SSW of Nikolski, Alaska",
+    "latitude": 52.2673,
+    "longitude": -169.4311,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T13:47:19.528000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdbt",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-24a01414835e",
     "type": "earthquake",
     "title": "M2.9 earthquake — 59 km SW of Pilot Point, Alaska",
@@ -2405,54 +2307,20 @@
     ]
   },
   {
-    "event_id": "SG-b0e87310751d",
-    "type": "weather_alert",
-    "title": "Tropical Storm Warning",
-    "description": "* LOCATIONS AFFECTED - Anahuac - Beach City - Mont Belview * WIND - LATEST LOCAL FORECAST: Tropical storm force gusts. - Peak Wind Forecast: 20-30 mph with gusts to 40 mph - Higher winds likely if system deviates a little west of the expected track. - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Efforts to protect property should now be underway. Prepare for limited wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Limited but track dependent - Potential for some tree damage, especially if the center deviates west of the track. - Scattered power and communications outages are possible. - Wind impacts higher if center deviates west of the track. * STORM SURGE - No storm surge inundation forecast * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 3-6 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. * TORNADO - LATEST LOCAL FORECAST: - Situation is unfavorable for tornadoes * FOR MORE INFORMATION: - Hurricane Preparedness: Federal Emergency Management Agency - http://ready.gov/hurricanes - Local weather conditions and forecasts: NWS Houston/Galveston, TX - http://www.weather.gov/hgx/",
-    "latitude": 29.672089285714286,
-    "longitude": -94.71896428571428,
+    "event_id": "SG-1b8b680926be",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Australia",
+    "description": "On 30/08/2026, a forest fire started in Australia, until 01/09/2026.",
+    "latitude": -16.362496161985174,
+    "longitude": 135.76056282796816,
     "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-01T15:08:48.690609+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8348993b47e58a3ec9d99e3a0cb40aa7b6d46e70.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b5c1dd30aab3",
-    "type": "weather_alert",
-    "title": "Tropical Storm Warning",
-    "description": "A Tropical Storm Warning means tropical storm-force winds are expected somewhere within this area within the next 36 hours * LOCATIONS AFFECTED - Ames - Devers - Liberty * WIND - LATEST LOCAL FORECAST: Winds generally 15-25 MPH. Gusts over 40 MPH expected within rainbands. Higher winds likely if center deviates west of the expected track. - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Efforts to protect property should now be underway. Prepare for limited wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Limited but track dependent - Potential for some tree damage, especially if the center deviates west of the track. - Scattered power and communications outages are possible. - Wind impacts higher if center deviates west of the track. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 3-6 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. * TORNADO - LATEST LOCAL FORECAST: - Situation is unfavorable for tornadoes * FOR MORE INFORMATION: - Hurricane Preparedness: Federal Emergency Management Agency - http://ready.gov/hurricanes - Local weather conditions and forecasts: NWS Houston/Galveston, TX - http://www.weather.gov/hgx/",
-    "latitude": 29.945222222222224,
-    "longitude": -94.86555555555555,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-01T15:08:48.690609+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8348993b47e58a3ec9d99e3a0cb40aa7b6d46e70.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c7b9a260cedf",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "Rain showers continue to move across the area this evening bringing periods of moderate to heavy rain for the Juneau area. Rainfall amounts around the Mendenhall Valley show around an inch of rain has fallen in the last six hours with another quarter of an inch possible. * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Montana Creek near areas near the low water crossing on Montana Creek Road and near Back Loop Road at the Montana Creek bridge. * WHEN...Until 930 AM AKDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 617 AM AKDT, river gauge reports indicate rises in water levels from heavy rain across the advisory area. Minor flooding is ongoing or expected to begin shortly, especially near Montana Creek. Between 1 and 1.5 inches of rain have fallen. Additional rainfall amounts up to a quarter of an inch is possible. - For Montana Creek at Back Loop Bridge: At 6:00am the stage was 14.5 feet. Flood Stage is 14.5 feet. Forecast: A crest around 14.7 feet is expected around 1:00am Tuesday. A crest around 15.0 feet is expected around 12:00am Tuesday. Water levels will go below minor flood stage around 3am. Impacts: At 14.5 feet: Water begins flowing over the low water crossing on Montana Creek Road. Bankfull conditions at the gauge with water starting to inundate adjacent undeveloped fields along Mendenhall Loop Road.",
-    "latitude": 58.41285714285714,
-    "longitude": -134.61999999999998,
-    "priority": "medium",
     "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-01T15:08:48.690609+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6204bd7f6394cf6a78d11bc12e396d95e4bc503.001.1",
-    "classification": "severe_weather_alert",
+    "confidence": 95,
+    "timestamp": "2026-09-01T15:01:59+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031431",
+    "classification": "disaster_alert",
     "source": [
-      "National Weather Service"
+      "GDACS"
     ]
   },
   {
@@ -2586,6 +2454,312 @@
     "confidence": 100,
     "timestamp": "2026-09-01T15:08:48.690609+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.009.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-a9d85a73b2af",
+    "type": "earthquake",
+    "title": "M2.79 earthquake — 43 km NNE of Arecibo, Puerto Rico",
+    "description": "M 2.8 - 43 km NNE of Arecibo, Puerto Rico",
+    "latitude": 18.8591666666667,
+    "longitude": -66.6278333333333,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T15:31:54.640000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71530533",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-b7141ab95e16",
+    "type": "reddit_report",
+    "title": "Russian air attacks kill 12 in Kyiv region on sixth day of strikes",
+    "description": "submitted by /u/Reasonable-Brief306 to r/worldnews [link] [comments]",
+    "latitude": 50.4501,
+    "longitude": 30.5234,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 70,
+    "timestamp": "2026-09-01T16:27:06+00:00",
+    "url": "https://reddit.com/r/worldnews/comments/1w4gy4n/russian_air_attacks_kill_12_in_kyiv_region_on",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_worldnews"
+    ]
+  },
+  {
+    "event_id": "SG-986f79e31a20",
+    "type": "earthquake",
+    "title": "M2.54 earthquake — 2 km WSW of Pāhala, Hawaii",
+    "description": "M 2.5 - 2 km WSW of Pāhala, Hawaii",
+    "latitude": 19.1924991607666,
+    "longitude": -155.5,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T17:29:27.810000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75027827",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-27147d924b49",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Anasco County in Puerto Rico... * WHEN...Until 415 PM AST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 218 PM AST, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 1 inch of rain has fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - http://www.weather.gov/safety/flood",
+    "latitude": 18.282857142857143,
+    "longitude": -67.13238095238096,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.74b93aaf54836d80de45b987bbd03684d3fe9434.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8bde70c2f45e",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northeastern Ascension Parish in southeastern Louisiana... South Central Livingston Parish in southeastern Louisiana... Northwestern St. John The Baptist Parish in southeastern Louisiana... * WHEN...Until 415 PM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 114 PM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 3 inches of rain have fallen with heavy rain still occurring. - Some locations that will experience flooding include... French Settlement, Port Vincent and Whitehall. - http://www.weather.gov/safety/flood",
+    "latitude": 30.248333333333335,
+    "longitude": -90.72083333333335,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b29f0fb1705855b38e42dd47c9f3cfbe84f9c23.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-ddb9f4a7fdf2",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooded low water crossings caused by excessive rainfall over the past 24 hours is occurring. * WHERE...North Central Pima County in southeastern Arizona... Southern Pinal County in southeastern Arizona... * WHEN...Until 500 PM MST. * IMPACTS...Water over roadways. Some low-water crossings may become impassable. River or stream flows are elevated. * ADDITIONAL DETAILS... - At 1106 AM MST, local law enforcement reported flooding in Brawley Wash at Manville Rd. Minor flooding is already occurring. - Brawley Wash at Manville Rd and Santa Cruz Wash at Sasco Rd are the most likely low water crossings to experience minor flooding. - Some locations that will experience flooding include... Avra Valley and Picture Rocks. - This includes the following Flash Flood Prone Locations... Manville Rd at Brawley Wash and Sasco Rd at Santa Cruz Wash. - http://www.weather.gov/safety/flood",
+    "latitude": 32.38533333333333,
+    "longitude": -111.32066666666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c7c1bdc39c5b3631afc90a7e95f1e6c3cb36c13.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-82b7e9084f7d",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 206 PM AST, Doppler radar was tracking an area of strong thunderstorms near Hato Arriba, or near Moca, moving west-northwest at 15 mph. HAZARD...Wind gusts up to 40 mph, frequent lightning. Funnel clouds possible. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... San Sebastian, Moca, Anasco, Las Marias, Aguadilla, Aguada, Isabela, Lares, Rincon, Hato Arriba, Aceitunas, Luyando, Caban, La Playa, San Antonio, Maricao, Espino, Mora, Juncal and Rafael Hernandez.",
+    "latitude": 18.3965,
+    "longitude": -67.13300000000001,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.af5fe4e775eb402fbc8fdf6e7e6712320a6a0fb1.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8a221fe352f9",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Bayamon County in Puerto Rico... Guaynabo County in Puerto Rico... San Juan County in Puerto Rico... Trujillo Alto County in Puerto Rico... * WHEN...Until 400 PM AST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 201 PM AST, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of up to around 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... San Juan, Guaynabo, Bayamon, Trujillo Alto, Sabana Seca and Carolina. - http://www.weather.gov/safety/flood",
+    "latitude": 18.393529411764707,
+    "longitude": -66.09058823529412,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73e665a59ef5bff2dfb208df3c3bc9554d4ee6cf.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-789638e8ea11",
+    "type": "weather_alert",
+    "title": "Storm Surge Warning",
+    "description": "* LOCATIONS AFFECTED - Johnson Bayou - Holly Beach - Hackberry * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 30-40 mph with gusts to 50 mph - Window for Tropical Storm force winds: through the next few hours - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39 to 57 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Last minute efforts to protect property should now be complete. The area remains subject to limited wind damage. - ACT: Now is the time to shelter from hazardous wind. - POTENTIAL IMPACTS: Unfolding - Potential impacts from the main wind event are unfolding. * STORM SURGE - LATEST LOCAL FORECAST: Life-threatening storm surge possible - Peak Storm Surge Inundation: The potential for 3-5 feet above ground somewhere within surge prone areas - Window of concern: through Wednesday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 3 feet above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Shelter against life-threatening storm surge of greater than 3 feet above ground. - PREPARE: Flood preparations and ordered evacuations should be complete. Evacuees should be in shelters well away from storm surge flooding. - ACT: Remain sheltered in a safe location. Do not venture outside. - POTENTIAL IMPACTS: Unfolding - Potential impacts from the main surge event are unfolding. * FLOODING RAIN - LATEST LOCAL FORECAST: - Peak Rainfall Amounts: Additional around 1 inch - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has increased from the previous assessment. - PLAN: Emergency plans should continue to include possible tornadoes. - PREPARE: Stay within your shelter keeping informed of the latest tornado situation. - ACT: Move quickly to the safest place within your shelter if a tornado warning is issued. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and boats pulled from moorings.",
+    "latitude": 29.862805555555553,
+    "longitude": -93.72122222222222,
+    "priority": "critical",
+    "threat_level": "CRITICAL",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.865dc83cea24fac5e58ff3de60d6f37715c24cb3.003.2",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4499db94ca2a",
+    "type": "weather_alert",
+    "title": "Tropical Storm Warning",
+    "description": "* LOCATIONS AFFECTED - Buna - Evadale * WIND - LATEST LOCAL FORECAST: Below tropical storm force wind - Peak Wind Forecast: 15-25 mph with gusts to 25 mph - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39 to 57 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Last minute efforts to protect property should now be complete. The area remains subject to limited wind damage. - ACT: Now is the time to shelter from hazardous wind. - POTENTIAL IMPACTS: Unfolding - Potential impacts from the main wind event are unfolding. * STORM SURGE - No storm surge inundation forecast - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Little to no storm surge flooding - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: There is little to no threat of storm surge flooding. Rough surf, coastal erosion, and life-threatening rip currents are possible. - PREPARE: Little to no preparations for storm surge flooding are needed. - ACT: Follow the instructions of local officials. Monitor forecasts. - POTENTIAL IMPACTS: Little to None - Little to no potential impacts from storm surge flooding. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional around 1 inch - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has increased from the previous assessment. - PLAN: Emergency plans should continue to include possible tornadoes. - PREPARE: Stay within your shelter keeping informed of the latest tornado situation. - ACT: Move quickly to the safest place within your shelter if a tornado warning is issued. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and boats pulled from moorings.",
+    "latitude": 30.381249999999998,
+    "longitude": -94.08021428571429,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.865dc83cea24fac5e58ff3de60d6f37715c24cb3.011.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-647e09a33b81",
+    "type": "weather_alert",
+    "title": "Tropical Storm Warning",
+    "description": "* LOCATIONS AFFECTED - Beaumont - China * WIND - LATEST LOCAL FORECAST: Below tropical storm force wind - Peak Wind Forecast: 20-30 mph with gusts to 35 mph - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39 to 57 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Last minute efforts to protect property should now be complete. The area remains subject to limited wind damage. - ACT: Now is the time to shelter from hazardous wind. - POTENTIAL IMPACTS: Unfolding - Potential impacts from the main wind event are unfolding. * STORM SURGE - No storm surge inundation forecast - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Little to no storm surge flooding - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: There is little to no threat of storm surge flooding. Rough surf, coastal erosion, and life-threatening rip currents are possible. - PREPARE: Little to no preparations for storm surge flooding are needed. - ACT: Follow the instructions of local officials. Monitor forecasts. - POTENTIAL IMPACTS: Little to None - Little to no potential impacts from storm surge flooding. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 1-3 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has increased from the previous assessment. - PLAN: Emergency plans should continue to include possible tornadoes. - PREPARE: Stay within your shelter keeping informed of the latest tornado situation. - ACT: Move quickly to the safest place within your shelter if a tornado warning is issued. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and boats pulled from moorings.",
+    "latitude": 30.109050000000003,
+    "longitude": -94.228575,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.865dc83cea24fac5e58ff3de60d6f37715c24cb3.007.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-0354c6f9b9fc",
+    "type": "weather_alert",
+    "title": "Tropical Storm Warning",
+    "description": "* LOCATIONS AFFECTED - Abbeville - Intracoastal City - Forked Island * WIND - LATEST LOCAL FORECAST: Below tropical storm force wind - Peak Wind Forecast: 15-25 mph with gusts to 30 mph - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Wind less than 39 mph - The wind threat has decreased from the previous assessment. - PLAN: The sustained wind should remain less than tropical storm force. Conditions may still be gusty. - PREPARE: Listen for any instructions from local officials. - ACT: Ensure emergency readiness should the forecast change. - REALIZED IMPACTS: Being Assessed - Little to no additional wind impacts expected. Community officials are now assessing the extent of actual wind impacts accordingly. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: through Wednesday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Shelter against storm surge flooding greater than 1 foot above ground. - PREPARE: All flood preparations should be complete. Expect flooding of low-lying roads and property. - ACT: Stay away from storm surge prone areas. Continue to follow the instructions of local officials. - POTENTIAL IMPACTS: Unfolding - Potential impacts from the main surge event are unfolding. * FLOODING RAIN - LATEST LOCAL FORECAST: - Peak Rainfall Amounts: Additional around 1 inch - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has increased from the previous assessment. - PLAN: Plans should still include the potential for a few tornadoes. - PREPARE: Keep informed should additional weather alerts be needed. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and boats pulled from moorings.",
+    "latitude": 29.790346938775514,
+    "longitude": -92.14818367346939,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.865dc83cea24fac5e58ff3de60d6f37715c24cb3.005.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-a003acee4238",
+    "type": "weather_alert",
+    "title": "Tropical Storm Warning",
+    "description": "* LOCATIONS AFFECTED - Deweyville * WIND - LATEST LOCAL FORECAST: Below tropical storm force wind - Peak Wind Forecast: 15-25 mph with gusts to 35 mph - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39 to 57 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Efforts to protect property should now be underway. Prepare for limited wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Limited - Damage to porches, awnings, carports, sheds, and unanchored mobile homes. Unsecured lightweight objects blown about. - Many large tree limbs broken off. A few trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Some fences and roadway signs blown over. - A few roads impassable from debris, particularly within urban or heavily wooded places. Hazardous driving conditions on bridges and other elevated roadways. - Scattered power and communications outages. * STORM SURGE - No storm surge inundation forecast - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Little to no storm surge flooding - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: There is little to no threat of storm surge flooding. Rough surf, coastal erosion, and life-threatening rip currents are possible. - PREPARE: Little to no preparations for storm surge flooding are needed. - ACT: Follow the instructions of local officials. Monitor forecasts. - POTENTIAL IMPACTS: Little to None - Little to no potential impacts from storm surge flooding. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional around 1 inch - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has increased from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and boats pulled from moorings.",
+    "latitude": 30.40558333333333,
+    "longitude": -93.73530555555556,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.865dc83cea24fac5e58ff3de60d6f37715c24cb3.010.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-5b6fd23ced8d",
+    "type": "weather_alert",
+    "title": "Hurricane Watch",
+    "description": "* LOCATIONS AFFECTED - Johnson Bayou - Holly Beach - Hackberry * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 30-40 mph with gusts to 50 mph - Window for Tropical Storm force winds: through the next few hours - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39 to 57 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Last minute efforts to protect property should now be complete. The area remains subject to limited wind damage. - ACT: Now is the time to shelter from hazardous wind. - POTENTIAL IMPACTS: Unfolding - Potential impacts from the main wind event are unfolding. * STORM SURGE - LATEST LOCAL FORECAST: Life-threatening storm surge possible - Peak Storm Surge Inundation: The potential for 3-5 feet above ground somewhere within surge prone areas - Window of concern: through Wednesday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 3 feet above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Shelter against life-threatening storm surge of greater than 3 feet above ground. - PREPARE: Flood preparations and ordered evacuations should be complete. Evacuees should be in shelters well away from storm surge flooding. - ACT: Remain sheltered in a safe location. Do not venture outside. - POTENTIAL IMPACTS: Unfolding - Potential impacts from the main surge event are unfolding. * FLOODING RAIN - LATEST LOCAL FORECAST: - Peak Rainfall Amounts: Additional around 1 inch - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has increased from the previous assessment. - PLAN: Emergency plans should continue to include possible tornadoes. - PREPARE: Stay within your shelter keeping informed of the latest tornado situation. - ACT: Move quickly to the safest place within your shelter if a tornado warning is issued. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and boats pulled from moorings.",
+    "latitude": 29.86283333333333,
+    "longitude": -93.73219444444445,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.865dc83cea24fac5e58ff3de60d6f37715c24cb3.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b376e15fa22d",
+    "type": "weather_alert",
+    "title": "Hurricane Watch",
+    "description": "* LOCATIONS AFFECTED - Nederland - Port Arthur - Sabine Pass - Sea Rim State Park * WIND - LATEST LOCAL FORECAST: Below tropical storm force wind - Peak Wind Forecast: 25-35 mph with gusts to 45 mph - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39 to 57 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Remaining efforts to protect property should be completed as soon as possible. Prepare for limited wind damage. - ACT: Move to safe shelter before the wind becomes hazardous. - POTENTIAL IMPACTS: Limited - Damage to porches, awnings, carports, sheds, and unanchored mobile homes. Unsecured lightweight objects blown about. - Many large tree limbs broken off. A few trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Some fences and roadway signs blown over. - A few roads impassable from debris, particularly within urban or heavily wooded places. Hazardous driving conditions on bridges and other elevated roadways. - Scattered power and communications outages. * STORM SURGE - LATEST LOCAL FORECAST: Life-threatening storm surge possible - Peak Storm Surge Inundation: The potential for 3-5 feet above ground somewhere within surge prone areas - Window of concern: through Wednesday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 3 feet above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Shelter against life-threatening storm surge of greater than 3 feet above ground. - PREPARE: Flood preparations and ordered evacuations should be complete. Evacuees should be in shelters well away from storm surge flooding. - ACT: Remain sheltered in a safe location. Do not venture outside. - POTENTIAL IMPACTS: Unfolding - Potential impacts from the main surge event are unfolding. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 1-3 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has increased from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and boats pulled from moorings.",
+    "latitude": 29.931239130434783,
+    "longitude": -93.99580434782608,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.865dc83cea24fac5e58ff3de60d6f37715c24cb3.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-bf252f584568",
+    "type": "weather_alert",
+    "title": "Storm Surge Warning",
+    "description": "* LOCATIONS AFFECTED - Cameron - Creole - Grand Chenier * WIND - LATEST LOCAL FORECAST: Below tropical storm force wind - Peak Wind Forecast: 15-25 mph with gusts to 35 mph - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39 to 57 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Remaining efforts to protect property should be completed as soon as possible. Prepare for limited wind damage. - ACT: Move to safe shelter before the wind becomes hazardous. - POTENTIAL IMPACTS: Limited - Damage to porches, awnings, carports, sheds, and unanchored mobile homes. Unsecured lightweight objects blown about. - Many large tree limbs broken off. A few trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Some fences and roadway signs blown over. - A few roads impassable from debris, particularly within urban or heavily wooded places. Hazardous driving conditions on bridges and other elevated roadways. - Scattered power and communications outages. * STORM SURGE - LATEST LOCAL FORECAST: Life-threatening storm surge possible - Peak Storm Surge Inundation: The potential for 3-5 feet above ground somewhere within surge prone areas - Window of concern: through Wednesday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 3 feet above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: The threat of life-threatening storm surge is diminishing as flood waters recede. - PREPARE: Do not return to evacuated areas until flood waters completely recede and the all-clear is given by local officials. - ACT: Failure to practice safety may result in serious injury or loss of life. If you have a life-threatening emergency, dial 9 1 1. - REALIZED IMPACTS: Being Assessed - Little to no additional surge impacts expected. Community officials are now assessing the extent of actual surge impacts accordingly. * FLOODING RAIN - LATEST LOCAL FORECAST: - Peak Rainfall Amounts: Additional around 1 inch - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has increased from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and boats pulled from moorings.",
+    "latitude": 29.881285714285717,
+    "longitude": -93.14603571428572,
+    "priority": "critical",
+    "threat_level": "CRITICAL",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.865dc83cea24fac5e58ff3de60d6f37715c24cb3.004.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9742674ed236",
+    "type": "weather_alert",
+    "title": "Tropical Storm Warning",
+    "description": "* LOCATIONS AFFECTED - Bolivar - Crystal Beach - High Island * WIND - LATEST LOCAL FORECAST: Potential tropical storm force gusts. - Peak Wind Forecast: Generally 20-30 mph, but gusting over 45 mph within heavy rainbands. Higher winds likely if center deviates west of the track. - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Wind less than 39 mph - The wind threat has decreased from the previous assessment. - PLAN: The sustained wind should remain less than tropical storm force. Conditions may still be gusty. - PREPARE: Listen for any instructions from local officials. - ACT: Ensure emergency readiness should the forecast change. - REALIZED IMPACTS: Being Assessed - Little to no additional wind impacts expected. Community officials are now assessing the extent of actual wind impacts accordingly. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for up to 2 feet above ground somewhere within surge prone areas - Window of concern: through Wednesday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Shelter against storm surge flooding greater than 1 foot above ground. - PREPARE: All flood preparations should be complete. Expect flooding of low-lying roads and property. - ACT: Stay away from storm surge prone areas. Continue to follow the instructions of local officials. - POTENTIAL IMPACTS: Unfolding - Potential impacts from the main surge event are unfolding. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 2-4 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is unfavorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Tornadoes not expected - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Tornadoes are not expected. Showers and thunderstorms with gusty winds may still occur. - PREPARE: Little to no preparations needed to protect against tornadoes at this time. Keep informed of the latest tornado situation. - ACT: Listen for changes in the forecast. - POTENTIAL IMPACTS: Little to None - Little to no potential impacts from tornadoes. * FOR MORE INFORMATION: - Hurricane Preparedness: Federal Emergency Management Agency - http://ready.gov/hurricanes - Local weather conditions and forecasts: NWS Houston/Galveston, TX - http://www.weather.gov/hgx/",
+    "latitude": 29.48890322580645,
+    "longitude": -94.57709677419355,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f09d1c76d8e149acb967add98f0c9da79d6fd4fb.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-72f9beb6ed0d",
+    "type": "weather_alert",
+    "title": "Tropical Storm Warning",
+    "description": "* LOCATIONS AFFECTED - Ames - Devers - Liberty * WIND - LATEST LOCAL FORECAST: Below tropical storm force wind - Peak Wind Forecast: 20-30 mph with gusts to 35 mph - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39 to 57 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for hazardous wind of equivalent tropical storm force. - PREPARE: Efforts to protect property should now be underway. Prepare for limited wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Limited - Damage to porches, awnings, carports, sheds, and unanchored mobile homes. Unsecured lightweight objects blown about. - Many large tree limbs broken off. A few trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Some fences and roadway signs blown over. - A few roads impassable from debris, particularly within urban or heavily wooded places. Hazardous driving conditions on bridges and other elevated roadways. - Scattered power and communications outages. * STORM SURGE - No storm surge inundation forecast - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Little to no storm surge flooding - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: There is little to no threat of storm surge flooding. Rough surf, coastal erosion, and life-threatening rip currents are possible. - PREPARE: Little to no preparations for storm surge flooding are needed. - ACT: Follow the instructions of local officials. Monitor forecasts. - POTENTIAL IMPACTS: Little to None - Little to no potential impacts from storm surge flooding. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 3-6 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for moderate flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for moderate flooding from heavy rain. Evacuations and rescues are possible. - PREPARE: Consider protective actions if you are in an area vulnerable to flooding. - ACT: Heed any flood watches and warnings. Failure to take action may result in serious injury or loss of life. - POTENTIAL IMPACTS: Significant - Moderate rainfall flooding may prompt several evacuations and rescues. - Rivers and tributaries may quickly become swollen with swifter currents and overspill their banks in a few places, especially in usually vulnerable spots. Small streams, creeks, canals, and ditches overflow. - Flood waters can enter some structures or weaken foundations. Several places may experience expanded areas of rapid inundation at underpasses, low-lying spots, and poor drainage areas. Some streets and parking lots take on moving water as storm drains and retention ponds overflow. Driving conditions become hazardous. Some road and bridge closures. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has increased from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and small boats pulled from moorings. * FOR MORE INFORMATION: - Hurricane Preparedness: Federal Emergency Management Agency - http://ready.gov/hurricanes - Local weather conditions and forecasts: NWS Houston/Galveston, TX - http://www.weather.gov/hgx/",
+    "latitude": 29.945222222222224,
+    "longitude": -94.86555555555555,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-01T18:33:20.568907+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f09d1c76d8e149acb967add98f0c9da79d6fd4fb.003.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
