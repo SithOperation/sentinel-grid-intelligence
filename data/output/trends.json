@@ -1,42 +1,41 @@
 {
-  "total_events": 762,
+  "total_events": 839,
   "event_types": {
-    "weather_alert": 570,
-    "wildfire": 1,
-    "reddit_report": 16,
-    "earthquake": 120,
+    "earthquake": 128,
     "humanitarian": 19,
+    "reddit_report": 15,
     "tropical_cyclone": 6,
-    "conflict": 26,
-    "europe_security": 4
+    "weather_alert": 639,
+    "conflict": 27,
+    "europe_security": 5
   },
   "threat_levels": {
-    "MEDIUM": 628,
+    "MEDIUM": 682,
     "LOW": 12,
-    "HIGH": 115,
-    "CRITICAL": 7
+    "HIGH": 137,
+    "CRITICAL": 8
   },
   "priority_levels": {
-    "medium": 620,
-    "high": 142
+    "medium": 674,
+    "high": 165
   },
   "sources": {
-    "National Weather Service": 570,
-    "NASA EONET": 7,
-    "Reddit reddit_ukrainian_conflict": 12,
-    "USGS Earthquake Hazards Program": 120,
+    "USGS Earthquake Hazards Program": 128,
     "GDACS": 24,
+    "Reddit reddit_ukrainian_conflict": 11,
+    "NASA EONET": 6,
+    "National Weather Service": 639,
     "Reddit reddit_israel": 1,
     "Reddit reddit_osint_ukraine": 6,
     "BBC World News": 18,
-    "POLITICO Europe Defence": 4,
-    "UN News": 8,
+    "POLITICO Europe Defence": 5,
+    "UN News": 9,
     "Reddit reddit_worldnews": 3
   },
   "regions": {
-    "United States": 570,
-    "Unknown": 173,
-    "Ukraine": 4,
+    "Unknown": 180,
+    "United States": 639,
+    "Ukraine": 5,
     "Russia": 3,
     "Israel": 4,
     "Iran": 5,
@@ -44,5 +43,5 @@
     "Poland": 1,
     "Estonia": 1
   },
-  "average_confidence": 98.47
+  "average_confidence": 98.57
 }
