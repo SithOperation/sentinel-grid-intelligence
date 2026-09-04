@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-09-04T06:22:37.849560+00:00",
+  "generated": "2026-09-04T11:36:20.469771+00:00",
   "status": "degraded",
   "degraded": true,
   "stale": false,
   "stale_after_minutes": 390,
-  "published_event_count": 673,
+  "published_event_count": 719,
   "freshness": {
-    "oldest_event": "2026-09-01T07:10:43+00:00",
-    "newest_event": "2026-09-04T06:22:37.849560+00:00",
+    "oldest_event": "2026-09-01T11:44:56.470000+00:00",
+    "newest_event": "2026-09-04T11:36:20.469771+00:00",
     "age_minutes": 0.0
   },
   "sources": [
@@ -16,10 +16,10 @@
       "source": "conflict",
       "enabled": true,
       "status": "ok",
-      "event_count": 13,
+      "event_count": 14,
       "duration_ms": 1,
-      "checked_at": "2026-09-04T06:22:39.424969+00:00",
-      "last_success": "2026-09-04T06:22:39.424969+00:00",
+      "checked_at": "2026-09-04T11:36:21.759576+00:00",
+      "last_success": "2026-09-04T11:36:21.759576+00:00",
       "error": null
     },
     {
@@ -27,8 +27,8 @@
       "enabled": true,
       "status": "partial",
       "event_count": 10,
-      "duration_ms": 1120,
-      "checked_at": "2026-09-04T06:22:40.545092+00:00",
+      "duration_ms": 1569,
+      "checked_at": "2026-09-04T11:36:23.328627+00:00",
       "last_success": null,
       "error": "reddit_credibledefense: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CredibleDefense/new/.rss; reddit_europe: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/europe/new/.rss; reddit_worldnews: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/worldnews/new/.rss; reddit_geopolitics: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/geopolitics/new/.rss; reddit_poland: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/poland/new/.rss; reddit_ukraine: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/ukraine/new/.rss; reddit_ukrainewarvideoreport: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/UkraineWarVideoReport/new/.rss; reddit_combatfootage: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CombatFootage/new/.rss",
       "metrics": {
@@ -44,9 +44,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 9,
-      "duration_ms": 495,
-      "checked_at": "2026-09-04T06:22:41.040466+00:00",
-      "last_success": "2026-09-04T06:22:41.040466+00:00",
+      "duration_ms": 432,
+      "checked_at": "2026-09-04T11:36:23.761050+00:00",
+      "last_success": "2026-09-04T11:36:23.761050+00:00",
       "error": null,
       "metrics": {
         "records_received": 200,
@@ -61,8 +61,8 @@
       "enabled": true,
       "status": "no_data",
       "event_count": 0,
-      "duration_ms": 496,
-      "checked_at": "2026-09-04T06:22:41.040701+00:00",
+      "duration_ms": 433,
+      "checked_at": "2026-09-04T11:36:23.761243+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -77,36 +77,36 @@
       "source": "usgs_earthquakes",
       "enabled": true,
       "status": "ok",
-      "event_count": 119,
-      "duration_ms": 152,
-      "checked_at": "2026-09-04T06:22:41.192820+00:00",
-      "last_success": "2026-09-04T06:22:41.192820+00:00",
+      "event_count": 110,
+      "duration_ms": 137,
+      "checked_at": "2026-09-04T11:36:23.897825+00:00",
+      "last_success": "2026-09-04T11:36:23.897825+00:00",
       "error": null,
       "metrics": {
-        "records_received": 119,
-        "records_accepted": 119,
+        "records_received": 110,
+        "records_accepted": 110,
         "records_rejected": 0,
-        "response_size_bytes": 84720,
-        "provider_generated": "2026-09-04T06:21:49+00:00"
+        "response_size_bytes": 78229,
+        "provider_generated": "2026-09-04T11:35:48+00:00"
       }
     },
     {
       "source": "nws_weather_alerts",
       "enabled": true,
       "status": "ok",
-      "event_count": 256,
-      "duration_ms": 292,
-      "checked_at": "2026-09-04T06:22:41.484742+00:00",
-      "last_success": "2026-09-04T06:22:41.484742+00:00",
+      "event_count": 288,
+      "duration_ms": 314,
+      "checked_at": "2026-09-04T11:36:24.211902+00:00",
+      "last_success": "2026-09-04T11:36:24.211902+00:00",
       "error": null,
       "metrics": {
-        "records_received": 257,
-        "records_accepted": 256,
+        "records_received": 289,
+        "records_accepted": 288,
         "records_rejected": 1,
-        "missing_geometry": 226,
+        "missing_geometry": 270,
         "expired_alerts": 0,
         "test_messages": 1,
-        "response_size_bytes": 1298128
+        "response_size_bytes": 1390043
       }
     },
     {
@@ -114,9 +114,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 10,
-      "duration_ms": 3418,
-      "checked_at": "2026-09-04T06:22:44.902999+00:00",
-      "last_success": "2026-09-04T06:22:44.902999+00:00",
+      "duration_ms": 2830,
+      "checked_at": "2026-09-04T11:36:27.042200+00:00",
+      "last_success": "2026-09-04T11:36:27.042200+00:00",
       "error": null
     },
     {
@@ -125,7 +125,7 @@
       "status": "no_data",
       "event_count": 0,
       "duration_ms": 0,
-      "checked_at": "2026-09-04T06:22:44.903263+00:00",
+      "checked_at": "2026-09-04T11:36:27.042449+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -147,9 +147,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
-        "items_discovered": 5,
-        "items_published": 5,
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
+        "items_discovered": 9,
+        "items_published": 9,
         "cache_age_seconds": null
       },
       {
@@ -157,7 +157,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -167,7 +167,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -177,7 +177,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
         "items_discovered": 24,
         "items_published": 24,
         "cache_age_seconds": null
@@ -187,9 +187,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
-        "items_discovered": 13,
-        "items_published": 13,
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
+        "items_discovered": 15,
+        "items_published": 15,
         "cache_age_seconds": null
       },
       {
@@ -197,7 +197,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -207,7 +207,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
         "items_discovered": 9,
         "items_published": 9,
         "cache_age_seconds": null
@@ -217,9 +217,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
-        "items_discovered": 9,
-        "items_published": 9,
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
+        "items_discovered": 6,
+        "items_published": 6,
         "cache_age_seconds": null
       },
       {
@@ -227,9 +227,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
-        "items_discovered": 23,
-        "items_published": 23,
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
+        "items_discovered": 22,
+        "items_published": 22,
         "cache_age_seconds": null
       },
       {
@@ -237,7 +237,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -247,9 +247,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
-        "items_discovered": 6,
-        "items_published": 6,
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
+        "items_discovered": 5,
+        "items_published": 5,
         "cache_age_seconds": null
       },
       {
@@ -257,9 +257,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
-        "items_discovered": 2,
-        "items_published": 2,
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
+        "items_discovered": 1,
+        "items_published": 1,
         "cache_age_seconds": null
       },
       {
@@ -267,9 +267,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
-        "items_discovered": 3,
-        "items_published": 3,
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
+        "items_discovered": 2,
+        "items_published": 2,
         "cache_age_seconds": null
       },
       {
@@ -277,9 +277,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
-        "items_discovered": 1,
-        "items_published": 1,
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
+        "items_discovered": 3,
+        "items_published": 3,
         "cache_age_seconds": null
       },
       {
@@ -287,7 +287,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
         "items_discovered": 1,
         "items_published": 1,
         "cache_age_seconds": null
@@ -297,7 +297,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -305,11 +305,11 @@
       {
         "source_id": "reddit_turkey",
         "status": "stale",
-        "reason": "success",
+        "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
-        "items_discovered": 1,
-        "items_published": 1,
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
+        "items_discovered": 0,
+        "items_published": 0,
         "cache_age_seconds": null
       },
       {
@@ -317,7 +317,7 @@
         "status": "unavailable",
         "reason": "blocked",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-04T06:22:37.849560+00:00",
+        "last_attempt_at": "2026-09-04T11:36:20.469771+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
