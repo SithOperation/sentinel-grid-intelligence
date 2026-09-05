@@ -1,90 +1,5 @@
 [
   {
-    "event_id": "SG-3b84628ef93d",
-    "type": "earthquake",
-    "title": "M2.57 earthquake — 2 km N of Middletown, CA",
-    "description": "M 2.6 - 2 km N of Middletown, CA",
-    "latitude": 38.7695007324219,
-    "longitude": -122.611831665039,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-02T03:49:01.440000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428602",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-76f411ec6255",
-    "type": "earthquake",
-    "title": "M4 earthquake — 67 km SSE of Adak, Alaska",
-    "description": "M 4.0 - 67 km SSE of Adak, Alaska",
-    "latitude": 51.304,
-    "longitude": -176.285,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-02T04:06:39.852000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rizonf",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-411e7c22aab9",
-    "type": "earthquake",
-    "title": "M2.89 earthquake — 0 km S of Indios, Puerto Rico",
-    "description": "M 2.9 - 0 km S of Indios, Puerto Rico",
-    "latitude": 17.9856666666667,
-    "longitude": -66.8176666666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-02T04:42:46.470000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71530593",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-c6a4fed4dafb",
-    "type": "earthquake",
-    "title": "M3.5 earthquake — 160 km SW of Adak, Alaska",
-    "description": "M 3.5 - 160 km SW of Adak, Alaska",
-    "latitude": 51.018,
-    "longitude": -178.497,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-02T05:07:20.144000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rjbpcn",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-7dd6b2a3e204",
-    "type": "earthquake",
-    "title": "M4.5 earthquake — Kuril Islands",
-    "description": "M 4.5 - Kuril Islands",
-    "latitude": 48.1337,
-    "longitude": 152.4883,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-02T05:08:38.690000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdk1",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-1bdfdbf9c101",
     "type": "earthquake",
     "title": "M3.4 earthquake — 78 km S of Kaktovik, Alaska",
@@ -1317,6 +1232,37 @@
     "europe_layers": [
       "eastern_flank",
       "military_statement"
+    ]
+  },
+  {
+    "event_id": "SG-d316afd8c0f9",
+    "type": "europe_security",
+    "title": "How effective are diplomatic expulsions at disrupting Russia’s hybrid operations in Europe?",
+    "description": "A Reddit post claims: Hi, Lucia from EUobserver here 👋 After the Leipzig bomb plot, Poland is pushing other EU states to reduce Russia’s diplomatic presence — including closing more consulates, expelling diplomats and restricting their movement. Warsaw’s argument is essentially that Russian diplomatic infrastructure in Europe can no longer be viewed purely through the lens of conventional diplomacy, particularly amid allegations of sabotage, arson and other hybrid operations. But how effective is reducing diplomatic presence as a counter-intelligence measure in practice? Does removing suspected intelligence personnel operating under diplomatic cover meaningfully disrupt Russia’s ability to organise hybrid operations , or does it primarily force those activities into less visible networks? And from a defence perspective, is Europe still treating these incidents too much as individual criminal/security cases rather than as part of a coordinated campaign? submitted by /u/EUobs [link] [comments]",
+    "latitude": 52.2297,
+    "longitude": 21.0122,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 45,
+    "timestamp": "2026-09-03T10:20:28+00:00",
+    "url": "https://euobserver.com/235021/poland-calls-for-eu-to-expel-more-russian-diplomats-after-leipzig-bomb-plot",
+    "classification": "russian_activity",
+    "source": [
+      "r/CredibleDefense"
+    ],
+    "status": "single_source",
+    "source_type": "reddit",
+    "source_perspective": "reddit_osint",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "RUSSIA",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-cea2aca7bba9",
+    "location_precision": "city",
+    "europe_layers": [
+      "eastern_flank",
+      "reddit_osint",
+      "russian_activity"
     ]
   },
   {
@@ -2931,7 +2877,7 @@
     ]
   },
   {
-    "event_id": "SG-a4351b470d55",
+    "event_id": "SG-d392aa0bc4a0",
     "type": "earthquake",
     "title": "M2.7 earthquake — 76 km S of Kaktovik, Alaska",
     "description": "M 2.7 - 76 km S of Kaktovik, Alaska",
@@ -3016,7 +2962,7 @@
     ]
   },
   {
-    "event_id": "SG-8e88a037d51a",
+    "event_id": "SG-d41a470aa9da",
     "type": "earthquake",
     "title": "M3.1 earthquake — 98 km SSW of Nikolski, Alaska",
     "description": "M 3.1 - 98 km SSW of Nikolski, Alaska",
@@ -3135,7 +3081,7 @@
     ]
   },
   {
-    "event_id": "SG-301993a56e8d",
+    "event_id": "SG-4e3d65f6b4a8",
     "type": "earthquake",
     "title": "M3.1 earthquake — 107 km SSW of Nikolski, Alaska",
     "description": "M 3.1 - 107 km SSW of Nikolski, Alaska",
@@ -3186,7 +3132,7 @@
     ]
   },
   {
-    "event_id": "SG-0d6e7247d687",
+    "event_id": "SG-fdac91b1f003",
     "type": "earthquake",
     "title": "M3.3 earthquake — Rat Islands, Aleutian Islands, Alaska",
     "description": "M 3.3 - Rat Islands, Aleutian Islands, Alaska",
@@ -3207,13 +3153,47 @@
     "type": "earthquake",
     "title": "M2.8 earthquake — 48 km SSW of Ugashik, Alaska",
     "description": "M 2.8 - 48 km SSW of Ugashik, Alaska",
-    "latitude": 57.102,
-    "longitude": -157.663,
+    "latitude": 57.111,
+    "longitude": -157.702,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-04T17:01:54.436000+00:00",
+    "timestamp": "2026-09-04T17:01:54.455000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rnrlvm",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-0b5f86ea0489",
+    "type": "earthquake",
+    "title": "M2.6 earthquake — 84 km SW of Nikolski, Alaska",
+    "description": "M 2.6 - 84 km SW of Nikolski, Alaska",
+    "latitude": 52.491,
+    "longitude": -169.873,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-04T17:27:34.948000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rnsigz",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-89dc29d065c1",
+    "type": "earthquake",
+    "title": "M2.6 earthquake — 86 km SSW of Nikolski, Alaska",
+    "description": "M 2.6 - 86 km SSW of Nikolski, Alaska",
+    "latitude": 52.269,
+    "longitude": -169.505,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-04T17:29:21.990000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rnsjrj",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -3222,14 +3202,14 @@
   {
     "event_id": "SG-da4195cdb727",
     "type": "earthquake",
-    "title": "M3 earthquake — 79 km ENE of Ugashik, Alaska",
-    "description": "M 3.0 - 79 km ENE of Ugashik, Alaska",
-    "latitude": 57.802,
-    "longitude": -156.188,
+    "title": "M3 earthquake — 78 km ENE of Ugashik, Alaska",
+    "description": "M 3.0 - 78 km ENE of Ugashik, Alaska",
+    "latitude": 57.811,
+    "longitude": -156.199,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-04T17:57:40.692000+00:00",
+    "timestamp": "2026-09-04T17:57:40.703000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rntifq",
     "classification": "seismic_event",
     "source": [
@@ -3271,16 +3251,33 @@
     ]
   },
   {
+    "event_id": "SG-d46e36086dd4",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in South Africa",
+    "description": "On 03/09/2026, a forest fire started in South Africa, until 04/09/2026.",
+    "latitude": -23.29343725697794,
+    "longitude": 31.258079101353452,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-04T19:01:59+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031602",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
     "event_id": "SG-d000c5486bda",
     "type": "earthquake",
-    "title": "M2.6 earthquake — 22 km WSW of Port Lions, Alaska",
-    "description": "M 2.6 - 22 km WSW of Port Lions, Alaska",
-    "latitude": 57.811,
-    "longitude": -153.239,
+    "title": "M2.6 earthquake — 20 km WSW of Port Lions, Alaska",
+    "description": "M 2.6 - 20 km WSW of Port Lions, Alaska",
+    "latitude": 57.795,
+    "longitude": -153.208,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-04T19:40:19.601000+00:00",
+    "timestamp": "2026-09-04T19:40:20.409000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rnwtcx",
     "classification": "seismic_event",
     "source": [
@@ -3336,23 +3333,6 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-fd8b97297668",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWABQ The National Weather Service in Albuquerque has issued a * Flash Flood Warning for... Central Socorro County in central New Mexico... * Until 700 PM MDT. * At 354 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1.75 and 2.25 inches of rain have fallen. Additional rainfall amounts of 0.5 to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Magdalena. This includes Highway 60 between Mile Markers 110 and 122.",
-    "latitude": 34.134166666666665,
-    "longitude": -107.15249999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-04T22:58:15.776158+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f46ecdcd7317d81bf1356b088e9fe2c4aee9120a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
     ]
   },
   {
@@ -3492,17 +3472,153 @@
     ]
   },
   {
+    "event_id": "SG-c97341962b69",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — 159 km ENE of Noda, Japan",
+    "description": "M 4.5 - 159 km ENE of Noda, Japan",
+    "latitude": 40.6426,
+    "longitude": 143.5636,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-05T00:22:45.357000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teg7",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-8302f53539da",
+    "type": "earthquake",
+    "title": "M4.8 earthquake — Kermadec Islands, New Zealand",
+    "description": "M 4.8 - Kermadec Islands, New Zealand",
+    "latitude": -30.7935,
+    "longitude": -177.8256,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-05T01:41:01.465000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tegg",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-f2927cab8235",
+    "type": "earthquake",
+    "title": "M2.67 earthquake — 3 km ENE of Sabana Grande, Puerto Rico",
+    "description": "M 2.7 - 3 km ENE of Sabana Grande, Puerto Rico",
+    "latitude": 18.093,
+    "longitude": -66.9276666666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-05T02:16:18+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71530908",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-36e4322d18fd",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in United States",
+    "description": "On 03/09/2026, a forest fire started in United States, until 04/09/2026.",
+    "latitude": 46.47500095809135,
+    "longitude": -105.19525159999824,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-05T03:03:05+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031672",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-ec56f838d2f6",
+    "type": "earthquake",
+    "title": "M2.9 earthquake — 62 km W of Yachats, Oregon",
+    "description": "M 2.9 - 62 km W of Yachats, Oregon",
+    "latitude": 44.3304,
+    "longitude": -124.8858,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-05T03:08:53.644000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tegq",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-86418a1d12de",
+    "type": "earthquake",
+    "title": "M2.7 earthquake — 22 km NNW of Whites City, New Mexico",
+    "description": "M 2.7 - 22 km NNW of Whites City, New Mexico",
+    "latitude": 32.3488,
+    "longitude": -104.5036,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-05T03:41:56.490000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tegw",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-98a9790ddd88",
+    "type": "earthquake",
+    "title": "M2.72 earthquake — 10 km E of Pāhala, Hawaii",
+    "description": "M 2.7 - 10 km E of Pāhala, Hawaii",
+    "latitude": 19.1988334655762,
+    "longitude": -155.380828857422,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-05T04:56:40.040000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75029562",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-c520a8d42ce9",
+    "type": "earthquake",
+    "title": "M5 earthquake — off the coast of Central America",
+    "description": "M 5.0 - off the coast of Central America",
+    "latitude": 3.5071,
+    "longitude": -83.151,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-05T05:00:06.778000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tehe",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-a4750c42193e",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Texas... Neches River at Neches River Saltwater Barrier affecting Hardin, Jefferson, Orange and Jasper Counties. ...The Flood Warning is extended for the following rivers in Texas... Village Creek Near Kountze affecting Hardin County. Pine Island Bayou Near Sour Lake affecting Hardin and Jefferson Counties. For the Neches River...including Town Bluff, Evadale, Neches River Saltwater Barrier...Minor flooding is forecast. For the Village Creek...including Kountze...Moderate flooding is forecast. For the Pine Island Bayou...including Sour Lake...Minor flooding is forecast. * WHAT...Moderate flooding is occurring and moderate flooding is forecast. * WHERE...Village Creek near Kountze. * WHEN...Until Sunday morning. * IMPACTS...At 22.0 feet, Water covers entire floor of Farm to Market Road 418. Water threatens homes near the creek in Kountze. Significant flooding occurs in Village Creek State Park. * ADDITIONAL DETAILS... - At 10:30 AM CDT Friday the stage was 22.3 feet. - Bankfull stage is 12.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 10:30 AM CDT Friday was 22.5 feet. - Forecast...The river is expected to fall below flood stage late tomorrow evening and continue falling to 5.3 feet Wednesday morning. - Flood stage is 17.0 feet. - Flood History...This crest compares to a previous crest of 22.4 feet on 04/06/1999. - http://www.weather.gov/safety/flood",
+    "description": "...The Flood Warning continues for the following rivers in Texas... Neches River at Neches River Saltwater Barrier affecting Jefferson, Hardin, Jasper and Orange Counties. Village Creek Near Kountze affecting Hardin County. ...The Flood Warning is extended for the following rivers in Texas... Pine Island Bayou Near Sour Lake affecting Jefferson and Hardin Counties. For the Neches River...including Town Bluff, Evadale, Neches River Saltwater Barrier...Minor flooding is forecast. For the Village Creek...including Kountze...Moderate flooding is forecast. For the Pine Island Bayou...including Sour Lake...Minor flooding is forecast. * WHAT...Moderate flooding is occurring and moderate flooding is forecast. * WHERE...Village Creek near Kountze. * WHEN...Until Sunday morning. * IMPACTS...At 21.9 feet, At this level, water will be flowing over the Highway 418 bridge. * ADDITIONAL DETAILS... - At 7:30 PM CDT Friday the stage was 21.9 feet. - Bankfull stage is 12.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 PM CDT Friday was 22.4 feet. - Forecast...The river is expected to fall below flood stage late tomorrow evening and continue falling to 5.9 feet Wednesday evening. - Flood stage is 17.0 feet. - Flood History...This crest compares to a previous crest of 21.8 feet on 02/12/1966. - http://www.weather.gov/safety/flood",
     "latitude": 30.368333333333336,
     "longitude": -94.23333333333333,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe9e1588041e372f6b92a4618a3575498da272e0.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99c6a0fd6fda0d3f4c0d7635c73119e2d3bf5141.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -3512,14 +3628,14 @@
     "event_id": "SG-71de579ae334",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Texas... Neches River at Neches River Saltwater Barrier affecting Hardin, Jefferson, Orange and Jasper Counties. ...The Flood Warning is extended for the following rivers in Texas... Village Creek Near Kountze affecting Hardin County. Pine Island Bayou Near Sour Lake affecting Hardin and Jefferson Counties. For the Neches River...including Town Bluff, Evadale, Neches River Saltwater Barrier...Minor flooding is forecast. For the Village Creek...including Kountze...Moderate flooding is forecast. For the Pine Island Bayou...including Sour Lake...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Pine Island Bayou near Sour Lake. * WHEN...From Saturday morning to Monday morning. * IMPACTS...At 25.0 feet, Water inundates roads in lowland areas near the river. Low spots on Old Sour Lake Road are under water. * ADDITIONAL DETAILS... - At 10:45 AM CDT Friday the stage was 19.0 feet. - Bankfull stage is 22.0 feet. - Forecast...The river is expected to rise above flood stage tomorrow morning to a crest of 25.8 feet early Sunday morning. It will then fall below flood stage Sunday evening. - Flood stage is 25.0 feet. - Flood History...This crest compares to a previous crest of 25.7 feet on 10/02/2021. - http://www.weather.gov/safety/flood",
+    "description": "...The Flood Warning continues for the following rivers in Texas... Neches River at Neches River Saltwater Barrier affecting Jefferson, Hardin, Jasper and Orange Counties. Village Creek Near Kountze affecting Hardin County. ...The Flood Warning is extended for the following rivers in Texas... Pine Island Bayou Near Sour Lake affecting Jefferson and Hardin Counties. For the Neches River...including Town Bluff, Evadale, Neches River Saltwater Barrier...Minor flooding is forecast. For the Village Creek...including Kountze...Moderate flooding is forecast. For the Pine Island Bayou...including Sour Lake...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Pine Island Bayou near Sour Lake. * WHEN...From late Saturday night to late Monday night. * IMPACTS...At 25.0 feet, Water inundates roads in lowland areas near the river. Low spots on Old Sour Lake Road are under water. * ADDITIONAL DETAILS... - At 7:45 PM CDT Friday the stage was 19.0 feet. - Bankfull stage is 22.0 feet. - Forecast...The river is expected to rise above flood stage early Sunday morning to a crest of 25.8 feet Sunday evening. It will then fall below flood stage Monday afternoon. - Flood stage is 25.0 feet. - Flood History...This crest compares to a previous crest of 25.7 feet on 10/02/2021. - http://www.weather.gov/safety/flood",
     "latitude": 30.143333333333334,
     "longitude": -94.28500000000001,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe9e1588041e372f6b92a4618a3575498da272e0.003.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99c6a0fd6fda0d3f4c0d7635c73119e2d3bf5141.003.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -3529,14 +3645,14 @@
     "event_id": "SG-1ca4cd2c2f83",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Texas... Neches River at Neches River Saltwater Barrier affecting Hardin, Jefferson, Orange and Jasper Counties. ...The Flood Warning is extended for the following rivers in Texas... Village Creek Near Kountze affecting Hardin County. Pine Island Bayou Near Sour Lake affecting Hardin and Jefferson Counties. For the Neches River...including Town Bluff, Evadale, Neches River Saltwater Barrier...Minor flooding is forecast. For the Village Creek...including Kountze...Moderate flooding is forecast. For the Pine Island Bayou...including Sour Lake...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Neches River at Neches River Saltwater Barrier. * WHEN...Until Wednesday evening. * IMPACTS...At 5.0 feet, Water is about two feet over portions of Four Oaks Ranch Road. * ADDITIONAL DETAILS... - At 10:15 AM CDT Friday the stage was 2.8 feet. - Forecast...The river is expected to rise above flood stage late tomorrow morning to a crest of 5.2 feet Monday morning. It will then fall below flood stage late Tuesday evening. - Flood stage is 4.0 feet. - Flood History...This crest compares to a previous crest of 5.8 feet on 02/14/2005. - http://www.weather.gov/safety/flood",
+    "description": "...The Flood Warning continues for the following rivers in Texas... Neches River at Neches River Saltwater Barrier affecting Jefferson, Hardin, Jasper and Orange Counties. Village Creek Near Kountze affecting Hardin County. ...The Flood Warning is extended for the following rivers in Texas... Pine Island Bayou Near Sour Lake affecting Jefferson and Hardin Counties. For the Neches River...including Town Bluff, Evadale, Neches River Saltwater Barrier...Minor flooding is forecast. For the Village Creek...including Kountze...Moderate flooding is forecast. For the Pine Island Bayou...including Sour Lake...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Neches River at Neches River Saltwater Barrier. * WHEN...Until Wednesday evening. * IMPACTS...At 5.0 feet, Water is about two feet over portions of Four Oaks Ranch Road. * ADDITIONAL DETAILS... - At 7:15 PM CDT Friday the stage was 2.8 feet. - Forecast...The river is expected to rise above flood stage early Sunday morning to a crest of 4.8 feet early Monday afternoon. It will then fall below flood stage late Tuesday evening. - Flood stage is 4.0 feet. - Flood History...This crest compares to a previous crest of 4.6 feet on 09/22/2020. - http://www.weather.gov/safety/flood",
     "latitude": 30.14875,
     "longitude": -94.01875,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe9e1588041e372f6b92a4618a3575498da272e0.002.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99c6a0fd6fda0d3f4c0d7635c73119e2d3bf5141.002.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -3546,473 +3662,167 @@
     "event_id": "SG-aea19f032d6f",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Texas... Menard Creek near Rye affecting Polk, Hardin and Liberty Counties. For the Menard Creek...including Rye...Moderate flooding is forecast. * WHAT...Moderate flooding is occurring and moderate flooding is forecast. * WHERE...Menard Creek near Rye. * WHEN...Until Saturday afternoon. * IMPACTS...At 23.0 feet, moderate lowland flooding begins as low-lying areas along the creek are inundated. * ADDITIONAL DETAILS... - At 10:15 AM CDT Friday the stage was 24.6 feet. - Bankfull stage is 17.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 10:15 AM CDT Friday was 28.1 feet. - Forecast...The river is expected to fall below flood stage just after midnight tonight and continue falling to 11.1 feet Wednesday morning. - Flood stage is 20.0 feet. - Flood History...This crest compares to a previous crest of 24.6 feet on 03/12/2016. - http://www.weather.gov/safety/flood",
+    "description": "...The Flood Warning is extended for the following rivers in Texas... Menard Creek near Rye affecting Liberty, Hardin and Polk Counties. * WHAT...Minor flooding is occurring. * WHERE...Menard Creek near Rye. * WHEN...Until Saturday afternoon. * IMPACTS...At 23.0 feet, Moderate lowland flooding begins as low-lying areas along the creek are inundated. * ADDITIONAL DETAILS... - At 9:15 PM CDT Friday the stage was 21.5 feet. - Bankfull stage is 17.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 9:15 PM CDT Friday was 28.0 feet. - Forecast...The river is expected to fall below flood stage after midnight and continue a gradual fall. - Flood stage is 20.0 feet. - Flood History...This crest compares to a previous crest of 21.5 feet on 06/27/1999. - http://www.weather.gov/safety/flood",
     "latitude": 30.50857142857143,
     "longitude": -94.74142857142859,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e405a615cb4385af87b2c70daec395719a65e447.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb560ee3f258678d37f6ac591cde0aa9601cfd5f.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-a0ab5a02f586",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...The South Central City of Suffolk in southeastern Virginia... * WHEN...Until 900 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 607 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1.5 and 2.5 inches of rain have fallen. - Additional rainfall amounts of 1 to 1.5 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Whaleyville and Somerton. - http://www.weather.gov/safety/flood",
-    "latitude": 36.58,
-    "longitude": -76.7375,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b167903018b677ce279021c3d4d0d0b9b160c1c8.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-6550e80766b4",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWEPZ The National Weather Service in El Paso Tx/Santa Teresa has issued a * Flash Flood Warning for... Southwestern Sierra County in south central New Mexico... * Until 745 PM MDT. * At 442 PM MDT, Slow moving thunderstorms have produced additional heavy rainfall between the crest of the Black Range and Highway 27 in the Lake Valley area. Several low water crossings along highway 27 are likely to become dangerously inundated soon. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Lake Valley. Portions of State Highway 27 between Lake Valley and south of Hillsboro.",
-    "latitude": 32.775263157894734,
-    "longitude": -107.62421052631578,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9efbff42fedd514eb629c748d14a75fa48a08168.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a072c5b7cf2b",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Small stream flooding caused by excessive rainfall is expected. * WHERE...Northeastern Otero County in south central New Mexico... * WHEN...Until 700 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 354 PM MDT, A stationary thunderstorm near Sacramento and Weed has produced 1 to 1.5 inches of rain in under an hour, based on gauge reports and radar estimates. This will result in localized flooding and enhanced flows along Aguq Chiquita Creek. - Some locations that will experience flooding include... Sacramento and Weed. - http://www.weather.gov/safety/flood",
-    "latitude": 32.81461538461539,
-    "longitude": -105.49923076923076,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ffd724bb2ad7f890ee8fe5c0efecf34e7b590691.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-5d862580a825",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...North Central Catron County in west central New Mexico... South Central Cibola County in west central New Mexico... * WHEN...Until 745 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 443 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause arroyo and small stream flooding. Between 0.75 and 1.5 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Mainly rural areas of North Central Catron and South Central Cibola Counties. - http://www.weather.gov/safety/flood",
-    "latitude": 34.59368421052631,
-    "longitude": -108.13473684210526,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83bd508586020bd28d39ad22004f9cd6b5a20c80.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-7dd022eb522f",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Guilford County in central North Carolina... * WHEN...Until 930 PM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 631 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 2 to 3 inches are possible in the warned area. - Some locations that will experience flooding include... Greensboro, High Point, McLeansville, Summerfield, Stokesdale, Pleasant Garden, Jamestown, Lake Jeanette Marina, Lake Townsend, Forest Oaks, Lake Townsend Marina, Lake Brandt, Monticello, Haw River State Park and Lake Guilford Mackintosh Marina. - http://www.weather.gov/safety/flood",
-    "latitude": 36.06285714285714,
-    "longitude": -79.83428571428571,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e3f80ca0c2b8b92b98d8f20efba3466dc82a22f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-0c4f9f76a777",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northwestern Coke County in west central Texas... * WHEN...Until 830 PM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 527 PM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.75 and 1.25 inches of rain have fallen. - Additional rainfall amounts of 0.25 to 0.75 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... E.V. Spence Reservoir Near Paint Creek Recreation Area, Silver, Sanco and The Intersection Of Highway 158 And Ranch Road 2059. - http://www.weather.gov/safety/flood",
-    "latitude": 31.985714285714288,
-    "longitude": -100.64285714285714,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c66db06c574e886af5a63c3147a72e6a36ff03ea.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-6d4a0f978a74",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 748 PM CDT, Doppler radar was tracking strong thunderstorms along a line extending from 18 miles south of McCamey to 14 miles west of Sheffield to 16 miles east of Terrell County Gas Plant. Movement was west at 15 mph. HAZARD...Wind gusts of 50 to 55 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Sheffield, Terrell County Gas Plant, and Bakersfield. This includes Interstate 10 between mile markers 284 and 327.",
-    "latitude": 30.550952380952378,
-    "longitude": -101.82142857142857,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9015ff5d4e230aedb219548a3737d260549362c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-1d97eaaac9dc",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Edgecombe County in central North Carolina... Southwestern Halifax County in central North Carolina... Nash County in central North Carolina... * WHEN...Until 1145 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 849 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause urban and small stream flooding. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Rocky Mount, Tarboro, Nashville, Dortches, Red Oak, Princeville, Pinetops, Spring Hope, Whitakers, Macclesfield, Conetoe, Castalia, Speed, Leggett, Battleboro, Kingsboro, Glenview, Aventon and Medoc Mountain State Park. - http://www.weather.gov/safety/flood",
-    "latitude": 35.96,
-    "longitude": -77.6425,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ebd9decc2e066aa4e38e0267ec2d97d3994c412.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a56f72145925",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall continues. * WHERE...Southwestern Marathon County in central Wisconsin... Northwestern Portage County in central Wisconsin... Northern Wood County in central Wisconsin... * WHEN...Until 915 PM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 747 PM CDT, Doppler radar indicated heavy rain due to thunderstorms has fallen over the last few hours. This will cause urban and small stream flooding. Between 1 and 2 inches of rain have fallen, with local amounts to around 2.5 inches. - Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... Marshfield, Mosinee, Spencer, Knowlton, Hewitt, Sherry, Auburndale, Junction City, Milladore, Rozellville, Blenker, Big Eau Pleine County Park, Halder, Bakerville, Moon, Dancy and Nasonville. - http://www.weather.gov/safety/flood",
-    "latitude": 44.69,
-    "longitude": -90.05999999999999,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd3f47e06ca575057fdbe5694edbca83a58dfd80.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-e72902fd60ad",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...East Central Crockett County in west central Texas... * WHEN...Until 945 PM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 745 PM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.75 and 1.75 inches of rain have fallen. - Additional rainfall amounts of 0.25 to 0.75 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... The Intersection Of Highway 163 And Ranch Road 1973. - This includes Interstate 10 between Mile Markers 357 and 358... and near Mile Marker 376. - http://www.weather.gov/safety/flood",
-    "latitude": 30.554999999999996,
-    "longitude": -101.355,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c28f976781f9b573454f559ed39e92a39999485.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c75e4200a0fe",
+    "event_id": "SG-adf988acf2ac",
     "type": "weather_alert",
     "title": "Severe Thunderstorm Warning",
-    "description": "At 745 PM CDT, a severe thunderstorm was located 4 miles north of Monument, or 8 miles northwest of Oakley, moving northeast at 25 mph. HAZARD...60 mph wind gusts and nickel size hail. SOURCE...Radar indicated. IMPACT...Expect damage to roofs, siding, and trees. Locations impacted include... Colby, Oakley, and Mingo. This includes Interstate 70 in Kansas between mile markers 55 and 75.",
-    "latitude": 39.169,
-    "longitude": -100.89399999999999,
+    "description": "At 122 AM EDT, a severe thunderstorm was located near Quincy, or 7 miles southeast of Coldwater, moving southeast at 25 mph. HAZARD...60 mph wind gusts and penny size hail. SOURCE...Radar indicated. IMPACT...Expect damage to roofs, siding, and trees. Locations impacted include... Coldwater, Hillsdale, Quincy, Reading, Long Lake, Ray, Batavia, California, Montgomery, Sherwood, Allen, Lake Wilson, Marble Lake, Hodunk, and Coldwater Lake. This includes Interstate 69 in Michigan between mile markers 6 and 18.",
+    "latitude": 41.92,
+    "longitude": -84.90714285714286,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa07028ead88bdb4ba83a58bbd96ebe5d04c4299.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3d4f060a7daaa0fc5f9ff30318896718becc751.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-aacdc52fe004",
+    "event_id": "SG-81d5cbc26418",
     "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 843 PM EDT, Doppler radar was tracking a strong thunderstorm near Williamston, moving southeast at 15 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Williamston, Jamesville, Smithwick, Everetts, and Beargrass.",
-    "latitude": 35.830555555555556,
-    "longitude": -76.98111111111112,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 121 AM EDT, a severe thunderstorm was located near Pioneer, or 12 miles southwest of Hudson, moving southeast at 30 mph. HAZARD...60 mph wind gusts and penny size hail. SOURCE...Radar indicated. IMPACT...Expect damage to roofs, siding, and trees. Locations impacted include... Pioneer, Cambria, Pittsford, Ransom, Waldron, Prattville, Shadyside, Betzer, Frontier, Osseo, and Alvordton.",
+    "latitude": 41.76,
+    "longitude": -84.46625,
+    "priority": "high",
+    "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88185734bae1c4a7748601ffd91fe1d3fc56b29d.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.743327cad86b933dc9b42fad5ac4a060b7312ea3.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-5463e77eea86",
+    "event_id": "SG-41ba6cf627bb",
     "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 743 PM CDT, Doppler radar was tracking a cluster of strong thunderstorms along a line extending from 33 miles southeast of Marathon to 8 miles southeast of Persimmon Gap to Panther Junction. These storms were nearly stationary. HAZARD...Wind gusts of 50 to 55 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Panther Junction, Chisos Basin, Persimmon Gap, and Big Bend National Park.",
-    "latitude": 29.638571428571428,
-    "longitude": -103.04857142857142,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 1219 AM CDT, a severe thunderstorm was located 6 miles northeast of Crosby, moving northeast at 30 mph. HAZARD...Golf ball size hail and 60 mph wind gusts. SOURCE...Radar indicated. IMPACT...People and animals outdoors will be injured. Expect hail damage to roofs, siding, windows, and vehicles. Expect wind damage to roofs, siding, and trees. Locations impacted include... Crosby.",
+    "latitude": 48.92,
+    "longitude": -103.26199999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0114464eaea1854dacd8a9ede67125f95eb2b4f.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d6046cce38d5268ea9cec9a73d7945c2470fa3f.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-9c0d0142682d",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 531 PM PDT, Doppler radar was tracking a strong thunderstorm near Kamela, or 7 miles southeast of Meacham, moving northeast at 15 mph. HAZARD...Wind gusts up to 40 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include...Kamela. This includes Interstate 84 between mile markers 240 and 250.",
-    "latitude": 45.436,
-    "longitude": -118.30199999999999,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c937601557e844bf43d34c704e02c9bed697f322.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-0f9e765fe7c1",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 829 PM EDT, a strong thunderstorm was over Dooling, or 9 miles southeast of Oglethorpe, moving west at 15 mph. HAZARD...Up to 40 mph wind, frequent cloud to ground lightning and heavy rain. SOURCE...Radar indicated. IMPACT...Expect minor damage to tree limbs and blowing around of light, unsecured objects. Heavy rain may cause temporary street flooding especially in poor drainage areas. Locations impacted include... Oglethorpe, Montezuma, Byromville, Andersonville, Lilly, Dooling, Andersonville National Historic, Clearview, Methvins, Flint River Wma, and Pennington.",
-    "latitude": 32.21,
-    "longitude": -83.98375,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9935659034973b4403befde9dcd6e75034e38110.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-8bec97892775",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 728 PM CDT, Doppler radar was tracking a strong thunderstorm 8 miles southeast of Cave, moving northeast at 25 mph. HAZARD...Wind gusts of 50 to 55 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. This storm will remain over mainly rural areas of Seward, southeastern Grant, western Meade, eastern Stevens, southwestern Gray and southern Haskell Counties.",
-    "latitude": 37.198,
-    "longitude": -100.912,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d720a7b3c21738b57e88cffb40ef41e6bf4254c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-7ebd4f2f47df",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 728 PM CDT, Doppler radar was tracking a strong thunderstorm over Eufaula, moving west at 10 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Eufaula, Clayton, Gaino, White Oak, Osco, Barbour County Public Lake Dam, Baker Hill, Millers Ford, Clayton Municipal Airport, Lugo and Mount Andrew.",
-    "latitude": 31.86888888888889,
-    "longitude": -85.22444444444444,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ba903167dd56411c55174215573b5f08ea560b6.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c347c0008178",
+    "event_id": "SG-f80eef7f907d",
     "type": "weather_alert",
     "title": "Flash Flood Warning",
-    "description": "FFWMAF The National Weather Service in Midland/Odessa has issued a * Flash Flood Warning for... Northeastern Brewster County in southwestern Texas... South Central Pecos County in southwestern Texas... * Until 1030 PM CDT. * At 727 PM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. The expected rainfall rate is 1 to 1.5 inches in 1 hour. Additional rainfall amounts of 0.5 to 1.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Mainly rural areas of Northeastern Brewster and South Central Pecos Counties.",
-    "latitude": 30.242222222222225,
-    "longitude": -102.80666666666667,
+    "description": "FFWPHI The National Weather Service in Mount Holly has issued a * Flash Flood Warning for... Southwestern Cape May County in southern New Jersey... Southeastern Cumberland County in southern New Jersey... * Until 515 AM EDT. * At 113 AM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 30 minutes. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... North Wildwood, Sea Isle City, Avalon, Stone Harbor, Goshen, Green Creek, Cape May Court House, Eldora, Dennisville, Rio Grande and Scotch Bonnet.",
+    "latitude": 39.13125,
+    "longitude": -74.94875,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f43eb6bf885086636e82720f6c2aadd484e4257.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a60e2de8615aad6d0a29d123d6f526535a5f269d.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-655c46575ab5",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 724 PM CDT, Doppler radar was tracking a strong thunderstorm over Stamford, or 22 miles southwest of Holdrege, moving northeast at 10 mph. HAZARD...Wind gusts up to 40 mph and nickel size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. This storm will remain over mainly rural areas of east central Furnas and southwestern Harlan Counties.",
-    "latitude": 40.16571428571429,
-    "longitude": -99.57428571428571,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.abd5978fea3a014100ed5d68aece410ce116fc4d.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-532170024b34",
+    "event_id": "SG-570552b831d8",
     "type": "weather_alert",
     "title": "Special Marine Warning",
-    "description": "SMWAKQ The National Weather Service in Wakefield has issued a * Special Marine Warning for... Chesapeake Bay from Little Creek VA to Cape Henry VA including the Chesapeake Bay Bridge Tunnel... Chesapeake Bay from New Point Comfort to Little Creek VA... Coastal Waters from Cape Charles Light to Virginia-North Carolina border out 20 NM... James River from JRB to HRBT, Including the Elizabeth River... * Until 900 PM EDT. * At 817 PM EDT, a strong thunderstorm was located over Willoughby Bay, moving east to southeast at 20 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Chesapeake Bay Bridge Tunnel, 1st Island Bay Bridge, Anglo African Wreck, Virginia Beach Oceanfront, Cape Henry, Thimble Shoals, Dominion Pier, Sandbridge, Hampton Roads Bridge Tunnel, Lynnhaven, Hampton River Inlet, Hampton Flats, Bluefish Rock, Monitor Merrimack Bridge Tunnel, Willoughby Bay, Sewells Point, Cape Henry Wreck, Little Creek, Rudee Inlet, and 4th Island Bay Bridge.",
-    "latitude": 36.924285714285716,
-    "longitude": -76.21619047619048,
+    "description": "For the following areas... Nearshore and Open Waters from St Joseph to South Haven MI... At 105 AM EDT, a strong thunderstorm was located 9 nm north of St. Joseph Light, moving east at 30 knots. HAZARD...Wind gusts to 40 knots and small hail. SOURCE...Radar indicated. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. Locations impacted include... South Haven Light, St. Joseph Light, and St. Joseph.",
+    "latitude": 42.27111111111111,
+    "longitude": -86.49222222222222,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1160acbede16b3fcf042bd52149a41ba66de05df.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d0ab7a2758e094946e7d381c8e963079b825e794.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-f718e00ec027",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 715 PM CDT, Doppler radar was tracking a strong thunderstorm near Shortville, or 12 miles southeast of Neillsville, moving southeast at 20 mph. HAZARD...Wind gusts up to 50 mph and penny size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. This storm will remain over mainly rural areas of southeastern Clark and east central Jackson Counties, including the following locations... Ballard Road And Pray Avenue, City Point, Highway 95 And 73, The Neillsville Municipal Airport, Potters Flowage, The Cunningham Airfield, Pray, and Nevins.",
-    "latitude": 44.403333333333336,
-    "longitude": -90.40166666666666,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a7bcbafd1054551358d76694bdb9567750d3b3b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-657a3d94d26b",
+    "event_id": "SG-3d79fba584e7",
     "type": "weather_alert",
     "title": "Severe Thunderstorm Warning",
-    "description": "SVRRAH The National Weather Service in Raleigh has issued a * Severe Thunderstorm Warning for... South central Warren County in central North Carolina... Nash County in central North Carolina... Northwestern Edgecombe County in central North Carolina... Northeastern Wilson County in central North Carolina... Northeastern Franklin County in central North Carolina... * Until 900 PM EDT. * At 816 PM EDT, severe thunderstorms were located along a line extending from 11 miles south of Littleton to 9 miles east of Louisburg, moving southeast at 25 mph. HAZARD...60 mph wind gusts. SOURCE...Radar indicated. IMPACT...Expect damage to roofs, siding, and trees. * Locations impacted include... Rocky Mount, Nashville, Louisburg, Wilson, Elm City, Dortches, Red Oak, Sharpsburg, Spring Hope, and Castalia. This includes Interstate 95 between Mile Markers 145 and 127.",
-    "latitude": 36.145,
-    "longitude": -77.94888888888889,
+    "description": "At 1204 AM CDT, a severe thunderstorm was located 9 miles northeast of Fortuna, or 14 miles west of Crosby, moving northeast at 25 mph. HAZARD...60 mph wind gusts and quarter size hail. SOURCE...Radar indicated. IMPACT...Hail damage to vehicles is expected. Expect wind damage to roofs, siding, and trees. Locations impacted include... Fortuna and Ambrose.",
+    "latitude": 48.896,
+    "longitude": -103.652,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a120784467cb6d42b74202015d9959298f09ccb3.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1384e715783a44f4ae7777d82dc1ad1994b7acd2.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-0e65bfe9c6d5",
+    "event_id": "SG-ed011b71a65c",
     "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Central Grant County in southwestern New Mexico... * WHEN...Until 845 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 552 PM MDT, A stationary thunderstorm near Bayard has produced over a half inch of rain in 30 minutes. This is likely to result in minor flooding in poor drainage areas, and may flood roads in the area. - Some locations that will experience flooding include... Hurley, Bayard, North Hurley, Cobre, Santa Clara and Fort Bayard. - http://www.weather.gov/safety/flood",
-    "latitude": 32.75785714285714,
-    "longitude": -108.13214285714285,
+    "title": "Special Weather Statement",
+    "description": "At 101 AM EDT, Doppler radar was tracking a strong thunderstorm 7 miles northwest of Lake Michigan Beach, or 10 miles north of Benton Harbor, moving east at 35 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... South Haven... Paw Paw... Hartford... Bangor... Decatur... Van Buren SP... Lake Michigan Beach... Covert... Keeler... Lawrence... Bloomingdale... Breedsville... Glendale... Grand Junction... South Haven Area Reg... Lacota...",
+    "latitude": 42.26222222222222,
+    "longitude": -86.19,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bbeba419684215bc21b256c4d669a6b0d0bca747.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8feff8c6422c3897428452f08192956f85d29d8.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-c45861332c60",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...Central Cibola County in west central New Mexico... * WHEN...Until 815 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. * ADDITIONAL DETAILS... - At 541 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause arroyo and small stream flooding. Between 0.75 and 1.25 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Mainly rural areas of Central Cibola County. - http://www.weather.gov/safety/flood",
-    "latitude": 34.839166666666664,
-    "longitude": -108.02166666666666,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9cb65caab4d973503c07c737fb109e4c45fa667.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-99ebbfa46c8a",
+    "event_id": "SG-a665f32b4f57",
     "type": "weather_alert",
     "title": "Marine Weather Statement",
-    "description": "The areas affected include... Flagler Beach to Volusia-Brevard County Line 0-20 nm... Flagler Beach to Volusia-Brevard County Line 20-60 nm... Volusia-Brevard County Line to Sebastian Inlet 0-20 nm... Volusia-Brevard County Line to Sebastian Inlet 20-60 nm... At 736 PM EDT, Doppler radar indicated strong thunderstorms, capable of producing winds to around 30 knots. These thunderstorms were located along a line extending from 15 nm northeast of Ormond-By-the-Sea to Cocoa Beach, moving east at 20 knots.",
-    "latitude": 29.02,
-    "longitude": -80.60222222222222,
+    "description": "The areas affected include... Terrebonne Bay... Coastal Waters from Port Fourchon LA to Lower Atchafalaya River LA out 20 nm... * At 1118 PM CDT, Doppler radar indicated a strong thunderstorm, capable of producing winds to around 30 knots. This strong thunderstorm was located near Terrebonne Bay, moving southwest at 5 knots. Locations impacted include... Terrebonne Bay and Timbalier Island.",
+    "latitude": 29.066666666666666,
+    "longitude": -90.66000000000001,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.282edef2d0e2d342d83d20314731474e4375780b.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5614932eb7f7368c29fe2b47a423aa0b4cd50c5e.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-c216ed5aa735",
+    "event_id": "SG-3fa87eb15e68",
     "type": "weather_alert",
-    "title": "Marine Weather Statement",
-    "description": "The areas affected include... Coastal waters from Fernandina Beach to St. Augustine FL out 20 NM... At 729 PM EDT, Doppler radar indicated a strong thunderstorm, capable of producing winds to around 30 knots. This thunderstorm was located over Mayport, or 33 nm north of Saint Augustine, moving northeast at 5 knots.",
-    "latitude": 30.45375,
-    "longitude": -81.4525,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
+    "title": "Flash Flood Warning",
+    "description": "At 1041 PM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2.5 inches of rain have fallen. Flooding impacts will continue, but no additional rainfall is expected. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Mainly rural areas of Southern Pecos and West Central Terrell Counties.",
+    "latitude": 30.15285714285714,
+    "longitude": -102.55999999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c8c3a353e13cb15be4ae48a6e60efd107e452e3.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-33765c99113b",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Bertie County in northeastern North Carolina... Southeastern Northampton County in northeastern North Carolina... * WHEN...Until 1030 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 725 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 1.5 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Rich Square, Roxobel, Jackson, Kelford, Lasker, Bryantown, Boones Crossroads, Creeksville, Eagletown and Pleasant Grove. - http://www.weather.gov/safety/flood",
-    "latitude": 36.26190476190476,
-    "longitude": -77.36095238095238,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-05T00:49:50.483410+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2b024bbb1cc42157ddb19e9ab1f99969f926922.001.1",
+    "timestamp": "2026-09-05T05:24:58.384240+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cac72ef98ba269a87bb5aebc953383b7b3875963.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
