@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-09-05T12:47:59.162504+00:00",
+  "generated": "2026-09-05T15:51:54.845761+00:00",
   "status": "degraded",
   "degraded": true,
   "stale": false,
   "stale_after_minutes": 390,
-  "published_event_count": 633,
+  "published_event_count": 575,
   "freshness": {
-    "oldest_event": "2026-09-02T13:43:18.008000+00:00",
-    "newest_event": "2026-09-05T12:47:59.162504+00:00",
+    "oldest_event": "2026-09-02T17:06:57.409000+00:00",
+    "newest_event": "2026-09-05T15:51:54.845761+00:00",
     "age_minutes": 0.0
   },
   "sources": [
@@ -18,25 +18,25 @@
       "status": "ok",
       "event_count": 15,
       "duration_ms": 1,
-      "checked_at": "2026-09-05T12:48:00.668178+00:00",
-      "last_success": "2026-09-05T12:48:00.668178+00:00",
+      "checked_at": "2026-09-05T15:51:55.772356+00:00",
+      "last_success": "2026-09-05T15:51:55.772356+00:00",
       "error": null
     },
     {
       "source": "europe_security",
       "enabled": true,
       "status": "partial",
-      "event_count": 12,
-      "duration_ms": 1870,
-      "checked_at": "2026-09-05T12:48:02.538364+00:00",
+      "event_count": 9,
+      "duration_ms": 703,
+      "checked_at": "2026-09-05T15:51:56.475587+00:00",
       "last_success": null,
-      "error": "reddit_europe: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/europe/new/.rss; reddit_worldnews: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/worldnews/new/.rss; reddit_geopolitics: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/geopolitics/new/.rss; reddit_poland: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/poland/new/.rss; reddit_ukraine: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/ukraine/new/.rss; reddit_ukrainewarvideoreport: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/UkraineWarVideoReport/new/.rss; reddit_combatfootage: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CombatFootage/new/.rss",
+      "error": "reddit_credibledefense: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CredibleDefense/new/.rss; reddit_europe: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/europe/new/.rss; reddit_worldnews: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/worldnews/new/.rss; reddit_geopolitics: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/geopolitics/new/.rss; reddit_poland: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/poland/new/.rss; reddit_ukraine: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/ukraine/new/.rss; reddit_ukrainewarvideoreport: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/UkraineWarVideoReport/new/.rss; reddit_combatfootage: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CombatFootage/new/.rss",
       "metrics": {
         "sources_configured": 12,
-        "items_received": 55,
-        "relevant_observations": 12,
-        "event_clusters": 12,
-        "source_failures": 7
+        "items_received": 31,
+        "relevant_observations": 9,
+        "event_clusters": 9,
+        "source_failures": 8
       }
     },
     {
@@ -44,9 +44,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 8,
-      "duration_ms": 863,
-      "checked_at": "2026-09-05T12:48:03.401211+00:00",
-      "last_success": "2026-09-05T12:48:03.401211+00:00",
+      "duration_ms": 256,
+      "checked_at": "2026-09-05T15:51:56.732038+00:00",
+      "last_success": "2026-09-05T15:51:56.732038+00:00",
       "error": null,
       "metrics": {
         "records_received": 200,
@@ -61,8 +61,8 @@
       "enabled": true,
       "status": "no_data",
       "event_count": 0,
-      "duration_ms": 863,
-      "checked_at": "2026-09-05T12:48:03.401483+00:00",
+      "duration_ms": 257,
+      "checked_at": "2026-09-05T15:51:56.732311+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -77,36 +77,36 @@
       "source": "usgs_earthquakes",
       "enabled": true,
       "status": "ok",
-      "event_count": 52,
-      "duration_ms": 179,
-      "checked_at": "2026-09-05T12:48:03.580033+00:00",
-      "last_success": "2026-09-05T12:48:03.580033+00:00",
+      "event_count": 48,
+      "duration_ms": 78,
+      "checked_at": "2026-09-05T15:51:56.810592+00:00",
+      "last_success": "2026-09-05T15:51:56.810592+00:00",
       "error": null,
       "metrics": {
-        "records_received": 52,
-        "records_accepted": 52,
+        "records_received": 48,
+        "records_accepted": 48,
         "records_rejected": 0,
-        "response_size_bytes": 37288,
-        "provider_generated": "2026-09-05T12:48:00+00:00"
+        "response_size_bytes": 34467,
+        "provider_generated": "2026-09-05T15:51:33+00:00"
       }
     },
     {
       "source": "nws_weather_alerts",
       "enabled": true,
       "status": "ok",
-      "event_count": 227,
-      "duration_ms": 1234,
-      "checked_at": "2026-09-05T12:48:04.813752+00:00",
-      "last_success": "2026-09-05T12:48:04.813752+00:00",
+      "event_count": 160,
+      "duration_ms": 66,
+      "checked_at": "2026-09-05T15:51:56.876936+00:00",
+      "last_success": "2026-09-05T15:51:56.876936+00:00",
       "error": null,
       "metrics": {
-        "records_received": 228,
-        "records_accepted": 227,
+        "records_received": 161,
+        "records_accepted": 160,
         "records_rejected": 1,
-        "missing_geometry": 204,
+        "missing_geometry": 145,
         "expired_alerts": 0,
         "test_messages": 1,
-        "response_size_bytes": 1145606
+        "response_size_bytes": 873814
       }
     },
     {
@@ -114,9 +114,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 10,
-      "duration_ms": 3959,
-      "checked_at": "2026-09-05T12:48:08.772913+00:00",
-      "last_success": "2026-09-05T12:48:08.772913+00:00",
+      "duration_ms": 2252,
+      "checked_at": "2026-09-05T15:51:59.128907+00:00",
+      "last_success": "2026-09-05T15:51:59.128907+00:00",
       "error": null
     },
     {
@@ -125,7 +125,7 @@
       "status": "no_data",
       "event_count": 0,
       "duration_ms": 0,
-      "checked_at": "2026-09-05T12:48:08.773089+00:00",
+      "checked_at": "2026-09-05T15:51:59.129163+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -147,7 +147,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 5,
         "items_published": 5,
         "cache_age_seconds": null
@@ -157,7 +157,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -167,7 +167,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -177,7 +177,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 25,
         "items_published": 25,
         "cache_age_seconds": null
@@ -187,9 +187,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
-        "items_discovered": 11,
-        "items_published": 11,
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
+        "items_discovered": 13,
+        "items_published": 13,
         "cache_age_seconds": null
       },
       {
@@ -197,7 +197,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -207,9 +207,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
-        "items_discovered": 5,
-        "items_published": 5,
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
+        "items_discovered": 3,
+        "items_published": 3,
         "cache_age_seconds": null
       },
       {
@@ -217,9 +217,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
-        "items_discovered": 5,
-        "items_published": 5,
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
+        "items_discovered": 7,
+        "items_published": 7,
         "cache_age_seconds": null
       },
       {
@@ -227,9 +227,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
-        "items_discovered": 13,
-        "items_published": 13,
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
+        "items_discovered": 11,
+        "items_published": 11,
         "cache_age_seconds": null
       },
       {
@@ -237,7 +237,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -247,7 +247,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 4,
         "items_published": 4,
         "cache_age_seconds": null
@@ -257,9 +257,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
-        "items_discovered": 5,
-        "items_published": 5,
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
+        "items_discovered": 4,
+        "items_published": 4,
         "cache_age_seconds": null
       },
       {
@@ -267,9 +267,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
-        "items_discovered": 4,
-        "items_published": 4,
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
+        "items_discovered": 3,
+        "items_published": 3,
         "cache_age_seconds": null
       },
       {
@@ -277,9 +277,9 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
-        "items_discovered": 9,
-        "items_published": 9,
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
+        "items_discovered": 10,
+        "items_published": 10,
         "cache_age_seconds": null
       },
       {
@@ -287,7 +287,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 3,
         "items_published": 3,
         "cache_age_seconds": null
@@ -297,7 +297,7 @@
         "status": "stale",
         "reason": "cache_used",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -307,7 +307,7 @@
         "status": "stale",
         "reason": "success",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 1,
         "items_published": 1,
         "cache_age_seconds": null
@@ -317,7 +317,7 @@
         "status": "unavailable",
         "reason": "blocked",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-05T12:47:59.162504+00:00",
+        "last_attempt_at": "2026-09-05T15:51:54.845761+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
