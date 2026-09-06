@@ -1,14 +1,8 @@
 {
   "title": "SENTINEL GRID INTELLIGENCE BRIEF",
   "global_threat_level": "CRITICAL",
-  "total_events": 593,
+  "total_events": 551,
   "critical_events": [
-    {
-      "title": "Palestinian teens killed during settler attack on West Bank village, officials say",
-      "type": "conflict",
-      "classification": "conflict_report",
-      "score": 95
-    },
     {
       "title": "US investigating if missile hit Iran wedding, Vance says",
       "type": "conflict",
@@ -26,15 +20,27 @@
       "type": "conflict",
       "classification": "conflict_report",
       "score": 100
+    },
+    {
+      "title": "US envoys meet Zelensky in Ukraine after talks with Putin in Russia",
+      "type": "conflict",
+      "classification": "conflict_report",
+      "score": 85
+    },
+    {
+      "title": "Tropical Storm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 85
+    },
+    {
+      "title": "Tropical Storm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 85
     }
   ],
   "high_priority_events": [
-    {
-      "title": "Unidentified man attacks Russian major general allegedly tied to missile strike on Okhmatdyt children’s hospital in Kyiv",
-      "type": "reddit_report",
-      "classification": "source_reported",
-      "score": 60
-    },
     {
       "title": "Trump hints US would not back UK over Falkland Islands due to lack of Iran war support",
       "type": "conflict",
@@ -270,6 +276,24 @@
       "score": 65
     },
     {
+      "title": "Tropical Storm Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
       "title": "Extreme Heat Warning",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
@@ -282,18 +306,6 @@
       "score": 65
     },
     {
-      "title": "Tropical Storm Watch",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
-      "title": "Flood Watch",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
-    },
-    {
       "title": "Flood Warning",
       "type": "weather_alert",
       "classification": "severe_weather_alert",
@@ -310,12 +322,6 @@
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 80
-    },
-    {
-      "title": "Extreme Heat Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 65
     },
     {
       "title": "Extreme Heat Warning",
@@ -334,24 +340,6 @@
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 65
-    },
-    {
-      "title": "Special Marine Warning",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 75
-    },
-    {
-      "title": "Tropical Storm Watch",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 75
-    },
-    {
-      "title": "Tropical Storm Watch",
-      "type": "weather_alert",
-      "classification": "severe_weather_alert",
-      "score": 75
     },
     {
       "title": "Extreme Heat Warning",
@@ -370,22 +358,64 @@
       "type": "weather_alert",
       "classification": "severe_weather_alert",
       "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Severe Thunderstorm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 80
+    },
+    {
+      "title": "Tropical Storm Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 75
+    },
+    {
+      "title": "Extreme Heat Warning",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
+    },
+    {
+      "title": "Flood Watch",
+      "type": "weather_alert",
+      "classification": "severe_weather_alert",
+      "score": 65
     }
   ],
   "regional_summary": {
     "Unknown": {
       "region": "Unknown",
-      "event_count": 174,
+      "event_count": 175,
       "highest_threat": "HIGH",
       "threat_score": 75,
       "activity_level": "SEVERE",
       "events": [
-        "Emergency Stabilization BAER McConnell, Humboldt, Nevada",
-        "Unidentified man attacks Russian major general allegedly tied to missile strike on Okhmatdyt children’s hospital in Kyiv",
-        "M4.8 earthquake — 65 km S of Isangel, Vanuatu",
-        "M5.1 earthquake — Owen Fracture Zone region",
-        "M2.56 earthquake — 3 km SW of Pāhala, Hawaii",
-        "M4.4 earthquake — 136 km NNE of Tobelo, Indonesia",
         "M2.8 earthquake — 77 km SSW of Nikolski, Alaska",
         "M4.3 earthquake — 65 km SW of Nikolski, Alaska",
         "M2.6 earthquake — 71 km SSE of Sand Point, Alaska",
@@ -536,6 +566,7 @@
         "Hurricane Karina",
         "Hurricane Lowell",
         "M2.7 earthquake — 18 km WNW of Ivanof Bay, Alaska",
+        "M3.5 earthquake — 42 km SSE of La Tirana, Chile",
         "M4.2 earthquake — 230 km W of Olonkinbyen, Svalbard and Jan Mayen",
         "M5.3 earthquake — 108 km SW of Puerto Madero, Mexico",
         "M3.41 earthquake — 38 km NE of Cruz Bay, U.S. Virgin Islands",
@@ -553,17 +584,22 @@
         "M5.1 earthquake — southern East Pacific Rise",
         "M4.8 earthquake — 33 km NE of Calama, Chile",
         "M2.6 earthquake — 3 km SSW of Chenega, Alaska",
-        "M2.5 earthquake — 40 km NW of Toyah, Texas"
+        "M4.6 earthquake — 105 km NNW of Pante Makasar, Timor Leste",
+        "M2.5 earthquake — 40 km NW of Toyah, Texas",
+        "M5.2 earthquake — southern East Pacific Rise",
+        "M2.5 earthquake — 90 km WSW of Akhiok, Alaska",
+        "M4.6 earthquake — 219 km SSE of Wada, Japan",
+        "M2.5 earthquake — 93 km S of Kokhanok, Alaska",
+        "M4.7 earthquake — Svalbard region"
       ]
     },
     "Middle East": {
       "region": "Middle East",
-      "event_count": 7,
+      "event_count": 6,
       "highest_threat": "CRITICAL",
       "threat_score": 100,
       "activity_level": "ACTIVE",
       "events": [
-        "Palestinian teens killed during settler attack on West Bank village, officials say",
         "Trump hints US would not back UK over Falkland Islands due to lack of Iran war support",
         "US investigating if missile hit Iran wedding, Vance says",
         "US diesel prices hit an all-time-high",
@@ -574,10 +610,10 @@
     },
     "Europe": {
       "region": "Europe",
-      "event_count": 9,
+      "event_count": 10,
       "highest_threat": "CRITICAL",
       "threat_score": 95,
-      "activity_level": "ACTIVE",
+      "activity_level": "ELEVATED",
       "events": [
         "Trump says he’ll ask Europe to pay back US for munitions sent to Ukraine",
         "Ukraine’s scramble to secure critical air defenses stalls",
@@ -587,14 +623,15 @@
         "Trump's peace envoys to visit Moscow and Kyiv over weekend, reports say",
         "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
         "Trump's peace envoys to visit Moscow and Kyiv over weekend",
-        "US envoys meet Putin in Moscow for Ukraine talks"
+        "US envoys meet Putin in Moscow for Ukraine talks",
+        "US envoys meet Zelensky in Ukraine after talks with Putin in Russia"
       ]
     },
     "Americas": {
       "region": "Americas",
-      "event_count": 403,
-      "highest_threat": "HIGH",
-      "threat_score": 80,
+      "event_count": 360,
+      "highest_threat": "CRITICAL",
+      "threat_score": 85,
       "activity_level": "SEVERE",
       "events": [
         "Extreme Heat Warning",
@@ -643,7 +680,6 @@
         "Coastal Flood Advisory",
         "Beach Hazards Statement",
         "Extreme Heat Warning",
-        "Small Craft Advisory",
         "Heat Advisory",
         "Coastal Flood Advisory",
         "High Surf Advisory",
@@ -677,8 +713,6 @@
         "Small Craft Advisory",
         "Coastal Flood Advisory",
         "High Surf Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
@@ -731,7 +765,6 @@
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Small Craft Advisory",
         "Heat Advisory",
         "Heat Advisory",
         "Heat Advisory",
@@ -750,31 +783,27 @@
         "Heat Advisory",
         "Extreme Heat Warning",
         "Extreme Heat Warning",
-        "Dense Fog Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
+        "Tropical Storm Watch",
+        "High Surf Advisory",
+        "Flood Watch",
+        "Extreme Heat Warning",
+        "Heat Advisory",
+        "Flood Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
+        "Coastal Flood Statement",
+        "Coastal Flood Statement",
+        "Coastal Flood Statement",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Heat Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
@@ -805,24 +834,7 @@
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "Extreme Heat Warning",
-        "Small Craft Advisory",
         "Red Flag Warning",
         "Small Craft Advisory",
         "Small Craft Advisory",
@@ -854,36 +866,15 @@
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
         "High Surf Advisory",
         "Coastal Flood Advisory",
         "Beach Hazards Statement",
-        "Tropical Storm Watch",
         "Heat Advisory",
-        "High Surf Advisory",
-        "Flood Watch",
         "Flood Warning",
         "Flood Warning",
         "Flood Warning",
         "Heat Advisory",
         "Hydrologic Outlook",
-        "Dense Fog Advisory",
         "Heat Advisory",
         "High Surf Advisory",
         "Coastal Flood Advisory",
@@ -891,13 +882,10 @@
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Small Craft Advisory",
         "Extreme Heat Warning",
         "Coastal Flood Statement",
         "Coastal Flood Advisory",
         "Coastal Flood Advisory",
-        "Heat Advisory",
-        "Extreme Heat Warning",
         "Heat Advisory",
         "Heat Advisory",
         "Heat Advisory",
@@ -914,9 +902,6 @@
         "Heat Advisory",
         "Heat Advisory",
         "Flood Watch",
-        "Special Marine Warning",
-        "Flood Advisory",
-        "Marine Weather Statement",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
@@ -945,7 +930,6 @@
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Marine Weather Statement",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
@@ -962,29 +946,13 @@
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
-        "Special Weather Statement",
-        "Marine Weather Statement",
-        "Marine Weather Statement",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Special Weather Statement",
-        "Special Weather Statement",
-        "Marine Weather Statement",
-        "Coastal Flood Statement",
-        "Coastal Flood Statement",
-        "Coastal Flood Statement",
-        "Small Craft Advisory",
-        "Small Craft Advisory",
-        "Dense Fog Advisory",
-        "Special Weather Statement",
         "Beach Hazards Statement",
-        "Tropical Storm Watch",
-        "Tropical Storm Watch",
+        "Tropical Storm Warning",
+        "Tropical Storm Warning",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Heat Advisory",
         "Tropical Cyclone Local Statement",
-        "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
         "Small Craft Advisory",
@@ -999,7 +967,33 @@
         "Heat Advisory",
         "Freeze Watch",
         "Lake Wind Advisory",
-        "Heat Advisory"
+        "Heat Advisory",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "Flood Watch",
+        "Flood Watch",
+        "Severe Thunderstorm Warning",
+        "Severe Thunderstorm Warning",
+        "Tropical Cyclone Local Statement",
+        "Marine Weather Statement",
+        "Special Weather Statement",
+        "Small Craft Advisory",
+        "Tropical Storm Warning",
+        "Extreme Heat Warning",
+        "Heat Advisory",
+        "Special Weather Statement",
+        "Small Craft Advisory",
+        "Special Weather Statement",
+        "Coastal Flood Statement",
+        "Coastal Flood Statement",
+        "Coastal Flood Statement",
+        "Small Craft Advisory",
+        "Small Craft Advisory",
+        "High Surf Advisory",
+        "Small Craft Advisory",
+        "Flood Watch",
+        "Flood Watch",
+        "Special Weather Statement"
       ]
     }
   },
