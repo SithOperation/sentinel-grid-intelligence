@@ -1,42 +1,42 @@
 {
-  "total_events": 1161,
+  "total_events": 944,
   "event_types": {
-    "earthquake": 108,
-    "weather_alert": 1007,
-    "tropical_cyclone": 4,
+    "earthquake": 109,
+    "weather_alert": 790,
     "humanitarian": 8,
-    "conflict": 26,
-    "reddit_report": 8
+    "conflict": 27,
+    "reddit_report": 8,
+    "tropical_cyclone": 2
   },
   "threat_levels": {
-    "MEDIUM": 1018,
-    "HIGH": 133,
+    "MEDIUM": 817,
+    "HIGH": 117,
     "CRITICAL": 4,
     "LOW": 6
   },
   "priority_levels": {
-    "medium": 1013,
-    "high": 147,
+    "medium": 814,
+    "high": 129,
     "critical": 1
   },
   "sources": {
-    "USGS Earthquake Hazards Program": 108,
-    "National Weather Service": 1007,
-    "NASA EONET": 4,
+    "USGS Earthquake Hazards Program": 109,
+    "National Weather Service": 790,
     "GDACS": 9,
-    "BBC World News": 19,
+    "BBC World News": 20,
     "Reddit reddit_worldnews": 4,
     "UN News": 7,
+    "NASA EONET": 2,
     "Reddit reddit_israel_palestine": 2,
     "Reddit reddit_ukrainian_conflict": 2,
     "Reddit reddit_osint_ukraine": 1
   },
   "regions": {
     "Unknown": 143,
-    "United States": 1007,
+    "United States": 790,
     "Ukraine": 6,
     "Iran": 2,
     "Israel": 3
   },
-  "average_confidence": 99.32
+  "average_confidence": 99.14
 }
