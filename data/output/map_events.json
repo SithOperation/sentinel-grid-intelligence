@@ -1,73 +1,5 @@
 [
   {
-    "event_id": "SG-844562d0fc17",
-    "type": "earthquake",
-    "title": "M4.3 earthquake — 79 km NE of Tobelo, Indonesia",
-    "description": "M 4.3 - 79 km NE of Tobelo, Indonesia",
-    "latitude": 2.2478,
-    "longitude": 128.5045,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-07T13:33:40.590000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tew3",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-3cd2642224b2",
-    "type": "earthquake",
-    "title": "M2.5 earthquake — 98 km SE of Prudhoe Bay, Alaska",
-    "description": "M 2.5 - 98 km SE of Prudhoe Bay, Alaska",
-    "latitude": 69.752,
-    "longitude": -146.208,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-07T14:23:36.194000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rtagho",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-280c568b0aa6",
-    "type": "humanitarian",
-    "title": "Green forest fire notification in Russian Federation",
-    "description": "On 06/09/2026, a forest fire started in Russian Federation, until 07/09/2026.",
-    "latitude": 51.25838251997666,
-    "longitude": 56.765299890473365,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 95,
-    "timestamp": "2026-09-07T15:01:05+00:00",
-    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031771",
-    "classification": "disaster_alert",
-    "source": [
-      "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-d307865fdf39",
-    "type": "reddit_report",
-    "title": "Russian drones fly toward Kyiv amid temporary attack pause on capitals",
-    "description": "submitted by /u/KI_official to r/worldnews [link] [comments]",
-    "latitude": 50.4501,
-    "longitude": 30.5234,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 70,
-    "timestamp": "2026-09-07T16:13:23+00:00",
-    "url": "https://reddit.com/r/worldnews/comments/1w9whrd/russian_drones_fly_toward_kyiv_amid_temporary",
-    "classification": "source_reported",
-    "source": [
-      "Reddit reddit_worldnews"
-    ]
-  },
-  {
     "event_id": "SG-50dff43385d6",
     "type": "earthquake",
     "title": "M3.5 earthquake — 44 km SSW of Cantwell, Alaska",
@@ -133,6 +65,23 @@
     "classification": "disaster_alert",
     "source": [
       "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-b0e2c765ad8f",
+    "type": "wildfire",
+    "title": "Wildfire Moonshine, Albany, Wyoming",
+    "description": "17 Miles SW from Wheatland, WY",
+    "latitude": 41.95365,
+    "longitude": -105.321617,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-07T19:58:00+00:00",
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24187",
+    "classification": "eonet_wildfire",
+    "source": [
+      "NASA EONET"
     ]
   },
   {
@@ -749,6 +698,23 @@
     ]
   },
   {
+    "event_id": "SG-f6cf66b45f9b",
+    "type": "wildfire",
+    "title": "Wildfire PINTO, Stephens, Oklahoma",
+    "description": "Wildfires",
+    "latitude": 34.413611,
+    "longitude": -97.5925,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-08T12:44:00+00:00",
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24192",
+    "classification": "eonet_wildfire",
+    "source": [
+      "NASA EONET"
+    ]
+  },
+  {
     "event_id": "SG-a5de9a0596b2",
     "type": "earthquake",
     "title": "M2.8 earthquake — 16 km WSW of Johannesburg, CA",
@@ -848,6 +814,40 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-31a3fceb6dea",
+    "type": "wildfire",
+    "title": "Wildfire Kurk, San Saba, Texas",
+    "description": "6 Miles NE from Cherokee, TX",
+    "latitude": 31.060181,
+    "longitude": -98.653084,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-08T16:39:00+00:00",
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24185",
+    "classification": "eonet_wildfire",
+    "source": [
+      "NASA EONET"
+    ]
+  },
+  {
+    "event_id": "SG-12dc3cff0073",
+    "type": "wildfire",
+    "title": "Wildfire MEERS, Comanche, Oklahoma",
+    "description": "1 Miles NE from State Highway 115 and Post Oak Rd, OK",
+    "latitude": 34.840579,
+    "longitude": -98.67792,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-08T16:57:00+00:00",
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24189",
+    "classification": "eonet_wildfire",
+    "source": [
+      "NASA EONET"
     ]
   },
   {
@@ -1532,23 +1532,6 @@
     ]
   },
   {
-    "event_id": "SG-d1af2b43bf0c",
-    "type": "earthquake",
-    "title": "M5.2 earthquake — 76 km ESE of Isangel, Vanuatu",
-    "description": "M 5.2 - 76 km ESE of Isangel, Vanuatu",
-    "latitude": -19.8237,
-    "longitude": 169.9486,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-09T17:01:52.208000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg3x",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-1b4e4e6c1387",
     "type": "earthquake",
     "title": "M5.1 earthquake — 81 km ESE of Isangel, Vanuatu",
@@ -1559,6 +1542,23 @@
     "threat_level": "MEDIUM",
     "confidence": 100,
     "timestamp": "2026-09-09T17:18:45.381000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg43",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-d1af2b43bf0c",
+    "type": "earthquake",
+    "title": "M5.1 earthquake — 86 km ESE of Isangel, Vanuatu",
+    "description": "M 5.1 - 86 km ESE of Isangel, Vanuatu",
+    "latitude": -19.777,
+    "longitude": 170.0677,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-09T17:18:45.408000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg43",
     "classification": "seismic_event",
     "source": [
@@ -2146,18 +2146,35 @@
   {
     "event_id": "SG-856dd47e3955",
     "type": "earthquake",
-    "title": "M4.2 earthquake — 67 km WNW of Lake Louise, Alaska",
-    "description": "M 4.2 - 67 km WNW of Lake Louise, Alaska",
-    "latitude": 62.521,
-    "longitude": -147.75,
+    "title": "M4.2 earthquake — 66 km WNW of Lake Louise, Alaska",
+    "description": "M 4.2 - 66 km WNW of Lake Louise, Alaska",
+    "latitude": 62.506,
+    "longitude": -147.742,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-10T05:18:08.379000+00:00",
+    "timestamp": "2026-09-10T05:18:08.805000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rxwdbw",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-73749816ea83",
+    "type": "tropical_cyclone",
+    "title": "Tropical Storm Norbert",
+    "description": "Severe Storms",
+    "latitude": 16.4,
+    "longitude": -117.3,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T06:00:00+00:00",
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24184",
+    "classification": "eonet_tropical_cyclone",
+    "source": [
+      "NASA EONET"
     ]
   },
   {
@@ -2172,6 +2189,23 @@
     "confidence": 100,
     "timestamp": "2026-09-10T06:08:47.841000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg8p",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-95052ceabffa",
+    "type": "earthquake",
+    "title": "M3.1 earthquake — 219 km SE of Chiniak, Alaska",
+    "description": "M 3.1 - 219 km SE of Chiniak, Alaska",
+    "latitude": 56.267,
+    "longitude": -149.645,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T07:06:16.984000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rxzths",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -2247,40 +2281,6 @@
     ]
   },
   {
-    "event_id": "SG-53f7847ca549",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Bourbon County in southeastern Kansas... * WHEN...Until 900 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 304 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 3 inches of rain have fallen. - Additional rainfall amounts up to 1 to locally 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Fort Scott, Bronson, Uniontown, Fulton, Redfield, Marmaton, Mapleton, Devon, Hiattville, Harding, Petersburg, Pawnee Station, Hammond, Xenia, Porterville and Garland. - http://www.weather.gov/safety/flood",
-    "latitude": 37.83375,
-    "longitude": -94.90875,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T08:49:25.632753+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14cb831b576b3ca3bd27e2f8d4dacb2048108955.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-f40cb34e2811",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Small stream flooding caused by excessive rainfall is expected. * WHERE...West Central Monroe County in east central Ohio... Southern Noble County in east central Ohio... * WHEN...Until 930 AM EDT Thursday. * IMPACTS...Streams continue to rise due to excess runoff from earlier rainfall. * ADDITIONAL DETAILS... - At 326 AM EDT, gauge reports indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. Between 1.2 and 2.5 inches of rain have fallen. - Some locations that will experience flooding include... Dudley, Dexter City and Harriettsville. - http://www.weather.gov/safety/flood",
-    "latitude": 39.635625000000005,
-    "longitude": -81.463125,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T08:49:25.632753+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d7fe8a6d9f0acfbf878c928f0bb0f6569ee1e78.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-420106e0f4ea",
     "type": "earthquake",
     "title": "M2.5 earthquake — 33 km W of Port Lions, Alaska",
@@ -2332,7 +2332,7 @@
     ]
   },
   {
-    "event_id": "SG-e402ce1cffc1",
+    "event_id": "SG-2dce7c36f8eb",
     "type": "earthquake",
     "title": "M4.7 earthquake — 116 km WSW of Alianza Cristiana, Peru",
     "description": "M 4.7 - 116 km WSW of Alianza Cristiana, Peru",
@@ -2396,23 +2396,6 @@
     ]
   },
   {
-    "event_id": "SG-9545417229ac",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Florida... Alafia River At Lithia affecting Hillsborough County. Horse Creek Near Arcadia at SR 72 affecting DeSoto County. ...The Flood Warning continues for the following rivers in Florida... Little Manatee River At Wimauma at US 301 affecting Hillsborough County. Manatee River Near Myakka Head at SR 64 affecting Manatee County. .Rising water levels are expected over the next several days along several rivers across west central and southwest Florida due to recent heavy rainfall. * WHAT...Minor flooding is forecast. * WHERE...Horse Creek near Arcadia at SR 72. * WHEN...From Friday afternoon until further notice. * IMPACTS...At 12.0 feet, The access road to Hidden Oak is impassable. * ADDITIONAL DETAILS... - At 10:30 PM EDT Wednesday the stage was 7.8 feet. - Bankfull stage is 12.0 feet. - Forecast...The river is expected to rise above flood stage early Friday afternoon and continue rising to 12.6 feet Saturday morning. Additional rises are possible thereafter. - Flood stage is 12.0 feet. - Flood History...This crest compares to a previous crest of 12.6 feet on 09/18/2000. - https://www.weather.gov/safety/flood",
-    "latitude": 27.188,
-    "longitude": -81.978,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75cca58a9917fcfed96b458f538d59470b94fc78.004.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-4d8fde392469",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2424,23 +2407,6 @@
     "confidence": 100,
     "timestamp": "2026-09-10T13:26:41.044530+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75cca58a9917fcfed96b458f538d59470b94fc78.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4253b0599c1b",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Florida... Alafia River At Lithia affecting Hillsborough County. Horse Creek Near Arcadia at SR 72 affecting DeSoto County. ...The Flood Warning continues for the following rivers in Florida... Little Manatee River At Wimauma at US 301 affecting Hillsborough County. Manatee River Near Myakka Head at SR 64 affecting Manatee County. .Rising water levels are expected over the next several days along several rivers across west central and southwest Florida due to recent heavy rainfall. * WHAT...Minor flooding is forecast. * WHERE...Alafia River at Lithia . * WHEN...From Thursday evening to Saturday morning. * IMPACTS...At 13.0 feet, River Drive and Squirrel Run Way downstream of County Road 640 are completely covered by water. One home begins to flood. * ADDITIONAL DETAILS... - At 10:00 PM EDT Wednesday the stage was 8.0 feet. - Bankfull stage is 13.0 feet. - Forecast...The river is expected to rise above flood stage early Friday morning to a crest of 13.3 feet early Friday afternoon. It will then fall below flood stage early Saturday morning. - Flood stage is 13.0 feet. - Flood History...This crest compares to a previous crest of 13.3 feet on 08/26/1945. - https://www.weather.gov/safety/flood",
-    "latitude": 27.878000000000004,
-    "longitude": -82.22,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75cca58a9917fcfed96b458f538d59470b94fc78.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2481,34 +2447,154 @@
     ]
   },
   {
-    "event_id": "SG-a6a9a3c02cee",
+    "event_id": "SG-93de60a6fce8",
+    "type": "earthquake",
+    "title": "M5.1 earthquake — 162 km SSW of Merizo Village, Guam",
+    "description": "M 5.1 - 162 km SSW of Merizo Village, Guam",
+    "latitude": 12.0265,
+    "longitude": 143.8739,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T13:28:15.798000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgb6",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-376cf399afcd",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — 84 km SW of Puerto Madero, Mexico",
+    "description": "M 4.5 - 84 km SW of Puerto Madero, Mexico",
+    "latitude": 14.0976,
+    "longitude": -92.8815,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T13:29:03.015000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgb4",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-a7c38d8c6965",
+    "type": "earthquake",
+    "title": "M2.8 earthquake — 236 km W of Adak, Alaska",
+    "description": "M 2.8 - 236 km W of Adak, Alaska",
+    "latitude": 51.681,
+    "longitude": 179.948,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T14:50:21.045000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rypfeh",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-44cadd49c73d",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Kazakhstan",
+    "description": "On 07/09/2026, a forest fire started in Kazakhstan, until 10/09/2026.",
+    "latitude": 49.56635620811022,
+    "longitude": 73.75725658988102,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-10T15:01:53+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031872",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-b91f5555918e",
+    "type": "earthquake",
+    "title": "M2.6 earthquake — 117 km E of Chignik, Alaska",
+    "description": "M 2.6 - 117 km E of Chignik, Alaska",
+    "latitude": 56.211,
+    "longitude": -156.515,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T15:25:32.322000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ryqjte",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9dd2ce3c261f",
+    "type": "reddit_report",
+    "title": "Russian forces now attack Kharkiv oblast with jet-powered Italmas drones",
+    "description": "submitted by /u/Gwara_Media to r/OSINTUkraine [link] [comments]",
+    "latitude": 49.9935,
+    "longitude": 36.2304,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 90,
+    "timestamp": "2026-09-10T16:05:56+00:00",
+    "url": "https://reddit.com/r/OSINTUkraine/comments/1wcng8j/russian_forces_now_attack_kharkiv_oblast_with",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_osint_ukraine",
+      "Reddit reddit_ukrainian_conflict"
+    ]
+  },
+  {
+    "event_id": "SG-9315b9b1a17b",
+    "type": "earthquake",
+    "title": "M2.89 earthquake — 55 km N of Charlotte Amalie, U.S. Virgin Islands",
+    "description": "M 2.9 - 55 km N of Charlotte Amalie, U.S. Virgin Islands",
+    "latitude": 18.8363333333333,
+    "longitude": -64.8395,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T16:08:52.630000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531293",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9545417229ac",
     "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWKEY The National Weather Service in Key West has issued a * Special Marine Warning for... Straits of Florida from Ocean Reef to Craig Key out 60 nm... * Until 1000 AM EDT. * At 922 AM EDT, a strong thunderstorm was located 14 nm east of Floyd's Wall Northeast, moving northwest at 15 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...National Weather Service Meteorologist. IMPACT...Expect wind gusts in excess of 34 knots, suddenly higher waves, frequent lightning, and heavy downpours. * The strong thunderstorm will remain over mainly open waters.",
-    "latitude": 24.798,
-    "longitude": -80.006,
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Florida... Alafia River At Lithia affecting Hillsborough County. Horse Creek Near Arcadia at SR 72 affecting DeSoto County. ...The Flood Warning is cancelled for the following rivers in Florida... Little Manatee River At Wimauma at US 301 affecting Hillsborough County. Manatee River Near Myakka Head at SR 64 affecting Manatee County. .Rising water levels are expected over the next several days along the Alafia River At Lithia and Horse Creek Near Arcadia at SR 72 due to recent heavy rainfall. The Little Manatee River At Wimauma at US 301 and Manatee River Near Myakka Head at SR 64 are no longer forecast to reach Minor Flood Stage. * WHAT...Minor flooding is forecast. * WHERE...Horse Creek near Arcadia at SR 72. * WHEN...From late Saturday night until further notice. * IMPACTS...At 12.0 feet, The access road to Hidden Oak is impassable. * ADDITIONAL DETAILS... - At 9:30 AM EDT Thursday the stage was 7.8 feet. - Bankfull stage is 12.0 feet. - Forecast...The river is expected to rise above flood stage early Sunday morning and continue rising to 12.1 feet Sunday morning. Additional rises are possible thereafter. - Flood stage is 12.0 feet. - Flood History...This crest compares to a previous crest of 12.1 feet on 09/30/2003. - https://www.weather.gov/safety/flood",
+    "latitude": 27.188,
+    "longitude": -81.978,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4fa9f6564165376711f5d1c410bdf9bc53f09e02.001.1",
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f9de9098d487ff68fcf4840273157270b9c76a8.004.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-9705043245da",
+    "event_id": "SG-4253b0599c1b",
     "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 812 AM CDT, Doppler radar indicated a strong thunderstorm 4 miles west of Shamrock, moving northeast at 20 mph. HAZARD...Wind gusts up to 40 mph and pea to dime size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down small tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations in or near the path include... Drumright... Shamrock...",
-    "latitude": 35.9875,
-    "longitude": -96.575,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Florida... Alafia River At Lithia affecting Hillsborough County. Horse Creek Near Arcadia at SR 72 affecting DeSoto County. ...The Flood Warning is cancelled for the following rivers in Florida... Little Manatee River At Wimauma at US 301 affecting Hillsborough County. Manatee River Near Myakka Head at SR 64 affecting Manatee County. .Rising water levels are expected over the next several days along the Alafia River At Lithia and Horse Creek Near Arcadia at SR 72 due to recent heavy rainfall. The Little Manatee River At Wimauma at US 301 and Manatee River Near Myakka Head at SR 64 are no longer forecast to reach Minor Flood Stage. * WHAT...Minor flooding is forecast. * WHERE...Alafia River at Lithia . * WHEN...From this evening to late Saturday night. * IMPACTS...At 13.0 feet, River Drive and Squirrel Run Way downstream of County Road 640 are completely covered by water. One home begins to flood. * ADDITIONAL DETAILS... - At 9:00 AM EDT Thursday the stage was 10.7 feet. - Bankfull stage is 13.0 feet. - Forecast...The river is expected to rise above flood stage early tomorrow afternoon to a crest of 13.3 feet early Saturday morning. It will then fall below flood stage late Saturday evening. - Flood stage is 13.0 feet. - Flood History...This crest compares to a previous crest of 13.3 feet on 08/26/1945. - https://www.weather.gov/safety/flood",
+    "latitude": 27.878000000000004,
+    "longitude": -82.22,
+    "priority": "high",
+    "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f101ab7f2dfb52475933331f047d655bfbdcfc54.001.1",
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f9de9098d487ff68fcf4840273157270b9c76a8.003.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2518,150 +2604,14 @@
     "event_id": "SG-1ae14a861cff",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...North Central Washington County in southeastern Ohio... * WHEN...Until noon EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Streams continue to rise due to excess runoff from earlier rainfall. * ADDITIONAL DETAILS... - At 909 AM EDT, gauge reports indicated heavy rain due to thunderstorms earlier this morning. Flooding is ongoing or expected to begin shortly in the warned area. Between 1.5 and 3 inches of rain have fallen. - Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... Marietta and Devola. - http://www.weather.gov/safety/flood",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...North Central Washington County in southeastern Ohio... * WHEN...Until 200 PM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 1107 AM EDT, gauge reports indicated flooding of Duck Creek near Whipple. Flooding is ongoing in the warned area. Between 1.5 and 3 inches of rain have fallen. - Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... Marietta and Devola. - http://www.weather.gov/safety/flood",
     "latitude": 39.53,
     "longitude": -81.43199999999999,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6bae1ada9c74cbae7145ff09cea69d6cc7ca0643.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-87b3cb4b030d",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 911 AM EDT, Doppler radar was tracking a strong thunderstorm near Hobe Sound, moving northwest at 15 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Stuart, Jupiter Island, Hobe Sound, Port Salerno, and Palm City.",
-    "latitude": 27.083333333333332,
-    "longitude": -80.18166666666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.04aa5d685411b5fc44b0e63d6b46ddadbfc7a497.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-2cb5b3f10a6b",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 909 AM EDT, Doppler radar indicated that the heaviest rainfall had exited the area; however, excessive rainfall from previous heavy rainfall will continue to cause flash flooding in the warned area. Between 1 and 3 inches of rain have fallen, with areas along a line between Dalesburg and Foxport having seen the most rainfall. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Flemingsburg, Fairview, Elizaville, Nepton, Cowan, Mount Carmel, Foxport, Ewing and Flemingsburg Junction.",
-    "latitude": 38.46222222222222,
-    "longitude": -83.75777777777779,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dbb039a6da2eaa4db139ce452b0b9e606eaa3ec8.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-21fb5fcb1796",
-    "type": "weather_alert",
-    "title": "Marine Weather Statement",
-    "description": "A Marine Weather Statement has been issued for the following areas... Barataria Bay... Coastal Waters from Boothville LA to Southwest Pass of the Mississippi River out 20 nm... Coastal Waters from Port Fourchon LA to Lower Atchafalaya River LA out 20 nm... Coastal waters from Port Fourchon Louisiana to Lower Atchafalaya River LA from 20 to 60 NM... Coastal waters from Southwest Pass of the Mississippi River to Port Fourchon Louisiana from 20 to 60 NM... Coastal waters from the Southwest Pass of the Mississippi River to Port Fourchon Louisiana out 20 NM... Terrebonne Bay... At 805 AM CDT, Doppler radar indicated a cluster of strong thunderstorms, capable of producing winds to around 30 knots and weak waterspouts. This cluster of thunderstorms is generally located 24 nm southwest of Louisiana Offshore Oil Port, or 34 nm south of Timbalier Island. The cluster of thunderstorms was nearly stationary. Mariners can expect widespread gusty winds to around 30 knots, higher waves and dangerous lightning strikes. Boaters should seek safe harbor immediately until this activity passes. Brief, weak waterspouts are possible with this activity. Remain on alert in case warnings are issued for waterspout development.",
-    "latitude": 29.084285714285713,
-    "longitude": -90.30666666666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa3643b46a57e1a1277843ce29db5417ceaa9fa6.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b0d03ea6f74c",
-    "type": "weather_alert",
-    "title": "Marine Weather Statement",
-    "description": "A Marine Weather Statement has been issued for the following areas... Barataria Bay... Coastal Waters from Boothville LA to Southwest Pass of the Mississippi River out 20 nm... Coastal Waters from Port Fourchon LA to Lower Atchafalaya River LA out 20 nm... Coastal waters from Port Fourchon Louisiana to Lower Atchafalaya River LA from 20 to 60 NM... Coastal waters from Southwest Pass of the Mississippi River to Port Fourchon Louisiana from 20 to 60 NM... Coastal waters from the Southwest Pass of the Mississippi River to Port Fourchon Louisiana out 20 NM... Terrebonne Bay... At 805 AM CDT, Doppler radar indicated a cluster of strong thunderstorms, capable of producing winds to around 30 knots and weak waterspouts. This cluster of thunderstorms is generally located 24 nm southwest of Louisiana Offshore Oil Port, or 34 nm south of Timbalier Island. The cluster of thunderstorms was nearly stationary. Mariners can expect widespread gusty winds to around 30 knots, higher waves and dangerous lightning strikes. Boaters should seek safe harbor immediately until this activity passes. Brief, weak waterspouts are possible with this activity. Remain on alert in case warnings are issued for waterspout development.",
-    "latitude": 29.084285714285713,
-    "longitude": -90.30666666666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1d9b7eb773c0074e1f762f8854d3bf172c78a6b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-16bd2f87815e",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...North Central Logan County in central Oklahoma... Payne County in central Oklahoma... Southeastern Garfield County in northern Oklahoma... Noble County in northern Oklahoma... * WHEN...Until 1100 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 759 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 1.5 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Stillwater, Cushing, Perry, Perkins, Yale, Morrison, Glencoe, Ripley, Red Rock, Mulhall, Orlando, Lake Mcmurtry, Lake Carl Blackwell, Sooner Lake, Lucien, Quay and Ingalls. - http://www.weather.gov/safety/flood",
-    "latitude": 36.22,
-    "longitude": -97.04357142857144,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88d17099c568da4900a928d117e96bdbc1633466.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-49ce728eb6ad",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWKEY The National Weather Service in Key West has issued a * Special Marine Warning for... Straits of Florida from Ocean Reef to Craig Key out 60 nm... * Until 930 AM EDT. * At 856 AM EDT, a strong thunderstorm was located 11 nm southeast of Spiegel Grove, moving northwest at 15 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...National Weather Service Meteorologist. IMPACT...Expect wind gusts in excess of 34 knots, suddenly higher waves, frequent lightning, and heavy downpours. * The strong thunderstorm will remain over mainly open waters.",
-    "latitude": 24.919999999999998,
-    "longitude": -80.138,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db6cfeaf1cafb5b5ec753f4a1b2b81c5c0d2bdca.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-d2f2c2c059dc",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Northern Morgan County in southeastern Ohio... * WHEN...Until noon EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 846 AM EDT, Doppler radar and automated rain gauges indicated heavy rain from thunderstorms earlier this morning. Flooding is ongoing or expected to begin shortly in the warned area. Between 2.5 and 4 inches of rain have fallen. - Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... McConnelsville, Malta, Bristol, Eagleport, and Hackney. - http://www.weather.gov/safety/flood",
-    "latitude": 39.67100000000001,
-    "longitude": -81.763,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.965663285ea40a38228b394cd13dfa15e1183d43.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b1a329545f17",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Northwestern Morgan County in southeastern Ohio... Central Perry County in southeastern Ohio... * WHEN...Until noon EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 843 AM EDT, emergency management reported flooded roadways in the warned area due to heavy rain from thunderstorms earlier this morning. Flooding is ongoing or expected to begin shortly. Between 2 and 3 inches of rain have fallen. - Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... New Lexington, Somerset, Perry State Forest, Crooksville, and Junction City. - http://www.weather.gov/safety/flood",
-    "latitude": 39.78642857142857,
-    "longitude": -82.29142857142857,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52ba386c2a04075fee93a3a49dc0564f9a9da468.001.1",
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91b5d8db09c2934304b9947ccc2f92a01c0e2d95.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2677,76 +2627,8 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39bef743cce8732b22c2203953abcb9de0097c1b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-d22aecaac46f",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Pike County in south central Ohio... * WHEN...Until noon EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Numerous roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 826 AM EDT, local law enforcement reported continued flooding in the warned area, with high water in locations across a large portion of Pike County. Between 4 and 7 inches of rain have fallen. Although the heaviest rain has ended, some storms may produce additional rainfall later in the day. - Some locations that may experience flooding include... Waverly, Piketon, Pike Lake, Kincaid Springs, Cynthiana, Beaver, Lake White, Buchanan, Idaho, Elm Grove, Pike County Airport, Givens, Omega and Linn.",
-    "latitude": 39.1,
-    "longitude": -83.12571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.142a62b4a66e5773c18907e3feb7c11d089a9b1c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-fcf3147cd4c3",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWMLB The National Weather Service in Melbourne has issued a * Special Marine Warning for... Sebastian Inlet to Jupiter Inlet 0-20 nm... * Until 930 AM EDT. * At 824 AM EDT, a severe thunderstorm producing waterspouts was located near Jupiter Inlet Colony, moving northwest at 10 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Waterspouts can can quickly form and capsize boats, damage vessels and create locally hazardous seas. Make sure all on board are wearing life jackets. Expect wind gusts in excess of 34 knots, suddenly higher waves, lightning and heavy downpours. Make sure all on board are wearing life jackets. Return to safe harbor if possible. * Locations impacted include... Jupiter Island, Hobe Sound, Hobe Sound Beach, Jonathan Dickinson State Park, and Hobe Sound Wildlife Refuge.",
-    "latitude": 27.076249999999998,
-    "longitude": -80.11125,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.707850f8288a0eaa18578054340c7d5d42d0ca83.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-5d6d98c87776",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northern Jefferson Parish in southeastern Louisiana... Orleans Parish in southeastern Louisiana... Northwestern Plaquemines Parish in southeastern Louisiana... Northwestern St. Bernard Parish in southeastern Louisiana... * WHEN...Until 915 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 717 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... New Orleans, Chalmette, Timberlane, Harvey, Belle Chasse, Marrero, East New Orleans, Metairie, Avondale, Jefferson, Gretna, Harahan, Westwego, Arabi, Terrytown, Meraux, Woodmere, Estelle and Bridge City. - http://www.weather.gov/safety/flood",
-    "latitude": 29.969,
-    "longitude": -90.1015,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.724f31f5bd6c2edce752d4948f84070e7d216ff7.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-d381c4eb793b",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 708 AM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 3 and 5 inches of rain have fallen. Additional rainfall amounts of 1 to 3 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. Some locations that will experience flash flooding include... Kenner and New Orleans Armstrong Airport.",
-    "latitude": 30.02111111111111,
-    "longitude": -90.25333333333333,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d804931ce836e0259dbc4923966d835fb110dc1.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2755,66 +2637,117 @@
   {
     "event_id": "SG-4ccb24eb5f88",
     "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWRLX The National Weather Service in Charleston has extended the * Flash Flood Warning for... Central Gallia County in southeastern Ohio... Southern Meigs County in southeastern Ohio... West Central Jackson County in northwestern West Virginia... Northern Mason County in western West Virginia... * Until 1100 AM EDT. * At 801 AM EDT, emergency management reported multiple water rescues in Jackson County due to thunderstorms that produced heavy rain across the warned area earlier this morning. Between 4 and 7 inches of rain have fallen. Flooding impacts will continue, with light rainfall continuing to be possible. Flash flooding is already occurring. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Emergency management reported. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Point Pleasant, Gallipolis, Rio Grande, New Haven, Middleport, Henderson, Leon, Cheshire, Adamsville, Lakin, Gallopolis Ferry, Kyger, Letart, Southside, Mount Alto, Gage, and Centerpoint.",
-    "latitude": 38.86833333333333,
-    "longitude": -82.31666666666666,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea946235eb11782e294e8ad1f63e5b737d490e83.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-316ff6428466",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...The island of Hawaii in Hawaii County... * WHEN...Until 515 AM HST. * IMPACTS...Minor flooding on roads, poor drainage areas, and in streams. * ADDITIONAL DETAILS... - At 144 AM HST, Radar continues to show light to moderate rain falling over the Kau district where earlier rainfall led to flooding on Highway 11 closing portions of the road between Pahala and Naalehu. - Some locations that will experience flooding include... Punaluu Beach, Kawa Flats, Pahala, Naalehu, Wood Valley, Hawaiian Ocean View, and Waiohinu.",
-    "latitude": 19.105,
-    "longitude": -155.5405,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28ce90c29331f64648a38a42c8eceeda1a7638f8.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-5d9530343ec6",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Central Lewis County in northeastern Kentucky... * WHEN...Until 1030 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 736 AM EDT, radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.5 and 1.5 inches of rain have fallen. Additional rainfall amounts of 0.5 to 1 inch are possible. - Some locations that may experience flooding include... Camp Dix, Head of Grassy, Stricklett, Kinniconick, Glen Springs, Harris, Petersville, Tannery and Epworth.",
-    "latitude": 38.45761904761905,
-    "longitude": -83.38285714285715,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7beaf5acdef017e4c39e7b0b8f910532ee834bd8.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-bad991c37c1c",
-    "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Allen County in southeastern Kansas... * WHEN...Until 1000 AM CDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 600 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. Between 1 and 4 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are possible in the warned area. - Some locations that will experience flooding include... Iola, Humboldt, La Harpe, Gas, Moran, Savonburg, Elsmore, Mildred, Bassett, Iola Airport and Petrolia. - http://www.weather.gov/safety/flood",
-    "latitude": 37.8525,
-    "longitude": -95.24875,
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...North Central Gallia County in southeastern Ohio... Jackson County in southeastern Ohio... West Central Meigs County in southeastern Ohio... Southeastern Vinton County in southeastern Ohio... * WHEN...Until 230 PM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 1045 AM EDT, the public reported flooded roadways and multiple water rescues in the warned area due to thunderstorms earlier this morning. Flooding is already occurring. Between 4 and 6 inches of rain have fallen. - Flooding impacts will continue, with additional rounds of light rainfall possible. - Some locations that will experience flooding include... Jackson, Wellston, Rio Grande, Coalton, Vinton, Wilkesville, Salem Center, Petersburg, and Dexter. - http://www.weather.gov/safety/flood",
+    "latitude": 39.04375,
+    "longitude": -82.605,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-10T13:26:41.044530+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.068456aa8d7e2ebbb3341fa1eb4b986fd2ee5c3d.001.1",
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82f19d9cc223fd79d9bb0231e32358ea38247b63.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-6122b54c35d8",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 1202 PM CDT, Doppler radar was tracking a strong thunderstorm 5 miles east of Ada, moving east at 10 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Ada, Allen, and Francis.",
+    "latitude": 34.832,
+    "longitude": -96.524,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d834db92e86a94bb0b29b6d5d42c8428a1a090a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-3fbac6ea0e6e",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northeastern Livingston Parish in southeastern Louisiana... Southeastern St. Helena Parish in southeastern Louisiana... Southern Tangipahoa Parish in southeastern Louisiana... * WHEN...Until 215 PM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 1117 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 3 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Hammond, Ponchatoula, Livingston, Independence, Albany, Springfield, Montpelier, Natalbany, Robert, Killian and Tickfaw. - http://www.weather.gov/safety/flood",
+    "latitude": 30.534375,
+    "longitude": -90.654375,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e92cc0226e5256b00b1ebb81d44998d2e280776.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-aef09b4883bc",
+    "type": "weather_alert",
+    "title": "Marine Weather Statement",
+    "description": "The areas affected include... Terrebonne Bay... Barataria Bay... Coastal Waters from Port Fourchon LA to Lower Atchafalaya River LA out 20 nm... Coastal Waters from Southwest Pass of the Mississippi River to Port Fourchon LA out 20 nm... * At 1054 AM CDT, Doppler radar indicated a cluster of strong thunderstorms, capable of producing winds to around 30 knots and waterpouts. These strong thunderstorms were located 16 NM southeast of Isle Derniers, moving north at 5 knots. Locations impacted include... Timbalier Island, Timbalier Bay, Terrebonne Bay and Isle Derniers.",
+    "latitude": 29.134666666666664,
+    "longitude": -90.304,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.058759e2162ca26beb88af314bb9d63b10342589.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2ea71caf7932",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWLIX The National Weather Service in New Orleans has issued a * Flash Flood Warning for... Southeastern Hancock County in southern Mississippi... Southwestern Harrison County in southern Mississippi... * Until 1245 PM CDT. * At 1046 AM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 3 and 6 inches of rain have fallen. Additional rainfall amounts of 1 to 3 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Long Beach, Bay St. Louis, Waveland, Pass Christian, Diamondhead, Shoreline Park and Kiln.",
+    "latitude": 30.303529411764703,
+    "longitude": -89.35882352941177,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93d5c4f2a6a4c0d0ec67cbfa5a9fc2d465600044.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2fb07fb2273a",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Small stream flooding caused by excessive rainfall is expected. * WHERE...Southwestern Cochise County in southeastern Arizona, specifically Hereford Road between milepost 8 and 9. * WHEN...Until 230 PM MST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water is spilling onto Hereford Rd near the one lane bridge that goes over the San Pedro River. * ADDITIONAL DETAILS... - At 834 AM MST, local law enforcement reported runoff from earlier heavy rain in the advisory area. This is causing small stream flooding. Overflowing poor drainage areas have already caused minor flooding in the advisory area. - Some locations that will experience flooding include... Hereford Road between milepost 8 and 9. - http://www.weather.gov/safety/flood",
+    "latitude": 31.433333333333334,
+    "longitude": -110.10833333333333,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd83466ddb0ded7efda1f5bc671c1b753d2cd5a3.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f1446c459769",
+    "type": "weather_alert",
+    "title": "Marine Weather Statement",
+    "description": "The areas affected include... Mississippi Sound... Chandeleur Sound... Coastal waters from Pascagoula Mississippi to Stake Island out 20 NM... * At 1028 AM CDT, Doppler radar indicated a strong thunderstorms, capable of producing winds to around 30 knots and waterspouts. These strong thunderstorms were located along the Mississippi Sound and open Gulf waters southe of there, moving northwest at 15 knots. Locations impacted include... Ship Island, Mississippi Sound, Chandeleur Sound, Cat Island, Horn Island, Gulf Park Estates, Ocean Springs, Biloxi, Gulfport, Long Beach, Pascagoula, Pass Christian, Bay St. Louis and Waveland.",
+    "latitude": 30.214761904761904,
+    "longitude": -88.95857142857143,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-10T17:07:39.361501+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.96e5b4822dd2fe9300966b9fd8e2a03f2fa32059.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
