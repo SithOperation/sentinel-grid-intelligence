@@ -1,22 +1,5 @@
 [
   {
-    "event_id": "SG-bbc25386cb0e",
-    "type": "earthquake",
-    "title": "M2.6 earthquake — 19 km NNW of Whites City, New Mexico",
-    "description": "M 2.6 - 19 km NNW of Whites City, New Mexico",
-    "latitude": 32.3251,
-    "longitude": -104.4894,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-09T16:00:21.063000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg2k",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-1b4e4e6c1387",
     "type": "earthquake",
     "title": "M5.1 earthquake — 86 km ESE of Isangel, Vanuatu",
@@ -2060,7 +2043,7 @@
     ]
   },
   {
-    "event_id": "SG-f0538af97075",
+    "event_id": "SG-d010b2ffb6b2",
     "type": "earthquake",
     "title": "M3.4 earthquake — 102 km N of Charlotte Amalie, U.S. Virgin Islands",
     "description": "M 3.4 - 102 km N of Charlotte Amalie, U.S. Virgin Islands",
@@ -2128,6 +2111,23 @@
     ]
   },
   {
+    "event_id": "SG-b014912e7ffc",
+    "type": "earthquake",
+    "title": "M3.5 earthquake — 151 km SW of Adak, Alaska",
+    "description": "M 3.5 - 151 km SW of Adak, Alaska",
+    "latitude": 51.132,
+    "longitude": -178.46,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-12T03:43:22.896000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sblaat",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-08412f1c67cf",
     "type": "earthquake",
     "title": "M3.63 earthquake — 139 km NNE of Suárez, Puerto Rico",
@@ -2156,6 +2156,40 @@
     "confidence": 100,
     "timestamp": "2026-09-12T04:17:36.910000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714100441",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7b04d331675d",
+    "type": "earthquake",
+    "title": "M3.1 earthquake — 223 km SSE of Atka, Alaska",
+    "description": "M 3.1 - 223 km SSE of Atka, Alaska",
+    "latitude": 50.308,
+    "longitude": -173.115,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-12T04:47:18.783000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sbndnt",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-b7ab2b4dd800",
+    "type": "earthquake",
+    "title": "M3.1 earthquake — 256 km SSE of Perryville, Alaska",
+    "description": "M 3.1 - 256 km SSE of Perryville, Alaska",
+    "latitude": 53.893,
+    "longitude": -157.203,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-12T05:03:06.319000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sbnrvf",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -2502,7 +2536,7 @@
     ]
   },
   {
-    "event_id": "SG-904bf34f8310",
+    "event_id": "SG-603f11bebe84",
     "type": "earthquake",
     "title": "M2.64 earthquake — 4 km ESE of Inglewood, CA",
     "description": "M 2.6 - 4 km ESE of Inglewood, CA",
@@ -2553,57 +2587,6 @@
     ]
   },
   {
-    "event_id": "SG-305cbb44e211",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 849 AM EDT/749 AM CDT/, Doppler radar was tracking a strong thunderstorm over Panama City, moving east at 20 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Panama City, Lynn Haven, Callaway, Springfield, Hiland Park, Tyndall Air Force Base, Parker, St Andrews State Park, Magnolia Beach, Cedar Grove, Dirego Park, Beacon Beach, Bay Harbor, College Station, Bayou George, Brannonville, Millville, and Wetappo.",
-    "latitude": 30.15833333333333,
-    "longitude": -85.56666666666666,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-12T13:02:05.590617+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc6402ba13e36543ac4170eadfbeb768290f8312.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-37fbe5de05d1",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 837 AM EDT, Doppler radar was tracking a strong thunderstorm 17 miles west of Perry, moving east at 15 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Scanlon, Hampton Springs, and Econfina.",
-    "latitude": 30.05875,
-    "longitude": -83.85249999999999,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-12T13:02:05.590617+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e238c9dacf76f77e4496561a115909c782fbb3e.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-f2e34399bc25",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWTAE The National Weather Service in Tallahassee has issued a * Special Marine Warning for... Apalachee Bay or Coastal Waters From Keaton Beach to Ochlockonee River Fl out to 20 Nm... * Until 945 AM EDT. * At 744 AM EDT, a cluster of strong thunderstorms capable of producing waterspouts were located along a line extending from near St. Marks to 8 nm southeast of Marker 24 Barge, moving northeast at 15 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar indicated. IMPACT...Waterspouts can quickly form and capsize boats...damage vessels...and create suddenly higher waves. Make sure all on board are in a secure location and wearing life jackets. Expect wind gusts in excess of 34 knots...suddenly higher waves...frequent lightning...and heavy downpours. Make sure all on board are wearing life jackets. * Locations impacted include... Marker 24 Barge.",
-    "latitude": 30.009999999999998,
-    "longitude": -83.97111111111111,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-12T13:02:05.590617+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2686af7850b7586e4087bddce9461595b40a693.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-4086cc3370a6",
     "type": "weather_alert",
     "title": "Flash Flood Warning",
@@ -2621,17 +2604,187 @@
     ]
   },
   {
-    "event_id": "SG-c89e7ee575d5",
+    "event_id": "SG-a2b7cfefe956",
+    "type": "earthquake",
+    "title": "M2.9 earthquake — 44 km W of Happy Valley, Alaska",
+    "description": "M 2.9 - 44 km W of Happy Valley, Alaska",
+    "latitude": 59.996,
+    "longitude": -152.522,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-12T13:26:33.340000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026scekwe",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-611bcbc46a39",
+    "type": "earthquake",
+    "title": "M4.7 earthquake — 46 km NNE of Port-Olry, Vanuatu",
+    "description": "M 4.7 - 46 km NNE of Port-Olry, Vanuatu",
+    "latitude": -14.6467,
+    "longitude": 167.2217,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-12T15:56:09.138000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th0h",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7138338da15c",
     "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWTAE The National Weather Service in Tallahassee has issued a * Special Marine Warning for... Coastal Waters from Mexico Beach to Apalachicola out 20 NM... Coastal waters from Okaloosa-Walton County Line to Mexico Beach out 20 NM... St. Andrews Bay Waterways... Waters from Okaloosa-Walton County Line to Mexico Beach from 20 to 60 NM... * Until 900 AM CDT. * At 558 AM CDT, a cluster of strong thunderstorms capable of producing waterspouts were located along a line extending from Santa Rosa Beach to 25 nm south of Okaloosa Deep Water Reef, moving east at 25 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar indicated. IMPACT...Waterspouts can quickly form and capsize boats...damage vessels...and create suddenly higher waves. Make sure all on board are in a secure location and wearing life jackets. Expect wind gusts in excess of 34 knots...suddenly higher waves...frequent lightning...and heavy downpours. Make sure all on board are wearing life jackets. * Locations impacted include... Mexico Beach, Panama City Beach, and Laguna Beach.",
-    "latitude": 30.17684210526316,
-    "longitude": -85.70052631578947,
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 1118 AM CDT, a severe thunderstorm was located over Wymore, or 11 miles southeast of Beatrice, moving southeast at 25 mph. HAZARD...Quarter to Golf ball size hail. SOURCE...Radar indicated. IMPACT...People and animals outdoors will be injured. Expect damage to roofs, siding, windows, and vehicles. This severe storm will be near... Barneston around 1125 AM CDT. Other locations in the path of this severe thunderstorm include Liberty.",
+    "latitude": 40.07,
+    "longitude": -96.59857142857142,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-12T13:02:05.590617+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6357bd9e5e506ff882785d9f6cb0371061265ae3.001.1",
+    "timestamp": "2026-09-12T16:20:07.208478+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cbed1b54f5ce7691d2c5d84a38cb29c3b0da162f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d4dbd00f7365",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "SMWLIX The National Weather Service in New Orleans has issued a * Special Marine Warning for... Terrebonne Bay... Coastal Waters from Port Fourchon LA to Lower Atchafalaya River LA out 20 nm... Coastal waters from Port Fourchon Louisiana to Lower Atchafalaya River LA from 20 to 60 NM... * Until 1245 PM CDT. * At 1116 AM CDT, a severe thunderstorm capable of producing waterspouts was located 14 NM south of Timbalier Island, moving east at 5 knots. HAZARD...Waterspouts and wind gusts to 34 knots. SOURCE...Radar indicated. IMPACT...Waterspouts can easily overturn boats and create locally hazardous seas. Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Isle Derniers, Timbalier Island, Caillou Bay, Terrebonne Bay and Timbalier Bay.",
+    "latitude": 29.12047619047619,
+    "longitude": -90.78380952380952,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-12T16:20:07.208478+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e1a7642118327e675961d24db66f2ff9592b5e2.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-fd501bc5ca04",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 1116 AM CDT, Doppler radar indicated a strong thunderstorm 5 miles southwest of Japton, moving southeast at 25 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down small tree limbs and blow around unsecured objects. Locations in or near the path include... St. Paul... Crosses... Patrick... Delaney... Brashears... Combs...",
+    "latitude": 35.87285714285714,
+    "longitude": -93.85142857142857,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-12T16:20:07.208478+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b0c79dd123499be9e7979dd3f89ec2c85dac1a7.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-57ff2c620150",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 1115 AM CDT, Doppler radar was tracking a strong thunderstorm near Underwood-Petersville, or 8 miles west of Florence, moving east at 30 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Florence, Muscle Shoals, Sheffield, Tuscumbia, Rogersville, Killen, Town Creek, Lexington, Leighton, and Courtland.",
+    "latitude": 34.879999999999995,
+    "longitude": -87.622,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-12T16:20:07.208478+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f36a569ee3e2ce4737548b2191ad4b84adf99445.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-5cb2b4d66435",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northwestern Fairfield County in central Ohio... Southeastern Franklin County in central Ohio... Southwestern Licking County in central Ohio... Northeastern Pickaway County in central Ohio... * WHEN...Until 315 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 1211 PM EDT, radar and automated rain gauges indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. Additional rainfall amounts of 0.5 to 1 inch are possible. - Some locations that may experience flooding include... Columbus, Reynoldsburg, Grove City, Gahanna, Pickerington, Bexley, Pataskala, Canal Winchester, Groveport, Ashville, South Bloomfield, Summit Station, Beechwood Trails, Whitehall, Etna, Obetz, Lithopolis, Kirkersville, Lockbourne and Brice.",
+    "latitude": 39.829,
+    "longitude": -82.863,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-12T16:20:07.208478+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.177325f09fc444d042b256a2f982192114879c34.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-76a0599d2686",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 1104 AM CDT, a severe thunderstorm was located 3 miles southwest of Filley, or 8 miles east of Beatrice, moving southeast at 35 mph. HAZARD...Quarter size hail. SOURCE...911 dispatch and trained weather spotters reported quarter size hail. IMPACT...Damage to vehicles is expected. This severe storm will be near... Virginia around 1110 AM CDT. Other locations in the path of this severe thunderstorm include Burchard.",
+    "latitude": 40.22875,
+    "longitude": -96.52,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-12T16:20:07.208478+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.efc4ca092c3308a0a44e518ed3f198d67e52a19e.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4e1360ebb3c2",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "SMWTAE The National Weather Service in Tallahassee has issued a * Special Marine Warning for... Apalachee Bay or Coastal Waters From Keaton Beach to Ochlockonee River Fl out to 20 Nm... Coastal Waters From Ochlockonee River to Apalachicola FL out to 20 Nm... Coastal waters from Suwannee River to Keaton Beach out 20 NM... Waters from Suwannee River to Apalachicola FL from 20 to 60 NM... * Until 145 PM EDT. * At 1151 AM EDT, a cluster of strong thunderstorms capable of producing waterspouts were located along a line extending from 8 nm north of O Tower to near Suwannee River, moving east at 25 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar indicated. IMPACT...Waterspouts can quickly form and capsize boats...damage vessels...and create suddenly higher waves. Make sure all on board are in a secure location and wearing life jackets. Expect wind gusts in excess of 34 knots...suddenly higher waves...frequent lightning...and heavy downpours. Make sure all on board are wearing life jackets. * Locations impacted include... Buckeye Reef, Horseshoe Beach, K Tower, Marker 24 Barge, and Suwannee River.",
+    "latitude": 29.69,
+    "longitude": -83.6125,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-12T16:20:07.208478+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea4b231dbb804d9d9dac3940dfb783bb1b385cb5.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b4def0c9404e",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 1039 AM CDT, Doppler radar was tracking a strong thunderstorm near J P Coleman State Park, moving east at 25 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Florence, Muscle Shoals, Sheffield, Tuscumbia, Cherokee, St. Florian, Underwood-Petersville, Waterloo, Riverton, and Wright.",
+    "latitude": 34.88375,
+    "longitude": -87.945,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-12T16:20:07.208478+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d457aabbd8c25b50392229f22e16da8d679774b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-3b78fe82571e",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWFFC The National Weather Service in Peachtree City has issued a * Flash Flood Warning for... Southeastern Cobb County in north central Georgia... Northwestern DeKalb County in north central Georgia... Northeastern Douglas County in north central Georgia... Central Fulton County in north central Georgia... * Until 345 PM EDT Saturday. * At 939 AM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 3 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Atlanta, Marietta, Douglasville, City of South Fulton, Sandy Springs, Smyrna, Dunwoody, East Point, Chamblee, Doraville, Midtown, North Druid Hills, North Atlanta, Bolton, Bankhead, Vinings and Cascade Heights.",
+    "latitude": 33.79833333333334,
+    "longitude": -84.50333333333333,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-12T16:20:07.208478+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b58facdd7ca789cee07387522b92d4814a08ce30.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
