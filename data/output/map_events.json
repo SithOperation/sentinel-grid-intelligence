@@ -1,73 +1,5 @@
 [
   {
-    "event_id": "SG-778a2282fc6f",
-    "type": "earthquake",
-    "title": "M4.8 earthquake — 35 km SSE of Cliza, Bolivia",
-    "description": "M 4.8 - 35 km SSE of Cliza, Bolivia",
-    "latitude": -17.8933,
-    "longitude": -65.8339,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T12:05:53.736000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tga8",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-93de60a6fce8",
-    "type": "earthquake",
-    "title": "M5.1 earthquake — 162 km SSW of Merizo Village, Guam",
-    "description": "M 5.1 - 162 km SSW of Merizo Village, Guam",
-    "latitude": 12.0265,
-    "longitude": 143.8739,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:28:15.798000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgb6",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-376cf399afcd",
-    "type": "earthquake",
-    "title": "M4.5 earthquake — 84 km SW of Puerto Madero, Mexico",
-    "description": "M 4.5 - 84 km SW of Puerto Madero, Mexico",
-    "latitude": 14.0976,
-    "longitude": -92.8815,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T13:29:03.015000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgb4",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-a7c38d8c6965",
-    "type": "earthquake",
-    "title": "M2.8 earthquake — 236 km W of Adak, Alaska",
-    "description": "M 2.8 - 236 km W of Adak, Alaska",
-    "latitude": 51.681,
-    "longitude": 179.948,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-10T14:50:21.045000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rypfeh",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-44cadd49c73d",
     "type": "humanitarian",
     "title": "Green forest fire notification in Kazakhstan",
@@ -1722,6 +1654,23 @@
     ]
   },
   {
+    "event_id": "SG-1b8b680926be",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Australia",
+    "description": "On 10/09/2026, a forest fire started in Australia, until 12/09/2026.",
+    "latitude": -20.50381941271334,
+    "longitude": 123.70068543958033,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-12T11:01:30+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031915",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
     "event_id": "SG-53a2378b71ba",
     "type": "earthquake",
     "title": "M2.62 earthquake — 27 km ESE of Avalon, CA",
@@ -1979,15 +1928,15 @@
   {
     "event_id": "SG-aaf7acd962f8",
     "type": "earthquake",
-    "title": "M2.8 earthquake — 256 km SSE of Perryville, Alaska",
-    "description": "M 2.8 - 256 km SSE of Perryville, Alaska",
-    "latitude": 53.93,
-    "longitude": -157.091,
+    "title": "M2.8 earthquake — 249 km SSE of Perryville, Alaska",
+    "description": "M 2.8 - 249 km SSE of Perryville, Alaska",
+    "latitude": 53.963,
+    "longitude": -157.2289,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-12T19:09:26.208000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026scpwzn",
+    "timestamp": "2026-09-12T19:09:26.227000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th2v",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -2144,6 +2093,23 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-73749816ea83",
+    "type": "tropical_cyclone",
+    "title": "Tropical Storm Norbert",
+    "description": "Severe Storms",
+    "latitude": 17.8,
+    "longitude": -130.0,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-13T00:00:00+00:00",
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24184",
+    "classification": "eonet_tropical_cyclone",
+    "source": [
+      "NASA EONET"
     ]
   },
   {
@@ -2400,272 +2366,289 @@
     ]
   },
   {
-    "event_id": "SG-618bf8667e82",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Northwestern Pike County in south central Ohio... South Central Ross County in south central Ohio... * WHEN...Until 800 AM EDT Sunday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 1148 PM EDT, local law enforcement reported flooding in the warned area, including portions of US-23 near the Pike and Ross County border. Between 1 and 3 inches of rain have fallen. Flooding impacts will continue overnight, but no additional rainfall is expected. - Some locations that may experience flooding include... Waverly, Pike Lake, Buchanan, Lake White, Summithill, Idaho, Scioto Trail State Park, Pike County Airport and Massieville.",
-    "latitude": 39.156,
-    "longitude": -83.104,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.619a95d78d6954aceaeb262827c2a0f77856c63c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-ab2655dc0162",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 619 AM CDT, Doppler radar was tracking a strong thunderstorm 8 miles north of Durham, moving east at 10 mph. HAZARD...Wind gusts of 30 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. This storm will remain over mainly rural areas of southwestern Ellis and northwestern Roger Mills Counties.",
-    "latitude": 35.932,
-    "longitude": -99.85,
+    "event_id": "SG-10af6c487c46",
+    "type": "earthquake",
+    "title": "M3.53 earthquake — 137 km NNE of Vieques, Puerto Rico",
+    "description": "M 3.5 - 137 km NNE of Vieques, Puerto Rico",
+    "latitude": 19.557,
+    "longitude": -65.3043,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68f380e972d935acaa2a3861bac07d98d52b0494.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-13T10:59:51.590000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026256003",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-488be28a2896",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 609 AM CDT, Doppler radar was tracking a strong thunderstorm near Laverne, moving east at 20 mph. HAZARD...Wind gusts of 30 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Laverne and May.",
-    "latitude": 36.692,
-    "longitude": -99.88399999999999,
+    "event_id": "SG-ca27381967c4",
+    "type": "earthquake",
+    "title": "M2.5 earthquake — 30 km NW of Ivanof Bay, Alaska",
+    "description": "M 2.5 - 30 km NW of Ivanof Bay, Alaska",
+    "latitude": 56.072,
+    "longitude": -159.873,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e3011800501bae1198662ec377c80a6c8f2f825.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-13T11:55:47.206000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sdxlny",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-4f5b2bec950e",
+    "event_id": "SG-1c99d8b6f0a7",
+    "type": "earthquake",
+    "title": "M3.9 earthquake — 90 km WNW of Cartagena, Chile",
+    "description": "M 3.9 - 90 km WNW of Cartagena, Chile",
+    "latitude": -33.3311,
+    "longitude": -72.5473,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-13T12:36:14.144000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th65",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-e01b489159d1",
+    "type": "earthquake",
+    "title": "M2.58 earthquake — 18 km SE of Silver Springs, Nevada",
+    "description": "M 2.6 - 18 km SE of Silver Springs, Nevada",
+    "latitude": 39.3196,
+    "longitude": -119.0472,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-13T13:33:23.997000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924404",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-a0df2f532127",
+    "type": "earthquake",
+    "title": "M2.8 earthquake — 51 km WNW of Nikiski, Alaska",
+    "description": "M 2.8 - 51 km WNW of Nikiski, Alaska",
+    "latitude": 60.792,
+    "longitude": -152.211,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-13T13:39:12.171000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026seaxgj",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-64b788c6b39b",
+    "type": "earthquake",
+    "title": "M2.53 earthquake — 6 km E of Willits, CA",
+    "description": "M 2.5 - 6 km E of Willits, CA",
+    "latitude": 39.417667388916,
+    "longitude": -123.288497924805,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-13T13:55:36.130000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75434862",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9c9a01e69be0",
+    "type": "earthquake",
+    "title": "M3.22 earthquake — 122 km N of Culebra, Puerto Rico",
+    "description": "M 3.2 - 122 km N of Culebra, Puerto Rico",
+    "latitude": 19.4113333333333,
+    "longitude": -65.2633333333333,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-13T14:06:10.860000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531673",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-4a6bdd28c09c",
     "type": "weather_alert",
     "title": "Flash Flood Warning",
-    "description": "At 708 AM EDT, Doppler radar and automated rain gauges indicated that heavy rain was falling across the warned area. Between 2 and 2.5 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Additional rainfall amounts of 0.5 to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar and automated gauges. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Morristown, Madison, Florham Park, East Hanover, Lincoln Park, Kinnelon, Chatham, Boonton, Butler, Rockaway and Morris Plains.",
-    "latitude": 40.85285714285714,
-    "longitude": -74.38095238095238,
+    "description": "At 1050 AM EDT, Doppler radar and automated rain gauges indicated thunderstorms producing heavy rain across the warned area. Between 1 and 3 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar and automated gauges. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Waterbury, Danbury, Meriden, Middletown, Wallingford, Naugatuck, Southbury, Wolcott, Colchester, East Hampton, Durham, Sherman, Newtown, Hamden, Cheshire, Monroe, Bethel and Seymour.",
+    "latitude": 41.521499999999996,
+    "longitude": -73.15299999999999,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe1ec66b605097eee8dd3f0373b9d0a4d7a723fb.001.1",
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38d798c906318ce4d2b11fb6329b757357f12695.002.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-1cdbce0921da",
+    "event_id": "SG-a29fa47c0f1b",
     "type": "weather_alert",
     "title": "Flash Flood Warning",
-    "description": "FFWOKX The National Weather Service in Upton has issued a * Flash Flood Warning for... Southern Fairfield County in southern Connecticut... * Until 1000 AM EDT. * At 706 AM EDT, Doppler radar and automated rain gauges indicated thunderstorms producing heavy rain across the warned area. Between 0.5 and 1.5 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar and automated gauges. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Bridgeport, Stamford, Norwalk, Milford, Shelton, New Canaan, Fairfield, Greenwich, Stratford, Trumbull, Westport, Darien, Monroe, Wilton, Weston, Redding and Easton.",
+    "description": "FFWBOX The National Weather Service in Norton has issued a * Flash Flood Warning for... Southwestern Bristol County in southeastern Massachusetts... Bristol County in Rhode Island... Kent County in Rhode Island... Newport County in Rhode Island... Southern Providence County in Rhode Island... Northeastern Washington County in Rhode Island... * Until 145 PM EDT. * At 1046 AM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. The expected rainfall rate is 1 to 2 inches in 1 hour. Additional rainfall amounts of 1 to 3 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Providence, Fall River, Warwick, Cranston, East Providence, Coventry, Dartmouth, North Providence, South Kingstown, West Warwick, Johnston, North Kingstown, Newport, Bristol, Somerset, Portsmouth, Barrington, Middletown, Narragansett and Swansea.",
+    "latitude": 41.66875,
+    "longitude": -71.48625,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a75ea6f66032cea1fa74200feefff7549fba238f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-93f9b0255819",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWOKX The National Weather Service in Upton has extended the * Flash Flood Warning for... Southern Fairfield County in southern Connecticut... * Until 1230 PM EDT. * At 1043 AM EDT, local law enforcement reported thunderstorms producing heavy rain across the warned area. Between 3 and 5 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is already occurring. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Law enforcement reported. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Bridgeport, Stamford, Norwalk, Milford, Shelton, New Canaan, Fairfield, Greenwich, Stratford, Trumbull, Westport, Darien, Monroe, Wilton, Weston, Redding and Easton.",
     "latitude": 41.1075,
     "longitude": -73.351,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be16deab50623738ac9f58d6e84eeb7653a13674.001.1",
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.07522d38e3eea70c93af855500adb2bc58b750d1.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-5484785cb1de",
+    "event_id": "SG-af3e32eb7fd6",
     "type": "weather_alert",
-    "title": "Marine Weather Statement",
-    "description": "The areas affected include... Sandy Hook NJ to Moriches Inlet NY out 60 NM... The Open Waters 20 to 60 NM south of Moriches Inlet to Montauk Point NY... At 654 AM EDT, Doppler radar indicated strong thunderstorms, capable of producing winds to around 30 knots. These thunderstorms were located along a line extending from 16 nm southeast of Shark River Reef to 35 nm southeast of Buoy 44025, moving north at 25 knots.",
-    "latitude": 39.99666666666667,
-    "longitude": -72.91666666666667,
+    "title": "Special Weather Statement",
+    "description": "At 943 AM CDT, Doppler radar was tracking a strong thunderstorm 4 miles west of Dwight, moving east at 30 mph. HAZARD...Wind gusts up to 40 or 45 mph and penny size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down twigs or small limbs and blow around objects. Minor hail damage to outdoor objects and vegetation is possible. Locations impacted include... White City, Alta Vista, Dwight, and Parkerville.",
+    "latitude": 38.82,
+    "longitude": -96.66,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82ea7cc1275c2a360a6ddcb8879c7f8ea4ea9ae5.001.1",
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.672effcb8ded4d2c053320f1299a0d556e30707c.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-f3f810f9482e",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Bergen County in northeastern New Jersey... Northern Essex County in northeastern New Jersey... Hudson County in northeastern New Jersey... Eastern Passaic County in northeastern New Jersey... New York (Manhattan) County in southeastern New York... * WHEN...Until 815 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Ponding of water in urban or other areas is occurring or is imminent. * ADDITIONAL DETAILS... - At 616 AM EDT, Doppler radar indicated heavy rain. This will cause urban and small stream flooding. Between 0.5 and 1.5 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Paterson, Passaic, Wayne, Bloomfield, Hackensack, Bergenfield, Paramus, Ridgewood, Lyndhurst, Rutherford, Secaucus, Ridgefield, Caldwell, Harlem, Fort Lee, Englewood, Hawthorne, Oradell, Fairfield and Norwood. - http://www.weather.gov/safety/flood",
-    "latitude": 40.90052631578948,
-    "longitude": -74.16894736842106,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8a849a40514a70280ab7ff62123b57413427dc4.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-39f666d68926",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by prior excessive rainfall is expected. * WHERE...Southeastern Athens County in southeastern Ohio... Northeastern Meigs County in southeastern Ohio... Southwestern Washington County in southeastern Ohio... West Central Pleasants County in northwestern West Virginia... Central Wood County in northwestern West Virginia... * WHEN...Until 800 AM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Some roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 534 AM EDT, trained weather spotters reported lingering high water in some areas due to heavy rainfall on Saturday. Between 1 and 4 inches of rain fell on Saturday. - Some locations that will experience flooding include... Parkersburg, Belpre, Vienna, Lubeck, Boaz, Washington, North Hills, Blennerhassett, Waverly, Little Hocking and Willow Island. - This includes the following highways... Interstate 77 in West Virginia between mile markers 172 and 184. Route 50 in West Virginia between mile markers 1 and 16. - http://www.weather.gov/safety/flood",
-    "latitude": 39.264375,
-    "longitude": -81.5675,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cff7c0f12c24080978afb3588202eb30e7855cf8.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-60b6a25d55e6",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by prior excessive rainfall is expected. * WHERE...Southeastern Athens County in southeastern Ohio... Northeastern Gallia County in southeastern Ohio... Northeastern Meigs County in southeastern Ohio... Southwestern Wood County in northwestern West Virginia... North Central Mason County in western West Virginia... * WHEN...Until 800 AM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Some roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 529 AM EDT, trained weather spotters reported lingering high water in some areas due to heavy rainfall on Saturday. Between 1 and 3 inches of rain fell on Saturday. - Some locations that will experience flooding include... Pomeroy, Racine, Coolville, New Haven, Mason, Tuppers Plains, Middleport, Chester, Syracuse, Hartford City, Cheshire, Lakin and Kyger. - http://www.weather.gov/safety/flood",
-    "latitude": 39.07947368421053,
-    "longitude": -81.94684210526316,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bcb7a0686cd409b021371e4f8c7bd1bc49275bc9.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-8faeb8602d6e",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by prior excessive rainfall is expected. * WHERE...Northeastern Gilmer County in north central West Virginia... Southern Doddridge County in northern West Virginia... Northwestern Lewis County in northern West Virginia... * WHEN...Until 800 AM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Some roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 507 AM EDT, emergency management reported between 1 and 3 inches of heavy rain had fell in the warned area on Saturday. Lingering high water remains in some locations. - Some locations that will experience flooding include... Leopold, Alum Bridge, Linn, Grove, Troy, Baldwin, Avon and Coxs Mills. - http://www.weather.gov/safety/flood",
-    "latitude": 39.136875,
-    "longitude": -80.669375,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f423acc5b50d0aac2ca069f963d44f7c13af2416.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-61f4af3ac4c5",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Southeastern Dorchester County in southeastern Maryland... Somerset County in southeastern Maryland... Wicomico County in southeastern Maryland... Northwestern Worcester County in southeastern Maryland... * WHEN...Until 800 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 503 AM EDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms. This will cause urban and small stream flooding. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Salisbury, Fruitland, Princess Anne, University Of Maryland Eastern Shore, Salisbury University, Delmar, Hebron, Westover, Parsonsburg, Pittsville, Willards, Eden, Allen, Shad Point, Lakewood, Trinity, Catchpenny, Widgeon and Green Hill. - http://www.weather.gov/safety/flood",
-    "latitude": 38.22894736842105,
-    "longitude": -75.77052631578947,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ecd41199fc395f07df417d9c4f7729dd69ff07f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-f9fe59b6cd4f",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by prior excessive rainfall is expected. * WHERE...East Central Kanawha County in central West Virginia... West Central Clay County in north central West Virginia... * WHEN...Until 800 AM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Some roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 446 AM EDT, doppler radar indicated heavy rain had fell across the warned area on Saturday, ranging anywhere from 2 to 6 inches. Lingering high water is expected across portions of the warned area. - Some locations that will experience flooding include... Clay, Glen and Procious. - http://www.weather.gov/safety/flood",
-    "latitude": 38.39555555555555,
-    "longitude": -81.25,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29ce20b4625b39d5ae614151e20f40a6673bf8f2.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-bd8e59ac78f7",
+    "event_id": "SG-03fd31a52e9c",
     "type": "weather_alert",
     "title": "Flash Flood Warning",
-    "description": "FFWAKQ The National Weather Service in Wakefield has issued a * Flash Flood Warning for... Eastern Worcester County in southeastern Maryland... * Until 745 AM EDT. * At 443 AM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. The expected rainfall rate is 2 inches in 30 minutes. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Ocean City, Berlin, Snow Hill, Newark, Cape Isle Of Wight, Ocean Pines, Cedartown, Ironshire, Public Landing, Mount Wesley, Boxiron, Ocean City Municipality, West Ocean City, Girdletree, Stockton and Goodwill.",
-    "latitude": 38.160000000000004,
-    "longitude": -75.27799999999999,
+    "description": "FFWOKX The National Weather Service in Upton has issued a * Flash Flood Warning for... Central Middlesex County in southern Connecticut... New London County in southern Connecticut... * Until 100 PM EDT. * At 1008 AM EDT, Doppler radar and automated rain gauges indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar and automated gauges. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Jewett City, Norwich, New London, Colchester, Groton, Salem, Mystic, Waterford, East Lyme, Ledyard, Griswold, East Haddam, Old Lyme, Lebanon, Preston, Lisbon, Sprague, Bozrah, Voluntown and Lyme.",
+    "latitude": 41.487,
+    "longitude": -72.0815,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.023827e3d2f6d7f95f0eb8289129355370899392.001.1",
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c953ea8a53b73a57f81c195feec7890a7fec62df.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-6edc5e072ce9",
+    "event_id": "SG-dff0f382688f",
     "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Central Hanover County in central Virginia... Essex County in east central Virginia... Northwestern King and Queen County in east central Virginia... Northwestern King William County in east central Virginia... Richmond County in east central Virginia... Southeastern Westmoreland County in east central Virginia... Western Northumberland County in eastern Virginia... Southeastern Caroline County in north central Virginia... * WHEN...Until 730 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 437 AM EDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause urban and small stream flooding. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Ashland, Tappahannock, Warsaw, Montross, Champlain, Saint Stephens Church, Randolph Macon College, Hanover, Millers Tavern, Newtown, Aylett, Dunnsville, Beulahville, Newland, Manquin, Mangohick, Haynesville, Studley and Dawn. - http://www.weather.gov/safety/flood",
-    "latitude": 37.936,
-    "longitude": -76.9685,
+    "title": "Marine Weather Statement",
+    "description": "The areas affected include... Coastal waters from Englewood to Tarpon Springs FL out 20 NM... Tampa Bay waters... Waters from Englewood to Tarpon Springs FL out 20 to 60 NM... At 1001 AM EDT, Doppler radar indicated a strong thunderstorm, capable of producing winds to around 30 knots. This thunderstorm was located 9 nm southwest of Longboat Key. The thunderstorm was nearly stationary.",
+    "latitude": 27.605833333333333,
+    "longitude": -82.56666666666666,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0b8b5eb574d865150c3e8cbebf6f087e26814e2.001.1",
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ef521faaf57e704ff9e9d64451d47a62f86c712.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-548a15815951",
+    "event_id": "SG-b8a6eca3d4aa",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Allen County in southeastern Kansas... Neosho County in southeastern Kansas... Northeastern Wilson County in southeastern Kansas... Woodson County in southeastern Kansas... * WHEN...Until 800 AM CDT Sunday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 112 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. Between 2 and 4 inches of rain have fallen. - Some locations that will experience flooding include... Chanute, Iola, Humboldt, Yates Center, Erie, St. Paul, La Harpe, Gas, Neosho Falls, Galesburg, Savonburg, Elsmore, Stark, Earlton, Bassett, Petrolia, Iola Airport and Chanute Airport. - http://www.weather.gov/safety/flood",
-    "latitude": 37.75333333333333,
-    "longitude": -95.35444444444445,
+    "description": "...The National Weather Service in Upton has issued a Flood Warning for the following rivers in New Jersey... Saddle River near Lodi affecting Bergen County. For the Saddle River...including Lodi...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Saddle River near Lodi. * WHEN...From this morning to this afternoon. * IMPACTS...At 5.5 feet, Saddle River begins to overflow into the back parking lot of the Boys and Girls club. * ADDITIONAL DETAILS... - At 9:45 AM EDT Sunday the stage was 5.2 feet. - Bankfull stage is 5.0 feet. - Forecast...The river is expected to rise above flood stage this afternoon to a crest of 5.7 feet this afternoon. It will then fall below flood stage this afternoon. - Flood stage is 5.5 feet. - Flood History...This crest compares to a previous crest of 6.1 feet on 01/27/1996. - http://www.weather.gov/safety/flood",
+    "latitude": 40.92666666666667,
+    "longitude": -74.08333333333333,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.36824a72107342ff5aae123c3e5b06a16e6556b9.001.1",
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5c2ee7d82f282ab7ab7fe2ee4080f79fd8a962a4.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-70058b264dbf",
+    "event_id": "SG-e7b8327f59c9",
     "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by prior excessive rainfall is expected. * WHERE...East Central Braxton County in north central West Virginia... Northwestern Webster County in northeastern West Virginia... Southern Lewis County in northern West Virginia... * WHEN...Until 830 AM EDT Sunday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Some roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 146 AM EDT, local law enforcement reported that very heavy rain occurred in the warned area from thunderstorms on Saturday. Flooding is already occurring. Between 3.5 and 6.5 inches of rain fell on Saturday. - Some locations that will experience flooding include... Falls Mills. - http://www.weather.gov/safety/flood",
-    "latitude": 38.74666666666667,
-    "longitude": -80.50055555555555,
+    "title": "Flash Flood Warning",
+    "description": "At 937 AM EDT, emergency management and PennDOT reported flash flooding. Several road closures have been reported in portions of Delaware, Philadelphia and Bucks counties due to flooding. Small creeks are running high in Delaware and Philadelphia counties, however are receding. Between 1 and 2.5 inches of rain have fallen. The heaviest rain continues to end from west to east across the warned area. The expected rainfall rate is 0.25 to 1 inch in 1 hour. Flash flooding is already occurring. HAZARD...Life threatening flash flooding. Heavy rain producing flash flooding. SOURCE...Emergency management reported. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. Some locations that will experience flash flooding include... Philadelphia, Trenton, Bensalem, Ewing, Chester, Princeton, Yeadon, Folcroft, Swarthmore, Hightstown and Jenkintown.",
+    "latitude": 40.10071428571428,
+    "longitude": -74.9407142857143,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-13T11:23:06.117580+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7b6b8176ceac9070d9f7a74f99bff46aa5fda07.001.1",
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9581c79149151054a24b3f0950c480d72416224.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-688eb6e4ca66",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWPHI The National Weather Service in Mount Holly has extended the * Flash Flood Warning for... Southeastern Morris County in northern New Jersey... * Until noon EDT. * At 931 AM EDT, Doppler radar and automated rain gauges indicated heavy rain falling across the warned area. Between 2 and 3 inches of rain have fallen across much of the warned area. The expected rainfall rate is 1 to 3 inches in 1 hour. Additional rainfall amounts of 0.5 to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by heavy rain. SOURCE...Radar and automated gauges. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Morristown, Madison, Florham Park, East Hanover, Lincoln Park, Kinnelon, Chatham, Boonton, Butler, Rockaway and Morris Plains.",
+    "latitude": 40.85285714285714,
+    "longitude": -74.38095238095238,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80e283f5a6e3e840071058c62c7582f63b3d63f8.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2e907f618475",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Southern Essex County in northeastern New Jersey... Union County in northeastern New Jersey... * WHEN...Until 1115 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Ponding of water in urban or other areas is occurring or is imminent. * ADDITIONAL DETAILS... - At 818 AM EDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause urban and small stream flooding. Between 0.5 and 1 inch of rain has fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Newark, Elizabeth, Plainfield, Linden, Summit, Millburn, Clark, Union, Irvington, Westfield, Rahway, Maplewood, Scotch Plains, Cranford, Hillside, Roselle, South Orange, Roselle Park, Berkeley Heights and New Providence. - http://www.weather.gov/safety/flood",
+    "latitude": 40.68,
+    "longitude": -74.2995,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-13T14:59:46.750169+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0278b4badd1f509e672640e2072f875affa7c75c.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
