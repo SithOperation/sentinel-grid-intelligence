@@ -1,105 +1,5 @@
 [
   {
-    "event_id": "SG-0780c25d0d14",
-    "type": "earthquake",
-    "title": "M5.2 earthquake — 43 km ESE of Port-Olry, Vanuatu",
-    "description": "M 5.2 - 43 km ESE of Port-Olry, Vanuatu",
-    "latitude": -15.2195,
-    "longitude": 167.4363,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-13T07:19:21.693000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th4y",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-859b2055b54d",
-    "type": "earthquake",
-    "title": "M5 earthquake — southeast of the Loyalty Islands",
-    "description": "M 5.0 - southeast of the Loyalty Islands",
-    "latitude": -22.2281,
-    "longitude": 171.3544,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-13T07:30:23.024000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th50",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-46a0cda19b14",
-    "type": "earthquake",
-    "title": "M4.7 earthquake — 25 km N of Mutsu, Japan",
-    "description": "M 4.7 - 25 km N of Mutsu, Japan",
-    "latitude": 41.5125,
-    "longitude": 141.2715,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-13T08:31:15.069000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th5d",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-781f0ffbdb3d",
-    "type": "earthquake",
-    "title": "M3 earthquake — 150 km S of False Pass, Alaska",
-    "description": "M 3.0 - 150 km S of False Pass, Alaska",
-    "latitude": 53.509,
-    "longitude": -163.203,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-13T08:39:19.338000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sdquns",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-28878e4c931c",
-    "type": "europe_security",
-    "title": "Russian drone hits passenger train headed from Kyiv to Warsaw",
-    "description": "POLITICO Europe Defence reported: Ukrainian Foreign Minister Andrii Sybiha responded to the attack by stating that Russian President Vladimir Putin’s forces are “knocking directly on the doors of the EU and NATO.”",
-    "latitude": 52.2297,
-    "longitude": 21.0122,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-09-13T09:45:41+00:00",
-    "url": "https://www.politico.eu/article/russia-attacks-gas-station-passenger-train-near-ukraine-poland-border",
-    "classification": "drone_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "NATO",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-ccf7713477cd",
-    "location_precision": "city",
-    "europe_layers": [
-      "drone_activity",
-      "eastern_flank",
-      "missile_drone",
-      "nato_activity"
-    ]
-  },
-  {
     "event_id": "SG-f8832c8ce335",
     "type": "earthquake",
     "title": "M3.5 earthquake — 134 km SW of Adak, Alaska",
@@ -1875,15 +1775,15 @@
   {
     "event_id": "SG-45d631ebd787",
     "type": "earthquake",
-    "title": "M3.2 earthquake — 118 km SW of Adak, Alaska",
-    "description": "M 3.2 - 118 km SW of Adak, Alaska",
-    "latitude": 51.15,
-    "longitude": -177.882,
+    "title": "M3.1 earthquake — 113 km SW of Adak, Alaska",
+    "description": "M 3.1 - 113 km SW of Adak, Alaska",
+    "latitude": 51.2472,
+    "longitude": -177.9209,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-15T11:50:23.661000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026shphzx",
+    "timestamp": "2026-09-15T11:50:25.689000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thqb",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -1904,6 +1804,23 @@
     "classification": "eonet_tropical_cyclone",
     "source": [
       "NASA EONET"
+    ]
+  },
+  {
+    "event_id": "SG-01c0e98fdbfa",
+    "type": "earthquake",
+    "title": "M4.2 earthquake — 246 km E of Levuka, Fiji",
+    "description": "M 4.2 - 246 km E of Levuka, Fiji",
+    "latitude": -18.1361,
+    "longitude": -178.3556,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-15T12:26:31.499000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thlb",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
@@ -2451,7 +2368,7 @@
     ]
   },
   {
-    "event_id": "SG-2319f076e070",
+    "event_id": "SG-3a8a97f59146",
     "type": "weather_alert",
     "title": "Flood Warning",
     "description": "...The Flood Warning is extended for the following rivers in Iowa... Raccoon River at Des Moines Fleur Dr affecting Polk County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Raccoon River at Des Moines Fleur Dr, or from Walnut Creek to the Des Moines River. * WHEN...Until late Wednesday night. * IMPACTS...At 15.5 feet, Water approaches Fleur Dr and affects the Grays Lake trails. * ADDITIONAL DETAILS... - At 9:02 PM CDT Tuesday the stage was 14.5 feet, and rising. - Forecast...The river is expected to rise to a crest of 15.5 feet just after midnight tonight. It will then fall below flood stage tomorrow evening. - Flood stage is 12.0 feet.",
@@ -2462,40 +2379,6 @@
     "confidence": 100,
     "timestamp": "2026-09-16T05:09:22.742467+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c249e171a9259b51ccdd9ebdbc976aa7d0beb8e9.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-ebadf8e9b548",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... Withlacoochee At US 41 Dunnellon affecting Levy, Marion and Citrus Counties. Horse Creek Near Arcadia at SR 72 affecting DeSoto County. .Elevated water levels are expected along a few rivers across the area over the next several days. * WHAT...Minor flooding is occurring and is forecast to continue. * WHERE...Withlacoochee at US 41 Dunnellon. * WHEN...Until further notice. * IMPACTS...At 28.2 feet, Docks and boat ramps flood along the river in Citrus and Marion counties. * ADDITIONAL DETAILS... - At 8:45 PM EDT Tuesday the stage was 28.2 feet. - Bankfull stage is 28.2 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:45 PM EDT Tuesday was 28.2 feet. - Forecast...The river is expected to remain steady above flood stage at 28.2 feet. - Flood stage is 28.2 feet. - Flood History...This crest compares to a previous crest of 28.2 feet on 06/29/2003. - https://www.weather.gov/safety/flood",
-    "latitude": 29.028,
-    "longitude": -82.434,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90b2f24f03b83ebcc081783ace3364473da54707.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-5b1b7b89a991",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... Withlacoochee At US 41 Dunnellon affecting Levy, Marion and Citrus Counties. Horse Creek Near Arcadia at SR 72 affecting DeSoto County. .Elevated water levels are expected along a few rivers across the area over the next several days. * WHAT...Minor flooding is forecast. * WHERE...Horse Creek near Arcadia at SR 72. * WHEN...From Thursday evening until further notice. * IMPACTS...At 12.0 feet, The access road to Hidden Oak is impassable. * ADDITIONAL DETAILS... - At 8:30 PM EDT Tuesday the stage was 9.8 feet. - Bankfull stage is 12.0 feet. - Forecast...The river is expected to rise above flood stage Thursday evening and continue rising to a crest of 12.1 feet early Friday morning. - Flood stage is 12.0 feet. - Flood History...This crest compares to a previous crest of 12.1 feet on 09/30/2003. - https://www.weather.gov/safety/flood",
-    "latitude": 27.188,
-    "longitude": -81.978,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90b2f24f03b83ebcc081783ace3364473da54707.002.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2519,7 +2402,7 @@
     ]
   },
   {
-    "event_id": "SG-416baf556d1c",
+    "event_id": "SG-6a9433ab47c0",
     "type": "weather_alert",
     "title": "Flood Warning",
     "description": "* WHAT...Small stream flooding caused by excessive rainfall continues. * WHERE...Adair County in southwestern Iowa... * WHEN...Until 330 PM CDT Wednesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 807 PM CDT, Emergency management reported numerous closed roads in the warned area, with water nearing Highway 25 south of Greenfield. Flooding is already occurring. Between 2 and 4 inches of rain have fallen. - An additional 1 inch or more is possible in the warned area through the overnight hours. Impacted streams include the Middle River. - Some locations that will experience flooding include... Greenfield, Stuart, Adair, Fontanelle, Orient, Bridgewater, Greenfield Municipal Airport and Nodaway Park. - This includes Interstate 80 between mile markers 73 and 96.",
@@ -2536,102 +2419,200 @@
     ]
   },
   {
-    "event_id": "SG-b9b14754ef92",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by onshore flow restricting Kuskokwim River drainage in combination with excessive rainfall is expected. * WHERE...Kuskokwim near Bethel. * WHEN...Until 1000 PM AKDT Tuesday. * IMPACTS...Minor flooding in low-lying and poor drainage areas. River or stream flows are elevated. Ponding of water in areas is occurring or is imminent. * ADDITIONAL DETAILS... - As of 318 PM AKDT, water levels remain above minor flood stage, with a reading of 9 ft at 250 PM AKDT. Water levels are receding. River gauge reports indicate rises in water levels from the Kuskokwim River back-up in combination with heavy rain across the advisory area. This is causing minor flooding from overflow of poor drainage areas, especially along the Kuskokwim. - Strong onshore winds along the Kuskokwim coast have limited the ability for the Kuskokwim River to drain out into the Bering Sea. This has caused rapid river rises along the coast and inland into Bethel. Water levels are expected to back up along Brown Slough and flood low lying areas of Bethel and areas along the Kuskokwim. - For Kuskokwim River at Bethel: At 2:50pm the reading was 9.0 feet. Flood Stage is 8.5 feet. Impacts: At 7.0 feet: Action and bankfull stage. At 8.5 feet: Minor flood stage. Water starts to back up along Brown Slough and flood low lying areas. At 12.0 feet: Moderate flood stage. At 14.0 feet: Major flood stage. - Http://www.weather.gov/safety/flood",
-    "latitude": 60.73875,
-    "longitude": -161.85875000000001,
+    "event_id": "SG-a99552bd8ff7",
+    "type": "earthquake",
+    "title": "M5 earthquake — 281 km SSE of Dunhuang, China",
+    "description": "M 5.0 - 281 km SSE of Dunhuang, China",
+    "latitude": 37.7078,
+    "longitude": 95.4963,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.962615a66c4fcc1ecb188b2a0dd71148af03b57c.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-16T05:52:03.328000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ths9",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-6d275a7fe677",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Western Lyon County in east central Kansas... Southeastern Morris County in east central Kansas... South Central Wabaunsee County in east central Kansas... * WHEN...Until 245 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 1144 PM CDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause urban and small stream flooding. Between 2 and 3.5 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1.5 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Emporia, Eskridge, Americus, Allen, Admire, Bushong and Dunlap.",
-    "latitude": 38.575714285714284,
-    "longitude": -96.30428571428571,
+    "event_id": "SG-35c41184bcd2",
+    "type": "humanitarian",
+    "title": "Green flood alert in Sri Lanka",
+    "description": "On 14/09/2026, a flood started in Sri Lanka, lasting until 16/09/2026 (last update). The flood caused 0 deaths and 25 displaced .",
+    "latitude": 7.214308,
+    "longitude": 80.6400801,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-16T05:56:43+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104160",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-6e0628c66315",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 23 km SW of Sipí, Colombia",
+    "description": "M 4.6 - 23 km SW of Sipí, Colombia",
+    "latitude": 4.495,
+    "longitude": -76.7822,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be8c67a8809318defb4ebfe71866a5ad7c9b1e06.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-16T06:18:06.190000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thse",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-d0050218b8e7",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 1140 PM CDT, Doppler radar was tracking a cluster of strong thunderstorms near Gaines County Airport, or near Seminole, moving north at 10 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Seminole, Gaines County Airport, and Paynes Corner.",
-    "latitude": 32.62428571428571,
-    "longitude": -102.5,
+    "event_id": "SG-19311c3496dd",
+    "type": "earthquake",
+    "title": "M4.8 earthquake — 47 km WSW of Bahía Solano, Colombia",
+    "description": "M 4.8 - 47 km WSW of Bahía Solano, Colombia",
+    "latitude": 6.0969,
+    "longitude": -77.8115,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63be4534a902a344d7571e34f90772500152ba97.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-16T07:02:13.029000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thsp",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-9bdf4c9251bd",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 1237 AM EDT, a strong thunderstorm was located near Berne, moving east at 30 mph. HAZARD...Wind gusts up to 40 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Hail may cause minor damage to vegetation. Locations impacted include... Rockford, Mendon, Chattanooga, and Tama. If outdoors, consider seeking shelter inside a sturdy building. To report hazardous weather conditions, go to our website at weather.gov/iln and submit your report via social media, when you can do so safely.",
-    "latitude": 40.67,
-    "longitude": -84.626,
+    "event_id": "SG-83addaf36c3a",
+    "type": "earthquake",
+    "title": "M4.09 earthquake — 20 km WSW of Gerlach, Nevada",
+    "description": "M 4.1 - 20 km WSW of Gerlach, Nevada",
+    "latitude": 40.6069,
+    "longitude": -119.5899,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2707b5b04814f7169ff76218880dd40126aa4404.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-16T07:17:25.899000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924508",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-afe1157223c7",
+    "event_id": "SG-e6d911b67c37",
+    "type": "earthquake",
+    "title": "M3.3 earthquake — 8 km NE of Petersville, Alaska",
+    "description": "M 3.3 - 8 km NE of Petersville, Alaska",
+    "latitude": 62.545,
+    "longitude": -150.65,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-16T07:34:41.233000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sjcuwe",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-6f80544eedcd",
+    "type": "humanitarian",
+    "title": "Green flood alert in Senegal",
+    "description": "On 15/09/2026, a flood started in Senegal, lasting until 16/09/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+    "latitude": 14.7603583,
+    "longitude": -17.468149,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-16T08:04:47+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104161",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-25330c60b0ea",
+    "type": "earthquake",
+    "title": "M5.1 earthquake — 172 km ESE of Saipan, Northern Mariana Islands",
+    "description": "M 5.1 - 172 km ESE of Saipan, Northern Mariana Islands",
+    "latitude": 14.3886,
+    "longitude": 147.1141,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-16T08:37:00.012000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thsx",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-5c60bea7bbd9",
+    "type": "europe_security",
+    "title": "US exposes alleged Russian terror network targeting Ukraine allies",
+    "description": "POLITICO Europe Defence reported: Prosecutors say the group aimed at civilian and military infrastructure across Europe.",
+    "latitude": 49.0,
+    "longitude": 31.4,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-09-16T08:42:26+00:00",
+    "url": "https://www.politico.eu/article/russia-intelligence-network-us-europe-murder-terrorism-charges",
+    "classification": "russian_activity",
+    "source": [
+      "POLITICO Europe Defence"
+    ],
+    "status": "single_source",
+    "source_type": "media",
+    "source_perspective": "european_media",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "RUSSIA",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-4b98184095d5",
+    "location_precision": "country",
+    "europe_layers": [
+      "russian_activity",
+      "ukraine_war"
+    ]
+  },
+  {
+    "event_id": "SG-570e4ed6b317",
     "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 1021 PM MDT /1121 PM CDT/, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 2 and 4.5 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Jal and Jal Airport. This includes the following streams and drainages... Monument Draw.",
-    "latitude": 32.182857142857145,
-    "longitude": -102.94714285714285,
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Florida... Withlacoochee At US 41 Dunnellon affecting Levy, Marion and Citrus Counties. Horse Creek Near Arcadia at SR 72 affecting DeSoto County. .Elevated water levels are expected along a few rivers across the area over the next several days. * WHAT...Minor flooding is occurring and is forecast to continue. * WHERE...Withlacoochee at US 41 Dunnellon. * WHEN...Until further notice. * IMPACTS...At 28.2 feet, Docks and boat ramps flood along the river in Citrus and Marion counties. * ADDITIONAL DETAILS... - At 8:45 PM EDT Tuesday the stage was 28.2 feet. - Bankfull stage is 28.2 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:45 PM EDT Tuesday was 28.2 feet. - Forecast...The river is expected to remain steady above flood stage at 28.2 feet. - Flood stage is 28.2 feet. - Flood History...This crest compares to a previous crest of 28.2 feet on 06/29/2003. - https://www.weather.gov/safety/flood",
+    "latitude": 29.028,
+    "longitude": -82.434,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53cd125b9a1f1cfb240cf1630d1a127afbcd2045.001.1",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90b2f24f03b83ebcc081783ace3364473da54707.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-7ae711ccde37",
+    "event_id": "SG-83f3acc1e179",
     "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "Multiple thunderstorms have brought heavy rainfall since Tuesday evening in eastern Warren County and far northwestern Tippecanoe County. Upstream showers with heavy rainfall will further ponding of low-lying areas with isolated flooding possible. * WHAT...Flooding caused by excessive rainfall is expected. * WHERE...West Central Tippecanoe County in west central Indiana... Northeastern Warren County in west central Indiana... * WHEN...Until 315 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 1207 AM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 2 inches of rain have fallen. - Additional rainfall amounts of 0.2 to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Pine Village. - http://www.weather.gov/safety/flood",
-    "latitude": 40.45285714285715,
-    "longitude": -87.13714285714286,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Florida... Withlacoochee At US 41 Dunnellon affecting Levy, Marion and Citrus Counties. Horse Creek Near Arcadia at SR 72 affecting DeSoto County. .Elevated water levels are expected along a few rivers across the area over the next several days. * WHAT...Minor flooding is forecast. * WHERE...Horse Creek near Arcadia at SR 72. * WHEN...From Thursday evening until further notice. * IMPACTS...At 12.0 feet, The access road to Hidden Oak is impassable. * ADDITIONAL DETAILS... - At 8:30 PM EDT Tuesday the stage was 9.8 feet. - Bankfull stage is 12.0 feet. - Forecast...The river is expected to rise above flood stage Thursday evening and continue rising to a crest of 12.1 feet early Friday morning. - Flood stage is 12.0 feet. - Flood History...This crest compares to a previous crest of 12.1 feet on 09/30/2003. - https://www.weather.gov/safety/flood",
+    "latitude": 27.188,
+    "longitude": -81.978,
+    "priority": "high",
+    "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c66468e792f5fec49dd1882f4f0ba5dedac435f0.001.1",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90b2f24f03b83ebcc081783ace3364473da54707.002.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2647,7 +2628,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b98da7478ea1400b0aefea88dfe444b3496c90d6.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2664,7 +2645,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a712fe4a34a19792d5106afe53370213a6b697e.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2681,7 +2662,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47b4e7066ac010274d315e5d3389caaadf5c3cf8.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2698,7 +2679,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63491043fd7ab9cc301b0776a1ba0ce9a2d6dc35.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2715,7 +2696,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea29188fb7b04634c50619c9228e46ae3e7f7bb8.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2732,7 +2713,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de03dc12995507f74aa97a2502010177f77e45d9.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2740,68 +2721,153 @@
     ]
   },
   {
-    "event_id": "SG-21d3672557a8",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWDVN The National Weather Service in Quad Cities has issued a * Flash Flood Warning for... West Central Lee County in southeastern Iowa... Northwestern Clark County in northeastern Missouri... Central Scotland County in northeastern Missouri... * Until 430 AM CDT Wednesday. * At 1028 PM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. Additional rainfall amounts of 0.5 to 1.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Fort Madison, Memphis, Donnellson, Montrose, Luray, Granger, Croton, New Boston, Crawford, Revere, Arbela, Chambersburg, Ashton, Heath Memorial Conservation Area, Anson, Prospect Grove, Etna, Peaksville and Battle of Athens Campground.",
-    "latitude": 40.53928571428571,
-    "longitude": -91.79499999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.74ae3f16715b755cf16d37639e01fb2c589b5cca.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-7a82d72227e6",
+    "event_id": "SG-424e23828002",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southwestern Butler County in south central Kansas... Eastern Sedgwick County in south central Kansas... Northern Sumner County in south central Kansas... * WHEN...Until 400 AM CDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 1001 PM CDT, Doppler radar indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. Between 1.5 and 3 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are possible in the warned area. - Some locations that will experience flooding include... Wichita, Derby, Andover, Haysville, Park City, Bel Aire, Mulvane, Goddard, Rose Hill, Clearwater, Belle Plaine, Conway Springs, Downtown Wichita, Kechi, Eastborough, Argonia, Viola and Eisenhower National Airport. - http://www.weather.gov/safety/flood",
-    "latitude": 37.48,
-    "longitude": -97.4475,
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... East Nishnabotna River At Red Oak affecting Montgomery County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...East Nishnabotna River at Red Oak. * WHEN...Until Thursday morning. * IMPACTS...At 20.0 feet, Lowland flooding begins along the west bank. * ADDITIONAL DETAILS... - At 4:00 AM CDT Wednesday the stage was 20.2 feet. - Bankfull stage is 18.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 4:00 AM CDT Wednesday was 20.2 feet. - Forecast...The river is expected to fall below flood stage late this afternoon and continue falling to 7.7 feet early Monday morning. - Flood stage is 18.0 feet. - Flood History...This crest compares to a previous crest of 20.3 feet on 05/29/1962. - http://www.weather.gov/safety/flood",
+    "latitude": 40.97142857142857,
+    "longitude": -95.25761904761904,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5005c8f4920f6f86ad96d04dea3cc8ec08a11ed4.001.1",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2cb9a38bb797b6c6df83322f4444ae3442afe4ab.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-a69de2e79035",
+    "event_id": "SG-fad9fbf1b656",
     "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 951 PM CDT, local law enforcement reported flooding in Raytown, with several side roads flooded. Though the heavy rainfall has ended, additional storms are possible later tonight, which may exacerbate flooding. Flash flooding is already occurring. HAZARD...Flash flooding caused by heavy rain. SOURCE...Law enforcement reported. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Kansas City, Overland Park, Independence, Lee's Summit, Leawood, Raytown, Grandview, Belton, Prairie Village, Fairway, Mission Hills, Sugar Creek, Westwood, Westwood Hills, Mission Woods, Roeland Park and Unity Village.",
-    "latitude": 39.074,
-    "longitude": -94.50666666666666,
+    "title": "Flood Warning",
+    "description": "* WHAT...Small stream flooding caused by excessive rainfall continues. * WHERE...Adair County in southwestern Iowa... * WHEN...Until 330 PM CDT Wednesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 414 AM CDT, numerous roads remain closed in the warned area, with water nearing Highway 25 south of Greenfield. Flooding is already occurring. Between 2 and 4 inches of rain have fallen. - An additional 1 inch or more is possible in the warned area through this morning. Impacted streams include the Middle River. - Some locations that will experience flooding include... Greenfield, Stuart, Adair, Fontanelle, Orient, Bridgewater, Greenfield Municipal Airport and Nodaway Park. - This includes Interstate 80 between mile markers 73 and 96.",
+    "latitude": 41.296,
+    "longitude": -94.424,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20534ac24045a133d6201d3803a27f9f6890e734.001.1",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d5ec8312d0a1433763f84708197da8af5f3c0c2.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-1c8a6bdf6b88",
+    "event_id": "SG-79e7790502d9",
     "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Linn County in north central Missouri... Macon County in north central Missouri... Northeastern Mercer County in north central Missouri... Putnam County in north central Missouri... Sullivan County in north central Missouri... Adair County in northeastern Missouri... Schuyler County in northeastern Missouri... * WHEN...Until 200 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 903 PM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.5 and 3 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Kirksville, Macon, Brookfield, Milan, Unionville, La Plata, Lancaster, Bevier, Green City, Queen City, Bucklin, Novinger, Greentop, Atlanta, Laclede, Downing, Callao, Linneus, Greencastle and Brashear. - http://www.weather.gov/safety/flood",
-    "latitude": 40.16285714285714,
-    "longitude": -92.77142857142857,
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Iowa... Raccoon River at Des Moines Fleur Dr affecting Polk County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Raccoon River at Des Moines Fleur Dr, or from Walnut Creek to the Des Moines River. * WHEN...Until late tonight. * IMPACTS...At 15.5 feet, Water approaches Fleur Dr and affects the Grays Lake trails. * ADDITIONAL DETAILS... - At 3:47 AM CDT Wednesday the stage was 15.1 feet, and falling. - Forecast...The river is expected to fall below flood stage this evening and continue falling to 3.7 feet Tuesday evening. - Flood stage is 12.0 feet.",
+    "latitude": 41.57000000000001,
+    "longitude": -93.634,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30fab1908c866dc23ba9c1af580381af47b55865.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-ef26c6ac4982",
+    "type": "weather_alert",
+    "title": "Marine Weather Statement",
+    "description": "A Marine Weather Statement has been issued for the following areas... Sebastian Inlet to Jupiter Inlet 0-20 nm... Sebastian Inlet to Jupiter Inlet 20-60 nm... Volusia-Brevard County Line to Sebastian Inlet 0-20 nm... Volusia-Brevard County Line to Sebastian Inlet 20-60 nm... At 459 AM EDT, Doppler radar indicated a band of gusty showers and embedded thunderstorms, capable of producing winds to around 30 knots, extending from Melbourne Beach well offshore, moving west at 20 knots.",
+    "latitude": 27.898000000000003,
+    "longitude": -80.074,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-16T05:09:22.742467+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f7b8a30240cd60aa3f757e90a8b86851d750613.001.1",
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.94f6abb6361b7062465977047e268332ef2a0344.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-60424f85b362",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Auglaize County in west central Ohio... Northeastern Shelby County in west central Ohio... * WHEN...Until 800 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 435 AM EDT, radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. Additional rainfall amounts of 0.5 to 1 inch are possible in the warned area. - Some locations that may experience flooding include... Wapakoneta, St. Marys, New Bremen, Minster, Jackson Center, Botkins, New Knoxville, Moulton, Buckland, Uniopolis, Kettlersville, Fryburg, McCartyville, Montra, St. Johns, Bulkhead and Egypt.",
+    "latitude": 40.505,
+    "longitude": -84.21249999999999,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db7599edff4fdc4e6859f3942cd7beab8c58cc5f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d268515e776a",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Southern Adams County in west central Illinois... Southeastern Knox County in northeastern Missouri... Southern Lewis County in northeastern Missouri... Marion County in northeastern Missouri... Shelby County in northeastern Missouri... * WHEN...Until 545 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. * ADDITIONAL DETAILS... - At 332 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 3 and 4 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Quincy, Hannibal, Palmyra, Monroe City, Shelbina, Quincy Regional Airport, Warren, Payson, Mendon, La Grange, Clarence, Shelbyville, Fall Creek, Ewing, Beverly, Philadelphia, Maywood, Emden, Steffenville and Plevna.",
+    "latitude": 39.77470588235294,
+    "longitude": -91.77235294117646,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57eceb1e2f632fdf5762fae6342aabd2f32fb58f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-3fac50154885",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWILN The National Weather Service in Wilmington has issued a * Flash Flood Warning for... Mercer County in west central Ohio... * Until 700 AM EDT. * At 309 AM EDT, radar indicated thunderstorms producing heavy rain across the warned area. Between 1.5 and 3 inches of rain have fallen. Additional rainfall amounts of 1 to 1.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that may experience flash flooding include... Celina, Coldwater, St. Henry, Fort Recovery, Rockford, Wabash, Mendon, Chickasaw, Montezuma, Tama, Carthagena, Neptune, Chattanooga and Maria Stein.",
+    "latitude": 40.572,
+    "longitude": -84.664,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e3ade3e55730d2673a56e6ba2c0e7154f067d06.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-dc657b44b6df",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northern Chariton County in north central Missouri... Southeastern Grundy County in north central Missouri... Linn County in north central Missouri... Livingston County in north central Missouri... Macon County in north central Missouri... Southeastern Putnam County in north central Missouri... Northern Randolph County in north central Missouri... Sullivan County in north central Missouri... Adair County in northeastern Missouri... Southern Schuyler County in northeastern Missouri... * WHEN...Until 915 AM CDT Wednesday. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 115 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 2 and 3.5 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Kirksville, Moberly, Chillicothe, Macon, Brookfield, Marceline, Milan, Huntsville, La Plata, Bevier, Green City, Queen City, Bucklin, Meadville, Novinger, Greentop, Atlanta, Laclede, Downing and Callao. - http://www.weather.gov/safety/flood",
+    "latitude": 39.863076923076925,
+    "longitude": -92.83846153846154,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14f8dce24837cfccb391c075774c993a2d25758a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f2a1ce9ff35f",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by onshore flow restricting Kuskokwim River drainage in combination with excessive rainfall is expected. * WHERE...Kuskokwim near Bethel. * WHEN...Until 700 AM AKDT Wednesday. * IMPACTS...Minor flooding in low-lying and poor drainage areas. River or stream flows are elevated. Ponding of water in areas is occurring or is imminent. * ADDITIONAL DETAILS... - At 900 PM AKDT, River gauge reports indicate that receding water levels have begun to rise again near Bethel, which remains at minor flood stage. This is due to the Kuskokwim River back-up in combination with heavy rain across the advisory area. Minor flooding will continue from overflow of poor drainage areas, especially along the Kuskokwim. - Strong onshore winds along the Kuskokwim coast have limited the ability for the Kuskokwim River to drain out into the Bering Sea. This has caused rapid river rises along the coast and inland into Bethel. Water levels are expected to back up along Brown Slough and flood low lying areas of Bethel and areas along the Kuskokwim. - For Kuskokwim River at Bethel: At 8:51pm the stage was 9.1 feet. Flood Stage is 8.5 feet. Impacts: At 7.0 feet: Action and bankfull stage. At 8.5 feet: Minor flood stage. Water starts to back up along Brown Slough and flood low lying areas. At 12.0 feet: Moderate flood stage. At 14.0 feet: Major flood stage. - Http://www.weather.gov/safety/flood",
+    "latitude": 60.72375,
+    "longitude": -161.825,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-16T09:58:31.740788+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.163c3e02bf26f317b4239367033d348af23f22c3.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
