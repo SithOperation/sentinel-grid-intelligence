@@ -1,32 +1,32 @@
 {
-  "total_events": 912,
+  "total_events": 1038,
   "event_types": {
-    "conflict": 28,
-    "earthquake": 113,
-    "wildfire": 4,
-    "weather_alert": 736,
+    "earthquake": 110,
+    "weather_alert": 867,
     "humanitarian": 13,
     "europe_security": 10,
+    "wildfire": 3,
+    "conflict": 27,
     "tropical_cyclone": 1,
     "reddit_report": 7
   },
   "threat_levels": {
-    "HIGH": 118,
-    "MEDIUM": 777,
+    "MEDIUM": 896,
     "LOW": 15,
+    "HIGH": 125,
     "CRITICAL": 2
   },
   "priority_levels": {
-    "high": 134,
-    "medium": 778
+    "medium": 897,
+    "high": 141
   },
   "sources": {
-    "BBC World News": 14,
-    "USGS Earthquake Hazards Program": 113,
-    "NASA EONET": 5,
-    "National Weather Service": 736,
-    "GDACS": 14,
+    "USGS Earthquake Hazards Program": 110,
+    "National Weather Service": 867,
+    "GDACS": 15,
     "POLITICO Europe Defence": 10,
+    "NASA EONET": 4,
+    "BBC World News": 13,
     "UN News": 12,
     "Crisis Group": 2,
     "Reddit reddit_ukrainian_conflict": 5,
@@ -35,8 +35,8 @@
     "Reddit reddit_worldnews": 1
   },
   "regions": {
-    "Unknown": 157,
-    "United States": 736,
+    "Unknown": 152,
+    "United States": 867,
     "Ukraine": 7,
     "Palestine": 1,
     "Poland": 1,
@@ -45,5 +45,5 @@
     "Russia": 1,
     "Lithuania": 1
   },
-  "average_confidence": 98.68
+  "average_confidence": 98.86
 }
