@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-09-20T23:22:55.726997+00:00",
+  "generated": "2026-09-21T01:25:54.812796+00:00",
   "status": "degraded",
   "degraded": true,
   "stale": false,
   "stale_after_minutes": 390,
-  "published_event_count": 1150,
+  "published_event_count": 1040,
   "freshness": {
-    "oldest_event": "2026-09-17T23:27:25.566000+00:00",
-    "newest_event": "2026-09-20T23:22:55.726997+00:00",
+    "oldest_event": "2026-09-18T01:29:01.643000+00:00",
+    "newest_event": "2026-09-21T01:25:54.812796+00:00",
     "age_minutes": 0.0
   },
   "sources": [
@@ -17,9 +17,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 19,
-      "duration_ms": 4,
-      "checked_at": "2026-09-20T23:22:57.121501+00:00",
-      "last_success": "2026-09-20T23:22:57.121501+00:00",
+      "duration_ms": 6,
+      "checked_at": "2026-09-21T01:25:56.644631+00:00",
+      "last_success": "2026-09-21T01:25:56.644631+00:00",
       "error": null
     },
     {
@@ -27,8 +27,8 @@
       "enabled": true,
       "status": "partial",
       "event_count": 13,
-      "duration_ms": 1582,
-      "checked_at": "2026-09-20T23:22:58.703424+00:00",
+      "duration_ms": 1718,
+      "checked_at": "2026-09-21T01:25:58.363073+00:00",
       "last_success": null,
       "error": "reddit_credibledefense: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CredibleDefense/new/.rss; reddit_europe: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/europe/new/.rss; reddit_worldnews: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/worldnews/new/.rss; reddit_geopolitics: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/geopolitics/new/.rss; reddit_poland: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/poland/new/.rss; reddit_ukraine: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/ukraine/new/.rss; reddit_ukrainewarvideoreport: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/UkraineWarVideoReport/new/.rss; reddit_combatfootage: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CombatFootage/new/.rss",
       "metrics": {
@@ -44,16 +44,16 @@
       "enabled": true,
       "status": "ok",
       "event_count": 1,
-      "duration_ms": 550,
-      "checked_at": "2026-09-20T23:22:59.253811+00:00",
-      "last_success": "2026-09-20T23:22:59.253811+00:00",
+      "duration_ms": 650,
+      "checked_at": "2026-09-21T01:25:59.012649+00:00",
+      "last_success": "2026-09-21T01:25:59.012649+00:00",
       "error": null,
       "metrics": {
         "records_received": 200,
         "records_accepted": 1,
         "records_rejected": 199,
         "missing_geometry": 0,
-        "response_size_bytes": 144695
+        "response_size_bytes": 144874
       }
     },
     {
@@ -61,8 +61,8 @@
       "enabled": true,
       "status": "no_data",
       "event_count": 0,
-      "duration_ms": 551,
-      "checked_at": "2026-09-20T23:22:59.254020+00:00",
+      "duration_ms": 650,
+      "checked_at": "2026-09-21T01:25:59.012920+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -70,7 +70,7 @@
         "records_accepted": 0,
         "records_rejected": 200,
         "missing_geometry": 0,
-        "response_size_bytes": 144695
+        "response_size_bytes": 144874
       }
     },
     {
@@ -78,35 +78,35 @@
       "enabled": true,
       "status": "ok",
       "event_count": 46,
-      "duration_ms": 36,
-      "checked_at": "2026-09-20T23:22:59.289854+00:00",
-      "last_success": "2026-09-20T23:22:59.289854+00:00",
+      "duration_ms": 96,
+      "checked_at": "2026-09-21T01:25:59.109207+00:00",
+      "last_success": "2026-09-21T01:25:59.109207+00:00",
       "error": null,
       "metrics": {
         "records_received": 46,
         "records_accepted": 46,
         "records_rejected": 0,
-        "response_size_bytes": 32814,
-        "provider_generated": "2026-09-20T23:22:00+00:00"
+        "response_size_bytes": 32871,
+        "provider_generated": "2026-09-21T01:25:00+00:00"
       }
     },
     {
       "source": "nws_weather_alerts",
       "enabled": true,
       "status": "ok",
-      "event_count": 429,
-      "duration_ms": 391,
-      "checked_at": "2026-09-20T23:22:59.681140+00:00",
-      "last_success": "2026-09-20T23:22:59.681140+00:00",
+      "event_count": 352,
+      "duration_ms": 728,
+      "checked_at": "2026-09-21T01:25:59.837595+00:00",
+      "last_success": "2026-09-21T01:25:59.837595+00:00",
       "error": null,
       "metrics": {
-        "records_received": 430,
-        "records_accepted": 429,
+        "records_received": 353,
+        "records_accepted": 352,
         "records_rejected": 1,
-        "missing_geometry": 328,
+        "missing_geometry": 267,
         "expired_alerts": 0,
         "test_messages": 1,
-        "response_size_bytes": 1987955
+        "response_size_bytes": 1629018
       }
     },
     {
@@ -114,9 +114,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 10,
-      "duration_ms": 3902,
-      "checked_at": "2026-09-20T23:23:03.582913+00:00",
-      "last_success": "2026-09-20T23:23:03.582913+00:00",
+      "duration_ms": 3513,
+      "checked_at": "2026-09-21T01:26:03.350323+00:00",
+      "last_success": "2026-09-21T01:26:03.350323+00:00",
       "error": null
     },
     {
@@ -125,7 +125,7 @@
       "status": "no_data",
       "event_count": 0,
       "duration_ms": 0,
-      "checked_at": "2026-09-20T23:23:03.583188+00:00",
+      "checked_at": "2026-09-21T01:26:03.350532+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -146,8 +146,8 @@
         "source_id": "reddit_osint_ukraine",
         "status": "fresh",
         "reason": "empty_valid_response",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -156,8 +156,8 @@
         "source_id": "reddit_credible_defense",
         "status": "fresh",
         "reason": "empty_valid_response",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -166,8 +166,8 @@
         "source_id": "reddit_combat_footage",
         "status": "fresh",
         "reason": "empty_valid_response",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -176,8 +176,8 @@
         "source_id": "reddit_worldnews",
         "status": "fresh",
         "reason": "success",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 22,
         "items_published": 22,
         "cache_age_seconds": null
@@ -186,8 +186,8 @@
         "source_id": "reddit_ukrainian_conflict",
         "status": "fresh",
         "reason": "success",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 18,
         "items_published": 18,
         "cache_age_seconds": null
@@ -196,8 +196,8 @@
         "source_id": "reddit_war",
         "status": "fresh",
         "reason": "empty_valid_response",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -206,38 +206,38 @@
         "source_id": "reddit_geopolitics",
         "status": "fresh",
         "reason": "success",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
-        "items_discovered": 2,
-        "items_published": 2,
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
+        "items_discovered": 3,
+        "items_published": 3,
         "cache_age_seconds": null
       },
       {
         "source_id": "reddit_foreign_policy",
         "status": "fresh",
         "reason": "success",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
-        "items_discovered": 4,
-        "items_published": 4,
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
+        "items_discovered": 5,
+        "items_published": 5,
         "cache_age_seconds": null
       },
       {
         "source_id": "reddit_israel",
         "status": "fresh",
         "reason": "success",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
-        "items_discovered": 25,
-        "items_published": 25,
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
+        "items_discovered": 22,
+        "items_published": 22,
         "cache_age_seconds": null
       },
       {
         "source_id": "reddit_israel_war",
         "status": "fresh",
         "reason": "empty_valid_response",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -246,18 +246,18 @@
         "source_id": "reddit_israel_palestine",
         "status": "fresh",
         "reason": "success",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
-        "items_discovered": 17,
-        "items_published": 17,
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
+        "items_discovered": 18,
+        "items_published": 18,
         "cache_age_seconds": null
       },
       {
         "source_id": "reddit_iran",
         "status": "fresh",
         "reason": "success",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 6,
         "items_published": 6,
         "cache_age_seconds": null
@@ -266,8 +266,8 @@
         "source_id": "reddit_iranian",
         "status": "fresh",
         "reason": "success",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 1,
         "items_published": 1,
         "cache_age_seconds": null
@@ -276,8 +276,8 @@
         "source_id": "reddit_lebanon",
         "status": "fresh",
         "reason": "empty_valid_response",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -286,8 +286,8 @@
         "source_id": "reddit_syria",
         "status": "fresh",
         "reason": "success",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 4,
         "items_published": 4,
         "cache_age_seconds": null
@@ -296,8 +296,8 @@
         "source_id": "reddit_iraq",
         "status": "fresh",
         "reason": "empty_valid_response",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -306,8 +306,8 @@
         "source_id": "reddit_turkey",
         "status": "fresh",
         "reason": "empty_valid_response",
-        "last_success_at": "2026-09-20T23:22:55.726997+00:00",
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_success_at": "2026-09-21T01:25:54.812796+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -317,7 +317,7 @@
         "status": "unavailable",
         "reason": "blocked",
         "last_success_at": null,
-        "last_attempt_at": "2026-09-20T23:22:55.726997+00:00",
+        "last_attempt_at": "2026-09-21T01:25:54.812796+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
