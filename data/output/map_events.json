@@ -1,107 +1,5 @@
 [
   {
-    "event_id": "SG-74c97334f8cb",
-    "type": "earthquake",
-    "title": "M4.2 earthquake — 24 km S of Sipí, Colombia",
-    "description": "M 4.2 - 24 km S of Sipí, Colombia",
-    "latitude": 4.436,
-    "longitude": -76.628,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-19T23:20:15.368000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000timg",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-09a54263939a",
-    "type": "earthquake",
-    "title": "M4.2 earthquake — 116 km NNE of Lospalos, Timor Leste",
-    "description": "M 4.2 - 116 km NNE of Lospalos, Timor Leste",
-    "latitude": -7.6037,
-    "longitude": 127.5122,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-19T23:54:06.577000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000timl",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-6fa6babe2723",
-    "type": "earthquake",
-    "title": "M2.52 earthquake — 3 km WSW of Fuig, Puerto Rico",
-    "description": "M 2.5 - 3 km WSW of Fuig, Puerto Rico",
-    "latitude": 17.9738333333333,
-    "longitude": -66.9498333333333,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-20T00:13:52.310000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533288",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-faae2baeefb9",
-    "type": "earthquake",
-    "title": "M4.9 earthquake — 85 km W of Hihifo, Tonga",
-    "description": "M 4.9 - 85 km W of Hihifo, Tonga",
-    "latitude": -15.9606,
-    "longitude": -174.5971,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-20T00:33:21.417000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000timw",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-8f89837daa3d",
-    "type": "earthquake",
-    "title": "M5.3 earthquake — Reykjanes Ridge",
-    "description": "M 5.3 - Reykjanes Ridge",
-    "latitude": 57.1211,
-    "longitude": -33.5459,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-20T00:58:14.425000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000timy",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-a60995d68e83",
-    "type": "earthquake",
-    "title": "M2.6 earthquake — 90 km N of Karluk, Alaska",
-    "description": "M 2.6 - 90 km N of Karluk, Alaska",
-    "latitude": 58.382,
-    "longitude": -154.484,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-20T01:12:30.465000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sqadtu",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-f5762f7097fd",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -947,23 +845,6 @@
     "confidence": 100,
     "timestamp": "2026-09-20T16:09:02.874072+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.008.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-bba5e0d8bf8d",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Wisconsin... Kickapoo River at Gays Mills affecting Crawford County. ...The Flood Warning is cancelled for the following rivers in Wisconsin... Kickapoo River at Readstown affecting Vernon County. * WHAT...Minor flooding is forecast. * WHERE...Kickapoo River at Gays Mills. * WHEN...Until Tuesday evening. * IMPACTS...At 13.0 feet, Water begins to cover roads near the river, including Sand Hill Road near Bell Center. Minor flooding occurs in areas adjacent to the river, including Robb Park in Gays Mills. * ADDITIONAL DETAILS... - There is no current observed data. - Bankfull stage is 13.0 feet. - Forecast...The river is expected to fall below flood stage Tuesday morning and continue falling to 7.5 feet Sunday, September 27. - Flood stage is 13.0 feet. - Flood History...This crest compares to a previous crest of 13.3 feet on 03/21/1972. - http://www.weather.gov/safety/flood",
-    "latitude": 43.327999999999996,
-    "longitude": -90.83,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-20T16:09:02.874072+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75d81957bde3e2b7ef8068b6228b39897923f816.002.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2018,23 +1899,6 @@
     "classification": "disaster_alert",
     "source": [
       "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-e23f532f773f",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Minnesota...Iowa... Root River Near Houston affecting Houston County. Turkey River at Garber affecting Clayton County. Turkey River at Spillville affecting Winneshiek County. ...The Flood Warning is cancelled for the following rivers in Minnesota... Cedar River at Austin affecting Mower County. Cedar River near Lansing affecting Mower County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Root River near Houston. * WHEN...Until Tuesday evening. * IMPACTS...At 15.0 feet, Minor lowland flooding occurs. * ADDITIONAL DETAILS... - At 7:45 PM CDT Sunday the stage was 15.3 feet. - Bankfull stage is 15.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:45 PM CDT Sunday was 15.3 feet. - Forecast...The river is expected to rise to a crest of 15.8 feet tomorrow morning. It will then fall below flood stage Tuesday morning. - Flood stage is 15.0 feet. - Flood History...This crest compares to a previous crest of 16.0 feet on 07/12/2000. - http://www.weather.gov/safety/flood",
-    "latitude": 43.78666666666667,
-    "longitude": -91.62666666666667,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-21T06:55:47.402766+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8cc0d5862d7730ac035ffd700a6aa87133e3d025.005.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
     ]
   },
   {
@@ -3849,23 +3713,6 @@
     ]
   },
   {
-    "event_id": "SG-f1dd811d4082",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois...Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. Root River Canal At Raymond affecting Racine County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Root River Canal at Raymond. * WHEN...Until this evening. * IMPACTS...At 9.0 feet, Water floods Koerber Park on 6 Mile Road. Flooding of rural land and agricultural land. * ADDITIONAL DETAILS... - At 3:00 AM CDT Tuesday the stage was 9.3 feet. - Bankfull stage is 7.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 3:00 AM CDT Tuesday was 9.6 feet. - Forecast...The river is expected to fall below flood stage this morning and continue falling to 3.2 feet Monday evening. - Flood stage is 9.0 feet. - Flood History...This crest compares to a previous crest of 9.3 feet on 02/21/1998. - http://www.weather.gov/safety/flood",
-    "latitude": 42.82666666666666,
-    "longitude": -88.005,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T11:58:48.481158+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2c1703a1890450c1e95418354a1b25ddd2b0ec7f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-ce8d797f0ceb",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -4257,23 +4104,6 @@
     ]
   },
   {
-    "event_id": "SG-9e08deb02061",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Central Athens County in southeastern Ohio... Southwestern Morgan County in southeastern Ohio... Northeastern Vinton County in southeastern Ohio... West Central Washington County in southeastern Ohio... * WHEN...Until 900 PM EDT Tuesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Numerous roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 806 AM EDT, local law enforcement reported flooding was continuing across much of the county from previous heavy rains. - Some locations that will experience flooding include... Athens, Nelsonville, Lake Hope State Park, Chauncey, Buchtel, Amesville, The Plains and Stroud Run State Park. - http://www.weather.gov/safety/flood",
-    "latitude": 39.355,
-    "longitude": -82.19916666666667,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T16:48:45.746822+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1edf79ab522c51d6e3e1d971996869334b52fed9.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-13ec66410c2f",
     "type": "earthquake",
     "title": "M2.8 earthquake — 59 km S of Whites City, New Mexico",
@@ -4478,228 +4308,7 @@
     ]
   },
   {
-    "event_id": "SG-437902407387",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois... Rock River at Moline affecting Rock Island and Henry IL Counties. * WHAT...Minor flooding is forecast. * WHERE...Rock River at Moline. * WHEN...Until Wednesday evening. * IMPACTS...At 12.0 feet, Water affects residences near the 27th Street bridge. Water is over portions of 60th St south of Green Valley Sports Complex and portions of 56th Ave along the north side of the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 11.8 feet. - Forecast...The river is expected to rise above flood stage tonight to a crest of 12.1 feet tomorrow morning. It will then fall below flood stage tomorrow afternoon. - Flood stage is 12.0 feet.",
-    "latitude": 41.475,
-    "longitude": -90.48,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30f82a6267ca8bfe8feec1fde427ef08767e23d4.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-5ea01c64719d",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana... Wabash River near Bluffton IN affecting Wells County. Wabash River near Linn Grove affecting Wells and Adams Counties. Saint Marys River at St. Mary's River near Fort Wayne affecting Allen IN County. ...The Flood Warning continues for the following rivers in Indiana... Ohio... Saint Marys River near Decatur affecting Allen IN, Adams and Van Wert Counties. For the Wabash River...including Linn Grove, Bluffton IN, Wabash, Logansport...Minor flooding is forecast. For the Saint Marys River...including Decatur, St. Mary's River near Fort Wayne...Moderate flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Saint Marys River at St. Mary's River near Fort Wayne. * WHEN...Until Friday evening. * IMPACTS...At 15.0 feet, Flooding occurs on the lowest unprotected city streets, park drives and county roads. * ADDITIONAL DETAILS... - At 11:15 AM EDT Tuesday the stage was 15.9 feet. - Bankfull stage is 14.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 11:15 AM EDT Tuesday was 16.2 feet. - Forecast...The river is expected to fall below flood stage late Thursday evening and continue falling to 10.0 feet Sunday morning. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 41.02428571428572,
-    "longitude": -85.12571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d91c03f0b0a902d77a23fe774d5462765c123f14.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-af3e3647680c",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Indiana... Wabash River near Bluffton IN affecting Wells County. Wabash River near Linn Grove affecting Wells and Adams Counties. Saint Marys River at St. Mary's River near Fort Wayne affecting Allen IN County. ...The Flood Warning continues for the following rivers in Indiana... Ohio... Saint Marys River near Decatur affecting Allen IN, Adams and Van Wert Counties. For the Wabash River...including Linn Grove, Bluffton IN, Wabash, Logansport...Minor flooding is forecast. For the Saint Marys River...including Decatur, St. Mary's River near Fort Wayne...Moderate flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. This approaches the flood of record. * WHERE...Wabash River near Linn Grove. * WHEN...Until Saturday afternoon. * IMPACTS...At 14.0 feet, Secondary roads are blocked. Roads near the east side of Geneva begin to flood. Some evacuations may be required and property needs to be transferred to higher ground. * ADDITIONAL DETAILS... - At 10:45 AM EDT Tuesday the stage was 13.0 feet. - Bankfull stage is 10.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 10:45 AM EDT Tuesday was 13.5 feet. - Forecast...The river is expected to rise to a crest of 13.3 feet tomorrow evening. It will then fall below flood stage early Friday afternoon. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 40.67,
-    "longitude": -85.05799999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d91c03f0b0a902d77a23fe774d5462765c123f14.004.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4c5a69da8c26",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Louisa and Muscatine Counties. Iowa River at Oakville affecting Louisa County. Iowa River at Wapello affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. * WHAT...Minor flooding is occurring. * WHERE...Cedar River near Conesville. * WHEN...Until Thursday evening. * IMPACTS...At 14.5 feet, Water affects residences along Iowa Highway 22. Water affects Hoot Owl Jct and Elder Avenue south of Iowa Highway 22. * ADDITIONAL DETAILS... - At 9:00 AM CDT Tuesday the stage was 14.5 feet. - Forecast...The river is currently cresting and will begin to gradually fall this afternoon. It is expected to fall below flood stage on Thursday. - Flood stage is 13.0 feet.",
-    "latitude": 41.445,
-    "longitude": -91.24166666666667,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03226bd34756804c5eedaff87f175f1772b33136.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c4755e75202c",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Louisa and Muscatine Counties. Iowa River at Oakville affecting Louisa County. Iowa River at Wapello affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. * WHAT...Minor flooding is occurring. * WHERE...Iowa River near Lone Tree. * WHEN...Until Thursday afternoon. * IMPACTS...At 16.0 feet, Flood waters affect parts of Lola Lane and Y Avenue. River Junction Access Park is closed. * ADDITIONAL DETAILS... - At 10:00 AM CDT Tuesday the stage was 16.4 feet. - Forecast...The river is expected to rise to a crest of 17.0 feet tomorrow morning. It will then fall below flood stage Thursday morning. - Flood stage is 16.0 feet.",
-    "latitude": 41.41,
-    "longitude": -91.47333333333334,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03226bd34756804c5eedaff87f175f1772b33136.004.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-9923f03cfb88",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... North Skunk River near Sigourney affecting Keokuk County. * WHAT...Minor flooding is occurring. * WHERE...North Skunk River near Sigourney. * WHEN...Until late tonight. * IMPACTS...At 16.0 feet, Water affects agricultural land, some county roads, and farm houses. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 16.9 feet. - Forecast...The river is expected to fall below flood stage this evening and continue falling to 7.0 feet Tuesday, September 29. - Flood stage is 16.0 feet.",
-    "latitude": 41.28,
-    "longitude": -92.17666666666668,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a882f60e11a848dd6f7766e2de6b1c4614252a6.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4178e4447828",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Scott and Clinton Counties. * WHAT...Major flooding is occurring and major flooding is forecast. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until further notice. * IMPACTS...At 13.0 feet, Water affects many residences along the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 13.1 feet. - Forecast...The river is expected to rise to a crest of 13.2 feet this evening. - Flood stage is 11.0 feet.",
-    "latitude": 41.83714285714286,
-    "longitude": -90.69857142857143,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea8fdec7f6d6c27827f4ccc86bd622edc090feca.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-89c0f7f6c0ee",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following river in Illinois... Des Plaines River near Gurnee affecting Lake IL County. * WHAT...Minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Friday evening. * IMPACTS...At 7.0 feet, Forest land inundated near the river in Gurnee. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 6.8 feet. - Forecast...The river is expected to rise above flood stage this evening, and crest at around 7.8 feet early Thursday morning. It will then fall below flood stage Friday afternoon. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 42.32142857142857,
-    "longitude": -87.93571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e8b10163ba2b9c8f7d1d91ed6fd7a90daccae32.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-7746476dc46d",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... Withlacoochee At US 41 Dunnellon affecting Marion, Levy and Citrus Counties. .The Withlacoochee River at Dunnellon has been steadily rising since July, and on September 15 reached flood stage. The cause of the high water along the Withlacoochee River at Dunnellon is due to excessive hydrilla growth (from the river bottom to the water surface) along a 4.5 mile stretch of river between US 41 and Lake Rousseau. The hydrilla is acting like a dam and holding water back, causing water levels to rise. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Withlacoochee at US 41 Dunnellon. * WHEN...Until further notice. * IMPACTS...At 28.2 feet, Docks and boat ramps flood along the river in Citrus and Marion counties. * ADDITIONAL DETAILS... - At 8:45 AM EDT Tuesday the stage was 28.2 feet. - Bankfull stage is 28.2 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:45 AM EDT Tuesday was 28.2 feet. - Forecast...The river is expected to remain steady at flood stage. - Flood stage is 28.2 feet. - Flood History...This crest compares to a previous crest of 28.2 feet on 10/02/1979. - https://www.weather.gov/safety/flood",
-    "latitude": 29.028,
-    "longitude": -82.434,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4974af3fea207cf28b201d13a409c6a1b09bd8ef.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-1e2e8aa6681c",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Southeastern Athens County in southeastern Ohio... Northeastern Gallia County in southeastern Ohio... Meigs County in southeastern Ohio... Southwestern Washington County in southeastern Ohio... Northwestern Jackson County in northwestern West Virginia... Western Wood County in northwestern West Virginia... North Central Mason County in western West Virginia... * WHEN...Until 900 PM EDT Tuesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Numerous roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 806 AM EDT, local law enforcement reported flooding in the warned area. - Some locations that will experience flooding include... Athens, Pomeroy, Coolville, Rutland, Forked Run State Park, Mason, Tuppers Plains, Middleport, Chester, Syracuse, Hartford City, Darwin, Harrisonville, Dexter, Dyesville, Reedsville, Portland and Salem Center. - http://www.weather.gov/safety/flood",
-    "latitude": 39.11238095238095,
-    "longitude": -81.93571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8c83e6a0dc1d368aced3f260bcc10d371b81c0a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-2d135e512018",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Southwestern Athens County in southeastern Ohio... Northwestern Meigs County in southeastern Ohio... Northeastern Vinton County in southeastern Ohio... * WHEN...Until 900 PM EDT Tuesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Numerous roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 805 AM EDT, local law enforcement reported flooding in the warned area. - Some locations that will experience flooding include... Mcarthur, Albany, Zaleski, Carpenter, Radcliffe and Creola. - http://www.weather.gov/safety/flood",
-    "latitude": 39.19777777777777,
-    "longitude": -82.32777777777778,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.211190537636c9efb39976703d1c2bd32434a9cc.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-16c340678880",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "Light rain will continue over the area and flows of water in arroyos as well as ponding of water in low spots may persist. Flash flooding is no longer expected to pose a threat. Please continue to heed any remaining road closures. A Flood Watch remains in effect until 600 AM MDT Thursday for portions of central, east central, north central, northeast, northwest, southeast, and west central New Mexico.",
-    "latitude": 36.924615384615386,
-    "longitude": -104.83384615384615,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5afc42a12819e140c9007a34ab94373e8958f25.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-37e71d23f8df",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWMAF The National Weather Service in Midland/Odessa has extended the * Flash Flood Warning for... East Central Lea County in southeastern New Mexico... * Until 545 PM MDT. * At 429 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 2 and 3 inches of rain have fallen. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Monument.",
-    "latitude": 32.589999999999996,
-    "longitude": -103.242,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84617d7706abf4bfd2bcd9f73073fed746bbb238.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-3904bfe7e195",
+    "event_id": "SG-a20816e8ca0d",
     "type": "weather_alert",
     "title": "Flash Flood Warning",
     "description": "FFWABQ The National Weather Service in Albuquerque has issued a * Flash Flood Warning for... Southwestern Mora County in northeastern New Mexico... * Until 730 PM MDT. * At 427 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 3 and 5.5 inches of rain have fallen. Additional rainfall amounts up to 0.75 inches are possible in the warned area. Flash flooding is already occurring. FLASH FLOOD EMERGENCY for Mora, Monte Aplanado, Canon and Ledoux as well as the Rito Cebolla. This is a PARTICULARLY DANGEROUS SITUATION. SEEK HIGHER GROUND NOW! HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK HIGHER GROUND NOW! Life threatening flash flooding of low water crossings, small creeks and streams, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Mora, Ledoux, Morphy Lake State Park, Monte Aplanado and Golondrinas. This includes State Road 518 between Mile Markers 19 and 21...and near Mile Marker 29. This includes the following recreation areas... Morphy Lake State Park. Flash flooding is expected in the Rito Cebolla. Stay away from river banks.",
@@ -4733,244 +4342,6 @@
     ]
   },
   {
-    "event_id": "SG-f135247fabb1",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers... Scioto River at Piketon. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Scioto River at Piketon. * WHEN...Until Wednesday evening. * IMPACTS...At 21.0 feet, Several roads near the river are flooded, including county roads along creeks emptying into the Scioto River. Ohio Route 220 at River Road is flooded south of Waverly. Scioto and Camp Creek Townships in southern Pike County are most impacted. * ADDITIONAL DETAILS... - At 1:00 PM EDT Tuesday the stage was 21.2 feet. - Forecast...The river is expected to fall below flood stage tomorrow morning and continue falling, remaining below flood stage. - Flood stage is 20.0 feet.",
-    "latitude": 39.01428571428572,
-    "longitude": -82.95714285714287,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b9ae64dde7b85b55294ab9479454a2ec8fb3e9a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-535ba6a4db6d",
-    "type": "weather_alert",
-    "title": "Flood Watch",
-    "description": "...The Flood Watch continues for the following rivers in Missouri... Illinois... Mississippi River at Gregory Landing affecting Clark and Hancock Counties. * WHAT...Flooding is possible. * WHERE...Mississippi River at Gregory Landing. * WHEN...From late Wednesday night to Saturday afternoon. * ADDITIONAL DETAILS... - At 11:30 AM CDT Tuesday the stage was 12.4 feet. - Forecast...Flood stage may be reached Thursday evening. - Flood stage is 15.0 feet.",
-    "latitude": 40.28666666666667,
-    "longitude": -91.46,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39796feb0f2755a088216b60116be59a96836ca3.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-ff2280ffbc6d",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Canton. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Saverton. * WHEN...From Thursday evening to Sunday afternoon. * IMPACTS...At 15.5 feet, An access road to riverside raised homes on the riverward side of the Sny levee begins to flood near this level. * ADDITIONAL DETAILS... - At 8:00 AM CDT Tuesday the stage was 12.7 feet. - Forecast...The river is expected to rise above flood stage Thursday evening to a crest of 16.4 feet early Friday afternoon. It will then fall below flood stage Saturday morning. - Flood stage is 16.0 feet.",
-    "latitude": 39.62428571428571,
-    "longitude": -91.18571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b16de6cf7028f823f1524b17e40688b47de376.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-9e18e9fd50dd",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Canton. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Canton. * WHEN...From late Thursday night to late Saturday night. * IMPACTS...At 14.0 feet, Both banks begin to overflow. * ADDITIONAL DETAILS... - At 8:00 AM CDT Tuesday the stage was 11.8 feet. - Forecast...The river is expected to rise above flood stage early Friday morning to a crest of 15.1 feet Friday morning. It will then fall below flood stage Friday evening. - Flood stage is 15.0 feet.",
-    "latitude": 40.164,
-    "longitude": -91.48400000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b16de6cf7028f823f1524b17e40688b47de376.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-69ac9d491f79",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Canton. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Winfield. * WHEN...From Friday morning to late Sunday night. * IMPACTS...At 27.5 feet, At this stage, Lock and Dam 25 will stockpile 200 tons of sand, 12,000 sandbags, and 10,000 square feet of polyethylene plastic as a precaution. * ADDITIONAL DETAILS... - At 11:30 AM CDT Tuesday the stage was 21.6 feet. - Forecast...The river is expected to rise above flood stage late Friday morning to a crest of 26.3 feet Friday evening. It will then fall below flood stage Saturday evening. - Flood stage is 26.0 feet.",
-    "latitude": 39.05111111111111,
-    "longitude": -90.69999999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b16de6cf7028f823f1524b17e40688b47de376.005.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-25532c348d40",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Canton. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...From Friday morning to late Saturday night. * IMPACTS...At 17.0 feet, John Hay Recreation Area on east side (inside the Illinois Sny Levee) begins flooding. * ADDITIONAL DETAILS... - At 11:15 AM CDT Tuesday the stage was 14.7 feet. - Forecast...The river is expected to rise to a crest of 17.0 feet Friday morning. It will then fall below flood stage Friday evening. - Flood stage is 17.0 feet.",
-    "latitude": 39.7475,
-    "longitude": -91.36625,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b16de6cf7028f823f1524b17e40688b47de376.004.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-1a08d05171dc",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois...Iowa... Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. Mississippi River at Keithsburg affecting Louisa, Henderson, Mercer and Des Moines Counties. ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Burlington. * WHEN...From Wednesday afternoon to late Friday night. * IMPACTS...At 15.0 feet, Agricultural flooding occurs. * ADDITIONAL DETAILS... - At 11:00 AM CDT Tuesday the stage was 13.8 feet. - Forecast...The river is expected to rise above flood stage tomorrow afternoon to a crest of 15.3 feet Thursday morning. It will then fall below flood stage Friday morning. - Flood stage is 15.0 feet.",
-    "latitude": 40.74333333333333,
-    "longitude": -91.15499999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15d47231194509b62f8173ef3f722c8ed7a4793a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-2a3e857bd029",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois...Iowa... Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. Mississippi River at Keithsburg affecting Louisa, Henderson, Mercer and Des Moines Counties. ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Gladstone LD18. * WHEN...From Wednesday morning to Saturday morning. * ADDITIONAL DETAILS... - At 11:30 AM CDT Tuesday the stage was 8.9 feet. - Forecast...The river is expected to rise above flood stage late tomorrow morning to a crest of 10.6 feet Thursday afternoon. It will then fall below flood stage Friday afternoon. - Flood stage is 10.0 feet.",
-    "latitude": 40.898,
-    "longitude": -91.014,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15d47231194509b62f8173ef3f722c8ed7a4793a.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b98974f3b2c5",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...East Central El Paso County in western Texas... Western Hudspeth County in western Texas... * WHEN...Until 700 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 454 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 1.3 inches of rain have fallen. - Additional rainfall of up to 1 inch is expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Loma Linda and Desert Haven. - http://www.weather.gov/safety/flood",
-    "latitude": 31.755555555555556,
-    "longitude": -105.97777777777777,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3da757184834cab73fce613bfac6251059f37a67.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-348d2b1e2236",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "For the following areas... Coastal waters from Pensacola FL to Pascagoula MS out 20 NM... Mississippi Sound... North Mobile Bay... South Mobile Bay... At 555 PM CDT, strong thunderstorms were located along a line extending from near Grand Bay to Central Dauphin Island to near Farewell Buoy, moving southwest at 25 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...Radar indicated. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. Locations impacted include... Gaillard Island, East Fowl River Bridge, Sand Island Lighthouse, Farewell Buoy, Middle Bay Light, Mississippi Sound East Of Pascagoula, Heron Bay, Central Dauphin Island, Dauphin Island Bridge, and Fort Gaines.",
-    "latitude": 30.329333333333334,
-    "longitude": -88.18599999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.666ebcbc536b265ab77dc8987833eb285b9da9c0.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-837e34ac9973",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWLCH The National Weather Service in Lake Charles has issued a * Special Marine Warning for... Coastal waters from Cameron LA to High Island TX out 20 NM... Sabine Lake... * Until 630 PM CDT. * At 555 PM CDT, a strong thunderstorm was located near The Mouth Of The Sabine River, moving south at 15 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... West Cameron 45, West Cameron 53, West Cameron 48, The Mouth Of The Sabine River, and Port Arthur.",
-    "latitude": 29.704545454545453,
-    "longitude": -93.88545454545455,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b4426e681b939564deac7380de0ab643cda42b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-e23352231b91",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 552 PM CDT, Doppler radar was tracking strong thunderstorms along a line extending from 5 miles northeast of Seagraves Airport to 5 miles north of Welch. Movement was north at 15 mph. HAZARD...Wind gusts of 50 to 55 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Brownfield and Wellman.",
-    "latitude": 33.038,
-    "longitude": -102.376,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3cfc6b13e30145537bf6622de39101fb76b7409.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-8dff85dc31d1",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 453 PM MDT, Doppler radar was tracking a line of strong thunderstorms extending from 14 miles west of Los Lunas to 11 miles northeast of Meadow Lake, moving north at 25 mph. HAZARD...Wind gusts up to 50 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Albuquerque, Los Lunas, Valencia, Los Ranchos De Albuquerque, Bosque Farms, South Valley, Isleta Pueblo, North Valley and Meadow Lake. This includes the following highways... Interstate 40 between Mile Markers 131 and 172. Interstate 25 between Mile Markers 201 and 232.",
-    "latitude": 34.95625,
-    "longitude": -106.82875,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.646f792c95fb03616f72a81caae7e258539efafc.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-558c4fb98b09",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "Flood waters have receded. Flooding is no longer expected to pose a threat. Please continue to heed remaining road closures. A Flood Watch remains in effect until 800 PM EDT Wednesday for portions of southeast Ohio and West Virginia.",
-    "latitude": 38.5175,
-    "longitude": -80.255,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.434f73e9c2c88a205172b3b3ab166a90c0637b4b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-5a53e7390e80",
     "type": "weather_alert",
     "title": "Flood Advisory",
@@ -4988,595 +4359,884 @@
     ]
   },
   {
-    "event_id": "SG-2d6f7ec57b93",
+    "event_id": "SG-437902407387",
     "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Central Chesterfield County in central South Carolina... Northeastern Kershaw County in central South Carolina... * WHEN...Until 845 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 643 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Carolina Sandhills Wildlife Refuge, Cheraw State Park, Mcbee, Patrick, Bethune, Alligator Fire Station, Middendorf, Bay Springs Fire Station and Cheraw Fish Hatchery. - http://www.weather.gov/safety/flood",
-    "latitude": 34.53476190476191,
-    "longitude": -80.02380952380952,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9cf6d244f111ea7843a924da8a6033f42a38a4c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-ce99e0057515",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 437 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2.25 inches of rain have fallen. Additional rainfall amounts up to 0.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Bingham. This includes Highway 380 between Mile Markers 19 and 37.",
-    "latitude": 33.86555555555556,
-    "longitude": -106.45666666666666,
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Illinois... Rock River at Moline affecting Rock Island and Henry IL Counties. * WHAT...Minor flooding is forecast. * WHERE...Rock River at Moline. * WHEN...Until Wednesday evening. * IMPACTS...At 12.0 feet, Water affects residences near the 27th Street bridge. Water is over portions of 60th St south of Green Valley Sports Complex and portions of 56th Ave along the north side of the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 11.8 feet. - Forecast...The river is expected to rise above flood stage tonight to a crest of 12.1 feet tomorrow morning. It will then fall below flood stage tomorrow afternoon. - Flood stage is 12.0 feet.",
+    "latitude": 41.475,
+    "longitude": -90.48,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16ce3f65c79e1b3001c7be7109310046f29caecd.001.1",
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30f82a6267ca8bfe8feec1fde427ef08767e23d4.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-592d6a718657",
+    "event_id": "SG-5ea01c64719d",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Indiana... Wabash River near Bluffton IN affecting Wells County. Wabash River near Linn Grove affecting Wells and Adams Counties. Saint Marys River at St. Mary's River near Fort Wayne affecting Allen IN County. ...The Flood Warning continues for the following rivers in Indiana... Ohio... Saint Marys River near Decatur affecting Allen IN, Adams and Van Wert Counties. For the Wabash River...including Linn Grove, Bluffton IN, Wabash, Logansport...Minor flooding is forecast. For the Saint Marys River...including Decatur, St. Mary's River near Fort Wayne...Moderate flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Saint Marys River at St. Mary's River near Fort Wayne. * WHEN...Until Friday evening. * IMPACTS...At 15.0 feet, Flooding occurs on the lowest unprotected city streets, park drives and county roads. * ADDITIONAL DETAILS... - At 11:15 AM EDT Tuesday the stage was 15.9 feet. - Bankfull stage is 14.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 11:15 AM EDT Tuesday was 16.2 feet. - Forecast...The river is expected to fall below flood stage late Thursday evening and continue falling to 10.0 feet Sunday morning. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 41.02428571428572,
+    "longitude": -85.12571428571428,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d91c03f0b0a902d77a23fe774d5462765c123f14.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-af3e3647680c",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Indiana... Wabash River near Bluffton IN affecting Wells County. Wabash River near Linn Grove affecting Wells and Adams Counties. Saint Marys River at St. Mary's River near Fort Wayne affecting Allen IN County. ...The Flood Warning continues for the following rivers in Indiana... Ohio... Saint Marys River near Decatur affecting Allen IN, Adams and Van Wert Counties. For the Wabash River...including Linn Grove, Bluffton IN, Wabash, Logansport...Minor flooding is forecast. For the Saint Marys River...including Decatur, St. Mary's River near Fort Wayne...Moderate flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. This approaches the flood of record. * WHERE...Wabash River near Linn Grove. * WHEN...Until Saturday afternoon. * IMPACTS...At 14.0 feet, Secondary roads are blocked. Roads near the east side of Geneva begin to flood. Some evacuations may be required and property needs to be transferred to higher ground. * ADDITIONAL DETAILS... - At 10:45 AM EDT Tuesday the stage was 13.0 feet. - Bankfull stage is 10.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 10:45 AM EDT Tuesday was 13.5 feet. - Forecast...The river is expected to rise to a crest of 13.3 feet tomorrow evening. It will then fall below flood stage early Friday afternoon. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 40.67,
+    "longitude": -85.05799999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d91c03f0b0a902d77a23fe774d5462765c123f14.004.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4c5a69da8c26",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Louisa and Muscatine Counties. Iowa River at Oakville affecting Louisa County. Iowa River at Wapello affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. * WHAT...Minor flooding is occurring. * WHERE...Cedar River near Conesville. * WHEN...Until Thursday evening. * IMPACTS...At 14.5 feet, Water affects residences along Iowa Highway 22. Water affects Hoot Owl Jct and Elder Avenue south of Iowa Highway 22. * ADDITIONAL DETAILS... - At 9:00 AM CDT Tuesday the stage was 14.5 feet. - Forecast...The river is currently cresting and will begin to gradually fall this afternoon. It is expected to fall below flood stage on Thursday. - Flood stage is 13.0 feet.",
+    "latitude": 41.445,
+    "longitude": -91.24166666666667,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03226bd34756804c5eedaff87f175f1772b33136.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c4755e75202c",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Louisa and Muscatine Counties. Iowa River at Oakville affecting Louisa County. Iowa River at Wapello affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. * WHAT...Minor flooding is occurring. * WHERE...Iowa River near Lone Tree. * WHEN...Until Thursday afternoon. * IMPACTS...At 16.0 feet, Flood waters affect parts of Lola Lane and Y Avenue. River Junction Access Park is closed. * ADDITIONAL DETAILS... - At 10:00 AM CDT Tuesday the stage was 16.4 feet. - Forecast...The river is expected to rise to a crest of 17.0 feet tomorrow morning. It will then fall below flood stage Thursday morning. - Flood stage is 16.0 feet.",
+    "latitude": 41.41,
+    "longitude": -91.47333333333334,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03226bd34756804c5eedaff87f175f1772b33136.004.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9923f03cfb88",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... North Skunk River near Sigourney affecting Keokuk County. * WHAT...Minor flooding is occurring. * WHERE...North Skunk River near Sigourney. * WHEN...Until late tonight. * IMPACTS...At 16.0 feet, Water affects agricultural land, some county roads, and farm houses. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 16.9 feet. - Forecast...The river is expected to fall below flood stage this evening and continue falling to 7.0 feet Tuesday, September 29. - Flood stage is 16.0 feet.",
+    "latitude": 41.28,
+    "longitude": -92.17666666666668,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a882f60e11a848dd6f7766e2de6b1c4614252a6.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4178e4447828",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Scott and Clinton Counties. * WHAT...Major flooding is occurring and major flooding is forecast. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until further notice. * IMPACTS...At 13.0 feet, Water affects many residences along the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 13.1 feet. - Forecast...The river is expected to rise to a crest of 13.2 feet this evening. - Flood stage is 11.0 feet.",
+    "latitude": 41.83714285714286,
+    "longitude": -90.69857142857143,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea8fdec7f6d6c27827f4ccc86bd622edc090feca.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-89c0f7f6c0ee",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following river in Illinois... Des Plaines River near Gurnee affecting Lake IL County. * WHAT...Minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Friday evening. * IMPACTS...At 7.0 feet, Forest land inundated near the river in Gurnee. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 6.8 feet. - Forecast...The river is expected to rise above flood stage this evening, and crest at around 7.8 feet early Thursday morning. It will then fall below flood stage Friday afternoon. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 42.32142857142857,
+    "longitude": -87.93571428571428,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0e8b10163ba2b9c8f7d1d91ed6fd7a90daccae32.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f135247fabb1",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers... Scioto River at Piketon. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Scioto River at Piketon. * WHEN...Until Wednesday evening. * IMPACTS...At 21.0 feet, Several roads near the river are flooded, including county roads along creeks emptying into the Scioto River. Ohio Route 220 at River Road is flooded south of Waverly. Scioto and Camp Creek Townships in southern Pike County are most impacted. * ADDITIONAL DETAILS... - At 1:00 PM EDT Tuesday the stage was 21.2 feet. - Forecast...The river is expected to fall below flood stage tomorrow morning and continue falling, remaining below flood stage. - Flood stage is 20.0 feet.",
+    "latitude": 39.01428571428572,
+    "longitude": -82.95714285714287,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b9ae64dde7b85b55294ab9479454a2ec8fb3e9a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-535ba6a4db6d",
+    "type": "weather_alert",
+    "title": "Flood Watch",
+    "description": "...The Flood Watch continues for the following rivers in Missouri... Illinois... Mississippi River at Gregory Landing affecting Clark and Hancock Counties. * WHAT...Flooding is possible. * WHERE...Mississippi River at Gregory Landing. * WHEN...From late Wednesday night to Saturday afternoon. * ADDITIONAL DETAILS... - At 11:30 AM CDT Tuesday the stage was 12.4 feet. - Forecast...Flood stage may be reached Thursday evening. - Flood stage is 15.0 feet.",
+    "latitude": 40.28666666666667,
+    "longitude": -91.46,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39796feb0f2755a088216b60116be59a96836ca3.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-ff2280ffbc6d",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Canton. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Saverton. * WHEN...From Thursday evening to Sunday afternoon. * IMPACTS...At 15.5 feet, An access road to riverside raised homes on the riverward side of the Sny levee begins to flood near this level. * ADDITIONAL DETAILS... - At 8:00 AM CDT Tuesday the stage was 12.7 feet. - Forecast...The river is expected to rise above flood stage Thursday evening to a crest of 16.4 feet early Friday afternoon. It will then fall below flood stage Saturday morning. - Flood stage is 16.0 feet.",
+    "latitude": 39.62428571428571,
+    "longitude": -91.18571428571428,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b16de6cf7028f823f1524b17e40688b47de376.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9e18e9fd50dd",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Canton. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Canton. * WHEN...From late Thursday night to late Saturday night. * IMPACTS...At 14.0 feet, Both banks begin to overflow. * ADDITIONAL DETAILS... - At 8:00 AM CDT Tuesday the stage was 11.8 feet. - Forecast...The river is expected to rise above flood stage early Friday morning to a crest of 15.1 feet Friday morning. It will then fall below flood stage Friday evening. - Flood stage is 15.0 feet.",
+    "latitude": 40.164,
+    "longitude": -91.48400000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b16de6cf7028f823f1524b17e40688b47de376.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-69ac9d491f79",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Canton. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Winfield. * WHEN...From Friday morning to late Sunday night. * IMPACTS...At 27.5 feet, At this stage, Lock and Dam 25 will stockpile 200 tons of sand, 12,000 sandbags, and 10,000 square feet of polyethylene plastic as a precaution. * ADDITIONAL DETAILS... - At 11:30 AM CDT Tuesday the stage was 21.6 feet. - Forecast...The river is expected to rise above flood stage late Friday morning to a crest of 26.3 feet Friday evening. It will then fall below flood stage Saturday evening. - Flood stage is 26.0 feet.",
+    "latitude": 39.05111111111111,
+    "longitude": -90.69999999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b16de6cf7028f823f1524b17e40688b47de376.005.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-25532c348d40",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Canton. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...From Friday morning to late Saturday night. * IMPACTS...At 17.0 feet, John Hay Recreation Area on east side (inside the Illinois Sny Levee) begins flooding. * ADDITIONAL DETAILS... - At 11:15 AM CDT Tuesday the stage was 14.7 feet. - Forecast...The river is expected to rise to a crest of 17.0 feet Friday morning. It will then fall below flood stage Friday evening. - Flood stage is 17.0 feet.",
+    "latitude": 39.7475,
+    "longitude": -91.36625,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b16de6cf7028f823f1524b17e40688b47de376.004.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1a08d05171dc",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Iowa... Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. Mississippi River at Keithsburg affecting Louisa, Henderson, Mercer and Des Moines Counties. ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Burlington. * WHEN...From Wednesday afternoon to late Friday night. * IMPACTS...At 15.0 feet, Agricultural flooding occurs. * ADDITIONAL DETAILS... - At 11:00 AM CDT Tuesday the stage was 13.8 feet. - Forecast...The river is expected to rise above flood stage tomorrow afternoon to a crest of 15.3 feet Thursday morning. It will then fall below flood stage Friday morning. - Flood stage is 15.0 feet.",
+    "latitude": 40.74333333333333,
+    "longitude": -91.15499999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15d47231194509b62f8173ef3f722c8ed7a4793a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2a3e857bd029",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Iowa... Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. Mississippi River at Keithsburg affecting Louisa, Henderson, Mercer and Des Moines Counties. ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Gladstone LD18. * WHEN...From Wednesday morning to Saturday morning. * ADDITIONAL DETAILS... - At 11:30 AM CDT Tuesday the stage was 8.9 feet. - Forecast...The river is expected to rise above flood stage late tomorrow morning to a crest of 10.6 feet Thursday afternoon. It will then fall below flood stage Friday afternoon. - Flood stage is 10.0 feet.",
+    "latitude": 40.898,
+    "longitude": -91.014,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15d47231194509b62f8173ef3f722c8ed7a4793a.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-71c1824d86d2",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "Thunderstorms with heavy rain have ended. Flash flooding is no longer expected to pose a threat, however impacts from earlier flash flooding are likely ongoing. Please continue to heed any remaining road closures. A Flood Watch remains in effect until 600 AM MDT Thursday for portions of central, east central, north central, northeast, northwest, southeast, and west central New Mexico.",
+    "latitude": 35.925,
+    "longitude": -105.31642857142857,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ac10138677bf2ae3567d62d442886c83c6cc6ba.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2a721b08405d",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "The heavy rain has ended. Flooding is no longer expected to pose a threat. Please continue to heed remaining road closures.",
+    "latitude": 33.428333333333335,
+    "longitude": -102.68333333333334,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de2c011bdae4b48e0709e5d5b59c1a38d5e6c328.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-cca4daa94992",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "The affected areas were... Waters from Okaloosa-Walton County Line to Pensacola FL from 20 to 60 NM... The thunderstorm has moved out of the area, thus the warning has been allowed to expire.",
+    "latitude": 29.444444444444443,
+    "longitude": -86.51,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66f3dbd280ed02a2f1c647a92c3d935ad4485264.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-41366c6fd441",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "The heavy rain has ended. Flash flooding is no longer expected to pose a threat. Please continue to heed any remaining road closures. A Flood Watch remains in effect until 600 AM MDT Thursday for portions of central, east central, north central, northeast, northwest, southeast, and west central New Mexico.",
+    "latitude": 34.42375,
+    "longitude": -106.81375,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56b6dc50cd7e40b5b3493f47a388ee443a9bad8f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-67f74c953171",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 717 PM MDT, Doppler radar was tracking a strong thunderstorm 9 miles north of Torrington Municipal Airport, or 9 miles north of Torrington, moving northeast at 25 mph. HAZARD...Wind gusts up to 40 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. This storm will remain over mainly rural areas of southwestern Sioux and east central Goshen Counties.",
+    "latitude": 42.16799999999999,
+    "longitude": -104.056,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88e39235ccf54292295ed2ad2304f3dfcfa6cde6.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b94f1d6451b2",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 714 PM MDT, Doppler radar was tracking a strong thunderstorm near Rawhide Buttes, or 11 miles south of Lusk, moving northeast at 20 mph. HAZARD...Wind gusts up to 50 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Lusk, Rawhide Buttes, and Niobrara County Fairgrounds.",
+    "latitude": 42.604,
+    "longitude": -104.404,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d23973b49db6e9a4aa3ccee36a2edb985e5d7ab6.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-af32dd2deeb4",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...Central Dona Ana County in south central New Mexico... * WHEN...Until 830 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. Water over roadways. * ADDITIONAL DETAILS... - At 707 PM MDT, Thunderstorms with torrential rainfall rates are quickly moving north of Las Cruces. With the torrential rainfall rates, minor road flooding will occur. Arroyos may result in minor flooding at low water crossings on roads north of US-70. - Some locations that will experience flooding include... Leasburg, Dona Ana, East Mesa, Northeast Las Cruces and Hill. - http://www.weather.gov/safety/flood",
+    "latitude": 32.422666666666665,
+    "longitude": -106.804,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8d783afb767dc64242d8bd83397811e901052b0.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c7fd75e4c8d9",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWFGZ The National Weather Service in Flagstaff has issued a * Flash Flood Warning for... Navajo County in north central Arizona... * Until 900 PM MST /1000 PM MDT/. * At 604 PM MST /704 PM MDT/, Doppler radar indicated thunderstorms producing heavy rain across the warned area, southeast of Indian Wells. Between 0.75 and 1.5 inches of rain have fallen. Additional rainfall amounts of 0.75 to 1.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, normally dry washes, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Twin Buttes. This includes the following creeks, washes and rivers... Pueblo Colorado Wash, Steamboat Wash, Bidahochi Wash and Leroux Wash.",
+    "latitude": 35.30533333333334,
+    "longitude": -110.038,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb6271f311e10a67de31ce53e87c8b58bfa9f11b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-3d59af31c50e",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 704 PM MDT, Doppler radar was tracking a strong thunderstorm 10 miles southeast of Jay Em, or 19 miles north of Torrington, moving northeast at 20 mph. HAZARD...Wind gusts up to 50 mph and penny size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Prairie Center and Hwy 85 At Dry Rawhide Creek.",
+    "latitude": 42.354,
+    "longitude": -104.21,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ad958f72551d0c7d6cca57da779f59aafd93c19.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1b68b32f2eb2",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 700 PM MDT, Doppler radar was tracking a strong thunderstorm near Parker, or 20 miles southeast of Denver, moving northeast at 20 mph. HAZARD...Wind gusts up to 40 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Aurora, eastern Centennial, northern Castle Rock, Parker, Lone Tree, Arapahoe Park, The Pinery, Buckley SFB, Ponderosa Park, Franktown, Watkins, Castle Pines and Foxfield.",
+    "latitude": 39.53666666666667,
+    "longitude": -104.78833333333334,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90159936cb08da631a80f67a596fb838783511af.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-685959a8a37d",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Florida... Withlacoochee At US 41 Dunnellon affecting Marion, Citrus and Levy Counties. .The Withlacoochee River at Dunnellon has been steadily rising since July, and on September 15 reached flood stage. The cause of the high water along the Withlacoochee River at Dunnellon is due to excessive hydrilla growth (from the river bottom to the water surface) along a 4.5 mile stretch of river between US 41 and Lake Rousseau. The hydrilla is acting like a dam and holding water back, causing water levels to rise. * WHAT...Minor flooding is occurring and is forecast to continue. * WHERE...Withlacoochee at US 41 Dunnellon. * WHEN...Until further notice. * IMPACTS...At 28.2 feet, Docks and boat ramps flood along the river in Citrus and Marion counties. * ADDITIONAL DETAILS... - At 8:45 PM EDT Tuesday the stage was 28.2 feet. - Bankfull stage is 28.2 feet. - Forecast...The river is expected to hold steady at flood stage. Additional rises are possible. - Flood stage is 28.2 feet. - Flood History...This crest compares to a previous crest of 28.2 feet on 10/02/1979. - https://www.weather.gov/safety/flood",
+    "latitude": 29.028,
+    "longitude": -82.434,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3af3b4692c14c37b79b1106b9dedf890cae70a52.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4645ab98ff9f",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 659 PM MDT, Doppler radar was tracking a strong thunderstorm over Huntley, or 7 miles south of Torrington, moving northeast at 20 mph. HAZARD...Wind gusts up to 40 mph and penny size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Torrington, Lyman, Henry, Huntley, Southern Hills Estates, Torrington Municipal Airport, and Goshen County Fairgrounds.",
+    "latitude": 41.96,
+    "longitude": -104.16,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.48e47e021e8bf07c4b09d77caa16ff84513a9d69.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-86552299f887",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWABQ The National Weather Service in Albuquerque has issued a * Flash Flood Warning for... Northeastern De Baca County in east central New Mexico... Southern Quay County in east central New Mexico... Northwestern Roosevelt County in east central New Mexico... * Until 1000 PM MDT. * At 659 PM MDT, Doppler radar and automated rain gauges indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2.25 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Additional rainfall amounts of 0.5 to 1.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar and automated gauges. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... House.",
+    "latitude": 34.619166666666665,
+    "longitude": -103.89583333333333,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d9d419b8f789c7f0d3e30b2c4bbc69258f685eb.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1a32f16e0eba",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southeastern Spartanburg County in upstate South Carolina... West Central Union SC County in upstate South Carolina... * WHEN...Until 1245 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 849 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 1.5 inches of rain have fallen. - Some locations that will experience flooding include... Cross Anchor and Enoree. - Locations in southern Spartanburg county along Burnt Factory Road, East Blackstock Road, Old Hills Bridge Road, and Grace Chapel Road may see nuisance to minor flooding develop. Locations in far southwestern Union County along Dutchman Creek Road could also see the potential for nuisance to minor flooding to develop. - http://www.weather.gov/safety/flood",
+    "latitude": 34.63611111111111,
+    "longitude": -81.88833333333334,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d529e9db7d68eb779089d9ad0447c92ff7d6fd14.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8d25b20225be",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 845 PM EDT, Doppler radar was tracking a strong thunderstorm over Midtown, or near Kingston, moving south at 10 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Kingston, Rockwood, Fairview, Midtown, Harriman, and Paint Rock.",
+    "latitude": 35.778999999999996,
+    "longitude": -84.576,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d37f741decb7e5c079ae560b82e4f92ef58a33b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-6d1dd58088cd",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWRLX The National Weather Service in Charleston has issued a * Flash Flood Warning for... South Central Fayette County in southeastern West Virginia... Central Raleigh County in southeastern West Virginia... * Until 1145 PM EDT. * At 845 PM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Beckley, Mount Hope, Mabscott, Sophia, Dry Creek, Macarthur, Crab Orchard, Prosperity, Stanaford, Beaver, Bradley, Piney View, Daniels, Coal City, Lester, Glen Daniel and Bolt. This includes the following highways... Route 19 between mile markers 1 and 4. Interstate 64 in West Virginia between mile markers 120 and 127. West Virginia Turnpike between mile markers 37 and 50. Flash flooding is occurring in Beckley.",
+    "latitude": 37.785000000000004,
+    "longitude": -81.27000000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30eddb917afd06e19f2805e24d90f3ea12151b10.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4590c0ddddf7",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 640 PM MDT, Doppler radar was tracking strong thunderstorms along a line extending from 8 miles east of Bondurant to 6 miles south of Big Sandy Opening. Movement was northeast at 25 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could blow around unsecured objects. Strong thunderstorms will be near... Big Sandy Opening, Fremont Lake, New Fork Lake, Willow Lake, Half Moon Lake, and Boulder Lake around 645 PM MDT. Wind River Peak and Cirque Of The Towers around 700 PM MDT. Other locations in the path of these storms include Squaretop Mountain, Fremont Peak and Gannett Peak.",
+    "latitude": 43.02625,
+    "longitude": -109.34625,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14f9248c9668831c600a5824b108ad92655cd891.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1bcf2f412db1",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southeastern Rutherford County in western North Carolina... * WHEN...Until 1130 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 835 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1.5 and 2.5 inches of rain have fallen so far for locations near Cliffside, Ellenboro, Caroleen and Henrietta. Rainfall rates of up to 2.5 inches per hour have been noted at times. Heavy rainfall is tracking westward towards Alexander Mills, Harris, and Forest City. - Some locations that will experience flooding include... Forest City, Spindale, Alexander Mills, Henrietta, Harris, Caroleen and Cliffside. - Locations along Beason Road, Franklin Road, High Shoals Church Road, Dobbins Road, and Old Mooresboro Road in far southeastern Rutherford County could see nuisance to minor flooding develop. - http://www.weather.gov/safety/flood",
+    "latitude": 35.225,
+    "longitude": -81.805,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3854830d3f3c9d8174098b0dee6e66682db1a6c7.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-77cea75cbb0e",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...South Central Jefferson County in central Colorado... South Central Arapahoe County in northeastern Colorado... Central Douglas County in northeastern Colorado... * WHEN...Until 945 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry creeks. Water over some roadways. * ADDITIONAL DETAILS... - At 639 PM MDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.5 and 1.5 inches of rain have fallen. - Some locations that will experience flooding include... Castle Rock, Parker, Lone Tree, Roxborough Park, Sedalia, Louviers, Castle Pines, Sprucewood, Devil's Head, The Pinery, Deckers, Cheesman Reservoir and Shamballa.",
+    "latitude": 39.31375,
+    "longitude": -105.1075,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b063d162dd6264109e8d955c7c55d6a3682dd990.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9a3452a89f04",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Northwestern Ashe County in northwestern North Carolina... North Central Watauga County in northwestern North Carolina... * WHEN...Until 1000 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water over roadways. Overflowing poor drainage areas. * ADDITIONAL DETAILS... - At 839 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1.5 and 3 inches of rain have fallen. - This includes the following streams and drainages... Big Laurel Creek, Call Creek, North Fork New River, Meat Camp Creek, Mill Creek, Naked Creek, Little Phoenix Creek and Hoskin Fork. Additional rainfall amounts up to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Jefferson, West Jefferson, Lansing, Ashland, Clifton, Trout and Shatley Springs. - http://www.weather.gov/safety/flood",
+    "latitude": 36.407,
+    "longitude": -81.65299999999999,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0c6ad5dd3bdea3fd2b82afb0bc0a39dc706d1f7.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-5fc65f135f86",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southwestern Tazewell County in southwestern Virginia... * WHEN...Until 1145 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water over roadways. Overflowing poor drainage areas. * ADDITIONAL DETAILS... - At 838 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 1 inch of rain has fallen. - This includes the following streams and drainages... Little Tumbling Creek, Little River, Indian Creek, Clinch River, Pounding Mill Branch, Tumbling Creek and Laurel Creek. Additional rainfall amounts up to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Claypool Hill. - http://www.weather.gov/safety/flood",
+    "latitude": 37.00111111111111,
+    "longitude": -81.74666666666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.727ebcb5d3248f486f8c608ad13ce7b158c4d918.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-741f93d78d5e",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...Central De Baca County in east central New Mexico... * WHEN...Until 930 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. Overflowing poor drainage areas. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 634 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause arroyo and small stream flooding. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts up to 0.5 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Mainly rural areas of Central De Baca County. - http://www.weather.gov/safety/flood",
+    "latitude": 34.39875,
+    "longitude": -104.46375,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5973f464094521c97cac84e5383fd279e757ec02.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-50fb54398dd9",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Gila County in east central Arizona... Maricopa County in south central Arizona... * WHEN...Until 830 PM MST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. * ADDITIONAL DETAILS... - At 527 PM MST, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in Campaign Creek. Between 0.5 and 1 inch of rain has fallen. - This includes the following streams and drainages... Reavis Creek, Pine Creek and Campaign Creek. Campaign Creek is the most likely place to experience minor flooding. - Some locations that will experience flooding include... Reavis Mountain and Roosevelt Estates. - http://www.weather.gov/safety/flood",
+    "latitude": 33.55555555555556,
+    "longitude": -111.05777777777777,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d9076baacc190e4d7207acafb7a1d439b7c2b67.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-e2b720c17a28",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Significant flooding caused by excessive rainfall continues. * WHERE...Southeastern Athens County in southeastern Ohio... Northeastern Gallia County in southeastern Ohio... Meigs County in southeastern Ohio... Southwestern Washington County in southeastern Ohio... Northwestern Jackson County in northwestern West Virginia... Western Wood County in northwestern West Virginia... North Central Mason County in western West Virginia... * WHEN...Until 900 AM EDT Wednesday. * IMPACTS...Significant flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Numerous roads still remain closed due to significant flooding. * ADDITIONAL DETAILS... - At 821 PM EDT, Department of highways reported numerous roads that were flooded in the warned area due to heavy rain from earlier thunderstorms. Significant flooding is ongoing. - Some locations that will experience flooding include... Athens, Pomeroy, Coolville, Rutland, Forked Run State Park, Mason, Tuppers Plains, Middleport, Chester, Syracuse, Hartford City, Darwin, Harrisonville, Dexter, Dyesville, Reedsville, Portland and Salem Center. - http://www.weather.gov/safety/flood",
+    "latitude": 39.11238095238095,
+    "longitude": -81.93571428571428,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a30febdb0115b89ba6baa7fade26776cdc89b639.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c653a0acd30d",
     "type": "weather_alert",
     "title": "Marine Weather Statement",
-    "description": "The areas affected include... Sebastian Inlet to Jupiter Inlet 0-20 nm... At 636 PM EDT, Doppler radar indicated a strong thunderstorm, capable of producing winds to around 30 knots. This thunderstorm was located near Hobe Sound, moving northeast at 15 knots.",
-    "latitude": 27.21357142857143,
-    "longitude": -80.1707142857143,
+    "description": "A Marine Weather Statement has been issued for the following areas... Sebastian Inlet to Jupiter Inlet 0-20 nm... At 823 PM EDT, Doppler radar indicated a strong thunderstorm, capable of producing winds to around 30 knots. This thunderstorm was located over Fort Pierce. The thunderstorm was nearly stationary.",
+    "latitude": 27.50375,
+    "longitude": -80.15625,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.261daad9a375651ffdd13bb9b67883fc99dddbb4.001.1",
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.203c1502efdfffd6c3735b6ff15ecff25e529e9e.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-16ca6cd7ab2b",
+    "event_id": "SG-ec150dcb6f02",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Central Athens County in southeastern Ohio... Southwestern Morgan County in southeastern Ohio... Northeastern Vinton County in southeastern Ohio... West Central Washington County in southeastern Ohio... * WHEN...Until 900 AM EDT Wednesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is occurring. Numerous roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 820 PM EDT, Department of highways reported flooding was continuing across much of the county from previous heavy rains. Some roads remain closed due to high water. - Some locations that will experience flooding include... Athens, Nelsonville, Lake Hope State Park, Chauncey, Buchtel, Amesville, The Plains, and Stroud Run State Park. - http://www.weather.gov/safety/flood",
+    "latitude": 39.355,
+    "longitude": -82.19916666666667,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3357753fa486cbd06a6b989b23b04f6196449417.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8e3d42835609",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Southeastern Dona Ana County in south central New Mexico... Northwestern El Paso County in western Texas... * WHEN...Until 815 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. Water over roadways. * ADDITIONAL DETAILS... - At 618 PM MDT, Thunderstorms with torrential rainfall rates are converging on the lower Mesilla Valley, Upper Valley, and Northwest El Paso. Rain will be fairly brief, but very intense, leading to localized street flooding, arroyo flows, and flooding in poor drainage areas. - Some locations that will experience flooding include... West El Paso, Anthony, Vado, Santa Teresa, Berino, Canutillo, Chamberino, La Union, Vinton, Westway, Mesquite and San Miguel. - http://www.weather.gov/safety/flood",
+    "latitude": 32.03066666666667,
+    "longitude": -106.614,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.365abe09a2609ffa1328b9aaba5ea2502357ed50.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-73f7dfa30430",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Significant flooding caused by excessive rainfall continues. * WHERE...Southwestern Athens County in southeastern Ohio... Northwestern Meigs County in southeastern Ohio... Northeastern Vinton County in southeastern Ohio... * WHEN...Until 900 AM EDT Wednesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is occurring. Numerous roads remain closed due to flooding. * ADDITIONAL DETAILS... - At 815 PM EDT, Department of highways reported numerous roads that were still flooded in the warned area due to heavy rain from earlier thunderstorms. Flooding is ongoing. - Some locations that will experience flooding include... Mcarthur, Albany, Zaleski, Carpenter, Radcliffe, and Creola. - http://www.weather.gov/safety/flood",
+    "latitude": 39.19777777777777,
+    "longitude": -82.32777777777778,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b87f8af95faa74c4860992814ab564860a9fc85a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-0e1ab12ef42a",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southwestern Cleveland County in the Piedmont of North Carolina... * WHEN...Until 1215 AM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 811 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1.5 and 2.5 inches of rain have fallen. Rainfall rates of 2 to 3 inches per hour have been observed at times. - Some locations that will experience flooding include... Shelby, Boiling Springs NC, Patterson Springs, Lattimore, Mooresboro, Earl and Cliffside. - Locations in Boiling Springs along Rockford Road, Cliffside Road, Patrick Avenue, Mckinney Road, Harrill Road, Franklin Road, College Avenue, and Ben Jones Road could see nuisance to minor flooding develop. - http://www.weather.gov/safety/flood",
+    "latitude": 35.22,
+    "longitude": -81.64777777777778,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62855f917705a43f77616db3a8af1bbfe6b6d41b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9d306ac7b7e3",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...Central San Miguel County in northeastern New Mexico... * WHEN...Until 915 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. * ADDITIONAL DETAILS... - At 608 PM MDT, Doppler radar indicated heavy rain due to thunderstorms around Conchas. This will cause arroyo and small stream flooding. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Conchas Dam, Conchas Lake State Park and Conchas. - http://www.weather.gov/safety/flood",
+    "latitude": 35.46909090909091,
+    "longitude": -104.21545454545453,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab0339dfba4d5406742426c879d8c303f5257e00.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f0326b354b24",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northeastern Braxton County in north central West Virginia... South Central Barbour County in northeastern West Virginia... West Central Randolph County in northeastern West Virginia... Upshur County in northeastern West Virginia... Southeastern Lewis County in northern West Virginia... * WHEN...Until 1100 PM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is occurring. Numerous roads remain closed due to flooding. This includes portions of Sand Run Road and Heavner Grove Road in Buckhannon and Pleasant Ridge in French Creek. * ADDITIONAL DETAILS... - At 755 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Flooding is already occurring in the warned area. Between 1 and 3 inches of rain have fallen. - This includes the following streams and drainages... Laurel Fork Sand Run, Fink Run, Little Laurel Fork, Rooting Creek, West Fork River (SJ Lake), Sugar Run, Left Fork Buckhannon River, Grassy Creek, Little Kanawha River, Indian Fork, Laural Run, Laurel Fork, Right Fork Stonecoal Creek, Skin Creek, Spruce Fork, Frog Run, Jenks Fork, Left Fork Right Fork Buckhannon River, Grassy Run, Long Run, Marsh Fork, Devil Fork, Bearcamp Run, Bens Run, Hackers Creek, Kanawha Run, Getout Run, Little Skin Creek, See Shanty Run, Tenmile Creek, Right Fork Middle Fork River, Lynn Camp Run, Big Run, Turkey Run, Left Fork Sand Run, Mud Lick, Three Forks Run, Threelick Run, Wheeler Fork, Brook Run, Wolfpen Run, Straight Fork, Hickory Flat Run, French Creek, Log Hollow Run, Pecks Run, Redlick Run, Millsite Run, Right Fork Little Kanawha River, Grass Run, Middle Fork River, Right Fork West Fork River, Buckhannon River, Bridge Run, Brush Run, Little Sand Run, Cherry Fork, Middle Fork Right Fork Buckhannon River, Slab Camp Fork, Sugarcamp Run, Laurel Creek, Honey Camp Run, Laurel Run, Sand Run, West Fork River, Knawl Creek, Sand Fork, Right Fork Buckhannon River, Left Fork Knawl Creek, Little Pecks Run, Oil Creek, Elk Creek and Stonecoal Creek. - Some locations that will experience flooding include... Buckhannon, Rock Cave, French Creek, Alton, Tallmansville, Alexander, Lorentz, Overhill, Kanawha Head, Horner, Eden, Walkersville, Ellamore, Hodgesville, Ireland and Helvetia. - This includes the following highways... Interstate 79 near mile marker 87. Route 33 between mile markers 2 and 7...and between mile markers 15 and 17. - http://www.weather.gov/safety/flood",
+    "latitude": 38.928,
+    "longitude": -80.20733333333332,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e914a4efbc4729c507cbffd6af294050caaf910.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8f1744d44dc6",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...Northeastern Colfax County in northeastern New Mexico... * WHEN...Until 800 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. * ADDITIONAL DETAILS... - At 602 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause arroyo and small stream flooding. Up to 1 inch of rain has fallen in the last hour. - Some locations that will experience flooding include... Raton, Sugarite, Sugarite Canyon State Park and Raton Crews Airport. - http://www.weather.gov/safety/flood",
+    "latitude": 36.8275,
+    "longitude": -104.40166666666666,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6081768b4c434cb5efe51d697e40dacb9b2c0cfb.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d3cea1893113",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...East Central Chaves County in southeastern New Mexico... * WHEN...Until 845 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Dangerous flows over low-water crossings. Overflowing poor drainage areas. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 550 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause arroyo and small stream flooding. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Mainly rural areas of East Central Chaves County. - http://www.weather.gov/safety/flood",
+    "latitude": 33.214999999999996,
+    "longitude": -104.0175,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.637c3765176033df11a324051352f3a36e5b1f7d.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-5be3edcf210d",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southeastern Santa Cruz County in southeastern Arizona... * WHEN...Until 930 PM MST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry washes. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 430 PM MST, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 1.3 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Elgin, Lochiel and Canelo. - This includes the following highways... Route 82 between mile markers 25 and 26. Route 83 between mile markers 14 and 24. - http://www.weather.gov/safety/flood",
+    "latitude": 31.506666666666668,
+    "longitude": -110.66333333333334,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.85ff265979bf95aac80e0fb8adad4a3453709ec5.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-67b546806b73",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northern Harnett County in central North Carolina... West Central Johnston County in central North Carolina... South Central Wake County in central North Carolina... * WHEN...Until 1030 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 728 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 2 inches of rain have fallen. - Additional rainfall amounts up to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Lillington, Angier, Coats, Buies Creek, Raven Rock State Park, Coats Crossroads and Seminole. - http://www.weather.gov/safety/flood",
+    "latitude": 35.5,
+    "longitude": -78.77999999999999,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b8db555c715e9df13c079c5663704490f0edc24.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-248adfbc382d",
     "type": "weather_alert",
     "title": "Special Marine Warning",
-    "description": "SMWTAE The National Weather Service in Tallahassee has issued a * Special Marine Warning for... Coastal waters from Okaloosa-Walton County Line to Mexico Beach out 20 NM... Waters from Okaloosa-Walton County Line to Mexico Beach from 20 to 60 NM... * Until 730 PM CDT. * At 535 PM CDT, a strong thunderstorm was located 9 nm southwest of Panama City Beach, moving southwest at 10 knots. HAZARD...Wind gusts 34 knots or greater. SOURCE...Radar indicated. IMPACT...Expect wind gusts in excess of 34 knots...suddenly higher waves...frequent lightning...and heavy downpours. Make sure all on board are wearing life jackets. * The strong thunderstorm will remain over mainly open waters.",
-    "latitude": 29.865,
-    "longitude": -86.16333333333334,
+    "description": "SMWTAE The National Weather Service in Tallahassee has issued a * Special Marine Warning for... Waters from Okaloosa-Walton County Line to Mexico Beach from 20 to 60 NM... * Until 830 PM CDT. * At 627 PM CDT, a strong thunderstorm was located 21 nm southeast of Okaloosa Deep Water Reef, or 30 nm southwest of Panama City Beach, moving southwest at 15 knots. HAZARD...Wind gusts to 40 knots. SOURCE...Radar indicated. IMPACT...Expect wind gusts in excess of 34 knots...suddenly higher waves...frequent lightning...and heavy downpours. Make sure all on board are wearing life jackets. * The strong thunderstorm will remain over mainly open waters.",
+    "latitude": 29.456666666666667,
+    "longitude": -86.30166666666668,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1c2cffc2ca99f33af082f5d0b4c17dfb7b84784.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-3d4d589dd61d",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 533 PM CDT, Doppler radar was tracking a cluster of strong thunderstorms near Pine Island, or 7 miles south of Elton, moving southwest at 15 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Jennings, Welsh, Iowa, Lake Arthur, Mermentau, Fenton, Evangeline, Pine Island, Lebleu Settlement, Lacassine, Hathaway, and Roanoke. This includes Interstate 10 in Louisiana between mile markers 44 and 71.",
-    "latitude": 30.236428571428572,
-    "longitude": -92.81142857142856,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d460c668858fce9df672eca33a08aa1da1e8a48c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-26e21b567d42",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Colleton County in southeastern South Carolina... * WHEN...Until 730 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 628 PM EDT, emergency management reported water on Bells Highway near Exit 57 of Interstate 95 due to heavy downpours. Overflowing poor drainage areas will cause minor flooding across portions of Walterboro, SC. Between 1.5 and 2.5 inches of rain have fallen. - Bells Highway at Exit 57 of Interstate 95 is the most likely place to experience minor flooding. Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Walterboro, Hendersonville, Colleton Medical Center, Thayer, Drawdy and Lowcountry Regional Airport.",
-    "latitude": 32.86235294117647,
-    "longitude": -80.69529411764705,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ce36fee2228d19c9f2e280e3cb6ce0b2d32042fb.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-210b54ff4e3d",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 531 PM CDT, Doppler radar was tracking strong thunderstorms along a line extending from 3 miles east of I10 And I65 to 9 miles east of Fort Morgan. Movement was west at 20 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Bayou La Batre, Dauphin Island, Fort Morgan, Coden, I10 And I65, and Alabama Port.",
-    "latitude": 30.43444444444444,
-    "longitude": -88.06444444444443,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ad323ea0ae0c08f99e88d327c7523c86d668367.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-9670fcb11653",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 429 PM MDT, Doppler radar was tracking strong thunderstorms along a line extending from near Laramie Peak to 10 miles north of Flying X Ranch to near Sybille Canyon. Movement was east at 25 mph. HAZARD...Wind gusts of 50 to 55 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Wheatland, Lakeview North, Bordeaux, Westview Circle, Friend Park Campground, Laramie Peak, Sybille Canyon, Windy Peak, Flying X Ranch, Garrett, Harris Park, Phifer Airfield, Y-O Ranch, and Platte County Fairgrounds.",
-    "latitude": 42.06428571428571,
-    "longitude": -105.26857142857143,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4800a23533cf517249291d87a653438b8a6c9fc.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-952adffac163",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 425 PM MDT, Doppler radar was tracking a strong thunderstorm over Little Cottonwood Creek Valley, or near Sandy, moving north at 30 mph. HAZARD...Half inch hail. SOURCE...Radar indicated. IMPACT...Minor damage to outdoor objects is possible. Locations impacted include... Salt Lake City, Sandy, Draper, Cottonwood Heights, Midvale, Holladay, Emigration Canyon, Millcreek, Mount Olympus, Little Cottonwood Creek Valley, Granite, East Millcreek, Cottonwood West, Canyon Rim, Mill Creek Canyon, Little Cottonwood Canyon, Big Cottonwood Canyon, Sugarhouse, and University Of Utah. This includes Interstate 80 in Utah between mile markers 125 and 135.",
-    "latitude": 40.636,
-    "longitude": -111.772,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9de2b150ed43f0f54ab6d0e8dcb83e3a33e6a911.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-949961673514",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 426 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Mainly rural areas of Central Chaves County.",
-    "latitude": 33.055,
-    "longitude": -104.1075,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4ecc12416fadf64e37fa3512e08d500b584e834.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-57b1d4461b53",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWLCH The National Weather Service in Lake Charles has issued a * Special Marine Warning for... Sabine Lake... * Until 630 PM CDT. * At 526 PM CDT, a strong thunderstorm was located 11 nm northeast of Port Arthur, moving southwest at 10 knots. HAZARD...Wind gusts to 40 knots. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Port Arthur.",
-    "latitude": 29.887777777777778,
-    "longitude": -93.84222222222223,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.714a856d8468dfd207f3e8d1b76108dcd6341aa4.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4e3fb1f9ef3c",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 425 PM MDT, Doppler radar was tracking a strong thunderstorm near Elk Mountain, or 44 miles east of Rawlins, moving northeast at 20 mph. HAZARD...Wind gusts of 50 to 55 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Hanna, Elk Mountain, Fort Steele Historic Site, McFadden, Bow River Campground, Deep Creek Campground, and Arlington.",
-    "latitude": 41.67714285714286,
-    "longitude": -106.38857142857144,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2faa20a35ecc30b649f64e1fab177d083c2acc2.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4f21f82834a1",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 624 PM EDT, Doppler radar was tracking a strong thunderstorm 10 miles northeast of Union, or 5 miles northwest of Lockhart, moving southwest at 10 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Monarch Mill, Adamsburg, and Saratt.",
-    "latitude": 34.83833333333333,
-    "longitude": -81.5125,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32541509e4242e1d3de43c95f9c4355bfbc01a4f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-76b8c97fe9c0",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 524 PM CDT, Doppler radar was tracking a strong thunderstorm over Lamesa Municipal Airport, or near Lamesa, moving west at 10 mph. HAZARD...Wind gusts of 50 to 55 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Lamesa, Lamesa Municipal Airport, Welch, Los Ybanez, Punkin Center, Arvana, and Hancock.",
-    "latitude": 32.818571428571424,
-    "longitude": -101.99571428571429,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.148e82b9482880efabbbb07827188f2f93956f1a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-6e931aebaa7c",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 421 PM MDT, Doppler radar was tracking a strong thunderstorm 8 miles north of Loving, or 10 miles east of Carlsbad, moving northwest at 15 mph. HAZARD...Wind gusts of 50 to 55 mph and penny size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Carlsbad, Avalon, Carlsbad North, Lake Avalon, and Living Desert State Park.",
-    "latitude": 32.452,
-    "longitude": -104.04,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bee1db44a71e3f7191d2206b51ed7500bd039c0e.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-964bf48b840a",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Southern Broward County in southeastern Florida... * WHEN...Until 700 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 619 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 2 and 4 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Davie, Plantation, Lauderhill, Cooper City, Pine Island Ridge, Nova Southeastern University, Sunshine Acres, Royal Palm Ranches and Downtown Davie. - http://www.weather.gov/safety/flood",
-    "latitude": 26.099999999999998,
-    "longitude": -80.26833333333333,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e99289f58dffcc6bb15d5537853fcbf0415c58fc.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-9f0c27607eea",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWLCH The National Weather Service in Lake Charles has issued a * Special Marine Warning for... Calcasieu Lake... Coastal waters from Cameron LA to High Island TX out 20 NM... Coastal waters from Intracoastal City to Cameron LA out 20 NM... * Until 615 PM CDT. * At 520 PM CDT, a strong thunderstorm was located over Cameron, moving south at 10 knots. HAZARD...Wind gusts to 40 knots. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... West Cameron 66, West Cameron 45, West Cameron 65, West Cameron 62, West Cameron 73, West Cameron 110, West Cameron 100, West Cameron 71, and Cameron.",
-    "latitude": 29.768,
-    "longitude": -93.312,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08ed8d0fe4eacfff249240087f03f787d659728e.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-155c7f5790de",
-    "type": "weather_alert",
-    "title": "Special Marine Warning",
-    "description": "SMWLCH The National Weather Service in Lake Charles has issued a * Special Marine Warning for... Atchafalaya and East Cote Blanche Bays... Coastal waters from Lower Atchafalaya River to Intracoastal City LA out 20 NM... Vermilion and West Cote Blanche Bays... * Until 615 PM CDT. * At 516 PM CDT, a strong thunderstorm was located 9 nm southeast of West Cote Blanche Bay, moving southwest at 15 knots. HAZARD...Wind gusts to 40 knots. SOURCE...Radar. IMPACT...Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... South Marsh Island 217, South Marsh Island 239, Eugene Island 24, Eugene Island 28, Eugene Island 30, Eugene Island 74, Eugene Island 32, Eugene Island 42, and Eugene Island 53.",
-    "latitude": 29.475454545454546,
-    "longitude": -91.79727272727273,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.afb3e1ddfaacf6f597329c4ef078ce600cfc79cc.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-3c759b24dd02",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 512 PM CDT, Doppler radar was tracking a strong thunderstorm near Forked Island, moving southwest at 15 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Intracoastal City, Forked Island, and Esther.",
-    "latitude": 29.783333333333335,
-    "longitude": -92.30166666666666,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47f43423400717219193fb0bf78a611ccb3650f0.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-1fc1ec3ac459",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Northeastern Jeff Davis County in southeastern Georgia... * WHEN...Until 845 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 611 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 3 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Hazlehurst. - http://www.weather.gov/safety/flood",
-    "latitude": 31.92157894736842,
-    "longitude": -82.55842105263157,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c2a67c91b37f1241481a3c1bc6e9541430a6f88.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-8d6ed330b5ab",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northern Broward County in southeastern Florida... * WHEN...Until 730 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 605 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 3 inches of rain have fallen. - Additional rainfall amounts of 1 to 3 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Coral Springs, Sunrise, Tamarac, Margate, Lauderhill, Coconut Creek, North Lauderdale, Lauderdale Lakes, Parkland, Broadview-Pompano Park, Godfrey Road, Palm Aire, Village Park and Ramblewood East. - http://www.weather.gov/safety/flood",
-    "latitude": 26.258,
-    "longitude": -80.22,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4922854f3c17203cb71c10164146247e6d59a8a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-987096153328",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 403 PM MDT, Doppler radar and automated rain gauges indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar and automated gauges. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Lake Arthur. This includes Highway 285 between Mile Markers 79 and 85.",
-    "latitude": 33.03,
-    "longitude": -104.36857142857141,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.431552b9aba207ae4e080da26567d391980642d6.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-0c24538b303e",
-    "type": "weather_alert",
-    "title": "Marine Weather Statement",
-    "description": "At 459 PM CDT...A line of strong thunderstorms was located along a line extending from 12 nm northeast of Battleship Park to near Point Clear to near Gulf Shores Beach...moving west at 20 knots. Locations impacted include... Gaillard Island, Pinto Island, East Fowl River Bridge, Sand Island Lighthouse, Bon Secour Bay, Farewell Buoy, Middle Bay Light, Mississippi Sound East Of Pascagoula, Heron Bay, and Battleship Park. The primary threats from these storms are wind gusts up to 30 knots...locally higher waves...and heavy downpours. Boaters should consider seeking safe harbor until these storms have passed.",
-    "latitude": 30.462857142857143,
-    "longitude": -87.93333333333332,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cabd5cad382420988ff77846472fa7c5fdf2c731.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-58b070f978be",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southwestern Isle of Wight County in southeastern Virginia... Southeastern Southampton County in southeastern Virginia... The City of Franklin in southeastern Virginia... The Western City of Suffolk in southeastern Virginia... * WHEN...Until 845 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 543 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Franklin, Windsor, Holland, Downtown Suffolk, Suffolk, Carrsville, Whaleyville, Kings Fork, Hunterdale, Lummis, Boaz, Elwood, Collosse, Somerton, Cleopus, Kilby, Lees Mill, Indika, Nurney and Suffolk Airport. - http://www.weather.gov/safety/flood",
-    "latitude": 36.67190476190476,
-    "longitude": -76.73857142857143,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ac407defd2456e7237470b3c75df10c439d3c0c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-d358d6061737",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 341 PM MDT, the public reported thunderstorms producing heavy rain across the warned area. Between 0.75 and 1.5 inches of rain have fallen. Additional rainfall amounts up to 0.5 inches are possible in the warned area. Flash flooding is already occurring. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Public reported. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Mainly rural areas of West Central Lincoln and South Central Socorro Counties.",
-    "latitude": 33.50625,
-    "longitude": -106.4375,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cca8ecc383db7560e527f5862351b886fb29d83.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-58771af20990",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 340 PM MDT, the public reported thunderstorms producing heavy rain across the warned area. Between 0.75 and 2.25 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Additional rainfall amounts up to 0.5 inches are possible in the warned area. Flash flooding is already occurring. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Public reported. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Oscuro. This includes portions of US Highway 54 south of Carrizozo to the county line.",
-    "latitude": 33.4875,
-    "longitude": -106.06875,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b7bb6961b719dc518022a58c339ae0b61e8002e.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c83e829822c9",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Small stream flooding caused by excessive rainfall is expected. * WHERE...Northeastern Santa Cruz County in southeastern Arizona... * WHEN...Until 445 PM MST. * IMPACTS...Rises in small streams and normally dry washes. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 237 PM MST, Doppler radar indicated heavy rain due to thunderstorms. This will cause small stream flooding. Between 0.5 and 1 inch of rain has fallen. - Some locations that will experience flooding include... Sonoita. - This includes the following highways... Route 82 between mile markers 28 and 35. Route 83 between mile markers 26 and 34. - http://www.weather.gov/safety/flood",
-    "latitude": 31.66,
-    "longitude": -110.66142857142857,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d212795a2b2bc2e20b26edc9e0d390e9d10219d.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-8e73512798f7",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWRLX The National Weather Service in Charleston has issued a * Flash Flood Warning for... Eastern Braxton County in north central West Virginia... West Central Randolph County in northeastern West Virginia... Upshur County in northeastern West Virginia... Northern Webster County in northeastern West Virginia... Southeastern Lewis County in northern West Virginia... * Until 830 PM EDT. * At 530 PM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 3 inches of rain have fallen. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Buckhannon, Rock Cave, Holly River State Park, Burnsville, Flatwoods, Kanawha Head, Eden, Cleveland, Ireland, Walkersville, French Creek, Alexander, Hacker Valley, Alton, Falls Mills, Helvetia, Horner, Lorentz, Tallmansville and Diana. This includes the following highways... Interstate 79 between mile markers 73 and 81...and between mile markers 86 and 87. Route 33 between mile markers 2 and 7...and between mile markers 15 and 17. This includes the following streams and drainages... Hughes Fork, Jerry Run, Laurel Fork Sand Run, Left Fork Buckhannon River, Desert Fork, Falls Run, Jenks Fork, Long Run, Left Fork Falls Run, Marsh Fork, Devil Fork, O'Brien Fork, Hackers Creek, Getout Run, See Shanty Run, Wheeler Fork, Lynn Camp Run, Wolfpen Run, Redlick Run, Hodam Creek, Pecks Run, Browns Run, Buffalo Run, Middle Fork Right Fork Buckhannon River, Little Knawl Creek, West Fork River, Elk Creek, Rooting Creek, Fink Run, Elk River, West Fork River (SJ Lake), Sugar Run, Grassy Creek, Indian Fork, Laural Run, Spruce Fork, Birch River, Bluelick Run, Tenmile Creek, Big Run, Left Fork Sand Run, Hickory Flat Run, French Creek, Middle Fork River, Salt Lick Creek, Little Sand Run, Cherry Fork, Carpenter Fork, Honey Camp Run, Sand Fork, Saltlick Creek, Brooks Creek, Hyers Run, Burns Run, Dumpling Run, Right Fork Holly River, Bragg Run, Skin Creek, Stouts Run, Right Fork Stonecoal Creek, Grassy Run, Berry Fork, Bearcamp Run, Little Skin Creek, Turkey Run, Right Fork Middle Fork River, Mud Lick, Brook Run, Howell Fork, Straight Fork, Right Fork Little Kanawha River, Right Fork West Fork River, Laurel Run, Sand Run, Little Pecks Run, Oil Creek, Flesher Run, Stonecoal Creek, Missouri Creek, Lost Run, Little Laurel Fork, Little Kanawha River, Laurel Fork, Lower Big Run, Frog Run, Left Fork Right Fork Buckhannon River, Left Fork Holly River, Bens Run, Kanawha Run, Threelick Run, Right Fork Little Kanawha, Cedar Creek, Right Fork Laurel Fork, Log Hollow Run, Millsite Run, Grass Run, Buckhannon River, Bridge Run, Brush Run, Slab Camp Fork, Sugarcamp Run, Laurel Creek, Short Run, Knawl Creek, England Run, Right Fork Buckhannon River, Left Fork Wolf Creek, Left Fork Knawl Creek, Three Forks Run and McAvoy Run.",
-    "latitude": 38.855000000000004,
-    "longitude": -80.251875,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f34e5036459169706312a78a789b170de90bf2f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-bdae92220114",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Anson County in central North Carolina... Northwestern Richmond County in central North Carolina... * WHEN...Until 830 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 530 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 2 inches of rain have fallen. - Additional rainfall amounts up to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Wadesboro, Ansonville, Polkton, Lilesville, Peachland, Blewett Falls Lake and White Store. - http://www.weather.gov/safety/flood",
-    "latitude": 35.053,
-    "longitude": -80.033,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99c742e987c45a0b3a6df98efc19af0492d39605.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-bd0cce33663b",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 327 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. Additional rainfall amounts up to 0.25 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Moriarty and Edgewood. This includes Interstate 40 between Mile Markers 188 and 199.",
-    "latitude": 34.99785714285714,
-    "longitude": -106.11500000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc56551935539132622f3562ca776fb9eccce5b0.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-631428071ef3",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 326 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Willard. This includes Highway 60 between Mile Markers 213 and 223.",
-    "latitude": 34.55714285714286,
-    "longitude": -106.02285714285713,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64d23d21c65ca03b83375bc4639e1b78d223f3bc.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-d82a85ef5314",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southeastern Callahan County in west central Texas... * WHEN...Until 630 PM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 425 PM CDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Some locations that will experience flooding include... Cross Plains and Rowden. - http://www.weather.gov/safety/flood",
-    "latitude": 32.156,
-    "longitude": -99.312,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d22b27b05e0ef72b3556baab0b61326efe86d852.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-92c31477929a",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Eastern Fairfield County in central South Carolina... * WHEN...Until 715 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 518 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Winnsboro, Lake Wateree State Park, Longtown, Ridgeway, Smallwood, Winnsboro Mills, Mitford, Fairfield County Detention Center and Fairfield Elementary School. - This includes Interstate 77 between mile markers 31 and 49. - http://www.weather.gov/safety/flood",
-    "latitude": 34.427058823529414,
-    "longitude": -80.94058823529411,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e0bdf088e3c29b2e243c83e6ff63485f1356ff8.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-882702c89927",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northeastern Sierra County in south central New Mexico... * WHEN...Until 515 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 318 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 1 inch of rain has fallen. - Additional rainfall of up to 0.5 inches is expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Mainly rural areas of Northeastern Sierra County. - http://www.weather.gov/safety/flood",
-    "latitude": 33.23444444444445,
-    "longitude": -106.45666666666666,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee65166600d015a41f025d7f68271e47a7fc8c16.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-7fd264d58d42",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...Bernalillo County in central New Mexico... * WHEN...Until 500 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. Dangerous flows over low-water crossings. * ADDITIONAL DETAILS... - At 206 PM MDT, Doppler radar indicated heavy rain due to slow moving thunderstorms near Sedillo. This will cause arroyo and small stream flooding. Between 0.75 and 1.25 inches of rain have fallen. - Additional rainfall amounts of 0.25 to 0.75 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Sedillo. - http://www.weather.gov/safety/flood",
-    "latitude": 35.12,
-    "longitude": -106.27857142857142,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-22T22:58:05.354460+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d4a5e34006edbef75c47b0426908bf097defd0ed.001.1",
+    "timestamp": "2026-09-23T01:25:15.232861+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d4c2d94ad832338141c7bacce20362a99b5ec20f.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
