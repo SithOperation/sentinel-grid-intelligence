@@ -1,47 +1,47 @@
 {
-  "total_events": 1499,
+  "total_events": 1629,
   "event_types": {
-    "earthquake": 139,
-    "wildfire": 1,
-    "weather_alert": 1307,
+    "earthquake": 138,
+    "weather_alert": 1437,
+    "reddit_report": 2,
+    "conflict": 27,
     "humanitarian": 17,
     "europe_security": 3,
-    "reddit_report": 2,
-    "conflict": 26,
-    "tropical_cyclone": 4
+    "tropical_cyclone": 5
   },
   "threat_levels": {
-    "MEDIUM": 1226,
-    "LOW": 4,
-    "HIGH": 266,
-    "CRITICAL": 3
+    "MEDIUM": 1309,
+    "HIGH": 313,
+    "CRITICAL": 3,
+    "LOW": 4
   },
   "priority_levels": {
-    "medium": 1214,
-    "high": 285
+    "medium": 1297,
+    "high": 332
   },
   "sources": {
-    "USGS Earthquake Hazards Program": 139,
-    "NASA EONET": 5,
-    "National Weather Service": 1307,
-    "GDACS": 18,
-    "POLITICO Europe Defence": 3,
+    "USGS Earthquake Hazards Program": 138,
+    "National Weather Service": 1437,
     "Reddit reddit_israel_palestine": 1,
     "BBC World News": 16,
-    "UN News": 9,
+    "GDACS": 18,
+    "UN News": 10,
     "Crisis Group": 1,
+    "POLITICO Europe Defence": 3,
+    "NASA EONET": 5,
     "Reddit reddit_worldnews": 1
   },
   "regions": {
     "Unknown": 178,
-    "United States": 1307,
-    "Russia": 3,
+    "United States": 1437,
     "Ukraine": 3,
     "Iran": 4,
     "Belarus": 1,
     "Finland": 1,
+    "Russia": 2,
     "Israel": 1,
-    "Palestine": 1
+    "Palestine": 1,
+    "Poland": 1
   },
-  "average_confidence": 99.46
+  "average_confidence": 99.49
 }
