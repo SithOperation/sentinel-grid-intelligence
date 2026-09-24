@@ -1,133 +1,5 @@
 [
   {
-    "event_id": "SG-e4a7ea55682a",
-    "type": "earthquake",
-    "title": "M4.4 earthquake — 104 km NNE of San Pedro de Atacama, Chile",
-    "description": "M 4.4 - 104 km NNE of San Pedro de Atacama, Chile",
-    "latitude": -22.0932,
-    "longitude": -67.6971,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-21T17:38:43.165000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tizh",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-08e255f837fd",
-    "type": "europe_security",
-    "title": "How Western tech helps funnel recruits into Russia’s war",
-    "description": "POLITICO Europe Defence reported: A network targeting workers in Africa, Asia and Belarus relies on Western tech and platforms to recruit people for Russia's war effort, according to a new investigation.",
-    "latitude": 53.7,
-    "longitude": 27.9,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-09-21T18:10:13+00:00",
-    "url": "https://www.politico.eu/article/how-western-tech-helps-funnel-recruits-into-russias-war-africa",
-    "classification": "russian_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "RUSSIA",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-167efe1bb140",
-    "location_precision": "country",
-    "europe_layers": [
-      "russian_activity"
-    ]
-  },
-  {
-    "event_id": "SG-ce273871b65a",
-    "type": "earthquake",
-    "title": "M3.8 earthquake — 166 km S of Akhiok, Alaska",
-    "description": "M 3.8 - 166 km S of Akhiok, Alaska",
-    "latitude": 55.453,
-    "longitude": -154.044,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-21T18:26:50.434000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026steqzi",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-1cec3bc0d4e9",
-    "type": "europe_security",
-    "title": "Finland’s Stubb warns Europe not to ‘overreact’ to Russian threats and sabotage",
-    "description": "POLITICO Europe Defence reported: Moscow isn’t seeking a full-scale war with NATO but instead trying to scare Europe into winding down its support for Ukraine, Finnish President tells POLITICO.",
-    "latitude": 64.0,
-    "longitude": 26.0,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-09-21T18:27:12+00:00",
-    "url": "https://www.politico.eu/article/finland-alexander-stubb-warns-europe-overreaction-russia-threats-sabotage",
-    "classification": "russian_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "NATO",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-9c7588d9ed6c",
-    "location_precision": "country",
-    "europe_layers": [
-      "eastern_flank",
-      "nato_activity",
-      "russian_activity"
-    ]
-  },
-  {
-    "event_id": "SG-81758e0b8324",
-    "type": "earthquake",
-    "title": "M2.66 earthquake — 4 km SW of Pāhala, Hawaii",
-    "description": "M 2.7 - 4 km SW of Pāhala, Hawaii",
-    "latitude": 19.1793327331543,
-    "longitude": -155.512329101562,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-21T18:58:13.210000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75041332",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-ea35f4d0de47",
-    "type": "earthquake",
-    "title": "M3.1 earthquake — 77 km WSW of Akhiok, Alaska",
-    "description": "M 3.1 - 77 km WSW of Akhiok, Alaska",
-    "latitude": 56.675,
-    "longitude": -155.339,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-21T19:32:47.655000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026stgwir",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-782839e49d5d",
     "type": "earthquake",
     "title": "M4.4 earthquake — Fiji region",
@@ -638,23 +510,6 @@
     ]
   },
   {
-    "event_id": "SG-51f961cf0317",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois... Rock River near Joslin affecting Whiteside, Henry IL and Rock Island Counties. Rock River at Moline affecting Henry IL and Rock Island Counties. * WHAT...Minor flooding is forecast. * WHERE...Rock River near Joslin. * WHEN...From this afternoon to Thursday afternoon. * IMPACTS...At 13.7 feet, Water affects Barstow Road between Barstow and Osborn. * ADDITIONAL DETAILS... - At 9:45 AM CDT Monday the stage was 10.9 feet. - Forecast...The river is expected to rise above flood stage late this afternoon to a crest of 13.4 feet tomorrow morning. It will then fall below flood stage Thursday morning. - Flood stage is 12.0 feet.",
-    "latitude": 41.568,
-    "longitude": -90.184,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T01:12:59.431018+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c91dbbb5d5ca78f3e4de4bfcb2a588b945ba2a82.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-c95ad55002ce",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -1108,23 +963,6 @@
     "confidence": 100,
     "timestamp": "2026-09-22T11:58:48.481158+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ed01defc641d77d7fa593c1e7abf9598913a661.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-f07dc9ebdf25",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Illinois... Rock River at Moline affecting Rock Island and Henry IL Counties. Rock River near Joslin affecting Rock Island, Henry IL and Whiteside Counties. * WHAT...Minor flooding is forecast. * WHERE...Rock River at Moline. * WHEN...Until Thursday afternoon. * IMPACTS...At 12.5 feet, Water affects some residences in the lower Friendship Farm area. 60th St is under water south of the Green Valley Sports Complex. 56th St along the north side of the river is under water. * ADDITIONAL DETAILS... - At 8:30 PM CDT Monday the stage was 11.4 feet. - Forecast...The river is expected to rise above flood stage late tomorrow morning to a crest of 12.5 feet early Wednesday morning. It will then fall below flood stage Thursday morning. - Flood stage is 12.0 feet.",
-    "latitude": 41.475,
-    "longitude": -90.48,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-22T11:58:48.481158+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca09fbd4870eae8fe1a0bc0d3c6014f76a7f8b32.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -1686,23 +1524,6 @@
     "confidence": 100,
     "timestamp": "2026-09-23T01:25:15.232861+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03226bd34756804c5eedaff87f175f1772b33136.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c4755e75202c",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Louisa and Muscatine Counties. Iowa River at Oakville affecting Louisa County. Iowa River at Wapello affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. * WHAT...Minor flooding is occurring. * WHERE...Iowa River near Lone Tree. * WHEN...Until Thursday afternoon. * IMPACTS...At 16.0 feet, Flood waters affect parts of Lola Lane and Y Avenue. River Junction Access Park is closed. * ADDITIONAL DETAILS... - At 10:00 AM CDT Tuesday the stage was 16.4 feet. - Forecast...The river is expected to rise to a crest of 17.0 feet tomorrow morning. It will then fall below flood stage Thursday morning. - Flood stage is 16.0 feet.",
-    "latitude": 41.41,
-    "longitude": -91.47333333333334,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-23T01:25:15.232861+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03226bd34756804c5eedaff87f175f1772b33136.004.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2845,23 +2666,6 @@
     ]
   },
   {
-    "event_id": "SG-c764ad363cc2",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding due to runoff from excessive rainfall over the last few days is occurring. * WHERE...Central Gallia County in southeastern Ohio... Southeastern Vinton County in southeastern Ohio... * WHEN...Until 300 PM EDT Thursday. * IMPACTS...Flooding along Raccoon Creek and its tributaries is occurring. Numerous roads remain closed due to flooding. Low-water crossings are inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 320 PM EDT, county officials reported that flooding of the Raccoon Creek is occurring across the warned area. State Route 124 in southern Vinton County remains closed due to flooding. In the City of Vinton, State Route 325 at State Route 160 is closed due to flooding. State Route 554 between Rio Grande and Bidwell is closed due to flooding. - The Raccoon Creek gauge at Adamsville is at action stage and continues to slowly rise. - Some locations that will experience flooding include... Rio Grande, Vinton, Wilkesville, Adamsville, and Radcliffe. - http://www.weather.gov/safety/flood",
-    "latitude": 38.895714285714284,
-    "longitude": -82.30785714285715,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-23T23:04:04.714947+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ab51a61df29d308f336037b75998f92ff4a1f6b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-d8dac2c58377",
     "type": "tropical_cyclone",
     "title": "Tropical Storm Nolo",
@@ -3083,23 +2887,6 @@
     ]
   },
   {
-    "event_id": "SG-230295dd2d5f",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Iowa River at Oakville affecting Louisa County. Iowa River at Wapello affecting Louisa County. English River at Kalona affecting Johnson and Washington Counties. ...The Flood Warning continues for the following rivers in Iowa... Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. * WHAT...Minor flooding is occurring and will continue. * WHERE...Iowa River near Lone Tree. * WHEN...Until Thursday afternoon. * IMPACTS...At 16.0 feet, Flood waters affect parts of Lola Lane and Y Avenue. River Junction Access Park is closed. * ADDITIONAL DETAILS... - At 9:00 AM CDT Wednesday the stage was 16.4 feet. - Forecast...The river is expected to fall below flood stage tomorrow morning and continue falling. - Flood stage is 16.0 feet.",
-    "latitude": 41.41,
-    "longitude": -91.47333333333334,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T01:26:07.814535+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b04d12c278930f5f949f74473d3f4fa61c26f995.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-735babe42448",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -3111,23 +2898,6 @@
     "confidence": 100,
     "timestamp": "2026-09-24T01:26:07.814535+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.81272846dca5e402176406648b1a8adf0faaf1c8.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-41a7c727db76",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southwestern Chaves County in southeastern New Mexico... * WHEN...Until 1230 PM MDT Thursday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Expect many areas of slow moving or standing water. * ADDITIONAL DETAILS... - At 1226 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. Flooding is already occurring within and along the Rio Penasco in the warned area. Between 0.75 and 2 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1.5 inches are possible in the warned area. - Some locations that will experience flooding include... Dunken and Elk. - http://www.weather.gov/safety/flood",
-    "latitude": 32.864117647058826,
-    "longitude": -105.13,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T01:26:07.814535+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc9ab90c9cca9b3f61a28105084aaae376302b31.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -3338,6 +3108,23 @@
     ]
   },
   {
+    "event_id": "SG-0f6f51341875",
+    "type": "earthquake",
+    "title": "M3.8 earthquake — 151 km S of False Pass, Alaska",
+    "description": "M 3.8 - 151 km S of False Pass, Alaska",
+    "latitude": 53.5,
+    "longitude": -163.701,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T07:22:15.885000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sxwopr",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-d5e0dd282c99",
     "type": "earthquake",
     "title": "M5.3 earthquake — 15 km SSW of Hilvan, Turkey",
@@ -3355,7 +3142,7 @@
     ]
   },
   {
-    "event_id": "SG-f9060ef3444e",
+    "event_id": "SG-ba81f879f796",
     "type": "earthquake",
     "title": "M2.7 earthquake — 30 km SW of Garden City, Texas",
     "description": "M 2.7 - 30 km SW of Garden City, Texas",
@@ -3366,6 +3153,23 @@
     "confidence": 100,
     "timestamp": "2026-09-24T09:38:10.067000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026svaiir",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-e5e2bac33754",
+    "type": "earthquake",
+    "title": "M3.2 earthquake — 216 km SSE of Akhiok, Alaska",
+    "description": "M 3.2 - 216 km SSE of Akhiok, Alaska",
+    "latitude": 55.076,
+    "longitude": -153.225,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T09:55:04.538000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sybrit",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -3400,6 +3204,23 @@
     "confidence": 100,
     "timestamp": "2026-09-24T11:08:24.838000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txb3",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-65a1d488ee35",
+    "type": "earthquake",
+    "title": "M3.5 earthquake — 119 km ESE of Nikolski, Alaska",
+    "description": "M 3.5 - 119 km ESE of Nikolski, Alaska",
+    "latitude": 52.396,
+    "longitude": -167.34,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T11:34:12.607000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026syezcx",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -3450,6 +3271,23 @@
     "europe_layers": [
       "cyber_activity",
       "russian_activity"
+    ]
+  },
+  {
+    "event_id": "SG-5ebbfc2715f7",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — 106 km SW of Puerto Madero, Mexico",
+    "description": "M 4.5 - 106 km SW of Puerto Madero, Mexico",
+    "latitude": 14.1475,
+    "longitude": -93.213,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T14:02:42.293000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txc1",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
@@ -3504,6 +3342,23 @@
     ]
   },
   {
+    "event_id": "SG-1b8b680926be",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Australia",
+    "description": "On 23/09/2026, a forest fire started in Australia, until 23/09/2026.",
+    "latitude": -20.348898181535894,
+    "longitude": 129.92619584103966,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-24T15:00:33+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032363",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
     "event_id": "SG-9c5a6ba3b083",
     "type": "europe_security",
     "title": "Le Pen says she won’t leave NATO until Russia’s war in Ukraine ends",
@@ -3552,139 +3407,71 @@
     ]
   },
   {
-    "event_id": "SG-5b77e3dfb7ad",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... Withlacoochee At US 41 Dunnellon affecting Marion, Levy and Citrus Counties. .The Withlacoochee River at Dunnellon has been steadily rising since July, and on September 15 reached flood stage. The cause of the high water along the Withlacoochee River at Dunnellon is due to excessive hydrilla growth (from the river bottom to the water surface) along a 4.5 mile stretch of river between US 41 and Lake Rousseau. The hydrilla is acting like a dam and holding water back, causing water levels to rise. * WHAT...Minor flooding is forecast. * WHERE...Withlacoochee at US 41 Dunnellon. * WHEN...Until further notice. * IMPACTS...At 28.2 feet, Docks and boat ramps flood along the river in Citrus and Marion counties. * ADDITIONAL DETAILS... - At 9:45 AM EDT Thursday the stage was 28.2 feet. - Bankfull stage is 28.2 feet. - Forecast...The river is expected to remain steady above flood stage at around 28.2 feet through the next 5 days. Additional fluctuations are possible thereafter. - Flood stage is 28.2 feet. - Flood History...This crest compares to a previous crest of 28.2 feet on 10/02/1979. - https://www.weather.gov/safety/flood",
-    "latitude": 29.028,
-    "longitude": -82.434,
-    "priority": "high",
-    "threat_level": "HIGH",
+    "event_id": "SG-a19026061704",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 119 km SW of Abepura, Indonesia",
+    "description": "M 4.6 - 119 km SW of Abepura, Indonesia",
+    "latitude": -3.243,
+    "longitude": 139.7677,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cde4b599c92ad3912dad22ba7ef69b83f83cf451.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-24T16:28:00.188000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txcw",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-38c2dede70f4",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding due to runoff from excessive rainfall over the last few days is occurring. * WHERE...Central Gallia County in southeastern Ohio... Southeastern Vinton County in southeastern Ohio... * WHEN...Until 300 PM EDT Thursday. * IMPACTS...Flooding along Raccoon Creek and its tributaries is occurring. Numerous roads remain closed due to flooding. Low-water crossings are inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 720 PM EDT, county officials reported that flooding of the Raccoon Creek is occurring across the warned area. State Route 124 in southern Vinton County remains closed due to flooding. In the City of Vinton, State Route 325 at State Route 160 is closed due to flooding. State Route 554 between Rio Grande and Bidwell is closed due to flooding. - The Raccoon Creek gauge at Adamsville has breached action stage and continues to slowly rise. - Some locations that will experience flooding include... Rio Grande, Vinton, Wilkesville, Adamsville, and Radcliffe. - http://www.weather.gov/safety/flood",
-    "latitude": 38.895714285714284,
-    "longitude": -82.30785714285715,
-    "priority": "high",
-    "threat_level": "CRITICAL",
+    "event_id": "SG-9159388e9c6a",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 21 km NNW of Rioblanco, Colombia",
+    "description": "M 4.6 - 21 km NNW of Rioblanco, Colombia",
+    "latitude": 3.6948,
+    "longitude": -75.7529,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ef230cda8fd1d1d6177d7a95ff30cb6d546839a4.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-24T16:46:31.662000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txdb",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-0f7db2c1c579",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Indiana... Ohio... Wabash River near Linn Grove affecting Wells and Adams Counties. Saint Marys River at St. Mary's River near Fort Wayne affecting Allen IN County. Saint Marys River near Decatur affecting Allen IN, Adams and Van Wert Counties. For the Wabash River...including Linn Grove, Bluffton IN, Wabash, Logansport...Minor flooding is forecast. For the Saint Marys River...including Decatur, St. Mary's River near Fort Wayne...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Saint Marys River at St. Mary's River near Fort Wayne. * WHEN...Until this evening. * IMPACTS...At 14.0 feet, Flooding occurs in parks and low farmland throughout southern Allen County. The City of Fort Wayne starts 24 hour flood fighting procedures. * ADDITIONAL DETAILS... - At 11:00 AM EDT Thursday the stage was 14.5 feet. - Forecast...The river is expected to fall below flood stage this evening and continue falling to 7.1 feet Tuesday morning. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 41.02428571428572,
-    "longitude": -85.12571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
+    "event_id": "SG-7dfbdf516290",
+    "type": "earthquake",
+    "title": "M3.7 earthquake — 155 km SW of Nikolski, Alaska",
+    "description": "M 3.7 - 155 km SW of Nikolski, Alaska",
+    "latitude": 52.172,
+    "longitude": -170.778,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4061ddb21020f04760afb57ed1a5c8dd1bc48026.001.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-24T16:52:48.055000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sypoor",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
-    "event_id": "SG-334c30cbbb5e",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Indiana... Ohio... Wabash River near Linn Grove affecting Wells and Adams Counties. Saint Marys River at St. Mary's River near Fort Wayne affecting Allen IN County. Saint Marys River near Decatur affecting Allen IN, Adams and Van Wert Counties. For the Wabash River...including Linn Grove, Bluffton IN, Wabash, Logansport...Minor flooding is forecast. For the Saint Marys River...including Decatur, St. Mary's River near Fort Wayne...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River near Linn Grove. * WHEN...Until Friday morning. * IMPACTS...At 12.0 feet, The flooding of county roads begin. * ADDITIONAL DETAILS... - At 10:45 AM EDT Thursday the stage was 11.8 feet. - Forecast...The river is expected to fall below flood stage tomorrow morning and continue falling to 7.0 feet Tuesday morning. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 40.67,
-    "longitude": -85.05799999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
+    "event_id": "SG-98c1edcf2e14",
+    "type": "earthquake",
+    "title": "M2.7 earthquake — 31 km SW of Garden City, Texas",
+    "description": "M 2.7 - 31 km SW of Garden City, Texas",
+    "latitude": 31.676,
+    "longitude": -101.727,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4061ddb21020f04760afb57ed1a5c8dd1bc48026.003.1",
-    "classification": "severe_weather_alert",
+    "timestamp": "2026-09-24T17:23:29.606000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026svpsys",
+    "classification": "seismic_event",
     "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-196fe6b657aa",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Illinois... Mississippi River at Burlington affecting Lee, Des Moines, Hancock and Henderson Counties. ...The Flood Warning continues for the following rivers in Iowa... Illinois...Missouri... Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Minor flooding is occurring. * WHERE...Mississippi River at Gladstone LD18. * WHEN...Until Saturday morning. * ADDITIONAL DETAILS... - At 10:30 AM CDT Thursday the stage was 10.2 feet. - Forecast...The river is expected to rise to a crest of 10.2 feet this afternoon. It will then fall below flood stage early tomorrow afternoon. - Flood stage is 10.0 feet.",
-    "latitude": 40.898,
-    "longitude": -91.014,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27a88fa0fb471b6681202d1018f8aa998b1dd3bd.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-493a29314277",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Illinois... Mississippi River at Burlington affecting Lee, Des Moines, Hancock and Henderson Counties. ...The Flood Warning continues for the following rivers in Iowa... Illinois...Missouri... Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Gregory Landing. * WHEN...From Friday afternoon to Friday night. * ADDITIONAL DETAILS... - At 10:30 AM CDT Thursday the stage was 13.9 feet. - Forecast...The river is expected to rise to a crest of 15.0 feet early tomorrow afternoon. - Flood stage is 15.0 feet.",
-    "latitude": 40.28666666666667,
-    "longitude": -91.46,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27a88fa0fb471b6681202d1018f8aa998b1dd3bd.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-2f614efa1452",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Illinois... Mississippi River at Burlington affecting Lee, Des Moines, Hancock and Henderson Counties. ...The Flood Warning continues for the following rivers in Iowa... Illinois...Missouri... Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Minor flooding is occurring. * WHERE...Mississippi River at Burlington. * WHEN...Until late Friday night. * IMPACTS...At 15.0 feet, agricultural flooding occurs. * ADDITIONAL DETAILS... - At 10:00 AM CDT Thursday the stage was 15.1 feet. - Forecast...The river is expected to rise to a crest of 15.1 feet this afternoon. It will then fall below flood stage tomorrow morning. - Flood stage is 15.0 feet.",
-    "latitude": 40.74333333333333,
-    "longitude": -91.15499999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27a88fa0fb471b6681202d1018f8aa998b1dd3bd.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c8307cfcc65e",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Iowa... Cedar River near Conesville affecting Louisa and Muscatine Counties. * WHAT...Minor flooding is occurring. * WHERE...Cedar River near Conesville. * WHEN...Until this evening. * IMPACTS...At 13.0 feet, water affects Edgewater Road and 245th Street near Conesville. * ADDITIONAL DETAILS... - At 9:00 AM CDT Thursday the stage was 13.1 feet. - Forecast...The river is expected to fall below flood stage this afternoon and continue falling. - Flood stage is 13.0 feet.",
-    "latitude": 41.445,
-    "longitude": -91.24166666666667,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0f57d2a931b123f0620345fcc4cb8054bc9a5af.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
+      "USGS Earthquake Hazards Program"
     ]
   },
   {
@@ -3756,159 +3543,6 @@
     ]
   },
   {
-    "event_id": "SG-68ba653443ae",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Scott and Clinton Counties. * WHAT...Major flooding is occurring and will continue. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until Wednesday evening. * IMPACTS...At 13.0 feet, Water affects many residences along the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Thursday the stage was 13.1 feet. - Forecast...The river is expected to fall very slowly over the next several days. - Flood stage is 11.0 feet.",
-    "latitude": 41.83714285714286,
-    "longitude": -90.69857142857143,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b9c33892c3bb15332068d255203d1d0c079edb3.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-cd0abe5b31a2",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Northeastern Roane County in central West Virginia... Western Braxton County in north central West Virginia... Calhoun County in north central West Virginia... Gilmer County in north central West Virginia... South Central Ritchie County in northwestern West Virginia... * WHEN...Until 1015 PM EDT Thursday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 1215 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. - Some locations that will experience flooding include... Glenville, Sutton, Grantsville, Gassaway, Cedar Creek State Park, Arnoldsburg, Normantown, Stumptown, Shock, Rosedale, Nicut, Millstone, Cedarville, Tanner, Mount Zion, Orma, Wilsie, Big Springs, Burnt House and Frametown. - http://www.weather.gov/safety/flood",
-    "latitude": 38.873333333333335,
-    "longitude": -81.12111111111112,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b60c4269ee7968531cda2c751d38850b862723b9.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c9f8b91c31e6",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. For the Des Plaines River...including Russell, Gurnee, Lincolnshire, Des Plaines, River Forest, Riverside...Moderate flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Sunday afternoon. * IMPACTS...At 9.0 feet, Kilbourne Road and Emerald Avenue threatened near Grand Avenue in Gurnee. * ADDITIONAL DETAILS... - At 10:30 AM CDT Thursday the stage was 8.2 feet. - Forecast...The river is expected to rise to a crest near 8.2 feet this afternoon. It will then fall below flood stage later this weekend. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 42.32142857142857,
-    "longitude": -87.93571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b27f8f406ffaecbd4b82dc6639c78ffa8cce751f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4b57edead2aa",
-    "type": "weather_alert",
-    "title": "Hurricane Watch",
-    "description": "* LOCATIONS AFFECTED - Kamuela - Hawi - Honokaa * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 35-45 mph with gusts to 70 mph - Window for Tropical Storm force winds: Friday morning until Sunday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 58 to 73 mph - The wind threat has increased from the previous assessment. - PLAN: Plan for dangerous wind of equivalent strong tropical storm force. - PREPARE: Remaining efforts to protect life and property should be completed as soon as possible. Prepare for significant wind damage. - ACT: Move to safe shelter before the wind becomes hazardous. - POTENTIAL IMPACTS: Significant - Some damage to roofing and siding materials, along with damage to porches, awnings, carports, and sheds. A few buildings experiencing window, door, and garage door failures. Mobile homes damaged, especially if unanchored. Unsecured lightweight objects become dangerous projectiles. - Several large trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Several fences and roadway signs blown over. - Some roads impassable from large debris, and more within urban or heavily wooded places. A few bridges, causeways, and access routes impassable. - Scattered power and communications outages, but more prevalent in areas with above ground lines. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 6-10 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tor",
-    "latitude": 20.102382352941177,
-    "longitude": -155.6119117647059,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.005.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-01311f67638a",
-    "type": "weather_alert",
-    "title": "Hurricane Watch",
-    "description": "* LOCATIONS AFFECTED - Kailua-Kona - Captain Cook - Milolii * WIND - LATEST LOCAL FORECAST: Below tropical storm force wind - Peak Wind Forecast: 25-35 mph with gusts to 50 mph - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind greater than 110 mph - The wind threat has increased from the previous assessment. - PLAN: Plan for extreme wind of equivalent CAT 3 hurricane force or higher. - PREPARE: Remaining efforts to protect life and property should be urgently completed. Prepare for catastrophic wind damage. - ACT: Move to safe shelter before the wind becomes hazardous. - POTENTIAL IMPACTS: Devastating to Catastrophic - Structural damage to sturdy buildings, some with complete roof and wall failures. Complete destruction of mobile homes. Damage greatly accentuated by large airborne projectiles. Locations may be uninhabitable for weeks or months. - Numerous large trees snapped or uprooted along with fences and roadway signs blown over. - Many roads impassable from large debris, and more within urban or heavily wooded places. Many bridges, causeways, and access routes impassable. - Widespread power and communications outages. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 4-8 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, ",
-    "latitude": 19.410293103448275,
-    "longitude": -155.92127586206897,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-73d977265e04",
-    "type": "weather_alert",
-    "title": "Hurricane Watch",
-    "description": "* LOCATIONS AFFECTED - Hawaiian Ocean View Estates * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 45-55 mph with gusts to 80 mph - Window for Tropical Storm force winds: Friday afternoon until early Sunday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind greater than 110 mph - The wind threat has increased from the previous assessment. - PLAN: Plan for extreme wind of equivalent CAT 3 hurricane force or higher. - PREPARE: Efforts to protect life and property should now be underway. Prepare for catastrophic wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Devastating to Catastrophic - Structural damage to sturdy buildings, some with complete roof and wall failures. Complete destruction of mobile homes. Damage greatly accentuated by large airborne projectiles. Locations may be uninhabitable for weeks or months. - Numerous large trees snapped or uprooted along with fences and roadway signs blown over. - Many roads impassable from large debris, and more within urban or heavily wooded places. Many bridges, causeways, and access routes impassable. - Widespread power and communications outages. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 10-15 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and com",
-    "latitude": 19.0544375,
-    "longitude": -155.7310625,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-98e9cdac2178",
-    "type": "weather_alert",
-    "title": "Hurricane Watch",
-    "description": "* LOCATIONS AFFECTED - Kawaihae - Waikoloa Village - Mahukona * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 35-45 mph with gusts to 60 mph - Window for Tropical Storm force winds: early Saturday morning until Sunday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 58 to 73 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for dangerous wind of equivalent strong tropical storm force. - PREPARE: Efforts to protect life and property should now be underway. Prepare for significant wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Significant - Some damage to roofing and siding materials, along with damage to porches, awnings, carports, and sheds. A few buildings experiencing window, door, and garage door failures. Mobile homes damaged, especially if unanchored. Unsecured lightweight objects become dangerous projectiles. - Several large trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Several fences and roadway signs blown over. - Some roads impassable from large debris, and more within urban or heavily wooded places. A few bridges, causeways, and access routes impassable. - Scattered power and communications outages, but more prevalent in areas with above ground lines. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 2-4 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurre",
-    "latitude": 19.91949019607843,
-    "longitude": -155.84113725490195,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.006.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-841f22e6db10",
-    "type": "weather_alert",
-    "title": "Hurricane Watch",
-    "description": "* LOCATIONS AFFECTED - Hilo - Pahoa - Volcano * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 30-40 mph with gusts to 60 mph - Window for Tropical Storm force winds: Friday afternoon until Saturday evening - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 58 to 73 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for dangerous wind of equivalent strong tropical storm force. - PREPARE: Efforts to protect life and property should now be underway. Prepare for significant wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Significant - Some damage to roofing and siding materials, along with damage to porches, awnings, carports, and sheds. A few buildings experiencing window, door, and garage door failures. Mobile homes damaged, especially if unanchored. Unsecured lightweight objects become dangerous projectiles. - Several large trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Several fences and roadway signs blown over. - Some roads impassable from large debris, and more within urban or heavily wooded places. A few bridges, causeways, and access routes impassable. - Scattered power and communications outages, but more prevalent in areas with above ground lines. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 18-24 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated to",
-    "latitude": 19.696209677419354,
-    "longitude": -155.10867741935482,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.004.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-aa07ea1b6287",
-    "type": "weather_alert",
-    "title": "Hurricane Watch",
-    "description": "* LOCATIONS AFFECTED - Mauna Kea Summit - Mauna Loa Summit * WIND - LATEST LOCAL FORECAST: Equivalent Cat 1 Hurricane force wind - Peak Wind Forecast: 55-75 mph with gusts to 95 mph - Window for Tropical Storm force winds: late this afternoon until Sunday morning - Window for Hurricane force winds: Friday evening until early Saturday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 74 to 110 mph - The wind threat has increased from the previous assessment. - PLAN: Plan for life-threatening wind of equivalent CAT 1 or 2 hurricane force. - PREPARE: Remaining efforts to protect life and property should be urgently completed. Prepare for considerable wind damage. - ACT: Move to safe shelter before the wind becomes hazardous. - POTENTIAL IMPACTS: Extensive - Considerable roof damage to sturdy buildings, with some having window, door, and garage door failures leading to structural damage. Mobile homes severely damaged, with some destroyed. Damage accentuated by airborne projectiles. Locations may be uninhabitable for weeks. - Many large trees snapped or uprooted along with fences and roadway signs blown over. - Some roads impassable from large debris, and more within urban or heavily wooded places. Several bridges, causeways, and access routes impassable. - Large areas with power and communications outages. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 10-15 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and small boats pulled from moorings. * FOR MORE INFORMATION: - https://www.weather.gov/hfo",
-    "latitude": 19.62421875,
-    "longitude": -155.52621875,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.008.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-dec477bc7ab1",
     "type": "weather_alert",
     "title": "Flood Watch",
@@ -3926,6 +3560,414 @@
     ]
   },
   {
+    "event_id": "SG-1dc0488d8bc2",
+    "type": "earthquake",
+    "title": "M2.7 earthquake — 34 km ESE of Pedro Bay, Alaska",
+    "description": "M 2.7 - 34 km ESE of Pedro Bay, Alaska",
+    "latitude": 59.671,
+    "longitude": -153.546,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T17:52:17.387000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026syrpcd",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-402ccf86635a",
+    "type": "earthquake",
+    "title": "M3.4 earthquake — 33 km SSE of Hope, New Mexico",
+    "description": "M 3.4 - 33 km SSE of Hope, New Mexico",
+    "latitude": 32.5187,
+    "longitude": -104.6362,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T17:56:13.809000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txf7",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-518e5c31877c",
+    "type": "earthquake",
+    "title": "M3.04 earthquake — 56 km ENE of Punta Cana, Dominican Republic",
+    "description": "M 3.0 - 56 km ENE of Punta Cana, Dominican Republic",
+    "latitude": 18.7776666666667,
+    "longitude": -67.91,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T17:57:29.290000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534418",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-98694bdb9364",
+    "type": "earthquake",
+    "title": "M5.1 earthquake — 32 km S of Kokopo, Papua New Guinea",
+    "description": "M 5.1 - 32 km S of Kokopo, Papua New Guinea",
+    "latitude": -4.6356,
+    "longitude": 152.2767,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T18:00:47.703000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txf9",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-6c89e8978f62",
+    "type": "earthquake",
+    "title": "M2.47 earthquake — 7 km SE of Pinnacles, CA",
+    "description": "M 2.5 - 7 km SE of Pinnacles, CA",
+    "latitude": 36.4798316955566,
+    "longitude": -121.095832824707,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T18:27:09.070000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75440987",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-5aecb9f5bf25",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Kenya",
+    "description": "On 23/09/2026, a forest fire started in Kenya, until 24/09/2026.",
+    "latitude": -3.90290572739916,
+    "longitude": 38.281262484606756,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-24T19:00:31+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032376",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-406226e39f41",
+    "type": "earthquake",
+    "title": "M2.6 earthquake — 60 km SW of Cantwell, Alaska",
+    "description": "M 2.6 - 60 km SW of Cantwell, Alaska",
+    "latitude": 63.084,
+    "longitude": -149.943,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:18:27.490000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sywlqq",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-3181b38c413e",
+    "type": "earthquake",
+    "title": "M3.2 earthquake — 30 km SW of Garden City, Texas",
+    "description": "M 3.2 - 30 km SW of Garden City, Texas",
+    "latitude": 31.689,
+    "longitude": -101.7308,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:33:22.188000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txgd",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-0505432e1f96",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Florida... Withlacoochee At US 41 Dunnellon affecting Marion, Levy and Citrus Counties. .The Withlacoochee River at Dunnellon has been steadily rising since July, and on September 15 reached flood stage. The cause of the high water along the Withlacoochee River at Dunnellon is due to excessive hydrilla growth (from the river bottom to the water surface) along a 4.5 mile stretch of river between US 41 and Lake Rousseau. The hydrilla is acting like a dam and holding water back, causing water levels to rise. * WHAT...Minor flooding is forecast. * WHERE...Withlacoochee at US 41 Dunnellon. * WHEN...Until further notice. * IMPACTS...At 28.2 feet, Docks and boat ramps flood along the river in Citrus and Marion counties. * ADDITIONAL DETAILS... - At 9:45 AM EDT Thursday the stage was 28.2 feet. - Bankfull stage is 28.2 feet. - Forecast...The river is expected to remain steady above flood stage at around 28.2 feet through the next 5 days. Additional fluctuations are possible thereafter. - Flood stage is 28.2 feet. - Flood History...This crest compares to a previous crest of 28.2 feet on 10/02/1979. - https://www.weather.gov/safety/flood",
+    "latitude": 29.028,
+    "longitude": -82.434,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cde4b599c92ad3912dad22ba7ef69b83f83cf451.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-0a556d94f0fa",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Indiana... Ohio... Wabash River near Linn Grove affecting Wells and Adams Counties. Saint Marys River at St. Mary's River near Fort Wayne affecting Allen IN County. Saint Marys River near Decatur affecting Allen IN, Adams and Van Wert Counties. For the Wabash River...including Linn Grove, Bluffton IN, Wabash, Logansport...Minor flooding is forecast. For the Saint Marys River...including Decatur, St. Mary's River near Fort Wayne...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Saint Marys River at St. Mary's River near Fort Wayne. * WHEN...Until this evening. * IMPACTS...At 14.0 feet, Flooding occurs in parks and low farmland throughout southern Allen County. The City of Fort Wayne starts 24 hour flood fighting procedures. * ADDITIONAL DETAILS... - At 11:00 AM EDT Thursday the stage was 14.5 feet. - Forecast...The river is expected to fall below flood stage this evening and continue falling to 7.1 feet Tuesday morning. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 41.02428571428572,
+    "longitude": -85.12571428571428,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4061ddb21020f04760afb57ed1a5c8dd1bc48026.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-efff5c594a3b",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Indiana... Ohio... Wabash River near Linn Grove affecting Wells and Adams Counties. Saint Marys River at St. Mary's River near Fort Wayne affecting Allen IN County. Saint Marys River near Decatur affecting Allen IN, Adams and Van Wert Counties. For the Wabash River...including Linn Grove, Bluffton IN, Wabash, Logansport...Minor flooding is forecast. For the Saint Marys River...including Decatur, St. Mary's River near Fort Wayne...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Wabash River near Linn Grove. * WHEN...Until Friday morning. * IMPACTS...At 12.0 feet, The flooding of county roads begin. * ADDITIONAL DETAILS... - At 10:45 AM EDT Thursday the stage was 11.8 feet. - Forecast...The river is expected to fall below flood stage tomorrow morning and continue falling to 7.0 feet Tuesday morning. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 40.67,
+    "longitude": -85.05799999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4061ddb21020f04760afb57ed1a5c8dd1bc48026.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-17e5d4444bdd",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Illinois... Mississippi River at Burlington affecting Lee, Des Moines, Hancock and Henderson Counties. ...The Flood Warning continues for the following rivers in Iowa... Illinois...Missouri... Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Minor flooding is occurring. * WHERE...Mississippi River at Gladstone LD18. * WHEN...Until Saturday morning. * ADDITIONAL DETAILS... - At 10:30 AM CDT Thursday the stage was 10.2 feet. - Forecast...The river is expected to rise to a crest of 10.2 feet this afternoon. It will then fall below flood stage early tomorrow afternoon. - Flood stage is 10.0 feet.",
+    "latitude": 40.898,
+    "longitude": -91.014,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27a88fa0fb471b6681202d1018f8aa998b1dd3bd.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c59fe0103b29",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Illinois... Mississippi River at Burlington affecting Lee, Des Moines, Hancock and Henderson Counties. ...The Flood Warning continues for the following rivers in Iowa... Illinois...Missouri... Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Gregory Landing. * WHEN...From Friday afternoon to Friday night. * ADDITIONAL DETAILS... - At 10:30 AM CDT Thursday the stage was 13.9 feet. - Forecast...The river is expected to rise to a crest of 15.0 feet early tomorrow afternoon. - Flood stage is 15.0 feet.",
+    "latitude": 40.28666666666667,
+    "longitude": -91.46,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27a88fa0fb471b6681202d1018f8aa998b1dd3bd.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-09d2e487206a",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Illinois... Mississippi River at Burlington affecting Lee, Des Moines, Hancock and Henderson Counties. ...The Flood Warning continues for the following rivers in Iowa... Illinois...Missouri... Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Minor flooding is occurring. * WHERE...Mississippi River at Burlington. * WHEN...Until late Friday night. * IMPACTS...At 15.0 feet, agricultural flooding occurs. * ADDITIONAL DETAILS... - At 10:00 AM CDT Thursday the stage was 15.1 feet. - Forecast...The river is expected to rise to a crest of 15.1 feet this afternoon. It will then fall below flood stage tomorrow morning. - Flood stage is 15.0 feet.",
+    "latitude": 40.74333333333333,
+    "longitude": -91.15499999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27a88fa0fb471b6681202d1018f8aa998b1dd3bd.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-af12c030fb7c",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Iowa... Cedar River near Conesville affecting Louisa and Muscatine Counties. * WHAT...Minor flooding is occurring. * WHERE...Cedar River near Conesville. * WHEN...Until this evening. * IMPACTS...At 13.0 feet, water affects Edgewater Road and 245th Street near Conesville. * ADDITIONAL DETAILS... - At 9:00 AM CDT Thursday the stage was 13.1 feet. - Forecast...The river is expected to fall below flood stage this afternoon and continue falling. - Flood stage is 13.0 feet.",
+    "latitude": 41.445,
+    "longitude": -91.24166666666667,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0f57d2a931b123f0620345fcc4cb8054bc9a5af.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-825587e360b4",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Scott and Clinton Counties. * WHAT...Major flooding is occurring and will continue. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until Wednesday evening. * IMPACTS...At 13.0 feet, Water affects many residences along the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Thursday the stage was 13.1 feet. - Forecast...The river is expected to fall very slowly over the next several days. - Flood stage is 11.0 feet.",
+    "latitude": 41.83714285714286,
+    "longitude": -90.69857142857143,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b9c33892c3bb15332068d255203d1d0c079edb3.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-169260838e89",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Northeastern Roane County in central West Virginia... Western Braxton County in north central West Virginia... Calhoun County in north central West Virginia... Gilmer County in north central West Virginia... South Central Ritchie County in northwestern West Virginia... * WHEN...Until 1015 PM EDT Thursday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 1215 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. - Some locations that will experience flooding include... Glenville, Sutton, Grantsville, Gassaway, Cedar Creek State Park, Arnoldsburg, Normantown, Stumptown, Shock, Rosedale, Nicut, Millstone, Cedarville, Tanner, Mount Zion, Orma, Wilsie, Big Springs, Burnt House and Frametown. - http://www.weather.gov/safety/flood",
+    "latitude": 38.873333333333335,
+    "longitude": -81.12111111111112,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b60c4269ee7968531cda2c751d38850b862723b9.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-36d1bf08b076",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. For the Des Plaines River...including Russell, Gurnee, Lincolnshire, Des Plaines, River Forest, Riverside...Moderate flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Sunday afternoon. * IMPACTS...At 9.0 feet, Kilbourne Road and Emerald Avenue threatened near Grand Avenue in Gurnee. * ADDITIONAL DETAILS... - At 10:30 AM CDT Thursday the stage was 8.2 feet. - Forecast...The river is expected to rise to a crest near 8.2 feet this afternoon. It will then fall below flood stage later this weekend. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 42.32142857142857,
+    "longitude": -87.93571428571428,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b27f8f406ffaecbd4b82dc6639c78ffa8cce751f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b2deac40e125",
+    "type": "weather_alert",
+    "title": "Hurricane Watch",
+    "description": "* LOCATIONS AFFECTED - Kamuela - Hawi - Honokaa * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 35-45 mph with gusts to 70 mph - Window for Tropical Storm force winds: Friday morning until Sunday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 58 to 73 mph - The wind threat has increased from the previous assessment. - PLAN: Plan for dangerous wind of equivalent strong tropical storm force. - PREPARE: Remaining efforts to protect life and property should be completed as soon as possible. Prepare for significant wind damage. - ACT: Move to safe shelter before the wind becomes hazardous. - POTENTIAL IMPACTS: Significant - Some damage to roofing and siding materials, along with damage to porches, awnings, carports, and sheds. A few buildings experiencing window, door, and garage door failures. Mobile homes damaged, especially if unanchored. Unsecured lightweight objects become dangerous projectiles. - Several large trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Several fences and roadway signs blown over. - Some roads impassable from large debris, and more within urban or heavily wooded places. A few bridges, causeways, and access routes impassable. - Scattered power and communications outages, but more prevalent in areas with above ground lines. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 6-10 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tor",
+    "latitude": 20.102382352941177,
+    "longitude": -155.6119117647059,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.005.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-118f59f49ee5",
+    "type": "weather_alert",
+    "title": "Hurricane Watch",
+    "description": "* LOCATIONS AFFECTED - Kailua-Kona - Captain Cook - Milolii * WIND - LATEST LOCAL FORECAST: Below tropical storm force wind - Peak Wind Forecast: 25-35 mph with gusts to 50 mph - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind greater than 110 mph - The wind threat has increased from the previous assessment. - PLAN: Plan for extreme wind of equivalent CAT 3 hurricane force or higher. - PREPARE: Remaining efforts to protect life and property should be urgently completed. Prepare for catastrophic wind damage. - ACT: Move to safe shelter before the wind becomes hazardous. - POTENTIAL IMPACTS: Devastating to Catastrophic - Structural damage to sturdy buildings, some with complete roof and wall failures. Complete destruction of mobile homes. Damage greatly accentuated by large airborne projectiles. Locations may be uninhabitable for weeks or months. - Numerous large trees snapped or uprooted along with fences and roadway signs blown over. - Many roads impassable from large debris, and more within urban or heavily wooded places. Many bridges, causeways, and access routes impassable. - Widespread power and communications outages. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 4-8 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, ",
+    "latitude": 19.410293103448275,
+    "longitude": -155.92127586206897,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-cc98e56ce472",
+    "type": "weather_alert",
+    "title": "Hurricane Watch",
+    "description": "* LOCATIONS AFFECTED - Hawaiian Ocean View Estates * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 45-55 mph with gusts to 80 mph - Window for Tropical Storm force winds: Friday afternoon until early Sunday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind greater than 110 mph - The wind threat has increased from the previous assessment. - PLAN: Plan for extreme wind of equivalent CAT 3 hurricane force or higher. - PREPARE: Efforts to protect life and property should now be underway. Prepare for catastrophic wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Devastating to Catastrophic - Structural damage to sturdy buildings, some with complete roof and wall failures. Complete destruction of mobile homes. Damage greatly accentuated by large airborne projectiles. Locations may be uninhabitable for weeks or months. - Numerous large trees snapped or uprooted along with fences and roadway signs blown over. - Many roads impassable from large debris, and more within urban or heavily wooded places. Many bridges, causeways, and access routes impassable. - Widespread power and communications outages. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 10-15 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and com",
+    "latitude": 19.0544375,
+    "longitude": -155.7310625,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-78b70a328752",
+    "type": "weather_alert",
+    "title": "Hurricane Watch",
+    "description": "* LOCATIONS AFFECTED - Kawaihae - Waikoloa Village - Mahukona * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 35-45 mph with gusts to 60 mph - Window for Tropical Storm force winds: early Saturday morning until Sunday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 58 to 73 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for dangerous wind of equivalent strong tropical storm force. - PREPARE: Efforts to protect life and property should now be underway. Prepare for significant wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Significant - Some damage to roofing and siding materials, along with damage to porches, awnings, carports, and sheds. A few buildings experiencing window, door, and garage door failures. Mobile homes damaged, especially if unanchored. Unsecured lightweight objects become dangerous projectiles. - Several large trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Several fences and roadway signs blown over. - Some roads impassable from large debris, and more within urban or heavily wooded places. A few bridges, causeways, and access routes impassable. - Scattered power and communications outages, but more prevalent in areas with above ground lines. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 2-4 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurre",
+    "latitude": 19.91949019607843,
+    "longitude": -155.84113725490195,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.006.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-685b69fcda43",
+    "type": "weather_alert",
+    "title": "Hurricane Watch",
+    "description": "* LOCATIONS AFFECTED - Hilo - Pahoa - Volcano * WIND - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind - Peak Wind Forecast: 30-40 mph with gusts to 60 mph - Window for Tropical Storm force winds: Friday afternoon until Saturday evening - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 58 to 73 mph - The wind threat has remained nearly steady from the previous assessment. - PLAN: Plan for dangerous wind of equivalent strong tropical storm force. - PREPARE: Efforts to protect life and property should now be underway. Prepare for significant wind damage. - ACT: Act now to complete preparations before the wind becomes hazardous. - POTENTIAL IMPACTS: Significant - Some damage to roofing and siding materials, along with damage to porches, awnings, carports, and sheds. A few buildings experiencing window, door, and garage door failures. Mobile homes damaged, especially if unanchored. Unsecured lightweight objects become dangerous projectiles. - Several large trees snapped or uprooted, but with greater numbers in places where trees are shallow rooted. Several fences and roadway signs blown over. - Some roads impassable from large debris, and more within urban or heavily wooded places. A few bridges, causeways, and access routes impassable. - Scattered power and communications outages, but more prevalent in areas with above ground lines. * STORM SURGE - LATEST LOCAL FORECAST: Localized storm surge possible - Peak Storm Surge Inundation: The potential for 1-3 feet above ground somewhere within surge prone areas - Window of concern: Begins early Friday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm surge flooding greater than 1 foot above ground - The storm surge threat has remained nearly steady from the previous assessment. - PLAN: Plan for storm surge flooding greater than 1 foot above ground. - PREPARE: Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe. - ACT: Leave immediately if evacuation orders are given for your area. - POTENTIAL IMPACTS: Limited - Localized inundation with storm surge flooding mainly along immediate shorelines and in low-lying spots, or in areas farther inland near where higher surge waters move ashore. - Sections of near-shore roads and parking lots become overspread with surge water. Driving conditions dangerous in places where surge water covers the road. - Moderate beach erosion. Heavy surf also breaching dunes, mainly in usually vulnerable locations. Strong rip currents. - Minor to locally moderate damage to marinas, docks, boardwalks, and piers. A few small craft broken away from moorings. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 18-24 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated to",
+    "latitude": 19.696209677419354,
+    "longitude": -155.10867741935482,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.004.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-336847d059ac",
+    "type": "weather_alert",
+    "title": "Hurricane Watch",
+    "description": "* LOCATIONS AFFECTED - Mauna Kea Summit - Mauna Loa Summit * WIND - LATEST LOCAL FORECAST: Equivalent Cat 1 Hurricane force wind - Peak Wind Forecast: 55-75 mph with gusts to 95 mph - Window for Tropical Storm force winds: late this afternoon until Sunday morning - Window for Hurricane force winds: Friday evening until early Saturday morning - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 74 to 110 mph - The wind threat has increased from the previous assessment. - PLAN: Plan for life-threatening wind of equivalent CAT 1 or 2 hurricane force. - PREPARE: Remaining efforts to protect life and property should be urgently completed. Prepare for considerable wind damage. - ACT: Move to safe shelter before the wind becomes hazardous. - POTENTIAL IMPACTS: Extensive - Considerable roof damage to sturdy buildings, with some having window, door, and garage door failures leading to structural damage. Mobile homes severely damaged, with some destroyed. Damage accentuated by airborne projectiles. Locations may be uninhabitable for weeks. - Many large trees snapped or uprooted along with fences and roadway signs blown over. - Some roads impassable from large debris, and more within urban or heavily wooded places. Several bridges, causeways, and access routes impassable. - Large areas with power and communications outages. * FLOODING RAIN - LATEST LOCAL FORECAST: Flood Watch is in effect - Peak Rainfall Amounts: Additional 10-15 inches, with locally higher amounts - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for extreme flooding rain - The flooding rain threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for extreme flooding from heavy rain. Evacuations and rescues are likely. - PREPARE: Urgently consider protective actions from extreme and widespread rainfall flooding. - ACT: Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life. - POTENTIAL IMPACTS: Devastating to Catastrophic - Extreme rainfall flooding may prompt numerous evacuations and rescues. - Rivers and tributaries may overwhelmingly overflow their banks in many places with deep moving water. Small streams, creeks, canals, arroyos, and ditches may become raging rivers. In mountain areas, deadly runoff may rage down valleys while increasing susceptibility to rockslides and mudslides. Flood control systems and barriers may become stressed. - Flood waters can enter numerous structures within multiple communities, some structures becoming uninhabitable or washed away. Numerous places where flood waters may cover escape routes. Streets and parking lots become rivers of raging water with underpasses submerged. Driving conditions become very dangerous. Numerous road and bridge closures with some weakened or washed out. * TORNADO - LATEST LOCAL FORECAST: - Situation is somewhat favorable for tornadoes - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few tornadoes - The tornado threat has remained nearly steady from the previous assessment. - PLAN: Emergency plans should include the potential for a few tornadoes. - PREPARE: If your shelter is particularly vulnerable to tornadoes, prepare to relocate to safe shelter before hazardous weather arrives. - ACT: If a tornado warning is issued, be ready to shelter quickly. - POTENTIAL IMPACTS: Limited - The occurrence of isolated tornadoes can hinder the execution of emergency plans during tropical events. - A few places may experience tornado damage, along with power and communications disruptions. - Locations could realize roofs peeled off buildings, chimneys toppled, mobile homes pushed off foundations or overturned, large tree tops and branches snapped off, shallow-rooted trees knocked over, moving vehicles blown off roads, and small boats pulled from moorings. * FOR MORE INFORMATION: - https://www.weather.gov/hfo",
+    "latitude": 19.62421875,
+    "longitude": -155.52621875,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.008.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
     "event_id": "SG-ab8bcc162575",
     "type": "weather_alert",
     "title": "Wind Advisory",
@@ -3935,93 +3977,8 @@
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e976e234dca0ff04fd03219b1a89a76c7d643d11.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-8eff06ad4c59",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWPSR The National Weather Service in Phoenix has issued a * Flash Flood Warning for... Maricopa County in south central Arizona... Pinal County in southeastern Arizona... * Until 115 PM MST. * At 1009 AM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. The expected rainfall rate is 0.5 to 1.5 inches in 1 hour. Additional rainfall amounts of 0.5 to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Estrella, Sonoran National Monument, Estrella Sailport, Bosque and Mobile.",
-    "latitude": 33.01875,
-    "longitude": -112.3675,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c74a85d057f4b29b4a65c8ec3419c40d4651fac.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-888d204bf7d0",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Arecibo in Puerto Rico... Ciales in Puerto Rico... Florida in Puerto Rico... Jayuya in Puerto Rico... Utuado in Puerto Rico... * WHEN...Until 400 PM AST. * IMPACTS...Rises in small streams and normally dry arroyos. Dangerous flows over low-water crossings. Water over roadways. * ADDITIONAL DETAILS... - At 101 PM AST, Doppler radar indicated heavy rain due to thunderstorms. This will cause urban and small stream flooding. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 3 inches are expected over the area. This additional rain will result in minor flooding. - http://www.weather.gov/safety/flood",
-    "latitude": 18.297619047619047,
-    "longitude": -66.63904761904762,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.890aafb65147b8dffdcde0792c6474b37f9ec57a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4b7e74c6f38a",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 1253 PM AST, Doppler radar was tracking an area of strong thunderstorms. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects.",
-    "latitude": 18.313,
-    "longitude": -66.64,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a99915a1135d145957aa811c38d1585a87c755cc.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-83f139db6179",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Small stream flooding caused by excessive rainfall is expected. * WHERE...Ceiba in Puerto Rico... Fajardo in Puerto Rico... Southern Luquillo in Puerto Rico... Naguabo in Puerto Rico... Southern Rio Grande in Puerto Rico... * WHEN...Until 330 PM AST. * IMPACTS...Rises in small streams and normally dry arroyos. Dangerous flows over low-water crossings. Water over roadways. * ADDITIONAL DETAILS... - At 1227 PM AST, Doppler radar indicated heavy rain due to thunderstorms. This will cause small stream flooding. Up to 0.5 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - http://www.weather.gov/safety/flood",
-    "latitude": 18.2705,
-    "longitude": -65.72,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad90fa09282d0b561be84bd85061aa3cae2799f9.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-29a88ce78b88",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWMAF The National Weather Service in Midland/Odessa has issued a * Flash Flood Warning for... South Central Eddy County in southeastern New Mexico... * Until 1245 PM MDT. * At 952 AM MDT, the public reported water flowing over roadways leading to road closures. Between 1 and 2.5 inches of rain have fallen near Carlsbad and upstream in Dark Canyon Draw. Water from Dark Canyon Draw will continue flowing towards Carlsbad. Although rainfall has ended, flooding is ongoing. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Public reported. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Carlsbad, Carlsbad North, Avalon, Whites City, Cavern City Air Terminal, Living Desert State Park, Otis and Lake Avalon.",
-    "latitude": 32.33555555555555,
-    "longitude": -104.37666666666667,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb6fdbc2cf6b26300a11cb1c968535de193047d7.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -4037,7 +3994,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ccda8f194db8a4f82d8582bde19a003ff3c4e62.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -4045,17 +4002,408 @@
     ]
   },
   {
-    "event_id": "SG-e495d1f011a4",
+    "event_id": "SG-e6341b63b988",
     "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Western Sheridan County in northwestern Kansas... Thomas County in northwestern Kansas... Northwestern Gove County in west central Kansas... Logan County in west central Kansas... Southeastern Wallace County in west central Kansas... * WHEN...Until 145 PM CDT /1245 PM MDT/. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 747 AM CDT /647 AM MDT/, emergency management reported heavy rain in the advisory area due to thunderstorms. Minor flooding is ongoing or expected to begin shortly. Between 1 and 3 inches of rain have fallen. - Additional rainfall amounts up to 1.5 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Colby, Oakley, Grinnell, Levant, Rexford, Selden, Winona, Monument, Gem, Menlo, Wallace, Russell Springs, Mingo, Halford, Angelus and Seguin.",
-    "latitude": 39.15,
-    "longitude": -101.224,
+    "title": "Severe Thunderstorm Warning",
+    "description": "SVROUN The National Weather Service in Norman has issued a * Severe Thunderstorm Warning for... North central Ellis County in northwestern Oklahoma... Northwestern Woods County in northwestern Oklahoma... Southeastern Harper County in northwestern Oklahoma... Northern Woodward County in northwestern Oklahoma... * Until 430 PM CDT. * At 342 PM CDT, severe thunderstorms were located along a line extending from 5 miles south of Buffalo to 5 miles north of Fargo, moving east at 35 mph. HAZARD...60 mph wind gusts and quarter size hail. SOURCE...Radar indicated. IMPACT...Hail damage to vehicles is expected. Expect wind damage to roofs, siding, and trees. * Locations impacted include... Buffalo, Fort Supply, Freedom, Alabaster Caverns State Park, Selman, and Camp Houston.",
+    "latitude": 36.664,
+    "longitude": -99.346,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56efba1c988c6a643dcf98f8ea01486b51061738.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-23960b1c1d66",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "The storm which prompted the warning has weakened below severe limits, and no longer poses an immediate threat to life or property. Therefore, the warning will be allowed to expire.",
+    "latitude": 32.048,
+    "longitude": -110.75399999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75d3e67f86f86bf1d3477a208a6bfb6101842891.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d48bd99902e3",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 340 PM CDT, a severe thunderstorm was located 14 miles north of Kent, moving northeast at 10 mph. HAZARD...60 mph wind gusts and nickel size hail. SOURCE...Radar indicated. IMPACT...Expect damage to roofs, siding, and trees. This severe thunderstorm will remain over mainly rural areas of west central Reeves and east central Culberson Counties.",
+    "latitude": 31.28833333333333,
+    "longitude": -104.09499999999998,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.67a125c584b87443d908b7fcac61e4cdcc992603.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-5cf2c50d9816",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "At 140 PM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 1.5 inches of rain have fallen. A gauge at Corona de Tucson reported 1.42 inches of rainfall in less than 1 hour. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Corona De Tucson. This includes the following Flash Flood Prone Locations... Houghton Rd from I-10 & Sahuarita Rd and Sahuarita Rd west of Wilmot Rd.",
+    "latitude": 31.978333333333335,
+    "longitude": -110.84666666666668,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13327717a64257a53e37536032dd3daf3c77800c.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f964186635e9",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 339 PM CDT, Doppler radar was tracking a strong thunderstorm near Vici, moving northeast at 30 mph. HAZARD...Wind gusts up to 50 mph and penny size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Vici and Mutual.",
+    "latitude": 36.223333333333336,
+    "longitude": -99.265,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-24T17:28:06.117832+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.246a6be6c8e6757f3a40da3d6ba3af7525d5a7a8.001.1",
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17b5ade18c62ca1a0aea62046b66bf8d918ab245.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-767088aa9433",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Small stream flooding caused by excessive rainfall is expected. * WHERE...Southeastern Pinal County in southeastern Arizona... * WHEN...Until 330 PM MST. * IMPACTS...Dangerous flows over low-water crossings. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 137 PM MST, Doppler radar indicated heavy rain due to thunderstorms. This will cause small stream flooding. Between 0.4 and 0.7 inches of rain have fallen. - Some locations that will experience flooding include... Oracle and Campo Bonito. - This includes Route 77 between mile markers 98 and 107. - http://www.weather.gov/safety/flood",
+    "latitude": 32.623333333333335,
+    "longitude": -110.77166666666666,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2be12a8f083563ff6d5963e4abe22001e6472ff5.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-5439fc7b5d50",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Small stream flooding caused by excessive rainfall continues. * WHERE...Ceiba in Puerto Rico... Fajardo in Puerto Rico... Southern Luquillo in Puerto Rico... Naguabo in Puerto Rico... Southern Rio Grande in Puerto Rico... * WHEN...Until 530 PM AST. * IMPACTS...Rises in small streams and normally dry arroyos. Dangerous flows over low-water crossings. Water over roadways. * ADDITIONAL DETAILS... - At 423 PM AST, Doppler radar indicated heavy rain due to thunderstorms. This will cause small stream flooding. Between 1 and 3.6 inches of rain have fallen. - Excessive runoff continues, the Rio Fajardo (FAJP4) sensor indicates that it is out of its banks causing flooding along low lying areas. PR-194 is known to become impassable, near the intersection with Calle Marcelito Gotay, when the river is out of its banks. The sensors in Rio Blanco, Rio Fajardo at Paraiso (FAEP4) and Rio Sabana continue at action stage. OMME Naguabo reported minor flooding at PR-31 in sector La Pitina. - http://www.weather.gov/safety/flood",
+    "latitude": 18.2705,
+    "longitude": -65.72,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a5299a7f7fc2bef38f49eafb94dc3acd7ff4378.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9666b6a0f4d6",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 330 PM CDT, Doppler radar was tracking a strong thunderstorm 4 miles northeast of May, moving northeast at 30 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Buffalo, May, and Selman.",
+    "latitude": 36.72,
+    "longitude": -99.57,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5313bd688dfddeaf66d84907f90e43b4345afafc.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-e321ba1d0ece",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 231 PM MDT, Doppler radar was tracking a strong thunderstorm 8 miles north of Arabela, or 37 miles northeast of Ruidoso, moving northeast at 15 mph. HAZARD...Wind gusts up to 50 mph and nickel size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Mainly rural areas of East Central Lincoln County.",
+    "latitude": 33.714,
+    "longitude": -105.11399999999999,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2a535610669f68e6f0267daa9af01eeef34f60e.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c1568a1ce34f",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Arroyo and small stream flooding caused by excessive rainfall is expected. * WHERE...Southwestern Otero County in south central New Mexico... * WHEN...Until 430 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 228 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. This will cause arroyo and small stream flooding. Between 1.5 and 2 inches of rain have fallen. - Some locations that will experience flooding include... Mainly rural areas of Southwestern Otero County. - http://www.weather.gov/safety/flood",
+    "latitude": 32.169999999999995,
+    "longitude": -106.03666666666668,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73657c3a79d61a5739a48bb15b821bde14488edc.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-a640fe275d78",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "At 226 PM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. Some locations that will experience flash flooding include... Lincoln, Glencoe and Lincoln State Monument. This includes Highway 380 between Mile Markers 92 and 99.",
+    "latitude": 33.46888888888889,
+    "longitude": -105.42333333333333,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5e316ffacaeccba21faf7a6624133e7b477f9b0.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-e67df98995e8",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "SVRTWC The National Weather Service in Tucson has issued a * Severe Thunderstorm Warning for... Southeastern Pinal County in southeastern Arizona... * Until 215 PM MST. * At 125 PM MST, a severe thunderstorm was located over Oracle, moving north at 10 mph. HAZARD...60 mph wind gusts and quarter size hail. SOURCE...Radar indicated. IMPACT...Hail damage to vehicles is expected. Expect wind damage to roofs, siding, and trees. * Locations impacted include... Oracle, Saddlebrooke Ranch, Campo Bonito and Biosphere 2. This includes Route 77 between mile markers 94 and 110...and between mile markers 120 and 123.",
+    "latitude": 32.642,
+    "longitude": -110.77799999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a255b220d59dab4ecfb71e3f5305f752447e62e4.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-227a4027e078",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 224 PM MDT, Doppler radar was tracking a strong thunderstorm 20 miles northeast of Arabela, or 43 miles northwest of Roswell, moving northeast at 15 mph. HAZARD...Wind gusts up to 50 mph and nickel size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Mainly rural areas of Northeastern Lincoln and Northwestern Chaves Counties.",
+    "latitude": 33.866,
+    "longitude": -104.944,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7110187cdd355df4bd8d75924a765e110388920.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-56fcc23af598",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 310 PM CDT, Doppler radar was tracking a strong thunderstorm 9 miles north of Kent, moving northeast at 10 mph. HAZARD...Wind gusts of 50 to 55 mph and nickel size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. This storm will remain over mainly rural areas of west central Reeves and east central Culberson Counties.",
+    "latitude": 31.268333333333334,
+    "longitude": -104.12333333333333,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8f75692adb3b939822488735867702c0d9691ee.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-a0d3f9178bd1",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...North Central San Diego County in southwestern California... * WHEN...Until 315 PM PDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 108 PM PDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.5 and 1.25 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Hwy 79 Between Santa Ysabel And Warner Springs, Lake Henshaw, Warner Springs, S7 - East Grade Rd, Hwy 79 Between Warner Springs And Oak Grove, Hwy S2 Between Hwy 79 And Hwy 78 and Santa Ysabel Indian Reservation. - https://www.weather.gov/safety/flood",
+    "latitude": 33.263333333333335,
+    "longitude": -116.69666666666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b87c509f1bc6ddc8523619a0eb49b08a625d4c6.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-55f60642e593",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...San Bernardino County in southern California... * WHEN...Until 245 PM PDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 1245 PM PDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.25 and 0.75 inches of rain have fallen. - Additional rainfall amounts of 0.25 to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Onyx Summit, Hwy 38 Between Onyx Summit And Sugarloaf and Hwy 38 Between Yucaipa And Onyx Summit. - https://www.weather.gov/safety/flood",
+    "latitude": 34.235,
+    "longitude": -116.705,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da0cf43584b1770c8c02d1348e47436552730ef4.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1d94c9c10a2b",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Central San Diego County in southwestern California... * WHEN...Until 245 PM PDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 1239 PM PDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.5 and 1.25 inches of rain have fallen. - Additional rainfall amounts of 0.25 to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Cuyamaca Rancho State Park, Descanso, Pine Valley, Lake Cuyamaca and Guatay. - https://www.weather.gov/safety/flood",
+    "latitude": 32.92625,
+    "longitude": -116.57875,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0690d9b0ec625ddbc7f5fad63cce71f07853af1b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-56b7c10230c6",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Northwestern Canovanas in Puerto Rico... Northern Carolina in Puerto Rico... Central Loiza in Puerto Rico... Northeastern San Juan in Puerto Rico... * WHEN...Until 530 PM AST. * IMPACTS...Dangerous flows over low-water crossings. Water over roadways. Overflowing poor drainage areas. * ADDITIONAL DETAILS... - At 329 PM AST, Doppler radar indicated heavy rain due to a line of thunderstorms from El Yunque. This will cause urban and small stream flooding. Up to 1.2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... San Juan, Carolina, Canovanas, Santa Barbara and San Isidro. - http://www.weather.gov/safety/flood",
+    "latitude": 18.435000000000002,
+    "longitude": -65.980625,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d5aabf774f3222b2a48fd8a4258d931e7d0aecb.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-af6dda2409a9",
+    "type": "weather_alert",
+    "title": "Flood Watch",
+    "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of southeast New Mexico, including the following areas, Central Lea, Eddy County Plains, Guadalupe Mountains of Eddy County and Northern Lea and southwest Texas, including the following areas, Chinati Mountains, Davis Mountains, Davis Mountains Foothills, Eastern Culberson, Guadalupe Mountains Above 7000 Feet, Guadalupe and Delaware Mountains, Marfa Plateau, Presidio Valley and Van Horn and Highway 54 Corridor. * WHEN...Through tomorrow morning. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. Flooding may occur in poor drainage and urban areas. Low-water crossings may be flooded. * ADDITIONAL DETAILS... - Additional rounds of showers and thunderstorms will continue to develop and spread over the Watch area today through early tomorrow morning. Heavy rainfall may quickly result in areas of flash flooding. - http://www.weather.gov/safety/flood",
+    "latitude": 35.8617,
+    "longitude": 104.1954,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d947515d2591a3c916588c5cc2f05eb96ad91ac.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-625215e895e5",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Maricopa County in south central Arizona... Pinal County in southeastern Arizona... * WHEN...Until 215 PM MST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 1215 PM MST, Doppler radar indicated areas of light to locally moderate rainfall still occurring. Minor flooding is ongoing or expected to begin shortly in the advisory area. - This includes the following streams and drainages... Agua Fria River, Gila River, West Prong Waterman Wash, Waterman Wash, Corgett Wash, Enterprise Canal, Salt River, Rainbow Wash, Hassayampa River and Lum Wash. Additional rainfall amounts up to 0.25 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Avondale, Goodyear, Buckeye, Estrella Mountain Ranch, Liberty, Estrella Mountain Park, Palo Verde, Perryville, Phoenix International Raceway, Cotton Center, Rainbow Valley, Arlington and Hassayampa. - http://www.weather.gov/safety/flood",
+    "latitude": 33.245999999999995,
+    "longitude": -112.46199999999999,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d37461023e620a2ab77ded31bc91e48105dc27b4.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-7958e07d36d8",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Central Gallia County in southeastern Ohio... Southeastern Vinton County in southeastern Ohio... * WHEN...Until midnight EDT Tonight. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Numerous roads remain closed due to flooding. Low-water crossings are inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 211 PM EDT, emergency management reported heavy rain in the warned area due to thunderstorms. Flooding is ongoing or expected to begin shortly. - Some locations that will experience flooding include... Rio Grande, Vinton, Wilkesville, Adamsville and Radcliffe. - http://www.weather.gov/safety/flood",
+    "latitude": 38.90352941176471,
+    "longitude": -82.30235294117647,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.37897844b7dfa08021a0ca97da1bf59988dbca7c.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-bd6e51c53b11",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Clarksville. Mississippi River at Hannibal. Mississippi River at Saverton. Mississippi River at Winfield. ...The Flood Warning is cancelled for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...From this afternoon to late Monday night. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 12:30 PM CDT Thursday the stage was 14.9 feet. - Forecast...The river is expected to rise above flood stage late this afternoon to a crest of 16.0 feet Saturday morning. It will then fall below flood stage late Sunday evening. - Flood stage is 15.0 feet.",
+    "latitude": 39.44285714285714,
+    "longitude": -91.00999999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d838d39c373ca961858c7dc75c31508d91e2312.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-7956b85ead46",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Clarksville. Mississippi River at Hannibal. Mississippi River at Saverton. Mississippi River at Winfield. ...The Flood Warning is cancelled for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...From Friday afternoon to Sunday afternoon. * IMPACTS...At 17.0 feet, John Hay Recreation Area on east side (inside the Illinois Sny Levee) begins flooding. * ADDITIONAL DETAILS... - At 12:15 PM CDT Thursday the stage was 16.5 feet. - Forecast...The river is expected to rise to a crest of 17.0 feet early tomorrow afternoon. It will then fall below flood stage Saturday morning. - Flood stage is 17.0 feet.",
+    "latitude": 39.7475,
+    "longitude": -91.36625,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d838d39c373ca961858c7dc75c31508d91e2312.004.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-22c535c499c3",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Clarksville. Mississippi River at Hannibal. Mississippi River at Saverton. Mississippi River at Winfield. ...The Flood Warning is cancelled for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Winfield. * WHEN...From Saturday evening to Monday morning. * IMPACTS...At 27.5 feet, At this stage, Lock and Dam 25 will stockpile 200 tons of sand, 12,000 sandbags, and 10,000 square feet of polyethylene plastic as a precaution. * ADDITIONAL DETAILS... - At 12:30 PM CDT Thursday the stage was 23.9 feet. - Forecast...The river is expected to rise to a crest of 26.0 feet Saturday evening. It will then fall below flood stage early Sunday morning. - Flood stage is 26.0 feet.",
+    "latitude": 39.05111111111111,
+    "longitude": -90.69999999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-24T20:42:38.512783+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d838d39c373ca961858c7dc75c31508d91e2312.006.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
