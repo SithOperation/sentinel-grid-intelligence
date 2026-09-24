@@ -1,28 +1,28 @@
 {
-  "total_events": 1557,
+  "total_events": 1602,
   "event_types": {
-    "earthquake": 131,
-    "humanitarian": 17,
-    "weather_alert": 1371,
+    "humanitarian": 14,
+    "weather_alert": 1422,
+    "earthquake": 128,
     "conflict": 28,
     "europe_security": 3,
     "tropical_cyclone": 5,
     "reddit_report": 2
   },
   "threat_levels": {
-    "MEDIUM": 1218,
-    "HIGH": 331,
+    "HIGH": 350,
+    "MEDIUM": 1244,
     "CRITICAL": 4,
     "LOW": 4
   },
   "priority_levels": {
-    "medium": 1205,
-    "high": 352
+    "high": 367,
+    "medium": 1235
   },
   "sources": {
-    "USGS Earthquake Hazards Program": 131,
-    "GDACS": 18,
-    "National Weather Service": 1371,
+    "GDACS": 15,
+    "National Weather Service": 1422,
+    "USGS Earthquake Hazards Program": 128,
     "UN News": 12,
     "BBC World News": 15,
     "Crisis Group": 1,
@@ -32,8 +32,8 @@
     "Reddit reddit_iran": 1
   },
   "regions": {
-    "Unknown": 172,
-    "United States": 1370,
+    "Unknown": 166,
+    "United States": 1421,
     "Ukraine": 3,
     "Iran": 4,
     "Belarus": 1,
@@ -44,5 +44,5 @@
     "Poland": 1,
     "China": 1
   },
-  "average_confidence": 99.46
+  "average_confidence": 99.49
 }
