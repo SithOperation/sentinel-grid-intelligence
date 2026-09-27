@@ -1,156 +1,5 @@
 [
   {
-    "event_id": "SG-3070c41f424a",
-    "type": "earthquake",
-    "title": "M2.65 earthquake — 6 km SW of Guánica, Puerto Rico",
-    "description": "M 2.7 - 6 km SW of Guánica, Puerto Rico",
-    "latitude": 17.9326666666667,
-    "longitude": -66.9596666666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-24T21:21:45.340000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534443",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-c775191c445a",
-    "type": "earthquake",
-    "title": "M3.04 earthquake — 6 km ENE of Superior, Wyoming",
-    "description": "M 3.0 - 6 km ENE of Superior, Wyoming",
-    "latitude": 41.7891666666667,
-    "longitude": -108.908666666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-24T21:34:17.230000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80157946",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-09ec08dbb54e",
-    "type": "earthquake",
-    "title": "M4.9 earthquake — Kermadec Islands, New Zealand",
-    "description": "M 4.9 - Kermadec Islands, New Zealand",
-    "latitude": -29.4432,
-    "longitude": -177.6601,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-24T22:22:59.185000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txha",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-58e76553834b",
-    "type": "humanitarian",
-    "title": "Green forest fire notification in Brazil",
-    "description": "On 23/09/2026, a forest fire started in Brazil, until 24/09/2026.",
-    "latitude": -12.139814215420806,
-    "longitude": -50.74206985393157,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 95,
-    "timestamp": "2026-09-24T23:01:14+00:00",
-    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032383",
-    "classification": "disaster_alert",
-    "source": [
-      "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-904ad6ebecd7",
-    "type": "europe_security",
-    "title": "65-year-old Ukrainian man came to an underground passage in Kyiv to shelter from Russian missile and drone attacks. A few minutes after the explosions started, he lost consciousness and began struggling to breathe. By the time the ambulance arrived, he was dead.",
-    "description": "A Reddit post claims: When he collapsed, his phone fell from his hands. On the screen was the air raid monitoring chat, reporting where the missiles and drones were flying. https://x.com/olenahalushka/status/2103059239413379503?s=46 https://x.com/crimeanvoyager/status/2103063503959376310?s=46 submitted by /u/_Tegan_Quin [link] [comments]",
-    "latitude": 50.4501,
-    "longitude": 30.5234,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 25,
-    "timestamp": "2026-09-24T23:03:27+00:00",
-    "url": "https://x.com/olenahalushka/status/2103059239413379503?s=46",
-    "classification": "missile_activity",
-    "source": [
-      "r/UkraineWarVideoReport"
-    ],
-    "status": "unverified",
-    "source_type": "reddit",
-    "source_perspective": "reddit_osint",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "RUSSIA",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-e29fc1414f62",
-    "location_precision": null,
-    "europe_layers": [
-      "missile_activity",
-      "missile_drone",
-      "reddit_osint",
-      "russian_activity"
-    ]
-  },
-  {
-    "event_id": "SG-e7448dedda42",
-    "type": "earthquake",
-    "title": "M4.2 earthquake — 63 km WSW of Andacollo, Argentina",
-    "description": "M 4.2 - 63 km WSW of Andacollo, Argentina",
-    "latitude": -37.4621,
-    "longitude": -71.293,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-24T23:19:34.354000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhl",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-a615019034f6",
-    "type": "earthquake",
-    "title": "M5.3 earthquake — 72 km NW of Finschhafen, Papua New Guinea",
-    "description": "M 5.3 - 72 km NW of Finschhafen, Papua New Guinea",
-    "latitude": -6.0863,
-    "longitude": 147.3935,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-24T23:30:28.053000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhp",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-825587e360b4",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Scott and Clinton Counties. * WHAT...Major flooding is occurring and will continue. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until Wednesday evening. * IMPACTS...At 13.0 feet, Water affects many residences along the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Thursday the stage was 13.1 feet. - Forecast...The river is expected to fall very slowly over the next several days. - Flood stage is 11.0 feet.",
-    "latitude": 41.83714285714286,
-    "longitude": -90.69857142857143,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-24T23:31:42.332006+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b9c33892c3bb15332068d255203d1d0c079edb3.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-98bd89035964",
     "type": "europe_security",
     "title": "It is likely that the Defense Forces attacked the Novoshakhtinsk Oil Refinery in the Rostov Region, Russia. It was last struck by Ukrainian “Neptune” cruise missiles on May 31,",
@@ -1822,6 +1671,23 @@
     ]
   },
   {
+    "event_id": "SG-2fe781dabcab",
+    "type": "earthquake",
+    "title": "M4.3 earthquake — 1 km SSW of Kōzaki, Japan",
+    "description": "M 4.3 - 1 km SSW of Kōzaki, Japan",
+    "latitude": 35.8881,
+    "longitude": 140.3909,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T00:45:22.364000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txvq",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-692765660bc1",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2196,6 +2062,23 @@
     ]
   },
   {
+    "event_id": "SG-416a1c7e9975",
+    "type": "tropical_cyclone",
+    "title": "Hurricane Polo",
+    "description": "Severe Storms",
+    "latitude": 20.8,
+    "longitude": -113.7,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T12:00:00+00:00",
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24721",
+    "classification": "eonet_tropical_cyclone",
+    "source": [
+      "NASA EONET"
+    ]
+  },
+  {
     "event_id": "SG-c0ba24415fef",
     "type": "earthquake",
     "title": "M3 earthquake — 71 km WNW of Petersville, Alaska",
@@ -2417,6 +2300,23 @@
     ]
   },
   {
+    "event_id": "SG-5cf401fb6a9a",
+    "type": "earthquake",
+    "title": "M3.03 earthquake — 136 km ENE of Honomu, Hawaii",
+    "description": "M 3.0 - 136 km ENE of Honomu, Hawaii",
+    "latitude": 20.4358333333333,
+    "longitude": -153.956166666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T18:27:12.750000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74000254",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-8af34d29823e",
     "type": "earthquake",
     "title": "M4.5 earthquake — 78 km N of Daocheng, China",
@@ -2536,6 +2436,125 @@
     ]
   },
   {
+    "event_id": "SG-cd1b6c81b002",
+    "type": "earthquake",
+    "title": "M4.4 earthquake — 259 km S of Severo-Kuril’sk, Russia",
+    "description": "M 4.4 - 259 km S of Severo-Kuril’sk, Russia",
+    "latitude": 48.3813,
+    "longitude": 156.784,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T20:49:22.298000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0g",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9cd2999b6c3e",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring. * WHERE...Mississippi River at Clarksville. * WHEN...Until Monday evening. * ADDITIONAL DETAILS... - At 1:00 PM CDT Sunday the stage was 25.1 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 1:00 PM CDT Sunday was 25.5 feet. - Forecast...The river is expected to fall below flood stage this afternoon and continue falling to 18.5 feet Sunday, October 04. - Flood stage is 25.0 feet.",
+    "latitude": 39.344545454545454,
+    "longitude": -90.86999999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-27T21:06:48.122654+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8df76a553dddde68e97bad6b53fa4d68cfbc6b10.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-987b10fc168b",
+    "type": "earthquake",
+    "title": "M5 earthquake — South Sandwich Islands region",
+    "description": "M 5.0 - South Sandwich Islands region",
+    "latitude": -59.0586,
+    "longitude": -25.8945,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T21:13:33.366000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0j",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-4df3eaff7659",
+    "type": "earthquake",
+    "title": "M2.6 earthquake — 73 km NNE of Petersville, Alaska",
+    "description": "M 2.6 - 73 km NNE of Petersville, Alaska",
+    "latitude": 63.139,
+    "longitude": -150.41,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T21:17:13.242000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026temmhr",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-eb954d23bd20",
+    "type": "earthquake",
+    "title": "M4.8 earthquake — 11 km W of Guaymate, Dominican Republic",
+    "description": "M 4.8 - 11 km W of Guaymate, Dominican Republic",
+    "latitude": 18.6067,
+    "longitude": -69.0863,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T21:49:47.544000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0q",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-cc90c57ae81f",
+    "type": "earthquake",
+    "title": "M2.6 earthquake — 37 km ENE of Chase, Alaska",
+    "description": "M 2.6 - 37 km ENE of Chase, Alaska",
+    "latitude": 62.611,
+    "longitude": -149.453,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T21:53:36.911000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tenrvu",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-a898ca8b4af1",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 19 km SW of Sipí, Colombia",
+    "description": "M 4.6 - 19 km SW of Sipí, Colombia",
+    "latitude": 4.5313,
+    "longitude": -76.7753,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T21:57:52.827000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0u",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-1398691e221f",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2545,7 +2564,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db60aabc5e5fc05a360ce2fd38e8089e65219f4b.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2562,7 +2581,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8bb493a8c1a50dd9be8df1abf45e5a21a72e262.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2579,7 +2598,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6efc3f4a6f6c9132e07e564bedb6f2c0ab4e8141.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2596,25 +2615,8 @@
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7920f435b5ed69b3882f6027cdb5bad61e1917b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-3b048a31abba",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 352 PM CDT, Doppler radar was tracking a strong thunderstorm 7 miles northwest of The Intersection Of Us- 190 And Ranch Road 2084, or 13 miles northeast of Eldorado, moving south at 15 mph. HAZARD...Wind gusts up to 50 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Eldorado, The Intersection Of Us- 190 And Ranch Road 2084, Adams, and Us-277 Near The Sutton- Schleicher County Line.",
-    "latitude": 30.885,
-    "longitude": -100.46499999999999,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dcb07ef5873f9d7ca521420d1608b5b3bd31d809.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2624,31 +2626,14 @@
     "event_id": "SG-ba0817e82b1a",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Norfolk County in eastern Massachusetts... Southwestern Suffolk County in eastern Massachusetts... North Central Bristol County in southeastern Massachusetts... West Central Plymouth County in southeastern Massachusetts... * WHEN...Until 730 PM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Streams continue to rise due to excess runoff from earlier rainfall. Low-water crossings are inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 426 PM EDT, emergency management reported heavy rain in the warned area. Flooding is already occurring. Between 2.5 and 3.5 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are possible in the warned area. - Some locations that will experience flooding include... Boston, Brockton, Quincy, Brookline, Weymouth, Braintree, Randolph, Franklin, Needham, Norwood, Milton, Stoughton, Dedham, Walpole, Mansfield, Easton and Canton. - http://www.weather.gov/safety/flood",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Norfolk County in eastern Massachusetts... Southwestern Suffolk County in eastern Massachusetts... North Central Bristol County in southeastern Massachusetts... West Central Plymouth County in southeastern Massachusetts... * WHEN...Until 900 PM EDT. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Streams continue to rise due to excess runoff from earlier rainfall. Low-water crossings are inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 508 PM EDT, emergency management reported heavy rain in the warned area. Flooding is already occurring. Between 3 and 5 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are possible in the warned area. - Some locations that will experience flooding include... Boston, Brockton, Quincy, Brookline, Weymouth, Braintree, Randolph, Franklin, Needham, Norwood, Milton, Stoughton, Dedham, Walpole, Mansfield, Easton and Canton. - http://www.weather.gov/safety/flood",
     "latitude": 42.223333333333336,
     "longitude": -71.22800000000001,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dda9b444497dbca8e775b5c49c6cf1b93a988236.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-95f1d2bf8dfe",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 315 PM CDT, Doppler radar was tracking a strong thunderstorm near South Llano River State Park, moving southeast at 10 mph. HAZARD...Wind gusts of 50 to 55 mph and pea size hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor hail damage to vegetation is possible. Locations impacted include... Junction, Telegraph, South Llano River State Park, Roosevelt, Cleo, Us-83 Near The Kerr-Kimble County Line, and Us-377 Near The Kimble- Edwards County Line. This includes Interstate 10 between Mile Markers 435 and 456.",
-    "latitude": 30.508,
-    "longitude": -99.958,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9bf071d0f0f515a43626498e68ba487365b010b.001.1",
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20b84f47df663e5a0012ffbf1cb49b64404c1d67.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2664,7 +2649,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edf89c307fee1bd1af22d5429fcbc4e8354e344e.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2681,7 +2666,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.965dd741fa0b3d6ef93bdb182f5bce72d39c1368.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -2689,17 +2674,119 @@
     ]
   },
   {
-    "event_id": "SG-9cd2999b6c3e",
+    "event_id": "SG-81497751975a",
     "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring. * WHERE...Mississippi River at Clarksville. * WHEN...Until Monday evening. * ADDITIONAL DETAILS... - At 1:00 PM CDT Sunday the stage was 25.1 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 1:00 PM CDT Sunday was 25.5 feet. - Forecast...The river is expected to fall below flood stage this afternoon and continue falling to 18.5 feet Sunday, October 04. - Flood stage is 25.0 feet.",
-    "latitude": 39.344545454545454,
-    "longitude": -90.86999999999999,
+    "title": "Special Weather Statement",
+    "description": "At 545 PM MDT, Doppler radar was tracking a storm over Loveland, or 10 miles south of Fort Collins, moving northeast at 15 mph. HAZARD...Wind gusts up to 50 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Southwestern Greeley, Loveland, Windsor, Johnstown, Milliken, Berthoud, Mead, Severance, Kelim, Campion, Fort St Vrain and New Windsor Reservoir. This includes Interstate 25 between mile markers 246 and 263.",
+    "latitude": 40.338,
+    "longitude": -105.022,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a74fde95131a13f6a1b3aa63bf4960966d0994b1.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-fd0eac8a48e2",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 640 PM CDT, a severe thunderstorm was located over Willow Park, or 7 miles east of Weatherford, moving south at 10 mph. HAZARD...60 mph wind gusts and quarter size hail. SOURCE...Radar indicated. IMPACT...Hail damage to vehicles is expected. Expect wind damage to roofs, siding, and trees. This severe storm will be near... Weatherford, Willow Park, Aledo, Hudson Oaks, Annetta, and Lake Weatherford around 645 PM CDT. Other locations impacted by this severe thunderstorm include Annetta North.",
+    "latitude": 32.824285714285715,
+    "longitude": -97.72428571428573,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-27T21:06:48.122654+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8df76a553dddde68e97bad6b53fa4d68cfbc6b10.001.1",
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d2cea50107494920fa607da3a25e205e5919e581.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-e48765712c21",
+    "type": "weather_alert",
+    "title": "Severe Thunderstorm Warning",
+    "description": "At 638 PM CDT, a severe thunderstorm was located 16 miles southwest of Medicine Lake, or 37 miles southeast of Gordon, moving southeast at 10 mph. HAZARD...Ping pong ball size hail and 60 mph wind gusts. SOURCE...Radar indicated. IMPACT...People and animals outdoors will be injured. Expect hail damage to roofs, siding, windows, and vehicles. Expect wind damage to roofs, siding, and trees. Locations impacted include... Round Lake. This includes Highway 61 between mile markers 184 and 199.",
+    "latitude": 42.474000000000004,
+    "longitude": -101.72200000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f89918b97b15f2085d8948aa48d0d51ef0d997f4.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-54fb86e561a3",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 629 PM CDT, Doppler radar was tracking a strong thunderstorm near Bandera, moving southeast at 20 mph. HAZARD...Winds in excess of 40 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. Locations impacted include... Bandera, Lakehills, Bandera Falls, and Lake Medina Shores.",
+    "latitude": 29.704,
+    "longitude": -99.124,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5c3a2c331be2a52617d6a0ff7157531504685b8.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-259312ac1875",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 628 PM CDT, Doppler radar was tracking a strong thunderstorm near Gustine, or 12 miles southeast of Comanche, moving southeast at 15 mph. HAZARD...Winds in excess of 40 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. This storm will remain over mainly rural areas of northern Hamilton, southeastern Erath, northwestern Bosque, northeastern Mills and southeastern Comanche Counties, including the following locations... Newburg, Lamkin, Energy, Pottsville, Olin, Priddy, Gentrys Mill, Carlton, Indian Gap, and Fairy.",
+    "latitude": 31.932222222222222,
+    "longitude": -98.18333333333334,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e3073bf0586ea7c39ab837ac2550b6ecbb7cabc.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8d0ffd455e3f",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 612 PM CDT, Doppler radar was tracking a strong thunderstorm 18 miles north of Rocksprings, moving south at 15 mph. HAZARD...Winds in excess of 40 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. This storm will remain over mainly rural areas of north central Edwards County.",
+    "latitude": 30.22,
+    "longitude": -100.22999999999999,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f33504d42401e6bf6f4d0a69b5179163084abe6.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-11a4c747351b",
+    "type": "weather_alert",
+    "title": "Special Weather Statement",
+    "description": "At 611 PM CDT, Doppler radar was tracking a strong thunderstorm near Lake Weatherford, or near Azle, moving south at 10 mph. HAZARD...Winds in excess of 40 mph and half inch hail. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Minor damage to outdoor objects is possible. This strong thunderstorm will be near... Willow Park around 615 PM CDT. Other locations impacted by this storm include Adell, Peaster, Authon, Sanctuary, Annetta North, Lakeside, and La Junta. This includes Interstate 20 between mile markers 401 and 419.",
+    "latitude": 32.828,
+    "longitude": -97.78,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-27T23:48:48.377459+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f48535cc7e64b1841dbc579d48d6d72368a98d43.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
