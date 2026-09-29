@@ -1,244 +1,5 @@
 [
   {
-    "event_id": "SG-e79a772fb52a",
-    "type": "reddit_report",
-    "title": "At least 5 injured in ongoing Russian drone strikes on Kyiv",
-    "description": "submitted by /u/KI_official to r/UkrainianConflict [link] [comments]",
-    "latitude": 50.4501,
-    "longitude": 30.5234,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 70,
-    "timestamp": "2026-09-26T09:43:56+00:00",
-    "url": "https://reddit.com/r/UkrainianConflict/comments/1wqmftd/at_least_5_injured_in_ongoing_russian_drone",
-    "classification": "source_reported",
-    "source": [
-      "Reddit reddit_ukrainian_conflict"
-    ]
-  },
-  {
-    "event_id": "SG-74051d877bc2",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Scott and Clinton Counties. * WHAT...Major flooding is occurring and major flooding is forecast. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until Thursday afternoon. * IMPACTS...At 13.0 feet, Water affects many residences along the river. * ADDITIONAL DETAILS... - At 8:30 PM CDT Friday the stage was 12.9 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:30 PM CDT Friday was 13.1 feet. - Forecast...The river is expected to fall below flood stage early Thursday morning and continue falling to 9.2 feet Friday, October 02. - Flood stage is 11.0 feet.",
-    "latitude": 41.83714285714286,
-    "longitude": -90.69857142857143,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-26T09:53:38.472636+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d95d93928b42844640738fe2c4cd0fe20de7e515.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-9a9c30c9b16a",
-    "type": "earthquake",
-    "title": "M4.9 earthquake — 73 km ENE of Tadine, New Caledonia",
-    "description": "M 4.9 - 73 km ENE of Tadine, New Caledonia",
-    "latitude": -21.2105,
-    "longitude": 168.4957,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T10:21:05.896000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txse",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-7ade22aa4ffb",
-    "type": "earthquake",
-    "title": "M2.5 earthquake — 52 km NNW of Petersville, Alaska",
-    "description": "M 2.5 - 52 km NNW of Petersville, Alaska",
-    "latitude": 62.914,
-    "longitude": -151.244,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T10:47:13.728000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tbvlmd",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-24da6c5b4a4f",
-    "type": "earthquake",
-    "title": "M4.7 earthquake — North Indian Ocean",
-    "description": "M 4.7 - North Indian Ocean",
-    "latitude": 1.831,
-    "longitude": 89.4977,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T10:53:15.123000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txsh",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-2d7839a5a3cf",
-    "type": "earthquake",
-    "title": "M2.5 earthquake — 58 km S of Whites City, New Mexico",
-    "description": "M 2.5 - 58 km S of Whites City, New Mexico",
-    "latitude": 31.6505,
-    "longitude": -104.4465,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T11:28:38.553000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txsp",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-c6b76d4a5f79",
-    "type": "earthquake",
-    "title": "M3.11 earthquake — 4 km SW of Laupāhoehoe, Hawaii",
-    "description": "M 3.1 - 4 km SW of Laupāhoehoe, Hawaii",
-    "latitude": 19.9551658630371,
-    "longitude": -155.261505126953,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T11:58:51.760000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75043917",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-d7213de2e7eb",
-    "type": "tropical_cyclone",
-    "title": "Typhoon Surigae",
-    "description": "Severe Storms",
-    "latitude": 23.3,
-    "longitude": 126.9,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T12:00:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24787",
-    "classification": "eonet_tropical_cyclone",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-b3922f4c6e4b",
-    "type": "earthquake",
-    "title": "M4.6 earthquake — 145 km NE of Maumere, Indonesia",
-    "description": "M 4.6 - 145 km NE of Maumere, Indonesia",
-    "latitude": -7.8646,
-    "longitude": 123.2938,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T13:38:15.958000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txt8",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-a1437490fcad",
-    "type": "earthquake",
-    "title": "M4.8 earthquake — 86 km NE of Tadine, New Caledonia",
-    "description": "M 4.8 - 86 km NE of Tadine, New Caledonia",
-    "latitude": -21.0626,
-    "longitude": 168.5329,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T13:48:50.275000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txt9",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-cea5f8019cd3",
-    "type": "earthquake",
-    "title": "M5.6 earthquake — 74 km ESE of Kokopo, Papua New Guinea",
-    "description": "M 5.6 - 74 km ESE of Kokopo, Papua New Guinea",
-    "latitude": -4.6952,
-    "longitude": 152.8383,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T14:08:17.704000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txtc",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program",
-      "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-4505b4fa6893",
-    "type": "earthquake",
-    "title": "M3.21 earthquake — 40 km SE of Esperanza, Puerto Rico",
-    "description": "M 3.2 - 40 km SE of Esperanza, Puerto Rico",
-    "latitude": 17.839,
-    "longitude": -65.1946666666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T15:03:03.030000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534743",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-e1a12b6e7e9f",
-    "type": "wildfire",
-    "title": "Wildfire Rafter 4B, Schleicher, Texas",
-    "description": "8 Miles SE from Eldorado, TX",
-    "latitude": 30.76633,
-    "longitude": -100.49806,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T15:18:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24904",
-    "classification": "eonet_wildfire",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-a4492ed08cbd",
-    "type": "earthquake",
-    "title": "M4.8 earthquake — 72 km E of Tadine, New Caledonia",
-    "description": "M 4.8 - 72 km E of Tadine, New Caledonia",
-    "latitude": -21.4649,
-    "longitude": 168.5787,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-26T16:06:48.430000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txty",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-00cb718dc6fa",
     "type": "earthquake",
     "title": "M5.2 earthquake — 148 km NW of Kilmia, Yemen",
@@ -1893,23 +1654,6 @@
     ]
   },
   {
-    "event_id": "SG-05bd23594ab5",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The National Weather Service in Mount Holly has issued a Flood Warning for the following rivers in New Jersey... Millstone River At Blackwells Mills affecting Somerset County. For the Millstone River...including Blackwells Mills...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Millstone River at Blackwells Mills. * WHEN...From late tonight to Tuesday morning. * IMPACTS...At 10.0 feet, The D&R Canal is flooded by the Millstone River. * ADDITIONAL DETAILS... - At 2:15 PM EDT Sunday the stage was 5.8 feet. - Forecast...The river is expected to rise above flood stage just after midnight tonight to a crest of 9.7 feet early tomorrow afternoon. It will then fall below flood stage early Tuesday morning. - Flood stage is 9.0 feet. - Flood History...This crest compares to a previous crest of 9.7 feet on 05/11/1998. - http://www.weather.gov/safety/flood",
-    "latitude": 40.480000000000004,
-    "longitude": -74.58571428571429,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-28T04:33:15.739683+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.965dd741fa0b3d6ef93bdb182f5bce72d39c1368.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-d378ea31b84c",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2977,23 +2721,6 @@
     ]
   },
   {
-    "event_id": "SG-3a8cf3b62ce9",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWSLC The National Weather Service in Salt Lake City has issued a * Flash Flood Warning for... Central Kane County in southern Utah... * Until 400 AM MDT Tuesday. * At 808 PM MDT, Doppler radar indicates heavy rainfall producing flash flooding in the Paria River and Wahweap Creek. Heaviest rainfall has been observed in the upper headwaters of the Paria River, where between 1 and 1.25 inches of rain have fallen. Additional rainfall amounts of 0.5 to 1 inch are possible in the warned area. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, normally dry washes, and slickrock areas. * Some locations that will experience flash flooding include... The Paria River downstream to the Arizona border and Wahweap Creek downstream to Lake Powell. This includes US Route 89 between mile markers 2 and 11...and between mile markers 18 and 22.",
-    "latitude": 37.24947368421053,
-    "longitude": -111.83052631578948,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T02:45:23.599536+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7568556db5ca642ca38f9cd91c57d009a4552c0d.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-d30d76fb067a",
     "type": "earthquake",
     "title": "M5.3 earthquake — 76 km NE of Tadine, New Caledonia",
@@ -3096,6 +2823,23 @@
     ]
   },
   {
+    "event_id": "SG-a009b8cee53c",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — 95 km SSW of Ocós, Guatemala",
+    "description": "M 4.5 - 95 km SSW of Ocós, Guatemala",
+    "latitude": 13.7623,
+    "longitude": -92.6345,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T08:21:56.906000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyb6",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-fecaf1d1cf35",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -3130,159 +2874,6 @@
     ]
   },
   {
-    "event_id": "SG-5386a235e4ee",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Astor affecting Lake and Volusia Counties. .The St Johns River at Astor remains within Minor Flood Stage due to tidal effects. River levels are forecast to gradually subside this week but remain within Minor Flood stage. For the St. Johns River...including Astor...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...St Johns River near Astor. * WHEN...Until further notice. * IMPACTS...At 2.8 feet, Docks and boat ramps covered at South Moon Fish Camp and approaching sea wall at Blair's Jungle Den. Water approaching sites closest to the river at Fish Tales RV Resort and Astor Landing Campground. Portion of Clair Street covered by river water south of the Butler Boat Ramp. Docks underwater at the Astor Bridge Marina and along Riveredge Drive. Portions of Fox Road are covered with water nearest to the river. Acorn, Hazelnut and Redbud roads are underwater with yards inundated. * ADDITIONAL DETAILS... - At 7:30 PM EDT Monday the stage was 2.6 feet. - Bankfull stage is 2.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 PM EDT Monday was 2.7 feet. - Forecast...The river is expected to remain steady above flood stage at 2.6 feet. - Flood stage is 2.3 feet. - Flood History...This crest compares to a previous crest of 2.6 feet on 10/14/1996. - http://www.weather.gov/safety/flood",
-    "latitude": 29.186,
-    "longitude": -81.536,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57539f065ac0cf8247b80b2a74ede212d4dce0ff.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-ce296d3aed40",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWSLC The National Weather Service in Salt Lake City has extended the * Flash Flood Warning for... South Central Kane County in southern Utah... * Until 515 AM MDT. * At 313 AM MDT, Doppler radar indicated thunderstorms produced heavy rain in Lick Wash downstream to Buckskin Gulch. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding in Lick Wash downstream into Buckskin Gulch. SOURCE...Radar indicated. IMPACT...Life threatening flash flooding of creeks and streams, normally dry washes, and slickrock areas. * Some locations that will experience flash flooding include... Lick Wash downstream into Buckskin Gulch. This includes US Route 89 between mile markers 35 and 37.",
-    "latitude": 37.195238095238096,
-    "longitude": -112.03523809523809,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a51fdf00886ae1f3e3db86abb90d5aacd42badc.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-e20b9b19041e",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...East Central Stutsman County in southeastern North Dakota... * WHEN...Until 600 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 406 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Jamestown and Spiritwood. - http://www.weather.gov/safety/flood",
-    "latitude": 46.93454545454545,
-    "longitude": -98.5281818181818,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ef09c95a5fc7ab4ef7bc6dd4015668b781fdd86b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-9de05e6d3486",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Northwestern Stutsman County in southeastern North Dakota... * WHEN...Until 600 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 405 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Woodworth and Edmunds. - http://www.weather.gov/safety/flood",
-    "latitude": 47.17857142857143,
-    "longitude": -99.1557142857143,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f7054d1f0c2244616ca13bcdfcf88cea5e838cd.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b0b684ca6136",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWFGZ The National Weather Service in Flagstaff has issued a * Flash Flood Warning for... Yavapai County in west central Arizona... * Until 445 AM MST. * At 152 AM MST, a river gauge on Granite Creek in Prescott reported a rapid rise of 4 feet from thunderstorms producing heavy rain in Granite Creek River Gauge. Between 0.5 and 0.75 inches of rain have fallen recently. Additional rainfall amounts of 0.5 to 1.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...River gauge reported. IMPACT...Life threatening flash flooding of creeks and streams, normally dry washes, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Chino Valley, Prescott, Prescott Regional Airport, Embry-Riddle Aeronautical University, Willow Creek Reservoir, Watson Lake, Downtown Prescott, Jim McCasland Willow Creek Park, Watson Lake Park, Whipple, AC Williams Granite Creek Park, Courthouse Plaza and Acker Park. This includes the following highways... State Route 69 near mile marker 296. State Route 89 between mile markers 310 and 320. State Route 89A between mile markers 318 and 319. This includes the following recreation areas and campgrounds... Acker Park, AC Williams Granite Creek Park and Watson Lake Park. This includes the following creeks, washes and rivers... Willow Creek, Verde River, Bottleneck Wash, Little Chino Valley, Miller Creek, Granite Creek and Bannon Creek.",
-    "latitude": 34.663,
-    "longitude": -112.434,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f253c24c9071c3a40f9db945cc6f8e5f19e375df.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-fdb568d79d77",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 213 AM MDT, Doppler radar and automated rain gauges indicated thunderstorms producing heavy rain across the warned area. Between 0.5 and 2 inches of rain have fallen. Additional rainfall amounts up to 0.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar and automated gauges. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Eunice, Eunice Airport and Oil Center.",
-    "latitude": 32.22375,
-    "longitude": -103.27625,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d703ae47c602d0c69a694f98d8404c7e69b3419f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4926c840701c",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...South Central Hidalgo County in southwestern New Mexico... * WHEN...Until 415 AM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 212 AM MDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 0.75 inches of rain have fallen. - Additional rainfall of up to 0.5 inches is expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Antelope Wells, Alamo Hueco and Playas Valley. - http://www.weather.gov/safety/flood",
-    "latitude": 31.395,
-    "longitude": -108.56833333333333,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.69221781049fe164a8d47969c6cfb4728e2d75b7.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a9067c99f4e6",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWEPZ The National Weather Service in El Paso Tx/Santa Teresa has issued a * Flash Flood Warning for... South Central Sierra County in south central New Mexico... Eastern Grant County in southwestern New Mexico... Northeastern Luna County in southwestern New Mexico... * Until 345 AM MDT. * At 152 AM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Up to 1 inch of rain has fallen. Additional rainfall amounts up to 0.25 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Lake Valley and Uvas Valley.",
-    "latitude": 32.59375,
-    "longitude": -107.5675,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e6ac4b38b96c48ababfc0ce1e994bd5146a02325.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-2a78febfd59e",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWSLC The National Weather Service in Salt Lake City has extended the * Flash Flood Warning for... South Central Washington County in southwestern Utah... * Until 345 AM MDT. * At 143 AM MDT, Doppler radar and automated rain gauges indicated thunderstorms produced heavy rain across the warned area. Flash flooding is already occurring. HAZARD...Life threatening flash flooding. SOURCE...Radar and automated gauges. IMPACT...Life threatening flash flooding of creeks and streams, dry washes, and low water crossings. * Some locations that will experience flash flooding include... Fort Pearce Wash and Creek near St. George.",
-    "latitude": 37.03615384615385,
-    "longitude": -113.49692307692308,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e467d426035c42514e58295add92f3a7c966ddbf.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-688d6169bae4",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -3294,142 +2885,6 @@
     "confidence": 100,
     "timestamp": "2026-09-29T09:35:46.326274+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c6c4fb17af68e7023f2529098317283b2d0d499.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-3347b1d04521",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWSLC The National Weather Service in Salt Lake City has issued a * Flash Flood Warning for... Southwestern Emery County in central Utah... * Until 430 AM MDT. * At 137 AM MDT, Doppler radar and automated rain gauges indicated thunderstorms producing heavy rain across the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...Radar and automated gauges. IMPACT...Life threatening flash flooding of creeks and streams, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Goblin Valley, Little Wild Horse, Crack, Chute, Ding, Dang and all other slot canyons in the area. This includes the following highways... Interstate 70 between mile markers 108 and 150. Utah Route 24 between mile markers 134 and 156...and between mile markers 158 and 160.",
-    "latitude": 38.68857142857143,
-    "longitude": -110.87571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.04fd4b080d38f7924f5c73702f684026dd2135e7.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a1b4545c3bba",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Maricopa County in south central Arizona... East Central La Paz County in west central Arizona... * WHEN...Until 330 AM MST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. * ADDITIONAL DETAILS... - At 1230 AM MST, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.5 and 1 inch of rain has fallen. - Additional rainfall amounts of 0.25 to 0.5 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Salome, Harcuvar, Wenden, Vicksburg, Vicksburg Junction, Gladden, Brenda and Aguila. - http://www.weather.gov/safety/flood",
-    "latitude": 33.784285714285716,
-    "longitude": -113.51857142857143,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8faaf9f618a2d7d02f51210901158e7b593dede.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-2b68f0d7b2ec",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Central Sheridan County in south central North Dakota... * WHEN...Until 515 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 220 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Mcclusky, Denhoff and Hoffer Lake. - http://www.weather.gov/safety/flood",
-    "latitude": 47.57333333333334,
-    "longitude": -100.22777777777777,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2bdad7f1e989e00375f94dabb6875d145cf1cf4c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c15228910ad2",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Central Barnes County in southeastern North Dakota... * WHEN...Until 700 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 219 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. - Some locations that will experience flooding include... Valley City, Sanborn, Oriska and Bald Hill Dam. - http://www.weather.gov/safety/flood",
-    "latitude": 46.964444444444446,
-    "longitude": -98.08222222222223,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.097bc16fe554441ed6038428a5bf297d81f56d3e.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-37847ecff74b",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "At 1217 AM MST, The Cataract Creek river gauge began showing a slow decline after the reported 5 foot rapid rise from thunderstorms producing heavy rain over the Havasu Creek basin around 8 PM MST Monday evening. Flash flooding is likely still ongoing. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding in and around the Havasu Creek basin. SOURCE...River gauge reported. IMPACT...Life threatening flash flooding of areas in and around the Havasu Creek basin. Some locations that will experience flash flooding include... Little Navajo Falls, Mooney Falls, Beaver Falls, Supai, Hualapai Hilltop and Havasupai Reservation. This includes the Colorado River between river miles 156 and 158. This includes the following swimming holes... All swimming holes on Havasu Creek near Supai. This includes the following creeks, washes and rivers... Little Coyote Canyon, Colorado River, Havasu Creek and Pasture Wash.",
-    "latitude": 36.241176470588236,
-    "longitude": -112.72647058823529,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92e8cdaffbab9455366d06deffc30aa0e25e1908.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-5931f691365f",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWFGZ The National Weather Service in Flagstaff has issued a * Flash Flood Warning for... The Paria River in... Coconino County in north central Arizona... * Until 645 AM MST /745 AM MDT/ Tonight. * At 1139 PM MST /1239 AM MDT/, a river gauge on the Paria River in Utah reported a rapid rise of 4.47 feet from heavy rain over the Paria River. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Heavy rain producing flash flooding in and around the Paria River. SOURCE...River gauge reported. IMPACT...Life threatening flash flooding of areas in and around the Paria River. * Some locations that will experience flash flooding include... Paria Canyon, Paria River Slot Canyon, Vermilion Cliffs National Monument and Lees Ferry. This includes the Colorado River near mile marker 0. This includes the following recreation areas and campgrounds... Lees Ferry Camp Site. This includes the following creeks, washes and rivers... Colorado River and Paria River.",
-    "latitude": 36.927,
-    "longitude": -111.701,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7dfebb6b16579962ca0922d09b2fd7f73e63406c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-7aaac58d8a99",
-    "type": "weather_alert",
-    "title": "Marine Weather Statement",
-    "description": "The St Marys river system remains closed to vessel navigation between 9 Mile Point to Mud Lake Junction due to dense fog. The fog is likely to continue through early this morning.",
-    "latitude": 46.30380952380953,
-    "longitude": -84.2095238095238,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ba25c3d78f545867fa13c985e3a5d624365b316.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-dcaec7f8d6f1",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...West Central Kane County in southern Utah... East Central Washington County in southwestern Utah... * WHEN...Until 815 AM MDT Tuesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 1115 PM MDT, gauge reports indicated heavy rain due to thunderstorms. Flooding is already occurring in the warned area. - Some locations that will experience flooding include... Zion National Park, Springdale, Rockville, and all slot canyons in Zion National Park, as well as the East Fork and North Fork of the Virgin River. - http://www.weather.gov/safety/flood",
-    "latitude": 37.27285714285715,
-    "longitude": -112.98428571428572,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa424af7c1c76586486c174dcb00b8117e229d44.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -3453,34 +2908,664 @@
     ]
   },
   {
-    "event_id": "SG-633c5a196118",
+    "event_id": "SG-8e2806a36170",
+    "type": "reddit_report",
+    "title": "Russian drones attack 2 civilian cars in northern Kharkiv oblast, injure man",
+    "description": "submitted by /u/Gwara_Media to r/UkrainianConflict [link] [comments]",
+    "latitude": 49.9935,
+    "longitude": 36.2304,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 70,
+    "timestamp": "2026-09-29T09:48:16+00:00",
+    "url": "https://reddit.com/r/UkrainianConflict/comments/1wt5uoc/russian_drones_attack_2_civilian_cars_in_northern",
+    "classification": "source_reported",
+    "source": [
+      "Reddit reddit_ukrainian_conflict"
+    ]
+  },
+  {
+    "event_id": "SG-8bfaaf0718d2",
+    "type": "earthquake",
+    "title": "M3.07 earthquake — 19 km W of Preston, Nevada",
+    "description": "M 3.1 - 19 km W of Preston, Nevada",
+    "latitude": 38.9214,
+    "longitude": -115.2879,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T09:50:11.265000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925017",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-4a1507880de4",
+    "type": "earthquake",
+    "title": "M3.2 earthquake — 28 km W of Elfin Cove, Alaska",
+    "description": "M 3.2 - 28 km W of Elfin Cove, Alaska",
+    "latitude": 58.195,
+    "longitude": -136.833,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T10:14:35.593000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026thikql",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7d65b16b1802",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — 96 km ENE of Alianza Cristiana, Peru",
+    "description": "M 4.5 - 96 km ENE of Alianza Cristiana, Peru",
+    "latitude": -3.1213,
+    "longitude": -75.6413,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T10:22:14.613000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tybk",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9efe60a33b0b",
+    "type": "earthquake",
+    "title": "M4 earthquake — 64 km SE of King Cove, Alaska",
+    "description": "M 4.0 - 64 km SE of King Cove, Alaska",
+    "latitude": 54.66,
+    "longitude": -161.5901,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T10:24:37.599000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tybl",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-8a2fa0dc3771",
+    "type": "earthquake",
+    "title": "M2.5 earthquake — 71 km WSW of Nanwalek, Alaska",
+    "description": "M 2.5 - 71 km WSW of Nanwalek, Alaska",
+    "latitude": 59.162,
+    "longitude": -153.117,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T10:26:03.088000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026thiuub",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-a33d128512f9",
+    "type": "earthquake",
+    "title": "M5 earthquake — 77 km ENE of Tadine, New Caledonia",
+    "description": "M 5.0 - 77 km ENE of Tadine, New Caledonia",
+    "latitude": -21.3447,
+    "longitude": 168.5924,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T10:42:57.409000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tybr",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-c0624c34cfd0",
+    "type": "earthquake",
+    "title": "M4.8 earthquake — 98 km SW of Port-Vila, Vanuatu",
+    "description": "M 4.8 - 98 km SW of Port-Vila, Vanuatu",
+    "latitude": -18.2306,
+    "longitude": 167.5446,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T11:27:48.406000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tybs",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-8e1a5dcf9e4d",
+    "type": "earthquake",
+    "title": "M4.73 earthquake — 100 km W of Petrolia, CA",
+    "description": "M 4.7 - 100 km W of Petrolia, CA",
+    "latitude": 40.4329986572266,
+    "longitude": -125.459831237793,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T11:36:37.910000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444322",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-62b490937258",
+    "type": "earthquake",
+    "title": "M2.51 earthquake — 2 km SSW of Round Valley, CA",
+    "description": "M 2.5 - 2 km SSW of Round Valley, CA",
+    "latitude": 37.3976669311523,
+    "longitude": -118.605003356934,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T12:18:44.820000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444342",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7e9975757bc8",
+    "type": "humanitarian",
+    "title": "Green flood alert in Thailand",
+    "description": "On 05/10/2026, a flood started in Thailand, lasting until 07/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+    "latitude": 17.1053568,
+    "longitude": 98.9953943,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-29T12:21:03+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104169",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-2883d95a9f4e",
+    "type": "earthquake",
+    "title": "M5.4 earthquake — 99 km SSE of Pangai, Tonga",
+    "description": "M 5.4 - 99 km SSE of Pangai, Tonga",
+    "latitude": -20.6773,
+    "longitude": -174.0813,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T12:40:35.064000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc1",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-b8af4018b1d4",
+    "type": "earthquake",
+    "title": "M5.6 earthquake — southern Mid-Atlantic Ridge",
+    "description": "M 5.6 - southern Mid-Atlantic Ridge",
+    "latitude": -35.204,
+    "longitude": -16.1859,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T13:06:10.191000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc3",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program",
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-666138aad7b3",
+    "type": "earthquake",
+    "title": "M5 earthquake — 58 km NW of Pante Makasar, Timor Leste",
+    "description": "M 5.0 - 58 km NW of Pante Makasar, Timor Leste",
+    "latitude": -8.7834,
+    "longitude": 124.0495,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T14:14:06.077000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc9",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-3f00f171a4b4",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Bolivia",
+    "description": "On 28/09/2026, a forest fire started in Bolivia, until 29/09/2026.",
+    "latitude": -12.620362967732616,
+    "longitude": -65.37246081120162,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-09-29T15:01:53+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032484",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-7a7694e62095",
+    "type": "humanitarian",
+    "title": "Green notification for tropical cyclone NINETEEN-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (0 in Tropical Storm).",
+    "description": "From 29/09/2026 to 29/09/2026, a Tropical Depression (maximum wind speed of 65 km/h) NINETEEN-E-26 was active in EastPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0 (0 in tropical storm).",
+    "latitude": 14.4,
+    "longitude": -131.6,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 95,
+    "timestamp": "2026-09-29T15:15:39+00:00",
+    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001331",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-d74442f1d94e",
     "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...South Central Garfield County in southern Utah... Eastern Kane County in southern Utah... * WHEN...Until 800 AM MDT Tuesday. * IMPACTS...Flooding of rivers, creeks, streams, slot canyons, normally dry washes and other low-lying and flood-prone locations is imminent or occurring. Waterways continue to rise due to excess runoff from earlier rainfall. * ADDITIONAL DETAILS... - At 1100 PM MDT, Doppler radar indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. - Some locations that will experience flooding include... Escalante, Boulder, the Escalante River drainage from the headwaters to Powell, Last Chance, Croton Creek, Dry Rock Creek, Coyote Gulch and all slot canyons in the Escalante Drainage and near Hole-in-the-Rock Road. - http://www.weather.gov/safety/flood",
-    "latitude": 37.33,
-    "longitude": -111.36571428571428,
+    "title": "Flash Flood Warning",
+    "description": "FFWEPZ The National Weather Service in El Paso Tx/Santa Teresa has extended the * Flash Flood Warning for... Central Dona Ana County in south central New Mexico... * Until noon MDT. * At 1007 AM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen. Additional rainfall amounts up to 0.5 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Portions of Jornada Experimental Range.",
+    "latitude": 32.571,
+    "longitude": -106.785,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d2ddd4cfbe75b31bf55c65c789c436d65843224f.001.1",
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2cf6c7eb8b520eb44c9fa50cafded942ef8611c6.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
     ]
   },
   {
-    "event_id": "SG-56ff0aac2885",
+    "event_id": "SG-37743fc34b95",
     "type": "weather_alert",
     "title": "Flood Warning",
-    "description": "* WHAT...Small stream flooding caused by excessive rainfall is expected. * WHERE...Northwestern Barnes County in southeastern North Dakota... Southern Griggs County in southeastern North Dakota... * WHEN...Until 915 AM CDT Tuesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Streams continue to rise due to excess runoff from earlier rainfall. * ADDITIONAL DETAILS... - At 1136 PM CDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms. Flooding is ongoing or expected to begin shortly in the warned area. Between 2 and 3 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are possible in the warned area. - Some locations that will experience flooding include... Cooperstown, Wimbledon, Hannaford, Dazey and Walum. - http://www.weather.gov/safety/flood",
-    "latitude": 47.2825,
-    "longitude": -98.22749999999999,
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Scott and Clinton Counties. * WHAT...Moderate flooding is occurring and will continue. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until Thursday afternoon. * IMPACTS...At 12.0 feet, overbank flooding occurs. Water affects residences along the river between Wheatland and Calamus. Water affects businesses along the river near Calamus. * ADDITIONAL DETAILS... - At 10:30 AM CDT Tuesday the stage was 12.0 feet. - Forecast...The river is expected to fall below flood stage early Thursday morning and continue falling. - Flood stage is 11.0 feet.",
+    "latitude": 41.83714285714286,
+    "longitude": -90.69857142857143,
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-09-29T09:35:46.326274+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc5fbe4d423f91b7171abcaa8082ce27eff62253.001.1",
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dc3355d642d579c56a5c678b202a442acdebbb2.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2a6a4e81cc00",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Gila County in east central Arizona... Maricopa County in south central Arizona... Pinal County in southeastern Arizona... * WHEN...Until noon MST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. Some low-water crossings may become impassable. * ADDITIONAL DETAILS... - At 902 AM MST, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.5 and 1.25 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1.25 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Florence, Coolidge, Superior, Roosevelt, Boyce Thompson Arboretum, Top-Of-The-World, Top Of The World, Apache Lake, Queen Valley, Florence Junction, Tonto National Monument, Roosevelt Dam, Kings Ranch, Gold Camp, Four Peaks, Magma, Coolidge Airport, Tortilla Flat, Roosevelt Estates and Inspiration. - http://www.weather.gov/safety/flood",
+    "latitude": 33.45666666666667,
+    "longitude": -111.06523809523809,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5afe14788c3a807a5efe5da273d6fa9a0aa1c5f2.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-e04423ab696e",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "SMWMFL The National Weather Service in Miami has issued a * Special Marine Warning for... Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas... * Until 1245 PM EDT. * At 1201 PM EDT, a severe thunderstorm capable of producing waterspouts was located 37 nm east of Pacific Reef, moving southeast at 15 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Waterspouts can easily overturn boats and create locally hazardous seas. Small craft could be damaged in briefly higher winds and suddenly higher waves. * The severe thunderstorm will remain over mainly open waters.",
+    "latitude": 25.154,
+    "longitude": -79.482,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.656fcea8446102ee724ec15a601c0658b8c67983.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2fa20f6f7cc9",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...South Central Grant County in southwestern New Mexico... Central Hidalgo County in southwestern New Mexico... * WHEN...Until 100 PM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water over roadways. * ADDITIONAL DETAILS... - At 1000 AM MDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 0.75 inches of rain have fallen. - Additional rainfall of up to 0.5 inches is expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Separ. - http://www.weather.gov/safety/flood",
+    "latitude": 32.25666666666667,
+    "longitude": -108.49777777777778,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.549e5b0b0f6232ba564169905c3793178831879b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-829d0c35f88e",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWEPZ The National Weather Service in El Paso Tx/Santa Teresa has extended the * Flash Flood Warning for... Southwestern Sierra County in south central New Mexico... East Central Grant County in southwestern New Mexico... North Central Luna County in southwestern New Mexico... * Until 1145 AM MDT. * At 952 AM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 1.5 inches of rain have fallen. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Lake Valley.",
+    "latitude": 32.674615384615386,
+    "longitude": -107.74307692307693,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ce31c88e2e9a8002ba4b63f102858b8cededbe7b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b03c9fb8f5c3",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "SMWTBW The National Weather Service in Ruskin has issued a * Special Marine Warning for... Coastal waters from Bonita Beach to Englewood FL out 20 NM... Waters from Bonita Beach to Englewood FL out 20 to 60 NM... * Until 1230 PM EDT. * At 1147 AM EDT, a severe thunderstorm capable of producing waterspouts was located 27 nm west of North Captiva Island, moving east at 15 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Waterspouts can quickly form and capsize boats, damage vessels, and create suddenly higher waves. Make sure all on board are in a secure location and wearing life jackets. Expect wind gusts in excess of 34 knots, suddenly higher waves, frequent lightning, and heavy downpours. Make sure all on board are wearing life jackets. * The severe thunderstorm will remain over mainly open waters.",
+    "latitude": 26.410000000000004,
+    "longitude": -82.65599999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dea6061062dcc7d89735a2561291b09564510b09.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d0d226c6dc9a",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWTWC The National Weather Service in Tucson has issued a * Flash Flood Warning for... North Central Pima County in southeastern Arizona... Pinal County in southeastern Arizona... * Until 230 PM MST. * At 832 AM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Up to 1.5 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Marana, Sells, Eloy, Avra Valley, Kearny, Dudleyville, Santa Rosa, Picacho, San Isidro, Picacho Peak State Park, Pinal Airpark, Picture Rocks, Red Rock, Cactus Forest, Covered Wells, Anegam, Gu Oidak, Palo Verde Stand, Ak Chin and Queens Well. This includes the following highways... Route 79 between mile markers 95 and 128. Route 86 between mile markers 89 and 112. Route 87 between mile markers 116 and 124. Route 77 between mile markers 122 and 134. Route 177 between mile markers 139 and 158. Interstate 10 between mile markers 205 and 242. This includes the following Flash Flood Prone Locations... Suizo Rd at Cadillac Wash, Sunland Gin Rd at Greene Wash, Sasco Rd at Santa Cruz Wash, Park Link Dr between I-10 and HWY 79, Twin Peaks Rd between Sanders and Sandario and Sil Nakya Wash at Route 34.",
+    "latitude": 32.656190476190474,
+    "longitude": -111.26380952380953,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.10e7e6cfb8280415d4a27941c29d387c9e6a2fdd.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-e25ab3f98b0a",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWTWC The National Weather Service in Tucson has issued a * Flash Flood Warning for... Southwestern Cochise County in southeastern Arizona... * Until 230 PM MST Tuesday. * At 824 AM MST, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Up to 1 inch of rain has fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Sierra Vista, Hereford, Fort Huachuca, Palominas, Coronado National Memorial and Ramsey Canyon Preserve. This includes the following highways... Route 90 between mile markers 324 and 336. Route 80 between mile markers 328 and 335. Route 92 between mile markers 323 and 345. This includes the following Flash Flood Prone Locations... Moson Rd from HWY 90 and Hereford Rd.",
+    "latitude": 31.43,
+    "longitude": -110.27714285714285,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.188d5d1cc9778be8a9ee423b5999f6f853dc6b63.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1669cff172fc",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWFGZ The National Weather Service in Flagstaff has extended the * Flash Flood Warning for... Yavapai County in west central Arizona... * Until noon MST. * At 824 AM MST, a river gauge on the Agua Fria River at Rock Springs reported a rapid rise of 3.5 feet from thunderstorms producing heavy rain across the warned area. Up to 1.5 inches of rain have fallen. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...River gauge reported. IMPACT...Life threatening flash flooding of creeks and streams, normally dry washes, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Rock Springs. This includes Interstate 17 near mile marker 242. This includes the following recreation areas and campgrounds... Black Canyon Campground. This includes the following creeks, washes and rivers... Black Canyon Creek, Agua Fria River and Slate Creek.",
+    "latitude": 33.99047619047619,
+    "longitude": -112.19952380952381,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f20796873f85551b3f0b735e72eb8e6b9ed3ee7.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1b6657064096",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWEPZ The National Weather Service in El Paso Tx/Santa Teresa has issued a * Flash Flood Warning for... Central Luna County in southwestern New Mexico... * Until 1230 PM MDT. * At 924 AM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 0.75 and 1.25 inches of rain have fallen. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Deming.",
+    "latitude": 32.25222222222222,
+    "longitude": -107.85888888888888,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b38f408ed1854eaa458069ae77ac1b1eaeb4aab.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-3473502df550",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Thursday afternoon. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Tuesday the stage was 7.4 feet. - Forecast...The river will slowly fall below flood stage towards the end of the week. However, additional rainfall is expected Wednesday and Thursday, which may result in renewed rises. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 42.462857142857146,
+    "longitude": -87.93142857142857,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bcf215431270e5c666897d33f83d18e28023ea2d.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-bb432bda08b1",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Topeka has issued a Flood Warning for the following rivers in Kansas... Big Blue River near Blue Rapids affecting Marshall County. * WHAT...Minor flooding is forecast. * WHERE...Big Blue River near Blue Rapids. * WHEN...From Wednesday morning to Saturday afternoon. * IMPACTS...At 26.0 feet, Minor lowland flooding occurs from Marysville to Tuttle Creek Lake. * ADDITIONAL DETAILS... - At 9:15 AM CDT Tuesday the stage was 22.9 feet. - Forecast...The river is expected to rise above flood stage late tomorrow morning to a crest of 29.4 feet early Thursday morning. It will then fall below flood stage early Saturday morning. - Flood stage is 26.0 feet.",
+    "latitude": 39.653333333333336,
+    "longitude": -96.62166666666667,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19fdbb881a7963057efc7f48e1bfc43a2e57918f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-651ff2ad448f",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWEPZ The National Weather Service in El Paso Tx/Santa Teresa has issued a * Flash Flood Warning for... Northeastern Dona Ana County in south central New Mexico... * Until noon MDT. * At 854 AM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 1.5 inches of rain have fallen. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Mainly rural areas of Northeastern Dona Ana County.",
+    "latitude": 32.76166666666666,
+    "longitude": -106.52166666666666,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d8a238bac45bf16c3354b6034e5b3ebc8618cc0.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-700fa4bb46a0",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWEPZ The National Weather Service in El Paso Tx/Santa Teresa has issued a * Flash Flood Warning for... South Central Grant County in southwestern New Mexico... East Central Hidalgo County in southwestern New Mexico... Southwestern Luna County in southwestern New Mexico... * Until 1145 AM MDT. * At 851 AM MDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 0.75 and 1.25 inches of rain have fallen. Additional rainfall amounts up to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Hachita and Hachita Valley.",
+    "latitude": 31.883636363636366,
+    "longitude": -108.29272727272728,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f28512defb3fda1b44a3e7fcdf2ad33cf2108cd9.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d3116834def6",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Massachusetts... Taunton River Near Bridgewater affecting Plymouth and Bristol Counties. For the Taunton River...including Bridgewater...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Taunton River near Bridgewater. * WHEN...Until late Wednesday night. * IMPACTS...At 9.0 feet, Backwater flooding from the Taunton River will cause flooding of lower Purchade Brook in Middleboro. This will cause Woloski Park to become impassable by most vehicles for an extended period of time. Beware of the dangers of crossing flooded roadways. The water may be deeper than you think. Floodwaters have the ability to damage roadways. Heed the advice of local officials, and evacuate if asked to do so. * ADDITIONAL DETAILS... - At 9:45 AM EDT Tuesday the stage was 9.1 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 9:45 AM EDT Tuesday was 9.1 feet. - Forecast...The river is expected to fall below flood stage tomorrow evening and continue falling to 6.4 feet Friday morning. - Flood stage is 8.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 41.874,
+    "longitude": -71.064,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27691a14b1e7d5ed4071ef02c5d498e8acd5216e.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f277eb7b590d",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...North Central Grant County in southwestern New Mexico... * WHEN...Until 1145 AM MDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Rises in small streams and normally dry arroyos. * ADDITIONAL DETAILS... - At 842 AM MDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 0.75 inches of rain have fallen. - Additional rainfall of up to 0.5 inches is expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Cliff, Buckhorn, Gila Hot Springs, Riverside and Gila. - http://www.weather.gov/safety/flood",
+    "latitude": 33.11666666666667,
+    "longitude": -108.45444444444445,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.beb0e4e43a020989e397ac381fed70f2a8d1a5cb.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-7a084427cb67",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWFGZ The National Weather Service in Flagstaff has extended the * Flash Flood Warning for... Yavapai County in west central Arizona... * Until 1100 AM MST. * At 737 AM MST, a river gauge on the Granite Creek reported a rapid rise of 5 feet from thunderstorms producing heavy rain in Granite Creek River Gauge. Between 1 and 2 inches of rain have fallen. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Thunderstorms producing flash flooding. SOURCE...River gauge reported. IMPACT...Life threatening flash flooding of creeks and streams, normally dry washes, urban areas, highways, streets and underpasses. * Some locations that will experience flash flooding include... Chino Valley, Prescott, Prescott Regional Airport, Embry-Riddle Aeronautical University, Willow Creek Reservoir, Watson Lake, Downtown Prescott, Jim McCasland Willow Creek Park, Watson Lake Park, Whipple, AC Williams Granite Creek Park, Courthouse Plaza and Acker Park. This includes the following highways... State Route 69 near mile marker 296. State Route 89 between mile markers 310 and 320. State Route 89A between mile markers 318 and 319. This includes the following recreation areas and campgrounds... Acker Park, AC Williams Granite Creek Park and Watson Lake Park. This includes the following creeks, washes and rivers... Little Chino Valley, Verde River, Willow Creek, Miller Creek, Bottleneck Wash, Granite Creek and Bannon Creek.",
+    "latitude": 34.663,
+    "longitude": -112.434,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b9bd63bfe32c78536f342fcef4abfe799a3afc7.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-dd555a1476b6",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "Additional rain is not expected the next few hours. The urban flooding should subside shortly. * WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Southeastern Platte County in northeastern Nebraska... * WHEN...Until 1145 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 847 AM CDT, the public reported heavy rain in the advisory area due to thunderstorms. This will cause urban and small stream flooding. Between 1 and 2 inches of rain have fallen. - Some locations that will experience flooding include... Columbus and Camp Pawnee. - http://www.weather.gov/safety/flood",
+    "latitude": 41.43555555555556,
+    "longitude": -97.34222222222223,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f621ec9af35ffde274385aea22921cc6dd2ced29.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-fd51ac3307b3",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Astor affecting Lake and Volusia Counties. .The St Johns River at Astor remains within Minor Flood Stage due to tidal effects. River levels are forecast to gradually subside this week but remain within Minor Flood stage. For the St. Johns River...including Astor...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...St Johns River near Astor. * WHEN...Until further notice. * IMPACTS...At 2.8 feet, Docks and boat ramps covered at South Moon Fish Camp and approaching sea wall at Blair's Jungle Den. Water approaching sites closest to the river at Fish Tales RV Resort and Astor Landing Campground. Portion of Clair Street covered by river water south of the Butler Boat Ramp. Docks underwater at the Astor Bridge Marina and along Riveredge Drive. Portions of Fox Road are covered with water nearest to the river. Acorn, Hazelnut and Redbud roads are underwater with yards inundated. * ADDITIONAL DETAILS... - At 8:30 AM EDT Tuesday the stage was 2.6 feet. - Bankfull stage is 2.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:30 AM EDT Tuesday was 2.7 feet. - Forecast...The river is expected to remain steady above flood stage at 2.6 feet today, and then gradually subside through Minor Flood Stage this week. - Flood stage is 2.3 feet. - Flood History...This crest compares to a previous crest of 2.6 feet on 10/14/1996. - http://www.weather.gov/safety/flood",
+    "latitude": 29.186,
+    "longitude": -81.536,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da2d9b2c6a62124b671a8bd232a124184e536c80.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1e5327fddb0b",
+    "type": "weather_alert",
+    "title": "Flash Flood Warning",
+    "description": "FFWFGZ The National Weather Service in Flagstaff has extended the * Flash Flood Warning for... The Paria River in... Coconino County in north central Arizona... * Until 945 AM MST /1045 AM MDT/. * At 627 AM MST /727 AM MDT/, a few hours ago, a river gauge on the Paria River in Utah reported a rapid rise of 4.47 feet from heavy rain over the Paria River, and has started to decrease a couple of feet. This means the flood wave is currently moving through the Paria River within Arizona. Flash flooding is ongoing or expected to begin shortly. HAZARD...Life threatening flash flooding. Heavy rain producing flash flooding in and around the Paria River. SOURCE...River gauge reported. IMPACT...Life threatening flash flooding of areas in and around the Paria River. * Some locations that will experience flash flooding include... Paria Canyon, Paria River Slot Canyon, Vermilion Cliffs National Monument and Lees Ferry. This includes the Colorado River near mile marker 0. This includes the following recreation areas and campgrounds... Lees Ferry Camp Site. This includes the following creeks, washes and rivers... Colorado River and Paria River.",
+    "latitude": 36.935,
+    "longitude": -111.71,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c94b10d56e2624bd040e2b969a3f6e452cfdae3a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-67da34795d44",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Urban areas and small streams flooding caused by excessive rainfall. * WHERE...Indian Bend Wash in Maricopa County in south central Arizona... * WHEN...Until 1000 AM MST. * IMPACTS...Moderate to heavy rainfall has led to flooding of Indian Bend Wash. Low-water crossings may inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 608 AM MST, gauge reports indicated heavy rain due to thunderstorms. Flooding is already occurring in the warned area. - This includes the following streams and drainages... Indian Bend Wash. - Some locations that will experience flooding include... Paradise Valley. - http://www.weather.gov/safety/flood",
+    "latitude": 33.534285714285716,
+    "longitude": -111.95285714285716,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9900e614e9b7f20532908c772b88cc682355cda4.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9bf6e711e2c3",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Albuquerque has issued a Flood Warning for the following rivers in New Mexico... Pecos River Above Pecos affecting San Miguel County. * WHAT...Minor flooding is forecast. * WHERE...Pecos River above Pecos. * WHEN...From this morning to late tonight. * IMPACTS...At 5.0 feet, Fast flowing water may erode banks and approach homes near the river. Private bridges could drive localized flooding as debris accumulates along the upstream sides. Further rises may make bridges unsafe to cross and isolate residents. * ADDITIONAL DETAILS... - At 5:00 AM MDT Tuesday the stage was 3.3 feet. - Bankfull stage is 4.5 feet. - Forecast...The river is expected to rise above flood stage late this morning to a crest of 5.1 feet this afternoon. It will then fall below flood stage this evening. - Flood stage is 5.0 feet. - Flood History...This crest compares to a previous crest of 5.1 feet on 05/21/1991. - http://www.weather.gov/safety/flood",
+    "latitude": 35.502857142857145,
+    "longitude": -105.48142857142857,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-09-29T16:08:28.466445+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b9540bd8e2280dd1ba2ebddb1e980a871f9c71d.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
