@@ -1,188 +1,5 @@
 [
   {
-    "event_id": "SG-c6fb866a248c",
-    "type": "tropical_cyclone",
-    "title": "Tropical Storm Hanna",
-    "description": "Severe Storms",
-    "latitude": 33.4,
-    "longitude": -43.6,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-30T15:00:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24909",
-    "classification": "eonet_tropical_cyclone",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
-    "event_id": "SG-c0cdb9353312",
-    "type": "earthquake",
-    "title": "M2.7 earthquake — 12 km NE of Pāhala, Hawaii",
-    "description": "M 2.7 - 12 km NE of Pāhala, Hawaii",
-    "latitude": 19.2878341674805,
-    "longitude": -155.393325805664,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-30T15:02:23.290000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75045952",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-c06dae9cdf4b",
-    "type": "europe_security",
-    "title": "‘No way they can beat us’: Rutte rebuffs Russian nuclear threats to NATO",
-    "description": "POLITICO Europe Defence reported: Moscow and NATO have exchanged tense letters in recent days following Russian opposition to alliance exercises near its Kaliningrad exclave.",
-    "latitude": 54.7104,
-    "longitude": 20.4522,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 55,
-    "timestamp": "2026-09-30T15:13:21+00:00",
-    "url": "https://www.politico.eu/article/no-way-they-can-beat-us-mark-rutte-rebuffs-russian-nuclear-threats-to-nato",
-    "classification": "military_exercise",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "NATO",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-5ee1ee8a9421",
-    "location_precision": "city",
-    "europe_layers": [
-      "military_exercise",
-      "nato_activity"
-    ]
-  },
-  {
-    "event_id": "SG-3883235e8ae5",
-    "type": "earthquake",
-    "title": "M4.4 earthquake — 48 km WNW of Luwuk, Indonesia",
-    "description": "M 4.4 - 48 km WNW of Luwuk, Indonesia",
-    "latitude": -0.7769,
-    "longitude": 122.3906,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-30T16:29:32.799000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyke",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-26fc9806257d",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The National Weather Service in Kansas City/Pleasant Hill has issued a Flood Warning for the following rivers in Kansas... Missouri... Missouri River at St Joseph affecting Andrew, Buchanan and Doniphan Counties. This product along with additional weather and stream information is available at www.weather.gov/kc/. * WHAT...Minor flooding is forecast. * WHERE...Missouri River at St Joseph. * WHEN...From Thursday evening to late Sunday night. * IMPACTS...At 17.0 feet, Lowland flooding upstream and downstream from St. Joseph occurs. At 19.0 feet, Backwater from the Missouri River floods property along the Nodaway river at Nodaway, Missouri. At 21.0 feet, Riverfront Park in St. Joseph begins to flood. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 8.9 feet. - Forecast...The river will rise above flood stage late tomorrow evening to 20.7 feet Friday evening. It will then fall below flood stage early Sunday morning to 6.7 feet Sunday, October 18. It will rise to 6.9 feet Tuesday, October 20. It will then fall again and remain below flood stage. - Flood stage is 17.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.80166666666667,
-    "longitude": -94.945,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-30T16:55:56.782347+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.22b343657e560ffaa446edf4432cc583b2763455.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a9d5b71f1b74",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The National Weather Service in Kansas City/Pleasant Hill has issued a Flood Warning for the following rivers in Missouri... Grand River near Sumner affecting Chariton, Livingston, Carroll and Linn Counties. * WHAT...Moderate flooding is forecast. * WHERE...Grand River near Sumner. * WHEN...From late Thursday night to late Monday night. * IMPACTS...At 23.0 feet, Bottomland 1 to 2 miles south of the gage begins to flood. At 26.0 feet, Rural land adjacent to the river is flooded. At 28.0 feet, Rural roads are under water. * ADDITIONAL DETAILS... - At 8:45 AM CDT Wednesday the stage was 15.1 feet. - Forecast...The river is expected to rise above flood stage early Friday morning to a crest of 33.1 feet early Saturday morning. It will then fall below flood stage early Monday morning. - Flood stage is 26.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.64333333333334,
-    "longitude": -93.34500000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-30T16:55:56.782347+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.382dd09f4486466466f08efa7882481bbf281f08.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-1e9cfd7f0371",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Kansas... Big Blue River near Blue Rapids affecting Marshall County. * WHAT...Minor flooding is forecast. * WHERE...Big Blue River near Blue Rapids. * WHEN...Until Monday evening. * IMPACTS...At 26.0 feet, Minor lowland flooding occurs from Marysville to Tuttle Creek Lake. * ADDITIONAL DETAILS... - At 9:15 AM CDT Wednesday the stage was 25.0 feet. - Forecast...The river is expected to rise above flood stage late this morning to a crest of 40.1 feet early Friday afternoon. It will then fall below flood stage Monday morning. - Flood stage is 26.0 feet.",
-    "latitude": 39.653333333333336,
-    "longitude": -96.62166666666667,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-30T16:55:56.782347+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87d5f929f91ffe6aa7aa2f5325bdfbb941b8fef2.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-3705f60bf57c",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The National Weather Service in Topeka has issued a Flood Warning for the following river in Kansas... Republican River at Clay Center affecting Clay County. * WHAT...Minor flooding is forecast. * WHERE...Republican River at Clay Center. * WHEN...From Thursday afternoon to Sunday morning. * IMPACTS...At 15.0 feet, Lowland agricultural flooding occurs from U.S. Highway 24 to Milford Lake. At 17.0 feet, Flooding occurs between 16th, 17th, and 18th Roads and between Limestone and Osage Roads. * ADDITIONAL DETAILS... - At 9:30 AM CDT Wednesday the stage was 9.4 feet. - Forecast...The river is expected to rise above flood stage early tomorrow afternoon to a crest of 16.4 feet Friday morning. It will then fall below flood stage Saturday evening. - Flood stage is 15.0 feet.",
-    "latitude": 39.452,
-    "longitude": -97.228,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-30T16:55:56.782347+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.05489924e0a52d5730852b466507273ffb3932b8.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-fa9a242cfea3",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The National Weather Service in Topeka has issued a Flood Warning for the following river in Kansas... Little Blue River near Barnes affecting Marshall and Washington Counties. * WHAT...Minor flooding is forecast. * WHERE...Little Blue River near Barnes. * WHEN...From Thursday morning to late Saturday night. * IMPACTS...At 16.0 feet, Lowland agricultural flooding occurs from 15th Road and Zenith Road in Washington County to Waterville in Marshall County. At 17.0 feet, Farm field, 4.5 miles north of Barnes, on the west side of Highway 148 floods north of the river. At 19.0 feet, Farm field, 4.5 miles north of Barnes, south of the river and east of Highway 148 floods. At 21.0 feet, Minor flooding of farm fields along the Little Blue River...south of the Sunflower Road Bridge in Marshall county. * ADDITIONAL DETAILS... - At 8:30 AM CDT Wednesday the stage was 9.4 feet. - Forecast...The river is expected to rise above flood stage late tomorrow morning to a crest of 19.9 feet early Friday afternoon. It will then fall below flood stage early Saturday afternoon. - Flood stage is 16.0 feet.",
-    "latitude": 39.805,
-    "longitude": -96.83166666666666,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-09-30T16:55:56.782347+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.22bf705fd17f23d8cffb4b83037db857a4e8577b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-3d50ada0476f",
-    "type": "tropical_cyclone",
-    "title": "Hurricane Rachel",
-    "description": "Severe Storms",
-    "latitude": 18.4,
-    "longitude": -107.8,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-09-30T18:00:00+00:00",
-    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24875",
-    "classification": "eonet_tropical_cyclone",
-    "source": [
-      "NASA EONET"
-    ]
-  },
-  {
     "event_id": "SG-a518801023a3",
     "type": "earthquake",
     "title": "M4.9 earthquake — 136 km SE of Petropavlovsk-Kamchatsky, Russia",
@@ -1554,23 +1371,6 @@
     ]
   },
   {
-    "event_id": "SG-9092849f7dd0",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Kansas... Stranger Creek at Easton affecting Leavenworth and Atchison Counties. * WHAT...Moderate flooding is forecast. * WHERE...Stranger Creek at Easton. * WHEN...From this afternoon to Saturday afternoon. * IMPACTS...At 17.0 feet, Water enters low-lying fields south of Easton. At 18.0 feet, 1st street in Easton and 231st street north and south of Easton begin to flood. At 19.5 feet, Highway 192 just east of Easton is closed due to swift current of water over the road. At 20.0 feet, All roads out of Easton except for highway 192 west of 231st street in Easton are closed. In addition, water covers Millwood Road, 3 miles north of Easton. Water depth is 6 inches across the eastbound lane. * ADDITIONAL DETAILS... - At 8:30 AM CDT Thursday the stage was 8.3 feet. - Forecast...The river is expected to rise above flood stage late this afternoon to a crest of 19.6 feet just after midnight tonight. It will then fall below flood stage early tomorrow afternoon. - Flood stage is 17.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.36,
-    "longitude": -95.12,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-01T13:56:10.877136+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.af4eaa0ef8de4f59c34b10b6d83b218a4a9b4cbe.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-eb70ee92ee47",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2408,23 +2208,6 @@
     ]
   },
   {
-    "event_id": "SG-3fb74973162d",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The National Weather Service in Omaha/Valley has issued a Flood Warning for the following rivers in Iowa...Nebraska... Missouri River At Nebraska City affecting Fremont and Otoe Counties. Additional information is available at water.noaa.gov. The next statement will be issued this evening at 945 PM CDT. * WHAT...Minor flooding is forecast. * WHERE...Missouri River at Nebraska City. * WHEN...From this evening to Saturday afternoon. * IMPACTS...At 20.0 feet, Though flooding is already ongoing, this is the level when flooding starts becoming more impactful, especially to agricultural areas. * ADDITIONAL DETAILS... - At 9:00 AM CDT Thursday the stage was 14.3 feet. - Bankfull stage is 18.0 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 18.9 feet early tomorrow afternoon. It will then fall below flood stage early Saturday morning. - Flood stage is 18.0 feet. - Flood History...This crest compares to a previous crest of 19.0 feet on 06/12/1971. - http://www.weather.gov/safety/flood",
-    "latitude": 40.64631578947368,
-    "longitude": -95.7578947368421,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-01T23:21:54.869881+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e07e43ed5b5663f806f64e315b85dcf8f8b0bd5.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-af50e8d86b37",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2436,23 +2219,6 @@
     "confidence": 100,
     "timestamp": "2026-10-01T23:21:54.869881+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb63756f6e9e3e56c74922966767effafb2bb709.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-41b87d52e372",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "The second release from Suicide Basin is ongoing. Based on an observed earlier start time of water draining from the basin, the crest time for the Mendenhall Lake and River has been adjusted to early Friday morning. Minor to moderate flooding continues to be expected near Mendenhall Lake and River Thursday night into Friday morning. * WHAT...Flooding caused by a glacier-dammed lake outburst continues. * WHERE...The Mendenhall Lake And River near the Mendenhall Glacier Recreation area, View Drive and below Back Loop bridge. * WHEN...Until 745 AM AKDT Saturday. * IMPACTS...Flooding of the area around Mendenhall Lake and along the Mendenhall River is imminent or occurring. Water levels will, continue to rise and water temperatures will fall within the lake, and river. * ADDITIONAL DETAILS... - At 224 PM AKDT, gauge data reported a glacier-dammed lake outburst. Flooding is expected to begin shortly, especially near The Mendenhall Lake And River. - The outburst flood forecast is based on an estimated volume of water in the glacier dammed lake and an estimated release rate based on previous events. The extent of water drainage within the basin (partial or full) can vary widely between outburst flood events and is a major source of uncertainty in the forecast, particularly with regard to the peak flood stage. - For Mendenhall Lake : At 2:00pm the stage was 6.2 feet. Flood Stage is 9.0 feet. Forecast: A crest around 9.8 to 10.3 feet is expected between 5 to 9am Friday. Water levels will go above minor flood stage of 9 feet around 2am Friday. Water levels will reach moderate flood stage of 10 feet around 5 to 9am Friday. Water levels will fall below minor flood stage late morning Friday. Impacts: At 6.7 feet: Nugget Falls trail begins to flood near the \"causeway\" at the end of the trail. At 7.7 feet: Nugget Falls trail begins to flood near the beginning of the trail. Along the Mendenhall River some sections will experience bank erosion resulting in dangerous tree fall. These conditions could make floating the river more hazardous with the higher water levels. At 9.0 feet: Water starts to cover Skaters Cabin Road between Skaters Cabin and West Glacier Trailhead, also water will flow into the Mendenhall Lake Campground. At 9.5 feet: Water levels up to 0.5 feet will cover Skaters Cabin Road between Skaters Cabin and West Glacier Trailhead. Campsite 7 will be flooded with water starting to flow over the road between campsites 8 and 9 in the Mendenhall Campground. At 10.0 feet: Water levels will inundate Mendenhall Campground with up to 3 feet of water covering low areas as well as up to 1.5 feet of water covering Skaters Cabin Road. Portions of West Glacier Trail will be impassable. Areas along View Dr will start to flood and cause minor flooding of yards. Closure of pedestrian pathways beneath Brotherhood Bridge and the trail system on the west side of Mendenhall River during outburst events.",
-    "latitude": 58.408181818181816,
-    "longitude": -134.56272727272727,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-02T02:29:35.885836+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0566ccba8719072b1259d1651a67127d199dc9dd.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -2555,40 +2321,6 @@
     "confidence": 100,
     "timestamp": "2026-10-02T02:29:35.885836+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fdc044b476ef13b7785a6c536fb1a3c87a5b109.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-1d643bb508a1",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Missouri...Nebraska... Missouri River At Rulo affecting Holt and Richardson Counties. Missouri River At Brownville affecting Nemaha and Atchison Counties. ...The Flood Warning is cancelled for the following rivers in Iowa... Nebraska... Missouri River At Nebraska City affecting Fremont and Otoe Counties. * WHAT...Minor flooding is forecast. * WHERE...Missouri River at Brownville. * WHEN...From Friday morning to Saturday morning. * IMPACTS...At 35.0 feet, The parking lot and boat ramp south of Highway 136 on the Nebraska side are underwater. * ADDITIONAL DETAILS... - At 8:15 PM CDT Thursday the stage was 33.6 feet. - Bankfull stage is 33.0 feet. - Forecast...The river is expected to rise above flood stage late tomorrow morning to a crest of 34.3 feet tomorrow evening. It will then fall below flood stage early Saturday morning. - Flood stage is 34.0 feet. - Flood History...This crest compares to a previous crest of 34.1 feet on 05/25/2004. - http://www.weather.gov/safety/flood",
-    "latitude": 40.36866666666666,
-    "longitude": -95.59666666666666,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-02T02:29:35.885836+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fdc044b476ef13b7785a6c536fb1a3c87a5b109.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-94933257ddae",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Kansas... Stranger Creek at Easton affecting Leavenworth and Atchison Counties. Stranger Creek near Tonganoxie affecting Leavenworth County. * WHAT...Minor flooding is forecast. * WHERE...Stranger Creek near Tonganoxie. * WHEN...From late tonight to Saturday morning. * IMPACTS...At 23.0 feet, Low-lying farmland along the creek floods. At 25.0 feet, County Highway 6 floods about 3 miles east of Tonganoxie. * ADDITIONAL DETAILS... - At 8:30 PM CDT Thursday the stage was 11.1 feet. - Forecast...The river is expected to rise above flood stage late tonight to a crest of 23.5 feet tomorrow morning. It will then fall below flood stage late tomorrow morning. - Flood stage is 23.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.114,
-    "longitude": -95.05199999999999,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-02T02:29:35.885836+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eae07390b28b4ca5d8233e3904d11a394b194cf8.002.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -3275,23 +3007,6 @@
     ]
   },
   {
-    "event_id": "SG-51df0297b9e8",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "The second release from Suicide Basin is ongoing. Based on an observed earlier start time of water draining from the basin, the crest time for the Mendenhall Lake and River has been adjusted to early Friday morning. Minor to moderate flooding continues to be expected near Mendenhall Lake and River Thursday night into Friday morning. * WHAT...Flooding caused by a glacier-dammed lake outburst continues. * WHERE...The Mendenhall Lake And River near the Mendenhall Glacier Recreation area, View Drive and below Back Loop bridge. * WHEN...Until 745 AM AKDT Saturday. * IMPACTS...Flooding of the area around Mendenhall Lake and along the Mendenhall River is imminent or occurring. Water levels will, continue to rise and water temperatures will fall within the lake, and river. * ADDITIONAL DETAILS... - At 920 PM AKDT, gauge data reported a glacier-dammed lake outburst. Flooding is expected to begin shortly, especially near The Mendenhall Lake And River. - The outburst flood forecast is based on an estimated volume of water in the glacier dammed lake and an estimated release rate based on previous events. The extent of water drainage within the basin (partial or full) can vary widely between outburst flood events and is a major source of uncertainty in the forecast, particularly with regard to the peak flood stage. - For Mendenhall Lake : At 8:30pm the stage was 7.7 feet. Flood Stage is 9.0 feet. Forecast: A crest around 9.8 to 10.3 feet is expected between 5 to 9am Friday. Water levels will go above minor flood stage of 9 feet around 2am Friday. Water levels will reach moderate flood stage of 10 feet around 5 to 9am Friday. Water levels will fall below minor flood stage late morning Friday. Impacts: At 7.7 feet: Nugget Falls trail begins to flood near the beginning of the trail. Along the Mendenhall River some sections will experience bank erosion resulting in dangerous tree fall. These conditions could make floating the river more hazardous with the higher water levels. At 9.0 feet: Water starts to cover Skaters Cabin Road between Skaters Cabin and West Glacier Trailhead, also water will flow into the Mendenhall Lake Campground. At 9.5 feet: Water levels up to 0.5 feet will cover Skaters Cabin Road between Skaters Cabin and West Glacier Trailhead. Campsite 7 will be flooded with water starting to flow over the road between campsites 8 and 9 in the Mendenhall Campground. At 10.0 feet: Water levels will inundate Mendenhall Campground with up to 3 feet of water covering low areas as well as up to 1.5 feet of water covering Skaters Cabin Road. Portions of West Glacier Trail will be impassable. Areas along View Dr will start to flood and cause minor flooding of yards. Closure of pedestrian pathways beneath Brotherhood Bridge and the trail system on the west side of Mendenhall River during outburst events.",
-    "latitude": 58.408181818181816,
-    "longitude": -134.56272727272727,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-02T08:55:55.362482+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30ea8c670e9ca826f3892307ee6b63024b229eb7.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-b2f7e9f34123",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -3615,23 +3330,6 @@
     ]
   },
   {
-    "event_id": "SG-26c9baebe425",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "The Mendenhall Lake crested early Friday morning, and the Mendenhall River will crest shortly. Flooding is ongoing, and is expected to continue near Mendenhall Lake and River before coming to an end later this morning as water levels decrease rapidly behind the crest. * WHAT...Flooding caused by a glacier-dammed lake outburst continues. * WHERE...The Mendenhall Lake And River near the Mendenhall Glacier Recreation area, View Drive and below Back Loop bridge. * WHEN...Until 745 AM AKDT Saturday. * IMPACTS...Flooding of the area around Mendenhall Lake and along the Mendenhall River is imminent or occurring. Water levels will decrease now that the Mendenhall Lake has crested, and Mendenhall River will crest through the next hour. * ADDITIONAL DETAILS... - At 648 AM AKDT, gauge data reports that the Mendenhall Lake has crested, with the Mendenhall River to follow suit in the next hour. Flooding continues near The Mendenhall Lake And River. - The outburst flood forecast is based on an estimated volume of water in the glacier dammed lake and an estimated release rate based on previous events. The extent of water drainage within the basin (partial or full) can vary widely between outburst flood events and is a major source of uncertainty in the forecast, particularly with regard to the peak flood stage. - For Mendenhall Lake : At 5:45am the stage was 10.18 feet, which was the crest. Flood Stage is 9.0 feet. Forecast: A crest of 10.18 feet occurred at 5:45am Friday morning. Water levels exceeded moderate flood stage of 10 feet around 5:00am Friday. Water levels will fall below minor flood stage late morning Friday. Impacts: At 7.7 feet: Nugget Falls trail begins to flood near the beginning of the trail. Along the Mendenhall River some sections will experience bank erosion resulting in dangerous tree fall. These conditions could make floating the river more hazardous with the higher water levels. At 9.0 feet: Water starts to cover Skaters Cabin Road between Skaters Cabin and West Glacier Trailhead, also water will flow into the Mendenhall Lake Campground. At 9.5 feet: Water levels up to 0.5 feet will cover Skaters Cabin Road between Skaters Cabin and West Glacier Trailhead. Campsite 7 will be flooded with water starting to flow over the road between campsites 8 and 9 in the Mendenhall Campground. At 10.0 feet: Water levels will inundate Mendenhall Campground with up to 3 feet of water covering low areas as well as up to 1.5 feet of water covering Skaters Cabin Road. Portions of West Glacier Trail will be impassable. Areas along View Dr will start to flood and cause minor flooding of yards. Closure of pedestrian pathways beneath Brotherhood Bridge and the trail system on the west side of Mendenhall River during outburst events.",
-    "latitude": 58.408181818181816,
-    "longitude": -134.56272727272727,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-02T15:37:16.100219+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55fa7cd783fbe59353b6b9f846aa7009afe4ed1c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-ceb6c3f7f516",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -3871,6 +3569,23 @@
     ]
   },
   {
+    "event_id": "SG-ecc619a366a4",
+    "type": "earthquake",
+    "title": "M4.7 earthquake — 52 km SSW of Vilyuchinsk, Russia",
+    "description": "M 4.7 - 52 km SSW of Vilyuchinsk, Russia",
+    "latitude": 52.4691,
+    "longitude": 158.2168,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-02T20:38:21.109000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzd5",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-f4116024dc44",
     "type": "earthquake",
     "title": "M5 earthquake — 171 km SE of Vilyuchinsk, Russia",
@@ -4024,23 +3739,6 @@
     ]
   },
   {
-    "event_id": "SG-ab37dc0ed3ba",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Scott and Clinton Counties. * WHAT...Moderate flooding is occurring and major flooding is forecast. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until further notice. * IMPACTS...At 13.0 feet, water affects many residences along the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Friday the stage was 12.5 feet. - Forecast...The river is expected to rise to a crest of 12.7 feet this evening. It will fall to 11.6 feet on Monday, then rise again to 12.9 feet Friday, October 09. Additional rises are possible thereafter. - Flood stage is 11.0 feet.",
-    "latitude": 41.83714285714286,
-    "longitude": -90.69857142857143,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-02T23:48:10.961318+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e455b7454e5e83ebd132fbebd7ed379b0f135969.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-8ae95802bd81",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -4171,40 +3869,6 @@
     "confidence": 100,
     "timestamp": "2026-10-02T23:48:10.961318+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.522cbe8ea50c50e1fb9c05c411812d95862955bd.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c168225679ab",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Nebraska...Missouri... Missouri River At Brownville affecting Atchison and Nemaha Counties. .This update reflects a two-foot decrease in the forecasted river crest. * WHAT...Minor flooding is forecast. * WHERE...Missouri River at Brownville. * WHEN...Until Saturday morning. * IMPACTS...At 35.0 feet, The parking lot and boat ramp south of Highway 136 on the Nebraska side are underwater. * ADDITIONAL DETAILS... - At 8:15 AM CDT Friday the stage was 33.8 feet. - Bankfull stage is 33.0 feet. - Forecast...The river is expected to rise above flood stage late this morning to a crest of 34.3 feet this evening. It will then fall below flood stage late tonight. - Flood stage is 34.0 feet. - Flood History...This crest compares to a previous crest of 34.1 feet on 05/25/2004. - http://www.weather.gov/safety/flood",
-    "latitude": 40.36866666666666,
-    "longitude": -95.59666666666666,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-02T23:48:10.961318+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42a07458e5f814c8d1feec439d946a861877437a.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-f70c07afeb64",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Fox River from Millington downstream to confluence with the Illinois River, including the Dayton gauge. * WHEN...Until Saturday morning. * IMPACTS...At 12.0 feet, Water overflows low-lying banks in Wedron and Sheridan. At 12.5 feet, 2062nd Road threatened in Wedron. Low-lying agricultural land inundated near Wedron. * ADDITIONAL DETAILS... - At 7:45 AM CDT Friday the stage was 12.3 feet. - Forecast...The river is expected to crest near 12.6 feet this evening and fall below flood stage tomorrow morning. - Flood stage is 12.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 41.50833333333333,
-    "longitude": -88.695,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-02T23:48:10.961318+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a264cdf8102aa5fc9e3249f4bf654b1affca786.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -4460,23 +4124,6 @@
     "confidence": 100,
     "timestamp": "2026-10-02T23:48:10.961318+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6c9f729f9e679aeac5801beada04135e714b7ae.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-2d07c1701ae3",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... South Skunk River near Ames W Riverside Rd affecting Story County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...South Skunk River near Ames W Riverside Rd, or from Keigley Branch near 170th Street to Ioway Creek. * WHEN...Until Saturday morning. * IMPACTS...At 13.9 feet, Water affects Westech Engineering located at 600 Arrasmith Trl. * ADDITIONAL DETAILS... - At 5:00 PM CDT Friday the stage was 13.9 feet, and falling. - Forecast...The river is expected to fall below flood stage late tonight and continue falling. - Flood stage is 12.5 feet.",
-    "latitude": 42.06857142857143,
-    "longitude": -93.60000000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-02T23:48:10.961318+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac233d700fec76cc1902a172f995a4a7e6764096.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -4772,23 +4419,6 @@
     ]
   },
   {
-    "event_id": "SG-fba9d7cb2dc6",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Greeley County in west central Kansas... Wichita County in west central Kansas... * WHEN...Until 900 AM MDT /1000 AM CDT/ Saturday. * IMPACTS...Numerous roads remain closed due to flooding. Low-water crossings are inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 158 PM MDT /258 PM CDT/, emergency management reported roads remain flooded in the warned area due to previous heavy rain. - Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... Leoti, Tribune, Horace, Selkirk, Lydia and Marienthal.",
-    "latitude": 38.46470588235294,
-    "longitude": -101.93705882352941,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T04:33:39.687922+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.67d14a26e89d24dcad8bfded9691f8c6a6deb5cc.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-2c50c87aa45f",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -4902,23 +4532,6 @@
     "confidence": 100,
     "timestamp": "2026-10-03T04:33:39.687922+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39e74abba8bf04b0f64a5d09c430894376c81e46.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-7fe7e2817464",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Nebraska...Missouri... Missouri River At Brownville affecting Atchison and Nemaha Counties. ...The Flood Warning continues for the following rivers in Nebraska...Missouri... Missouri River At Rulo affecting Richardson and Holt Counties. * WHAT...No flooding is currently forecast, but river levels will remain near minor flood stage. * WHERE...Missouri River at Brownville. * WHEN...Until Saturday afternoon. * IMPACTS...At 33.0 feet, Agricultural lowlands along the river begin to flood. * ADDITIONAL DETAILS... - At 7:15 PM CDT Friday the stage was 33.9 feet. - Bankfull stage is 33.0 feet. - Forecast...The river is expected to remain steady near 33.9 feet through Saturday morning. - Flood stage is 34.0 feet. - Flood History...This crest compares to a previous crest of 34.0 feet on 05/28/2020. - http://www.weather.gov/safety/flood",
-    "latitude": 40.36866666666666,
-    "longitude": -95.59666666666666,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T04:33:39.687922+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.850aadb640739b9c6ea9b3acdc573c294c34360f.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -5126,23 +4739,6 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-0e677e595315",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Along the West Fork Big Blue River in Southeastern York County in east central Nebraska and Northwestern Fillmore County in south central Nebraska... * WHEN...Until 100 PM CDT Saturday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is occurring. * ADDITIONAL DETAILS... - At 1212 PM CDT, the gauge along the West Fork Big Blue River north of Grafton was at 13.0 feet, which was 2.0 feet above minor flood stage of 11.0 feet. As a result, fairly widespread flooding of pastures and fields immediately adjacent to the river continues, including downstream through the McCool Junction area to the Seward County line. Based on trends over the last several hours at the Grafton gauge, water levels appear to have crested and have started a very slow, gradual drop that should continue over the next few days. However, it now appears that the river will likely remain above flood stage until at least sometime Saturday, prompting this Warning to be extended out farther in time. - This includes the following streams and drainages... West Fork Big Blue River. - Some locations that could experience flooding include... McCool Junction, and rural areas along the West Fork Big Blue River both upstream and downstream of McCool Junction. - http://www.weather.gov/safety/flood",
-    "latitude": 40.707142857142856,
-    "longitude": -97.63571428571429,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T10:04:20.793657+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ea5e3c8de88be2679c05ce340a5b162f488fd5b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
     ]
   },
   {
@@ -5486,40 +5082,6 @@
     ]
   },
   {
-    "event_id": "SG-a9f05765f793",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Astor affecting Volusia and Lake Counties. .The St Johns River at Astor is forecast to dip from Minor Flood Stage to Action Stage this weekend. Towards the middle of next week, another rise into Minor Flood Stage is forecast due to increasing rain chances and a return of northerly winds. For the St. Johns River...including Astor...Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...St Johns River near Astor. * WHEN...Until further notice. * IMPACTS...At 2.0 feet, River levels rise and fills canals, encroaching on docks, yards and boat ramps in the vicinity of SR-40. Properties in low areas along and near the river and many canals should prepare for further water encroachment. At 2.3 feet, Many docks become submerged along the river and in canals in the Astor community. Water enters yards of properties on Bartram Road, Holiday Circle and along Wild Hog Road on the Lake County side. In Volusia County, water encroaches yards of homes on the river side of Alice Drive. No wake zones are in effect from near the South Moon Canal to approximately 800 feet south of the Riverview lodge. * ADDITIONAL DETAILS... - At 7:30 PM EDT Friday the stage was 2.3 feet. - Bankfull stage is 2.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 PM EDT Friday was 2.4 feet. - Forecast...The river is forecast to remain near Minor Flood Stage through early this weekend, then fall into Action Stage late this weekend into early next week. The river is then expected to rise back into Minor Flood Stage into the middle of next week. - Flood stage is 2.3 feet. - Flood History...This crest compares to a previous crest of 2.5 feet on 05/28/2023. - http://www.weather.gov/safety/flood",
-    "latitude": 29.186,
-    "longitude": -81.536,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T10:04:20.793657+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78fbfd8f80b1a59ab62f429a063ac430a7788766.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-ea40ffeaf814",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Central Thayer County in south central Nebraska... * WHEN...Until 100 PM CDT Saturday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 716 PM CDT, While river gages along the Little Blue River in Thayer county continue to fall below flood stage, Thayer county emergency management reports some areas along the Little Blue River between the gages continue to have flooding issues and the flood warning is being extended until 1 PM Saturday. - This includes the following streams and drainages... Big Sandy Creek, Little Blue River, South Fork Big Sandy Creek, Spring Creek and Dry Creek. Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... Hebron. - http://www.weather.gov/safety/flood",
-    "latitude": 40.19,
-    "longitude": -97.60583333333334,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T10:04:20.793657+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c2d7904f70ee6557782fe92a1aa30627d11b24d.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-dd867c53b394",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -5605,6 +5167,23 @@
     ]
   },
   {
+    "event_id": "SG-7b7df2561dfd",
+    "type": "tropical_cyclone",
+    "title": "Typhoon Choi-wan",
+    "description": "Severe Storms",
+    "latitude": 20.3,
+    "longitude": 146.2,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T12:00:00+00:00",
+    "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24962",
+    "classification": "eonet_tropical_cyclone",
+    "source": [
+      "NASA EONET"
+    ]
+  },
+  {
     "event_id": "SG-fef65536029d",
     "type": "reddit_report",
     "title": "Monthly traffic at Beirut Airport (BEY) 2019–2026",
@@ -5656,6 +5235,23 @@
     ]
   },
   {
+    "event_id": "SG-dbe69c8386f0",
+    "type": "earthquake",
+    "title": "M3.3 earthquake — 21 km WNW of Preston, Nevada",
+    "description": "M 3.3 - 21 km WNW of Preston, Nevada",
+    "latitude": 38.9639,
+    "longitude": -115.3046,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T13:58:12.786000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzcn",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-eb7d669c081f",
     "type": "earthquake",
     "title": "M2.65 earthquake — 58 km NNW of Rachel, Nevada",
@@ -5670,23 +5266,6 @@
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-01004c5c9c7e",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The National Weather Service in Lake Charles has issued a Flood Warning for the following rivers in Louisiana... Calcasieu River near White Oak Park affecting Calcasieu Parish. Calcasieu River Near Salt Water Barrier affecting Calcasieu Parish. For the Calcasieu River...including Glenmora, Oakdale, Oberlin, Kinder, White Oak Park, Salt Water Barrier...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Calcasieu River near White Oak Park. * WHEN...From this evening to Sunday afternoon. * IMPACTS...At 2.0 feet, Minor flooding of Goos Ferry Road will occur. * ADDITIONAL DETAILS... - At 8:35 PM CDT Friday the stage was 1.8 feet. - Forecast...The river will oscillate around flood stage with a maximum value of 2.1 feet tomorrow morning. - Flood stage is 2.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 30.301666666666666,
-    "longitude": -93.14833333333333,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.591eb0b7ee73b778a100d1822946f4dc25e484b9.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
     ]
   },
   {
@@ -5962,108 +5541,6 @@
     ]
   },
   {
-    "event_id": "SG-23422779a7e2",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall continues. * WHERE...Greeley County in west central Kansas... Wichita County in west central Kansas... * WHEN...Until 900 AM MDT /1000 AM CDT/ Tonight. * IMPACTS...Numerous roads remain closed due to flooding. Low-water crossings are inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 158 PM MDT /258 PM CDT/ Friday afternoon, emergency management reported ongoing flooding in the warned area. - Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... Leoti, Tribune, Horace, Selkirk, Lydia and Marienthal.",
-    "latitude": 38.46470588235294,
-    "longitude": -101.93705882352941,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac361b14a033b4eb34acd48359547453812b5bf4.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-2ae29e62b273",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Muscatine and Louisa Counties. Iowa River at Marengo affecting Benton and Iowa Counties. English River at Kalona affecting Johnson and Washington Counties. ...The Flood Warning continues for the following rivers in Iowa... Iowa River at Oakville affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. Iowa River at Wapello affecting Louisa County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Cedar River near Conesville. * WHEN...Until late Wednesday night. * IMPACTS...At 14.0 feet, Water affects residences along County Road F70. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 13.3 feet. - Forecast...The river is expected to rise to a crest of 13.9 feet Monday evening. It will then fall below flood stage late Wednesday evening. - Flood stage is 13.0 feet.",
-    "latitude": 41.47095238095238,
-    "longitude": -91.21904761904761,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc98c41943ea1074a1384319e5b7a92517cda087.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-f253e64832c8",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Muscatine and Louisa Counties. Iowa River at Marengo affecting Benton and Iowa Counties. English River at Kalona affecting Johnson and Washington Counties. ...The Flood Warning continues for the following rivers in Iowa... Iowa River at Oakville affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. Iowa River at Wapello affecting Louisa County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Iowa River at Oakville. * WHEN...Until Thursday evening. * IMPACTS...At 12.0 feet, Flooding of agricultural land is ongoing. Several county roads are under water and closed. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 12.0 feet. - Forecast...The river is expected to rise to a crest of 12.4 feet just after midnight tonight. It will then fall below flood stage late Thursday morning. - Flood stage is 11.0 feet.",
-    "latitude": 41.13466666666667,
-    "longitude": -91.06733333333334,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc98c41943ea1074a1384319e5b7a92517cda087.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-092fe2d7878f",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Muscatine and Louisa Counties. Iowa River at Marengo affecting Benton and Iowa Counties. English River at Kalona affecting Johnson and Washington Counties. ...The Flood Warning continues for the following rivers in Iowa... Iowa River at Oakville affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. Iowa River at Wapello affecting Louisa County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Iowa River near Lone Tree. * WHEN...Until Sunday afternoon. * IMPACTS...At 16.0 feet, Flood waters affect parts of Lola Lane and Y Avenue. River Junction Access Park is closed. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 16.7 feet. - Forecast...The river is expected to fall below flood stage tomorrow morning. - Flood stage is 16.0 feet.",
-    "latitude": 41.416,
-    "longitude": -91.4605,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc98c41943ea1074a1384319e5b7a92517cda087.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b946f70e6276",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Muscatine and Louisa Counties. Iowa River at Marengo affecting Benton and Iowa Counties. English River at Kalona affecting Johnson and Washington Counties. ...The Flood Warning continues for the following rivers in Iowa... Iowa River at Oakville affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. Iowa River at Wapello affecting Louisa County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Iowa River at Marengo. * WHEN...Until Friday evening. * IMPACTS...At 17.0 feet, Extensive inundation of agricultural land. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 15.5 feet. - Forecast...The river is expected to rise to a crest of 16.9 feet early Thursday morning. It will then fall below flood stage late Friday morning. - Flood stage is 15.0 feet.",
-    "latitude": 41.82714285714286,
-    "longitude": -92.09142857142857,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc98c41943ea1074a1384319e5b7a92517cda087.005.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b1377b436907",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Missouri...Nebraska... Missouri River At Rulo affecting Holt and Richardson Counties. * WHAT...Minor flooding is occurring. * WHERE...Missouri River at Rulo. * WHEN...Until this afternoon. * IMPACTS...At 16.0 feet, Agricultural lowlands along the river begin to flood. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 17.4 feet. - Bankfull stage is 17.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:30 AM CDT Saturday was 19.1 feet. - Forecast...The river is expected to fall below flood stage late this morning and continue falling to 9.2 feet Thursday morning. - Flood stage is 17.0 feet. - Flood History...This crest compares to a previous crest of 17.4 feet on 07/11/1958. - http://www.weather.gov/safety/flood",
-    "latitude": 40.01904761904762,
-    "longitude": -95.27333333333334,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a1f243b32754fabcedd8692582498df1061dab1.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-6f6b257343b3",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -6075,91 +5552,6 @@
     "confidence": 100,
     "timestamp": "2026-10-03T14:44:29.742589+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8075ad976c52ffe8f2a0ff8b7229723430b31797.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c49bf4da2eef",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The National Weather Service in Mobile has issued a Flood Warning for the following rivers in Alabama... Styx River Near Elsanor affecting Baldwin County. For the Styx River...including Elsanor...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Styx River near Elsanor. * WHEN...From Sunday evening to Monday morning. * IMPACTS...At 12.0 feet, Residents downstream at Seminole Landing should be alert to possible flooding. * ADDITIONAL DETAILS... - At 8:00 AM CDT Saturday the stage was 1.7 feet. - Forecast...The river is expected to rise above flood stage late tomorrow evening to a crest of 12.3 feet early Monday morning. It will then fall below flood stage early Monday morning. - Flood stage is 12.0 feet. - Flood History...This crest compares to a previous crest of 12.3 feet on 02/27/2013. - http://www.weather.gov/safety/flood",
-    "latitude": 30.58625,
-    "longitude": -87.5325,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ca5fbb8076926bbcfe011f74f33b5ceab7fa73e.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-82a610c33584",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The National Weather Service in Mobile has issued a Flood Warning for the following rivers in Florida... Shoal River Near Crestview affecting Okaloosa County. For the Shoal River...including Crestview...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Shoal River near Crestview. * WHEN...From Monday evening to Thursday morning. * IMPACTS...At 8.5 feet, Water in yards on Sowel Road. * ADDITIONAL DETAILS... - At 8:15 AM CDT Saturday the stage was 4.3 feet. - Forecast...The river is expected to rise above flood stage Monday evening to a crest of 9.0 feet Tuesday morning. It will then fall below flood stage early Thursday morning. - Flood stage is 8.0 feet. - Flood History...This crest compares to a previous crest of 9.0 feet on 02/21/1962. - http://www.weather.gov/safety/flood",
-    "latitude": 30.731428571428573,
-    "longitude": -86.54714285714284,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9143805c92705ce3f1b0cc9fbd8393973b2c1086.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-d6ae2a0b2af0",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Skunk River at Augusta affecting Lee, Henry IA and Des Moines Counties. North Skunk River near Sigourney affecting Keokuk County. ...The Flood Warning continues for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Clinton and Scott Counties. * WHAT...Major flooding is occurring and major flooding is forecast. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until further notice. * IMPACTS...At 13.0 feet, Water affects many residences along the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 12.9 feet. - Forecast...The river is expected to crest at 12.9 feet today. It will fall to 11.9 feet by Monday evening then rise again to 12.7 feet by Thursday, October 8th. - Flood stage is 11.0 feet.",
-    "latitude": 41.83714285714286,
-    "longitude": -90.69857142857143,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32db4567a58c1b46b2c3c14e4dd1340c87055762.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-7c45fd8e8cf5",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Skunk River at Augusta affecting Lee, Henry IA and Des Moines Counties. North Skunk River near Sigourney affecting Keokuk County. ...The Flood Warning continues for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Clinton and Scott Counties. * WHAT...Moderate flooding is occurring and moderate flooding is forecast. * WHERE...North Skunk River near Sigourney. * WHEN...Until late Sunday night. * IMPACTS...At 18.0 feet, Water affects most agricultural land near Sigourney. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 18.4 feet. - Forecast...The river is expected to rise to a crest of 18.4 feet this afternoon. It will then fall below flood stage tomorrow evening. - Flood stage is 16.0 feet.",
-    "latitude": 41.29388888888889,
-    "longitude": -92.17500000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32db4567a58c1b46b2c3c14e4dd1340c87055762.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-26c6cfaa9eb0",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Iowa... Skunk River at Augusta affecting Lee, Henry IA and Des Moines Counties. North Skunk River near Sigourney affecting Keokuk County. ...The Flood Warning continues for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Clinton and Scott Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Skunk River at Augusta. * WHEN...Until Sunday evening. * IMPACTS...At 16.0 feet, Water floods some agricultural land near the river. * ADDITIONAL DETAILS... - At 8:45 AM CDT Saturday the stage was 16.9 feet. - Forecast...The river is expected to fall below flood stage late tomorrow morning and continue falling to 10.8 feet Saturday, October 10. - Flood stage is 15.0 feet.",
-    "latitude": 40.82333333333333,
-    "longitude": -91.40571428571428,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32db4567a58c1b46b2c3c14e4dd1340c87055762.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -6217,176 +5609,6 @@
     ]
   },
   {
-    "event_id": "SG-a3208e108b1a",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Kansas... Solomon River near Glasco affecting Cloud County. Big Blue River near Blue Rapids affecting Marshall County. ...The Flood Warning is extended for the following rivers in Kansas... Little Blue River near Barnes affecting Marshall and Washington Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Solomon River near Glasco. * WHEN...Until Sunday morning. * IMPACTS...At 22.0 feet, Minor lowland flooding occurs along the river from the Cloud and Mitchell County line to Niles. * ADDITIONAL DETAILS... - At 4:20 PM CDT Friday the stage was 22.1 feet. - Forecast...The river is expected to rise to a crest of 22.7 feet this afternoon. It will then fall below flood stage late this afternoon. - Flood stage is 22.0 feet.",
-    "latitude": 39.35166666666667,
-    "longitude": -97.86666666666667,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d8d2f575e6876307c967673e194e88348d17b6c.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4cdae63b922f",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Kansas... Solomon River near Glasco affecting Cloud County. Big Blue River near Blue Rapids affecting Marshall County. ...The Flood Warning is extended for the following rivers in Kansas... Little Blue River near Barnes affecting Marshall and Washington Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Big Blue River near Blue Rapids. * WHEN...Until late Tuesday night. * IMPACTS...At 26.0 feet, Minor lowland flooding occurs from Marysville to Tuttle Creek Lake. * ADDITIONAL DETAILS... - At 8:15 AM CDT Saturday the stage was 33.8 feet. - Forecast...The river is expected to rise to a crest of 34.1 feet this afternoon. It will then fall below flood stage early Tuesday afternoon. - Flood stage is 26.0 feet.",
-    "latitude": 39.653333333333336,
-    "longitude": -96.62166666666667,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d8d2f575e6876307c967673e194e88348d17b6c.003.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a764eada3d6a",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Kansas... Solomon River near Glasco affecting Cloud County. Big Blue River near Blue Rapids affecting Marshall County. ...The Flood Warning is extended for the following rivers in Kansas... Little Blue River near Barnes affecting Marshall and Washington Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Little Blue River near Barnes. * WHEN...Until Monday morning. * IMPACTS...At 16.0 feet, Lowland agricultural flooding occurs from 15th Road and Zenith Road in Washington County to Waterville in Marshall County. At 17.0 feet, Farm field, 4.5 miles north of Barnes, on the west side of Highway 148 floods north of the river. At 19.0 feet, Farm field, 4.5 miles north of Barnes, south of the river and east of Highway 148 floods. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 18.8 feet. - Forecast...The river is expected to fall below flood stage tomorrow evening and continue falling to 5.6 feet Thursday morning. - Flood stage is 16.0 feet.",
-    "latitude": 39.805,
-    "longitude": -96.83166666666666,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d8d2f575e6876307c967673e194e88348d17b6c.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-c283cb876e0d",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Nebraska... Turkey Creek near De Witt affecting Saline and Gage Counties. Turkey Creek Near Wilber affecting Saline County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Turkey Creek near Wilber. * WHEN...Until late Sunday night. * IMPACTS...At 15.0 feet, Portions of County Road O, located north of Highway 41, may begin to flood. * ADDITIONAL DETAILS... - At 7:45 AM CDT Saturday the stage was 14.5 feet. - Bankfull stage is 11.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:45 AM CDT Saturday was 15.1 feet. - Forecast...The river is expected to fall below flood stage late tomorrow evening and continue falling to 3.1 feet Thursday morning. - Flood stage is 12.5 feet. - Flood History...This crest compares to a previous crest of 14.5 feet on 06/18/1990. - http://www.weather.gov/safety/flood",
-    "latitude": 40.506190476190476,
-    "longitude": -97.0195238095238,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7b3212a168c1af8d69fdc3c08cffdbbf2e96f11.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-739b6ee4f29c",
-    "type": "weather_alert",
-    "title": "Special Weather Statement",
-    "description": "At 942 AM EDT/842 AM CDT/, Doppler radar was tracking a strong thunderstorm 15 miles west of Port St. Joe, moving north at 15 mph. HAZARD...Wind gusts up to 40 mph. SOURCE...Radar indicated. IMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects. Locations impacted include... Panama City, Panama City Beach, Callaway, Port St. Joe, Springfield, Mexico Beach, Tyndall Air Force Base, Parker, St Andrews State Park, Allanton, Cedar Grove, Dirego Park, Beacon Beach, Odena, Overstreet, Biltmore Beach, Milltown, Davis Beach, Millville, and Wetappo.",
-    "latitude": 29.875555555555554,
-    "longitude": -85.46666666666667,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24d1ad94e0ec357b72cabdfb75e3829ced201fd7.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-1afea5babe72",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Nebraska... Big Blue River Near Crete affecting Saline County. Big Blue River At Beatrice affecting Gage County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Big Blue River at Beatrice. * WHEN...Until late Monday night. * IMPACTS...At 21.0 feet, At this level the West Scott baseball fields begin to flood. * ADDITIONAL DETAILS... - At 7:45 AM CDT Saturday the stage was 19.4 feet. - Bankfull stage is 16.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:45 AM CDT Saturday was 19.4 feet. - Forecast...The river is expected to rise to a crest of 21.5 feet tomorrow morning. It will then fall below flood stage Monday morning. - Flood stage is 18.0 feet. - Flood History...This crest compares to a previous crest of 21.3 feet on 09/30/1923. - http://www.weather.gov/safety/flood",
-    "latitude": 40.238571428571426,
-    "longitude": -96.71904761904761,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f79d7596b365f276d355895abf4d79757b220090.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-fab54f4fedd7",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by recent excessive rainfall continues. * WHERE...Along the West Fork Big Blue River in Southeastern York County in east central Nebraska and Northwestern Fillmore County in south central Nebraska... * WHEN...Until 100 PM CDT Sunday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 824 AM CDT, the gauge along the West Fork Big Blue River north of Grafton was at 12.7 feet, which was above minor flood stage of 11.0 feet. As a result, fairly widespread flooding of pastures and fields immediately adjacent to the river continues, including downstream through the McCool Junction area. Based on trends at the Grafton gauge, water levels appear to have crested and have started a very slow, gradual drop that should continue over the next few days. However, it now appears that the river will likely remain above flood stage until at least sometime on Sunday, prompting this Warning to be extended out farther in time. - Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... McCool Junction. - http://www.weather.gov/safety/flood",
-    "latitude": 40.707142857142856,
-    "longitude": -97.63571428571429,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.391376fa5402733a6330a7d6d05118e9d0349b3f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-eb698a979df4",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning is extended for the following rivers in Missouri... Middle Fabius River near Ewing. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Middle Fabius River near Ewing. * WHEN...Until Monday morning. * ADDITIONAL DETAILS... - At 7:30 AM CDT Saturday the stage was 13.3 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 AM CDT Saturday was 13.3 feet. - Forecast...The river is expected to fall below flood stage just after midnight tonight and continue falling to 2.9 feet Saturday, October 10. - Flood stage is 12.0 feet.",
-    "latitude": 40.086363636363636,
-    "longitude": -91.77272727272727,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9119a3b02142b3b8bd185e05673afd0924ac7f07.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-a23d07260aff",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "...The Flood Advisory continues for the following rivers in Kansas... Arkansas River At Coolidge affecting Hamilton County. For the Arkansas River...including Coolidge, Syracuse 1S, Garden City, Dodge City...elevated river levels are forecast. * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Arkansas River at Coolidge. * WHEN...Until Sunday afternoon. * IMPACTS...At 8.0 feet, Expect minor flooding in pastureland and farmland adjacent to the river. Low water areas along the unpaved River Road south of the Arkansas River will have water over the road... Exercise extreme caution. * ADDITIONAL DETAILS... - At 6:15 AM MDT Saturday the stage was 5.9 feet. - Bankfull stage is 8.0 feet. - Forecast...The river is expected to rise to a crest of 7.0 feet just after midnight tonight. - Action stage is 7.0 feet. - Flood stage is 8.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 38.008,
-    "longitude": -101.92800000000001,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e730ab1ef78ccddc2343f81f8cba47664af64b3.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-b223084f04fc",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Astor affecting Lake and Volusia Counties. .The St Johns River at Astor is forecast to dip from Minor Flood Stage to Action Stage this weekend. Towards the middle of next week, another rise into Minor Flood Stage is forecast due to increasing rain chances and a return of northerly winds. For the St. Johns River...including Astor...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...St Johns River near Astor. * WHEN...Until further notice. * IMPACTS...At 2.3 feet, Many docks become submerged along the river and in canals in the Astor community. Water enters yards of properties on Bartram Road, Holiday Circle and along Wild Hog Road on the Lake County side. In Volusia County, water encroaches yards of homes on the river side of Alice Drive. No wake zones are in effect from near the South Moon Canal to approximately 800 feet south of the Riverview lodge. * ADDITIONAL DETAILS... - At 8:30 AM EDT Saturday the stage was 2.3 feet. - Bankfull stage is 2.0 feet. - Forecast...The river is expected to remain right around flood stage at 2.3 feet through today. It will then fall into Action Stage for a couple of days before rising back into flood stage towards the middle of next week. Additional rises through Minor Flood Stage are forecast thereafter. - Flood stage is 2.3 feet. - Flood History...This crest compares to a previous crest of 2.5 feet on 05/28/2023. - http://www.weather.gov/safety/flood",
-    "latitude": 29.186,
-    "longitude": -81.536,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c74eefcd98b08cc7e2db9aba7888d4d66324d02.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-610699a41877",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -6404,40 +5626,6 @@
     ]
   },
   {
-    "event_id": "SG-848ee280eff2",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Missouri... Platte River At Sharps Station affecting Platte County. Platte River near Platte City affecting Platte County. Platte River near Agency affecting Buchanan County. * WHAT...Minor flooding is occurring and moderate flooding is forecast. * WHERE...Platte River near Platte City. * WHEN...Until Wednesday morning. * IMPACTS...At 20.0 feet, Cropland near State Highway 92 near Platte City begins to flood. At 22.0 feet, Flooding occurs at Humphreys Access Area which is located 5 miles downstream from Platte City. 300 acres of pasture are also flooded. At 25.0 feet, Water overtops 1st Street in Tracy, Missouri. At 29.0 feet, State Highway 92 at Tracy is overtopped. * ADDITIONAL DETAILS... - At 7:30 AM CDT Saturday the stage was 22.1 feet. - Forecast...The river is expected to rise to a crest of 27.3 feet Monday morning. It will then fall below flood stage Tuesday morning. - Flood stage is 20.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 39.336666666666666,
-    "longitude": -94.80333333333334,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b78e60b08768d79ee0f2a8a850c31511c60044a.002.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-89a5133b6333",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northwestern Johnston County in southeastern Oklahoma... East Central Carter County in southern Oklahoma... Southeastern Murray County in southern Oklahoma... * WHEN...Until 1045 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water over roadways. * ADDITIONAL DETAILS... - At 750 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 1.5 inches of rain have fallen. Heavy rainfall also occurred in the advisory area on Thursday morning. - Additional rainfall amounts up to 1 inch are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Ravia, Mill Creek, Gene Autry, Reagan and Connerville. - http://www.weather.gov/safety/flood",
-    "latitude": 34.333333333333336,
-    "longitude": -96.85333333333334,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-10-03T14:44:29.742589+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fdd8b481f53be2f0275555f840f347e3ed13842.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-ac58dcb80f32",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -6449,6 +5637,890 @@
     "confidence": 100,
     "timestamp": "2026-10-03T14:44:29.742589+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9aadd092630e437ca25cfeab81df846a2544f185.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2588f406525d",
+    "type": "earthquake",
+    "title": "M4.4 earthquake — Banda Sea",
+    "description": "M 4.4 - Banda Sea",
+    "latitude": -6.4633,
+    "longitude": 130.1704,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T14:49:40.402000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzcv",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-1950d75c09a4",
+    "type": "earthquake",
+    "title": "M3.71 earthquake — 40 km ENE of Samaná, Dominican Republic",
+    "description": "M 3.7 - 40 km ENE of Samaná, Dominican Republic",
+    "latitude": 19.3481,
+    "longitude": -68.9783,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T15:03:20.910000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026276001",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-c5eb1c20d3af",
+    "type": "earthquake",
+    "title": "M3.26 earthquake — 66 km E of Cruz Bay, U.S. Virgin Islands",
+    "description": "M 3.3 - 66 km E of Cruz Bay, U.S. Virgin Islands",
+    "latitude": 18.3371666666667,
+    "longitude": -64.1651666666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T16:03:54.350000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535538",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9a9ad019494c",
+    "type": "earthquake",
+    "title": "M2.8 earthquake — 36 km NNW of Karluk, Alaska",
+    "description": "M 2.8 - 36 km NNW of Karluk, Alaska",
+    "latitude": 57.876,
+    "longitude": -154.672,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T17:20:28.442000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tpgsir",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-2f10abc4e5ef",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 76 km NNE of Lae, Papua New Guinea",
+    "description": "M 4.6 - 76 km NNE of Lae, Papua New Guinea",
+    "latitude": -6.0496,
+    "longitude": 147.1678,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T17:24:12.545000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-01004c5c9c7e",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Lake Charles has issued a Flood Warning for the following rivers in Louisiana... Calcasieu River near White Oak Park affecting Calcasieu Parish. Calcasieu River Near Salt Water Barrier affecting Calcasieu Parish. For the Calcasieu River...including Glenmora, Oakdale, Oberlin, Kinder, White Oak Park, Salt Water Barrier...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Calcasieu River near White Oak Park. * WHEN...From this evening to Sunday afternoon. * IMPACTS...At 2.0 feet, Minor flooding of Goos Ferry Road will occur. * ADDITIONAL DETAILS... - At 8:35 PM CDT Friday the stage was 1.8 feet. - Forecast...The river will oscillate around flood stage with a maximum value of 2.1 feet tomorrow morning. - Flood stage is 2.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 30.301666666666666,
+    "longitude": -93.14833333333333,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.591eb0b7ee73b778a100d1822946f4dc25e484b9.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2ae29e62b273",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Muscatine and Louisa Counties. Iowa River at Marengo affecting Benton and Iowa Counties. English River at Kalona affecting Johnson and Washington Counties. ...The Flood Warning continues for the following rivers in Iowa... Iowa River at Oakville affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. Iowa River at Wapello affecting Louisa County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Cedar River near Conesville. * WHEN...Until late Wednesday night. * IMPACTS...At 14.0 feet, Water affects residences along County Road F70. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 13.3 feet. - Forecast...The river is expected to rise to a crest of 13.9 feet Monday evening. It will then fall below flood stage late Wednesday evening. - Flood stage is 13.0 feet.",
+    "latitude": 41.47095238095238,
+    "longitude": -91.21904761904761,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc98c41943ea1074a1384319e5b7a92517cda087.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f253e64832c8",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Muscatine and Louisa Counties. Iowa River at Marengo affecting Benton and Iowa Counties. English River at Kalona affecting Johnson and Washington Counties. ...The Flood Warning continues for the following rivers in Iowa... Iowa River at Oakville affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. Iowa River at Wapello affecting Louisa County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Iowa River at Oakville. * WHEN...Until Thursday evening. * IMPACTS...At 12.0 feet, Flooding of agricultural land is ongoing. Several county roads are under water and closed. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 12.0 feet. - Forecast...The river is expected to rise to a crest of 12.4 feet just after midnight tonight. It will then fall below flood stage late Thursday morning. - Flood stage is 11.0 feet.",
+    "latitude": 41.13466666666667,
+    "longitude": -91.06733333333334,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc98c41943ea1074a1384319e5b7a92517cda087.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-092fe2d7878f",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Muscatine and Louisa Counties. Iowa River at Marengo affecting Benton and Iowa Counties. English River at Kalona affecting Johnson and Washington Counties. ...The Flood Warning continues for the following rivers in Iowa... Iowa River at Oakville affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. Iowa River at Wapello affecting Louisa County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Iowa River near Lone Tree. * WHEN...Until Sunday afternoon. * IMPACTS...At 16.0 feet, Flood waters affect parts of Lola Lane and Y Avenue. River Junction Access Park is closed. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 16.7 feet. - Forecast...The river is expected to fall below flood stage tomorrow morning. - Flood stage is 16.0 feet.",
+    "latitude": 41.416,
+    "longitude": -91.4605,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc98c41943ea1074a1384319e5b7a92517cda087.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b946f70e6276",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Cedar River near Conesville affecting Muscatine and Louisa Counties. Iowa River at Marengo affecting Benton and Iowa Counties. English River at Kalona affecting Johnson and Washington Counties. ...The Flood Warning continues for the following rivers in Iowa... Iowa River at Oakville affecting Louisa County. Iowa River near Lone Tree affecting Louisa, Johnson and Washington Counties. Iowa River at Wapello affecting Louisa County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Iowa River at Marengo. * WHEN...Until Friday evening. * IMPACTS...At 17.0 feet, Extensive inundation of agricultural land. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 15.5 feet. - Forecast...The river is expected to rise to a crest of 16.9 feet early Thursday morning. It will then fall below flood stage late Friday morning. - Flood stage is 15.0 feet.",
+    "latitude": 41.82714285714286,
+    "longitude": -92.09142857142857,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc98c41943ea1074a1384319e5b7a92517cda087.005.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b1377b436907",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri...Nebraska... Missouri River At Rulo affecting Holt and Richardson Counties. * WHAT...Minor flooding is occurring. * WHERE...Missouri River at Rulo. * WHEN...Until this afternoon. * IMPACTS...At 16.0 feet, Agricultural lowlands along the river begin to flood. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 17.4 feet. - Bankfull stage is 17.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:30 AM CDT Saturday was 19.1 feet. - Forecast...The river is expected to fall below flood stage late this morning and continue falling to 9.2 feet Thursday morning. - Flood stage is 17.0 feet. - Flood History...This crest compares to a previous crest of 17.4 feet on 07/11/1958. - http://www.weather.gov/safety/flood",
+    "latitude": 40.01904761904762,
+    "longitude": -95.27333333333334,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a1f243b32754fabcedd8692582498df1061dab1.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c49bf4da2eef",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Mobile has issued a Flood Warning for the following rivers in Alabama... Styx River Near Elsanor affecting Baldwin County. For the Styx River...including Elsanor...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Styx River near Elsanor. * WHEN...From Sunday evening to Monday morning. * IMPACTS...At 12.0 feet, Residents downstream at Seminole Landing should be alert to possible flooding. * ADDITIONAL DETAILS... - At 8:00 AM CDT Saturday the stage was 1.7 feet. - Forecast...The river is expected to rise above flood stage late tomorrow evening to a crest of 12.3 feet early Monday morning. It will then fall below flood stage early Monday morning. - Flood stage is 12.0 feet. - Flood History...This crest compares to a previous crest of 12.3 feet on 02/27/2013. - http://www.weather.gov/safety/flood",
+    "latitude": 30.58625,
+    "longitude": -87.5325,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ca5fbb8076926bbcfe011f74f33b5ceab7fa73e.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-82a610c33584",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Mobile has issued a Flood Warning for the following rivers in Florida... Shoal River Near Crestview affecting Okaloosa County. For the Shoal River...including Crestview...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Shoal River near Crestview. * WHEN...From Monday evening to Thursday morning. * IMPACTS...At 8.5 feet, Water in yards on Sowel Road. * ADDITIONAL DETAILS... - At 8:15 AM CDT Saturday the stage was 4.3 feet. - Forecast...The river is expected to rise above flood stage Monday evening to a crest of 9.0 feet Tuesday morning. It will then fall below flood stage early Thursday morning. - Flood stage is 8.0 feet. - Flood History...This crest compares to a previous crest of 9.0 feet on 02/21/1962. - http://www.weather.gov/safety/flood",
+    "latitude": 30.731428571428573,
+    "longitude": -86.54714285714284,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9143805c92705ce3f1b0cc9fbd8393973b2c1086.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-d6ae2a0b2af0",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Skunk River at Augusta affecting Lee, Henry IA and Des Moines Counties. North Skunk River near Sigourney affecting Keokuk County. ...The Flood Warning continues for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Clinton and Scott Counties. * WHAT...Major flooding is occurring and major flooding is forecast. * WHERE...Wapsipinicon River near De Witt 4S. * WHEN...Until further notice. * IMPACTS...At 13.0 feet, Water affects many residences along the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 12.9 feet. - Forecast...The river is expected to crest at 12.9 feet today. It will fall to 11.9 feet by Monday evening then rise again to 12.7 feet by Thursday, October 8th. - Flood stage is 11.0 feet.",
+    "latitude": 41.83714285714286,
+    "longitude": -90.69857142857143,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32db4567a58c1b46b2c3c14e4dd1340c87055762.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-7c45fd8e8cf5",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Skunk River at Augusta affecting Lee, Henry IA and Des Moines Counties. North Skunk River near Sigourney affecting Keokuk County. ...The Flood Warning continues for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Clinton and Scott Counties. * WHAT...Moderate flooding is occurring and moderate flooding is forecast. * WHERE...North Skunk River near Sigourney. * WHEN...Until late Sunday night. * IMPACTS...At 18.0 feet, Water affects most agricultural land near Sigourney. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 18.4 feet. - Forecast...The river is expected to rise to a crest of 18.4 feet this afternoon. It will then fall below flood stage tomorrow evening. - Flood stage is 16.0 feet.",
+    "latitude": 41.29388888888889,
+    "longitude": -92.17500000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32db4567a58c1b46b2c3c14e4dd1340c87055762.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-26c6cfaa9eb0",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Skunk River at Augusta affecting Lee, Henry IA and Des Moines Counties. North Skunk River near Sigourney affecting Keokuk County. ...The Flood Warning continues for the following rivers in Iowa... Wapsipinicon River near De Witt 4S affecting Clinton and Scott Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Skunk River at Augusta. * WHEN...Until Sunday evening. * IMPACTS...At 16.0 feet, Water floods some agricultural land near the river. * ADDITIONAL DETAILS... - At 8:45 AM CDT Saturday the stage was 16.9 feet. - Forecast...The river is expected to fall below flood stage late tomorrow morning and continue falling to 10.8 feet Saturday, October 10. - Flood stage is 15.0 feet.",
+    "latitude": 40.82333333333333,
+    "longitude": -91.40571428571428,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32db4567a58c1b46b2c3c14e4dd1340c87055762.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-a3208e108b1a",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Kansas... Solomon River near Glasco affecting Cloud County. Big Blue River near Blue Rapids affecting Marshall County. ...The Flood Warning is extended for the following rivers in Kansas... Little Blue River near Barnes affecting Marshall and Washington Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Solomon River near Glasco. * WHEN...Until Sunday morning. * IMPACTS...At 22.0 feet, Minor lowland flooding occurs along the river from the Cloud and Mitchell County line to Niles. * ADDITIONAL DETAILS... - At 4:20 PM CDT Friday the stage was 22.1 feet. - Forecast...The river is expected to rise to a crest of 22.7 feet this afternoon. It will then fall below flood stage late this afternoon. - Flood stage is 22.0 feet.",
+    "latitude": 39.35166666666667,
+    "longitude": -97.86666666666667,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d8d2f575e6876307c967673e194e88348d17b6c.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4cdae63b922f",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Kansas... Solomon River near Glasco affecting Cloud County. Big Blue River near Blue Rapids affecting Marshall County. ...The Flood Warning is extended for the following rivers in Kansas... Little Blue River near Barnes affecting Marshall and Washington Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Big Blue River near Blue Rapids. * WHEN...Until late Tuesday night. * IMPACTS...At 26.0 feet, Minor lowland flooding occurs from Marysville to Tuttle Creek Lake. * ADDITIONAL DETAILS... - At 8:15 AM CDT Saturday the stage was 33.8 feet. - Forecast...The river is expected to rise to a crest of 34.1 feet this afternoon. It will then fall below flood stage early Tuesday afternoon. - Flood stage is 26.0 feet.",
+    "latitude": 39.653333333333336,
+    "longitude": -96.62166666666667,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d8d2f575e6876307c967673e194e88348d17b6c.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-a764eada3d6a",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Kansas... Solomon River near Glasco affecting Cloud County. Big Blue River near Blue Rapids affecting Marshall County. ...The Flood Warning is extended for the following rivers in Kansas... Little Blue River near Barnes affecting Marshall and Washington Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Little Blue River near Barnes. * WHEN...Until Monday morning. * IMPACTS...At 16.0 feet, Lowland agricultural flooding occurs from 15th Road and Zenith Road in Washington County to Waterville in Marshall County. At 17.0 feet, Farm field, 4.5 miles north of Barnes, on the west side of Highway 148 floods north of the river. At 19.0 feet, Farm field, 4.5 miles north of Barnes, south of the river and east of Highway 148 floods. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 18.8 feet. - Forecast...The river is expected to fall below flood stage tomorrow evening and continue falling to 5.6 feet Thursday morning. - Flood stage is 16.0 feet.",
+    "latitude": 39.805,
+    "longitude": -96.83166666666666,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d8d2f575e6876307c967673e194e88348d17b6c.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-c283cb876e0d",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Nebraska... Turkey Creek near De Witt affecting Saline and Gage Counties. Turkey Creek Near Wilber affecting Saline County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Turkey Creek near Wilber. * WHEN...Until late Sunday night. * IMPACTS...At 15.0 feet, Portions of County Road O, located north of Highway 41, may begin to flood. * ADDITIONAL DETAILS... - At 7:45 AM CDT Saturday the stage was 14.5 feet. - Bankfull stage is 11.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:45 AM CDT Saturday was 15.1 feet. - Forecast...The river is expected to fall below flood stage late tomorrow evening and continue falling to 3.1 feet Thursday morning. - Flood stage is 12.5 feet. - Flood History...This crest compares to a previous crest of 14.5 feet on 06/18/1990. - http://www.weather.gov/safety/flood",
+    "latitude": 40.506190476190476,
+    "longitude": -97.0195238095238,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7b3212a168c1af8d69fdc3c08cffdbbf2e96f11.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-1afea5babe72",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Nebraska... Big Blue River Near Crete affecting Saline County. Big Blue River At Beatrice affecting Gage County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Big Blue River at Beatrice. * WHEN...Until late Monday night. * IMPACTS...At 21.0 feet, At this level the West Scott baseball fields begin to flood. * ADDITIONAL DETAILS... - At 7:45 AM CDT Saturday the stage was 19.4 feet. - Bankfull stage is 16.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:45 AM CDT Saturday was 19.4 feet. - Forecast...The river is expected to rise to a crest of 21.5 feet tomorrow morning. It will then fall below flood stage Monday morning. - Flood stage is 18.0 feet. - Flood History...This crest compares to a previous crest of 21.3 feet on 09/30/1923. - http://www.weather.gov/safety/flood",
+    "latitude": 40.238571428571426,
+    "longitude": -96.71904761904761,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f79d7596b365f276d355895abf4d79757b220090.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-fab54f4fedd7",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by recent excessive rainfall continues. * WHERE...Along the West Fork Big Blue River in Southeastern York County in east central Nebraska and Northwestern Fillmore County in south central Nebraska... * WHEN...Until 100 PM CDT Sunday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 824 AM CDT, the gauge along the West Fork Big Blue River north of Grafton was at 12.7 feet, which was above minor flood stage of 11.0 feet. As a result, fairly widespread flooding of pastures and fields immediately adjacent to the river continues, including downstream through the McCool Junction area. Based on trends at the Grafton gauge, water levels appear to have crested and have started a very slow, gradual drop that should continue over the next few days. However, it now appears that the river will likely remain above flood stage until at least sometime on Sunday, prompting this Warning to be extended out farther in time. - Flooding impacts will continue, but no additional rainfall is expected. - Some locations that will experience flooding include... McCool Junction. - http://www.weather.gov/safety/flood",
+    "latitude": 40.707142857142856,
+    "longitude": -97.63571428571429,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.391376fa5402733a6330a7d6d05118e9d0349b3f.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-eb698a979df4",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Missouri... Middle Fabius River near Ewing. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Middle Fabius River near Ewing. * WHEN...Until Monday morning. * ADDITIONAL DETAILS... - At 7:30 AM CDT Saturday the stage was 13.3 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 AM CDT Saturday was 13.3 feet. - Forecast...The river is expected to fall below flood stage just after midnight tonight and continue falling to 2.9 feet Saturday, October 10. - Flood stage is 12.0 feet.",
+    "latitude": 40.086363636363636,
+    "longitude": -91.77272727272727,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9119a3b02142b3b8bd185e05673afd0924ac7f07.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-a23d07260aff",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "...The Flood Advisory continues for the following rivers in Kansas... Arkansas River At Coolidge affecting Hamilton County. For the Arkansas River...including Coolidge, Syracuse 1S, Garden City, Dodge City...elevated river levels are forecast. * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Arkansas River at Coolidge. * WHEN...Until Sunday afternoon. * IMPACTS...At 8.0 feet, Expect minor flooding in pastureland and farmland adjacent to the river. Low water areas along the unpaved River Road south of the Arkansas River will have water over the road... Exercise extreme caution. * ADDITIONAL DETAILS... - At 6:15 AM MDT Saturday the stage was 5.9 feet. - Bankfull stage is 8.0 feet. - Forecast...The river is expected to rise to a crest of 7.0 feet just after midnight tonight. - Action stage is 7.0 feet. - Flood stage is 8.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 38.008,
+    "longitude": -101.92800000000001,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e730ab1ef78ccddc2343f81f8cba47664af64b3.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b223084f04fc",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Astor affecting Lake and Volusia Counties. .The St Johns River at Astor is forecast to dip from Minor Flood Stage to Action Stage this weekend. Towards the middle of next week, another rise into Minor Flood Stage is forecast due to increasing rain chances and a return of northerly winds. For the St. Johns River...including Astor...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...St Johns River near Astor. * WHEN...Until further notice. * IMPACTS...At 2.3 feet, Many docks become submerged along the river and in canals in the Astor community. Water enters yards of properties on Bartram Road, Holiday Circle and along Wild Hog Road on the Lake County side. In Volusia County, water encroaches yards of homes on the river side of Alice Drive. No wake zones are in effect from near the South Moon Canal to approximately 800 feet south of the Riverview lodge. * ADDITIONAL DETAILS... - At 8:30 AM EDT Saturday the stage was 2.3 feet. - Bankfull stage is 2.0 feet. - Forecast...The river is expected to remain right around flood stage at 2.3 feet through today. It will then fall into Action Stage for a couple of days before rising back into flood stage towards the middle of next week. Additional rises through Minor Flood Stage are forecast thereafter. - Flood stage is 2.3 feet. - Flood History...This crest compares to a previous crest of 2.5 feet on 05/28/2023. - http://www.weather.gov/safety/flood",
+    "latitude": 29.186,
+    "longitude": -81.536,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c74eefcd98b08cc7e2db9aba7888d4d66324d02.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-848ee280eff2",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri... Platte River At Sharps Station affecting Platte County. Platte River near Platte City affecting Platte County. Platte River near Agency affecting Buchanan County. * WHAT...Minor flooding is occurring and moderate flooding is forecast. * WHERE...Platte River near Platte City. * WHEN...Until Wednesday morning. * IMPACTS...At 20.0 feet, Cropland near State Highway 92 near Platte City begins to flood. At 22.0 feet, Flooding occurs at Humphreys Access Area which is located 5 miles downstream from Platte City. 300 acres of pasture are also flooded. At 25.0 feet, Water overtops 1st Street in Tracy, Missouri. At 29.0 feet, State Highway 92 at Tracy is overtopped. * ADDITIONAL DETAILS... - At 7:30 AM CDT Saturday the stage was 22.1 feet. - Forecast...The river is expected to rise to a crest of 27.3 feet Monday morning. It will then fall below flood stage Tuesday morning. - Flood stage is 20.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.336666666666666,
+    "longitude": -94.80333333333334,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b78e60b08768d79ee0f2a8a850c31511c60044a.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-77e16bc131e6",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northwestern Appling County in southeastern Georgia... Northwestern Bacon County in southeastern Georgia... East Central Coffee County in southeastern Georgia... Jeff Davis County in southeastern Georgia... * WHEN...Until 415 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 217 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Hazlehurst, Graham, Nicholls, Denton and Pine Grove. - http://www.weather.gov/safety/flood",
+    "latitude": 31.83263157894737,
+    "longitude": -82.54842105263158,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2bb21901d5687352ec89ebf86ad04e4fd31c78df.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-dbc3a8ecb58b",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri... Grand River near Chillicothe affecting Livingston and Linn Counties. Platte River near Agency affecting Buchanan County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Platte River near Agency. * WHEN...Until Monday afternoon. * IMPACTS...At 20.0 feet, Low-lying areas east of Agency begin to flood. At 25.0 feet, Flooding begins at the east border of Agency. * ADDITIONAL DETAILS... - At 12:30 PM CDT Saturday the stage was 25.0 feet. - Forecast...The river is expected to fall below flood stage early tomorrow afternoon and continue falling to 8.1 feet Thursday morning. - Flood stage is 20.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.60666666666666,
+    "longitude": -94.71833333333332,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43d149fa1960fb6742d3a64e52bd155db2488d33.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-12e9622bea8f",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri... Grand River near Chillicothe affecting Livingston and Linn Counties. Platte River near Agency affecting Buchanan County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Grand River near Chillicothe. * WHEN...Until Sunday evening. * IMPACTS...At 24.0 feet, Low-lying cropland floods. At 28.0 feet, Rural roads are under water. * ADDITIONAL DETAILS... - At 12:45 PM CDT Saturday the stage was 27.8 feet. - Forecast...The river is expected to fall below flood stage this evening and continue falling to 8.0 feet Thursday morning. - Flood stage is 24.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.769999999999996,
+    "longitude": -93.558,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43d149fa1960fb6742d3a64e52bd155db2488d33.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-0fc304c43941",
+    "type": "weather_alert",
+    "title": "Special Marine Warning",
+    "description": "SMWMOB The National Weather Service in Mobile has issued a * Special Marine Warning for... North Mobile Bay... South Mobile Bay... * Until 200 PM CDT. * At 102 PM CDT, a strong thunderstorm capable of producing waterspouts was located over Point Clear, moving northwest at 15 knots. HAZARD...Waterspouts and wind gusts 34 knots or greater. SOURCE...Radar. IMPACT...Waterspouts can easily overturn boats and create locally hazardous seas. Small craft could be damaged in briefly higher winds and suddenly higher waves. * Locations impacted include... Gaillard Island, Pinto Island, Weeks Bay, Dog River Bridge, East Fowl River Bridge, Fairhope Pier, Bon Secour Bay, Middle Bay Light, Mouth Of Mobile River, and Battleship Park.",
+    "latitude": 30.466,
+    "longitude": -87.999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5cc32b1065f40844942a46f070c216ebf543f42b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-21a7a8f2bfe9",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Colorado... Purgatoire River Near Purgatoire R near Las Animas affecting Bent County. For the Purgatoire River...including Purgatoire near Las Animas... Minor flooding is forecast. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Purgatoire River near Purgatoire R near Las Animas. * WHEN...Until Sunday afternoon. * IMPACTS...At 9.0 feet, Minor Flood. Minor agricultural flooding occurs into low lying areas along the river. * ADDITIONAL DETAILS... - At 11:15 AM MDT Saturday the stage was 9.4 feet. - Bankfull stage is 7.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 11:15 AM MDT Saturday was 9.5 feet. - Forecast...The river is expected to rise to a crest of 9.6 feet this afternoon. It will then fall below flood stage late tonight. - Flood stage is 9.0 feet. - Flood History...This crest compares to a previous crest of 9.6 feet on 06/09/2014. - http://www.weather.gov/safety/flood",
+    "latitude": 38.03857142857142,
+    "longitude": -103.21000000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1bf2b4a7542c320857178127d8055d180f0b64bb.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-dd2d2d35d1e0",
+    "type": "weather_alert",
+    "title": "Marine Weather Statement",
+    "description": "A Marine Weather Statement has been issued for the following areas... Apalachee Bay or Coastal Waters From Keaton Beach to Ochlockonee River Fl out to 20 Nm... Coastal waters from Suwannee River to Keaton Beach out 20 NM... Waters from Suwannee River to Apalachicola FL from 20 to 60 NM... At 146 PM EDT, Doppler radar indicated a strong thunderstorm, capable of producing winds to around 30 knots. This thunderstorm was located 35 nm southeast of V Tower, moving north at 30 knots.",
+    "latitude": 29.19125,
+    "longitude": -83.85625,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1555c6a8ccdf4c0b53a076c9c3693523991f226.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b99640d7c14c",
+    "type": "weather_alert",
+    "title": "Marine Weather Statement",
+    "description": "The areas affected include... Lake Maurepas... Lake Pontchartrain... * At 1238 PM CDT, Doppler radar indicated a strong thunderstorm, capable of producing winds to around 30 knots. This strong thunderstorm was located over The Mid Point Of The Causeway Bridge, moving northwest at 15 knots. Locations impacted include... The Mid Point Of The Causeway Bridge, Manchac, Lake Pontchartrain/Lake Maurepas, Madisonville, Kenner, Mandeville, Lake Maurepas and Lacombe.",
+    "latitude": 30.231428571428573,
+    "longitude": -90.33761904761904,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c92b54dfb324b2d6a451a24ab2f6f745b1a14297.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-67d1d477a8d3",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Central Wayne County in southeastern Georgia... * WHEN...Until 430 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 126 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Jesup, Gardi, Screven, Doctortown and Broadhurst. - http://www.weather.gov/safety/flood",
+    "latitude": 31.536,
+    "longitude": -81.852,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84e1c3202176513a9251ac916807748ec807859e.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b4991d2bf6fa",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Bayamon...Guaynabo and San Juan... * WHEN...Until 400 PM AST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water over roadways. Overflowing poor drainage areas. * ADDITIONAL DETAILS... - At 124 PM AST, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... San Juan, Guaynabo and Bayamon. - http://www.weather.gov/safety/flood",
+    "latitude": 18.375555555555554,
+    "longitude": -66.14111111111112,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.669c537be6db307eb14d0ff9033eea2eaa77f6ff.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8643bc93880f",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northwestern Atkinson County in southeastern Georgia... Coffee County in southeastern Georgia... Southwestern Jeff Davis County in southeastern Georgia... * WHEN...Until 415 PM EDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 116 PM EDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Douglas, Broxton, Ambrose, Pridgen, West Green, Snipesville and Denton. - http://www.weather.gov/safety/flood",
+    "latitude": 31.633333333333333,
+    "longitude": -82.94428571428573,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.65154e1bb4de29874dc02a10e0e8f092f256f9bc.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b5ac79580264",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in New Mexico... Rio Puerco Near Bernardo affecting Socorro County. * WHAT...Minor flooding is forecast. * WHERE...Rio Puerco near Bernardo. * WHEN...Until late tonight. * IMPACTS...At 19.5 feet, At the initial flood stage of 19.5 feet, the water level in the Lower Rio Puerco will begin to threaten several homes and structures in the village of San Francisco between Interstate 25 and the Rio Grande. Further rises in water levels would begin to flood the village of San Francisco. The last time the water level reached 19.5 feet in the Rio Puerco near Bernardo was August 10 2006. * ADDITIONAL DETAILS... - At 10:00 AM MDT Saturday the stage was 19.8 feet. - Bankfull stage is 18.0 feet. - Forecast...The river is expected to rise to a crest of 19.8 feet this afternoon. It will then fall below flood stage just after midnight tonight. - Flood stage is 19.5 feet. - Flood History...This crest compares to a previous crest of 19.5 feet on 08/10/2006. - http://www.weather.gov/safety/flood",
+    "latitude": 35.105714285714285,
+    "longitude": -107.02,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4433f04258d401ddd4e62ebb39c4b381ae9a290.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8fd6c8495bbd",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...From this evening to Wednesday evening. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 11:00 AM CDT Saturday the stage was 14.6 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 15.6 feet early tomorrow afternoon. It will then fall below flood stage early Tuesday afternoon. - Flood stage is 15.0 feet.",
+    "latitude": 39.44285714285714,
+    "longitude": -91.00999999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b130e5dee55a6866bca7277d45272b72e84841a.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-eba2102b8914",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... Raccoon River at Des Moines Fleur Dr affecting Polk County. * WHAT...Minor flooding is occurring. * WHERE...Raccoon River at Des Moines Fleur Dr, or from Walnut Creek to the Des Moines River. * WHEN...Until Monday morning. * IMPACTS...At 13.5 feet, Water affects the low areas of Water Works Park. * ADDITIONAL DETAILS... - At 10:32 AM CDT Saturday the stage was 14.4 feet, and falling. - Forecast...The river is expected to fall below flood stage early Monday morning and continue falling to 4.4 feet Saturday, October 10. - Flood stage is 12.0 feet.",
+    "latitude": 41.57000000000001,
+    "longitude": -93.634,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dbfcf96d8a118e5747032d331224a976511a897b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-87d3bbdea968",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning is extended for the following rivers in Iowa... South Skunk River at Colfax affecting Polk, Jasper and Marion Counties. * WHAT...Minor flooding is forecast. * WHERE...South Skunk River at Colfax, or from the Jasper-Polk County Line to the Jasper-Marion County line. * WHEN...From late tonight to Monday morning. * IMPACTS...At 19.0 feet, Water affects the earthen levee west of town near the sewage disposal area. Evacuations may occur on the northwest side of Colfax. Flooding occurs in Reasnor. * ADDITIONAL DETAILS... - At 9:45 AM CDT Saturday the stage was 17.1 feet, and rising. - Forecast...The river is expected to rise above flood stage just after midnight tonight to a crest of 18.4 feet early tomorrow afternoon. It will then fall below flood stage early Monday morning. - Flood stage is 18.0 feet.",
+    "latitude": 41.58,
+    "longitude": -93.08,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9be3b4bda015e87b48ecf300cf03d14798e39d8.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-5b1b0906eb94",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "...The Flood Advisory continues for the following rivers in Arizona... Gila River near Calva affecting Graham County. For the Upper Gila...including Gila River at Calva...elevated river levels are forecast. * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Gila River near Gila River at Calva. * WHEN...Until this afternoon. * IMPACTS...At 15.0 feet, Low-lying riparian areas flooded. * ADDITIONAL DETAILS... - At 8:00 AM MST Saturday the stage was 14.5 feet. - Bankfull stage is 15.0 feet. - Forecast...The river is expected to a crest of 14.5 feet late this morning and slowly decrease through the afternoon. - Action stage is 15.0 feet. - Flood stage is 20.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 33.12,
+    "longitude": -110.16857142857144,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d9dcd1bde3b6f86811c73174c6a217fa2f1e691.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-8b70385fb10b",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Iowa... Black Hawk Creek at Hudson affecting Black Hawk County. * WHAT...Moderate flooding is occurring. * WHERE...Black Hawk Creek at Hudson, or from the Black Hawk-Grundy County line to the Cedar River in Waterloo. * WHEN...Until Sunday morning. * IMPACTS...At 16.0 feet, Water closes Ranchero Rd in Waterloo. Some residential evacuations may occur. * ADDITIONAL DETAILS... - At 9:45 AM CDT Saturday the stage was 16.4 feet, and falling. - Forecast...The river is expected to fall below flood stage just after midnight tonight and continue falling to 8.3 feet Saturday, October 10. - Flood stage is 15.0 feet.",
+    "latitude": 42.435,
+    "longitude": -92.41166666666668,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5f80bc5621a9397d6b87e3f389c214b0a3af3af2.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4b465a6616bd",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...Observed flooding changed from Minor to Moderate severity for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Saturday the stage was 7.2 feet. - Recent Activity...The river continues a gradual rise. - Forecast...The river is expected to crest tomorrow. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 42.462857142857146,
+    "longitude": -87.93142857142857,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2866f9022b2f109516494c661ac851d027719c15.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-71d797af0481",
+    "type": "weather_alert",
+    "title": "Flood Watch",
+    "description": "...The National Weather Service in Des Moines has issued a Flood Watch for the following rivers in Iowa... Iowa River near Tama Hwy E49 affecting Poweshiek and Tama Counties. * WHAT...Minor river flooding is possible. * WHERE...Iowa River near Tama Hwy E49, or from Timber Creek near Le Grand to Salt Creek near Belle Plaine. * WHEN...From Sunday morning to late Monday night. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 11.7 feet, and rising. - Forecast...Flood stage may be reached late tomorrow morning. - Flood stage is 12.5 feet.",
+    "latitude": 41.95,
+    "longitude": -92.582,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.34ebe8d71e25648019e24571afbfbfe4fa87ce0c.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-e69bf29cb845",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri... Missouri River at Jefferson City. Missouri River near Chamois. Missouri River at Hermann. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Missouri River at Hermann. * WHEN...From late Sunday night to Thursday morning. * IMPACTS...At 22.3 feet, Southern portions of Old Rock Road and Twisters Road south of Rhineland begin flooding near this height. * ADDITIONAL DETAILS... - At 9:30 AM CDT Saturday the stage was 10.6 feet. - Forecast...The river is expected to rise above flood stage early Monday morning to a crest of 22.8 feet early Tuesday morning. It will then fall below flood stage early Wednesday morning. - Flood stage is 21.0 feet.",
+    "latitude": 38.68285714285714,
+    "longitude": -91.42571428571429,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd0bc975e260cdcd067add4dc4dfe7d4d5763e8d.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-718bbd4c75ee",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri... Missouri River at Jefferson City. Missouri River near Chamois. Missouri River at Hermann. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Missouri River near Chamois. * WHEN...From Sunday evening to Thursday morning. * IMPACTS...At 17.0 feet, Flood Stage: Lower lying bottom land begins to flood. * ADDITIONAL DETAILS... - At 7:00 AM CDT Saturday the stage was 8.0 feet. - Forecast...The river is expected to rise above flood stage late tomorrow evening to a crest of 18.9 feet early Tuesday morning. It will then fall below flood stage late Tuesday evening. - Flood stage is 17.0 feet.",
+    "latitude": 38.65571428571428,
+    "longitude": -91.82285714285715,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd0bc975e260cdcd067add4dc4dfe7d4d5763e8d.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-934b6d798b1e",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri...Kansas... Missouri River at Glasgow affecting Saline, Chariton and Howard Counties. Missouri River At Miami affecting Saline, Carroll and Chariton Counties. Missouri River at Waverly affecting Lafayette, Carroll and Saline Counties. Missouri River at Napoleon affecting Lafayette, Ray and Jackson Counties. Missouri River at St Joseph affecting Andrew, Doniphan and Buchanan Counties. Missouri River at Boonville affecting Moniteau, Cooper, Howard and Boone Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Missouri River at Waverly. * WHEN...Until late Tuesday night. * IMPACTS...At 23.5 feet, Rural areas along the river which are not protected by levees flood. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 25.5 feet. - Forecast...The river is expected to rise to a crest of 26.7 feet this evening. It will then fall below flood stage early Tuesday morning. - Flood stage is 20.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.251666666666665,
+    "longitude": -93.57333333333334,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99166a9093442c3a6d2b4842866d1264b6874293.003.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-77fb80ea2775",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri...Kansas... Missouri River at Glasgow affecting Saline, Chariton and Howard Counties. Missouri River At Miami affecting Saline, Carroll and Chariton Counties. Missouri River at Waverly affecting Lafayette, Carroll and Saline Counties. Missouri River at Napoleon affecting Lafayette, Ray and Jackson Counties. Missouri River at St Joseph affecting Andrew, Doniphan and Buchanan Counties. Missouri River at Boonville affecting Moniteau, Cooper, Howard and Boone Counties. * WHAT...Minor flooding is forecast. * WHERE...Missouri River at Boonville. * WHEN...Until Wednesday afternoon. * IMPACTS...At 21.0 feet, Low-lying rural areas along the river flood. At 23.8 feet, Easley River Road and Smith Hatchery Road begin to flood. At 25.0 feet, Numerous farm levees are overtopped. Flooding of agricultural land and secondary roads occurs. Backwater flooding on Perche Creek causes flooding in McBaine. * ADDITIONAL DETAILS... - At 9:04 AM CDT Saturday the stage was 19.9 feet. - Forecast...The river is expected to rise above flood stage late this morning to a crest of 27.0 feet early Monday morning. It will then fall below flood stage Tuesday afternoon. - Flood stage is 21.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 38.96875,
+    "longitude": -92.71625,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99166a9093442c3a6d2b4842866d1264b6874293.006.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-fde179b8f013",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri...Kansas... Missouri River at Glasgow affecting Saline, Chariton and Howard Counties. Missouri River At Miami affecting Saline, Carroll and Chariton Counties. Missouri River at Waverly affecting Lafayette, Carroll and Saline Counties. Missouri River at Napoleon affecting Lafayette, Ray and Jackson Counties. Missouri River at St Joseph affecting Andrew, Doniphan and Buchanan Counties. Missouri River at Boonville affecting Moniteau, Cooper, Howard and Boone Counties. * WHAT...Minor flooding is forecast. * WHERE...Missouri River at Miami. * WHEN...Until Wednesday afternoon. * IMPACTS...At 18.0 feet, Low-lying rural areas outside of levees begin to flood. At 28.0 feet, Agricultural levees may be overtopped. Flooding of farmland, homes, and secondary roads behind levees is possible. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...The river is expected to rise to a crest of 26.2 feet tomorrow morning. It will then fall below flood stage early Tuesday afternoon. - Flood stage is 18.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.35,
+    "longitude": -93.22999999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99166a9093442c3a6d2b4842866d1264b6874293.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-5ac7e371537d",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri...Kansas... Missouri River at Glasgow affecting Saline, Chariton and Howard Counties. Missouri River At Miami affecting Saline, Carroll and Chariton Counties. Missouri River at Waverly affecting Lafayette, Carroll and Saline Counties. Missouri River at Napoleon affecting Lafayette, Ray and Jackson Counties. Missouri River at St Joseph affecting Andrew, Doniphan and Buchanan Counties. Missouri River at Boonville affecting Moniteau, Cooper, Howard and Boone Counties. * WHAT...Minor flooding is occurring and moderate flooding is forecast. * WHERE...Missouri River at Glasgow. * WHEN...Until Wednesday morning. * IMPACTS...At 25.0 feet, Farmland along the river floods. At 27.0 feet, Many agricultural levees are overtopped. Widespread flooding of rural areas occurs. Secondary roads and homes behind levees may be inundated. At 32.0 feet, Highways and gravel roads in low-lying areas near Glasgow are under water, including State Highway 240 west of Glasgow. The city park in Glasgow also begins to flood. * ADDITIONAL DETAILS... - At 9:30 AM CDT Saturday the stage was 26.1 feet. - Forecast...The river is expected to rise to a crest of 30.9 feet early tomorrow afternoon. It will then fall below flood stage late Tuesday morning. - Flood stage is 25.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.24333333333333,
+    "longitude": -92.99166666666667,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99166a9093442c3a6d2b4842866d1264b6874293.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-30964347285f",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri...Kansas... Missouri River at Glasgow affecting Saline, Chariton and Howard Counties. Missouri River At Miami affecting Saline, Carroll and Chariton Counties. Missouri River at Waverly affecting Lafayette, Carroll and Saline Counties. Missouri River at Napoleon affecting Lafayette, Ray and Jackson Counties. Missouri River at St Joseph affecting Andrew, Doniphan and Buchanan Counties. Missouri River at Boonville affecting Moniteau, Cooper, Howard and Boone Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Missouri River at Napoleon. * WHEN...Until Tuesday evening. * IMPACTS...At 17.0 feet, Low-lying areas unprotected by levees begin to flood. At 24.5 feet, The Missouri-Pacific Railroad tracks are overtopped. At 25.0 feet, Rural areas unprotected by levees flood. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 22.9 feet. - Forecast...The river is expected to rise to a crest of 23.3 feet this evening. It will then fall below flood stage late Monday evening. - Flood stage is 17.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.21,
+    "longitude": -94.06666666666666,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99166a9093442c3a6d2b4842866d1264b6874293.004.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-511ce954d782",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Missouri...Kansas... Missouri River at Glasgow affecting Saline, Chariton and Howard Counties. Missouri River At Miami affecting Saline, Carroll and Chariton Counties. Missouri River at Waverly affecting Lafayette, Carroll and Saline Counties. Missouri River at Napoleon affecting Lafayette, Ray and Jackson Counties. Missouri River at St Joseph affecting Andrew, Doniphan and Buchanan Counties. Missouri River at Boonville affecting Moniteau, Cooper, Howard and Boone Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Missouri River at St Joseph. * WHEN...Until late Sunday night. * IMPACTS...At 17.0 feet, Lowland flooding upstream and downstream from St. Joseph occurs. At 19.0 feet, Backwater from the Missouri River floods property along the Nodaway river at Nodaway, Missouri. At 21.0 feet, Riverfront Park in St. Joseph begins to flood. * ADDITIONAL DETAILS... - At 9:00 AM CDT Saturday the stage was 19.0 feet. - Forecast...The river is expected to fall below flood stage late tonight and continue falling to 8.4 feet Thursday morning. - Flood stage is 17.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 39.80166666666667,
+    "longitude": -94.945,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-10-03T18:19:29.923210+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99166a9093442c3a6d2b4842866d1264b6874293.005.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
