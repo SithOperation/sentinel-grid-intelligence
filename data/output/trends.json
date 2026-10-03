@@ -1,49 +1,49 @@
 {
-  "total_events": 1017,
+  "total_events": 931,
   "event_types": {
-    "tropical_cyclone": 6,
-    "earthquake": 104,
-    "reddit_report": 11,
-    "humanitarian": 8,
+    "earthquake": 101,
+    "humanitarian": 6,
     "conflict": 27,
-    "weather_alert": 851,
+    "weather_alert": 771,
     "wildfire": 1,
-    "europe_security": 9
+    "europe_security": 9,
+    "reddit_report": 12,
+    "tropical_cyclone": 4
   },
   "threat_levels": {
-    "MEDIUM": 646,
-    "CRITICAL": 5,
-    "HIGH": 351,
-    "LOW": 15
+    "MEDIUM": 565,
+    "CRITICAL": 4,
+    "HIGH": 346,
+    "LOW": 16
   },
   "priority_levels": {
-    "high": 367,
-    "medium": 650
+    "medium": 572,
+    "high": 359
   },
   "sources": {
-    "NASA EONET": 7,
-    "USGS Earthquake Hazards Program": 104,
-    "Reddit reddit_geopolitics": 1,
-    "GDACS": 11,
+    "USGS Earthquake Hazards Program": 101,
+    "GDACS": 9,
     "BBC World News": 17,
-    "National Weather Service": 851,
+    "National Weather Service": 771,
+    "NASA EONET": 5,
     "POLITICO Europe Defence": 9,
     "Reddit reddit_ukrainian_conflict": 4,
     "UN News": 10,
-    "Reddit reddit_israel_palestine": 1,
+    "Reddit reddit_israel_palestine": 2,
     "Reddit reddit_worldnews": 2,
     "Reddit reddit_israel": 1,
     "Reddit reddit_syria": 1,
-    "Reddit reddit_lebanon": 1
+    "Reddit reddit_lebanon": 1,
+    "Reddit reddit_geopolitics": 1
   },
   "regions": {
-    "Unknown": 144,
+    "Unknown": 138,
     "Israel": 5,
-    "United States": 851,
+    "United States": 771,
     "Russia": 4,
     "Ukraine": 11,
     "Latvia": 1,
     "Estonia": 1
   },
-  "average_confidence": 98.69
+  "average_confidence": 98.52
 }
