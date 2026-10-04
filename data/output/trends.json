@@ -1,50 +1,46 @@
 {
-  "total_events": 1037,
+  "total_events": 1036,
   "event_types": {
-    "weather_alert": 887,
-    "reddit_report": 12,
-    "earthquake": 101,
-    "europe_security": 7,
-    "humanitarian": 6,
-    "conflict": 21,
+    "earthquake": 103,
+    "conflict": 19,
+    "weather_alert": 891,
+    "europe_security": 6,
+    "reddit_report": 9,
+    "humanitarian": 5,
     "tropical_cyclone": 3
   },
   "threat_levels": {
-    "HIGH": 297,
-    "MEDIUM": 720,
-    "LOW": 16,
-    "CRITICAL": 4
+    "MEDIUM": 736,
+    "HIGH": 284,
+    "LOW": 14,
+    "CRITICAL": 2
   },
   "priority_levels": {
-    "high": 308,
-    "medium": 728,
-    "critical": 1
+    "medium": 743,
+    "high": 293
   },
   "sources": {
-    "National Weather Service": 887,
-    "Reddit reddit_worldnews": 2,
-    "USGS Earthquake Hazards Program": 101,
-    "Reddit reddit_israel": 1,
-    "POLITICO Europe Defence": 6,
-    "Reddit reddit_ukrainian_conflict": 4,
-    "Reddit reddit_syria": 1,
-    "GDACS": 9,
+    "USGS Earthquake Hazards Program": 103,
     "BBC World News": 14,
-    "UN News": 7,
+    "National Weather Service": 891,
+    "POLITICO Europe Defence": 5,
+    "Reddit reddit_ukrainian_conflict": 3,
+    "UN News": 5,
+    "GDACS": 9,
     "Reddit reddit_lebanon": 2,
     "NASA EONET": 3,
     "Reddit reddit_israel_palestine": 1,
     "Reddit reddit_geopolitics": 1,
-    "r/CredibleDefense": 1
+    "r/CredibleDefense": 1,
+    "Reddit reddit_worldnews": 2
   },
   "regions": {
-    "United States": 887,
-    "Unknown": 131,
-    "Latvia": 1,
-    "Israel": 4,
+    "Unknown": 128,
+    "United States": 891,
     "Ukraine": 11,
     "Russia": 2,
-    "Estonia": 1
+    "Estonia": 1,
+    "Israel": 3
   },
-  "average_confidence": 98.85
+  "average_confidence": 99.04
 }
