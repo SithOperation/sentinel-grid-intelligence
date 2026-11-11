@@ -7,7 +7,7 @@ from output.contracts import SCHEMA_VERSION
 
 def _parse_timestamp(value):
     try:
-        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        parsed = datetime.fromisoformat(str(value))
         return parsed.replace(tzinfo=UTC) if parsed.tzinfo is None else parsed
     except (TypeError, ValueError):
         return None
