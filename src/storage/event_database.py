@@ -1,5 +1,5 @@
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 from processors.event_deduplication import remove_duplicates
 from settings import PROJECT_ROOT
@@ -41,25 +41,25 @@ def append_events(new_events):
 
 
 def apply_retention(events, max_age_hours=72, max_events=5000, now=None):
-    now = now or datetime.now(timezone.utc)
+    now = now or datetime.now(UTC)
     cutoff = now - timedelta(hours=max_age_hours)
     retained = []
 
     for event in events:
         timestamp = event.get("timestamp")
         try:
-            parsed = datetime.fromisoformat(str(timestamp).replace("Z", "+00:00"))
+            parsed = datetime.fromisoformat(str(timestamp))
             if parsed.tzinfo is None:
-                parsed = parsed.replace(tzinfo=timezone.utc)
+                parsed = parsed.replace(tzinfo=UTC)
         except (TypeError, ValueError):
             continue
         if event.get("event_type") == "weather_alert":
             weather = event.get("weather", {})
             expiration = weather.get("ends") or weather.get("expires")
             try:
-                expires = datetime.fromisoformat(str(expiration).replace("Z", "+00:00"))
+                expires = datetime.fromisoformat(str(expiration))
                 if expires.tzinfo is None:
-                    expires = expires.replace(tzinfo=timezone.utc)
+                    expires = expires.replace(tzinfo=UTC)
             except (TypeError, ValueError):
                 continue
             if expires < now:

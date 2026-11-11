@@ -10,7 +10,7 @@ Standard event structure used across:
 """
 
 import uuid
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 
 def create_event(
@@ -32,7 +32,7 @@ def create_event(
         "title": title,
         "description": description,
         "source": source or [],
-        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "timestamp": datetime.now(UTC).isoformat(),
         "location": location
         or {"country": "Unknown", "region": "Unknown", "latitude": 0, "longitude": 0},
         "actors": [],

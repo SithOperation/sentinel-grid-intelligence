@@ -70,7 +70,7 @@ def _cross_provider_key(event):
     latitude, longitude = location.get("latitude"), location.get("longitude")
     try:
         timestamp = datetime.fromisoformat(
-            str(event.get("timestamp")).replace("Z", "+00:00")
+            str(event.get("timestamp"))
         )
     except (TypeError, ValueError):
         return None
@@ -122,10 +122,10 @@ def remove_duplicates(events):
             }:
                 try:
                     existing_time = datetime.fromisoformat(
-                        str(existing.get("timestamp")).replace("Z", "+00:00")
+                        str(existing.get("timestamp"))
                     )
                     new_time = datetime.fromisoformat(
-                        str(event.get("timestamp")).replace("Z", "+00:00")
+                        str(event.get("timestamp"))
                     )
                     if new_time > existing_time:
                         preserved_hash = existing["event_hash"]

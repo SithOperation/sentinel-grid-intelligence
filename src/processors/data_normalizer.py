@@ -8,7 +8,7 @@ Preserves existing intelligence data.
 """
 
 import datetime
-from datetime import timezone
+from datetime import UTC
 
 from utils.sanitization import plain_text, safe_url
 
@@ -27,7 +27,7 @@ def normalize_events(events):
         event.setdefault("event_id", "SG-UNKNOWN")
 
         # Ensure timestamp exists
-        event.setdefault("timestamp", datetime.datetime.now(timezone.utc).isoformat())
+        event.setdefault("timestamp", datetime.datetime.now(UTC).isoformat())
 
         # Standard confidence
         event.setdefault("confidence", 50)

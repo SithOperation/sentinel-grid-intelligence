@@ -53,7 +53,7 @@ def _validate_events(events, name):
             raise ContractError(f"{name}[{index}] has an unsupported event type")
         try:
             timestamp = datetime.fromisoformat(
-                str(event["timestamp"]).replace("Z", "+00:00")
+                str(event["timestamp"])
             )
             if timestamp.tzinfo is None or timestamp.utcoffset() is None:
                 raise ValueError
@@ -200,7 +200,7 @@ def validate_artifacts(artifacts):
 
     generated = world.get("generated")
     try:
-        reference_time = datetime.fromisoformat(str(generated).replace("Z", "+00:00"))
+        reference_time = datetime.fromisoformat(str(generated))
         if reference_time.tzinfo is None:
             reference_time = reference_time.replace(tzinfo=UTC)
         validate_x_report_document(

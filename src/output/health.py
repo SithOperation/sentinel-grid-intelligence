@@ -1,6 +1,6 @@
 """Build the public collection-health and freshness contract."""
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from output.contracts import SCHEMA_VERSION
 
@@ -8,13 +8,13 @@ from output.contracts import SCHEMA_VERSION
 def _parse_timestamp(value):
     try:
         parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
-        return parsed.replace(tzinfo=timezone.utc) if parsed.tzinfo is None else parsed
+        return parsed.replace(tzinfo=UTC) if parsed.tzinfo is None else parsed
     except (TypeError, ValueError):
         return None
 
 
 def build_health(events, source_health, generated, stale_after_minutes):
-    generated_at = _parse_timestamp(generated) or datetime.now(timezone.utc)
+    generated_at = _parse_timestamp(generated) or datetime.now(UTC)
     timestamps = [
         parsed
         for parsed in (_parse_timestamp(event.get("timestamp")) for event in events)

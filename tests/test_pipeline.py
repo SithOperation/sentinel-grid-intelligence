@@ -2,7 +2,7 @@ import json
 import os
 import tempfile
 import unittest
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
 
@@ -202,7 +202,7 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(current.read_text(encoding="utf-8"), "current")
 
     def test_retention_limits_age_and_count(self):
-        now = datetime.now(timezone.utc)
+        now = datetime.now(UTC)
         events = []
         for hours in (72, 3, 2, 1):
             events.append(
@@ -224,7 +224,7 @@ class PipelineTests(unittest.TestCase):
         )
 
     def test_health_marks_old_data_stale(self):
-        generated = datetime.now(timezone.utc)
+        generated = datetime.now(UTC)
         old = generated - timedelta(hours=8)
         health = build_health(
             [{"timestamp": old.isoformat()}],
@@ -236,7 +236,7 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(health["degraded"])
 
     def test_health_does_not_treat_zero_current_events_as_an_outage(self):
-        generated = datetime.now(timezone.utc)
+        generated = datetime.now(UTC)
         health = build_health(
             [{"timestamp": generated.isoformat()}],
             [{"source": "inactive-volcano-feed", "status": "no_data"}],

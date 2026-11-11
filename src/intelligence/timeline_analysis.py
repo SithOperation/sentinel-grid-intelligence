@@ -18,7 +18,7 @@ def safe_timestamp(timestamp):
         return ""
 
     try:
-        datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+        datetime.fromisoformat(timestamp)
 
         return timestamp
 

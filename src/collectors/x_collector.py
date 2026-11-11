@@ -249,7 +249,7 @@ class XCollector:
 
     def _to_report(self, configured: XStatusURL, post: PublicPost) -> XReport:
         try:
-            published = datetime.fromisoformat(post.published_at.replace("Z", "+00:00"))
+            published = datetime.fromisoformat(post.published_at)
         except ValueError as error:
             raise XMetadataError("public metadata timestamp is invalid") from error
         if published.tzinfo is None or published.utcoffset() is None:

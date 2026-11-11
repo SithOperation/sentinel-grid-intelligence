@@ -5,7 +5,7 @@ import json
 import os
 import tempfile
 import uuid
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from output.contracts import SCHEMA_VERSION, validate_artifacts
@@ -44,8 +44,7 @@ def publish_artifacts(
     manifest = {
         "schema_version": SCHEMA_VERSION,
         "publication_id": publication_id,
-        "generated": (generated or datetime.now(timezone.utc))
-        .astimezone(timezone.utc)
+        "generated": (generated or datetime.now(UTC)).astimezone(UTC)
         .isoformat(),
         "files": {
             name: {

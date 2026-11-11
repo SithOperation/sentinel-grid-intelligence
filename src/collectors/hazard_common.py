@@ -9,7 +9,7 @@ from datetime import UTC, datetime
 
 def parse_timestamp(value: object) -> datetime | None:
     try:
-        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        parsed = datetime.fromisoformat(str(value))
         if parsed.tzinfo is None or parsed.utcoffset() is None:
             return None
         return parsed.astimezone(UTC)
