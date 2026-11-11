@@ -52,9 +52,7 @@ def _validate_events(events, name):
         if event["event_type"] not in SUPPORTED_EVENT_TYPES:
             raise ContractError(f"{name}[{index}] has an unsupported event type")
         try:
-            timestamp = datetime.fromisoformat(
-                str(event["timestamp"])
-            )
+            timestamp = datetime.fromisoformat(str(event["timestamp"]))
             if timestamp.tzinfo is None or timestamp.utcoffset() is None:
                 raise ValueError
         except (TypeError, ValueError) as error:

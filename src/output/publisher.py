@@ -44,8 +44,7 @@ def publish_artifacts(
     manifest = {
         "schema_version": SCHEMA_VERSION,
         "publication_id": publication_id,
-        "generated": (generated or datetime.now(UTC)).astimezone(UTC)
-        .isoformat(),
+        "generated": (generated or datetime.now(UTC)).astimezone(UTC).isoformat(),
         "files": {
             name: {
                 "bytes": len(payload),

@@ -227,12 +227,8 @@ def validate_x_report_document(
         ):
             raise ValueError("X report identity is invalid or duplicated")
         try:
-            published = datetime.fromisoformat(
-                str(value["published_at"])
-            )
-            collected = datetime.fromisoformat(
-                str(value["collected_at"])
-            )
+            published = datetime.fromisoformat(str(value["published_at"]))
+            collected = datetime.fromisoformat(str(value["collected_at"]))
         except ValueError as error:
             raise ValueError("X report timestamp is invalid") from error
         published = _aware_utc(published, "published_at")
