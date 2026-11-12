@@ -12,7 +12,6 @@ Creates:
 
 
 def determine_region(event):
-
     location = event.get("location", {})
 
     country = location.get("country", "Unknown").lower()
@@ -75,7 +74,6 @@ def determine_region(event):
 
 
 def determine_activity_level(event_count):
-
     if event_count >= 25:
         return "SEVERE"
 
@@ -89,7 +87,6 @@ def determine_activity_level(event_count):
 
 
 def determine_threat_level(score):
-
     if score >= 85:
         return "CRITICAL"
 
@@ -103,7 +100,6 @@ def determine_threat_level(score):
 
 
 def analyze_regions(events):
-
     regions = {}
 
     for event in events:

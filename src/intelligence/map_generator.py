@@ -15,7 +15,6 @@ MAP_EVENT_TYPES = {
 
 
 def generate_map_events(events):
-
     map_events = []
 
     for event in events:

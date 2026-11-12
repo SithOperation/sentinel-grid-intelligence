@@ -33,7 +33,6 @@ HEADERS = {"User-Agent": "Sentinel-Grid-Intelligence/1.0"}
 
 
 def parse_feed(xml_data):
-
     articles = []
 
     try:
@@ -56,7 +55,6 @@ def parse_feed(xml_data):
 
 
 def fetch():
-
     articles = []
 
     for feed in NEWS_FEEDS:

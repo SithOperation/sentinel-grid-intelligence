@@ -12,7 +12,6 @@ Output:
 
 
 def determine_global_level(events):
-
     highest_score = 0
 
     for event in events:
@@ -34,7 +33,6 @@ def determine_global_level(events):
 
 
 def generate_brief(events, regional_data=None):
-
     brief = {
         "title": "SENTINEL GRID INTELLIGENCE BRIEF",
         "global_threat_level": determine_global_level(events),

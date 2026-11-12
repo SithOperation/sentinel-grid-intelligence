@@ -8,7 +8,6 @@ DATABASE_PATH = PROJECT_ROOT / "data/database/events.json"
 
 
 def load_events():
-
     if not DATABASE_PATH.exists():
         return []
 
@@ -21,7 +20,6 @@ def load_events():
 
 
 def save_events(events):
-
     DATABASE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     with open(DATABASE_PATH, "w", encoding="utf-8") as file:
@@ -29,7 +27,6 @@ def save_events(events):
 
 
 def append_events(new_events):
-
     existing = load_events()
 
     existing.extend(new_events)

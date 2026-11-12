@@ -22,7 +22,6 @@ Factors:
 
 
 def calculate_threat_score(event):
-
     score = 0
 
     event_type = event.get("event_type", "").lower()
@@ -170,7 +169,6 @@ def calculate_threat_score(event):
 
 
 def assign_threat_level(event):
-
     score = calculate_threat_score(event)
 
     event["threat_score"] = score
@@ -191,7 +189,6 @@ def assign_threat_level(event):
 
 
 def analyze_threats(events):
-
     analyzed = []
 
     for event in events:

@@ -31,7 +31,6 @@ SOURCE_WEIGHTS = {
 
 
 def calculate_source_bonus(source):
-
     bonus = 0
 
     if isinstance(source, list):
@@ -48,7 +47,6 @@ def calculate_source_bonus(source):
 
 
 def apply_confidence(events):
-
     for event in events:
         source = event.get("source", [])
 

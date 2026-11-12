@@ -38,7 +38,6 @@ CONFLICT_KEYWORDS = [
 
 
 def is_conflict_related(text):
-
     text = text.lower()
 
     for word in CONFLICT_KEYWORDS:
@@ -49,7 +48,6 @@ def is_conflict_related(text):
 
 
 def create_conflict_event(article):
-
     source = article.get("source", "Unknown")
 
     event = create_event(
@@ -79,7 +77,6 @@ def create_conflict_event(article):
 
 
 def collect_conflicts(articles=None):
-
     events = []
 
     print("[+] Collecting conflict intelligence")

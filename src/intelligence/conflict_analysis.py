@@ -26,7 +26,6 @@ CONFLICT_INDICATORS = [
 
 
 def analyze_conflicts(events):
-
     conflict_events = [
         event for event in events if event.get("event_type") == "conflict"
     ]

@@ -23,7 +23,6 @@ def create_event(
     location=None,
     confidence=0,
 ):
-
     return {
         "event_id": f"SG-{uuid.uuid4().hex[:8]}",
         "event_type": event_type,

@@ -16,7 +16,6 @@ from collections import Counter
 
 
 def analyze_trends(events):
-
     report = {
         "total_events": len(events),
         "event_types": {},

@@ -13,7 +13,6 @@ from datetime import datetime
 
 
 def safe_timestamp(timestamp):
-
     if not timestamp:
         return ""
 
@@ -27,7 +26,6 @@ def safe_timestamp(timestamp):
 
 
 def generate_timeline(events):
-
     timeline = []
 
     for event in events:

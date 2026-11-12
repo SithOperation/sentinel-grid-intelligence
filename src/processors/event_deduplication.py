@@ -14,7 +14,6 @@ from datetime import datetime
 
 
 def clean(value):
-
     if value is None:
         return ""
 
@@ -22,7 +21,6 @@ def clean(value):
 
 
 def create_event_hash(event):
-
     event_type = clean(event.get("event_type"))
 
     if event_type in {"wildfire", "flood", "tropical_cyclone", "natural_hazard"}:
@@ -91,7 +89,6 @@ def _cross_provider_key(event):
 
 
 def remove_duplicates(events):
-
     seen = {}
 
     results = []

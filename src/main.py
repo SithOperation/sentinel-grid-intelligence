@@ -338,7 +338,6 @@ def process_events(events):
 
 
 def main(use_existing=False, reference_time=None):
-
     print(
         """
 ============================

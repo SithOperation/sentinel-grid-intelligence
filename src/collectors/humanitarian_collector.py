@@ -22,7 +22,6 @@ from models.event_model import create_event
 
 
 def create_humanitarian_event(item):
-
     title = item.findtext("title") or "Global disaster event"
 
     description = item.findtext("description") or ""
@@ -64,7 +63,6 @@ def create_humanitarian_event(item):
 
 
 def collect_humanitarian():
-
     events = []
 
     try:

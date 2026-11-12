@@ -9,7 +9,6 @@ created by collectors.
 
 
 def classify_events(events):
-
     for event in events:
         event_type = event.get("event_type")
         if event_type in {

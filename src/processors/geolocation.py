@@ -132,7 +132,6 @@ LOCATION_DATABASE = {
 
 
 def has_coordinates(event):
-
     location = event.get("location", {})
 
     latitude = location.get("latitude", 0)
@@ -179,7 +178,6 @@ def geolocate_event(event):
 
 
 def apply_geolocation(events):
-
     processed = []
 
     for event in events:

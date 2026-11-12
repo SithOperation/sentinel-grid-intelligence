@@ -14,7 +14,6 @@ from utils.sanitization import plain_text, safe_url
 
 
 def normalize_events(events):
-
     normalized = []
 
     for event in events:
