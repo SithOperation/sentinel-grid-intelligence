@@ -1,34 +1,5 @@
 [
   {
-    "event_id": "SG-0358a9815731",
-    "type": "europe_security",
-    "title": "Albania pitches flexible NATO summit as allies sour on 2027 meeting",
-    "description": "POLITICO Europe Defence reported: Albanian Defense Minister Ermal Nufi says Tirana could host a summit in 2028 or even online.",
-    "latitude": 32.4279,
-    "longitude": 53.688,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-11-11T05:00:00+00:00",
-    "url": "https://www.politico.eu/article/albania-pitches-flexible-nato-summit-as-allies-sour-on-2027-meeting",
-    "classification": "nato_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "NATO",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-53db49a5dd9a",
-    "location_precision": null,
-    "europe_layers": [
-      "nato_activity"
-    ]
-  },
-  {
     "event_id": "SG-3fbb3c38c324",
     "type": "wildfire",
     "title": "Prescribed Fire Bienville CPT 29 Sub 2 RX, Scott, Mississippi",
@@ -1723,6 +1694,23 @@
     ]
   },
   {
+    "event_id": "SG-534fab8d40e4",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 74 km S of Yudomari, Japan",
+    "description": "M 4.6 - 74 km S of Yudomari, Japan",
+    "latitude": 29.5604,
+    "longitude": 130.4805,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-13T23:22:54.402000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty53",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-c8d3697c549b",
     "type": "earthquake",
     "title": "M4.1 earthquake — 98 km ENE of Ouzinkie, Alaska",
@@ -1740,7 +1728,7 @@
     ]
   },
   {
-    "event_id": "SG-fe3498358b46",
+    "event_id": "SG-2bbcbdb5839a",
     "type": "earthquake",
     "title": "M5.1 earthquake — 153 km NW of Kavieng, Papua New Guinea",
     "description": "M 5.1 - 153 km NW of Kavieng, Papua New Guinea",
@@ -1751,6 +1739,23 @@
     "confidence": 100,
     "timestamp": "2026-11-13T23:30:38.320000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty56",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9b9f6952708a",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 100 km WSW of Lebu, Chile",
+    "description": "M 4.6 - 100 km WSW of Lebu, Chile",
+    "latitude": -37.922,
+    "longitude": -74.7229,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-13T23:55:15.232000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty59",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -1825,6 +1830,261 @@
     ]
   },
   {
+    "event_id": "SG-1527092ab538",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — Fiji region",
+    "description": "M 4.5 - Fiji region",
+    "latitude": -19.5803,
+    "longitude": -177.739,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T02:21:07.393000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6e",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-5d4d0199342d",
+    "type": "earthquake",
+    "title": "M5.2 earthquake — off the west coast of northern Sumatra",
+    "description": "M 5.2 - off the west coast of northern Sumatra",
+    "latitude": 3.304,
+    "longitude": 92.8261,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T02:59:29.180000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6n",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-d812584efca5",
+    "type": "earthquake",
+    "title": "M4.7 earthquake — 54 km NW of San Antonio de los Cobres, Argentina",
+    "description": "M 4.7 - 54 km NW of San Antonio de los Cobres, Argentina",
+    "latitude": -23.9436,
+    "longitude": -66.7642,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T03:18:26.652000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6p",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-245f34395796",
+    "type": "earthquake",
+    "title": "M2.5 earthquake — 12 km SSW of Skwentna, Alaska",
+    "description": "M 2.5 - 12 km SSW of Skwentna, Alaska",
+    "latitude": 61.892,
+    "longitude": -151.528,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T04:02:43.244000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wnvaqb",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-bb03fefd4e27",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — western Indian-Antarctic Ridge",
+    "description": "M 4.5 - western Indian-Antarctic Ridge",
+    "latitude": -50.3735,
+    "longitude": 139.6657,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T04:59:00.633000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty73",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-679e8e62ebcc",
+    "type": "earthquake",
+    "title": "M4 earthquake — 32 km SE of Kargil, India",
+    "description": "M 4.0 - 32 km SE of Kargil, India",
+    "latitude": 34.3601,
+    "longitude": 76.392,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T04:59:27.508000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty72",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-1f0df099099b",
+    "type": "earthquake",
+    "title": "M4.8 earthquake — West Chile Rise",
+    "description": "M 4.8 - West Chile Rise",
+    "latitude": -36.4613,
+    "longitude": -97.9575,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T06:33:19.009000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7b",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-7e56840dadd2",
+    "type": "earthquake",
+    "title": "M5.2 earthquake — State of Yap, Federated States of Micronesia",
+    "description": "M 5.2 - State of Yap, Federated States of Micronesia",
+    "latitude": 9.7032,
+    "longitude": 147.3631,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T06:52:26.706000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7d",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-cc1c1ab5d02d",
+    "type": "earthquake",
+    "title": "M2.8 earthquake — 23 km S of Denali National Park, Alaska",
+    "description": "M 2.8 - 23 km S of Denali National Park, Alaska",
+    "latitude": 63.334,
+    "longitude": -151.738,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T06:58:06.235000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026woawtk",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-fbbc392b29e5",
+    "type": "earthquake",
+    "title": "M4.6 earthquake — 102 km NNE of Hihifo, Tonga",
+    "description": "M 4.6 - 102 km NNE of Hihifo, Tonga",
+    "latitude": -15.0887,
+    "longitude": -173.446,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T07:02:22.573000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7h",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-ebd5bc1974a0",
+    "type": "earthquake",
+    "title": "M2.7 earthquake — 105 km N of Yakutat, Alaska",
+    "description": "M 2.7 - 105 km N of Yakutat, Alaska",
+    "latitude": 60.49,
+    "longitude": -139.8841,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T07:19:06.094000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7j",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-d48a67219328",
+    "type": "earthquake",
+    "title": "M2.7 earthquake — 37 km SW of Chenega, Alaska",
+    "description": "M 2.7 - 37 km SW of Chenega, Alaska",
+    "latitude": 59.852,
+    "longitude": -148.534,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T07:21:19.785000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wobqvm",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-81b2dcba64dc",
+    "type": "earthquake",
+    "title": "M4.1 earthquake — southeast of Shikoku, Japan",
+    "description": "M 4.1 - southeast of Shikoku, Japan",
+    "latitude": 30.0796,
+    "longitude": 136.9461,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T07:24:59.364000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7m",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-1b8b680926be",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Australia",
+    "description": "On 13/11/2026, a forest fire started in Australia, until 13/11/2026.",
+    "latitude": -17.219245453627998,
+    "longitude": 124.17939199157631,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-11-14T08:02:15+00:00",
+    "url": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033825",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-c4657ca1a4bf",
+    "type": "earthquake",
+    "title": "M3.29 earthquake — 14 km WSW of Conconully, Washington",
+    "description": "M 3.3 - 14 km WSW of Conconully, Washington",
+    "latitude": 48.4883333333333,
+    "longitude": -119.911166666667,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-14T08:30:07.510000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714139181",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
     "event_id": "SG-d238fd45fcba",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -1834,7 +2094,7 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-11-14T01:50:20.106203+00:00",
+    "timestamp": "2026-11-14T08:45:25.199962+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b50b923a14c5bc8fb76e067870c4de114a2edf28.001.1",
     "classification": "severe_weather_alert",
     "source": [
@@ -1851,25 +2111,8 @@
     "priority": "high",
     "threat_level": "HIGH",
     "confidence": 100,
-    "timestamp": "2026-11-14T01:50:20.106203+00:00",
+    "timestamp": "2026-11-14T08:45:25.199962+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de4c98d21a52bd9d35294ade30d67e649afe43a1.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-193a8c1ec612",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Urban area and small stream flooding caused by excessive rainfall continues. * WHERE...Portions of Placer, Sacramento, Amador, El Dorado and Nevada County in California... * WHEN...Until 700 PM PST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water over roadways. * ADDITIONAL DETAILS... - At 454 PM PST, local law enforcement continues to report flooding in the advisory area, and additional bands of rainfall continue to move into the area. This is causing urban and small stream flooding. Between 0.5 and 1.5 inches of rain have fallen. - Some locations that will experience flooding include... Auburn, Placerville, Jackson, Cameron Park, El Dorado Hills, Lake Of The Pines, Ione, Rancho Murieta, Colfax, Shingle Springs, Rescue, Coloma, Lotus, Latrobe, Smithflat, Garden Valley, Pilot Hill, Greenwood and Forest Home. - Highway 50 and Interstate 80 - http://www.weather.gov/safety/flood",
-    "latitude": 38.68,
-    "longitude": -121.03818181818183,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-14T01:50:20.106203+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1799b0524f0f2fdc8e449fdadd7898c23bad342.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
@@ -1885,8 +2128,42 @@
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-11-14T01:50:20.106203+00:00",
+    "timestamp": "2026-11-14T08:45:25.199962+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.45d53adb8ed82f8bd50f5bea5254e2656953c951.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2f1d49b61122",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by upstream dam release continues. * WHERE...Maricopa County in south central Arizona... Northeastern Yuma County in southwestern Arizona... * WHEN...Until 1100 AM MST Tuesday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is expected. Low-water crossings are likely to become inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 724 PM MST, water releases from Painted Rock Dam continue with flow peaking at 3000 cfs. A streamflow gauge immediately downstream also indicated a stage of 9.93 feet. - Flooding is expected along the Gila River. - Some locations that will experience flooding include... Farmlands and low-water crossings along the Gila River. - http://www.weather.gov/safety/flood",
+    "latitude": 33.0052380952381,
+    "longitude": -113.21380952380952,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-14T08:45:25.199962+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc383b500d053c6b9ea8166be008d9fcb26ed469.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-6645d6507870",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Texas... Nueces River Near Tilden affecting McMullen County. For the Nueces River...including Cotulla, Tilden, Three Rivers, Mathis, Bluntzer, Calallen...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...Nueces River near Tilden. * WHEN...From Saturday evening to late Monday night. * IMPACTS...At 15.0 feet, Much of the flood plain below cotulla to below tilden is cut off, as sloughs and peripheral channels fill. Hunting cabins, oil field pump jacks and tank batteries flood well away from the channel. Livestock are cut off and can drown. * ADDITIONAL DETAILS... - At 7:30 PM CST Friday the stage was 10.9 feet. - Bankfull stage is 11.0 feet. - Forecast...The river is expected to rise above flood stage Saturday evening to a crest of 15.0 feet early Sunday afternoon. It will then fall below flood stage late Monday morning. - Flood stage is 14.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 28.25857142857143,
+    "longitude": -98.59857142857143,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-14T08:45:25.199962+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3cfa0b70a6989855fa7c22e761815c65c7a1afe4.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
