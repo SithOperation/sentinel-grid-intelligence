@@ -1,36 +1,36 @@
 {
-  "total_events": 1035,
+  "total_events": 1173,
   "event_types": {
-    "earthquake": 130,
-    "weather_alert": 870,
-    "conflict": 20,
+    "earthquake": 128,
+    "conflict": 25,
     "humanitarian": 11,
-    "europe_security": 4
+    "weather_alert": 1004,
+    "europe_security": 5
   },
   "threat_levels": {
-    "MEDIUM": 928,
-    "HIGH": 99,
+    "MEDIUM": 1043,
+    "HIGH": 121,
     "CRITICAL": 4,
-    "LOW": 4
+    "LOW": 5
   },
   "priority_levels": {
-    "medium": 923,
-    "high": 112
+    "medium": 1039,
+    "high": 134
   },
   "sources": {
-    "USGS Earthquake Hazards Program": 130,
-    "National Weather Service": 870,
-    "BBC World News": 17,
-    "UN News": 3,
+    "USGS Earthquake Hazards Program": 128,
+    "BBC World News": 20,
+    "UN News": 5,
     "GDACS": 15,
-    "POLITICO Europe Defence": 3,
+    "National Weather Service": 1004,
+    "POLITICO Europe Defence": 4,
     "r/geopolitics": 1
   },
   "regions": {
-    "Unknown": 152,
-    "United States": 870,
+    "Unknown": 153,
     "Israel": 2,
-    "Ukraine": 4,
+    "United States": 1004,
+    "Ukraine": 7,
     "China": 2,
     "Finland": 1,
     "International": 1,
@@ -38,5 +38,5 @@
     "Estonia": 1,
     "Russia": 1
   },
-  "average_confidence": 99.37
+  "average_confidence": 99.32
 }
