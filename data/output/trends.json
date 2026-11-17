@@ -1,45 +1,43 @@
 {
-  "total_events": 1082,
+  "total_events": 1167,
   "event_types": {
-    "earthquake": 120,
-    "conflict": 22,
-    "humanitarian": 9,
-    "weather_alert": 925,
+    "earthquake": 119,
+    "conflict": 23,
+    "weather_alert": 1009,
     "europe_security": 5,
+    "humanitarian": 10,
     "tropical_cyclone": 1
   },
   "threat_levels": {
-    "MEDIUM": 890,
-    "CRITICAL": 4,
-    "HIGH": 183,
-    "LOW": 5
+    "MEDIUM": 948,
+    "HIGH": 209,
+    "LOW": 5,
+    "CRITICAL": 5
   },
   "priority_levels": {
-    "medium": 889,
-    "high": 191,
-    "critical": 2
+    "medium": 947,
+    "high": 217,
+    "critical": 3
   },
   "sources": {
-    "USGS Earthquake Hazards Program": 120,
-    "BBC World News": 17,
-    "GDACS": 13,
-    "National Weather Service": 925,
-    "POLITICO Europe Defence": 4,
+    "USGS Earthquake Hazards Program": 119,
+    "BBC World News": 18,
+    "National Weather Service": 1009,
     "r/geopolitics": 1,
+    "GDACS": 13,
     "UN News": 5,
+    "POLITICO Europe Defence": 4,
     "NASA EONET": 1
   },
   "regions": {
-    "Unknown": 143,
-    "China": 1,
-    "United States": 925,
-    "Finland": 1,
-    "Ukraine": 7,
+    "Unknown": 142,
+    "Ukraine": 10,
+    "United States": 1009,
     "Israel": 1,
     "International": 1,
     "Iran": 1,
     "Estonia": 1,
-    "Russia": 1
+    "Russia": 2
   },
-  "average_confidence": 99.33
+  "average_confidence": 99.35
 }
