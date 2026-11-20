@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-11-19T18:59:35.451716+00:00",
+  "generated": "2026-11-20T01:11:56.261675+00:00",
   "status": "degraded",
   "degraded": true,
   "stale": false,
   "stale_after_minutes": 390,
-  "published_event_count": 1189,
+  "published_event_count": 1042,
   "freshness": {
-    "oldest_event": "2026-11-16T19:07:20.534000+00:00",
-    "newest_event": "2026-11-19T18:59:35.451716+00:00",
+    "oldest_event": "2026-11-17T01:56:06.600000+00:00",
+    "newest_event": "2026-11-20T01:11:56.261675+00:00",
     "age_minutes": 0.0
   },
   "sources": [
@@ -16,10 +16,10 @@
       "source": "conflict",
       "enabled": true,
       "status": "ok",
-      "event_count": 17,
+      "event_count": 16,
       "duration_ms": 4,
-      "checked_at": "2026-11-19T18:59:36.516675+00:00",
-      "last_success": "2026-11-19T18:59:36.516675+00:00",
+      "checked_at": "2026-11-20T01:11:57.906428+00:00",
+      "last_success": "2026-11-20T01:11:57.906428+00:00",
       "error": null
     },
     {
@@ -27,8 +27,8 @@
       "enabled": true,
       "status": "partial",
       "event_count": 12,
-      "duration_ms": 538,
-      "checked_at": "2026-11-19T18:59:37.055070+00:00",
+      "duration_ms": 1081,
+      "checked_at": "2026-11-20T01:11:58.986940+00:00",
       "last_success": null,
       "error": "reddit_credibledefense: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CredibleDefense/new/.rss; reddit_europe: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/europe/new/.rss; reddit_worldnews: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/worldnews/new/.rss; reddit_geopolitics: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/geopolitics/new/.rss; reddit_poland: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/poland/new/.rss; reddit_ukraine: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/ukraine/new/.rss; reddit_ukrainewarvideoreport: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/UkraineWarVideoReport/new/.rss; reddit_combatfootage: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CombatFootage/new/.rss",
       "metrics": {
@@ -44,16 +44,16 @@
       "enabled": true,
       "status": "ok",
       "event_count": 2,
-      "duration_ms": 551,
-      "checked_at": "2026-11-19T18:59:37.606181+00:00",
-      "last_success": "2026-11-19T18:59:37.606181+00:00",
+      "duration_ms": 1868,
+      "checked_at": "2026-11-20T01:12:00.855167+00:00",
+      "last_success": "2026-11-20T01:12:00.855167+00:00",
       "error": null,
       "metrics": {
         "records_received": 200,
         "records_accepted": 2,
         "records_rejected": 198,
         "missing_geometry": 0,
-        "response_size_bytes": 142243
+        "response_size_bytes": 142783
       }
     },
     {
@@ -61,8 +61,8 @@
       "enabled": true,
       "status": "no_data",
       "event_count": 0,
-      "duration_ms": 551,
-      "checked_at": "2026-11-19T18:59:37.606395+00:00",
+      "duration_ms": 1868,
+      "checked_at": "2026-11-20T01:12:00.855451+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -70,43 +70,43 @@
         "records_accepted": 0,
         "records_rejected": 200,
         "missing_geometry": 0,
-        "response_size_bytes": 142243
+        "response_size_bytes": 142783
       }
     },
     {
       "source": "usgs_earthquakes",
       "enabled": true,
       "status": "ok",
-      "event_count": 34,
-      "duration_ms": 112,
-      "checked_at": "2026-11-19T18:59:37.718818+00:00",
-      "last_success": "2026-11-19T18:59:37.718818+00:00",
+      "event_count": 33,
+      "duration_ms": 41,
+      "checked_at": "2026-11-20T01:12:00.896487+00:00",
+      "last_success": "2026-11-20T01:12:00.896487+00:00",
       "error": null,
       "metrics": {
-        "records_received": 34,
-        "records_accepted": 34,
+        "records_received": 33,
+        "records_accepted": 33,
         "records_rejected": 0,
-        "response_size_bytes": 24732,
-        "provider_generated": "2026-11-19T18:59:08+00:00"
+        "response_size_bytes": 23971,
+        "provider_generated": "2026-11-20T01:11:25+00:00"
       }
     },
     {
       "source": "nws_weather_alerts",
       "enabled": true,
       "status": "ok",
-      "event_count": 453,
-      "duration_ms": 1544,
-      "checked_at": "2026-11-19T18:59:39.263155+00:00",
-      "last_success": "2026-11-19T18:59:39.263155+00:00",
+      "event_count": 471,
+      "duration_ms": 86,
+      "checked_at": "2026-11-20T01:12:00.982053+00:00",
+      "last_success": "2026-11-20T01:12:00.982053+00:00",
       "error": null,
       "metrics": {
-        "records_received": 454,
-        "records_accepted": 453,
+        "records_received": 472,
+        "records_accepted": 471,
         "records_rejected": 1,
-        "missing_geometry": 426,
+        "missing_geometry": 461,
         "expired_alerts": 0,
         "test_messages": 1,
-        "response_size_bytes": 2052616
+        "response_size_bytes": 2011096
       }
     },
     {
@@ -114,9 +114,9 @@
       "enabled": true,
       "status": "ok",
       "event_count": 10,
-      "duration_ms": 2440,
-      "checked_at": "2026-11-19T18:59:41.703190+00:00",
-      "last_success": "2026-11-19T18:59:41.703190+00:00",
+      "duration_ms": 2575,
+      "checked_at": "2026-11-20T01:12:03.557460+00:00",
+      "last_success": "2026-11-20T01:12:03.557460+00:00",
       "error": null
     },
     {
@@ -125,7 +125,7 @@
       "status": "no_data",
       "event_count": 0,
       "duration_ms": 0,
-      "checked_at": "2026-11-19T18:59:41.703406+00:00",
+      "checked_at": "2026-11-20T01:12:03.557663+00:00",
       "last_success": null,
       "error": null,
       "metrics": {
@@ -145,9 +145,9 @@
       {
         "source_id": "reddit_osint_ukraine",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -155,9 +155,9 @@
       {
         "source_id": "reddit_credible_defense",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -165,9 +165,9 @@
       {
         "source_id": "reddit_combat_footage",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -175,9 +175,9 @@
       {
         "source_id": "reddit_worldnews",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -185,9 +185,9 @@
       {
         "source_id": "reddit_ukrainian_conflict",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -195,9 +195,9 @@
       {
         "source_id": "reddit_war",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -205,9 +205,9 @@
       {
         "source_id": "reddit_geopolitics",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -215,9 +215,9 @@
       {
         "source_id": "reddit_foreign_policy",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -225,9 +225,9 @@
       {
         "source_id": "reddit_israel",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -235,9 +235,9 @@
       {
         "source_id": "reddit_israel_war",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -245,9 +245,9 @@
       {
         "source_id": "reddit_israel_palestine",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -255,9 +255,9 @@
       {
         "source_id": "reddit_iran",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -265,9 +265,9 @@
       {
         "source_id": "reddit_iranian",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -275,9 +275,9 @@
       {
         "source_id": "reddit_lebanon",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -285,9 +285,9 @@
       {
         "source_id": "reddit_syria",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -295,9 +295,9 @@
       {
         "source_id": "reddit_iraq",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -305,9 +305,9 @@
       {
         "source_id": "reddit_turkey",
         "status": "unavailable",
-        "reason": "rate_limited",
+        "reason": "invalid_response",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
@@ -317,7 +317,7 @@
         "status": "unavailable",
         "reason": "blocked",
         "last_success_at": null,
-        "last_attempt_at": "2026-11-19T18:59:35.451716+00:00",
+        "last_attempt_at": "2026-11-20T01:11:56.261675+00:00",
         "items_discovered": 0,
         "items_published": 0,
         "cache_age_seconds": null
