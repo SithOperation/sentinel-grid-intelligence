@@ -1,42 +1,42 @@
 {
-  "total_events": 816,
+  "total_events": 894,
   "event_types": {
-    "conflict": 29,
-    "earthquake": 107,
-    "europe_security": 4,
-    "weather_alert": 664,
-    "humanitarian": 7,
+    "earthquake": 108,
+    "weather_alert": 745,
+    "conflict": 24,
+    "humanitarian": 8,
     "wildfire": 4,
-    "tropical_cyclone": 1
+    "tropical_cyclone": 2,
+    "europe_security": 3
   },
   "threat_levels": {
+    "MEDIUM": 807,
     "HIGH": 81,
-    "MEDIUM": 727,
-    "LOW": 4,
-    "CRITICAL": 4
+    "CRITICAL": 3,
+    "LOW": 3
   },
   "priority_levels": {
-    "high": 93,
-    "medium": 723
+    "medium": 800,
+    "high": 94
   },
   "sources": {
-    "BBC World News": 22,
-    "USGS Earthquake Hazards Program": 107,
-    "POLITICO Europe Defence": 4,
-    "National Weather Service": 664,
-    "GDACS": 13,
-    "NASA EONET": 5,
-    "UN News": 7
+    "USGS Earthquake Hazards Program": 108,
+    "GDACS": 14,
+    "National Weather Service": 745,
+    "BBC World News": 16,
+    "NASA EONET": 6,
+    "UN News": 8,
+    "POLITICO Europe Defence": 3
   },
   "regions": {
-    "Ukraine": 10,
-    "Unknown": 133,
-    "Israel": 2,
-    "Russia": 4,
-    "United States": 664,
+    "Unknown": 134,
+    "United States": 745,
     "Iran": 1,
+    "Ukraine": 8,
+    "Israel": 2,
+    "Russia": 2,
     "China": 1,
     "Poland": 1
   },
-  "average_confidence": 99.03
+  "average_confidence": 99.27
 }
