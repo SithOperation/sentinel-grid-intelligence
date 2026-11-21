@@ -1,42 +1,42 @@
 {
-  "total_events": 889,
+  "total_events": 970,
   "event_types": {
-    "earthquake": 111,
-    "conflict": 24,
+    "earthquake": 115,
+    "conflict": 23,
+    "wildfire": 1,
     "humanitarian": 8,
-    "wildfire": 4,
-    "weather_alert": 737,
+    "weather_alert": 818,
     "tropical_cyclone": 2,
     "europe_security": 3
   },
   "threat_levels": {
-    "MEDIUM": 815,
-    "HIGH": 67,
+    "MEDIUM": 890,
     "CRITICAL": 4,
+    "HIGH": 73,
     "LOW": 3
   },
   "priority_levels": {
-    "medium": 808,
-    "high": 81
+    "medium": 883,
+    "high": 87
   },
   "sources": {
-    "USGS Earthquake Hazards Program": 111,
-    "GDACS": 13,
-    "BBC World News": 16,
-    "NASA EONET": 6,
-    "National Weather Service": 737,
-    "UN News": 8,
+    "USGS Earthquake Hazards Program": 115,
+    "BBC World News": 17,
+    "NASA EONET": 3,
+    "GDACS": 12,
+    "National Weather Service": 818,
+    "UN News": 6,
     "POLITICO Europe Defence": 3
   },
   "regions": {
-    "Unknown": 137,
-    "United States": 737,
+    "Unknown": 136,
     "Iran": 1,
-    "Ukraine": 8,
+    "Ukraine": 9,
+    "United States": 818,
     "Israel": 2,
     "Russia": 2,
     "China": 1,
     "Poland": 1
   },
-  "average_confidence": 99.26
+  "average_confidence": 99.35
 }
