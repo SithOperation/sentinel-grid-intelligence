@@ -1,39 +1,38 @@
 {
-  "total_events": 1122,
+  "total_events": 1132,
   "event_types": {
     "earthquake": 125,
-    "conflict": 22,
-    "europe_security": 3,
+    "weather_alert": 978,
+    "conflict": 20,
     "humanitarian": 6,
-    "weather_alert": 965,
-    "tropical_cyclone": 1
+    "tropical_cyclone": 1,
+    "europe_security": 2
   },
   "threat_levels": {
-    "MEDIUM": 1015,
-    "HIGH": 99,
-    "LOW": 3,
-    "CRITICAL": 5
+    "MEDIUM": 996,
+    "HIGH": 129,
+    "CRITICAL": 5,
+    "LOW": 2
   },
   "priority_levels": {
-    "medium": 1011,
-    "high": 111
+    "medium": 991,
+    "high": 141
   },
   "sources": {
     "USGS Earthquake Hazards Program": 125,
-    "UN News": 8,
-    "POLITICO Europe Defence": 3,
+    "National Weather Service": 978,
     "GDACS": 10,
-    "BBC World News": 14,
-    "National Weather Service": 965,
-    "NASA EONET": 1
+    "BBC World News": 13,
+    "UN News": 7,
+    "NASA EONET": 1,
+    "POLITICO Europe Defence": 2
   },
   "regions": {
-    "Unknown": 143,
-    "Israel": 1,
-    "Ukraine": 11,
-    "Poland": 1,
-    "United States": 964,
-    "Russia": 2
+    "Unknown": 139,
+    "United States": 978,
+    "Ukraine": 10,
+    "Russia": 3,
+    "Israel": 2
   },
-  "average_confidence": 99.46
+  "average_confidence": 99.54
 }
