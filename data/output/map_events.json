@@ -1,290 +1,5 @@
 [
   {
-    "event_id": "SG-2795681e8d81",
-    "type": "earthquake",
-    "title": "M3.3 earthquake — 99 km SSW of Sand Point, Alaska",
-    "description": "M 3.3 - 99 km SSW of Sand Point, Alaska",
-    "latitude": 54.4662,
-    "longitude": -160.8592,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T12:39:53.166000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud2g",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-0d6b70c8c892",
-    "type": "earthquake",
-    "title": "M3.6 earthquake — 185 km SE of Attu Station, Alaska",
-    "description": "M 3.6 - 185 km SE of Attu Station, Alaska",
-    "latitude": 51.7382,
-    "longitude": 175.2081,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T12:41:02.710000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud2j",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-8e7e65ba64fd",
-    "type": "earthquake",
-    "title": "M3.8 earthquake — 181 km SE of Attu Station, Alaska",
-    "description": "M 3.8 - 181 km SE of Attu Station, Alaska",
-    "latitude": 51.894,
-    "longitude": 175.349,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T12:41:04.364000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xfckqo",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-9d10b541083a",
-    "type": "earthquake",
-    "title": "M2.6 earthquake — 53 km SSE of Kokhanok, Alaska",
-    "description": "M 2.6 - 53 km SSE of Kokhanok, Alaska",
-    "latitude": 58.989,
-    "longitude": -154.444,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T12:42:06.050000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xfcnfy",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-7e9975757bc8",
-    "type": "humanitarian",
-    "title": "Green flood alert in Thailand",
-    "description": "On 22/11/2026, a flood started in Thailand, lasting until 24/11/2026 (last update). The flood caused 0 deaths and 0 displaced .",
-    "latitude": 7.543525,
-    "longitude": 99.9971582,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 95,
-    "timestamp": "2026-11-23T13:55:00+00:00",
-    "url": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104297",
-    "classification": "disaster_alert",
-    "source": [
-      "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-95dca65a8a0e",
-    "type": "earthquake",
-    "title": "M4.7 earthquake — South Sandwich Islands region",
-    "description": "M 4.7 - South Sandwich Islands region",
-    "latitude": -57.3058,
-    "longitude": -25.881,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T15:10:57.877000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucz2",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-7863cde53691",
-    "type": "earthquake",
-    "title": "M4.4 earthquake — 240 km SW of Tual, Indonesia",
-    "description": "M 4.4 - 240 km SW of Tual, Indonesia",
-    "latitude": -6.9535,
-    "longitude": 131.0266,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T15:55:43.269000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucz8",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-34ee0f2e02cd",
-    "type": "europe_security",
-    "title": "Ukraine takes the war against Russia far from its borders",
-    "description": "POLITICO Europe Defence reported: It's the first time Kyiv has admitted to striking Russian ships so far from home.",
-    "latitude": 49.0,
-    "longitude": 31.4,
-    "priority": "medium",
-    "threat_level": "LOW",
-    "confidence": 55,
-    "timestamp": "2026-11-23T16:14:02+00:00",
-    "url": "https://www.politico.eu/article/ukraine-takes-war-russia-far-from-borders",
-    "classification": "russian_activity",
-    "source": [
-      "POLITICO Europe Defence"
-    ],
-    "status": "single_source",
-    "source_type": "media",
-    "source_perspective": "european_media",
-    "actor_reporting": "UNKNOWN",
-    "actor_subject": "RUSSIA",
-    "source_count": 1,
-    "independent_source_count": 1,
-    "event_cluster_id": "EU-8e730fd7c884",
-    "location_precision": "country",
-    "europe_layers": [
-      "russian_activity",
-      "ukraine_war"
-    ]
-  },
-  {
-    "event_id": "SG-467cc5220f19",
-    "type": "earthquake",
-    "title": "M4.2 earthquake — 286 km NW of Houma, Tonga",
-    "description": "M 4.2 - 286 km NW of Houma, Tonga",
-    "latitude": -19.6491,
-    "longitude": -177.5188,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T17:38:59.062000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud18",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-6564a008afaf",
-    "type": "earthquake",
-    "title": "M2.9 earthquake — 27 km S of Denali National Park, Alaska",
-    "description": "M 2.9 - 27 km S of Denali National Park, Alaska",
-    "latitude": 63.293,
-    "longitude": -151.677,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T17:56:22.168000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xfnaof",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-a7a173091ae5",
-    "type": "earthquake",
-    "title": "M2.6 earthquake — 49 km NW of Ninilchik, Alaska",
-    "description": "M 2.6 - 49 km NW of Ninilchik, Alaska",
-    "latitude": 60.354,
-    "longitude": -152.332,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T18:54:57.336000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xfozhd",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-83e108847648",
-    "type": "earthquake",
-    "title": "M2.8 earthquake — 25 km SW of Ackerly, Texas",
-    "description": "M 2.8 - 25 km SW of Ackerly, Texas",
-    "latitude": 32.363,
-    "longitude": -101.903,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T19:14:47.761000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026xbwyei",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-1b8b680926be",
-    "type": "humanitarian",
-    "title": "Green forest fire notification in Australia",
-    "description": "On 23/11/2026, a forest fire started in Australia, until 23/11/2026.",
-    "latitude": -39.786762126296374,
-    "longitude": 147.96143535038317,
-    "priority": "high",
-    "threat_level": "MEDIUM",
-    "confidence": 95,
-    "timestamp": "2026-11-23T20:00:18+00:00",
-    "url": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034037",
-    "classification": "disaster_alert",
-    "source": [
-      "GDACS"
-    ]
-  },
-  {
-    "event_id": "SG-b34f0dd833ea",
-    "type": "earthquake",
-    "title": "M4.4 earthquake — 63 km SSW of Nikolski, Alaska",
-    "description": "M 4.4 - 63 km SSW of Nikolski, Alaska",
-    "latitude": 52.382,
-    "longitude": -169.05,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T20:34:51.026000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xfshyn",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-fefcb73f36c0",
-    "type": "earthquake",
-    "title": "M3.7 earthquake — 33 km ENE of Nelson Lagoon, Alaska",
-    "description": "M 3.7 - 33 km ENE of Nelson Lagoon, Alaska",
-    "latitude": 56.091,
-    "longitude": -160.7,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T20:56:29.960000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xftavj",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
-    "event_id": "SG-1cbef4caf5d2",
-    "type": "earthquake",
-    "title": "M4.6 earthquake — 130 km SSW of Merizo Village, Guam",
-    "description": "M 4.6 - 130 km SSW of Merizo Village, Guam",
-    "latitude": 12.276,
-    "longitude": 144.0194,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-23T21:25:33.408000+00:00",
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud2y",
-    "classification": "seismic_event",
-    "source": [
-      "USGS Earthquake Hazards Program"
-    ]
-  },
-  {
     "event_id": "SG-b7b3b8745183",
     "type": "earthquake",
     "title": "M3.2 earthquake — 109 km NNE of Arctic Village, Alaska",
@@ -2119,40 +1834,6 @@
     ]
   },
   {
-    "event_id": "SG-922e36023f24",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Deland affecting Volusia and Lake Counties. .Heavy rainfall working through the basin will cause river levels on the St. Johns at Deland to continue rising through Major Flood Stage. The river is forecast to rise above its former record crest this weekend, reaching 6.4 feet, where it is expected to linger into early next week. For the St. Johns River...including Deland...Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. The river is forecast to rise above the flood of record. * WHERE...St Johns River near Deland. * WHEN...Until further notice. * IMPACTS...At 5.3 feet, Major flooding occurs to many structures and marinas along the river and in the Hontoon Island area. * ADDITIONAL DETAILS... - At 1:30 PM EST Wednesday the stage was 5.9 feet. - Bankfull stage is 3.5 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 1:30 PM EST Wednesday was 5.9 feet. - Forecast...The river is expected to rise to 6.4 feet Saturday evening. Additional rises are possible thereafter. - Flood stage is 4.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 28.982,
-    "longitude": -81.402,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-11-25T20:35:20.371553+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2852b4293a0fe89431e84e82e579cf870b60912f.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-cc74bbe846bb",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Above Lake Harney affecting Seminole County. .Heavy rainfall has caused river levels on the St. Johns Above Lake Harney near Geneva to remain within Major Flood Stage, above its previous record flood stage. River levels are forecast to hold near a crest of 13.2 to 13.3 feet through late week, before beginning a very slow decline within Major flood stage this weekend. For the St. Johns River...including Above Lake Harney...Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. The river crest has surpassed its previous flood of record. * WHERE...St Johns River near Above Lake Harney. * WHEN...Until further notice. * IMPACTS...At 10.8 feet, Water covers State Road 46 and it may become impassable near Jungle Road and Prevatt Road. Standing water on secondary roads near the river deepens to more than three feet in some areas. Flooding becomes more significant to structures and marinas from above Lake Harney to the Lake Jesup area. * ADDITIONAL DETAILS... - At 1:30 PM EST Wednesday the stage was 13.2 feet. - Bankfull stage is 6.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 1:30 PM EST Wednesday was 13.2 feet. - Forecast...The river is expected to rise to a crest of 13.3 feet this evening. - Flood stage is 8.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 28.692,
-    "longitude": -81.10600000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-11-25T20:35:20.371553+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.09472870d88ffa8a6c010cfcd8b64d3788cf5e4b.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-de3d74d46ebc",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2598,14 +2279,14 @@
   {
     "event_id": "SG-e08d69775d2d",
     "type": "earthquake",
-    "title": "M3.3 earthquake — 196 km SE of Perryville, Alaska",
-    "description": "M 3.3 - 196 km SE of Perryville, Alaska",
-    "latitude": 54.674,
-    "longitude": -156.931,
+    "title": "M3.5 earthquake — 193 km SE of Perryville, Alaska",
+    "description": "M 3.5 - 193 km SE of Perryville, Alaska",
+    "latitude": 54.696,
+    "longitude": -156.964,
     "priority": "medium",
     "threat_level": "MEDIUM",
     "confidence": 100,
-    "timestamp": "2026-11-26T09:24:20.916000+00:00",
+    "timestamp": "2026-11-26T09:24:21.171000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xkkapt",
     "classification": "seismic_event",
     "source": [
@@ -2624,6 +2305,23 @@
     "confidence": 100,
     "timestamp": "2026-11-26T12:16:31.040000+00:00",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580488",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-e7a15b78e808",
+    "type": "earthquake",
+    "title": "M4.4 earthquake — 99 km S of Acajutla, El Salvador",
+    "description": "M 4.4 - 99 km S of Acajutla, El Salvador",
+    "latitude": 12.6963,
+    "longitude": -89.7824,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T12:24:49.393000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udmu",
     "classification": "seismic_event",
     "source": [
       "USGS Earthquake Hazards Program"
@@ -2681,74 +2379,6 @@
     ]
   },
   {
-    "event_id": "SG-221a5168cfd4",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Deland affecting Lake and Volusia Counties. .Previous rainfall working through the basin will cause river levels on the St. Johns at Deland to continue rising through Major Flood Stage. The river is forecast to rise above its former record crest this weekend, reaching 6.4 feet, where it is expected to linger into early next week. For the St. Johns River...including Deland...Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. This approaches the flood of record. * WHERE...St Johns River near Deland. * WHEN...Until further notice. * IMPACTS...At 5.3 feet, Major flooding occurs to many structures and marinas along the river and in the Hontoon Island area. * ADDITIONAL DETAILS... - At 7:30 PM EST Wednesday the stage was 5.9 feet. - Bankfull stage is 3.5 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 PM EST Wednesday was 5.9 feet. - Forecast...The river is expected to rise through Major Flood Stage, reaching 6.4 feet late this weekend. The river is then forecast to remain steady through early next week. - Flood stage is 4.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 28.982,
-    "longitude": -81.402,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-11-26T12:38:32.867203+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1934a83d338c53e0e09f6b814077db9db3cf8fc3.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-5628c5d07746",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Above Lake Harney affecting Seminole County. .Rainfall working through the basin has caused river levels on the St. Johns Above Lake Harney near Geneva to remain within Major Flood Stage, above its previous record flood stage. River levels are forecast to hold near a crest of 13.2 feet through late week, before beginning a very slow decline within Major flood stage this weekend. For the St. Johns River...including Above Lake Harney...Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. This approaches the flood of record. * WHERE...St Johns River near Above Lake Harney. * WHEN...Until further notice. * IMPACTS...At 10.8 feet, Water covers State Road 46 and it may become impassable near Jungle Road and Prevatt Road. Standing water on secondary roads near the river deepens to more than three feet in some areas. Flooding becomes more significant to structures and marinas from above Lake Harney to the Lake Jesup area. * ADDITIONAL DETAILS... - At 7:30 PM EST Wednesday the stage was 13.2 feet. - Bankfull stage is 6.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 PM EST Wednesday was 13.2 feet. - Forecast...The river is expected to remain within Major Flood Stage, steady at 13.2 feet through late week. A slow decline may begin over the weekend. - Flood stage is 8.0 feet. - http://www.weather.gov/safety/flood",
-    "latitude": 28.692,
-    "longitude": -81.10600000000001,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-11-26T12:38:32.867203+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec77fdc4be384b0a92e12745d3af2ac24b6bcac7.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-972e8eff5d48",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by an upstream dam release is expected. * WHERE...Central Yuma County in southwestern Arizona... * WHEN...Until 300 PM MST Monday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is expected. Low-water crossings are likely to become inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 202 PM MST, a streamflow gauge near Dateland continues to steadily rise and is now showing a depth of just above 7.5 feet with flow around 1250 cfs. This gauge is forecasted to reach action stage (8 ft) on Friday. Flooding is expected along the Gila River within the warned area. - Some locations that will experience flooding include... Farmlands and low-water crossings along the Gila River. - http://www.weather.gov/safety/flood",
-    "latitude": 32.74095238095238,
-    "longitude": -114.09904761904761,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-11-26T12:38:32.867203+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b87422c8387cacdb27191764a8716c1238184ff4.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-55837d82761f",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by an upstream dam release is expected. * WHERE...Maricopa County in south central Arizona... Northeastern Yuma County in southwestern Arizona... * WHEN...Until 300 PM MST Monday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is expected. Low-water crossings are likely to become inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 155 PM MST, water releases from Painted Rock Dam continue with flow around 2500 cfs. A streamflow gauge immediately downstream of the dam also indicated a stage just above 8.5 feet. - Flooding is expected along the Gila River. - Some locations that will experience flooding include... Farmlands and low-water crossings along the Gila River. - http://www.weather.gov/safety/flood",
-    "latitude": 33.0052380952381,
-    "longitude": -113.21380952380952,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-11-26T12:38:32.867203+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91e3950cfd067de4528bf4049afbc8bb0b36c1db.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-0260b794be1d",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2766,74 +2396,6 @@
     ]
   },
   {
-    "event_id": "SG-47bb97b2154e",
-    "type": "weather_alert",
-    "title": "Flood Warning",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Bertie County in northeastern North Carolina... Northwestern Gates County in northeastern North Carolina... Northwestern Hertford County in northeastern North Carolina... Northampton County in northeastern North Carolina... Brunswick County in south central Virginia... Lunenburg County in south central Virginia... Mecklenburg County in south central Virginia... Greensville County in southeastern Virginia... Southampton County in southeastern Virginia... Southwestern Sussex County in southeastern Virginia... The City of Emporia in southeastern Virginia... The City of Franklin in southeastern Virginia... * WHEN...Until 100 PM EST. * IMPACTS...Flooding of rivers, creeks, streams, roads, and other low-lying and flood-prone locations is occurring or will begin shortly. * ADDITIONAL DETAILS... - At 729 AM EST, Doppler radar indicated heavy rain. Flooding is ongoing or expected to begin shortly in the warned area. Between 1.5 and 3 inches of rain have fallen in the past 3 hours. - Additional rainfall amounts of 1 to 2 inches are expected in the warned area through 930 AM. - Some locations that will experience flooding include... Franklin, Emporia, Ahoskie, South Hill, Murfreesboro, Chase City, Victoria, Lawrenceville, Courtland, Kenbridge, Garysburg, Rich Square, Aulander, Boykins, Brodnax, Dahlia, Purdy, Chowan University and Brunswick. - http://www.weather.gov/safety/flood",
-    "latitude": 36.57047619047619,
-    "longitude": -77.79095238095239,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-11-26T12:38:32.867203+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a18fa32b7ce7fb347ba23ea07617bc89d996d02d.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-bd5504c5d1e9",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Southwestern Carteret County in eastern North Carolina... Southern Craven County in eastern North Carolina... Eastern Jones County in eastern North Carolina... Northeastern Onslow County in eastern North Carolina... Southwestern Pamlico County in eastern North Carolina... * WHEN...Until 1015 AM EST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water over roadways. River or stream flows are elevated. * ADDITIONAL DETAILS... - At 716 AM EST, Doppler radar indicated heavy rain. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 3 and 6 inches of rain have fallen. - Additional rainfall amounts of 1 to 1.5 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... New Bern, Havelock, Morehead City, Newport, James City, Trent Woods, River Bend, Stella, Swansboro, South River, Cape Carteret, North River, Merrimon, Pine Knoll Shores, Harlowe, Maysville, Silverdale, Tuscarora, Croatan and Riverdale. - http://www.weather.gov/safety/flood",
-    "latitude": 34.913333333333334,
-    "longitude": -76.96444444444445,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-26T12:38:32.867203+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b890db775ec6a63702f7fd594545bef85f8ed44.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-4e2919c59aab",
-    "type": "weather_alert",
-    "title": "Flood Advisory",
-    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Duplin County in eastern North Carolina... Greene County in eastern North Carolina... Western Jones County in eastern North Carolina... Lenoir County in eastern North Carolina... Onslow County in eastern North Carolina... * WHEN...Until 1000 AM EST. * IMPACTS...Minor flooding in low-lying and poor drainage areas. Water over roadways. Ponding of water in urban or other areas is occurring or is imminent. * ADDITIONAL DETAILS... - At 653 AM EST, Doppler radar indicated heavy rain. Minor flooding is already occurring in the advisory area. Between 3 and 6 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1.5 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Jacksonville, Kinston, North Topsail Beach, Wallace, Warsaw, La Grange, Half Moon, New River Station, Pumpkin Center, Camp Lejeune Center, Piney Green, Mount Olive, Swansboro, Phillips Crossroads, Kornegay, Hubert, Rose Hill, Snow Hill and Richlands. - http://www.weather.gov/safety/flood",
-    "latitude": 35.01571428571429,
-    "longitude": -77.72714285714285,
-    "priority": "medium",
-    "threat_level": "MEDIUM",
-    "confidence": 100,
-    "timestamp": "2026-11-26T12:38:32.867203+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a11f5296509b528a7bc0c09dba9ceb86d580ac1.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
-    "event_id": "SG-cce712ca092e",
-    "type": "weather_alert",
-    "title": "Flash Flood Warning",
-    "description": "FFWRAH The National Weather Service in Raleigh has extended the * Flash Flood Warning for... Edgecombe County in central North Carolina... Southeastern Franklin County in central North Carolina... Southern Halifax County in central North Carolina... Eastern Johnston County in central North Carolina... Nash County in central North Carolina... Wayne County in central North Carolina... Wilson County in central North Carolina... * Until 1045 AM EST. * At 616 AM EST, Doppler radar continued to indicate thunderstorms producing heavy rain across the warned area. Between 3 and 5 inches of rain have fallen. Additional rainfall amounts of 1 to 3 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. * Some locations that will experience flash flooding include... Rocky Mount, Goldsboro, Tarboro, Nashville, Mount Olive, Wilson, Scotland Neck, Elm City, Fremont, Dortches, Walnut Creek, Bailey, Bunn, Micro, Selma, Red Oak, Princeville, Sharpsburg, Pine Level and Pinetops.",
-    "latitude": 35.717619047619046,
-    "longitude": -77.86571428571429,
-    "priority": "high",
-    "threat_level": "HIGH",
-    "confidence": 100,
-    "timestamp": "2026-11-26T12:38:32.867203+00:00",
-    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89f4d9b254d136fd17aafadeca90f6ed9ad9dd66.001.1",
-    "classification": "severe_weather_alert",
-    "source": [
-      "National Weather Service"
-    ]
-  },
-  {
     "event_id": "SG-52bbd4ef44dd",
     "type": "weather_alert",
     "title": "Flood Warning",
@@ -2845,6 +2407,582 @@
     "confidence": 100,
     "timestamp": "2026-11-26T12:38:32.867203+00:00",
     "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ce809d2883d11d0a821d2cd3d9dd5342270fd8b.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f3b2d3b57874",
+    "type": "earthquake",
+    "title": "M2.5 earthquake — 39 km WSW of Chenega, Alaska",
+    "description": "M 2.5 - 39 km WSW of Chenega, Alaska",
+    "latitude": 59.88,
+    "longitude": -148.608,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T14:24:19.434000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xkuaks",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-8c8bebbf4478",
+    "type": "earthquake",
+    "title": "M2.5 earthquake — 19 km S of Weston, Colorado",
+    "description": "M 2.5 - 19 km S of Weston, Colorado",
+    "latitude": 36.9594,
+    "longitude": -104.8388,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T14:35:26.720000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udnj",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-f402fbef132e",
+    "type": "earthquake",
+    "title": "M3.13 earthquake — 59 km N of Isabela, Puerto Rico",
+    "description": "M 3.1 - 59 km N of Isabela, Puerto Rico",
+    "latitude": 19.0353333333333,
+    "longitude": -67.0755,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T15:26:02.140000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71540088",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-dd2db2eea3fb",
+    "type": "earthquake",
+    "title": "M5.7 earthquake — Revilla Gigedo Islands region",
+    "description": "M 5.7 - Revilla Gigedo Islands region",
+    "latitude": 19.8135,
+    "longitude": -109.2958,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T15:26:44.294000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udq5",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program",
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-1b702cf9e777",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Sudan, South Sudan",
+    "description": "On 25/11/2026, a forest fire started in Sudan, South Sudan, until 26/11/2026.",
+    "latitude": 10.039283954635431,
+    "longitude": 31.397258869499048,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-11-26T16:00:44+00:00",
+    "url": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034095",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-87179bbc9b87",
+    "type": "earthquake",
+    "title": "M4.5 earthquake — 95 km SSE of Sarangani, Philippines",
+    "description": "M 4.5 - 95 km SSE of Sarangani, Philippines",
+    "latitude": 4.6618,
+    "longitude": 125.9086,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T16:18:00.760000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udqa",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-c3249ed70cc5",
+    "type": "earthquake",
+    "title": "M3.88 earthquake — 72 km N of Charlotte Amalie, U.S. Virgin Islands",
+    "description": "M 3.9 - 72 km N of Charlotte Amalie, U.S. Virgin Islands",
+    "latitude": 18.9948,
+    "longitude": -65.018,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T18:04:47.530000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026330000",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-e2ffc6692945",
+    "type": "earthquake",
+    "title": "M5.1 earthquake — Bonin Islands, Japan region",
+    "description": "M 5.1 - Bonin Islands, Japan region",
+    "latitude": 28.3661,
+    "longitude": 141.2639,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T19:33:08.628000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udry",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-9cfdabd6d6b2",
+    "type": "earthquake",
+    "title": "M2.46 earthquake — 6 km W of Stratford, CA",
+    "description": "M 2.5 - 6 km W of Stratford, CA",
+    "latitude": 36.1818351745605,
+    "longitude": -119.891166687012,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T19:43:23.460000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469716",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-1d33d3cbf77d",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in Mali",
+    "description": "On 24/11/2026, a forest fire started in Mali, until 26/11/2026.",
+    "latitude": 15.804537149945729,
+    "longitude": 0.10844128974930016,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-11-26T20:01:17+00:00",
+    "url": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034096",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-2223d51b61fa",
+    "type": "humanitarian",
+    "title": "Green forest fire notification in South Sudan",
+    "description": "On 24/11/2026, a forest fire started in South Sudan, until 26/11/2026.",
+    "latitude": 8.299806564363907,
+    "longitude": 25.357380062662052,
+    "priority": "high",
+    "threat_level": "MEDIUM",
+    "confidence": 95,
+    "timestamp": "2026-11-26T20:01:32+00:00",
+    "url": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034097",
+    "classification": "disaster_alert",
+    "source": [
+      "GDACS"
+    ]
+  },
+  {
+    "event_id": "SG-d28d314402c7",
+    "type": "earthquake",
+    "title": "M2.6 earthquake — 23 km NW of Fishhook, Alaska",
+    "description": "M 2.6 - 23 km NW of Fishhook, Alaska",
+    "latitude": 61.89,
+    "longitude": -149.563,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T20:16:52.876000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xlfucd",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-f0c673b64a1d",
+    "type": "earthquake",
+    "title": "M2.47 earthquake — 8 km SW of Niland, CA",
+    "description": "M 2.5 - 8 km SW of Niland, CA",
+    "latitude": 33.18383,
+    "longitude": -115.56867,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T20:22:34.080000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580608",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-797de9ed6994",
+    "type": "europe_security",
+    "title": "Trump diverges from NATO statement, emphasizing Ukraine mustn’t expand war",
+    "description": "POLITICO Europe Defence reported: The U.S. president's unilateral tweak of a joint missive occurred days after Kyiv struck a Russian warship off the coast of Libya.",
+    "latitude": 49.0,
+    "longitude": 31.4,
+    "priority": "medium",
+    "threat_level": "LOW",
+    "confidence": 55,
+    "timestamp": "2026-11-26T20:40:59+00:00",
+    "url": "https://www.politico.eu/article/donald-trump-diverges-from-nato-statement-emphasizing-ukraine-mustnt-expand-war",
+    "classification": "naval_activity",
+    "source": [
+      "POLITICO Europe Defence"
+    ],
+    "status": "single_source",
+    "source_type": "media",
+    "source_perspective": "european_media",
+    "actor_reporting": "UNKNOWN",
+    "actor_subject": "NATO",
+    "source_count": 1,
+    "independent_source_count": 1,
+    "event_cluster_id": "EU-53906115716e",
+    "location_precision": "country",
+    "europe_layers": [
+      "nato_activity",
+      "naval_activity",
+      "ukraine_war"
+    ]
+  },
+  {
+    "event_id": "SG-c0be0f18e3f0",
+    "type": "earthquake",
+    "title": "M3.3 earthquake — 61 km SSW of Kaktovik, Alaska",
+    "description": "M 3.3 - 61 km SSW of Kaktovik, Alaska",
+    "latitude": 69.597,
+    "longitude": -144.032,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:43:20.452000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xlirbf",
+    "classification": "seismic_event",
+    "source": [
+      "USGS Earthquake Hazards Program"
+    ]
+  },
+  {
+    "event_id": "SG-972e8eff5d48",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by an upstream dam release is expected. * WHERE...Central Yuma County in southwestern Arizona... * WHEN...Until 300 PM MST Monday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is expected. Low-water crossings are likely to become inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 202 PM MST, a streamflow gauge near Dateland continues to steadily rise and is now showing a depth of just above 7.5 feet with flow around 1250 cfs. This gauge is forecasted to reach action stage (8 ft) on Friday. Flooding is expected along the Gila River within the warned area. - Some locations that will experience flooding include... Farmlands and low-water crossings along the Gila River. - http://www.weather.gov/safety/flood",
+    "latitude": 32.74095238095238,
+    "longitude": -114.09904761904761,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b87422c8387cacdb27191764a8716c1238184ff4.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-55837d82761f",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by an upstream dam release is expected. * WHERE...Maricopa County in south central Arizona... Northeastern Yuma County in southwestern Arizona... * WHEN...Until 300 PM MST Monday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is expected. Low-water crossings are likely to become inundated with water and may not be passable. * ADDITIONAL DETAILS... - At 155 PM MST, water releases from Painted Rock Dam continue with flow around 2500 cfs. A streamflow gauge immediately downstream of the dam also indicated a stage just above 8.5 feet. - Flooding is expected along the Gila River. - Some locations that will experience flooding include... Farmlands and low-water crossings along the Gila River. - http://www.weather.gov/safety/flood",
+    "latitude": 33.0052380952381,
+    "longitude": -113.21380952380952,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91e3950cfd067de4528bf4049afbc8bb0b36c1db.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-f87ea49c01b0",
+    "type": "weather_alert",
+    "title": "Flood Advisory",
+    "description": "* WHAT...Minor to locally moderate tidal flooding is expected around the times of high tide from Thursday morning through Friday morning. * WHERE...The Hudson River in Westchester, Rockland, Orange, and Putnam counties in southeastern New York. * WHEN...Until 115 PM EST Friday. * IMPACTS...Minor to locally moderate tidal flooding is expected along the river around the times of high tide. * ADDITIONAL DETAILS... - At 340 PM EST, Water levels along the Hudson River will rise to minor and locally moderate thresholds during the times of high tide through Friday morning. - The most significant impacts are expected during the times of high tide tonight. - http://www.weather.gov/safety/flood",
+    "latitude": 41.27333333333333,
+    "longitude": -73.945,
+    "priority": "medium",
+    "threat_level": "MEDIUM",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd8e4a5241486f2a6d4c6651f38b8c0a0cfaed46.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-867ae24a9ce3",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in North Carolina... Trent River At Pollocksville affecting Jones County. * WHAT...Minor flooding is occurring. * WHERE...Trent River at Pollocksville. * WHEN...Until further notice. * IMPACTS...At 4.0 feet, Water floods property and some out buildings on Hughes Plantation Road. Water also inundates the Pollocksville boat launch area. * ADDITIONAL DETAILS... - At 3:15 PM EST Thursday the stage was 4.3 feet. - Bankfull stage is 0.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 3:15 PM EST Thursday was 5.3 feet. - Forecast...No forecast is available for this location. - Flood stage is 4.0 feet. - Flood History...This crest compares to a previous crest of 4.2 feet on 11/13/2020. - http://www.weather.gov/safety/flood",
+    "latitude": 35.027142857142856,
+    "longitude": -77.22571428571429,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7d6eeafdac4e9e37f81bc8b9c676576a3d91fb2.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-b5692515eb67",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Seattle has issued a Flood Warning for the following rivers in Washington... Skokomish River At Potlatch affecting Mason County. .Heavy rain over the Olympics overnight with snow levels well above mountain tops has driven the Skokomish River to major flood stage this morning. * WHAT...Moderate flooding is occurring and moderate flooding is forecast. * WHERE...Skokomish River at Potlatch. * WHEN...From Wednesday, November 25 to Friday morning. * IMPACTS...At 17.5 feet, the Skokomish River will cause moderate flooding, with deep and quick flood waters inundating some residential areas, many roads, and much of the farm land in the Skokomish Valley. Inundated roads include the Skokomish Valley road, Bourgault Road West, Purdy Cutoff Road, and Highway 106. * ADDITIONAL DETAILS... - At 11:30 AM PST Thursday the stage was 17.9 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 11:30 AM PST Thursday was 18.0 feet. - Forecast...The river will fall below flood stage just after midnight tonight to 15.7 feet late tomorrow evening. It will then rise to 15.8 feet early Saturday morning. It will fall to 14.4 feet Sunday afternoon. It will then rise to 15.7 feet late Monday evening. It will fall again and remain below flood stage. - Flood History...This crest compares to a previous crest of 17.8 feet on 03/19/1997. - http://www.weather.gov/safety/flood",
+    "latitude": 47.325714285714284,
+    "longitude": -123.18285714285715,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d8ffe56b7a5653fa125e5ae7f73891edc87a37c.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-ba6f0c5d8932",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Wakefield has issued a Flood Warning for the following rivers in Virginia... Allen Creek near Boydton affecting Mecklenburg County. * WHAT...Minor flooding is occurring. * WHERE...Allen Creek near Boydton. * WHEN...From this afternoon until further notice. * IMPACTS...At 16.5 feet, Hayes Mill Road begins to flood about 100 Feet east of Allen Creek. * ADDITIONAL DETAILS... - At 2:30 PM EST Thursday the stage was 15.3 feet. - Bankfull stage is 13.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 2:30 PM EST Thursday was 15.3 feet. - Forecast...No forecast is available for this location. - Flood stage is 15.0 feet. - Flood History...This crest compares to a previous crest of 15.4 feet on 02/04/2016. - http://www.weather.gov/safety/flood",
+    "latitude": 36.678000000000004,
+    "longitude": -78.346,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba686d7d20b8778f91f7d97eea51ff4694c3fed4.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-98b210c83c7a",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Urban areas and small stream flooding caused by excessive rainfall is expected. * WHERE...Dorchester County in southeastern Maryland... Somerset County in southeastern Maryland... Wicomico County in southeastern Maryland... Worcester County in southeastern Maryland... Accomack County in southeastern Virginia... * WHEN...Until 800 PM EST. * IMPACTS...Flooding of rivers, creeks, streams, roads, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 221 PM EST, Doppler radar indicated heavy rain. Flooding is ongoing or expected to begin shortly in the warned area. Between 2 and 4 inches of rain have fallen. - Additional rainfall amounts of 1 to 2 inches are possible in the warned area through 4 PM. - Some locations that will experience flooding include... Salisbury, Cambridge, Ocean City, Fruitland, Pocomoke City, Princess Anne, Hurlock, Exmore, University Of Maryland Eastern Shore, Salisbury University, Berlin, Delmar, Snow Hill, Onancock, Hebron, Parksley, Secretary, Onley, Vienna and Westover. - http://www.weather.gov/safety/flood",
+    "latitude": 38.17421052631579,
+    "longitude": -75.88684210526316,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.96e1c07d76c6c6e9ba479675469d67b2ac2a6aa5.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-72f0e868a59a",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Essex County in east central Virginia... King and Queen County in east central Virginia... King William County in east central Virginia... New Kent County in east central Virginia... Richmond County in east central Virginia... Lancaster County in eastern Virginia... Mathews County in eastern Virginia... Middlesex County in eastern Virginia... Northumberland County in eastern Virginia... Gloucester County in southeastern Virginia... Northwestern York County in southeastern Virginia... * WHEN...Until 645 PM EST Thursday. * IMPACTS...Flooding of rivers, creeks, streams, roads, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 1242 PM EST, Doppler radar indicated heavy rain. Flooding is ongoing or expected to begin shortly in the warned area. Between 2.5 and 4.5 inches of rain have fallen. - Additional rainfall amounts around 1 inch are expected in the warned area. - Some locations that will experience flooding include... New Kent, King William, Mathews, Gloucester Courthouse, West Point, Tappahannock, Warsaw, Kilmarnock, Urbanna, King And Queen Court House, Robley, Callao, Saint Stephens Church, Talleysville, Champlain, Deltaville, Fair Port, Gloucester Point, Lancaster and White Stone. - http://www.weather.gov/safety/flood",
+    "latitude": 37.6985,
+    "longitude": -76.72749999999999,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f51a4861906d5c5fd138452ca7dd7cf6eb35a2ce.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-714b84987f8b",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Coastal Flooding from abnormally high tides. * WHERE...Low-lying areas along the San Pablo Bay, Carquinez Strait, and Suisun Bay shorelines in Solano County. * WHEN...Until 600 PM PST Thursday. * IMPACTS...Flooding of low-lying areas including parks, lots, roads, marshes, and vulnerable islands. Erosion along levees is possible. * ADDITIONAL DETAILS... - At 918 AM PST, NWS meteorologists have determined that abnormally high tides will result in Coastal Flooding. - The highest tides each day are forecast as follows (all times local). MHHW is Mean Higher High Water, or the average highest daily tide; MLLW is Mean Lower Low Water, or the average lowest daily tide. * Port Chicago: +2.5 ft MHHW (7.4 ft MLLW) at 1:51 PM Thu 11/26, +2.2 ft MHHW (7.1 ft MLLW) at 2:45 PM Fri 11/27, +1.7 ft MHHW (6.6 ft MLLW) at 3:44 PM Sat 11/28, and +1.2 ft MHHW (6.1 ft MLLW) at 4:53 PM Sun 11/29. * West Sacramento: +2.3 ft MHHW (6.7 ft MLLW) at 5:08 PM Thu 11/26, +2.1 ft MHHW (6.5 ft MLLW) at 6:02 PM Fri 11/27, +1.8 ft MHHW (6.2 ft MLLW) at 6:59 PM Sat 11/28, and +1.4 ft MHHW (5.8 ft MLLW) at 8:03 PM Sun 11/29. * Rio Vista (Datum NAVD88): +7.5 ft at 4:00 PM Thu 11/26, +7.5 ft at 5:00 PM Fri 11/27, +7.3 ft at 6:00 PM Sat 11/28, +6.7 ft at 9:00 AM Sun 11/29, and +6.3 ft at 9:00 AM Mon 11/30. - These predictions include up to +1.5 feet of storm surge that will enhance the astronomical tide and flooding threat. Timing of high tide may vary by several hours throughout the San Francisco Bay and Delta. - Real-time water levels and latest forecasts are available at: * Port Chicago: https://tidesandcurrents.noaa.gov/noaatidepre dictions.html?id=9415144 * West Sacramento: https://tidesandcurrents.noaa.gov/noaatide predictions.html?id=9416131 * Rio Vista: https://water.noaa.gov/gauges/RVBC1",
+    "latitude": 38.114761904761906,
+    "longitude": -122.06904761904761,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.09d357b85ffe29f45485ad128bc5c3e02eaed225.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-4c38ca3d30b2",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Coastal Flooding from abnormally high tides. * WHERE...Low-lying areas along the Sacramento River, San Joaquin River, and other Delta waterways in Solano, Yolo, Sacramento, and San Joaquin Counties. * WHEN...Until 600 PM PST Thursday. * IMPACTS...Flooding of low-lying areas including parks, lots, roads, marshes, and vulnerable islands. Erosion along levees is possible. * ADDITIONAL DETAILS... - At 907 AM PST, NWS meteorologists have determined that abnormally high tides will result in Coastal Flooding. - The highest tides each day are forecast as follows (all times local). MHHW is Mean Higher High Water, or the average highest daily tide; MLLW is Mean Lower Low Water, or the average lowest daily tide. * Port Chicago: +2.5 ft MHHW (7.4 ft MLLW) at 1:51 PM Thu 11/26, +2.2 ft MHHW (7.1 ft MLLW) at 2:45 PM Fri 11/27, +1.7 ft MHHW (6.6 ft MLLW) at 3:44 PM Sat 11/28, and +1.2 ft MHHW (6.1 ft MLLW) at 4:53 PM Sun 11/29. * West Sacramento: +2.3 ft MHHW (6.7 ft MLLW) at 5:08 PM Thu 11/26, +2.1 ft MHHW (6.5 ft MLLW) at 6:02 PM Fri 11/27, +1.8 ft MHHW (6.2 ft MLLW) at 6:59 PM Sat 11/28, and +1.4 ft MHHW (5.8 ft MLLW) at 8:03 PM Sun 11/29. * Rio Vista (Datum NAVD88): +7.5 ft at 4:00 PM Thu 11/26, +7.5 ft at 5:00 PM Fri 11/27, +7.3 ft at 6:00 PM Sat 11/28, +6.7 ft at 9:00 AM Sun 11/29, and +6.3 ft at 9:00 AM Mon 11/30. - These predictions include up to +1.5 feet of storm surge that will enhance the astronomical tide and flooding threat. Timing of high tide may vary by several hours throughout the San Francisco Bay and Delta. - Real-time water levels and latest forecasts are available at: * Port Chicago: https://tidesandcurrents.noaa.gov/noaatidepre dictions.html?id=9415144 * West Sacramento: https://tidesandcurrents.noaa.gov/noaatide predictions.html?id=9416131 * Rio Vista: https://water.noaa.gov/gauges/RVBC1",
+    "latitude": 38.03666666666667,
+    "longitude": -121.64904761904762,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac472ea29616d2a581f0eb5fd8a90c8550201e54.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-23f8757395da",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Wakefield has issued a Flood Warning for the following rivers in Virginia... James River At Richmond Locks affecting Henrico and City of Richmond independent cities. North Meherrin River near Lunenburg affecting Lunenburg County. For the Lower James Basin...including Richmond Westham, Cartersville, Richmond Locks...Minor flooding is forecast. * WHAT...Minor flooding is forecast. * WHERE...James River at Richmond Locks. * WHEN...From this evening to late tonight. * IMPACTS...At 8.0 feet, Minor flooding begins. * ADDITIONAL DETAILS... - At 11:54 AM EST Thursday the stage was 5.4 feet. - Bankfull stage is 8.0 feet. - Forecast...The river will oscillate around flood stage with a maximum value of 8.0 feet this evening. - Flood stage is 8.0 feet. - Flood History...This crest compares to a previous crest of 7.9 feet on 02/25/2016. - http://www.weather.gov/safety/flood",
+    "latitude": 37.47,
+    "longitude": -77.426,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8f0526afc1b0edf94e0e7a09a07edd0a4292f02.002.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-9c99ab39bbaf",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Wakefield has issued a Flood Warning for the following rivers in Virginia... James River At Richmond Locks affecting Henrico and City of Richmond independent cities. North Meherrin River near Lunenburg affecting Lunenburg County. For the Lower James Basin...including Richmond Westham, Cartersville, Richmond Locks...Minor flooding is forecast. * WHAT...Minor flooding is occurring. * WHERE...North Meherrin River near Lunenburg. * WHEN...From this afternoon until further notice. * IMPACTS...At 14.0 feet, The bridge at Crymes Road, about 2 miles downstream, begins to flood. * ADDITIONAL DETAILS... - At 11:45 AM EST Thursday the stage was 15.1 feet. - Bankfull stage is 12.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 11:45 AM EST Thursday was 15.1 feet. - Forecast...No forecast is available for this location. - Flood stage is 14.0 feet. - Flood History...This crest compares to a previous crest of 15.1 feet on 04/16/1954. - http://www.weather.gov/safety/flood",
+    "latitude": 36.976,
+    "longitude": -78.344,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8f0526afc1b0edf94e0e7a09a07edd0a4292f02.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-7ef972fb886e",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Northampton County in eastern Virginia... * WHEN...Until 530 PM EST Thursday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 1126 AM EST, Doppler radar indicated heavy rain. Flooding is ongoing or expected to begin shortly in the warned area. Between 1 and 3 inches of rain have fallen since 9 AM. - Additional rainfall amounts of 1 to 1.5 inches are possible in the warned area through 1 PM. - Some locations that will experience flooding include... Exmore, Cape Charles, Nassawadox, Cheriton, Bay View, Willis Wharf, Eastville, Oyster, Simpkins, Machipongo, Birdsnest, Smith Beach, Dalbys, Franktown, Plantation, Capeville, Townsend, Cheapside, Silver Beach and Wardtown. - http://www.weather.gov/safety/flood",
+    "latitude": 37.35294117647059,
+    "longitude": -75.83764705882353,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.74890e17a2a57098588f694d2e4935a0ff2d02de.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-6f389c8865fb",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "* WHAT...Minor flooding is forecast. * WHERE...Hudson River near Poughkeepsie. * WHEN...Until Friday evening. * IMPACTS...At 4.2 feet, Minor Flood Stage. Minor flooding of lowlands, boat docks and boat launches. Water covers State Route 213 in Eddyville. At 4.5 feet, Water inundates sections of the Wayras Park Promenade in Poughkeepsie * ADDITIONAL DETAILS... - At 10:45 AM EST Thursday the stage was 2.0 feet. - Forecast...The river will be close to flood stage during this afternoon's high tide. It will again be near or exceed flood stage during the next high tide cycle overnight and again on Friday afternoon. - Flood stage is 4.2 feet. - Flood History...This crest compares to a previous crest of 4.5 feet on 12/21/2018. - http://www.weather.gov/safety/flood",
+    "latitude": 41.804,
+    "longitude": -73.96,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd5fea7bd93b335c5cc58e024c85a8a225a76713.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-2fd582da3d59",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Raleigh has issued a Flood Warning for the following rivers in North Carolina... Neuse River Near Clayton affecting Johnston County. * WHAT...Minor flooding is forecast. * WHERE...Neuse River near Clayton. * WHEN...From this afternoon to Friday afternoon. * IMPACTS...At 10.0 feet, Upstream of the gage site, the Neuse River Greenway at Covered Bridge Road begins to flood. * ADDITIONAL DETAILS... - At 9:15 AM EST Thursday the stage was 7.7 feet. - Bankfull stage is 8.0 feet. - Forecast...The river is expected to rise above flood stage late this afternoon to a crest of 9.6 feet this evening. It will then fall below flood stage just after midnight tonight. - Flood stage is 9.0 feet. - Flood History...This crest compares to a previous crest of 9.3 feet on 10/12/2018. - http://www.weather.gov/safety/flood",
+    "latitude": 35.635,
+    "longitude": -78.38000000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0104dc32e1fa7e5de10cd23d94399aa9e4f187d5.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-08b02c9cdecd",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The National Weather Service in Wilmington has issued a Flood Warning for the following rivers in North Carolina... Northeast Cape Fear River Near Burgaw affecting Pender County. * WHAT...Minor flooding is forecast. * WHERE...Northeast Cape Fear River near Burgaw. * WHEN...From Friday morning to late Monday night. * IMPACTS...At 12.0 feet, Flooding worsens in the River Bend, River Birch and Alligator Lake subdivisions. Flooding on Croomsbridge RD and Old Maple Hill RD worsens and the roads may be impassable in multiple locations. Holly Shelter Estates begins to flood and flooding in Sandy Bend worsens. Flooding worsens near the ends of Turtle Hill TR, Hickory Hill LN, White Tail LN, Mallard Roost DR, and Oxbow Landing. Shaw Hwy is flooded at Ashes and Lillington Creeks. Equine Landing RD area may flood. * ADDITIONAL DETAILS... - At 8:30 AM EST Thursday the stage was 4.0 feet. - Forecast...The river is expected to rise above flood stage late tomorrow morning to a crest of 11.6 feet early Saturday afternoon. It will then fall below flood stage late Monday morning. - Flood stage is 10.0 feet. - weather.gov/safety/flood",
+    "latitude": 34.60285714285714,
+    "longitude": -77.87571428571428,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd6c781e012980abab21434b833108527b35b7bc.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-56cf436f9c1c",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Deland affecting Lake and Volusia Counties. .Previous rainfall working through the basin will cause river levels on the St. Johns at Deland to continue rising through Major Flood Stage. The river is forecast to rise above its former record crest this weekend, reaching 6.4 feet, where it is expected to linger into early next week. For the St. Johns River...including Deland...Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. This approaches the flood of record. * WHERE...St Johns River near Deland. * WHEN...Until further notice. * IMPACTS...At 5.3 feet, Major flooding occurs to many structures and marinas along the river and in the Hontoon Island area. * ADDITIONAL DETAILS... - At 8:30 AM EST Thursday the stage was 6.0 feet. - Bankfull stage is 3.5 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:30 AM EST Thursday was 6.0 feet. - Forecast...The river is expected to rise through Major Flood Stage, reaching 6.4 feet late this weekend. The river is then forecast to remain steady through early next week. - Flood stage is 4.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 28.982,
+    "longitude": -81.402,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe216edb0d562d513ddc0bc33ce4c3b6d716f060.001.1",
+    "classification": "severe_weather_alert",
+    "source": [
+      "National Weather Service"
+    ]
+  },
+  {
+    "event_id": "SG-33a65ddc4d89",
+    "type": "weather_alert",
+    "title": "Flood Warning",
+    "description": "...The Flood Warning continues for the following rivers in Florida... St Johns River Near Above Lake Harney affecting Seminole County. .Rainfall working through the basin has caused river levels on the St. Johns Above Lake Harney near Geneva to remain within Major Flood Stage, above its previous record flood stage. River levels are forecast to hold near a crest of 13.2 feet through late week, before beginning a very slow decline within Major flood stage this weekend and early next week. For the St. Johns River...including Lake Harney...Major flooding is forecast. * WHAT...Major flooding is occurring and major flooding is forecast. This approaches the flood of record. * WHERE...St Johns River near Above Lake Harney. * WHEN...Until further notice. * IMPACTS...At 10.8 feet, Water covers State Road 46 and it may become impassable near Jungle Road and Prevatt Road. Standing water on secondary roads near the river deepens to more than three feet in some areas. Flooding becomes more significant to structures and marinas from above Lake Harney to the Lake Jesup area. * ADDITIONAL DETAILS... - At 7:30 AM EST Thursday the stage was 13.2 feet. - Bankfull stage is 6.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 AM EST Thursday was 13.2 feet. - Forecast...The river is expected to remain within Major Flood Stage, steady at 13.2 feet through late week. A slow decline may begin over the weekend. - Flood stage is 8.0 feet. - http://www.weather.gov/safety/flood",
+    "latitude": 28.692,
+    "longitude": -81.10600000000001,
+    "priority": "high",
+    "threat_level": "HIGH",
+    "confidence": 100,
+    "timestamp": "2026-11-26T21:57:15.550935+00:00",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93299397ef621c4e79363076d7d3b8d895f4d203.001.1",
     "classification": "severe_weather_alert",
     "source": [
       "National Weather Service"
